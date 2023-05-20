@@ -1,0 +1,220 @@
+technologies = {
+
+	doc_the_colonial_army = {
+		
+		doctrine_name = "ARMY_LAND_DOCTRINE"
+
+		path = {
+			leads_to_tech = doc_firing_lines
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_firing_lines = {
+
+		path = {
+			leads_to_tech = doc_superfiring_positions
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = doc_cycle_skirmish
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = doc_delay_of_advance
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_superfiring_positions = {
+
+		path = {
+			leads_to_tech = doc_debris_barricades
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 4 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_cycle_skirmish = {
+
+		path = {
+			leads_to_tech = doc_the_great_charge
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 3 y = -1 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_the_great_charge = {
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 5 y = -1 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_delay_of_advance = {
+
+		path = {
+			leads_to_tech = doc_elastic_defense
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 3 y = 1 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_elastic_defense = {
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 5 y = 1 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_debris_barricades = {
+
+		path = {
+			leads_to_tech = doc_combat_redefined
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 6 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=478
+	name="STATE_478"
+	provinces={
+		501 1245 1991 4165 4392 5280 5421 5519 8024 8033 8059 8071 8082 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

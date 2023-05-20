@@ -1,0 +1,15 @@
+state={
+	id=635
+	name="STATE_635"
+	provinces={
+		541 726 1665 1749 4399 5345 5393 5601 8620 8623 8625 8626 8628 8629 8630 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

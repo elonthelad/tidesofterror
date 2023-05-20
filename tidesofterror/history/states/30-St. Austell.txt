@@ -1,0 +1,17 @@
+state={
+	id=30
+	name="STATE_30"
+	provinces={
+		1224 1744 2207 2226 2255 2832 4125 5100 8590 8591 8595 8596 8602 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8596 10 } #"St. Austell"
+		victory_points = { 4125 3 } #"Fraddon"
+	}
+	manpower=19187
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

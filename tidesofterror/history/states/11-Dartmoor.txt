@@ -1,0 +1,18 @@
+
+state={
+	id=11
+	name="STATE_11"
+	provinces={
+		5 36 286 366 478 502 1464 1592 2932 4002 4396 4714 8533 8563 8575 8578 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8533 5 } #"Okehampton"
+		victory_points = { 8563 2 } #"Moretonhampstead"
+	}
+	manpower=8988
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

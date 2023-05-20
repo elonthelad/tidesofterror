@@ -1,0 +1,15 @@
+state={
+	id=324
+	name="STATE_324"
+	provinces={
+		1574 4188 4304 4922 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=urban_borough
+	local_supplies=0.000
+}

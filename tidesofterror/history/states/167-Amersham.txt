@@ -1,0 +1,19 @@
+
+state={
+	id=167
+	name="STATE_167"
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		2608 8104 8111 8124 8137 8146 8166 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,38 @@
+bookmarks = {
+	bookmark = {
+		name = "CONNIPTIONS_IN_THE_DARK_NAME"
+		desc = "CONNIPTIONS_IN_THE_DARK_DESC"
+		date = 1868.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "ENG"
+		default = yes
+		
+		"ENG"={
+			history = "ENG_CONNIPTIONS_IN_THE_DARK_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			set_variable = { global.amount_of_fen_states = 9 }
+			every_state = {
+				limit = {
+					has_state_flag = fenian_sentiment
+				}
+				add_to_array = {
+					array = global.irishstates
+					value = THIS
+				}
+			}
+			every_state = {
+				limit = {
+					has_state_flag = fenian_sentiment
+				}
+				add_dynamic_modifier = { modifier = ENG_irish_resistance }
+			}
+		}
+	}
+}

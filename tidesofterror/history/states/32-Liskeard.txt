@@ -1,0 +1,17 @@
+state={
+	id=32
+	name="STATE_32"
+	provinces={
+		65 1696 2378 2592 3741 3744 3935 4134 4882 8587 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 65 3 } #"Fowey"
+		victory_points = { 4134 10 } #"Liskeard"
+	}
+	manpower=14212
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

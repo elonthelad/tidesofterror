@@ -1,0 +1,15 @@
+characters = {
+	ENG_William_Gladstone = {
+		name = "Lord William Gladstone" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_william_gladstone
+			}
+		}
+		country_leader = {
+			ideology = liberal_parliament
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}

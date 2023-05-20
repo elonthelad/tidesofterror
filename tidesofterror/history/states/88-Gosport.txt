@@ -1,0 +1,19 @@
+
+state={
+	id=88
+	name="STATE_88"
+	provinces={
+		73 1000 1759 2308 8519 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 2308 18 } #"Gosport"
+		victory_points = { 1000 15 } #"Park Gate"
+		victory_points = { 8519 19 } #"Fareham"
+	}
+	manpower=111468
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

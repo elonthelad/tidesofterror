@@ -1,0 +1,16 @@
+state={
+	id=128
+	name="STATE_128"
+	provinces={
+		438 1573 2142 2983 4011 4150 4332 4448 8413 8418 8430 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4332 6 } #"Uckfield"
+	}
+	manpower=13969
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

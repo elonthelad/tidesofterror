@@ -1,0 +1,16 @@
+
+state={
+	id=463
+	name="STATE_463"
+	provinces={
+		159 434 3076 3472 4733 7182 7195 7207 7213 7229 7252 7257 7274 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

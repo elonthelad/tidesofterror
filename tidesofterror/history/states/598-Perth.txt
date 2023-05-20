@@ -1,0 +1,15 @@
+state={
+	id=598
+	name="STATE_598"
+	provinces={
+		141 788 1682 1899 3314 3380 3512 4394 4668 4753 5153 5407 5855 5858 5867 5869 5877 5885 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=57
+	name="STATE_57"
+	provinces={
+		608 3325 3946 4561 8276 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 3325 5 } #"Paulton"
+	}
+	manpower=8166
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

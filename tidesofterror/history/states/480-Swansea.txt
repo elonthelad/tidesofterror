@@ -1,0 +1,16 @@
+
+state={
+	id=480
+	name="STATE_480"
+	provinces={
+		494 5278 8096 8110 8119 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

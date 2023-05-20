@@ -1,0 +1,17 @@
+state={
+	id=187
+	name="STATE_187"
+	provinces={
+		1132 1840 3211 3720 5192 7709 7723 7734 7760 7782 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 3211 8 } #"Bury St. Edmunds"
+		victory_points = { 7760 3 } #"Fornham St. Martin"
+	}
+	manpower=18332
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

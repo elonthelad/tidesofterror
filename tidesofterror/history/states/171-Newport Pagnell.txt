@@ -1,0 +1,16 @@
+
+state={
+	id=171
+	name="STATE_171"
+	provinces={
+		481 662 1701 2704 3968 4203 4738 5107 7850 7891 7910 7921 7931 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

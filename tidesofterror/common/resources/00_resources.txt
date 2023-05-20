@@ -1,0 +1,44 @@
+resources = {
+	
+	steel = {
+		icon_frame = 5
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	coal = { #oil > coal
+		icon_frame = 1
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	fabrics = { #rubber > fabrics
+		icon_frame = 3
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	timber = { #new resource
+		icon_frame = 7
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	aluminium = {
+		icon_frame = 2
+		cic = 0.125
+		convoys = 0.1
+	}
+	
+	manganese = { #tungsten > manganese
+		icon_frame = 4
+		cic = 0.125
+		convoys = 0.1
+	}
+	
+	arcane_vapours = { #chromium > arcane_vapours
+		icon_frame = 6
+		cic = 0.125
+		convoys = 0.1
+	}
+}

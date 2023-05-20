@@ -1,0 +1,19 @@
+
+state={
+	id=123
+	name="STATE_123"
+	provinces={
+		791 2982 3268 3288 3842 4271 4449 5452 8485 8502 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 2982 3 } #"Steyning"
+		victory_points = { 4271 5 } #"Henfield"
+		victory_points = { 5452 5 } #"Storrington"
+	}
+	manpower=21246
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

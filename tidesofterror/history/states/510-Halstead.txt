@@ -1,0 +1,16 @@
+state={
+	id=510
+	name="STATE_510"
+	provinces={
+		886 1879 2286 2503 4431 5174 7901 7929 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 886 4 } #"Harwich"
+	}
+	manpower=6212
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+state={
+	id=95
+	name="STATE_95"
+	provinces={
+		1386 2424 2540 3416 5365 8398 8403 8415 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8398 8 } #"Alton"
+		victory_points = { 8415 4 } #"Bordon"
+	}
+	manpower=27085
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

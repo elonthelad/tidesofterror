@@ -1,0 +1,18 @@
+state={
+	id=134
+	name="STATE_134"
+	provinces={
+		614 4334 5013 8304 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4334 10 } #"Broadstairs"
+		victory_points = { 8304 12 } #"Ramsgate"
+		victory_points = { 5013 8 } #"Deal"
+	}
+	manpower=53623
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

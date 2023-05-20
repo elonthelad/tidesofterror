@@ -1,0 +1,18 @@
+state={
+	id=527
+	name="STATE_527"
+	provinces={
+		2051 8156 8161 8175 8190 8192 8196 8205 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8205 12 } #"Dagenham"
+		victory_points = { 8196 15 } #"Ilford"
+		victory_points = { 8192 8 } #"Romford"
+	}
+	manpower=59203
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

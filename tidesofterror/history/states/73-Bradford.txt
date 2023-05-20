@@ -1,0 +1,16 @@
+state={
+	id=73
+	name="STATE_73"
+	provinces={
+		220 2293 2811 8286 8290 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 2293 12 } #"Bradford-on-Avon"
+	}
+	manpower=20476
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

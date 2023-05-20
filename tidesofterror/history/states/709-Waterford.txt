@@ -1,0 +1,18 @@
+state={
+	id=709
+	name="STATE_709"
+	provinces={
+		210 375 390 401 419 603 643 644 868 940 999 1255 1724 1730 1951 2370 2647 2702 2799 2954 3422 3738 3830 3880 4261 5118 5124 7530 7542 7590 7599 7611 7614 7631 7643 7655 7667 7678 7693 7730 7750 7751 7778 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = FEN
+		set_demilitarized_zone = yes
+		set_state_flag = fenian_sentiment
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

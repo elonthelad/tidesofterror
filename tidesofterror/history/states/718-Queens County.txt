@@ -1,0 +1,16 @@
+
+state={
+	id=718
+	name="STATE_718"
+	provinces={
+		56 118 160 346 521 768 973 1202 1635 1649 1742 1895 2319 2324 2352 2530 2618 2672 3024 3371 3661 3811 3826 4052 4631 5291 5502 6952 6954 6960 6993 7009 7037 7057 7083 7084 7092 7121 7122 7147 7151 7202 7203 7220 7224 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

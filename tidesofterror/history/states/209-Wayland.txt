@@ -1,0 +1,19 @@
+
+state={
+	id=209
+	name="STATE_209"
+	provinces={
+		40 140 558 656 1755 4508 4677 5510 7595 7618 7645 7666 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 7645 8 } #"Thetford"
+		victory_points = { 140 3 } #"Woodbridge"
+		victory_points = { 40 3 } #"Attleborough"
+	}
+	manpower=12704
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

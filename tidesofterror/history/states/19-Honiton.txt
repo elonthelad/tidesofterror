@@ -1,0 +1,19 @@
+
+state={
+	id=19
+	name="STATE_19"
+	provinces={
+		420 1279 2505 3326 3768 5458 8492 8515 8536 8537 8542 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8537 8 } #"Honiton"
+		victory_points = { 8542 3 } #"Ottery St. Mary"
+		victory_points = { 2505 3 } #"Sidmouth"
+	}
+	manpower=22752
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

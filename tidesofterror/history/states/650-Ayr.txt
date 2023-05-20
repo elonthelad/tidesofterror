@@ -1,0 +1,16 @@
+
+state={
+	id=650
+	name="STATE_650"
+	provinces={
+		2374 2448 2884 4376 5445 5462 6071 6075 6078 6083 6089 6098 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=184
+	name="STATE_184"
+	provinces={
+		1607 1707 3123 4133 4172 4869 7906 7917 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 1607 4 } #"Hadleigh"
+	}
+	manpower=10471
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

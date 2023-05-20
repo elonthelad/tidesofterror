@@ -1,0 +1,19 @@
+state={
+	id=179
+	name="STATE_179"
+	provinces={
+		672 7887 7896 7907 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 7896 12 } #"Chantry"
+		victory_points = { 672 10 } #"Castle Hill"
+		victory_points = { 7887 20 } #"Ipswich"
+		victory_points = { 7907 8 } #"Gainsborough"
+	}
+	manpower=75211
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

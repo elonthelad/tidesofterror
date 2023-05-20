@@ -1,0 +1,15 @@
+state={
+	id=439
+	name="STATE_439"
+	provinces={
+		819 3689 4510 4615 8081 8099 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

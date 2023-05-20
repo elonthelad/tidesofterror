@@ -1,0 +1,17 @@
+state={
+	id=199
+	name="STATE_199"
+	provinces={
+		116 312 766 1123 2099 2257 4844 7398 7454 7487 7491 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 7487 3 } #"Dereham"
+		victory_points = { 7398 6 } #"Fakenham"
+	}
+	manpower=8469
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

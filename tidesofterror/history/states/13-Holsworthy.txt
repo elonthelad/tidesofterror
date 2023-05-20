@@ -1,0 +1,17 @@
+
+state={
+	id=13
+	name="STATE_13"
+	provinces={
+		649 923 1909 3343 4387 4395 8462 8481 8484 8495 8528 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 649 5 } #"Holsworthy"
+	}
+	manpower=6741
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

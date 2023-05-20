@@ -1,0 +1,15 @@
+state={
+	id=388
+	name="STATE_388"
+	provinces={
+		218 1712 2087 2089 3432 3479 3837 4105 6437 6457 6493 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

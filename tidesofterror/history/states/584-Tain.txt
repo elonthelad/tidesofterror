@@ -1,0 +1,15 @@
+state={
+	id=584
+	name="STATE_584"
+	provinces={
+		1061 1311 1471 2132 2802 2827 3116 3426 4688 4797 5049 5598 5600 5605 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

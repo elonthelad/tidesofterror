@@ -1,0 +1,18 @@
+
+state={
+	id=49
+	name="STATE_49"
+	provinces={
+		7 873 1106 1149 2666 2742 2957 3672 3945 4509 4667 5119 8549 8560 8565 8572 8574 8581 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8581 6 } #"Swanage"
+		victory_points = { 873 10 } #"Wareham"
+	}
+	manpower=28691
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

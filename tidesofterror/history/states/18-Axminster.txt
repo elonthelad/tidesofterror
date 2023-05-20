@@ -1,0 +1,17 @@
+
+state={
+	id=18
+	name="STATE_18"
+	provinces={
+		324 2971 3944 4590 8500 8522 8545 8559 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8522 10 } #"Axminster"
+	}
+	manpower=16685
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

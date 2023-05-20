@@ -1,0 +1,15 @@
+state={
+	id=85
+	name="STATE_85"
+	provinces={
+		655 4549 4552 4692 7958 8011 8015 8036 8047 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

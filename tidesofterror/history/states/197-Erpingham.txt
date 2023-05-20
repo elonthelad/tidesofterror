@@ -1,0 +1,16 @@
+state={
+	id=197
+	name="STATE_197"
+	provinces={
+		74 1976 3650 3997 4628 4745 5454 7360 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 74 2 } #"Cromer"
+	}
+	manpower=2940
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

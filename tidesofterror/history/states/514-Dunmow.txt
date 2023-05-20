@@ -1,0 +1,16 @@
+state={
+	id=514
+	name="STATE_514"
+	provinces={
+		795 1090 2216 3464 7959 7990 8009 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 3464 5 } #"Great Dunmow"
+	}
+	manpower=7455
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

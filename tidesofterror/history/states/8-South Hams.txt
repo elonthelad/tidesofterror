@@ -1,0 +1,18 @@
+
+state={
+	id=8
+	name="STATE_8"
+	provinces={
+		221 553 842 975 2614 3534 4732 4956 8594 8597 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 3534 5 } #"Ivybridge"
+		victory_points = { 4732 5 } #"Totnes"
+	}
+	manpower=16685
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

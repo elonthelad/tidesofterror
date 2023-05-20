@@ -1,0 +1,17 @@
+
+state={
+	id=37
+	name="STATE_37"
+	provinces={
+		1889 2245 3248 3627 4805 4987 5333 8552 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 2245 10 } #"Dorchester"
+	}
+	manpower=18565
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

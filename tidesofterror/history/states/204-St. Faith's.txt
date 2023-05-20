@@ -1,0 +1,16 @@
+state={
+	id=204
+	name="STATE_204"
+	provinces={
+		496 1195 1684 2281 4346 4960 5179 7439 7475 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 5179 8 } #"Horsford"
+	}
+	manpower=6622
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

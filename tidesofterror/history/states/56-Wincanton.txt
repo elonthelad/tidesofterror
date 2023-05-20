@@ -1,0 +1,17 @@
+
+state={
+	id=56
+	name="STATE_56"
+	provinces={
+		304 567 712 1070 1658 3411 3488 8450 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 3411 6 } #"Wincanton"
+	}
+	manpower=9527
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

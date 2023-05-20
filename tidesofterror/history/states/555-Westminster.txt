@@ -1,0 +1,17 @@
+state={
+	id=555
+	name="STATE_555"
+	provinces={
+		3207 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 3207 150 } #"Westminster"
+	}
+	resources = { steel = 250 coal = 250 aluminium = 250 fabrics = 250 timber = 250  manganese = 250 arcane_vapours = 250 }
+	manpower=74683
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

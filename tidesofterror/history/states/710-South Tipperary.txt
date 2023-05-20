@@ -1,0 +1,18 @@
+state={
+	id=710
+	name="STATE_710"
+	provinces={
+		637 686 705 848 904 918 1272 1302 1448 1485 1489 1526 1670 1709 1747 1752 1754 1795 1831 1868 1934 1968 2124 2238 2254 2313 2692 2695 2772 2822 2929 3048 3052 3244 3285 3482 3861 3892 4061 4069 4090 4174 4225 4584 4946 4993 5066 5234 7273 7306 7327 7339 7346 7368 7394 7409 7411 7425 7434 7440 7471 7488 7492 7541 7569 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = FEN
+		set_demilitarized_zone = yes
+		set_state_flag = fenian_sentiment
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

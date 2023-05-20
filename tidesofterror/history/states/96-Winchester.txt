@@ -1,0 +1,17 @@
+
+state={
+	id=96
+	name="STATE_96"
+	provinces={
+		1209 1240 2583 3591 3624 4026 4059 4675 5004 8397 8401 8417 8423 8424 8445 8453 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 5004 25 } #"Winchester"
+	}
+	manpower=59588
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

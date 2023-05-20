@@ -1,0 +1,19 @@
+
+state={
+	id=511
+	name="STATE_511"
+	provinces={
+		329 2249 2258 2390 2400 2644 3691 4112 5467 8050 8088 8095 8113 8129 8144 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 5467 10 } #"Maldon"
+		victory_points = { 2400 8 } #"Woodham Ferrers"
+		victory_points = { 8050 3 } #"Tiptree"
+	}
+	manpower=36902
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

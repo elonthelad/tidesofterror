@@ -1,0 +1,16 @@
+state={
+	id=135
+	name="STATE_135"
+	provinces={
+		1163 2438 4767 8379 8382 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 2438 5 } #"Sandwich"
+	}
+	manpower=8974
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

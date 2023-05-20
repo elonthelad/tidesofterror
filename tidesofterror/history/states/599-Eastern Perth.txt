@@ -1,0 +1,16 @@
+
+state={
+	id=599
+	name="STATE_599"
+	provinces={
+		725 773 891 1499 1624 2717 3384 3858 4066 4230 5164 5431 5809 5824 5834 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

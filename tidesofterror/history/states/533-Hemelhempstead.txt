@@ -1,0 +1,15 @@
+state={
+	id=533
+	name="STATE_533"
+	provinces={
+		3450 4572 5429 8040 8067 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

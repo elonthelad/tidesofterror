@@ -1,0 +1,17 @@
+state={
+	id=33
+	name="STATE_33"
+	provinces={
+		1720 1983 2211 5506 8553 8557 8569 8570 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 5506 10 } #"Launceston"
+		victory_points = { 8569 3 } #"Bolventor"
+	}
+	manpower=14212
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

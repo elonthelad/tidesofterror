@@ -1,0 +1,16 @@
+state={
+	id=70
+	name="STATE_70"
+	provinces={
+		211 1371 3135 3559 4926 8240 8262 8264 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8264 10 } #"Marlborough"
+	}
+	manpower=12834
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

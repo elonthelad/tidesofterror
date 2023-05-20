@@ -1,0 +1,16 @@
+state={
+	id=526
+	name="STATE_526"
+	provinces={
+		3217 4154 4992 5361 8142 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4154 6 } #"Chigwell"
+	}
+	manpower=11741
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

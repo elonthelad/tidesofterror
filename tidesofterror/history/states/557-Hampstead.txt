@@ -1,0 +1,16 @@
+state={
+	id=557
+	name="STATE_557"
+	provinces={
+		4137 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4137 65 } #"Islington"
+	}
+	manpower=94073
+	buildings_max_level_factor=1.000
+	state_category=urban_borough
+	local_supplies=0.000
+}

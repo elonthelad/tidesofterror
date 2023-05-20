@@ -1,0 +1,18 @@
+
+state={
+	id=44
+	name="STATE_44"
+	provinces={
+		360 404 756 854 3524 4365 4705 8395 8400 8412 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4705 8 } #"Minehead"
+		victory_points = { 3524 3 } #"Watchet"
+	}
+	manpower=22049
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

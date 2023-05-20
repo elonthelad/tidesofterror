@@ -1,0 +1,503 @@
+equipments = {
+
+	artillery_equipment = { #royal artillery base
+		year = 1868
+
+		is_archetype = yes
+		picture = archetype_artillery_equipment		
+		type = {
+			artillery
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+
+		reliability = 0.85
+		defense = 10
+		breakthrough = 4
+		hardness = 0.2
+		armor_value = 6
+		soft_attack = 10
+		hard_attack = 25
+		ap_attack = 16
+		air_attack = 0
+		max_strength = 1
+
+		lend_lease_cost = 4
+		
+		build_cost_ic = 3.5
+		resources = {
+			steel = 2
+		}
+	}
+
+	artillery_equipment_1 = { #rifled armstrong gun
+		year = 1868
+
+		archetype = artillery_equipment
+		priority = 50
+		visual_level = 0
+	}
+	
+	artillery_equipment_2 = { #cannon9 pdr 8 cwt gun
+		year = 1870
+
+		archetype = artillery_equipment
+		parent = artillery_equipment_1
+		priority = 50
+		visual_level = 1
+
+		reliability = 0.9
+		defense = 16
+		breakthrough = 8
+		hardness = 0.2
+		armor_value = 7
+		soft_attack = 14
+		hard_attack = 32
+		ap_attack = 18
+		air_attack = 0
+		max_strength = 1.4
+		
+		build_cost_ic = 4
+		resources = {
+			steel = 2
+		}
+	}
+	
+	artillery_equipment_3 = { #steam pressure 10 cwt gun
+		year = 1872
+
+		archetype = artillery_equipment
+		parent = artillery_equipment_2
+		priority = 50
+		visual_level = 2
+		
+		reliability = 0.85
+		defense = 22
+		breakthrough = 12
+		hardness = 0.2
+		armor_value = 8
+		soft_attack = 18
+		hard_attack = 38
+		ap_attack = 20
+		air_attack = 0
+		max_strength = 1.6
+		
+		build_cost_ic = 4.5
+		resources = {
+			steel = 2
+		}
+	}
+	
+	artillery_equipment_4 = { #steam stake ballistae
+		year = 1874
+
+		archetype = artillery_equipment
+		parent = artillery_equipment_3
+		priority = 50
+		visual_level = 3
+		
+		reliability = 0.82
+		defense = 32
+		breakthrough = 16
+		hardness = 0.2
+		armor_value = 10
+		soft_attack = 24
+		hard_attack = 60
+		ap_attack = 60
+		air_attack = 2
+		max_strength = 1.8
+		
+		build_cost_ic = 6
+		resources = {
+			steel = 2
+		}
+	}
+	
+	artillery_equipment_5 = { #molten stake arbalest
+		year = 1875
+
+		archetype = artillery_equipment
+		parent = artillery_equipment_4
+		priority = 50
+		visual_level = 4
+		
+		reliability = 0.78
+		defense = 35
+		breakthrough = 18
+		hardness = 0.2
+		armor_value = 12
+		soft_attack = 30
+		hard_attack = 75
+		ap_attack = 80
+		air_attack = 2.4
+		max_strength = 2
+		
+		build_cost_ic = 6.5
+		resources = {
+			steel = 2
+		}
+	}
+
+	mortar_equipment = { #mortar regiment base
+		year = 1868
+
+		is_archetype = yes
+		picture = archetype_artillery_equipment		
+		type = {
+			artillery
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+
+		maximum_speed = 3
+		reliability = 0.9
+		defense = 38
+		breakthrough = 0
+		hardness = 0.2
+		armor_value = 5
+		soft_attack = 10
+		hard_attack = 2
+		ap_attack = 8
+		air_attack = 0
+
+		lend_lease_cost = 4
+		
+		build_cost_ic = 4
+		resources = {
+			steel = 2
+		}
+	}
+
+	mortar_equipment_1 = { #manby mortar
+		year = 1868
+
+		archetype = mortar_equipment
+		priority = 50
+		visual_level = 0
+	}
+	
+	mortar_equipment_2 = { #coehorn mortar
+		year = 1870
+
+		archetype = mortar_equipment
+		parent = mortar_equipment_1
+		priority = 50
+		visual_level = 1
+
+		maximum_speed = 3
+		reliability = 0.92
+		defense = 45
+		breakthrough = 0
+		hardness = 0.2
+		armor_value = 5
+		soft_attack = 14
+		hard_attack = 4
+		ap_attack = 10
+		air_attack = 0
+		
+		build_cost_ic = 3
+		resources = {
+			steel = 2
+		}
+	}
+		
+	mortar_equipment_3 = { #naphtha howitzer
+		year = 1872
+
+		archetype = mortar_equipment
+		parent = mortar_equipment_2
+		priority = 50
+		visual_level = 1
+
+		maximum_speed = 3
+		reliability = 0.92
+		defense = 60
+		breakthrough = 0
+		hardness = 0.2
+		armor_value = 5
+		soft_attack = 14
+		hard_attack = 4
+		ap_attack = 100
+		air_attack = 0
+		
+		build_cost_ic = 5
+		resources = {
+			steel = 2
+		}
+	}
+	
+	gatling_equipment = { #gatling squadron base
+		year = 1868
+
+		is_archetype = yes
+		picture = archetype_artillery_equipment		
+		type = {
+			artillery
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+
+		maximum_speed = 4
+		reliability = 0.80
+		defense = 26
+		breakthrough = 18
+		hardness = 0.2
+		armor_value = 6
+		soft_attack = 12
+		hard_attack = 6
+		ap_attack = 6
+		air_attack = 16
+
+		lend_lease_cost = 4
+		
+		build_cost_ic = 7
+		resources = {
+			steel = 2
+		}
+	}
+
+	gatling_equipment_1 = { #gatling gun
+		year = 1868
+
+		archetype = gatling_equipment
+		priority = 50
+		visual_level = 0
+	}
+	
+	gatling_equipment_2 = { #maxim gun
+		year = 1870
+
+		archetype = gatling_equipment
+		parent = gatling_equipment_1
+		priority = 50
+		visual_level = 1
+
+		maximum_speed = 4
+		reliability = 0.86
+		defense = 34
+		breakthrough = 22
+		hardness = 0.2
+		armor_value = 6
+		soft_attack = 16
+		hard_attack = 8
+		ap_attack = 10
+		air_attack = 24
+		
+		build_cost_ic = 6.5
+		resources = {
+			steel = 2
+		}
+	}
+	
+	gatling_equipment_3 = { #tyler gun
+		year = 1870
+
+		archetype = gatling_equipment
+		parent = gatling_equipment_2
+		priority = 50
+		visual_level = 1
+
+		maximum_speed = 4
+		reliability = 0.76
+		defense = 48
+		breakthrough = 32
+		hardness = 0.2
+		armor_value = 6
+		soft_attack = 26
+		hard_attack = 14
+		ap_attack = 80
+		air_attack = 32
+		
+		build_cost_ic = 10
+		resources = {
+			steel = 2
+		}
+	}
+	
+	handcannon_equipment = { #handcannoneers base
+		year = 1868
+
+		is_archetype = yes
+		picture = archetype_artillery_equipment		
+		type = {
+			artillery
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+
+		maximum_speed = 4
+		reliability = 0.85
+		defense = 14
+		breakthrough = 28
+		hardness = 0.2
+		armor_value = 6
+		soft_attack = 10
+		hard_attack = 20
+		ap_attack = 14
+		air_attack = 0
+
+		lend_lease_cost = 4
+		
+		build_cost_ic = 5
+		resources = {
+			steel = 2
+		}
+	}
+	
+	handcannon_equipment_1 = { #handcannon
+		year = 1868
+
+		archetype = handcannon_equipment
+		priority = 50
+		visual_level = 0
+	}
+	
+	handcannon_equipment_2 = { #breechspear
+		year = 1870
+
+		archetype = handcannon_equipment
+		parent = handcannon_equipment_1
+		priority = 50
+		visual_level = 1
+
+		maximum_speed = 4
+		reliability = 0.78
+		defense = 22
+		breakthrough = 40
+		hardness = 0.2
+		armor_value = 6
+		soft_attack = 20
+		hard_attack = 30
+		ap_attack = 40
+		air_attack = 0
+		
+		build_cost_ic = 6.5
+		resources = {
+			steel = 2
+		}
+	}
+	
+	handcannon_equipment_3 = { #boomstick reeled
+		year = 1874
+
+		archetype = handcannon_equipment
+		parent = handcannon_equipment_2
+		priority = 50
+		visual_level = 1
+
+		maximum_speed = 4
+		reliability = 0.75
+		defense = 30
+		breakthrough = 56
+		hardness = 0.2
+		armor_value = 10
+		soft_attack = 30
+		hard_attack = 40
+		ap_attack = 60
+		air_attack = 0
+		
+		build_cost_ic = 6.5
+		resources = {
+			steel = 2
+		}
+	}
+
+	scorch_equipment = { #scorch crew
+		year = 1868
+
+		is_archetype = yes
+		picture = archetype_artillery_equipment		
+		type = {
+			artillery
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+
+		maximum_speed = 4
+		reliability = 0.9
+		defense = 16
+		breakthrough = 0
+		hardness = 0.2
+		armor_value = 6
+		soft_attack = 16
+		hard_attack = 10
+		ap_attack = 40
+		air_attack = 0
+
+		lend_lease_cost = 4
+		
+		build_cost_ic = 2
+		resources = {
+			steel = 2
+		}
+	}
+
+	scorch_equipment_1 = { #phosphorous & tinder
+		year = 1868
+
+		archetype = scorch_equipment
+		priority = 50
+		visual_level = 0
+	}
+
+	scorch_equipment_2 = { #coal tar & peat compounds
+		year = 1870
+
+		archetype = scorch_equipment
+		parent = scorch_equipment_1
+		priority = 50
+		visual_level = 1
+
+		maximum_speed = 4
+		reliability = 0.9
+		defense = 24
+		breakthrough = 0
+		hardness = 0.2
+		armor_value = 6
+		soft_attack = 22
+		hard_attack = 14
+		ap_attack = 65
+		air_attack = 0
+		
+		build_cost_ic = 2.5
+		resources = {
+			steel = 2
+		}
+	}
+
+	scorch_equipment_3 = { #oil & nitroglycerin compounds
+		year = 1872
+
+		archetype = scorch_equipment
+		parent = scorch_equipment_2
+		priority = 50
+		visual_level = 1
+
+		maximum_speed = 4
+		reliability = 0.9
+		defense = 24
+		breakthrough = 0
+		hardness = 0.2
+		armor_value = 6
+		soft_attack = 30
+		hard_attack = 20
+		ap_attack = 100
+		air_attack = 0
+		
+		build_cost_ic = 3.5
+		resources = {
+			steel = 2
+		}
+	}
+
+}

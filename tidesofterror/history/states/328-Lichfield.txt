@@ -1,0 +1,16 @@
+
+state={
+	id=328
+	name="STATE_328"
+	provinces={
+		737 1532 4972 4975 5294 7415 7427 7431 7445 7474 7484 7500 7518 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

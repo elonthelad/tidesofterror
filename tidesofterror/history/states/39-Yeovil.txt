@@ -1,0 +1,18 @@
+
+state={
+	id=39
+	name="STATE_39"
+	provinces={
+		26 462 723 909 4391 5261 8443 8463 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4391 20 } #"Yeovil"
+		victory_points = { 8443 5 } #"Nartock"
+	}
+	manpower=33736
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

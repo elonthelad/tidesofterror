@@ -1,0 +1,16 @@
+state={
+	id=68
+	name="STATE_68"
+	provinces={
+		1274 1317 1681 4364 8282 8305 8327 8336 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8336 6 } #"Tidworth"
+	}
+	manpower=8167
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

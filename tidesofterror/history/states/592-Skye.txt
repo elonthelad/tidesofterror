@@ -1,0 +1,19 @@
+
+state={
+	id=592
+	name="STATE_592"
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		190 559 684 743 778 782 804 1058 1609 1939 1982 2037 2043 2048 2783 2911 3077 3320 3364 3417 3494 3552 3581 3667 3681 3724 3782 4128 4138 4664 4826 4836 5095 5142 5384 5616 5624 5629 5630 5664 5691 5709 5712 5719 5753 8632 8633 8635 8639 8644 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

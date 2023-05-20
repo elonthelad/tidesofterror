@@ -1,0 +1,15 @@
+state={
+	id=392
+	name="STATE_392"
+	provinces={
+		107 252 1342 2387 2828 2991 3577 4006 4279 5286 6511 6514 6558 12020 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

@@ -1,0 +1,103 @@
+political_actions = {
+	icon = generic_political_actions
+	
+	allowed = {
+		always = yes
+	}
+	
+	visible = {
+		always = yes
+	}
+}
+
+ENG_fenian_decisioncat = {
+	icon = GFX_decision_category_fenian
+	
+	allowed = {
+		ENG = { has_idea = ENGIDEA_fenian_remnants }
+	}
+	
+	#highlight_states = {
+	#	highlight_states_trigger = {
+	#		has_state_flag = fenian_sentiment
+	#	}
+	#	highlight_color_while_active = 3
+	#}
+	
+    on_map_area = {
+		target_array = owned_states
+			target_trigger = {
+				FROM = {
+					has_state_flag = fenian_sentiment
+				}
+			}
+		name = areas_with_sentiment
+		zoom = 850
+		target_root_trigger = {
+			tag = ENG
+		}
+	}
+	
+	visible = {
+		ENG = { has_idea = ENGIDEA_fenian_remnants }
+	}
+}
+
+ENG_tomb_decisioncat = {
+	icon = saf_anti_colonialist_crusade
+	
+	allowed = {
+		ENG = { has_idea = ENGIDEA_fenian_remnants }
+	}
+	
+	#highlight_states = {
+	#	highlight_states_trigger = {
+	#		has_state_flag = fenian_sentiment
+	#	}
+	#	highlight_color_while_active = 3
+	#}
+	
+    on_map_area = {
+		target_array = owned_states
+			target_trigger = {
+				FROM = {
+					has_state_flag = fenian_sentiment
+				}
+			}
+		name = areas_with_sentiment
+		zoom = 850
+		target_root_trigger = {
+			tag = ENG
+		}
+	}
+	
+	visible = {
+		ENG = { has_idea = ENGIDEA_fenian_remnants }
+	}
+}
+
+governments_in_exile = {
+	
+	icon = generic_formable_nations
+	picture = GFX_decision_cat_picture_government_in_exile
+	allowed = {
+		OR = {
+			has_dlc = "Man the Guns"
+			has_dlc = "By Blood Alone"
+		}
+	}
+	priority = 7
+}
+
+category_exile_forces = {
+	
+	icon = infiltration
+	picture = GFX_decision_cat_picture_government_in_exile
+	allowed = {
+		OR = {
+			has_dlc = "Man the Guns"
+			has_dlc = "By Blood Alone"
+		}
+	}
+	priority = 6
+}

@@ -1,0 +1,15 @@
+state={
+	id=623
+	name="STATE_623"
+	provinces={
+		383 444 573 636 2510 3436 4430 4623 4658 5287 5442 5726 5733 5740 5748 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=peaks
+	local_supplies=0.000
+}

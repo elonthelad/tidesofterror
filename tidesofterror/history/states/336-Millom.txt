@@ -1,0 +1,15 @@
+state={
+	id=336
+	name="STATE_336"
+	provinces={
+		1318 1702 1757 1817 2193 3357 4301 6539 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=peaks
+	local_supplies=0.000
+}

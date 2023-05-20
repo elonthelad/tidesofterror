@@ -1,0 +1,18 @@
+
+state={
+	id=48
+	name="STATE_48"
+	provinces={
+		493 4775 5143 5356 8235 8250 8255 8257 8280 12053 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 5356 10 } #"Portishead"
+		victory_points = { 493 5 } #"Nailsea"
+	}
+	manpower=29399
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+
+state={
+	id=24
+	name="STATE_24"
+	provinces={
+		20 331 407 653 1953 2315 3312 3569 4200 4236 4932 5020 8419 8425 8435 8452 8472 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8425 4 } #"South Molton"
+	}
+	manpower=5617
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

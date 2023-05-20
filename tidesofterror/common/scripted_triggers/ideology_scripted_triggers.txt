@@ -1,0 +1,32 @@
+
+is_enemy_ideology = {
+	OR = {
+		AND = {
+			has_government = unionist
+			ROOT = {
+				OR = {
+					has_government = military_junta
+					has_government = democratic
+				}
+			}
+		}
+		AND = {
+			has_government = democratic
+			ROOT = {
+				OR = {
+					has_government = unionist
+					has_government = military_junta
+				}
+			}
+		}
+		AND = {
+			has_government = military_junta
+			ROOT = {
+				OR = {
+					has_government = democratic
+					has_government = unionist
+				}
+			}
+		}
+	}
+}

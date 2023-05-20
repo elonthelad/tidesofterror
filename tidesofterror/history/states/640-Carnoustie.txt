@@ -1,0 +1,15 @@
+state={
+	id=640
+	name="STATE_640"
+	provinces={
+		2208 2649 2798 3862 5397 5837 5844 5847 5848 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

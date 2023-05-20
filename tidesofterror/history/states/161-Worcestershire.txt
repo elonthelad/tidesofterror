@@ -1,0 +1,19 @@
+
+state={
+	id=161
+	name="STATE_161"
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		750 1080 1646 1652 2135 2450 4384 4725 7701 7720 7737 7752 7789 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

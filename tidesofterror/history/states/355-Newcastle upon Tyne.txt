@@ -1,0 +1,15 @@
+state={
+	id=355
+	name="STATE_355"
+	provinces={
+		1722 2963 6226 6235 6241 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=urban_borough
+	local_supplies=0.000
+}

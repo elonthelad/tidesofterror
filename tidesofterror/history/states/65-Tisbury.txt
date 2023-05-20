@@ -1,0 +1,16 @@
+state={
+	id=65
+	name="STATE_65"
+	provinces={
+		358 1223 1886 3586 3904 4644 4867 5071 5296 8410 8460 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 3586 3 } #"Tisbury"
+	}
+	manpower=4666
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

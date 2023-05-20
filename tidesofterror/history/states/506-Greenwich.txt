@@ -1,0 +1,18 @@
+state={
+	id=506
+	name="STATE_506"
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8241 12 } #"Woolwich"
+		victory_points = { 514 10 } #"Thameshead"
+		victory_points = { 1497 15 } #"Welling"
+	}
+	provinces={
+		514 1497 1556 8241 
+	}
+	manpower=201122
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

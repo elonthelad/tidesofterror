@@ -1,0 +1,15 @@
+state={
+	id=564
+	name="STATE_564"
+	provinces={
+		27 583 647 1007 1125 1442 1690 1814 1922 2555 2740 2779 2922 3716 3817 4458 4614 4755 5131 5351 5438 5790 5804 5807 5815 5822 5826 5828 5833 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=peaks
+	local_supplies=0.000
+}

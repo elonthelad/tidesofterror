@@ -1,0 +1,16 @@
+
+state={
+	id=568
+	name="STATE_568"
+	provinces={
+		206 504 1905 1994 2020 2571 4030 4933 5092 5469 6236 6247 6248 6272 6316 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

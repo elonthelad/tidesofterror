@@ -1,0 +1,16 @@
+
+state={
+	id=287
+	name="STATE_287"
+	provinces={
+		60 1244 3329 3484 7390 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

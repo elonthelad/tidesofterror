@@ -1,0 +1,15 @@
+state={
+	id=495
+	name="STATE_495"
+	provinces={
+		802 1131 1778 2935 3258 3259 3710 4335 5281 8029 8117 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

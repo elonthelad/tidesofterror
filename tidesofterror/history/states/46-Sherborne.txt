@@ -1,0 +1,17 @@
+
+state={
+	id=46
+	name="STATE_46"
+	provinces={
+		3216 4973 8459 8467 8483 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8459 8 } #"Sherborne"
+	}
+	manpower=10231
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

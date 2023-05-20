@@ -1,0 +1,17 @@
+state={
+	id=517
+	name="STATE_517"
+	provinces={
+		37 2241 8025 8049 8083 8102 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8083 20 } #"Waltham"
+		victory_points = { 37 8 } #"Epping"
+	}
+	manpower=35224
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

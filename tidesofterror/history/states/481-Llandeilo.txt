@@ -1,0 +1,15 @@
+state={
+	id=481
+	name="STATE_481"
+	provinces={
+		283 291 869 1210 1220 1577 1628 1931 2131 2439 3125 3335 3401 3751 4127 4340 4349 5059 7875 7942 7951 7963 7970 7978 7985 8001 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

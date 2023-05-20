@@ -1,0 +1,15 @@
+state={
+	id=232
+	name="STATE_232"
+	provinces={
+		468 2026 2465 7503 7534 7547 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=great_city
+	local_supplies=0.000
+}

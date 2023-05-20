@@ -1,0 +1,15 @@
+state={
+	id=230
+	name="STATE_230"
+	provinces={
+		1103 1822 2443 3900 7584 7606 7648 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

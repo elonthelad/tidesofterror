@@ -1,0 +1,18 @@
+state={
+	id=36
+	name="STATE_36"
+	provinces={
+		414 3560 3890 4276 8564 8576 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8576 20 } #"Weymouth"
+		victory_points = { 3890 10 } #"Portland"
+		victory_points = { 414 10 } #"Preston"
+	}
+	manpower=56383
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

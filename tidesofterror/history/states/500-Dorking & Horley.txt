@@ -1,0 +1,19 @@
+state={
+	id=500
+	name="STATE_500"
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8366 4 } #"Redhill"
+		victory_points = { 1475 8 } #"Horley"
+		victory_points = { 402 8 } #"Dorking"
+		victory_points = { 8386 6 } #"Salford"
+	}
+	provinces={
+		402 1120 1126 1205 1475 1534 3160 3886 8366 8386 8411 
+	}
+	manpower=18833
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

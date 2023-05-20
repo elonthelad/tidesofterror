@@ -1,0 +1,16 @@
+state={
+	id=97
+	name="STATE_97"
+	provinces={
+		241 363 2519 3859 5065 8291 8316 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 10417 4 } #"Whitchurch"
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=177
+	name="STATE_177"
+	provinces={
+		293 387 928 1486 2306 2311 3530 4378 4497 4758 5380 7843 7862 7883 7884 7885 7908 7941 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 7862 3 } #"Woodbridge"
+		victory_points = { 7883 5 } #"Martlesham"
+		victory_points = { 7941 5 } #"Felixstowe"
+	}
+	manpower=21721
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

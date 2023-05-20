@@ -1,0 +1,16 @@
+
+state={
+	id=351
+	name="STATE_351"
+	provinces={
+		525 2399 2771 3168 3548 3695 4308 4750 5239 6137 6162 6170 6178 6184 6190 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

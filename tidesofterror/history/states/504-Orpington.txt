@@ -1,0 +1,19 @@
+state={
+	id=504
+	name="STATE_504"
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8294 15 } #"Orpington"
+		victory_points = { 8293 8 } #"Addington"
+	}
+
+	provinces={
+		2461 4062 8293 8294 
+	}
+	manpower=43143
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

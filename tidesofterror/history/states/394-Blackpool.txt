@@ -1,0 +1,16 @@
+
+state={
+	id=394
+	name="STATE_394"
+	provinces={
+		658 3814 3995 4802 5185 6742 6752 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

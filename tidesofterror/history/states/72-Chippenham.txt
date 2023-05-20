@@ -1,0 +1,17 @@
+state={
+	id=72
+	name="STATE_72"
+	provinces={
+		601 2920 3538 5366 5448 5491 8222 8233 8239 8253 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 2920 8 } #"Chippenham"
+		victory_points = { 8253 6 } #"Corsham"
+	}
+	manpower=17500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

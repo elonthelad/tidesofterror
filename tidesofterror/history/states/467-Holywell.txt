@@ -1,0 +1,15 @@
+state={
+	id=467
+	name="STATE_467"
+	provinces={
+		69 784 1029 1113 1805 7086 7105 7115 7129 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

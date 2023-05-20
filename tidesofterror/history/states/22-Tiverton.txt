@@ -1,0 +1,17 @@
+
+state={
+	id=22
+	name="STATE_22"
+	provinces={
+		1521 1552 2398 3127 3130 3131 4213 8458 8471 8479 8499 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 3127 10 } #"Tiverton"
+	}
+	manpower=16685
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

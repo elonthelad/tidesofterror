@@ -1,0 +1,18 @@
+state={
+	id=528
+	name="STATE_528"
+	provinces={
+		2603 4453 8164 8186 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4453 18 } #"Stratford"
+		victory_points = { 2603 15 } #"Walthamstow"
+		victory_points = { 8186 8 } #"Wanstead"
+	}
+	manpower=71317
+	buildings_max_level_factor=1.000
+	state_category=great_city
+	local_supplies=0.000
+}

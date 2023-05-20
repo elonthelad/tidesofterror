@@ -1,0 +1,61 @@
+1	Greater London		945450 DONE
+2	West Midlands		909500
+3	Greater Manchester	870800
+4	West Yorkshire		841300
+5	Hampshire			833400 DONE
+6	Kent				830250 DONE
+7	Essex				821250 DONE
+8	Lancashire			677250
+9	Merseyside			673200
+10	South Yorkshire		628200
+11	Surrey				537750 DONE
+12	Devon				533700 DONE
+13	Hertfordshire		528300
+14	Nottinghamshire		525150
+15	North Yorkshire		523800
+16	Tyne & Wear			507600
+17	Staffordshire		506250
+18	Lincolnshire		485550
+19	Cheshire			478800
+20	Derbyshire			477000
+21	Leicestershire		476100
+22	Somerset			442350 DONE
+23	Berkshire			412200
+24	Gloucestershire		408150
+25	Norfolk				402300 DONE
+26	County Durham		387000
+27	West Sussex			388350 DONE
+28	Cambridgeshire		380700
+29	East Sussex			379350 DONE
+30	Buckinghamshire		360000
+31	Suffolk				345150 DONE
+32	Dorset				343800 DONE
+33	Northamptonshire	333450
+34	Wiltshire			320850 DONE
+35	Oxfordshire			312750
+36	Bedfordshire		293850
+37	East Riding			267300
+38	Worcestershire		265500
+39	Warwickshire		261450
+40	Cornwall			253800 DONE
+41	Cumbria				225450
+42	Shropshire			221400
+43	Bristol				211500 DONE
+44	Northumberland		141300
+45	Herefordshire		91350
+46	Rutland				18900
+
+state calculation-
+
+(region / states count) * (((victory point total / 10)+0.1)*state_category)
+
+(a / b) * (((c/10)+0.1) * d)
+
+
+state_category value
+pastoral * 0.40
+small_town * 0.54
+large_town * 0.44
+city * 0.47
+great_city * 0.88
+urban_borough * 0.82

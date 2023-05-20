@@ -1,0 +1,16 @@
+state={
+	id=75
+	name="STATE_75"
+	provinces={
+		771 829 1404 1436 2471 3073 5223 5325 8174 8193 8201 8208 8212 8252 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 5325 8 } #"Yate"
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

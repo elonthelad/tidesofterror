@@ -1,0 +1,16 @@
+
+state={
+	id=444
+	name="STATE_444"
+	provinces={
+		31 820 1191 1422 2660 3313 3754 4653 5512 7551 7605 7624 7661 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

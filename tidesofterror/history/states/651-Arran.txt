@@ -1,0 +1,15 @@
+state={
+	id=651
+	name="STATE_651"
+	provinces={
+		321 841 1086 2136 2565 3029 3465 5352 6029 6041 6057 6061 6073 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

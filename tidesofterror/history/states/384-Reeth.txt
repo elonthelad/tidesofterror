@@ -1,0 +1,15 @@
+state={
+	id=384
+	name="STATE_384"
+	provinces={
+		399 3565 5190 6450 6472 6477 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=peaks
+	local_supplies=0.000
+}

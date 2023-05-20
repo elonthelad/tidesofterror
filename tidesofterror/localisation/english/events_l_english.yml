@@ -1,0 +1,25 @@
+﻿l_english:
+ MINIMIZE_EVENT:0 "§GClick§! to Minimize. Event will remain in the Event Queue under §HEvents and Decisions§!, if you are a little pre-occupied."
+ test.1.t:0 "Concessions to the Covenant"
+ test.1.d:0 "Dear Commander-in-Chief,\n\nI write to you with grave concerns regarding a recent development in the north. The malcontents who name themselves 'Covenant' has officially staked a claim on York and are demanding the city of Scarborough and imports from the Crown. While I understand the need for diplomacy and peaceful coexistence as they have proven to be extremely violent when provoked, yet I fear that conceding to their demands may set a dangerous precedent for other groups seeking to establish their own territories within our very borders.\n\nI trust that you will make the right decision in this matter, and I look forward to your accord on this issue.\n\nSincerely, General Hall, Conrad"
+ test.1.a:0 "No more violence- They can have the city!"
+ test.1.b:0 "That ungodly flock will turn. Siege them out."
+ test.1.c:0 "Send to them nothing. Assemble the Cavalry."
+ 
+ test.2.t:0 "HORROR FROM BELOW"
+ test.2.d:0 "Yesterday, another tragic incident occurred off the coast of Dover as a horrific leviathan cephalopod attacked and destroyed a large ship. Eyewitnesses reported that the creature emerged from the depths of the sea with a ferocity that shook even the bravest of sailors. Its tentacles, each as thick as a great oak, wrapped themselves around the vessel and tore it apart with ease, sending it to the bottom of the ocean in a matter of a few shocking moments.\n\nThe crew of the ship, caught unawares by the sudden onslaught, fought valiantly to prevent the beast, but their efforts proved futile against its immense size and strength. Many brave sailors lost their lives in the struggle, and their families are left to mourn their tragic loss.\n\nWill these incidents continue, and do they tell of a perhaps ancient danger that lurks beneath the waves, and of a world that we may have never seen the likes of in our lives. The Admiralty has assured us that they are taking all necessary steps to ensure the safety of our seafarers, and we can only hope that they will be successful in their efforts and better prepared for any additional attacks, god grant us mercy.\n\nWe mourn the loss of those who perished in this senseless attack, and our thoughts are with their loved ones during this difficult time. The government has issued a warning; Stay away from deep water, no matter how aluding it may be. It cannot be trusted."
+ test.2.a:0 "And vigilant shall we be."
+ 
+ test.3.t:0 "Source Of The Tremors"
+ test.3.d:0 "After great delving, our brave expeditioneers have uncovered the entrance to one of what mayhaps be, many tombs. The lithic structure is gargantuan, reeks of the sea and slumbers in a great reservoir. Shall we press on?\n\nThe company is §G12§! Strong."
+ test.3.a:0 "Can you tell me more?"
+ test.3.b:0 "We aren't ready for this, return immediately."
+ test.3.c:0 "Of course. Carry on, team."
+  
+ test.4.t:0 "A Sign from Beyond"
+ test.4.d:0 "Seek the tomb which rests at the depths of the §CBay of Lundy§!.\n\nPerform an expedition there."
+ test.4.a:0 "I understand what I must do."
+ 
+ fenian.1.t:0 "Diplomatic Faux Pas"
+ 
+ fenian.3.t:0 "[target_state.GetName] Backs Down"

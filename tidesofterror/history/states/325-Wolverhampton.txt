@@ -1,0 +1,15 @@
+state={
+	id=325
+	name="STATE_325"
+	provinces={
+		1383 2280 4562 4681 4746 7528 7529 7537 7538 7557 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=urban_borough
+	local_supplies=0.000
+}

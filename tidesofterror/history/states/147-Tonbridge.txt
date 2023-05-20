@@ -1,0 +1,16 @@
+state={
+	id=147
+	name="STATE_147"
+	provinces={
+		2044 2303 2648 8390 8402 8407 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 2648 18 } #"Tonbridge"
+	}
+	manpower=37350
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

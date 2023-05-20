@@ -1,0 +1,16 @@
+
+state={
+	id=363
+	name="STATE_363"
+	provinces={
+		1771 2080 4445 6268 6273 6288 6299 6301 6307 6326 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+state={
+	id=190
+	name="STATE_190"
+	provinces={
+		2552 3358 7894 7925 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 7894 5 } #"Sudbury"
+		victory_points = { 3358 4 } #"Long Melford"
+	}
+	manpower=14943
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

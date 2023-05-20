@@ -1,0 +1,19 @@
+state={
+	id=126
+	name="STATE_126"
+	provinces={
+		173 194 912 1217 1233 2253 4056 4570 4710 8480 8490 8494 8513 8531 8532 8541 8544 8550 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4570 10 } #"Seaford"
+		victory_points = { 173 25 } #"Eastbourne"
+		victory_points = { 8513 8 } #"Hailsham"
+		victory_points = { 8532 18 } #"Bexhill"
+	}
+	manpower=83610
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

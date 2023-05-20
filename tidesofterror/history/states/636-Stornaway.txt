@@ -1,0 +1,15 @@
+state={
+	id=636
+	name="STATE_636"
+	provinces={
+		63 323 516 1022 1051 1266 1582 2019 2066 2122 2517 2594 3405 3655 3764 4042 4248 4637 4646 4694 4736 4877 4977 5047 5206 5279 5389 5541 5550 5555 5558 5564 5566 5567 5568 5570 5573 5577 5582 5586 5593 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=86
+	name="STATE_86"
+	provinces={
+		204 648 1838 2750 3071 4210 4239 7913 7947 8019 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

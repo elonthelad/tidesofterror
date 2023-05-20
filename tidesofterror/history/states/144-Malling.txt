@@ -1,0 +1,17 @@
+state={
+	id=144
+	name="STATE_144"
+	provinces={
+		839 1551 4319 4825 4837 5264 8335 8355 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4837 8 } #"Kings Hill"
+		victory_points = { 839 10 } #"Mailing"
+	}
+	manpower=42591
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

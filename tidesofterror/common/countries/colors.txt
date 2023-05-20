@@ -1,0 +1,6 @@
+#reload countrycolors
+
+ENG = {
+	color = rgb { 86 33 23 }
+	color_ui = rgb { 86 33 23 }
+}

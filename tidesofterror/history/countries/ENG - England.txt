@@ -1,0 +1,33 @@
+capital = 555
+
+oob = "standard_templates"
+
+recruit_character = ENG_William_Gladstone
+
+# Starting tech
+set_technology = {
+	tech_infantry_weapons = 1
+}
+
+set_convoys = 100
+
+add_ideas = {
+	ENGIDEA_fenian_remnants
+	ENGIDEA_freight_crisis
+    volunteer_forces
+    liberal_trade_policy
+	routine_research
+}
+
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1867.10.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 97
+	unionist = 3
+}

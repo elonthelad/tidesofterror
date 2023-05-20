@@ -1,0 +1,17 @@
+﻿l_english:
+ democratic:0 "Democracy"
+ democratic_noun:0 "Democratic"
+ democratic_desc:0 "Democratic Government"
+ liberal_parliament_desc:0 "§WLiberal Parliament§!\n\nThis party speaks for democratic values and representation, focussing less on trade protection and puts greater emphasis on worker representation."
+
+ unionist:0 "Unionist"
+ unionist_noun:0 "Unionist"
+ unionist_desc:0 "This party speaks for democratic values and representation."
+
+ military_junta:0 "Military Junta"
+ military_junta_noun:0 "Military Junta"
+ military_junta_desc:0 "This party speaks for democratic values and representation."
+
+ arcane:0 "Arcane"
+ arcane_noun:0 "Arcane"
+ arcane_desc:0 "This party speaks for democratic values and representation."

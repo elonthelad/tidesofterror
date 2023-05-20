@@ -1,0 +1,16 @@
+state={
+	id=35
+	name="STATE_35"
+	provinces={
+		306 3841 3905 4820 8543 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 3841 10 } #"Bridport"
+	}
+	manpower=13752
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

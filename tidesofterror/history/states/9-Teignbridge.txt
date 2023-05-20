@@ -1,0 +1,20 @@
+
+state={
+	id=9
+	name="STATE_9"
+	provinces={
+		34 816 1335 2347 4234 5169 5290 8547 8566 8571 8579 8584 8585 8586 8588 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 2347 8 } #"Newton Abbot"
+		victory_points = { 8579 6 } #"Kingsteignton"
+		victory_points = { 8585 3 } #"Teignmouth"
+		victory_points = { 4234 3 } #"Dawlish"
+	}
+	manpower=31853
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

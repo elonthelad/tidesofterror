@@ -1,0 +1,15 @@
+state={
+	id=247
+	name="STATE_247"
+	provinces={
+		922 2224 5186 7630 7670 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=great_city
+	local_supplies=0.000
+}

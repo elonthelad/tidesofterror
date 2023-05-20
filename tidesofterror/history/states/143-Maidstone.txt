@@ -1,0 +1,16 @@
+state={
+	id=143
+	name="STATE_143"
+	provinces={
+		1877 4505 5162 8353 8389 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8353 8 } #"Maidstone"
+	}
+	manpower=21438
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

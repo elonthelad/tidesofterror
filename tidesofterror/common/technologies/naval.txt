@@ -1,0 +1,393 @@
+technologies = {
+    tech_steam_paddler = {
+
+		enable_equipments = {
+			destroyer_1
+		}
+		
+		path = {
+			leads_to_tech = scorpion
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = cyclops
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = glatton
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = conqueror
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = improved_convoys
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = naval_folder
+			position = { x = 7 y = 0 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    scorpion = {
+
+		enable_equipments = {
+			artillery_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = cerberus
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = naval_folder
+			position = { x = 1 y = 6 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    cerberus = {
+
+		enable_equipments = {
+			artillery_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = magdala
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = naval_folder
+			position = { x = 1 y = 12 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    magdala = {
+
+		enable_equipments = {
+			artillery_equipment_1
+		}
+
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = naval_folder
+			position = { x = 1 y = 18 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    cyclops = {
+
+		enable_equipments = {
+			artillery_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = gorgon
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = naval_folder
+			position = { x = 4 y = 6 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    gorgon = {
+
+		enable_equipments = {
+			artillery_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = hydra
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = naval_folder
+			position = { x = 4 y = 12 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    hydra = {
+
+		enable_equipments = {
+			artillery_equipment_1
+		}
+
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = naval_folder
+			position = { x = 4 y = 18 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    glatton = {
+
+		enable_equipments = {
+			artillery_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = belleisle
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = naval_folder
+			position = { x = 10 y = 6 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    belleisle = {
+
+		enable_equipments = {
+			artillery_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = orion
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = naval_folder
+			position = { x = 10 y = 12 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    orion = {
+
+		enable_equipments = {
+			artillery_equipment_1
+		}
+
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = naval_folder
+			position = { x = 10 y = 18 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    conqueror = {
+
+		enable_equipments = {
+			artillery_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = hero
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = naval_folder
+			position = { x = 13 y = 6 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    hero = {
+
+		enable_equipments = {
+			artillery_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = krakenslayer
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = naval_folder
+			position = { x = 13 y = 12 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    krakenslayer = {
+
+		enable_equipments = {
+			artillery_equipment_1
+		}
+
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = naval_folder
+			position = { x = 13 y = 18 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    improved_convoys = {
+
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = naval_folder
+			position = { x = 7 y = 7 }
+		}
+		
+		path = {
+			leads_to_tech = landing_ram
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    landing_ram = {
+
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = naval_folder
+			position = { x = 7 y = 15 }
+		}
+		
+		categories = {
+			naval_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

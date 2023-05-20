@@ -1,0 +1,11 @@
+
+strategic_region={
+	id=105
+	name="STRATEGICREGION_105"
+	provinces={
+		8984 9249 9318 9548 9825 10007 10064 10069 10076 10115 10252 10346 10473 10582 10806 10959 11009 11155 11187 11825 
+	}
+	naval_terrain=water_fog_maze
+	weather={
+	}
+}

@@ -1,0 +1,16 @@
+state={
+	id=41
+	name="STATE_41"
+	provinces={
+		622 870 1188 1583 2376 3257 8296 8319 8325 8343 8354 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8296 20 } #"Weston-super-Mare"
+	}
+	manpower=27248
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

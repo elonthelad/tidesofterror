@@ -1,0 +1,16 @@
+
+state={
+	id=84
+	name="STATE_84"
+	provinces={
+		978 3279 3921 4262 5420 5461 7976 7989 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

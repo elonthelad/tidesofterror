@@ -1,0 +1,15 @@
+state={
+	id=576
+	name="STATE_576"
+	provinces={
+		1864 2559 2881 4883 4892 4906 5056 5533 8615 8616 8617 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=1
+	name="STATE_1"
+	provinces={
+		2487 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 2487 80 } #"City of London"
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 5
+		}
+	}
+	manpower=86439
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

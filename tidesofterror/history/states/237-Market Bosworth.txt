@@ -1,0 +1,15 @@
+state={
+	id=237
+	name="STATE_237"
+	provinces={
+		156 2008 2041 2562 2795 3799 3910 7480 7494 7501 7502 7561 7565 7578 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

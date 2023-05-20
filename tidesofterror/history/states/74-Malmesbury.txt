@@ -1,0 +1,16 @@
+state={
+	id=74
+	name="STATE_74"
+	provinces={
+		488 1663 1941 5490 8160 8182 8203 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 488 5 } #"Malmesbury"
+	}
+	manpower=7036
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

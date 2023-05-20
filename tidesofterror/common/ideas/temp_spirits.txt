@@ -1,0 +1,25 @@
+ideas = {
+
+	hidden_ideas = {
+	}
+
+	# Special ones that can be applied on other countries through focus system.
+	country = {
+		ENGIDEA_manc_repay = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+			}	
+		}
+	}
+}

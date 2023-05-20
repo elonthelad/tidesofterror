@@ -1,0 +1,16 @@
+state={
+	id=92
+	name="STATE_92"
+	provinces={
+		1258 1427 2227 2275 2325 2419 8345 8364 8371 8392 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8371 15 } #"Andover"
+	}
+	manpower=45003
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=550
+	name="STATE_550"
+	provinces={
+		1660 5057 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 1660 15 } #"Lewisham"
+	}
+	manpower=149975
+	buildings_max_level_factor=1.000
+	state_category=urban_borough
+	local_supplies=0.000
+}

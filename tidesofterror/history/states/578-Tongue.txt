@@ -1,0 +1,15 @@
+state={
+	id=578
+	name="STATE_578"
+	provinces={
+		136 180 491 799 1069 1146 1254 1449 1637 2009 2283 2986 3243 3607 3669 3967 4311 4707 5224 5545 5548 5552 5553 5557 5561 5565 5574 11975 11976 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

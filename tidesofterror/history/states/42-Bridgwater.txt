@@ -1,0 +1,18 @@
+
+state={
+	id=42
+	name="STATE_42"
+	provinces={
+		872 1800 2090 2639 3051 3578 3730 4968 8373 8387 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4968 20 } #"Bridgwater"
+		victory_points = { 3730 15 } #"East Bower"
+	}
+	manpower=66712
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

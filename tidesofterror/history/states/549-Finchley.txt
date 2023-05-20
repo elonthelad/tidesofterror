@@ -1,0 +1,16 @@
+state={
+	id=549
+	name="STATE_549"
+	provinces={
+		4408 4909 8188 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4408 18 } #"Edgware"
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=urban_borough
+	local_supplies=0.000
+}

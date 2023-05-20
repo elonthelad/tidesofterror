@@ -1,0 +1,18 @@
+state={
+	id=545
+	name="STATE_545"
+	provinces={
+		223 469 3994 8204 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 469 14 } #"Hounslow"
+		victory_points = { 3994 12 } #"Ealing"
+		victory_points = { 8204 30 } #"Wembley"
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=urban_borough
+	local_supplies=0.000
+}

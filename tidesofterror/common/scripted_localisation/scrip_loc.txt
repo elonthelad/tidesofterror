@@ -1,0 +1,36 @@
+defined_text = {
+	name = GetIrishStatesList
+	text = {
+		trigger = {
+			original_tag = ENG
+			ENG = { has_idea = ENGIDEA_fenian_remnants }
+			
+			set_temp_variable = { temp_indexervar = -1 }
+			
+		}
+		localization_key = STARTIRISHSTATESLIST
+	}
+	text = {
+		localization_key = IRISHSTATESEMPTY
+	}
+}
+
+defined_text = {
+	name = RecursiveIrishStates
+	text = {
+		trigger = {
+			original_tag = ENG
+			ENG = { has_idea = ENGIDEA_fenian_remnants }
+			
+			add_to_temp_variable = { temp_indexervar = 1 }
+			
+			#log = "Current value of temp_indexervar: [?temp_indexervar]"
+
+			check_variable = { global.irishstates^num > temp_indexervar }
+		}
+		localization_key = SECTIONIRISHSTATE
+	}
+	text = {
+		localization_key = IRISHSTATESEMPTY
+	}
+}

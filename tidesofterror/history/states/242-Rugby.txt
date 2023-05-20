@@ -1,0 +1,16 @@
+
+state={
+	id=242
+	name="STATE_242"
+	provinces={
+		332 418 668 968 1835 2560 3671 4171 4742 4957 5171 5354 7637 7663 7681 7691 7749 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

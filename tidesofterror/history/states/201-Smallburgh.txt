@@ -1,0 +1,17 @@
+state={
+	id=201
+	name="STATE_201"
+	provinces={
+		58 796 2120 2472 2962 7388 7408 7452 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 7388 4 } #"North Walsham"
+		victory_points = { 7452 2 } #"Hoveton"
+	}
+	manpower=5928
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

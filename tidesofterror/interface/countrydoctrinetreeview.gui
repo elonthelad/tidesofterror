@@ -1,0 +1,194 @@
+guiTypes = {
+	containerWindowType = {
+		name = "countrydoctrineview"
+		position = { x=0 y=78 }
+		size = { width = 100%% height = 100%% }
+		fade_time = 400
+		fade_type = linear
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_plain_bg2"
+		}
+
+	
+
+		containerWindowType = {
+			name = "naval_doctrine_folder"
+			position = { x=0 y=47 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 40
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+		}
+
+		containerWindowType = {
+			name = "land_doctrine_folder"
+			position = { x=0 y=47 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 40
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+
+			#iconType = {
+			#	name ="event_picture"
+			#	spriteType = "GFX_report_event_001"
+			#	position = { x = 245 y = 540 }
+			#	Orientation = "UPPER_LEFT"
+			#	alwaystransparent = yes				
+			#}
+
+			containerWindowType = {
+				name = "size_filler"
+				position = { x=0 y=0 }
+				size = { width = 2900 height = 100% }
+			}
+				
+			gridboxtype = {
+				name = "doc_the_colonial_army_tree"
+				position = { x=180 y=520 }
+				slotsize = { width= 100 height= 100 }
+				format = "UP"	
+			}
+		}
+
+		containerWindowType = {
+			name = "folder_tabs"
+			position = { x=350 y=7 }
+			size = { width = 100%% height = 30 }
+	
+			buttonType = {
+				name = "land_doctrine_folder_tab"
+				position = { x = -2250 y = 0 }
+				quadTextureSprite = "GFX_landdoctrine_tab_large"
+				frame = 1
+				clicksound = ui_doctrine_tab_land
+			}
+			instantTextBoxType = {
+				name = "army_doctrine_title"
+				text = "land_doctrine"
+				position = { x=-340 y=-4}
+				font = "hoi_36header"
+				maxWidth = 260
+				maxHeight = 20
+				format = center
+				alwaystransparent = "yes"
+			}
+			buttonType = {
+				name = "naval_doctrine_folder_tab"
+				position = { x = -2220 y = -2200 }
+				quadTextureSprite = "GFX_hold"
+				frame = 1
+				clicksound = ui_doctrine_tab_naval
+			}
+			instantTextBoxType = {
+				name = "navy_doctrine_title"
+				text = "naval_doctrine"
+				position = { x=-2260 y=-2218}
+				font = "hoi_20bs"
+				maxWidth = 160
+				maxHeight = 20
+				format = center
+				alwaystransparent = "yes"
+			}	
+		}
+
+		buttonType = {
+			name = "close_button"
+			position = { x = -50 y = 11 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	
+	containerWindowType = {
+		name = "techtree_land_doctrine_folder_item"
+		position = { x=-10 y=-15 }
+		size = { width = 72 height = 72 }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=12 y=15 }
+			spriteType = "GFX_technology_medium"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "bonus_icon"
+			position = { x=-1 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = -1 y = -22 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 80
+			maxHeight = 20
+			format = center
+		}
+	}
+
+	containerWindowType = {
+		name = "techtree_naval_doctrine_folder_item"
+		position = { x=0 y=5 }
+		size = { width = 72 height = 72 }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=3 y=3 }
+			spriteType = "GFX_technology_medium"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "bonus_icon"
+			position = { x=-1 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = -1 y = -22 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 80
+			maxHeight = 20
+			format = center
+		}
+	}
+}

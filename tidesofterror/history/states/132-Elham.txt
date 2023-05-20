@@ -1,0 +1,16 @@
+state={
+	id=132
+	name="STATE_132"
+	provinces={
+		1175 3787 8408 8429 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 1175 8 } #"Folkestone"
+	}
+	manpower=12284
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

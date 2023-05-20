@@ -1,0 +1,19 @@
+
+state={
+	id=5
+	name="STATE_5"
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		276 510 963 1454 1544 1641 1802 1883 2112 2186 2403 2598 2606 2892 3063 3157 3587 3792 3982 4077 4401 4515 4730 4942 5263 5307 5309 5320 5513 6813 6819 6828 6848 6854 6858 6871 6876 6882 6883 6902 6903 6927 6942 6946 6962 6968 6977 6979 6985 7012 7017 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=great_city
+	local_supplies=0.000
+}

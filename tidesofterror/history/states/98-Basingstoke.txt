@@ -1,0 +1,17 @@
+state={
+	id=98
+	name="STATE_98"
+	provinces={
+		1178 2446 3239 4107 4964 8330 8331 8347 8352 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4964 18 } #"Kempshott"
+		victory_points = { 8347 20 } #"Basingstoke"
+	}
+	manpower=89382
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

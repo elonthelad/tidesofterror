@@ -1,0 +1,15 @@
+state={
+	id=659
+	name="STATE_659"
+	provinces={
+		942 1408 2729 4051 5883 5893 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+state={
+	id=173
+	name="STATE_173"
+	provinces={
+		1229 2599 3838 4544 4700 7957 7972 7973 7977 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

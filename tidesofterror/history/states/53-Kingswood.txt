@@ -1,0 +1,18 @@
+state={
+	id=53
+	name="STATE_53"
+	provinces={
+		2679 2760 2897 3213 3872 4464 5248 8461 8473 8538 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 3213 8 } #"Ashley Heath"
+		victory_points = { 2760 10 } #"Christchurch"
+		victory_points = { 4464 12 } #"Highcliffe"
+	}
+	manpower=87194
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

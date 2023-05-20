@@ -1,0 +1,17 @@
+state={
+	id=206
+	name="STATE_206"
+	provinces={
+		749 2337 4902 7506 7520 7521 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4902 3 } #"Woodbridge"
+		victory_points = { 2337 3 } #"Poringland"
+	}
+	manpower=6942
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

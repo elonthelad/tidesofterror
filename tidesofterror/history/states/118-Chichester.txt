@@ -1,0 +1,17 @@
+state={
+	id=118
+	name="STATE_118"
+	provinces={
+		277 1829 2763 2984 3445 3815 4179 4371 5433 8497 8511 8516 8523 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 5433 3 } #"Selsey"
+		victory_points = { 2763 8 } #"Bognor Regis"
+	}
+	manpower=20194
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

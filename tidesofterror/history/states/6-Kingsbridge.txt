@@ -1,0 +1,19 @@
+
+state={
+	id=6
+	name="STATE_6"
+	provinces={
+		1746 2334 2336 3513 4187 4237 5189 5229 5530 8601 8603 8609 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 2336 3 } #"Salcombe"
+		victory_points = { 8609 5 } #"Kingsbridge"
+		victory_points = { 8603 3 } #"Dartmouth"
+	}
+	manpower=18201
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

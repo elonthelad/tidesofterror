@@ -1,0 +1,18 @@
+state={
+	id=543
+	name="STATE_543"
+	provinces={
+		1946 4224 5015 8230 8248 8259 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8248 15 } #"Ashford"
+		victory_points = { 5015 18 } #"Feltham"
+		victory_points = { 4224 15 } #"Littleton"
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

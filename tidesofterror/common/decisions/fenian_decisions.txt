@@ -1,0 +1,541 @@
+ENG_fenian_decisioncat = {
+
+	ENG_second_fenian_plot = {
+
+		icon = rise_up
+
+		activation = {
+			ENG = { has_idea = ENGIDEA_fenian_remnants }
+		}
+		
+		available = {
+			OR = {
+				NOT = {ENG = { has_idea = ENGIDEA_fenian_remnants }}
+				has_war = yes
+			}
+		}
+		
+		cancel_trigger = {
+			
+		}
+		
+		is_good = yes
+		
+		icon = mission_icon     # For GFX_decision_mission_icon
+		
+		days_mission_timeout = 200
+		
+		complete_effect = {
+		
+		}
+		timeout_effect = {
+			remove_ideas = { ENGIDEA_fenian_remnants }
+			add_stability = -0.3
+			every_state = {
+				limit = { has_state_flag = fenian_sentiment }
+				transfer_state_to = FEN
+			}
+			declare_war_on = {
+				target = FEN
+				type = annex_everything
+			}
+		}
+	}
+	
+	ENG_fund_irish_welfare = {
+
+		icon = fund
+
+		allowed = {
+			tag = ENG
+			#has_active_mission = ENG_second_fenian_plot
+		}
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			tag = ENG
+			has_active_mission = ENG_second_fenian_plot
+		}
+		
+		custom_cost_trigger = {
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		custom_cost_text = decision_cost_civ_factory_5
+		
+		is_good = yes
+
+		fire_only_once = no
+
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		visible = {
+			has_active_mission = ENG_second_fenian_plot
+		}
+
+		remove_effect = {
+		}
+
+		complete_effect = {
+			add_days_mission_timeout = {
+				mission = ENG_second_fenian_plot
+				days = 40
+			}
+		}
+	}
+	
+	ENG_increase_garrisons = {
+
+		icon = march
+
+		allowed = {
+			tag = ENG
+			#has_active_mission = ENG_second_fenian_plot
+		}
+
+		available = {
+			tag = ENG
+			has_active_mission = ENG_second_fenian_plot
+		}
+		
+		custom_cost_trigger = {
+			has_equipment = {
+				police_weapons > 999
+			}
+			has_manpower > 999
+		}
+		custom_cost_text = decision_cost_1000_police
+		
+		is_good = yes
+
+		fire_only_once = yes
+
+		visible = {
+			has_active_mission = ENG_second_fenian_plot
+		}
+
+		remove_effect = {
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				add_equipment_to_stockpile = { 
+					type = police_weapons
+					amount = -1000
+				}
+				add_manpower = -1000
+			}
+			add_stability = -0.2
+			add_days_mission_timeout = {
+				mission = ENG_second_fenian_plot
+				days = -100
+			}
+		}
+	}
+
+	ENG_mission_to_kerry = {
+
+		icon = hold_hand
+
+		available = {
+			703 = { has_state_flag = fenian_sentiment }
+			703 = { is_controlled_by = ROOT }
+		}
+
+		cost = 120
+		
+		is_good = yes
+
+		fire_only_once = no
+
+		days_remove = 14
+
+		highlight_states = {
+			highlight_state_targets = { state = 703 }
+		}
+
+		visible = {
+			703 = { has_state_flag = fenian_sentiment }
+			703 = { is_controlled_by = ROOT }
+		}
+		
+		fixed_random_seed = yes #Savescum prevention
+
+		remove_effect = {
+			random_list = {
+				60 = {
+				custom_effect_tooltip = ENG_Custom_Tooltip_1
+					hidden_effect = {
+						703 = {clr_state_flag = fenian_sentiment } #Success
+					}
+				}
+				40 = { country_event = { id = fenian.1 } } #Backfire
+			}
+		}
+	}
+
+	ENG_mission_to_limerick	= {
+
+		icon = hold_hand
+
+		available = {
+			706 = { has_state_flag = fenian_sentiment }
+			706 = { is_controlled_by = ROOT }
+		}
+
+		cost = 40
+		
+		is_good = yes
+
+		fire_only_once = no
+
+		days_remove = 14
+
+		highlight_states = {
+			highlight_state_targets = { state = 706 }
+		}
+
+		visible = {
+			706 = { has_state_flag = fenian_sentiment }
+			706 = { is_controlled_by = ROOT }
+		}
+
+		fixed_random_seed = yes #Savescum prevention
+
+		remove_effect = {
+			random_list = {
+				99 = {
+					custom_effect_tooltip = ENG_Custom_Tooltip_1
+					hidden_effect = {
+						706 = {
+							save_event_target_as = target_state
+						}
+						state_event = {
+							id = fenian.3
+							trigger_for = controller
+						}
+					}
+				}
+				1 = { country_event = { id = fenian.1 } } #Backfire
+			}
+		}
+	}
+
+	ENG_mission_to_cork	= {
+
+		icon = hold_hand
+
+		available = {
+			704 = { has_state_flag = fenian_sentiment }
+			704 = { is_controlled_by = ROOT }
+		}
+
+		cost = 40
+
+		fire_only_once = no
+
+		days_remove = 14
+
+		highlight_states = {
+			highlight_state_targets = { state = 704 }
+		}
+
+		visible = {
+			704 = { has_state_flag = fenian_sentiment }
+			704 = { is_controlled_by = ROOT }
+		}
+
+		fixed_random_seed = yes #Savescum prevention
+
+		remove_effect = {
+			random_list = {
+				99 = {
+					custom_effect_tooltip = ENG_Custom_Tooltip_1
+					hidden_effect = {
+						704 = {
+							save_event_target_as = target_state
+						}
+						state_event = {
+							id = fenian.3
+							trigger_for = controller
+						}
+					}
+				}
+				1 = { country_event = { id = fenian.1 } } #Backfire
+			}
+		}
+	}
+
+	ENG_mission_to_clare = {
+
+		icon = hold_hand
+
+		available = {
+			705 = { has_state_flag = fenian_sentiment }
+			705 = { is_controlled_by = ROOT }
+		}
+
+		cost = 40
+		
+		is_good = yes
+
+		fire_only_once = no
+
+		days_remove = 14
+
+		highlight_states = {
+			highlight_state_targets = { state = 705 }
+		}
+
+		visible = {
+			705 = { has_state_flag = fenian_sentiment }
+			705 = { is_controlled_by = ROOT }
+		}
+
+		fixed_random_seed = yes #Savescum prevention
+
+		remove_effect = {
+			random_list = {
+				99 = {
+					custom_effect_tooltip = ENG_Custom_Tooltip_1
+					hidden_effect = {
+						705 = {
+							save_event_target_as = target_state
+						}
+						state_event = {
+							id = fenian.3
+							trigger_for = controller
+						}
+					}
+				}
+				1 = { country_event = { id = fenian.1 } } #Backfire
+			}
+		}
+	}
+	
+	ENG_mission_to_galway = {
+
+		icon = hold_hand
+
+		available = {
+			712 = { has_state_flag = fenian_sentiment }
+			712 = { is_controlled_by = ROOT }
+		}
+
+		cost = 40
+
+		fire_only_once = no
+
+		days_remove = 14
+
+		highlight_states = {
+			highlight_state_targets = { state = 712 }
+		}
+
+		visible = {
+			712 = { has_state_flag = fenian_sentiment }
+			712 = { is_controlled_by = ROOT }
+		}
+
+		fixed_random_seed = yes #Savescum prevention
+
+		remove_effect = {
+			random_list = {
+				99 = {
+					custom_effect_tooltip = ENG_Custom_Tooltip_1
+					hidden_effect = {
+						712 = {
+							save_event_target_as = target_state
+						}
+						state_event = {
+							id = fenian.3
+							trigger_for = controller
+						}
+					}
+				}
+				1 = { country_event = { id = fenian.1 } } #Backfire
+			}
+		}
+	}
+	
+	ENG_mission_to_mayo = {
+
+		icon = hold_hand
+
+		available = {
+			713 = { has_state_flag = fenian_sentiment }
+			713 = { is_controlled_by = ROOT }
+		}
+
+		cost = 40
+
+		fire_only_once = no
+
+		days_remove = 14
+
+		highlight_states = {
+			highlight_state_targets = { state = 713 }
+		}
+
+		visible = {
+			713 = { has_state_flag = fenian_sentiment }
+			713 = { is_controlled_by = ROOT }
+		}
+
+		fixed_random_seed = yes #Savescum prevention
+
+		remove_effect = {
+			random_list = {
+				99 = {
+					custom_effect_tooltip = ENG_Custom_Tooltip_1
+					hidden_effect = {
+						713 = {
+							save_event_target_as = target_state
+						}
+						state_event = {
+							id = fenian.3
+							trigger_for = controller
+						}
+					}
+				}
+				1 = { country_event = { id = fenian.1 } } #Backfire
+			}
+		}
+	}
+	
+	ENG_mission_to_waterford = {
+
+		icon = hold_hand
+
+		available = {
+			709 = { has_state_flag = fenian_sentiment }
+			709 = { is_controlled_by = ROOT }
+		}
+
+		cost = 40
+
+		fire_only_once = no
+
+		days_remove = 14
+
+		highlight_states = {
+			highlight_state_targets = { state = 709 }
+		}
+
+		visible = {
+			709 = { has_state_flag = fenian_sentiment }
+			709 = { is_controlled_by = ROOT }
+		}
+
+		fixed_random_seed = yes #Savescum prevention
+
+		remove_effect = {
+			random_list = {
+				99 = {
+					custom_effect_tooltip = ENG_Custom_Tooltip_1
+					hidden_effect = {
+						709 = {
+							save_event_target_as = target_state
+						}
+						state_event = {
+							id = fenian.3
+							trigger_for = controller
+						}
+					}
+				}
+				1 = { country_event = { id = fenian.1 } } #Backfire
+			}
+		}
+	}
+	
+	ENG_mission_to_south_tipperary = {
+
+		icon = hold_hand
+
+		available = {
+			710 = { has_state_flag = fenian_sentiment }
+			710 = { is_controlled_by = ROOT }
+		}
+
+		cost = 40
+
+		fire_only_once = no
+
+		days_remove = 14
+
+		highlight_states = {
+			highlight_state_targets = { state = 710 }
+		}
+
+		visible = {
+			710 = { has_state_flag = fenian_sentiment }
+			710 = { is_controlled_by = ROOT }
+		}
+
+		fixed_random_seed = yes #Savescum prevention
+
+		remove_effect = {
+			random_list = {
+				99 = {
+					custom_effect_tooltip = ENG_Custom_Tooltip_1
+					hidden_effect = {
+						710 = {
+							save_event_target_as = target_state
+						}
+						state_event = {
+							id = fenian.3
+							trigger_for = controller
+						}
+					}
+				}
+				1 = { country_event = { id = fenian.1 } } #Backfire
+			}
+		}
+	}
+	
+	ENG_mission_to_tipperary = {
+
+		icon = hold_hand
+
+		available = {
+			707 = { has_state_flag = fenian_sentiment }
+			707 = { is_controlled_by = ROOT }
+		}
+
+		cost = 40
+
+		fire_only_once = no
+
+		days_remove = 14
+
+		highlight_states = {
+			highlight_state_targets = { state = 707 }
+		}
+
+		visible = {
+			707 = { has_state_flag = fenian_sentiment }
+			707 = { is_controlled_by = ROOT }
+		}
+
+		fixed_random_seed = yes #Savescum prevention
+
+		remove_effect = {
+			random_list = {
+				99 = {
+					custom_effect_tooltip = ENG_Custom_Tooltip_1
+					hidden_effect = {
+						707 = {
+							save_event_target_as = target_state
+						}
+						state_event = {
+							id = fenian.3
+							trigger_for = controller
+						}
+					}
+				}
+				1 = { country_event = { id = fenian.1 } } #Backfire
+			}
+		}
+}

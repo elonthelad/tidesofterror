@@ -1,0 +1,16 @@
+
+state={
+	id=407
+	name="STATE_407"
+	provinces={
+		436 3615 6957 6981 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=great_city
+	local_supplies=0.000
+}

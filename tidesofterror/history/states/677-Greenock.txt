@@ -1,0 +1,16 @@
+
+state={
+	id=677
+	name="STATE_677"
+	provinces={
+		4 1194 2633 3146 4432 5957 5967 5973 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

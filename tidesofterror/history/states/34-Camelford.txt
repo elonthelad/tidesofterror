@@ -1,0 +1,16 @@
+state={
+	id=34
+	name="STATE_34"
+	provinces={
+		122 2645 2902 3124 4998 8561 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 2902 5 } #"Boscastle"
+	}
+	manpower=6091
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+state={
+	id=342
+	name="STATE_342"
+	provinces={
+		657 833 1269 1541 3458 5316 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=peaks
+	local_supplies=0.000
+}

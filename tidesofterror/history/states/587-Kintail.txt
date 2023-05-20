@@ -1,0 +1,16 @@
+
+state={
+	id=587
+	name="STATE_587"
+	provinces={
+		311 943 1432 1604 1650 2458 2473 2726 2855 2936 5215 5673 5692 5701 5714 5727 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=peaks
+	local_supplies=0.000
+}

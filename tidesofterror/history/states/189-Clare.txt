@@ -1,0 +1,16 @@
+state={
+	id=189
+	name="STATE_189"
+	provinces={
+		1516 1753 3093 4528 7859 7869 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 7869 8 } #"Haverhill"
+	}
+	manpower=9295
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

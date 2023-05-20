@@ -1,0 +1,17 @@
+state={
+	id=50
+	name="STATE_50"
+	provinces={
+		181 1636 1812 2047 2386 3067 3846 4001 5505 8568 8573 8580 8582 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 5505 20 } #"Newport"
+		victory_points = { 2047 8 } #"Freshwater"
+	}
+	manpower=51569
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

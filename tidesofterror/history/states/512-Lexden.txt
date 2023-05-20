@@ -1,0 +1,18 @@
+state={
+	id=512
+	name="STATE_512"
+	provinces={
+		562 3292 3506 4452 4679 4759 4981 5350 7961 7982 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 5350 4 } #"Mersea Island"
+		victory_points = { 7982 20 } #"Colchester"
+		victory_points = { 3292 10 } #"Wivenhoe"
+	}
+	manpower=51097
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

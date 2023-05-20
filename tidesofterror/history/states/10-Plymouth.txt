@@ -1,0 +1,19 @@
+
+state={
+	id=10
+	name="STATE_10"
+	provinces={
+		2937 3214 3374 8593 8598 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 2937 25 } #"Plymouth"
+		victory_points = { 3214 15 } #"Plymstock"
+		victory_points = { 8593 18 } #"St. Budeaux"
+	}
+	manpower=145840
+	buildings_max_level_factor=1.000
+	state_category=great_city
+	local_supplies=0.000
+}

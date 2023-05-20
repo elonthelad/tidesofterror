@@ -1,0 +1,16 @@
+
+state={
+	id=380
+	name="STATE_380"
+	provinces={
+		499 840 967 1591 3461 3824 6438 6449 6455 6465 6469 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+
+state={
+	id=55
+	name="STATE_55"
+	provinces={
+		595 2287 3628 8506 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8506 8 } #"Blandford"
+	}
+	manpower=11251
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,18 @@
+
+state={
+	id=202
+	name="STATE_202"
+	provinces={
+		126 1981 3973 4220 4441 5167 7473 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4441 6 } #"Gorleston-on-Sea"
+		victory_points = { 5167 2 } #"Brundall"
+	}
+	manpower=10290
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

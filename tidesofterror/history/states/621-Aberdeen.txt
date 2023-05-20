@@ -1,0 +1,16 @@
+
+state={
+	id=621
+	name="STATE_621"
+	provinces={
+		1319 2093 2095 2199 2496 2770 3079 3579 3605 4109 4375 4383 4734 4741 4898 5044 5317 5703 5713 5724 5725 5729 5732 5734 5738 5739 5741 5742 5746 5749 5755 5756 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

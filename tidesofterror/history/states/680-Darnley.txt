@@ -1,0 +1,15 @@
+state={
+	id=680
+	name="STATE_680"
+	provinces={
+		759 5527 5993 6017 6028 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

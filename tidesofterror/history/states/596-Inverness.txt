@@ -1,0 +1,16 @@
+
+state={
+	id=596
+	name="STATE_596"
+	provinces={
+		193 237 271 334 367 497 753 883 1189 1197 1296 1333 1535 1685 1861 2018 2081 2195 2372 2912 3194 3271 3959 4045 4048 5472 5652 5665 5680 5682 5687 5696 5704 5710 5711 5718 5720 5728 5731 5735 5736 5744 5745 5751 11986 11987 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

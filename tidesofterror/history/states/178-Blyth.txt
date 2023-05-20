@@ -1,0 +1,17 @@
+state={
+	id=178
+	name="STATE_178"
+	provinces={
+		1122 1216 1809 2797 3219 3915 4411 4443 7753 7800 7814 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 3219 2 } #"Dunwich"
+		victory_points = { 3915 4 } #"Halesworth"
+	}
+	manpower=4785
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

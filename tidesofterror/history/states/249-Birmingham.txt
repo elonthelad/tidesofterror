@@ -1,0 +1,16 @@
+
+state={
+	id=249
+	name="STATE_249"
+	provinces={
+		400 1115 1425 3178 3315 4005 4424 7575 7619 7633 7647 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=urban_borough
+	local_supplies=0.000
+}

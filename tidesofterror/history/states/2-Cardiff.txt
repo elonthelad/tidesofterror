@@ -1,0 +1,19 @@
+
+state={
+	id=2
+	name="STATE_2"
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		424 1169 2097 2114 2617 3778 4329 4961 5087 5149 5295 8162 8168 8169 8184 8213 8232 8238 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=great_city
+	local_supplies=0.000
+}

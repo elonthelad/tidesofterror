@@ -1,0 +1,16 @@
+state={
+	id=131
+	name="STATE_131"
+	provinces={
+		1293 3247 4493 5106 8414 8426 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 1293 5 } #"Tenterden"
+	}
+	manpower=9463
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

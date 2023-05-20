@@ -1,0 +1,18 @@
+state={
+	id=120
+	name="STATE_120"
+	provinces={
+		279 539 1727 1960 5368 8529 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 1727 12 } #"Littlehampton"
+		victory_points = { 8529 25 } #"Worthing"
+		victory_points = { 539 8 } #"Shoreham-by-Sea"
+	}
+	manpower=96935
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+state={
+	id=227
+	name="STATE_227"
+	provinces={
+		3796 4207 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

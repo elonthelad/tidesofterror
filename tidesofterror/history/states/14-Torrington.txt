@@ -1,0 +1,16 @@
+state={
+	id=14
+	name="STATE_14"
+	provinces={
+		455 512 2012 2652 3050 3746 4756 4880 8470 8486 8509 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 512 5 } #"Great Torrington"
+	}
+	manpower=6741
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

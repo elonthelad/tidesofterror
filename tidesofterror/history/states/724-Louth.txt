@@ -1,0 +1,15 @@
+state={
+	id=724
+	name="STATE_724"
+	provinces={
+		638 1945 2038 2117 2749 3204 3255 3277 3659 3924 4249 4297 4740 5002 6552 6565 6572 6585 6587 6593 6602 6619 6620 6648 6660 6665 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

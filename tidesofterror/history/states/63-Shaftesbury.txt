@@ -1,0 +1,16 @@
+state={
+	id=63
+	name="STATE_63"
+	provinces={
+		1387 4274 8434 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 1387 5 } #"Shaftesbury"
+	}
+	manpower=6501
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

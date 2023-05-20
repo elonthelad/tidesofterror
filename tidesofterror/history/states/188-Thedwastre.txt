@@ -1,0 +1,16 @@
+state={
+	id=188
+	name="STATE_188"
+	provinces={
+		3641 7758 7792 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 7758 5 } #"Thurston"
+	}
+	manpower=7530
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

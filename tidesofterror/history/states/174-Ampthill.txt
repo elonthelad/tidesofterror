@@ -1,0 +1,16 @@
+
+state={
+	id=174
+	name="STATE_174"
+	provinces={
+		1974 3330 4577 5075 5336 7904 7924 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=520
+	name="STATE_520"
+	provinces={
+		1466 1718 2167 3508 5051 8195 8199 8211 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8211 25 } #"Southend-on-Sea"
+		victory_points = { 3508 6 } #"Hockley"
+		victory_points = { 8199 10 } #"Rochford"
+	}
+	manpower=57403
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

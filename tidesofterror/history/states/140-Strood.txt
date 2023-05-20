@@ -1,0 +1,22 @@
+
+state={
+	id=140
+	name="STATE_140"
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4954 30 } #"Rochester"
+		victory_points = { 8279 15 } #"Wainscott"
+		victory_points = { 8288 18 } #"Gillingham"
+		victory_points = { 8261 10 } #"Chalk"
+	}
+
+	provinces={
+		708 3270 3911 4259 4954 5394 8261 8268 8272 8275 8279 8288 8308 8315 
+	}
+	manpower=70596
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=235
+	name="STATE_235"
+	provinces={
+		698 1671 2602 3193 3895 4083 4235 4619 5207 7375 7379 7420 7443 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

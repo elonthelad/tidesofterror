@@ -1,0 +1,17 @@
+state={
+	id=93
+	name="STATE_93"
+	provinces={
+		1160 1517 1717 1833 2566 3492 3947 8468 8482 8493 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 3492 12 } #"Waterlooville"
+		victory_points = { 1160 5 } #"Shedfield"
+	}
+	manpower=50629
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

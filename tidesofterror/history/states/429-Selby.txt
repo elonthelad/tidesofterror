@@ -1,0 +1,15 @@
+state={
+	id=429
+	name="STATE_429"
+	provinces={
+		2035 6753 6765 6776 6785 6796 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+state={
+	id=490
+	name="STATE_490"
+	provinces={
+		2113 2192 4136 4879 5252 7983 7995 8030 8034 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

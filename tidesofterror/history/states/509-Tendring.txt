@@ -1,0 +1,18 @@
+state={
+	id=509
+	name="STATE_509"
+	provinces={
+		2981 4320 4425 4896 4966 5446 7991 7992 8058 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8058 12 } #"Clacton-on-Sea"
+		victory_points = { 7991 10 } #"Walton-on-the-Naze"
+		victory_points = { 4966 5 } #"Harwich"
+	}
+	manpower=46966
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

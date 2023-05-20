@@ -1,0 +1,17 @@
+state={
+	id=129
+	name="STATE_129"
+	provinces={
+		232 361 958 1453 1642 2214 3608 4191 4743 4979 5450 8451 8491 8508 8514 8525 12054 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 5450 20 } #"Hastings"
+		victory_points = { 2214 6 } #"Camber"
+	}
+	manpower=61742
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

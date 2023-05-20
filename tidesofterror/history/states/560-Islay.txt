@@ -1,0 +1,15 @@
+state={
+	id=560
+	name="STATE_560"
+	provinces={
+		235 744 924 971 1156 3032 4009 4460 4676 5086 5132 5955 6002 6014 6034 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

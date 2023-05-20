@@ -1,0 +1,15 @@
+state={
+	id=728
+	name="STATE_728"
+	provinces={
+		3274 4199 4543 4706 4889 6338 6354 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

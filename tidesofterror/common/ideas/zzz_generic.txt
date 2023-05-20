@@ -1,0 +1,88 @@
+ideas = {
+
+	hidden_ideas = {
+	}
+
+	# Special ones that can be applied on other countries through focus system.
+	country = {
+		ENGIDEA_fenian_remnants = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				drift_defence_factor = -0.1
+				no_compliance_gain = 1
+				stability_factor = -0.15
+				resistance_target = 0.2
+			}	
+		}
+		
+		ENGIDEA_minor_quakes = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				supply_node_range = -0.1
+				industry_repair_factor = -0.2
+			}	
+		}
+		
+		ENGIDEA_freight_crisis = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_weekly = -0.02
+				industrial_capacity_factory = -0.2
+				monthly_population = -0.4
+			}
+		}
+		
+		ENGIDEA_military_preparations = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				max_planning = 0.15
+			}
+			
+			targeted_modifier = {
+				tag = FEN
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+
+state={
+	id=45
+	name="STATE_45"
+	provinces={
+		594 1378 2231 4081 4581 4600 8409 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4600 15 } #"Glastonbury"
+	}
+	manpower=19109
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

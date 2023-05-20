@@ -1,0 +1,18 @@
+
+state={
+	id=125
+	name="STATE_125"
+	provinces={
+		1212 2535 3619 4627 8444 8456 8476 8512 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8444 10 } #"Haywards Heath"
+		victory_points = { 8476 8 } #"Burgess Hill"
+	}
+	manpower=40709
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

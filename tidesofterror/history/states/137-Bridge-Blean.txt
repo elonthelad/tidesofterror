@@ -1,0 +1,18 @@
+
+state={
+	id=137
+	name="STATE_137"
+	provinces={
+		522 913 1745 2752 3359 4834 5021 8301 8329 8342 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 5021 15 } #"Canterbury"
+		victory_points = { 8301 10 } #"Whitstable"
+	}
+	manpower=53283
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

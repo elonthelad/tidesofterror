@@ -1,0 +1,31 @@
+caslon antique
+
+georgia (its bigger than it seems!)
+
+sitka heading (its bigger than it seems!)
+
+
+cg_16b #Used in tooltips
+#8x8x8x8 Pad, 1x1 Space
+#No outline, added shadow in ps
+#Georgia, 15px
+
+hoi_16mbs #Used in small titles, modifiers
+#8x8x8x8 Pad, 1x1 Space
+#No outline, added shadow in ps
+#Sitka Banner
+
+hoi_20b #Used in difficulty select
+#8x8x8x8 Pad, 1x1 Space
+#No outline, added shadow in ps
+#Georgia 14px
+
+hoi_30header #Used in loading top status
+#8x8x8x8 Pad, 1x1 Space
+#No outline, added shadow in ps
+#Sitka Banner 32px
+
+hoi_36header #Used in view titles, politic, research, states, logistics menu
+#8x8x8x8 Pad, 1x1 Space
+#No outline, added shadow in ps
+#Georgia, 32px

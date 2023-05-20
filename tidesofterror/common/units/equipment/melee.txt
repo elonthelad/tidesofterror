@@ -1,0 +1,138 @@
+equipments = {
+
+	melee_weapons = {
+		year = 1868
+	
+		is_archetype = yes
+		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#Mental Affects
+		armor_value = 6 #Resolve
+		ap_attack = 1 #Terror
+
+		#Combat Abilities
+		soft_attack = 1.6 #Standard Damage
+		hard_attack = 0.2 #Piercing Damage
+		air_attack = 0
+		defense = 8
+		breakthrough = 12
+		
+		#Misc Abilities
+		reliability = 0.95
+		maximum_speed = 4
+		hardness = 0.20 #Toughness
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 0.2
+		resources = {
+			steel = 3
+		}
+	}
+
+	melee_weapons1 = {
+		year = 1868
+	
+		archetype = melee_weapons
+		active = no
+		priority = 0.5
+		visual_level = 0
+	}
+
+	melee_weapons2 = {
+		year = 1869
+	
+		archetype = melee_weapons
+		parent = melee_weapons1
+		priority = 10
+		visual_level = 1
+		
+		#Mental Affects
+		armor_value = 8 #Resolve
+		ap_attack = 1 #Terror
+
+		#Combat Abilities
+		soft_attack = 2 #Standard Damage
+		hard_attack = 0.4 #Piercing Damage
+		air_attack = 0
+		defense = 10
+		breakthrough = 14
+		
+		#Misc Abilities
+		reliability = 0.94
+		maximum_speed = 4
+		hardness = 0.20 #Toughness
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 0.28
+	}
+
+	melee_weapons3 = {
+		year = 1869
+	
+		archetype = melee_weapons
+		parent = melee_weapons2
+		priority = 10
+		visual_level = 1
+		
+		#Mental Affects
+		armor_value = 12 #Resolve
+		ap_attack = 1.1 #Terror
+
+		#Combat Abilities
+		soft_attack = 4 #Standard Damage
+		hard_attack = 2 #Piercing Damage
+		air_attack = 0
+		defense = 14
+		breakthrough = 20
+		
+		#Misc Abilities
+		reliability = 0.92
+		maximum_speed = 4
+		hardness = 0.20 #Toughness
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 0.34
+	}
+
+	melee_weapons4 = {
+		year = 1871
+	
+		archetype = melee_weapons
+		parent = melee_weapons3
+		priority = 10
+		visual_level = 1
+		
+		#Mental Affects
+		armor_value = 16 #Resolve
+		ap_attack = 2 #Terror
+
+		#Combat Abilities
+		soft_attack = 6 #Standard Damage
+		hard_attack = 3 #Piercing Damage
+		air_attack = 0
+		defense = 20
+		breakthrough = 28
+		
+		#Misc Abilities
+		reliability = 0.90
+		maximum_speed = 4
+		hardness = 0.20 #Toughness
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 0.45
+	}
+
+}

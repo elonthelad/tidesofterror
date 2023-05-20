@@ -1,0 +1,17 @@
+state={
+	id=99
+	name="STATE_99"
+	provinces={
+		1072 1619 3289 4217 4381 8311 8317 8328 8333 8339 8348 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8333 6 } #"Farnborough"
+		victory_points = { 8311 4 } #"Blackwater"
+	}
+	manpower=5918
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

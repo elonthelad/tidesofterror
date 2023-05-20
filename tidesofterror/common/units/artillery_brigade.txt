@@ -1,0 +1,337 @@
+sub_units = {
+
+	artillery_brigade = {
+		abbreviation = "ART"
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 1198
+		ai_priority = 100
+		active = yes
+		
+		type = {
+			infantry
+			artillery
+		}
+
+		group = ordnance
+		
+		categories = {
+			category_army
+			category_line_artillery
+			category_artillery
+		}
+
+		combat_width = 3
+
+		manpower = 400
+		need = {
+			artillery_equipment = 40
+		}
+		
+		max_strength = 0.6
+		max_organisation = 5
+		default_morale = 0.1
+		training_time = 120
+		weight = 0.5
+		supply_consumption = 0.19
+		
+		forest = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		hills = {
+			movement = -0.05
+		}
+
+		mountain = {
+			movement = -0.2
+		}
+
+		marsh = {
+			attack = -0.2
+			movement = -0.3
+		}
+
+		fort = {
+			attack = 0.1
+		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		amphibious = {
+			attack = -0.4
+		}
+	}
+
+	mortar_regiments = {
+		abbreviation = "MTR"
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 1198
+		ai_priority = 100
+		active = yes
+		
+		type = {
+			infantry
+			artillery
+		}
+
+		group = ordnance
+		
+		categories = {
+			category_army
+			category_line_artillery
+			category_artillery
+		}
+
+		combat_width = 3
+
+		manpower = 400
+		need = {
+			mortar_equipment = 40
+		}
+		
+		max_strength = 0.5
+		max_organisation = 2
+		default_morale = 0.1
+		training_time = 120
+		weight = 0.5
+		supply_consumption = 0.17
+		
+		forest = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		hills = {
+			movement = -0.05
+		}
+
+		mountain = {
+			movement = -0.2
+		}
+
+		marsh = {
+			attack = -0.2
+			movement = -0.3
+		}
+
+		fort = {
+			attack = 0.1
+		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		amphibious = {
+			attack = -0.4
+		}
+	}
+
+	gatling_squadron = {
+		abbreviation = "GAT"
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 1198
+		ai_priority = 100
+		active = yes
+		
+		type = {
+			infantry
+			artillery
+		}
+
+		group = ordnance
+		
+		categories = {
+			category_army
+			category_line_artillery
+			category_artillery
+		}
+
+		combat_width = 3
+
+		manpower = 400
+		need = {
+			gatling_equipment = 40
+		}
+		
+		max_strength = 1.5
+		max_organisation = 15
+		default_morale = 0.1
+		training_time = 120
+		weight = 0.5
+		supply_consumption = 0.24
+		
+		forest = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		hills = {
+			movement = -0.05
+		}
+
+		mountain = {
+			movement = -0.2
+		}
+
+		marsh = {
+			attack = -0.2
+			movement = -0.3
+		}
+
+		fort = {
+			attack = 0.1
+		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		amphibious = {
+			attack = -0.4
+		}
+	}
+	
+	handcannoneers = {
+		abbreviation = "HND"
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 1198
+		ai_priority = 100
+		active = yes
+		
+		type = {
+			infantry
+			artillery
+		}
+
+		group = ordnance
+		
+		categories = {
+			category_army
+			category_line_artillery
+			category_artillery
+		}
+
+		combat_width = 3
+
+		manpower = 400
+		need = {
+			handcannon_equipment = 40
+		}
+		
+		max_strength = 15
+		max_organisation = 30
+		default_morale = 0.1
+		training_time = 120
+		weight = 0.5
+		supply_consumption = 0.22
+		
+		forest = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		hills = {
+			movement = -0.05
+		}
+
+		mountain = {
+			movement = -0.2
+		}
+
+		marsh = {
+			attack = -0.2
+			movement = -0.3
+		}
+
+		fort = {
+			attack = 0.1
+		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		amphibious = {
+			attack = -0.4
+		}
+	}
+
+	scorch_crew = {
+		abbreviation = "SCR"
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 1198
+		ai_priority = 100
+		active = yes
+		
+		type = {
+			infantry
+			artillery
+		}
+
+		group = ordnance
+		
+		categories = {
+			category_army
+			category_line_artillery
+			category_artillery
+		}
+
+		combat_width = 3
+
+		manpower = 400
+		need = {
+			scorch_equipment = 40
+		}
+		
+		max_strength = 10
+		max_organisation = 40
+		default_morale = 0.1
+		training_time = 120
+		weight = 0.5
+		supply_consumption = 0.15
+		
+		forest = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		hills = {
+			movement = -0.05
+		}
+
+		mountain = {
+			movement = -0.2
+		}
+
+		marsh = {
+			attack = -0.2
+			movement = -0.3
+		}
+
+		fort = {
+			attack = 0.1
+		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		amphibious = {
+			attack = -0.4
+		}
+	}
+}

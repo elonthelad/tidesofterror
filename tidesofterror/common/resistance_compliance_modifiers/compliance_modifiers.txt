@@ -1,0 +1,3 @@
+#check resistance_modifiers.txt for example
+
+

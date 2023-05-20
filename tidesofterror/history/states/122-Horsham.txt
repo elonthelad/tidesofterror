@@ -1,0 +1,18 @@
+state={
+	id=122
+	name="STATE_122"
+	provinces={
+		1138 1966 2028 3055 4422 5254 8433 8437 8447 8449 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 1966 6 } #"Horsham"
+		victory_points = { 3055 5 } #"Three Bridges"
+		victory_points = { 5254 8 } #"Crawley"
+	}
+	manpower=14903
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=54
+	name="STATE_54"
+	provinces={
+		1372 1611 3887 3907 4813 8477 8498 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8477 30 } #"Southampton"
+		victory_points = { 3907 18 } #"Shirley"
+		victory_points = { 1611 18 } #"Woolston"
+		victory_points = { 4813 15 } #"Midanbury"
+		victory_points = { 3887 15 } #"Eastleigh"
+	}
+	manpower=187466
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

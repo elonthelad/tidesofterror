@@ -1,0 +1,21 @@
+
+state={
+	id=538
+	name="STATE_538"
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8341 10 } #"Chessington"
+		victory_points = { 2368 12 } #"Surbiton"
+		victory_points = { 701 8 } #"Sutton"
+	}
+
+	provinces={
+		701 2368 2725 3305 3413 3879 8309 8326 8341 
+	}
+	manpower=24778
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

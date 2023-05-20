@@ -1,0 +1,19 @@
+
+state={
+	id=515
+	name="STATE_515"
+	provinces={
+		699 1171 1282 2600 3629 5172 7988 8013 8042 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 2600 10 } #"Braintree"
+		victory_points = { 8013 5 } #"Great Notley"
+		victory_points = { 8042 8 } #"Witham"
+	}
+	manpower=40257
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

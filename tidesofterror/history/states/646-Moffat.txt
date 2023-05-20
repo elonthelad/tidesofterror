@@ -1,0 +1,15 @@
+state={
+	id=646
+	name="STATE_646"
+	provinces={
+		394 1904 2522 2524 4512 5101 6128 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=peaks
+	local_supplies=0.000
+}

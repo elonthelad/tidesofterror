@@ -1,0 +1,17 @@
+
+state={
+	id=58
+	name="STATE_58"
+	provinces={
+		575 2714 3844 3978 4044 5203 5479 8346 8361 8378 8380 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4044 10 } #"Wells"
+	}
+	manpower=20211
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

@@ -1,0 +1,5 @@
+﻿l_english:
+ ENG_Custom_Tooltip_1:0 "§GWe settle peace in the state.§!"
+ ENG_Custom_Tooltip_2:0 "There needs to be 3 or less states with Irish Sentiment. There is currently:§Y [?global.amount_of_fen_states]§!"
+ 
+ customtooltip_cosmicire5:0 "§0This will bring the attention of the Gods Beyond.§!"

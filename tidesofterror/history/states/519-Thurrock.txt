@@ -1,0 +1,17 @@
+state={
+	id=519
+	name="STATE_519"
+	provinces={
+		472 4727 5498 8210 8227 8234 8246 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8246 10 } #"Tilbury"
+		victory_points = { 4727 12 } #"Grays"
+	}
+	manpower=31435
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

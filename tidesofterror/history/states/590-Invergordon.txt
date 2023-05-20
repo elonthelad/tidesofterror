@@ -1,0 +1,15 @@
+state={
+	id=590
+	name="STATE_590"
+	provinces={
+		124 191 945 979 1617 4240 5430 5604 5609 5613 5614 5620 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

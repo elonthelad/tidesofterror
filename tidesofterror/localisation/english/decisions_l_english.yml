@@ -1,0 +1,55 @@
+﻿l_english:
+ DECISIONVIEW_TITLE:0 "Events and Decisions"
+ DECISIONSVIEW_EVENT_HEADER:0 "Notification Settings:"
+ POPUP_NEWS:0 "Newsletters"
+ POPUP_EVENTS:0 "Event Popup"
+ CATEGORY_COLLAPSE_DESC:0 "§GClick§! to collapse."
+ CATEGORY_EXPAND_DESC:0 "§GClick§! to expand."
+ DECISION_KEEP_NOTIFIED:1 "§HNotify§!\n\n§GClick§! to §Rnot be notified§! when it is next possible to enact this Decision.\n"
+ DECISION_NOT_KEEP_NOTIFIED:1 "§HNotify§!\n\n§GClick§! to §Gbe notified§! when it is next possible to enact this Decision.\n"
+ TAKE_DECISION_HEADER:0 "§HTake decision§!\n\n"
+ NEWS_POPUP_CHECKBOX_TOOLTIP:0 "§GClick§! to toggle News notifications."
+ EVENT_POPUP_CHECKBOX_TOOLTIP:0 "§GClick§! to toggle Event notifications."
+ MINOR_EVENT_POPUP_CHECKBOX_TOOLTIP:0 "§GClick§! to toggle minor event notifications, such as Ace Pilot events."
+ POPUP_MINOR_EVENTS:0 "Minor Popup"
+ DECISION_COST_DESC:0 "It would cost £pol_power $VAL|H0$ to enact this Decision."
+ DECISION_COST_NOT_ENOUGH:0 "It would cost £pol_power $VAL|HR0$ to enact this Decision."
+ ON_MAP_DECISION_NAME_DEFAULT:0 "Find decisions on the map."
+ ADD_DAYS_TO_DECISION:0 "Add $DAYS|H$ days to Decision $DECISION|H$"
+ REMOVE_DAYS_TO_DECISION:0 "Remove $DAYS|H$ days from Decision $DECISION|H$"
+ ADD_DAYS_TO_MISSION:0 "Add $DAYS|H$ days to Mission $MISSION|H$"
+ REMOVE_DAYS_TO_MISSION:0 "Remove $DAYS|H$ days from Mission $MISSION|H$"
+ CLICK_TO_TOGGLE_ALL_CATEGORY_DECISION_TRACKING:0 "§GClick§! to toggle notification status for all decisions under this category."
+ 
+ decision_cost_civ_factory_5:1 "£civ_factory  §Y5§!"
+ decision_cost_civ_factory_5_blocked:1 "£civ_factory  §R5§!"
+ decision_cost_civ_factory_5_tooltip:1 "It costs £civ_factory  §Y5§! while this decision is active"
+ 
+ decision_cost_1000_police:0 "£infantry_equipment_text_icon  §Y1000§!"
+ decision_cost_1000_police_blocked:0 "£infantry_equipment_text_icon  §R1000§!"
+ decision_cost_1000_police_tooltip:0 "It would cost £infantry_equipment_text_icon  §Y1000 Police Weapons§! and §Y1000 £manpower_texticon Manpower§! to enact this Decision."
+
+ ENG_fenian_decisioncat:0 "Malcontents of Eire"
+ ENG_fenian_decisioncat_desc:0 "The Fenian Council were of three irish upper-classmen; and this notion of Irish Independency began two years prior to its creation. Since then the council were gaining traction and causing instability throughout England and Scotland, but public approval suddenly turned when they detonated a bomb at Clerkenwell Prison in London, to attempt to free one of the Manchester Martyrs kept there.\n\nThis 'Irish Gunpowder Plot' practically blew up in their faces when the police immediately put down the perpertrators, letting no prisoners escape. This idea of an irish republic began with a most unruly riot in Kerry, Southern Ireland. It should've ended after the failure of a bombing, yet resentment in the southern region remains.\n\nWe shan't position troops within these areas, as any military presence would absolutely begin the chaos. Although, we can use this fact to the advantage of surprise.."
+ areas_with_sentiment:0 "Areas Displaying Irish Sentiment:\n[GetIrishStatesList]"
+ 
+ #[GetIrishStatesList]
+ #States: Kerry, Cork, Limerick, Galway, Mayo, Waterford, South Tipperary, Tipperary
+ 
+ ENG_fund_irish_welfare:0 "Fund Irish Welfare"
+ ENG_increase_garrisons:0 "Move Garrisons to Ireland"
+ 
+ ENG_mission_to_kerry:0 "Mission to Kerry"
+ ENG_mission_to_kerry_desc:0 "This being the origin of the revolt, would prove far too difficult to mull over diplomatically. Although, we can try.."
+ ENG_mission_to_limerick:0 "Mission to Limerick"
+ ENG_mission_to_cork:0 "Mission to Cork"
+ ENG_mission_to_clare:0 "Mission to Clare"
+ ENG_mission_to_galway:0 "Mission to Galway"
+ ENG_mission_to_mayo:0 "Mission to Mayo"
+ ENG_mission_to_waterford:0 "Mission to Waterford"
+ ENG_mission_to_south_tipperary:0 "Mission to South Tipperary"
+ ENG_mission_to_tipperary:0 "Mission to Tipperary"
+ 
+ ENG_second_fenian_plot:0 "Second Fenian Plot"
+ ENG_second_fenian_plot_desc:0 "A new plot is, without a doubt, on its way. The effects could be demonstrably worse than the last, and word has spread that the irish plan to take arms on a regional scale this time. We need to do whatever we can to ensure this will not happen!"
+ 

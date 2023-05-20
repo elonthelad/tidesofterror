@@ -1,0 +1,20 @@
+
+state={
+	id=51
+	name="STATE_51"
+	provinces={
+		676 1468 2277 2509 2923 3332 3736 3812 3948 4182 4488 4556 5219 8518 8535 8546 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8546 6 } #"Lymington"
+		victory_points = { 3736 4 } #"New Milton"
+		victory_points = { 2923 5 } #"Blackfield"
+		victory_points = { 1468 8 } #"Totton"
+	}
+	manpower=57943
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

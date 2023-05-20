@@ -1,0 +1,17 @@
+state={
+	id=553
+	name="STATE_553"
+	provinces={
+		3187 8266 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 3187 18 } #"Clapham"
+		victory_points = { 8266 16 } #"Streatham"
+	}
+	manpower=125244
+	buildings_max_level_factor=1.000
+	state_category=urban_borough
+	local_supplies=0.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=521
+	name="STATE_521"
+	provinces={
+		1952 3200 4847 8136 8143 8163 8171 8180 8181 8194 8198 8200 12052 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 4847 3 } #"Canvey Island"
+		victory_points = { 8194 20 } #"Basildon"
+		victory_points = { 1952 8 } #"Billericay"
+	}
+	manpower=31435
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

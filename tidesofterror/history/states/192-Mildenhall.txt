@@ -1,0 +1,18 @@
+
+state={
+	id=192
+	name="STATE_192"
+	provinces={
+		727 960 2735 7683 7706 7713 7738 7762 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 960 5 } #"Mildenhall"
+		victory_points = { 7738 4 } #"Kentford"
+	}
+	manpower=16943
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

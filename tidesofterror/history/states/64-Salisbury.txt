@@ -1,0 +1,16 @@
+state={
+	id=64
+	name="STATE_64"
+	provinces={
+		29 860 3453 3854 4354 4720 4824 8399 8406 8421 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 29 15 } #"Salisbury"
+	}
+	manpower=25201
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

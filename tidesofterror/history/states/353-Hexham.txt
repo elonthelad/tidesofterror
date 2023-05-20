@@ -1,0 +1,19 @@
+
+state={
+	id=353
+	name="STATE_353"
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		68 171 320 490 954 1234 3304 6246 6250 6258 6266 6275 6276 6290 6306 6325 12009 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

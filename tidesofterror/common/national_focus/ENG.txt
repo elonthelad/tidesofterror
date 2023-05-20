@@ -1,0 +1,854 @@
+focus_tree = {
+    id = english_focus
+
+    focus = {
+		id = ENG_the_freight_crisis
+		icon = GFX_goal_unknown
+		x = 5
+		y = 0
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_reduced_factory_quotas
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_the_freight_crisis }
+		x = 3
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_cancel_all_outbound_export
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_the_freight_crisis }
+		x = 7
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_manchester_outrages
+		icon = GFX_goal_unknown
+		x = 13
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		cancel = {
+		}
+		
+		bypass = {
+			NOT = {
+				ENG = {
+					has_idea = ENGIDEA_fenian_remnants
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_political_power = 60
+			add_timed_idea = {
+				idea = ENGIDEA_manc_repay
+				days = 120
+			}
+		}
+	}
+	
+	focus = {
+		id = ENG_cutting_ties
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_manchester_outrages }
+		x = 14
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = ENG_Custom_Tooltip_2
+				check_variable = {
+					global.amount_of_fen_states < 4
+				}
+			}
+		}
+		
+		bypass = {
+			NOT = {
+				ENG = {
+					has_idea = ENGIDEA_fenian_remnants
+				}
+			}
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			release_puppet = FEN
+			remove_ideas = { ENGIDEA_fenian_remnants }
+		}
+	}
+
+	focus = {
+		id = ENG_military_planning
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_manchester_outrages }
+		x = 12
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_army_manpower = { size > 69999 }
+		}
+		
+		bypass = {
+			NOT = {
+				ENG = {
+					has_idea = ENGIDEA_fenian_remnants
+				}
+			}
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_ideas = { ENGIDEA_military_preparations }
+		}
+
+		completion_reward = {
+			modify_timed_idea = {
+				idea = ENGIDEA_manc_repay
+				days = -60
+			}
+		}
+	}
+	
+	focus = {
+		id = ENG_organisation_of_intelligence
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_military_planning focus = ENG_cutting_ties }
+		x = 13
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ENG_committee_of_imperial_defence
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_organisation_of_intelligence }
+		x = 13
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+	
+    focus = {
+		id = ENG_the_expedition
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_cancel_all_outbound_export focus = ENG_reduced_factory_quotas }
+		x = 5
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_remedy_the_delegate
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_the_expedition}
+		x = 5
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_dredge_the_vessel
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_the_expedition}
+		x = 1
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    #focus = {
+	#	id = ENG_examine_the_plasm
+	#	icon = GFX_goal_unknown
+	#	prerequisite = { focus = ENG_dredge_the_vessel}
+	#	x = 1
+	#	y = 4
+	#
+	#	cost = 10
+	#
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#
+	#	available = {
+	#	}
+	#	
+	#	bypass = {
+	#	}
+	#
+	#	cancel_if_invalid = yes
+	#	continue_if_invalid = no
+	#	available_if_capitulated = yes
+	#	search_filters = { FOCUS_FILTER_POLITICAL }
+	#
+	#	completion_reward = {
+	#	}
+	#}
+
+    focus = {
+		id = ENG_dispose_evidence
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_dredge_the_vessel}
+		#prerequisite = { focus = ENG_examine_the_plasm}
+        mutually_exclusive = { focus = ENG_study_the_cliones }
+		x = 0
+		y = 4
+		#y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_study_the_cliones
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_dredge_the_vessel}
+		#prerequisite = { focus = ENG_examine_the_plasm}
+        mutually_exclusive = { focus = ENG_dispose_evidence }
+		x = 2
+		y = 4
+		#y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    #focus = {
+	#	id = ENG_suppress_the_press
+	#	icon = GFX_goal_unknown
+	#	prerequisite = { focus = ENG_the_expedition}
+	#	x = 9
+	#	y = 3
+	#
+	#	cost = 10
+	#
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#
+	#	available = {
+	#	}
+	#	
+	#	bypass = {
+	#	}
+	#
+	#	cancel_if_invalid = yes
+	#	continue_if_invalid = no
+	#	available_if_capitulated = yes
+	#	search_filters = { FOCUS_FILTER_POLITICAL }
+	#
+	#	completion_reward = {
+	#	}
+	#}
+
+    focus = {
+		id = ENG_lockdown_the_harbour
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_the_expedition}
+		#prerequisite = { focus = ENG_suppress_the_press}
+		x = 9
+		y = 3
+		#y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_stop_independent_reporters
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_lockdown_the_harbour}
+        mutually_exclusive = { focus = ENG_bribe_independent_reporters }
+		x = 8
+		y = 4
+		#y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_bribe_independent_reporters
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_lockdown_the_harbour}
+        mutually_exclusive = { focus = ENG_stop_independent_reporters }
+		x = 10
+		y = 4
+		#y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_humour_the_lunatic
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_remedy_the_delegate}
+        mutually_exclusive = { focus = ENG_snuff_out_the_screams }
+		x = 4
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			custom_effect_tooltip = customtooltip_cosmicire5
+			hidden_effect = {
+				add_named_threat = {
+					threat = 5
+					name = ire_humourlunatic
+				}
+				sound_effect = "cosmic_ire_sound"
+			}
+		}
+	}
+
+    #focus = {
+	#	id = ENG_increased_dosage
+	#	icon = GFX_goal_unknown
+	#	prerequisite = { focus = ENG_remedy_the_delegate}
+    #    mutually_exclusive = { focus = ENG_listen_and_take_heed }
+	#	x = 6
+	#	y = 4
+	#
+	#	cost = 10
+	#
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#
+	#	available = {
+	#	}
+	#	
+	#	bypass = {
+	#	}
+	#
+	#	cancel_if_invalid = yes
+	#	continue_if_invalid = no
+	#	available_if_capitulated = yes
+	#	search_filters = { FOCUS_FILTER_POLITICAL }
+	#
+	#	completion_reward = {
+	#	}
+	#}
+
+    focus = {
+		id = ENG_snuff_out_the_screams
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_remedy_the_delegate}
+        mutually_exclusive = { focus = ENG_humour_the_lunatic }
+		x = 6
+		y = 4
+		#y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_hunger_of_a_nation
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_dispose_evidence focus = ENG_study_the_cliones }
+		prerequisite = { focus = ENG_bribe_independent_reporters focus = ENG_stop_independent_reporters }
+		prerequisite = { focus = ENG_humour_the_lunatic focus = ENG_snuff_out_the_screams }
+		x = 5
+		y = 5
+		#y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_feed_the_capable
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_hunger_of_a_nation}
+        mutually_exclusive = { focus = ENG_feed_the_young }
+		x = 3
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_feed_the_young
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_hunger_of_a_nation}
+        mutually_exclusive = { focus = ENG_feed_the_capable }
+		x = 7
+		y = 6
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_immediate_re_election
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_hunger_of_a_nation}
+        mutually_exclusive = { focus = ENG_we_remain }
+		x = 4
+		y = 7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_we_remain
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_hunger_of_a_nation}
+        mutually_exclusive = { focus = ENG_immediate_re_election }
+		x = 6
+		y = 7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_investigate_the_cult
+		icon = GFX_goal_unknown
+		x = 5
+		y = 9
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_greater_tremors
+		icon = GFX_goal_unknown
+		x = 13
+		y = 9
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+}

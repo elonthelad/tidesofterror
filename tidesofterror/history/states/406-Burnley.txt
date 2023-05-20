@@ -1,0 +1,15 @@
+state={
+	id=406
+	name="STATE_406"
+	provinces={
+		742 794 1825 1869 2262 2789 5284 5474 6721 6749 6764 6783 6794 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

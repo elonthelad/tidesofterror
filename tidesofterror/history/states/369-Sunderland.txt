@@ -1,0 +1,15 @@
+state={
+	id=369
+	name="STATE_369"
+	provinces={
+		2266 4419 4928 5063 6255 6271 6277 6295 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=great_city
+	local_supplies=0.000
+}

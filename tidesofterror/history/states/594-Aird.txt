@@ -1,0 +1,15 @@
+state={
+	id=594
+	name="STATE_594"
+	provinces={
+		314 565 1364 1542 1923 2091 2520 2893 3234 3520 3874 4545 4739 4921 4931 4955 5184 5457 5670 5672 5677 5679 5684 5694 5697 5698 5706 5715 5716 5743 11988 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=peaks
+	local_supplies=0.000
+}

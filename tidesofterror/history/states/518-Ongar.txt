@@ -1,0 +1,16 @@
+state={
+	id=518
+	name="STATE_518"
+	provinces={
+		94 2521 3302 3394 5181 5253 8087 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 5253 3 } #"Chipping Ongar"
+	}
+	manpower=4970
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

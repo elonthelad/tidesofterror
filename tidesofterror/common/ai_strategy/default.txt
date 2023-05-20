@@ -1,0 +1,65 @@
+stop_death_spiral_production = {
+	
+	enable = { always = yes }
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = train
+		value = 2
+	}
+}
+
+default_unit_production = {
+
+	allowed = {
+		NOT = {
+			original_tag = ARC
+		}
+	}
+
+	enable = { always = yes }
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 45
+	}
+}
+
+default_AI_self_preservation = {
+	enable = { surrender_progress > 0.01 }
+	abort = { surrender_progress < 0.09 }
+	ai_strategy = { 
+		type = build_army 
+		id = infantry 
+		value = 200
+	}
+}
+
+ai_army_building_puppet = {
+	enable = {
+		has_army_size = {
+    		size < 5
+    		type = infantry
+		}
+		is_subject = yes
+	}
+	abort = {
+		OR = {
+			has_army_size = {
+    			size > 18
+    			type = infantry
+			}
+		}
+	}
+	ai_strategy = {
+		type = build_army
+		id = infantry
+		value = 200
+	}
+}

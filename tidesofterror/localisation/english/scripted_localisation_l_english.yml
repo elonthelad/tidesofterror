@@ -1,0 +1,4 @@
+﻿l_english:
+ STARTIRISHSTATESLIST:0 "States: [RecursiveIrishStates]"
+ IRISHSTATESEMPTY:0 "There are no states with Irish Sentiment."
+ SECTIONIRISHSTATE:0 "[?global.irishstates^temp_indexervar.GetName], [RecursiveIrishStates]"

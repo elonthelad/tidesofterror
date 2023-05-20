@@ -1,0 +1,17 @@
+state={
+	id=139
+	name="STATE_139"
+	provinces={
+		92 845 2276 3251 3385 5125 8295 8302 8318 8322 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8302 20 } #"Sittingbourne"
+		victory_points = { 8322 10 } #"Faversham"
+	}
+	manpower=69491
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

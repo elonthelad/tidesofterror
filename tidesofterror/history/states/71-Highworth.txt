@@ -1,0 +1,19 @@
+
+state={
+	id=71
+	name="STATE_71"
+	provinces={
+		225 1165 2060 3438 3447 3779 4531 4943 5102 8148 8176 8183 8215 8216 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 3438 25 } #"Swindon"
+		victory_points = { 8176 18 } #"Blunsdon"
+		victory_points = { 8183 12 } #"South Marston"
+	}
+	manpower=106770
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

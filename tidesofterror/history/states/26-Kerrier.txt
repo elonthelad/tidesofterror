@@ -1,0 +1,18 @@
+state={
+	id=26
+	name="STATE_26"
+	provinces={
+		262 617 852 1858 2271 3514 4232 4504 4917 5272 8607 8612 8613 8614 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8614 5 } #"Lizard"
+		victory_points = { 8612 5 } #"Falmouth"
+		victory_points = { 1858 20 } #"Redruth"
+	}
+	manpower=42486
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

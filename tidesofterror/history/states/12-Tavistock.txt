@@ -1,0 +1,18 @@
+
+state={
+	id=12
+	name="STATE_12"
+	provinces={
+		6 458 3047 3441 3922 4498 5412 8555 8577 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 3441 12 } #"Derriford"
+		victory_points = { 3922 5 } #"Tavistock"
+	}
+	manpower=27302
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

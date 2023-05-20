@@ -1,0 +1,18 @@
+state={
+	id=7
+	name="STATE_7"
+	provinces={
+		308 8589 8592 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8589 20 } #"Torquay"
+		victory_points = { 8592 15 } #"Paignton"
+		victory_points = { 308 15 } #"Brixham"
+	}
+	manpower=63032
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

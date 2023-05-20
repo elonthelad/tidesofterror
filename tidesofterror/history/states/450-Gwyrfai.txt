@@ -1,0 +1,16 @@
+
+state={
+	id=450
+	name="STATE_450"
+	provinces={
+		300 1593 1806 2279 3537 3719 5069 7159 7223 7228 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

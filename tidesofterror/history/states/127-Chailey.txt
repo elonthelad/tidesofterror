@@ -1,0 +1,17 @@
+state={
+	id=127
+	name="STATE_127"
+	provinces={
+		1332 2791 4388 5441 8478 8488 8507 8517 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 1332 6 } #"Newhaven"
+		victory_points = { 8507 3 } #"Tarring Neville"
+	}
+	manpower=19956
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

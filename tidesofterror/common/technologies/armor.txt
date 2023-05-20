@@ -1,0 +1,460 @@
+technologies = {
+	
+	@1918 = 0
+	@1936 = 2
+	@1938 = 4
+	@1939 = 6
+	@1940 = 8
+	@1941 = 10
+	@1942 = 12
+	@1943 = 14
+	@1944 = 16
+	@1945 = 18
+	@1946 = 20
+
+	portative_shelter = {
+
+		enable_equipments = {
+			gw_tank_equipment
+		}
+	
+		path = {
+			leads_to_tech = lead_lining
+			research_cost_coeff = 1
+		}
+	
+		path = {
+			leads_to_tech = folding_brace
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	folding_brace = {
+
+		enable_equipments = {
+		}
+	
+		path = {
+			leads_to_tech = swift_deploy_brackets
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 8 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	swift_deploy_brackets = {
+
+		enable_equipments = {
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 14 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lead_lining = {
+	
+		path = {
+			leads_to_tech = iron_coffer
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1944
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	iron_coffer = {
+
+		enable_equipments = {
+			gw_tank_equipment
+		}
+	
+		path = {
+			leads_to_tech = dense_belt_armour
+			research_cost_coeff = 1
+		}
+	
+		path = {
+			leads_to_tech = reduced_screens
+			research_cost_coeff = 1
+		}
+	
+		path = {
+			leads_to_tech = steam_donkey
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	dense_belt_armour = {
+
+		enable_equipments = {
+		}
+	
+		path = {
+			leads_to_tech = massed_layers
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	massed_layers = {
+
+		enable_equipments = {
+		}
+	
+		path = {
+			leads_to_tech = dig_in_design
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 13 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	dig_in_design = {
+
+		enable_equipments = {
+		}
+	
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 18 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	reduced_screens = {
+
+		enable_equipments = {
+		}
+	
+		path = {
+			leads_to_tech = smaller_hinges
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	smaller_hinges = {
+
+		enable_equipments = {
+		}
+	
+		path = {
+			leads_to_tech = increased_pressure_ratio
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 13 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	increased_pressure_ratio = {
+
+		enable_equipments = {
+		}
+	
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 18 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	steam_donkey = {
+
+		enable_equipments = {
+			gw_tank_equipment
+		}
+	
+		path = {
+			leads_to_tech = heavy_bearing_wheels
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavy_bearing_wheels = {
+
+		enable_equipments = {
+		}
+	
+		path = {
+			leads_to_tech = steel_jumbo
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1938
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	steel_jumbo = {
+
+		enable_equipments = {
+			gw_tank_equipment
+		}
+	
+		path = {
+			leads_to_tech = robust_treads
+			research_cost_coeff = 1
+		}
+	
+		path = {
+			leads_to_tech = glorious_great_ram
+			research_cost_coeff = 1
+		}
+	
+		path = {
+			leads_to_tech = wayward_spikes
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	robust_treads = {
+
+		enable_equipments = {
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = 20 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	glorious_great_ram = {
+
+		enable_equipments = {
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 22 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	wayward_spikes = {
+
+		enable_equipments = {
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = 1 y = 20 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

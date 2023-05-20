@@ -1,0 +1,17 @@
+
+state={
+	id=17
+	name="STATE_17"
+	provinces={
+		440 585 835 1315 1388 2845 4096 8489 8510 8520 8534 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 835 8 } #"Crediton"
+	}
+	manpower=13651
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}
