@@ -77,4 +77,4 @@ tags={
 }
 name="tidesofterror"
 supported_version="1.12.11"
-path="put in your own complete folder path to tidesofterror folder!!!!!"
+path="C:/Users/Leon1/Documents/Paradox Interactive/Hearts of Iron IV/mod/tidesofterror"
