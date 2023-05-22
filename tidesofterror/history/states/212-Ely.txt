@@ -8,8 +8,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 3970 4 } #"Ely"
+		victory_points = { 3805 2 } #"Witchford"
 	}
-	manpower=10000
+	manpower=9324
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

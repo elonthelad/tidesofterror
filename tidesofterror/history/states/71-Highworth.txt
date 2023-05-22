@@ -12,7 +12,7 @@ state={
 		victory_points = { 8176 18 } #"Blunsdon"
 		victory_points = { 8183 12 } #"South Marston"
 	}
-	manpower=106770
+	manpower=76770
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

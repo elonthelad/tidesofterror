@@ -13,10 +13,9 @@ state={
 		victory_points = { 8242 35 } #"Bristol"
 		victory_points = { 8228 18 } #"Bishopston"
 		victory_points = { 8225 12 } #"Kingswood"
-		victory_points = { 5154 10 } #"Cheswick"
 	}
-	manpower=94548
+	manpower=104692
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=great_city
 	local_supplies=0.000
 }

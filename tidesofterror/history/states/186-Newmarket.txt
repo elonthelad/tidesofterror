@@ -7,9 +7,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 7759 10 } #"Newmarket"
 	}
-	manpower=10000
+	manpower=15131
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

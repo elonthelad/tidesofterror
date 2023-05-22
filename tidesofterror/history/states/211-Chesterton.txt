@@ -3,14 +3,17 @@ state={
 	id=211
 	name="STATE_211"
 	provinces={
-		1949 2290 3515 4807 4857 5019 5213 5401 7708 7722 7740 7741 
+		1130 1949 3515 4807 4857 5019 5213 5401 7708 7740 7741 7817 7835
 	}
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 3515 4 } #"Cambourne"
+		victory_points = { 5213 2 } #"Milton"
+		victory_points = { 5019 4 } #"Bar Hill"
 	}
-	manpower=10000
+	manpower=14324
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=pastoral
 	local_supplies=0.000
 }

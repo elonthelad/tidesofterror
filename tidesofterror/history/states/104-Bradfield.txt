@@ -1,19 +1,16 @@
-
 state={
 	id=104
 	name="STATE_104"
-
-	history={
-		owner = ENG
-		add_core_of = ENG
-
-	}
-
 	provinces={
 		384 1608 4102 8221 8281 
 	}
-	manpower=10000
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 1608 4 } #"Burghfield"
+	}
+	manpower=6494
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=pastoral
 	local_supplies=0.000
 }

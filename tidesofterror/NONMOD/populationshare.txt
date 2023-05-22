@@ -19,21 +19,22 @@
 19	Cheshire			478800
 20	Derbyshire			477000
 21	Leicestershire		476100
+22a Middlesex			461042 DONE
 22	Somerset			442350 DONE
-23	Berkshire			412200
-24	Gloucestershire		408150
+23	Berkshire			412200 DONE
+24	Gloucestershire		408150 DONE
 25	Norfolk				402300 DONE
 26	County Durham		387000
 27	West Sussex			388350 DONE
-28	Cambridgeshire		380700
+28	Cambridgeshire		380700 DONE
 29	East Sussex			379350 DONE
-30	Buckinghamshire		360000
+30	Buckinghamshire		360000 DONE
 31	Suffolk				345150 DONE
 32	Dorset				343800 DONE
 33	Northamptonshire	333450
 34	Wiltshire			320850 DONE
-35	Oxfordshire			312750
-36	Bedfordshire		293850
+35	Oxfordshire			312750 DONE
+36	Bedfordshire		293850 DONE
 37	East Riding			267300
 38	Worcestershire		265500
 39	Warwickshire		261450
@@ -44,6 +45,9 @@
 44	Northumberland		141300
 45	Herefordshire		91350
 46	Rutland				18900
+
+
+		victory_points = { 9999 99 } #"Blablablablablablablablabla"
 
 state calculation-
 

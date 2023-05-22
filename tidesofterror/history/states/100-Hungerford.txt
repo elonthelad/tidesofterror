@@ -1,4 +1,3 @@
-
 state={
 	id=100
 	name="STATE_100"
@@ -8,9 +7,9 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
-		victory_points = { 2900 10 } #"Stockcross"
+		victory_points = { 2900 2 } #"Ramsbury"
 	}
-	manpower=10000
+	manpower=6496
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -2,14 +2,16 @@ state={
 	id=229
 	name="STATE_229"
 	provinces={
-		130 2103 4840 4884 7673 7699 
+		130 2103 4840 4884 7673 7699 7722 
 	}
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 7722 10 } #"Huntingdon"
+		victory_points = { 2103 6 } #"Sawtry"
 	}
-	manpower=10000
+	manpower=15907
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

@@ -7,8 +7,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 7786 12 } #"Arbury"
+		victory_points = { 7811 20 } #"Cambridge"
+		victory_points = { 5176 4 } #"Fulbourn"
 	}
-	manpower=10000
+	manpower=67472
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

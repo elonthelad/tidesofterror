@@ -1,16 +1,19 @@
-
 state={
 	id=175
 	name="STATE_175"
 	provinces={
-		588 695 1176 1393 1664 3151 4145 4216 4238 4252 4810 7761 7819 7848 7886 7897 
-	}
-	history={
+		588 695 1176 1393 1664 3151 4145 4216 4238 4252 4810 7761 7819 7848 7886 7897 8739 8740 8742
+	}                                                                                 
+	history={                                                                         
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 4145 20 } #"Bedford"
+		victory_points = { 7848 12 } #"Putnoe"
+		victory_points = { 3151 15 } #"Kempston"
+		victory_points = { 4216 6 } #"Sandy"
 	}
-	manpower=10000
+	manpower=86373
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=large_town
 	local_supplies=0.000
 }

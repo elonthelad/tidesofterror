@@ -1,18 +1,15 @@
-
 state={
 	id=166
 	name="STATE_166"
-
-	history={
-		owner = ENG
-		add_core_of = ENG
-
-	}
-
 	provinces={
 		1391 3197 4603 8179 8187 8223 8229 8243 
 	}
-	manpower=10000
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 8229 14 } #"Slough"
+	}
+	manpower=21151
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

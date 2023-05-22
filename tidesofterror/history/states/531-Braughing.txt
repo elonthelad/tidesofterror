@@ -7,9 +7,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 7999 5 } #"Bishop's Stortford"
 	}
-	manpower=10000
+	manpower=12249
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=pastoral
 	local_supplies=0.000
 }

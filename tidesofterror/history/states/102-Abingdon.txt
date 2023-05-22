@@ -7,8 +7,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 8135 12 } #"Abingdon"
+		victory_points = { 8066 10 } #"Chawley"
 	}
-	manpower=10000
+	manpower=36541
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

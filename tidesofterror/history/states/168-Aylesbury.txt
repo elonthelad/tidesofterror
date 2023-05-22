@@ -1,4 +1,3 @@
-
 state={
 	id=168
 	name="STATE_168"
@@ -8,8 +7,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 1612 15 } #"Aylesbury"
+		victory_points = { 5231 8 } #"Ashton Clinton"
+		victory_points = { 8070 4 } #"Haddenham"
 	}
-	manpower=10000
+	manpower=35083
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000
