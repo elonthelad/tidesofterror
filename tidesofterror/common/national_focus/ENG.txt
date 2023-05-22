@@ -212,7 +212,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_military_planning focus = ENG_cutting_ties }
 		x = 13
-		y = 4
+		y = 3
 
 		cost = 10
 
@@ -240,7 +240,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_organisation_of_intelligence }
 		x = 13
-		y = 6
+		y = 5
 
 		cost = 10
 
@@ -826,9 +826,205 @@ focus_tree = {
 	}
 
     focus = {
-		id = ENG_greater_tremors
+		id = ENG_attacks_on_the_coast
 		icon = GFX_goal_unknown
+		x = 10
+		y = 7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_undermine_the_abyssus_theory
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_attacks_on_the_coast }
+		x = 10
+		y = 8
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_the_late_strangers_of_the_sea
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_undermine_the_abyssus_theory }
+		x = 10
+		y = 10
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_the_temple_from_the_earth
+		icon = GFX_goal_unknown
+		x = 14
+		y = 7
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_assemble_the_royal_expeditioneers
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_the_temple_from_the_earth }
 		x = 13
+		y = 8
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_source_of_the_great_sea_swells
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_assemble_the_royal_expeditioneers }
+		prerequisite = { focus = ENG_undermine_the_abyssus_theory }
+		x = 13
+		y = 10
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_rebuild_and_never_return
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_the_temple_from_the_earth }
+		x = 15
+		y = 8
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_coastal_walling
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_assemble_the_royal_expeditioneers focus = ENG_rebuild_and_never_return }
+		x = 15
 		y = 9
 
 		cost = 10

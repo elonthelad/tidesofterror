@@ -1,15 +1,13 @@
 ﻿l_english:
- FOCUS_TREE_VIEW_HEADER:0 "Story Tree of $COUNTRY$"
+ FOCUS_TREE_VIEW_HEADER:0 "Focus Tree of $COUNTRY$"
  WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
  generic_focus:0 "Generic Focus"
  NATIONAL_FOCUS_NO_CURRENT_EFFECT:0 "This Story Focus currently has no Effect."
  NATIONAL_FOCUS_MUTUALLY_EXCLUSIVE_TREE:0 "These branches are incompatible with one another. Choose only one."
  NATIONAL_FOCUS_EXCLUSIVE_INFO_DESC:0 "Mutually exclusive with"
  NATIONAL_FOCUS_EXCLUSIVE_INFO_ENTRY:0 "$FOCUS|Y$"
- 
- CLICK_OPEN_FOCUS:0 "\n\n§GClick to show your story tree§!"
+ CLICK_OPEN_FOCUS:0 "\n\n§GClick to show your focus tree§!"
  FOCUS_DAYS_SAVED:0 "Saved $DAYS|0H$ of $TOTAL|0H$ days.\nPicking a focus will use $VALUE|0H$ £pol_power£"
- 
  HISTORICAL_FOCUS:0 "This story focus remains part of the canon path."
  alert_select_focus_instant:0 "§HNo Focus Selected§!"
  alert_select_focus_delayed:0 "We should guide our nation using Story Focuses. They will prove to be integral to the success and future of this world."
@@ -60,7 +58,6 @@
  CURRENT_FOCUS:0 "$FOCUS|H$"
  BYPASS_FOCUS_TRIGER:1 "The following will bypass the focus:"
  BYPASS_FOCUS:1 "Bypass"
- 
  CONTINUOUS_FOCUS_TREE_HEADER:0 "Continuous Focuses"
  CONTINUOUS_FOCUS_TREE_DESC:0 "Remains active until you change focus again"
  CONTINUOUS_FOCUS_LOCKED_DESC:0 "§RComplete $LEFT|H$ more Story Focuses.§!"
@@ -88,39 +85,68 @@
  FOCUS_STATUS_INPROGRESS_TOOLTIP:0 "We have $LEFT|0H$ days until this focus will conclude."
  FOCUS_STATUS_INPROGRESS_NO_INTEL_TOOLTIP:0 "Not enough intel for current progress."
  FOCUS_EXCLUSIVE_SINGLE:0 "This Focus can only be selected if you don't already have $FOCUS$"
- 
- 
  FOCUS_EXCLUSIVE_LIST:0 "This Focus can only be selected if you don't already have any of the following:\n"
  UNLOCK_FOCUS_EFFECT:0 "$WHO|H$ unlocks focus $LIST|H$"
  UNLOCK_COMPLETE_EFFECT:0 "$WHO|H$ completes focus $LIST|H$"
  UNCOMPLETE_FOCUS_EFFECT:0 "$WHO|H$ uncompletes focus $LIST|H$"
  
+ #ENG Focuses
+ 
  ENG_the_freight_crisis:0 "The Freight Crisis"
+ ENG_the_freight_crisis_desc:0 "The Freight Crisis has wracked our internal economy relentlessly- since we returned from our last campaign across the southeastern charter in Burma, absolutely none of our clippers or steamers have returned to port at all. Our inventories remain starved; supply lines in disrepair, our harbours clamouring for help, not to mention the common populace that suspect even a plot of epic proportion. We must have find a conclusion, or perhaps a nicely framed scapegoat."
+ 
  ENG_reduced_factory_quotas:0 "Reduced Factory Quotas"
- ENG_cancel_all_outbound_export:0 "Cancel all Outbound Export"
+ ENG_reduced_factory_quotas_desc:0 "On the detail of the loss of all incoming trade, our factories are at a loss for production. We've resorted to falling in to the demands of the foremen, much to our chagrin, but it does suit our situation better, it must be said."
+ 
+ ENG_cancel_all_outbound_export:0 "Freeze all Outbound Export"
+ ENG_cancel_all_outbound_export_desc:0 "We are losing vessels at a rate unseen before- A harsh announcement must be made to all heads of the navy and international merchants to cancel export, effective immediately. Our dockworkers are at odds with the tradesmen, before a conflict breaks out we simply must intervene."
+ 
  ENG_the_expedition:0 "The Expedition"
+ ENG_the_expedition_desc:0 "To put it bluntly, our options have run dry. The PM has proposed we allow his acquainted academy captain, Lord John Grimes to partake in a routine expedition to Calais, hailing from Dover. It's but a mere two-hour trip there, but the ever-encompassing fog may reveal its secrets. What could possibly go wrong?"
+ 
+ ENG_remedy_the_delegate:0 "Remedy the Delegate"
+ ENG_remedy_the_delegate_desc:0 "The vessel has landed ashore a wreck. No survivors but the delegate remain, not a bone. The man is in absolute hysterics and the site has been closed to the apprehensive, prying eyes of the public. What used to be a perfectly agreeable captain is naught but a chattering, howling lunatic. He may be placated in an asylum, perchance."
+ 
+ ENG_dredge_the_vessel:0 "Dredge the Vessel"
+ ENG_dredge_the_vessel_desc:0 "The debris of the HMS Undaunted lies in a shallow, grim cove of the Channel. Even our admiralty have reputed the ruins as curs'd, and plead us to leave it be. But there are sure to be records and vestiges that will show us what happened to the boat, we must preserve this to discover more about the endless fog."
+ 
+ ENG_humour_the_lunatic:0 "Humour the Lunatic"
+ ENG_humour_the_lunatic_desc:0 "It can't be dismissed- The Mad Delegate speaks the future, and the truth. How could it be? He chitters, seethes and rattles with terrible screams, and even in our custody he asks not for freedom, food or water. All he begs and weeps for is the sea. And currently, between his mad chatters, he mutters the very future in passing; all he has blithered on about, has indeed happened to come true. You know what we say about soothsayers, but what's the harm in a private audience of his own?"
+ 
+ ENG_dispose_evidence:0 "Disposal of Evidence"
+ ENG_dispose_evidence_desc:0 "The vessel disturbs all in its vicinity. It invades the minds of men and grants us troubled thoughts. What happened to the ship? Why does it curse our minds? The only answer could come from the good book, and it tells us this is the work of the puppeteer, the Devil. "
+ 
+ ENG_study_the_cliones:0 "Study the Cliones"
+ ENG_study_the_cliones_desc:0 "With remnants of the boat in safe hands at Newhaven Dock, we have examined it closely and, bizzarely but honestly, dozens of peculiar sea-creatures have oozed out of the mire of the broken and rotten hull. They have been previously documented as Cliones, or 'Sea-angels' due to their, mystical and otherworldly physique. What on earth brought them to the Channel?"
+ 
+ ENG_snuff_out_the_screams:0 "Silence the Screams"
+ ENG_snuff_out_the_screams_desc:0 "The howls and screeches even terrorise our interrogators; and these are men who have seen it all. They demand something be done about it, which is practically unheard of- This lunatic is a special case indeed, And needs treating as such."
+ 
+ ENG_lockdown_the_harbour:0 "Lockdown the Harbour"
+ ENG_lockdown_the_harbour_desc:0 "Our workers report it is nigh-on impossible to cooperate with the locals. We have to divert resources to reconcile the town and local parish to allow our operatives to continue."
+ 
+ ENG_stop_independent_reporters:0 "Stop Independent Reporters"
+ ENG_stop_independent_reporters_desc:0 "Even the local papers of the southern area have spread the word about our investigation- They claim to discredit our integrity, but we're better than that, and we have the assets to make it happen, whether they like it or not."
+ 
+ ENG_bribe_independent_reporters:0 "Bribe Independent Reporters"
+ ENG_bribe_independent_reporters_desc:0 "Money oils the wheels of journalism, and we are not one to miss out on an opportunity like so. The press must be kept silent, lest the people lose faith in us, and just a spare coin here and there, will cover our tracks."
+ 
  ENG_manchester_outrages:0 "Manchester Outrages"
  ENG_military_planning:0 "Military Preparations"
  ENG_cutting_ties:0 "Cutting Ties"
  ENG_organisation_of_intelligence:0 "National Intelligence"
  ENG_committee_of_imperial_defence:0 "Committee of Imperial Defence"
- ENG_remedy_the_delegate:0 "Remedy the Delegate"
- ENG_dredge_the_vessel:0 "Dredge the Vessel"
- #ENG_examine_the_plasm:0 "Examine the Plasm"
- #ENG_endless_haze:0 "Endless Haze"
- #ENG_listen_and_take_heed:0 "Listen and Take Heed"
- ENG_humour_the_lunatic:0 "Humour the Lunatic"
- ENG_dispose_evidence:0 "Disposal of Evidence"
- ENG_study_the_cliones:0 "Study the Cliones"
- #ENG_increased_dosage:0 "Increased Dosage"
- ENG_snuff_out_the_screams:0 "Silence the Screams"
- #ENG_suppress_the_press:0 "Suppress the Press"
- ENG_lockdown_the_harbour:0 "Lockdown the Harbour"
- ENG_stop_independent_reporters:0 "Stop Independent Reporters"
- ENG_bribe_independent_reporters:0 "Bribe Independent Reporters"
  ENG_hunger_of_a_nation:0 "Hunger of a Nation"
  ENG_feed_the_capable:0 "Feed the Capable"
  ENG_feed_the_young:0 "Feed the Young"
  ENG_immediate_re_election:0 "Immediate Re-Election"
  ENG_we_remain:0 "We Remain"
  ENG_investigate_the_cult:0 "Investigate the Cult"
+ ENG_attacks_on_the_coast:0 "Attacks on the Coast"
+ ENG_undermine_the_abyssus_theory:0 "Undermine the Abyssus Theory"
+ ENG_the_late_strangers_of_the_sea:0 "The Late Strangers of the Sea"
+ ENG_the_temple_from_the_earth:0 "The Temple from the Earth"
+ ENG_assemble_the_royal_expeditioneers:0 "Assemble the Royal Expeditioneers"
+ ENG_source_of_the_great_sea_swells:0 "Source of the Great Sea Swells"
+ ENG_rebuild_and_never_return:0 "Rebuild and never Return"
+ ENG_coastal_walling:0 "Coastal Preparations"
