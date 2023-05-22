@@ -65,18 +65,6 @@ operation_rescue_operative = { ### 0 1/35
 
 	phases = { #infiltration
 		infiltration_border = { base = 25 }
-		infiltration_submarine = { base = 25 }
-		infiltration_paradrop = { 
-			base = 25 
-			modifier = {
-				ROOT = { 
-					has_equipment = {
-						transport_plane_equipment < 1
-					}
-				}
-				factor = 0
-			}
-		}
 		infiltration_diplomatic = {
 			base = 25
 			modifier = {
@@ -100,20 +88,8 @@ operation_rescue_operative = { ### 0 1/35
 		free_operative_smuggle_in_escape_gear = { base = 33 }
 	}
 	phases = { #exfiltration
-		exfiltration_air_pickup = { 
-			base = 15 
-			modifier = {
-				ROOT = { 
-					has_equipment = {
-						transport_plane_equipment < 1
-					}
-				}
-				factor = 0
-			}
-		}
 		exfiltration_border = { base = 30 }
 		exfiltration_go_to_ground = { base = 30 }
-		exfiltration_submarine_pickup = { base = 25 }
 	}
 }
 
@@ -208,18 +184,6 @@ operation_infiltrate_civilian = { ### 1 1/35
 
 	phases = { #infiltration
 		infiltration_border = { base = 25 }
-		infiltration_submarine = { base = 25 }
-		infiltration_paradrop = { 
-			base = 25 
-			modifier = {
-				ROOT = { 
-					has_equipment = {
-						transport_plane_equipment < 1
-					}
-				}
-				factor = 0
-			}
-		}
 		infiltration_diplomatic = {
 			base = 25
 			modifier = {
@@ -243,20 +207,8 @@ operation_infiltrate_civilian = { ### 1 1/35
 		}
 	}
 	phases = { #exfiltration
-		exfiltration_air_pickup = { 
-			base = 15 
-			modifier = {
-				ROOT = { 
-					has_equipment = {
-						transport_plane_equipment < 1
-					}
-				}
-				factor = 0
-			}
-		}
 		exfiltration_border = { base = 30 }
 		exfiltration_go_to_ground = { base = 30 }
-		exfiltration_submarine_pickup = { base = 25 }
 	}
 }
 
@@ -493,18 +445,6 @@ operation_capture_cipher = { ### 3 1/55
 
 	phases = { #infiltration
 		infiltration_border = { base = 25 }
-		infiltration_submarine = { base = 25 }
-		infiltration_paradrop = { 
-			base = 25 
-			modifier = {
-				ROOT = { 
-					has_equipment = {
-						transport_plane_equipment < 1
-					}
-				}
-				factor = 0
-			}
-		}
 		infiltration_diplomatic = {
 			base = 25
 			modifier = {
@@ -531,20 +471,8 @@ operation_capture_cipher = { ### 3 1/55
 	}
 
 	phases = { #exfiltration
-		exfiltration_air_pickup = { 
-			base = 15 
-			modifier = {
-				ROOT = { 
-					has_equipment = {
-						transport_plane_equipment < 1
-					}
-				}
-				factor = 0
-			}
-		}
 		exfiltration_border = { base = 30 }
 		exfiltration_go_to_ground = { base = 30 }
-		exfiltration_submarine_pickup = { base = 25 }
 	}
 }
 
@@ -638,18 +566,6 @@ operation_infiltrate_armed_forces_army = { ### 4 1/55
 	}
 	phases = { #infiltration
 		infiltration_border = { base = 25 }
-		infiltration_submarine = { base = 25 }
-		infiltration_paradrop = { 
-			base = 25 
-			modifier = {
-				ROOT = { 
-					has_equipment = {
-						transport_plane_equipment < 1
-					}
-				}
-				factor = 0
-			}
-		}
 		infiltration_diplomatic = {
 			base = 25
 			modifier = {
@@ -680,20 +596,8 @@ operation_infiltrate_armed_forces_army = { ### 4 1/55
 		}
 	}
 	phases = { #exfiltration
-		exfiltration_air_pickup = { 
-			base = 15 
-			modifier = {
-				ROOT = { 
-					has_equipment = {
-						transport_plane_equipment < 1
-					}
-				}
-				factor = 0
-			}
-		}
 		exfiltration_border = { base = 30 }
 		exfiltration_go_to_ground = { base = 30 }
-		exfiltration_submarine_pickup = { base = 25 }
 	}
 }
 
@@ -796,18 +700,6 @@ operation_infiltrate_armed_forces_navy = { ### 5 1/55
 	}
 	phases = { #infiltration
 		infiltration_border = { base = 25 }
-		infiltration_submarine = { base = 25 }
-		infiltration_paradrop = { 
-			base = 25 
-			modifier = {
-				ROOT = { 
-					has_equipment = {
-						transport_plane_equipment < 1
-					}
-				}
-				factor = 0
-			}
-		}
 		infiltration_diplomatic = {
 			base = 25
 			modifier = {
@@ -838,20 +730,8 @@ operation_infiltrate_armed_forces_navy = { ### 5 1/55
 		}
 	}
 	phases = { #exfiltration
-		exfiltration_air_pickup = { 
-			base = 15 
-			modifier = {
-				ROOT = { 
-					has_equipment = {
-						transport_plane_equipment < 1
-					}
-				}
-				factor = 0
-			}
-		}
 		exfiltration_border = { base = 30 }
 		exfiltration_go_to_ground = { base = 30 }
-		exfiltration_submarine_pickup = { base = 25 }
 	}
 }
 
@@ -947,18 +827,6 @@ operation_infiltrate_armed_forces_airforce = { ### 6 1/55
 
 	phases = { #infiltration
 		infiltration_border = { base = 25 }
-		infiltration_submarine = { base = 25 }
-		infiltration_paradrop = { 
-			base = 25 
-			modifier = {
-				ROOT = { 
-					has_equipment = {
-						transport_plane_equipment < 1
-					}
-				}
-				factor = 0
-			}
-		}
 		infiltration_diplomatic = {
 			base = 25
 			modifier = {
@@ -989,19 +857,7 @@ operation_infiltrate_armed_forces_airforce = { ### 6 1/55
 		}
 	}
 	phases = { #exfiltration
-		exfiltration_air_pickup = { 
-			base = 15 
-			modifier = {
-				ROOT = { 
-					has_equipment = {
-						transport_plane_equipment < 1
-					}
-				}
-				factor = 0
-			}
-		}
 		exfiltration_border = { base = 30 }
 		exfiltration_go_to_ground = { base = 30 }
-		exfiltration_submarine_pickup = { base = 25 }
 	}
 }
