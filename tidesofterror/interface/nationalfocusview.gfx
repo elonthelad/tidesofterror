@@ -32,7 +32,7 @@ spriteTypes = {
 	
 	corneredTileSpriteType = {
 		name = "GFX_FOCUS_tiled_1bg"
-		size= {x=190 y=310 }
+		size= {x=960 y=960 }
 		textureFile ="gfx//interface//tiles//FOCUS_tiled_1bg.dds"
 		borderSize = { x=8 y=8 }
 	}

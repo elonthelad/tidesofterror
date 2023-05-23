@@ -7,7 +7,7 @@ guiTypes = {
 		
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_tiled_plain_bg2"
+			quadTextureSprite ="GFX_tiled_plain_bg"
 		}
 		
 		instantTextboxType = {
