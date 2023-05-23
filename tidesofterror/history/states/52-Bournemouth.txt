@@ -14,7 +14,7 @@ state={
 		victory_points = { 8554 15 } #"Whitecliff"
 		victory_points = { 1001 12 } #"Victoria Park"
 	}
-	manpower=157461
+	manpower=127461
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

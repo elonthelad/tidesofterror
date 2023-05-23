@@ -14,8 +14,8 @@ state={
 		victory_points = { 4813 15 } #"Midanbury"
 		victory_points = { 3887 15 } #"Eastleigh"
 	}
-	manpower=157466
+	manpower=88466
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=great_city
 	local_supplies=0.000
 }

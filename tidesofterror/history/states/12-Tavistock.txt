@@ -8,11 +8,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
-		victory_points = { 3441 12 } #"Derriford"
-		victory_points = { 3922 5 } #"Tavistock"
+		victory_points = { 3441 6 } #"Derriford"
+		victory_points = { 3922 3 } #"Tavistock"
 	}
-	manpower=27302
+	manpower=8302
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=pastoral
 	local_supplies=0.000
 }

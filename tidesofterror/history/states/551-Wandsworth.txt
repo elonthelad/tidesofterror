@@ -10,7 +10,7 @@ state={
 		victory_points = { 4652 18 } #"Roehampton"
 		victory_points = { 2250 15 } #"Mitcham"
 	}
-	manpower=119951
+	manpower=99951
 	buildings_max_level_factor=1.000
 	state_category=urban_borough
 	local_supplies=0.000

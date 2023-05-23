@@ -10,7 +10,7 @@ state={
 		victory_points = { 1891 18 } #"Southsea"
 		victory_points = { 661 35 } #"Portsmouth"
 	}
-	manpower=147519
+	manpower=67519
 	buildings_max_level_factor=1.000
 	state_category=great_city
 	local_supplies=0.000

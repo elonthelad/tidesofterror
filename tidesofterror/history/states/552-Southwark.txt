@@ -10,7 +10,7 @@ state={
 		victory_points = { 5377 30 } #"Rotherhithe"
 		victory_points = { 2284 18 } #"Camberwell"
 	}
-	manpower=179341
+	manpower=119341
 	buildings_max_level_factor=1.000
 	state_category=urban_borough
 	local_supplies=0.000
