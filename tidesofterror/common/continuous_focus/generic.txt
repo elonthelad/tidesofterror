@@ -8,5 +8,5 @@ continuous_focus_palette = {
 	default = yes
 	reset_on_civilwar = no
 			
-	position = { x = 1745 y = 0 }
+	position = { x = 20 y = 3000 }
 }

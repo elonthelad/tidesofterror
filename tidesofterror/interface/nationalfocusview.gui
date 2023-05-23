@@ -125,12 +125,12 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
-
+			
 			background = {
 				name = "Background"
-				quadTextureSprite ="GFX_tiled_bg"
+				quadTextureSprite ="GFX_FOCUS_tiled_1bg"
 			}
-
+			
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_focus_bg"
@@ -138,10 +138,9 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "techtree_stripes"
-				position = { x= 0 y= 10 }
-				size = { width = 50 height = 50 }
+				position = { x= -20 y= 0 }
+				size = { width = 1 height = 1 }
 				clipping = no
-
 			}
 			
 			containerWindowType = {
@@ -154,35 +153,6 @@ guiTypes = {
 					position = { x = 50 y = 50 }
 					slotsize = { width = 1 height = 1 }
 					format = "UP"
-				}
-
-				iconType ={
-					name ="tutorial_glow_1"
-					spriteType = "GFX_tutorial_national_focus_icon_glow"
-					position = { x= 252 y = 20 }
-					Orientation = "UPPER_LEFT"
-					hide = yes
-				}
-				iconType ={
-					name ="tutorial_glow_2"
-					spriteType = "GFX_tutorial_national_focus_icon_glow"
-					position = { x= 829 y = 20 }
-					Orientation = "UPPER_LEFT"
-					hide = yes
-				}
-				iconType ={
-					name ="tutorial_glow_3"
-					spriteType = "GFX_tutorial_national_focus_icon_glow"
-					position = { x= 1116 y = 150 }
-					Orientation = "UPPER_LEFT"
-					hide = yes
-				}
-				iconType ={
-					name ="tutorial_glow_4"
-					spriteType = "GFX_tutorial_national_focus_icon_glow"
-					position = { x= 1308 y = 150 }
-					Orientation = "UPPER_LEFT"
-					hide = yes
 				}
 				
 				containerWindowType = {
@@ -463,29 +433,16 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "national_focus_item"
-		position = { x=0 y=0 }
+		position = { x=0 y=20 }
 		size = { width = 165 height = 128 }
 		clipping = no
-
-		
-		iconType = {
-			name = "continuous_glow"
-			position = { x = 17 y = -40 }
-			quadTextureSprite = "GFX_ongoing_focus_goal"
-		}
-		
-		iconType = {
-			name = "highlight_glow"
-			position = { x = 17 y = -40 }
-			quadTextureSprite = "GFX_highlight_focus_goal"
-		}
 		
 		buttonType = {
 			name = "bg"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
-			position = { x= 5 y = 40 }			
+			position = { x= 5 y = 37 }			
 		}
-		
+
 		buttonType = {
 			name = "symbol"
 			position = { x = 5 y = -44 }
@@ -501,9 +458,21 @@ guiTypes = {
 			pdx_tooltip = "HISTORICAL_FOCUS"
 		}
 		
+		iconType = {
+			name = "highlight_glow"
+			position = { x = 17 y = -40 }
+			quadTextureSprite = "GFX_highlight_focus_goal"
+		}
+		
+		iconType = {
+			name = "continuous_glow"
+			position = { x = 17 y = -40 }
+			quadTextureSprite = "GFX_ongoing_focus_goal"
+		}
+		
 		instantTextboxType = {
 			name = "name"
-			position = { x = 15 y = 58 }
+			position = { x = 13 y = 67 }
 			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 147

@@ -87,7 +87,7 @@ focus_tree = {
 	focus = {
 		id = ENG_manchester_outrages
 		icon = GFX_goal_unknown
-		x = 13
+		x = 14
 		y = 0
 
 		cost = 10
@@ -128,7 +128,7 @@ focus_tree = {
 		id = ENG_cutting_ties
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_manchester_outrages }
-		x = 14
+		x = 15
 		y = 2
 
 		cost = 10
@@ -169,7 +169,7 @@ focus_tree = {
 		id = ENG_military_planning
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_manchester_outrages }
-		x = 12
+		x = 13
 		y = 2
 
 		cost = 10
@@ -206,12 +206,68 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {
+		id = ENG_teachings_of_homeland_wars
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_military_planning }
+		x = 12
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ENG_inter_government_dialogue
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_cutting_ties }
+		x = 16
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
 	
 	focus = {
 		id = ENG_organisation_of_intelligence
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_military_planning focus = ENG_cutting_ties }
-		x = 13
+		x = 14
 		y = 3
 
 		cost = 10
@@ -239,7 +295,7 @@ focus_tree = {
 		id = ENG_committee_of_imperial_defence
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_organisation_of_intelligence }
-		x = 13
+		x = 14
 		y = 5
 
 		cost = 10
@@ -347,34 +403,6 @@ focus_tree = {
 		}
 	}
 
-    #focus = {
-	#	id = ENG_examine_the_plasm
-	#	icon = GFX_goal_unknown
-	#	prerequisite = { focus = ENG_dredge_the_vessel}
-	#	x = 1
-	#	y = 4
-	#
-	#	cost = 10
-	#
-	#	ai_will_do = {
-	#		factor = 1
-	#	}
-	#
-	#	available = {
-	#	}
-	#	
-	#	bypass = {
-	#	}
-	#
-	#	cancel_if_invalid = yes
-	#	continue_if_invalid = no
-	#	available_if_capitulated = yes
-	#	search_filters = { FOCUS_FILTER_POLITICAL }
-	#
-	#	completion_reward = {
-	#	}
-	#}
-
     focus = {
 		id = ENG_dispose_evidence
 		icon = GFX_goal_unknown
@@ -437,42 +465,12 @@ focus_tree = {
 		}
 	}
 
-    #focus = {
-	#	id = ENG_suppress_the_press
-	#	icon = GFX_goal_unknown
-	#	prerequisite = { focus = ENG_the_expedition}
-	#	x = 9
-	#	y = 3
-	#
-	#	cost = 10
-	#
-	#	ai_will_do = {
-	#		factor = 1
-	#	}
-	#
-	#	available = {
-	#	}
-	#	
-	#	bypass = {
-	#	}
-	#
-	#	cancel_if_invalid = yes
-	#	continue_if_invalid = no
-	#	available_if_capitulated = yes
-	#	search_filters = { FOCUS_FILTER_POLITICAL }
-	#
-	#	completion_reward = {
-	#	}
-	#}
-
     focus = {
 		id = ENG_lockdown_the_harbour
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_the_expedition}
-		#prerequisite = { focus = ENG_suppress_the_press}
 		x = 9
 		y = 3
-		#y = 4
 
 		cost = 10
 
@@ -591,35 +589,6 @@ focus_tree = {
 			}
 		}
 	}
-
-    #focus = {
-	#	id = ENG_increased_dosage
-	#	icon = GFX_goal_unknown
-	#	prerequisite = { focus = ENG_remedy_the_delegate}
-    #    mutually_exclusive = { focus = ENG_listen_and_take_heed }
-	#	x = 6
-	#	y = 4
-	#
-	#	cost = 10
-	#
-	#	ai_will_do = {
-	#		factor = 1
-	#	}
-	#
-	#	available = {
-	#	}
-	#	
-	#	bypass = {
-	#	}
-	#
-	#	cancel_if_invalid = yes
-	#	continue_if_invalid = no
-	#	available_if_capitulated = yes
-	#	search_filters = { FOCUS_FILTER_POLITICAL }
-	#
-	#	completion_reward = {
-	#	}
-	#}
 
     focus = {
 		id = ENG_snuff_out_the_screams
@@ -799,10 +768,233 @@ focus_tree = {
 	}
 
     focus = {
-		id = ENG_investigate_the_cult
+		id = ENG_the_spectre_fright
 		icon = GFX_goal_unknown
-		x = 5
+		x = 3
 		y = 9
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_assurance_campaign
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_the_spectre_fright focus = ENG_mutual_nightmares }
+		x = 5
+		y = 10
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_mutual_nightmares
+		icon = GFX_goal_unknown
+		x = 7
+		y = 9
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_barbituate_development
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_mutual_nightmares }
+		x = 7
+		y = 11
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_the_gibson_capture_trials
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_the_spectre_fright }
+		x = 3
+		y = 10
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_asylum_development_project
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_barbituate_development }
+		x = 5
+		y = 13
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_wescotts_temple
+		icon = GFX_goal_unknown
+		x = 1
+		y = 10
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_the_order_bolstered
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_wescotts_temple }
+		x = 1
+		y = 12
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_department_superphysical
+		icon = GFX_goal_unknown
+		prerequisite = { focus = ENG_the_gibson_capture_trials focus = ENG_assurance_campaign }
+		prerequisite = { focus = ENG_mutual_nightmares }
+		x = 4
+		y = 12
 
 		cost = 10
 
@@ -911,7 +1103,7 @@ focus_tree = {
     focus = {
 		id = ENG_the_temple_from_the_earth
 		icon = GFX_goal_unknown
-		x = 14
+		x = 15
 		y = 7
 
 		cost = 10
@@ -996,7 +1188,7 @@ focus_tree = {
 		id = ENG_rebuild_and_never_return
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_the_temple_from_the_earth }
-		x = 15
+		x = 17
 		y = 8
 
 		cost = 10
@@ -1026,6 +1218,33 @@ focus_tree = {
 		prerequisite = { focus = ENG_assemble_the_royal_expeditioneers focus = ENG_rebuild_and_never_return }
 		x = 15
 		y = 9
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_investigate_the_cult
+		icon = GFX_goal_unknown
+		x = 5
+		y = 19
 
 		cost = 10
 
