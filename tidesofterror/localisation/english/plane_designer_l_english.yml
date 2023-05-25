@@ -437,42 +437,105 @@
  EQ_MOD_SLOT_mediumshared_type_slot_6_TITLE:0 "Medium Shared Slot"
  EQ_MOD_SLOT_mediumshared_type_slot_7_TITLE:0 "Medium Shared Slot"
  
+ EQ_MOD_CAT_mediumshared_module_type_TITLE:0 "Medium Slottable Modules"
+ 
+ medium_handcannon:0 "Handcannon"
+ medium_javelincannon:0 "Javelin Cannon"
+ medium_firebombs:0 "Firebombs"
+ medium_machinegun:0 "Machinegun"
+ medium_extraarmour:0 "Extra Armour"
+ medium_amplesupplies:0 "Ample Supplies"
+ medium_recontelescope:0 "Telescope"
+ 
+ 
+ 
+ EQ_MOD_SLOT_smallshared_type_slot_1_TITLE:0 "Small Shared Slot"
+ EQ_MOD_SLOT_smallshared_type_slot_2_TITLE:0 "Small Shared Slot"
+ EQ_MOD_SLOT_smallshared_type_slot_3_TITLE:0 "Small Shared Slot"
+ EQ_MOD_SLOT_smallshared_type_slot_4_TITLE:0 "Small Shared Slot"
+ EQ_MOD_SLOT_smallshared_type_slot_5_TITLE:0 "Small Shared Slot"
+ EQ_MOD_SLOT_smallshared_type_slot_6_TITLE:0 "Small Shared Slot"
+ EQ_MOD_SLOT_smallshared_type_slot_7_TITLE:0 "Small Shared Slot"
+ 
+ EQ_MOD_CAT_smallshared_module_type_TITLE:0 "Small Slottable Modules"
+ 
  gas_balloon_hull_0:0 "Gas Balloon"
  
- 
+ #Levitation Method
  EQ_MOD_SLOT_fixed_levitation_type_slot_TITLE:0 "Levitation Method"
  
  EQ_MOD_CAT_highpreslevitation_module_type_TITLE:0 "High Pressure"
  highpreslev_hydrogen:0 "High-Pressure Hydrogen"
+ highpreslev_hydrogen_desc:0 "§LHigh-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!§!"
  highpreslev_helium:0 "High-Pressure Helium"
+ highpreslev_helium_desc:0 "§LHigh-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!§!"
  highpreslev_town_gas:0 "High-Pressure Town Gas"
+ highpreslev_town_gas_desc:0 "§LHigh-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!§!"
  
  EQ_MOD_CAT_lowpreslevitation_module_type_TITLE:0 "Low Pressure"
  lowpreslev_hydrogen:0 "Low-Pressure Hydrogen"
+ lowpreslev_hydrogen_desc:0 "§LLow-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!§!"
  lowpreslev_helium:0 "Low-Pressure Helium"
+ lowpreslev_helium_desc:0 "§LLow-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!§!"
  lowpreslev_town_gas:0 "Low-Pressure Town Gas"
+ lowpreslev_town_gas_desc:0 "§LLow-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!§!"
  
+ #Framework
  EQ_MOD_SLOT_fixed_framework_type_slot_TITLE:0 "Framework"
  
  EQ_MOD_CAT_heavyframework_module_type_TITLE:0 "Heavy Frames"
  frame_steel:0 "Steel Beams"
- frame_steel_desc:0 "§LSteel Beams todo desc!§!"
+ frame_steel_desc:0 "§LSteel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!§!"
  
  EQ_MOD_CAT_mediumframework_module_type_TITLE:0 "Medium Frames"
  frame_aluminium:0 "Aluminium Beams"
- frame_aluminium_desc:0 "§LAluminium Beams todo desc!§!"
+ frame_aluminium_desc:0 "§LAluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!§!"
  frame_ferroaluminium:0 "Ferro-Aluminium Beams"
- frame_ferroaluminium_desc:0 "§LFerro-Aluminium Beams todo desc!§!"
+ frame_ferroaluminium_desc:0 "§LFerro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!§!"
  frame_oak_beams:0 "Oak Beams"
- frame_oak_beams_desc:0 "§LOak Beams todo desc!§!"
+ frame_oak_beams_desc:0 "§LOak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!§!"
  
  EQ_MOD_CAT_lightframework_module_type_TITLE:0 "Light Frames"
  frame_pine_truss:0 "Pine Truss"
- frame_pine_truss_desc:0 "§LPine Truss todo desc!§!"
+ frame_pine_truss_desc:0 "§LPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo desc!§!"
  frame_ash_truss:0 "Ash Truss"
- frame_ash_truss_desc:0 "§LAsh Truss todo desc!§!"
+ frame_ash_truss_desc:0 "§LAsh Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!§!"
  
- 
+ #Armour
  EQ_MOD_SLOT_fixed_armour_type_slot_TITLE:0 "Armour"
+ 
+ EQ_MOD_CAT_armour_module_type_TITLE:0 "Armour"
+ manganese_infused_steel_panel:0 "Manganese infused Steel Panel"
+ manganese_infused_steel_panel_desc:0 "§LRegular thick steel panels intertwined with the bizzare chemistry of Manganese. Highly resistant to electricity and boasts higher tensile strength.§!"
+ steel_panel:0 "Steel Panel"
+ steel_panel_desc:0 "§LUsing steel panels can be particularly strong on the defence, if inordinately heavy for such a delicate flying vehicle.§!"
+ canvas:0 "Canvas"
+ canvas_desc:0 "§LKnown to be slightly better than a placebo; inexpensive canvas largely exists on the aircraft to assist in wind resistance and lift, and considering protection, it still largely concerns just the wind. Any regular ballistic attack will rip right through as if it wasn't there to begin with.§!"
+ wooden_panels:0 "Wooden Panels"
+ wooden_panels_desc:0 "§LRegular wooden panels bolster the otherwise naked frame, added a fair bit of defence while not encumbering the aircraft all too much. Notably easy to work, too.§!"
+ 
+ #Auxillary Locomotion
  EQ_MOD_SLOT_fixed_aux_locomotion_type_slot_TITLE:0 "Auxillary Locomotion"
+ 
+ EQ_MOD_CAT_aux_locomotionpassive_module_type_TITLE:0 "Passive Solution"
+ roziere_balloon:0 "Roziere Balloon"
+ roziere_balloon_desc:0 "§LThis balloon is a seperate chamber above the main gasbag, using a non-heated gas and gives greater control of buoyancy and steering. This can even allow the construct to allow crews to travel days, or even weeks with the right supplies, althought the larger size can make it an even bigger target in combat.§!"
+ retractable_sail:0 "Retractable Sails"
+ retractable_sail_desc:0 "§LRetractable Sails allow for controllable additional speed and levy a small amount of steering to the vessel. The retractable nature of this feature allows for a small profile when needed, as not to compromise the safety of the aircraft in dire situations.§!"
+ 
+ EQ_MOD_CAT_aux_locomotionactive_module_type_TITLE:0 "Active Solution"
+ steerable_sail:0 "Steerable Sails"
+ steerable_sail_desc:0 "§LSteerable Sails do not retract but have pulleys to aim their direction, giving incredible control over the winds and direction of flight. They are however, always open, and bring a significant weakness and point of failure to the machine.§!"
+ 
+ #Build Finish
  EQ_MOD_SLOT_fixed_build_finish_type_slot_TITLE:0 "Build Finish"
+ 
+ EQ_MOD_CAT_build_finish_module_type_TITLE:0 "Build Finish"
+ high_quality:0 "High Quality"
+ high_quality_desc:0 "§LImmaculate attention to detail has been taken to ensure all parts are functional, every bolt, tie, wing and joint has been double and triple tested. It will take much longer to deploy off the production line, but it is every second worth it, after all, the quality of our equipment will be seen on the broad field of the battle, and if you go in with sub-par machinery, what do you get? A sub-par result!§!"
+ factory_finish:0 "Factory Finish"
+ factory_finish_desc:0 "§LRegular checks are put in place as with any equipment. This is obviously a tried and true method, we've spent years perfecting it so why change now?§!"
+ smaller_build:0 "Smaller Build"
+ smaller_build_desc:0 "§LWe are crimping on parts you'd never notice were gone. A bolt, a joint here and there, what's the difference? All spared resources are resources that are put into more individual machines, and the more individual machines we have deployed, the fiercer we'll be.§!"
+ hasty_construction:0 "Hasty Construction"
+ hasty_construction_desc:0 "§LDemand dictates that we need to output this product as fast as can be. Almost no checks are done on the machine. Parts go missing. A weapon may misfire, the chassis may creak, but whats the difference when your squad is bringing dozens of the things? Scavenging and repairs-on-the-fly are all to be expected when operating these new prototypes anyhow.§!"

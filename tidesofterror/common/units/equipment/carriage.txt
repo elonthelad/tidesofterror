@@ -1,0 +1,41 @@
+equipments = {
+
+	carriage_equipment = {
+		year = 1868
+
+		is_archetype = yes
+		picture = archetype_carriage_equipment		
+		is_buildable = no
+		type = {
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		maximum_speed = 10
+		reliability = 0.75
+		hardness = 0.3
+
+		breakthrough = 2
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+
+		build_cost_ic = 2.1
+		resources = {
+			timber = 1
+			fabrics = 1
+		}
+		
+		supply_truck = yes
+	}
+
+	carriage_equipment_1 = {
+		year = 1868
+
+		archetype = carriage_equipment
+		priority = 30			
+	}
+
+}

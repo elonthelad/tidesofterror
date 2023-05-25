@@ -28,15 +28,29 @@ technologies = {
 			frame_pine_truss
 			frame_ash_truss
 			steel_panel
+			manganese_infused_steel_panel
+			canvas
+			wooden_panels
 			roziere_balloon
 			steerable_sail
 			retractable_sail
 			high_quality
+			factory_finish
+			smaller_build
+			hasty_construction
+			medium_handcannon
+			medium_javelincannon
+			medium_firebombs
+			medium_machinegun
+			medium_extraarmour
+			medium_amplesupplies
+			medium_recontelescope
 		}
 
 		enable_equipments = {
 			gas_balloon_hull_0
 			artillery_equipment_1
+			carriage_equipment_1
 		}
 		
 		enable_subunits = {
