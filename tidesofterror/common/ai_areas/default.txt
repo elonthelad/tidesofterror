@@ -1,0 +1,12 @@
+areas = {
+
+	southwest_england = {
+        strategic_regions = {
+            1
+            3
+			4
+			5
+			7
+        }
+    }
+}
