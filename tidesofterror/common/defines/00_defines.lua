@@ -809,7 +809,7 @@ NMilitary = {
 	PREFERRED_TACTIC_COMMAND_POWER_COST = 20,	   -- command point cost for changing preferred tactic
 	INITIATIVE_PICK_COUNTER_ADVANTAGE_FACTOR  = 0.35, -- advantage per leader level for picking a counter
 	AMPHIBIOUS_INVADE_MOVEMENT_COST = 24.0,        -- total progress cost of movement while amphibious invading
-	LAND_SPEED_MODIFIER = 0.2,                    -- basic speed control
+	LAND_SPEED_MODIFIER = 0.4,                    -- basic speed control
 	RIVER_CROSSING_PENALTY = -0.3,                 -- small river crossing
 	RIVER_CROSSING_PENALTY_LARGE = -0.6,           -- large river crossing
 	RIVER_CROSSING_SPEED_PENALTY = -0.25,           -- small river crossing
@@ -1459,7 +1459,7 @@ NNavy = {
 	AMPHIBIOUS_INVADE_LANDING_PENALTY_DECREASE = 3.5, 				-- scale of bonus that decreases "amphibious penalty" during combat, relative to invading transporter tech.
 	BASE_CARRIER_SORTIE_EFFICIENCY = 0.5,							-- factor of planes that can sortie by default from a carrier
 	CONVOY_ATTACK_BASE_FACTOR = 0.15,                               -- base % of convoys that get intercepted
-	NAVAL_SPEED_MODIFIER = 0.07,	                    				-- basic speed control
+	NAVAL_SPEED_MODIFIER = 0.22,	                    				-- basic speed control
 	NAVAL_RANGE_TO_INGAME_DISTANCE = 0.33,							-- Scale the ship stats "naval_range" to the ingame distance
 	NAVAL_INVASION_PREPARE_HOURS = 168,								-- base hours needed to prepare an invasion
 	NAVAL_COMBAT_RESULT_TIMEOUT_YEARS = 2,							-- after that many years, we clear the naval combat results, so they don't get stuck forever in the memory.
@@ -3036,7 +3036,7 @@ NAI = {
 
 	AI_UPDATE_ROLES_FREQUENCY_HOURS = 48;               -- Update the roles for a country AI this often (affects performance)
 
-	UPDATE_SUPPLY_BOTTLENECKS_FREQUENCY_HOURS = 168;     -- Check for and try to fix supply bottlenecks this often. (168 hours = 1 week)
+	UPDATE_SUPPLY_BOTTLENECKS_FREQUENCY_HOURS = 90;     -- Check for and try to fix supply bottlenecks this often. (168 hours = 1 week)
 	FIX_SUPPLY_BOTTLENECK_SATURATION_THRESHOLD = 0.85;  -- Try to fix supply bottlenecks if supply node saturation exceeds this value.
 
 	UPDATE_SUPPLY_MOTORIZATION_FREQUENCY_HOURS = 52;     -- Check if activating motorization would improve supply situation this often.
@@ -3778,9 +3778,9 @@ NSupply = {
 	CAPITAL_ADDED_PENALTY_PER_PROVINCE = 1.0, -- added penalty as we move away from origin
 
 	-- defines that are used for supply reach for built nodes
-	NODE_INITIAL_SUPPLY_FLOW = 4.1,
-	NODE_STARTING_PENALTY_PER_PROVINCE = 0.30,
-	NODE_ADDED_PENALTY_PER_PROVINCE = 0.50,
+	NODE_INITIAL_SUPPLY_FLOW = 3.1,
+	NODE_STARTING_PENALTY_PER_PROVINCE = 0.19,
+	NODE_ADDED_PENALTY_PER_PROVINCE = 0.30,
 
 	-- defines that are used for supply reach for dockyards
 	NAVAL_BASE_INITIAL_SUPPLY_FLOW = 3.3,
@@ -3839,7 +3839,7 @@ NSupply = {
 
 	SUPPLY_NODE_MIN_SUPPLY_THRESHOLD = 1.0, -- if supply of a node is below this value it will be set to 0 -- Currently unused? This should happen when enough damage occurs
 
-	INFRA_TO_SUPPLY = 0.3,							-- each level of infra gives this many supply
+	INFRA_TO_SUPPLY = 0.6,							-- each level of infra gives this many supply
 	VP_TO_SUPPLY_BASE = 0.2,							-- Bonus to supply from a VP, no matter the level
 	VP_TO_SUPPLY_BONUS_CONVERSION = 0.05,			-- Bonus to supply local supplies from Victory Points, multiplied by this aspect and rounded to closest integer
 	SUPPLY_FROM_DAMAGED_INFRA = 0.15,                -- damaged infrastructure counts as this in supply calcs
@@ -3918,7 +3918,7 @@ NSupply = {
 	SUPPLY_THRESHOLD_FOR_ARMY_ATTRITION = 0.35, -- armies will only get attrition below this supply
 	NUMBER_OF_SHOWN_SUPPLY_SOURCES_IN_SUPPLY_MAPMODE = 3, -- number of supply flow sources shown in breakdown tooltip
 	ESTIMATED_DIVISION_WEIGHT_FOR_SUPPLY_ESTIMATIONS_GUI = 1.0,	--Division supply consumption used for estimating frontline weight for order tooltips
-	AVAILABLE_MANPOWER_STATE_SUPPLY = 0.18,						--Factor for state supply from max manpower (population)
+	AVAILABLE_MANPOWER_STATE_SUPPLY = 14.18,						--Factor for state supply from max manpower (population)
 	NON_CORE_MANPOWER_STATE_SUPPLY = 0.2,						--Factor for population sttate supply when controlled by an occupier (NO TAKE FOOD)
 	STORED_SUPPLY_CONSUMPTION_RATE_FACTOR = 0.75,				--Multiplies consumption rate of stored supply (more/less easement)
 },
