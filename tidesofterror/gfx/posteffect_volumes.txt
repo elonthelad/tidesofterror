@@ -1,0 +1,48 @@
+##reload posteffectvolumes
+#PostEffectVolumes.Enabled
+#PostEffectVolumes.Draw
+
+posteffect_values = {
+	name = standard	
+	
+	
+	#lut = "gfx/world/colorcorrection_medi.tga" #Cool Arcane Turquoise
+	#tonemap_middlegrey = 0.9
+	
+	#Victorian Brown
+	#lut = "gfx/world/colorcorrection_yellow.tga"
+	#tonemap_middlegrey = 3.0
+	
+	
+	lut = "gfx/world/colorcorrection_asia.tga" #Light Victorian Brown
+	tonemap_middlegrey = 1.6
+	
+	#Verry Brown
+	#lut = "gfx/world/colorcorrection_southafrica.tga"
+	#tonemap_middlegrey = 0.9
+}
+
+posteffect_volumes = {
+	
+	posteffect_height_volume = {
+		name = "Base Medium"
+		
+		posteffect_values_day = standard
+		posteffect_values_night = standard
+		
+		height = 1
+		fade_distance = 0
+	}
+	
+	posteffect_volume = {
+		name = "Base1"
+		posteffect_values_day = standard
+		posteffect_values_night = standard
+		posteffect_values_day_winter = standard
+		posteffect_values_night_winter = standard
+		
+		position = { 1.0 1.0 1.0 }
+		size = { 4096.0 3072.0 2000.0 }
+		fade_distance = 20.0
+	}
+}

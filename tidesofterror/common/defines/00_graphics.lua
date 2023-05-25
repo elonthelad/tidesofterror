@@ -805,7 +805,7 @@ NGraphics = {
 	RESISTANCE_MAP_ICON_DISTANCE_CUTOFF = 1200,  -- At what camera distance the resistance/compliance map icons are hidden
 	PROVINCE_ANIM_TEXT_DISTANCE_CUTOFF = 500,
 	CAPITAL_ICON_CUTOFF = 1300,	-- At what camera distance capital icons disappears
-	UNITS_DISTANCE_CUTOFF = 120,
+	UNITS_DISTANCE_CUTOFF = 260,
 	SHIPS_DISTANCE_CUTOFF = 240,
 	UNIT_ARROW_DISTANCE_CUTOFF = 875,
 	UNITS_ICONS_DISTANCE_CUTOFF = 900,
@@ -884,13 +884,13 @@ NGraphics = {
 	TONE_MAP_MIDDLE_GREY = 0.5, --0.7
 	TONE_MAP_LUMINANCE_WHITE = 1.0, --
 	MOON_HEIGHT = 600, -- higher means softer shadows and more intense light
-	SUN_HEIGHT  = 800, -- higher means softer shadows and more intense light
+	SUN_HEIGHT  = 200, -- higher means softer shadows and more intense light
 	MOON_HEIGHT_WATER = 550,   -- higher means softer shadows and more intense light
-	SUN_HEIGHT_WATER  = 140,  -- higher means softer shadows and more intense light
+	SUN_HEIGHT_WATER  = 5000,  -- higher means softer shadows and more intense light
 	MOON_LATITUDE = 0, -- NOT USED
-	SUN_LATITUDE  = 1400,
-	SECOND_MOON_LATITUDE = 100, -- Used to put a "fake" sun/moon on the other side of the globe to hide the seem that would otherwise appear there
-	SECOND_SUN_LATITUDE = 12100,
+	SUN_LATITUDE  = 848,
+	SECOND_MOON_LATITUDE = 3500, -- Used to put a "fake" sun/moon on the other side of the globe to hide the seem that would otherwise appear there
+	SECOND_SUN_LATITUDE = 100,
 
 	-- hsv color ambient light
 	AMBIENT_LIGHT_POS_X = { 0.2,  0.2, 0.2 }, -- right
@@ -900,11 +900,11 @@ NGraphics = {
 	AMBIENT_LIGHT_POS_Z = { 0.6,  0.2, 0.924 }, -- top
 	AMBIENT_LIGHT_NEG_Z = { 0.55, 0.1, 0.9 }, -- bottom
 
-	SUN_DIFFUSE_COLOR   	= {0.37, 0.23, .7},
-	SUN_INTENSITY 			= 1.4; -- 0.4
-	SUN_SPECULAR_INTENSITY 	= 1.2;
-	MOON_DIFFUSE_COLOR  	= {0.58, 0.5, 1.0},
-	MOON_INTENSITY 			= 2.5;
+	SUN_DIFFUSE_COLOR   	= {0.14, 0.0, 1.0},
+	SUN_INTENSITY 			= 1.0; -- 0.4
+	SUN_SPECULAR_INTENSITY 	= 1.0;
+	MOON_DIFFUSE_COLOR  	= {0.40, 0.42, 1.0},
+	MOON_INTENSITY 			= 1.1;
 
 	CUBEMAP_INTENSITY = 0.7,
 
@@ -1002,7 +1002,7 @@ NGraphics = {
 	NEUTRAL_COLOR = {1.0, 1.0, 1.0},
 
 	COUNTRY_COLOR_HUE_MODIFIER = 0.0,
-	COUNTRY_COLOR_SATURATION_MODIFIER = 0.7,
+	COUNTRY_COLOR_SATURATION_MODIFIER = 0.3,
 	COUNTRY_COLOR_BRIGHTNESS_MODIFIER = 0.8,
 	COUNTRY_UI_COLOR_HUE_MODIFIER = 0.0,
 	COUNTRY_UI_COLOR_SATURATION_MODIFIER = 1.0,
