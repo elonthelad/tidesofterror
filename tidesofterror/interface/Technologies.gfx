@@ -3328,4 +3328,29 @@ spriteTypes = {
 		name = "GFX_rifled_armstrong_gun_medium"
 		texturefile = "gfx/interface/technologies/artillery_equipment.dds"
 	}
+	#SpriteType = {
+	#	name = "GFX_doc_the_colonial_army_medium"
+	#	texturefile = "gfx/interface/thisisdog1.dds"
+	#	alwaystransparent = yes
+	#}
+	#SpriteType = {
+	#	name = "GFX_doc_firing_lines_medium"
+	#	texturefile = "gfx/interface/thisisdog1.dds"
+	#	alwaystransparent = yes
+	#}
+	#SpriteType = {
+	#	name = "GFX_doc_superfiring_positions_medium"
+	#	texturefile = "gfx/interface/thisisdog1.dds"
+	#	alwaystransparent = yes
+	#}
+	#SpriteType = {
+	#	name = "GFX_doc_cycle_skirmish_medium"
+	#	texturefile = "gfx/interface/thisisdog1.dds"
+	#	alwaystransparent = yes
+	#}
+	#SpriteType = {
+	#	name = "GFX_doc_the_great_charge_medium"
+	#	texturefile = "gfx/interface/thisisdog1.dds"
+	#	alwaystransparent = yes
+	#}
 }

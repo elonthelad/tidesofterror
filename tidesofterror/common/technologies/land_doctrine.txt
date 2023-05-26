@@ -108,7 +108,7 @@ technologies = {
 
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 3 y = -1 }
+			position = { x = 3 y = 1 }
 		}
 		
 		categories = {
@@ -130,7 +130,7 @@ technologies = {
 
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 5 y = -1 }
+			position = { x = 5 y = 1 }
 		}
 		
 		categories = {
@@ -157,7 +157,7 @@ technologies = {
 
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 3 y = 1 }
+			position = { x = 3 y = -1 }
 		}
 		
 		categories = {
@@ -179,7 +179,7 @@ technologies = {
 
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 5 y = 1 }
+			position = { x = 5 y = -1 }
 		}
 		
 		categories = {
@@ -195,7 +195,7 @@ technologies = {
 
 		path = {
 			leads_to_tech = doc_combat_redefined
-			research_cost_coeff = 1
+			research_cost_coeff = -1
 		}
 		
 		xp_research_type = army
