@@ -8,6 +8,11 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 3207 150 } #"Westminster"
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 1
+		}
 	}
 	resources = { steel = 250 coal = 250 aluminium = 250 fabrics = 250 timber = 250  manganese = 250 arcane_vapours = 250 }
 	manpower=74683

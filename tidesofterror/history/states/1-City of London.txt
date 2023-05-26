@@ -9,6 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 2487 80 } #"City of London"
 		buildings = {
+			air_base = 5
 			infrastructure = 5
 			arms_factory = 3
 			industrial_complex = 3
