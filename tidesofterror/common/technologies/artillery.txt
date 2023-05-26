@@ -44,7 +44,10 @@ technologies = {
 			medium_machinegun
 			medium_extraarmour
 			medium_amplesupplies
-			medium_recontelescope
+			small_rifle
+			small_handful_of_firebombs
+			small_recontelescope
+			small_sparesupplies
 		}
 
 		enable_equipments = {

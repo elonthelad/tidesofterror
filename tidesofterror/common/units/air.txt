@@ -1,0 +1,23 @@
+sub_units = {
+	# Small airframe
+
+	balloon_role_fighter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = { gas_balloon_hull = 1 }
+		categories = { category_fighter }
+		land_air_wing_size = 100
+	}
+
+	balloon_role_tacbomber = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = tactical_bomber
+		need = { gas_balloon_hull = 1 }
+		categories = { category_tac_bomber }
+		land_air_wing_size = 100
+	}
+}

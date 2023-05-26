@@ -10,19 +10,22 @@ equipments = {
 		type = fighter
 		type_override = mediumshared_type_slot_1
 		allowed_types = {
+			air_transport
+			cas
 			fighter
 			interceptor
-			cas
 			tactical_bomber
+			missile
 			naval_bomber
+			strategic_bomber
 			suicide
+			scout_plane
 		}
 		allow_mission_type = training
 		group_by = archetype
 		sprite = light_plane
 		air_map_icon_frame = 1
 		interface_category = interface_category_air
-		#substitute = cv_small_plane_airframe
 		interface_overview_category_index = 1
 		lend_lease_cost = 8
 		manpower = 4
@@ -79,10 +82,9 @@ equipments = {
 				}
 			}
 
-			mediumshared_type_slot_2 = {
+			smallshared_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
-					mediumshared_module_type
 					smallshared_module_type
 				}
 			}
@@ -107,12 +109,10 @@ equipments = {
 		module_slots = inherit
 		priority = 5
 
-		air_range = 0
-		maximum_speed = 0
-		air_agility = 4
+		air_range = 400
+		maximum_speed = 40
+		air_agility = 2
 		air_defence = 6
 		weight = 4
 	}
-
-
 }
