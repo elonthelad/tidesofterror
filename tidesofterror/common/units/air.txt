@@ -1,5 +1,5 @@
 sub_units = {
-	# Small airframe
+	# gas_balloon
 
 	balloon_role_fighter = {
 		sprite = light_plane
@@ -19,5 +19,153 @@ sub_units = {
 		need = { gas_balloon_hull = 1 }
 		categories = { category_tac_bomber }
 		land_air_wing_size = 100
+	}
+
+	balloon_role_navbomber = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = naval_bomber
+		need = { gas_balloon_hull = 1 }
+		categories = { category_nav_bomber }
+		land_air_wing_size = 100
+	}
+
+	balloon_role_scout = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = scout_plane
+		need = { gas_balloon_hull = 1 }
+		categories = { category_scout_plane }
+		land_air_wing_size = 100
+	}
+
+	balloon_role_transport = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = air_transport
+		need = { gas_balloon_hull = 1 }
+		land_air_wing_size = 100
+	}
+
+	balloon_role_suicide = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = suicide
+		need = { gas_balloon_hull = 1 }
+		land_air_wing_size = 100
+	}
+
+	balloon_role_maritime_patrol_plane = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = maritime_patrol_plane
+		need = { gas_balloon_hull = 1 }
+		land_air_wing_size = 100
+	}
+	
+	# zeppelin
+
+	zeppelin_role_fighter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = { zeppelin_hull = 1 }
+		categories = { category_fighter }
+		land_air_wing_size = 30
+	}
+
+	zeppelin_role_tacbomber = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = tactical_bomber
+		need = { zeppelin_hull = 1 }
+		categories = { category_tac_bomber }
+		land_air_wing_size = 30
+	}
+
+	zeppelin_role_navbomber = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = naval_bomber
+		need = { zeppelin_hull = 1 }
+		categories = { category_nav_bomber }
+		land_air_wing_size = 30
+	}
+
+	zeppelin_role_scout = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = scout_plane
+		need = { zeppelin_hull = 1 }
+		categories = { category_scout_plane }
+		land_air_wing_size = 30
+	}
+
+	zeppelin_role_transport = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = air_transport
+		need = { zeppelin_hull = 1 }
+		land_air_wing_size = 30
+	}
+
+	zeppelin_role_suicide = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = suicide
+		need = { zeppelin_hull = 1 }
+		land_air_wing_size = 30
+	}
+
+	zeppelin_role_maritime_patrol_plane = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = maritime_patrol_plane
+		need = { zeppelin_hull = 1 }
+		land_air_wing_size = 30
+	}
+	
+	# supermassive zeppelin
+
+	supermassivezeppelin_role_fighter = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = fighter
+		need = { zeppelin_hull_2 = 1 }
+		categories = { category_fighter }
+		land_air_wing_size = 5
+	}
+
+	supermassivezeppelin_role_tacbomber = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = tactical_bomber
+		need = { zeppelin_hull_2 = 1 }
+		categories = { category_tac_bomber }
+		land_air_wing_size = 5
+	}
+
+	supermassivezeppelin_role_navbomber = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = naval_bomber
+		need = { zeppelin_hull_2 = 1 }
+		categories = { category_nav_bomber }
+		land_air_wing_size = 5
 	}
 }

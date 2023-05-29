@@ -22,8 +22,6 @@ technology_categories = {
 	industry
 	electronics
 	land_doctrine
-	air_doctrine
-	naval_doctrine
 	strategic_destruction_tree
 	battlefield_support_tree
 	operational_integrity_tree
@@ -56,7 +54,6 @@ technology_categories = {
 	marine_tech
 	construction_tech
 	excavation_tech
-	submarine_doctrine
 	air_equipment
 	cat_mobile_warfare
 	cat_superior_firepower

@@ -11,8 +11,38 @@
  medium_plane_airframe_design_cost_factor:0 "Medium Airframe Design Cost"
 
  #MOD
+ EQ_MOD_SLOT_hugeshared_type_slot_1_TITLE:0 "Colossal Armament"
  
- EQ_MOD_SLOT_mediumshared_type_slot_1_TITLE:0 "Medium Shared Slot"
+ EQ_MOD_CAT_hugeshared_module_type_TITLE:0 "Huge Armaments"
+ 
+ huge_forward_cannon:0 "Huge Forward Cannon"
+ huge_dorsal_blastspear:0 "Dorsal Blastspear"
+ huge_glider_factory:0 "Glider Factory"
+ huge_underside_artillery:0 "Underside Artillery"
+ 
+ EQ_MOD_SLOT_largeshared_type_slot_1_TITLE:0 "Primary Large Slot"
+ EQ_MOD_SLOT_largeshared_type_slot_2_TITLE:0 "Large Shared Slot"
+ EQ_MOD_SLOT_largeshared_type_slot_3_TITLE:0 "Large Shared Slot"
+ EQ_MOD_SLOT_largeshared_type_slot_4_TITLE:0 "Large Shared Slot"
+ EQ_MOD_SLOT_largeshared_type_slot_5_TITLE:0 "Large Shared Slot"
+ EQ_MOD_SLOT_largeshared_type_slot_6_TITLE:0 "Large Shared Slot"
+ EQ_MOD_SLOT_largeshared_type_slot_7_TITLE:0 "Large Shared Slot"
+ 
+ EQ_MOD_CAT_largeshared_module_type_TITLE:0 "Large Slottable Modules"
+ 
+ large_broadsidecannons:0 "Broadside Cannons"
+ large_broadsideharpoons:0 "Broadside Harpoons"
+ large_machinegunnerturrets:0 "Machinegunner Turrets"
+ large_bombbays:0 "Bomb-bays"
+ large_glideremplacements:0 "Glider Emplacements"
+ large_riflemancrew:0 "Rifleman Crew"
+ large_paratrooperbay:0 "Paratrooper Bay"
+ large_layeredarmour:0 "Layered Armour"
+ large_headquarters:0 "Headquarters"
+ large_abundantsupplies:0 "Abundant Supplies"
+ large_reconfliers:0 "Reconfliers"
+ 
+ EQ_MOD_SLOT_mediumshared_type_slot_1_TITLE:0 "Primary Medium Slot"
  EQ_MOD_SLOT_mediumshared_type_slot_2_TITLE:0 "Medium Shared Slot"
  EQ_MOD_SLOT_mediumshared_type_slot_3_TITLE:0 "Medium Shared Slot"
  EQ_MOD_SLOT_mediumshared_type_slot_4_TITLE:0 "Medium Shared Slot"
@@ -30,7 +60,7 @@
  medium_amplesupplies:0 "Ample Supplies"
  medium_recontelescope:0 "Telescope"
  
- EQ_MOD_SLOT_smallshared_type_slot_1_TITLE:0 "Small Shared Slot"
+ EQ_MOD_SLOT_smallshared_type_slot_1_TITLE:0 "Primary Small Slot"
  EQ_MOD_SLOT_smallshared_type_slot_2_TITLE:0 "Small Shared Slot"
  EQ_MOD_SLOT_smallshared_type_slot_3_TITLE:0 "Small Shared Slot"
  EQ_MOD_SLOT_smallshared_type_slot_4_TITLE:0 "Small Shared Slot"
@@ -85,6 +115,20 @@
  frame_ash_truss:0 "Ash Truss"
  frame_ash_truss_desc:0 "§LAsh Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!§!"
  
+ #Auxillary Locomotion
+ EQ_MOD_SLOT_fixed_aux_locomotion_type_slot_TITLE:0 "Auxillary Locomotion"
+ EQ_MOD_SLOT_fixed_locomotion_type_slot_TITLE:0 "Locomotion"
+ 
+ EQ_MOD_CAT_aux_locomotionpassive_module_type_TITLE:0 "Passive Solution"
+ roziere_balloon:0 "Roziere Balloon"
+ roziere_balloon_desc:0 "§LThis balloon is a seperate chamber above the main gasbag, using a non-heated gas and gives greater control of buoyancy and steering. This can even allow the construct to allow crews to travel days, or even weeks with the right supplies, althought the larger size can make it an even bigger target in combat.§!"
+ retractable_sail:0 "Retractable Sails"
+ retractable_sail_desc:0 "§LRetractable Sails allow for controllable additional speed and levy a small amount of steering to the vessel. The retractable nature of this feature allows for a small profile when needed, as not to compromise the safety of the aircraft in dire situations.§!"
+ 
+ EQ_MOD_CAT_aux_locomotionactive_module_type_TITLE:0 "Active Solution"
+ steerable_sail:0 "Steerable Sails"
+ steerable_sail_desc:0 "§LSteerable Sails do not retract but have pulleys to aim their direction, giving incredible control over the winds and direction of flight. They are however, always open, and bring a significant weakness and point of failure to the machine.§!"
+ 
  #Armour
  EQ_MOD_SLOT_fixed_armour_type_slot_TITLE:0 "Armour"
  
@@ -97,20 +141,6 @@
  canvas_desc:0 "§LKnown to be slightly better than a placebo; inexpensive canvas largely exists on the aircraft to assist in wind resistance and lift, and considering protection, it still largely concerns just the wind. Any regular ballistic attack will rip right through as if it wasn't there to begin with.§!"
  wooden_panels:0 "Wooden Panels"
  wooden_panels_desc:0 "§LRegular wooden panels bolster the otherwise naked frame, added a fair bit of defence while not encumbering the aircraft all too much. Notably easy to work, too.§!"
- 
- #Auxillary Locomotion
- EQ_MOD_SLOT_fixed_aux_locomotion_type_slot_TITLE:0 "Auxillary Locomotion"
- 
- EQ_MOD_CAT_aux_locomotionpassive_module_type_TITLE:0 "Passive Solution"
- roziere_balloon:0 "Roziere Balloon"
- roziere_balloon_desc:0 "§LThis balloon is a seperate chamber above the main gasbag, using a non-heated gas and gives greater control of buoyancy and steering. This can even allow the construct to allow crews to travel days, or even weeks with the right supplies, althought the larger size can make it an even bigger target in combat.§!"
- retractable_sail:0 "Retractable Sails"
- retractable_sail_desc:0 "§LRetractable Sails allow for controllable additional speed and levy a small amount of steering to the vessel. The retractable nature of this feature allows for a small profile when needed, as not to compromise the safety of the aircraft in dire situations.§!"
- 
- EQ_MOD_CAT_aux_locomotionactive_module_type_TITLE:0 "Active Solution"
- steerable_sail:0 "Steerable Sails"
- steerable_sail_desc:0 "§LSteerable Sails do not retract but have pulleys to aim their direction, giving incredible control over the winds and direction of flight. They are however, always open, and bring a significant weakness and point of failure to the machine.§!"
- 
  #Build Finish
  EQ_MOD_SLOT_fixed_build_finish_type_slot_TITLE:0 "Build Finish"
  
@@ -125,3 +155,6 @@
  hasty_construction_desc:0 "§LDemand dictates that we need to output this product as fast as can be. Almost no checks are done on the machine. Parts go missing. A weapon may misfire, the chassis may creak, but whats the difference when your squad is bringing dozens of the things? Scavenging and repairs-on-the-fly are all to be expected when operating these new prototypes anyhow.§!"
  
  gas_balloon_hull_0:0 "Gas Balloon"
+ zeppelin_hull_0:0 "Early Zeppelin"
+ zeppelin_hull_1:0 "Developed Zeppelin"
+ zeppelin_hull_2:0 "Supermassive Airship"

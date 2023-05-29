@@ -31,6 +31,7 @@ technologies = {
 			manganese_infused_steel_panel
 			canvas
 			wooden_panels
+			air_paddles
 			roziere_balloon
 			steerable_sail
 			retractable_sail
@@ -38,6 +39,21 @@ technologies = {
 			factory_finish
 			smaller_build
 			hasty_construction
+			huge_forward_cannon
+			huge_dorsal_blastspear
+			huge_glider_factory
+			huge_underside_artillery
+			large_broadsidecannons
+			large_broadsideharpoons
+			large_machinegunnerturrets
+			large_bombbays
+			large_glideremplacements
+			large_riflemancrew
+			large_paratrooperbay
+			large_layeredarmour
+			large_headquarters
+			large_abundantsupplies
+			large_reconfliers
 			medium_handcannon
 			medium_javelincannon
 			medium_firebombs
@@ -52,6 +68,9 @@ technologies = {
 
 		enable_equipments = {
 			gas_balloon_hull_0
+			zeppelin_hull_0
+			zeppelin_hull_1
+			zeppelin_hull_2
 			artillery_equipment_1
 			carriage_equipment_1
 		}

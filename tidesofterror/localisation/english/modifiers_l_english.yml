@@ -1191,7 +1191,7 @@
  modifier_unit_transport_plane_design_cost_factor:0 "Transport Unit Design Cost"
  modifier_unit_rocket_interceptor_design_cost_factor:0 "Rocket Interceptor Unit Design Cost"
  modifier_unit_guided_missile_design_cost_factor:0 "Rocket Unit Design Cost"
- modifier_unit_suicide_craft_design_cost_factor:0 "Yokosuka MXY7 Ohka Unit Design Cost"
+ modifier_unit_suicide_craft_design_cost_factor:0 "Non-Role Aircraft Design Cost"
  modifier_unit_amphibious_armor_design_cost_factor:0 "Amphibious Tank Battalion Unit Design Cost"
  modifier_unit_amphibious_mechanized_design_cost_factor:0 "Amtrac Battalion Unit Design Cost"
  modifier_unit_anti_air_design_cost_factor:0 "Support Anti-Air Unit Design Cost"
