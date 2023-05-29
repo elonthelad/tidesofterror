@@ -120,7 +120,7 @@
  ENG_study_the_cliones_desc:0 "With remnants of the boat in safe hands at Newhaven Dock, we have examined it closely and, bizzarely but honestly, dozens of peculiar sea-creatures have oozed out of the mire of the broken and rotten hull. They have been previously documented as Cliones, or 'Sea-angels' due to their, mystical and otherworldly physique. What on earth brought them to the Channel?"
  
  ENG_snuff_out_the_screams:0 "Silence the Screams"
- ENG_snuff_out_the_screams_desc:0 "The howls and screeches even terrorise our interrogators; and these are men who have seen it all. They demand something be done about it, which is practically unheard of- This lunatic is a special case indeed, And needs treating as such."
+ ENG_snuff_out_the_screams_desc:0 "The howls and screeches even terrorise our interrogators; and these are men who have seen it all. They demand something be done about it, which is practically unheard of- This lunatic is a special case indeed, and maybe the only way to reach his secrets, are through some experimental means..."
  
  ENG_lockdown_the_harbour:0 "Lockdown the Harbour"
  ENG_lockdown_the_harbour_desc:0 "Our workers report it is nigh-on impossible to cooperate with the locals. We have to divert resources to reconcile the town and local parish to allow our operatives to continue."
@@ -132,34 +132,91 @@
  ENG_bribe_independent_reporters_desc:0 "Money oils the wheels of journalism, and we are not one to miss out on an opportunity like so. The press must be kept silent, lest the people lose faith in us, and just a spare coin here and there, will cover our tracks."
  
  ENG_manchester_outrages:0 "Manchester Outrages"
+ ENG_manchester_outrages_desc:0 ""
+ 
  ENG_military_planning:0 "Military Preparations"
+ ENG_military_planning_desc:0 ""
+ 
  ENG_teachings_of_homeland_wars:0 "Teachings of Homeland Wars"
+ ENG_teachings_of_homeland_wars_desc:0 ""
+ 
  ENG_cutting_ties:0 "Cutting Ties"
+ ENG_cutting_ties_desc:0 ""
+ 
  ENG_inter_government_dialogue:0 "Inter-Polity Dialogue"
+ ENG_inter_government_dialogue_desc:0 ""
+ 
  ENG_organisation_of_intelligence:0 "National Intelligence"
+ ENG_organisation_of_intelligence_desc:0 ""
+ 
  ENG_committee_of_imperial_defence:0 "Committee of Imperial Defence"
+ ENG_committee_of_imperial_defence_desc:0 ""
  
  ENG_hunger_of_a_nation:0 "Hunger of a Nation"
+ ENG_hunger_of_a_nation_desc:0 ""
+ 
  ENG_feed_the_capable:0 "Feed the Capable"
+ ENG_feed_the_capable_desc:0 ""
+ 
  ENG_feed_the_young:0 "Feed the Young"
+ ENG_feed_the_young_desc:0 ""
+ 
  ENG_immediate_re_election:0 "Immediate Re-Election"
+ ENG_immediate_re_election_desc:0 ""
+ 
  ENG_we_remain:0 "We Remain"
+ ENG_we_remain_desc:0 ""
+ 
  ENG_investigate_the_cult:0 "Investigate the Cult"
+ ENG_investigate_the_cult_desc:0 ""
+ 
  ENG_attacks_on_the_coast:0 "Attacks on the Coast"
+ ENG_attacks_on_the_coast_desc:0 ""
+ 
  ENG_undermine_the_abyssus_theory:0 "Undermine the Abyssus Theory"
+ ENG_undermine_the_abyssus_theory_desc:0 ""
+ 
  ENG_the_late_strangers_of_the_sea:0 "The Late Strangers of the Sea"
+ ENG_the_late_strangers_of_the_sea_desc:0 ""
+ 
  ENG_the_temple_from_the_earth:0 "The Temple from neath the Earth"
+ ENG_the_temple_from_the_earth_desc:0 ""
+ 
  ENG_assemble_the_royal_expeditioneers:0 "Assemble the Royal Expeditioneers"
+ ENG_assemble_the_royal_expeditioneers_desc:0 ""
+ 
  ENG_source_of_the_great_sea_swells:0 "Source of the Great Sea Swells"
+ ENG_source_of_the_great_sea_swells_desc:0 ""
+ 
  ENG_rebuild_and_never_return:0 "Rebuild and never Return"
+ ENG_rebuild_and_never_return_desc:0 ""
+ 
  ENG_coastal_walling:0 "Coastal Preparations"
+ ENG_coastal_walling_desc:0 ""
  
  ENG_the_spectre_fright:0 "The Visitant Fright"
+ ENG_the_spectre_fright_desc:0 ""
+ 
  ENG_mutual_nightmares:0 "Shared Nightmares"
+ ENG_mutual_nightmares_desc:0 ""
+ 
  ENG_assurance_campaign:0 "Assurance Campaign"
+ ENG_assurance_campaign_desc:0 ""
+ 
  ENG_barbituate_development:0 "Barbituate Development"
+ ENG_barbituate_development_desc:0 ""
+ 
  ENG_the_gibson_capture_trials:0 "The Gibson Capture Trials"
+ ENG_the_gibson_capture_trials_desc:0 ""
+ 
  ENG_wescotts_temple:0 "Wescott's Temple"
+ ENG_wescotts_temple_desc:0 ""
+ 
  ENG_the_order_bolstered:0 "The Order, Bolstered"
+ ENG_the_order_bolstered_desc:0 ""
+ 
  ENG_department_superphysical:0 "Department of the Paranormal"
+ ENG_department_superphysical_desc:0 ""
+ 
  ENG_asylum_development_project:0 "Asylum Subsidy Project"
+ ENG_asylum_development_project_desc:0 ""
