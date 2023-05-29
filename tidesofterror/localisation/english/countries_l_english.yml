@@ -1,10 +1,10 @@
 ﻿l_english:
  #
- ENG:0 "Great Britain"
- ENG_DEF:0 "British"
- ENG_ADJ:0 "British"
+ ENG: "Great Britain"
+ ENG_DEF: "British"
+ ENG_ADJ: "British"
  #
- FEN:0 "Fenian Republic"
- FEN_DEF:0 "Irish"
- FEN_ADJ:0 "Irish"
+ FEN: "Fenian Republic"
+ FEN_DEF: "Irish"
+ FEN_ADJ: "Irish"
  #
