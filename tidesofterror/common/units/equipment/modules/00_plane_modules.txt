@@ -258,11 +258,39 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
+			maximum_speed = 5
 			air_agility = 4
-			build_cost_ic = 5
+			weight = 2
+			build_cost_ic = 2
 		}
 		
 		multiply_stats = {
+			build_cost_ic = 0.08
+			maximum_speed = 0.05
+			weight = 0.05
+			air_agility = 0.1
+		}
+
+		build_cost_resources = {
+			fabrics = 2
+		}
+	}
+	
+	steam_engine = {
+		abbreviation = "ste"
+		category = aux_locomotionactive_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = 20
+			air_agility = 8
+			weight = 6
+			build_cost_ic = 4
+		}
+		
+		multiply_stats = {
+			air_range = -0.6
+			build_cost_ic = 0.15
 			maximum_speed = 0.25
 			weight = 0.1
 			air_agility = 0.2
@@ -1004,5 +1032,4 @@ equipment_modules = {
 			air_supply
 		}
 	}
-
 }

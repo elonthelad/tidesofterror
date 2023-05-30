@@ -55,4 +55,60 @@ guiTypes = {
 			position = { x=0 y=0 }
 		}
 	}
+
+	# glider_hull_0
+
+	containerWindowType = {
+		name = "equipment_designer_glider_hull_0"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_small_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+	# glider_hull_1
+
+	containerWindowType = {
+		name = "equipment_designer_glider_hull_1"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_small_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+	# glider_hull_2
+
+	containerWindowType = {
+		name = "equipment_designer_glider_hull_2"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_small_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+	# glider_hull_3
+
+	containerWindowType = {
+		name = "equipment_designer_glider_hull_3"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_small_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
 }

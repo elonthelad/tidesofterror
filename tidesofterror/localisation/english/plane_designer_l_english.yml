@@ -150,3 +150,7 @@
  zeppelin_hull_0: "Early Zeppelin"
  zeppelin_hull_1: "Developed Zeppelin"
  zeppelin_hull_2: "Supermassive Airship"
+ glider_hull_0: "Early Glider"
+ glider_hull_1: "Developed Glider"
+ glider_hull_2: "Icarus Wings"
+ glider_hull_3: "Biplane"

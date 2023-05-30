@@ -137,35 +137,72 @@ sub_units = {
 		land_air_wing_size = 30
 	}
 	
-	# supermassive zeppelin
+	# glider
 
-	supermassivezeppelin_role_fighter = {
+	glider_role_fighter = {
 		sprite = light_plane
 		priority = 1
 		active = yes
 		type = fighter
-		need = { zeppelin_hull_2 = 1 }
+		need = { glider_hull = 1 }
 		categories = { category_fighter }
-		land_air_wing_size = 5
+		land_air_wing_size = 100
 	}
 
-	supermassivezeppelin_role_tacbomber = {
+	glider_role_tacbomber = {
 		sprite = light_plane
 		priority = 1
 		active = yes
 		type = tactical_bomber
-		need = { zeppelin_hull_2 = 1 }
+		need = { glider_hull = 1 }
 		categories = { category_tac_bomber }
-		land_air_wing_size = 5
+		land_air_wing_size = 100
 	}
 
-	supermassivezeppelin_role_navbomber = {
+	glider_role_navbomber = {
 		sprite = light_plane
 		priority = 1
 		active = yes
 		type = naval_bomber
-		need = { zeppelin_hull_2 = 1 }
+		need = { glider_hull = 1 }
 		categories = { category_nav_bomber }
-		land_air_wing_size = 5
+		land_air_wing_size = 100
+	}
+
+	glider_role_scout = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = scout_plane
+		need = { glider_hull = 1 }
+		categories = { category_scout_plane }
+		land_air_wing_size = 100
+	}
+
+	glider_role_transport = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = air_transport
+		need = { glider_hull = 1 }
+		land_air_wing_size = 100
+	}
+
+	glider_role_suicide = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = suicide
+		need = { glider_hull = 1 }
+		land_air_wing_size = 100
+	}
+
+	glider_role_maritime_patrol_plane = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = maritime_patrol_plane
+		need = { glider_hull = 1 }
+		land_air_wing_size = 100
 	}
 }
