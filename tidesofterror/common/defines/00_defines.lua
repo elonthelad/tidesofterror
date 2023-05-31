@@ -3118,7 +3118,7 @@ NFocus = {
 	FOCUS_POINT_DAYS = 1,						-- Multiply focus cost by this to get amount of days required to complete focus
 	FOCUS_PROGRESS_PEACE = 1,					-- Progress during peace
 	FOCUS_PROGRESS_WAR = 1,					-- Progress during war
-	MAX_SAVED_FOCUS_PROGRESS = 7,				-- This much progress can be saved while not having a focus selected
+	MAX_SAVED_FOCUS_PROGRESS = 0,				-- This much progress can be saved while not having a focus selected
 },
 
 NOperatives = {
