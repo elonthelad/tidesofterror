@@ -1,6 +1,6 @@
 ﻿l_english:
  STRATEGICREGION_1: "Cornwall"
- STRATEGICREGION_2: "Sea"
+ STRATEGICREGION_2: "North Sea"
  STRATEGICREGION_3: "Devon"
  STRATEGICREGION_4: "Somerset"
  STRATEGICREGION_5: "Dorset"
@@ -164,3 +164,4 @@
  STRATEGICREGION_163: "Shelf of Hebridies"
  STRATEGICREGION_164: "Bay of Assynt"
  STRATEGICREGION_165: "Sea of Bailey"
+ STRATEGICREGION_166: "Inner Argyll"
