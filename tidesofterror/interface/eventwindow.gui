@@ -5,7 +5,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "EventWindow"
 		position = { x=-282 y=-360 }	
-		size = { width = 550 height =728 }
+		size = { width = 1170 height =163 }
 		moveable = yes
 		Orientation = CENTER		
 		
@@ -20,13 +20,13 @@ guiTypes = {
 		containerWindowType = {
 			name = "top_Window"
 			position = { x=0 y=0 }	
-			size = { width = 550 height =151 }
+			size = { width = 1170 height =0 }
 			moveable = yes
 			Orientation = UPPER_LEFT
 		
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 90 y = 184 }
+				position = { x = 764 y = 8 }
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"	
@@ -46,63 +46,57 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "midsection"
-			position = { x=0 y=281 }	
-			size = { width = 550 height = 100 }
+			position = { x=0 y=0 }	
+			size = { width = 1170 height = 426 }
 			moveable = yes
 			clipping = no
 			Orientation = UPPER_LEFT
 
 			instantTextBoxType = {
 				name = "Description"
-				position = { x = -137 y = -50 }
+				position = { x = 170 y = -286 }
 				font = "hoi_18mbs"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
-				maxWidth = 275
-				maxHeight = 230
+				maxWidth = 375
+				maxHeight = 400
 				orientation = center
 				format = center
 				vertical_alignment = center
+				fixedsize = yes
 			}	
 		}			
 
 		containerWindowType = {
 			name = "bottom_Window"
-			position = { x=0 y=121 }	
-			size = { width = 550 height = 406 }
+			position = { x=0 y=0}	
+			size = { width = 550 height = 78 }
 			moveable = yes
 			clipping = no
 			Orientation = UPPER_LEFT
 
+			gridBoxType = {
+				name = "options_grid"
+				position = { x = 464 y = 41 }
+				size = { width = 670 height = 30 }
+				slotsize = { width = 290 height = 47 }
+				max_slots_horizontal = 1
+				format = "RIGHT"
+			}
+
 			iconType = {
 				name ="event_picture"
 				spriteType = "GFX_report_event_001"
-				position = { x = 45 y = -459 }
+				position = { x = 10 y = -378 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes				
 			}
 	
 			iconType = {
 				name ="event_pic_clip"
-				spriteType = "GFX_event_generic_cover1"
-				position = { x = 20 y = -332 }
+				spriteType = "GFX_event_pic_clip"
+				position = { x = -1120 y = -1332 }
 				Orientation = "UPPER_LEFT"
-			}
-	
-			iconType = {
-				name ="event_pic_clips"
-				spriteType = "GFX_event_generic_cover2"
-				position = { x = 75 y = -482 }
-				Orientation = "UPPER_LEFT"
-			}
-
-			gridBoxType = {
-				name = "options_grid"
-				position = { x = 104 y = 168 }
-				size = { width = 300 height = 30 }
-				slotsize = { width = 300 height = 47 }
-				max_slots_horizontal = 1
-				format = "DOWN"
 			}
 		}
 	}

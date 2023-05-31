@@ -15,6 +15,7 @@
  test.3.a: "Can you tell me more?"
  test.3.b: "We aren't ready for this, return immediately."
  test.3.c: "Of course. Carry on, team."
+ test.3.e: "I'll decide later."
   
  test.4.t: "A Sign from Beyond"
  test.4.d: "Seek the tomb which rests at the depths of the §CBay of Lundy§!.\n\nPerform an expedition there."

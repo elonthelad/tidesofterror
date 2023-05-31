@@ -11,16 +11,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_event_generic_cover1"
-		texturefile = "gfx/interface/generic_event cover1.dds"
-	}
-
-	spriteType = {
-		name = "GFX_event_generic_cover2"
-		texturefile = "gfx/interface/generic_event cover2.dds"
-	}
-
-	spriteType = {
 		name = "GFX_event_news_bg"
 		texturefile = "gfx/interface/event_news_bg.dds"
 	}
@@ -243,6 +233,4 @@ spriteTypes = {
 		texturefile = "gfx/interface/events/war_escalation_level_10.dds"
 		noOfFrames = 3
 	}
-
-
 }
