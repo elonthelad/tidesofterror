@@ -34,10 +34,10 @@ unit_leader_event = {
 		ai_chance = {factor = 100}
 		every_state = {
 			limit = { has_state_flag = fenian_sentiment }
-			transfer_state_to = FEN
+			transfer_state_to = EIR
 		}
 		declare_war_on = {
-			target = FEN
+			target = EIR
 			type = annex_everything
 		}
 		remove_ideas = { ENGIDEA_fenian_remnants }
@@ -58,7 +58,7 @@ state_event = {
 		event_target:target_state = {
 			clr_state_flag = fenian_sentiment
 			set_demilitarized_zone = no
-			remove_core_of = FEN
+			remove_core_of = EIR
 		}
 		subtract_from_variable = { global.amount_of_fen_states = 1 }
 		ENG = {

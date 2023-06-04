@@ -8,7 +8,7 @@ state={
 	history={
 		owner = ENG
 		add_claim_by = ENG
-		add_core_of = FEN
+		add_core_of = EIR
 		set_demilitarized_zone = yes
 		set_state_flag = fenian_sentiment
 	}

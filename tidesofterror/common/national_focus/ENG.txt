@@ -160,7 +160,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
-			release_puppet = FEN
+			release_puppet = EIR
 			remove_ideas = { ENGIDEA_fenian_remnants }
 		}
 	}

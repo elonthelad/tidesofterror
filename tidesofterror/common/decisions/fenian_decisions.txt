@@ -33,10 +33,10 @@ ENG_fenian_decisioncat = {
 			add_stability = -0.3
 			every_state = {
 				limit = { has_state_flag = fenian_sentiment }
-				transfer_state_to = FEN
+				transfer_state_to = EIR
 			}
 			declare_war_on = {
-				target = FEN
+				target = EIR
 				type = annex_everything
 			}
 		}

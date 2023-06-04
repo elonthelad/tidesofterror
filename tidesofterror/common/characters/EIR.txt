@@ -1,0 +1,15 @@
+characters = {
+	EIR_Fergal_O_Brosnan = {
+		name = "Fergal O' Brosnan" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_fergal_o_brosnan
+			}
+		}
+		country_leader = {
+			ideology = separatists
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}
