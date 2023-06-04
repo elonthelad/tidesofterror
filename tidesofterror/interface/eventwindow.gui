@@ -4,7 +4,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "EventWindow"
-		position = { x=-282 y=-360 }	
+		position = { x=-29%% y=-26%% }	
 		size = { width = 1170 height =163 }
 		moveable = yes
 		Orientation = CENTER		
@@ -37,7 +37,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "btn_minimize"
-				position = {x=-1187 y=-1135}
+				position = {x=10 y=10}
 				spriteType = "GFX_event_button_minimize"
 				clicksound = click_default
 				pdx_tooltip = "MINIMIZE_EVENT"
