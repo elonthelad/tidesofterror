@@ -131,7 +131,7 @@ update_operation_ai = {
 				if = {
 					limit = { 
 						PREV = {
-							NOT = { has_government = military_junta } 
+							NOT = { has_government = autocracy } 
 							NOT = {
 								has_operation_token = {
 									tag = var:generic_operation_target
@@ -139,7 +139,7 @@ update_operation_ai = {
 								}
 							}
 						}
-						has_government = military_junta
+						has_government = autocracy
 						check_variable = { occupied_countries^num > 0 }
 						has_added_tension_amount > 20
 					}

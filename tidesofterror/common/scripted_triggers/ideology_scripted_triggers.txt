@@ -2,29 +2,42 @@
 is_enemy_ideology = {
 	OR = {
 		AND = {
-			has_government = unionist
+			has_government = people
 			ROOT = {
 				OR = {
-					has_government = military_junta
-					has_government = democratic
+					has_government = autocracy
+					has_government = parliament
+					has_government = arcane
 				}
 			}
 		}
 		AND = {
-			has_government = democratic
+			has_government = parliament
 			ROOT = {
 				OR = {
-					has_government = unionist
-					has_government = military_junta
+					has_government = people
+					has_government = autocracy
+					has_government = arcane
 				}
 			}
 		}
 		AND = {
-			has_government = military_junta
+			has_government = autocracy
 			ROOT = {
 				OR = {
-					has_government = democratic
-					has_government = unionist
+					has_government = parliament
+					has_government = people
+					has_government = arcane
+				}
+			}
+		}
+		AND = {
+			has_government = arcane
+			ROOT = {
+				OR = {
+					has_government = parliament
+					has_government = people
+					has_government = autocracy
 				}
 			}
 		}

@@ -17,8 +17,8 @@ peace_ai_desires = {
         enable = {
             ROOT = { tag = ROOT.FROM } #We are negotiating for ourselves
             OR = {
-                has_government = democratic
-                has_government = unionist
+                has_government = parliament
+                has_government = people
             }
             ROOT.FROM.FROM.FROM = { NOT = { is_core_of = ROOT.FROM } } #It is not ours
             ROOT.FROM.FROM.FROM = {
@@ -30,14 +30,14 @@ peace_ai_desires = {
         ai_desire = -1000
     }
 
-    generic_influence_cutoff_force_government_military_junta_unaligned = { #Don't do ANYTHING outside influence range
+    generic_influence_cutoff_force_government_autocracy_unaligned = { #Don't do ANYTHING outside influence range
         peace_action_type = { take_states puppet force_government liberate }
         enable = {
             # ROOT = { tag = ROOT.FROM } #We are negotiating for ourselves
             NOT = {
                 OR = {
-                    has_government = democratic
-                    has_government = unionist
+                    has_government = parliament
+                    has_government = people
                 }
             }
             # ROOT.FROM.FROM.FROM = { NOT = { is_core_of = ROOT } } #It is not ours
@@ -56,9 +56,9 @@ peace_ai_desires = {
         peace_action_type = force_government
         enable = {
             ROOT = {
-                has_government = democratic
+                has_government = parliament
                 ROOT.FROM.FROM = {
-                    NOT = { has_government = democratic }
+                    NOT = { has_government = parliament }
                     is_subject = yes
                 }
             }
@@ -82,12 +82,12 @@ peace_ai_desires = {
     ### The above trigger looks extremely harsh. In reality, this means the AI is more inclined to step through nearby land without bunny hopping and potentially leaving gaps.
 
 
-    military_junta_majors_on_a_mission = {
+    autocracy_majors_on_a_mission = {
         peace_action_type = take_states
         enable = {
             ROOT = { 
                 is_major = yes                #We are big
-                has_government = military_junta    #We are the baddies
+                has_government = autocracy    #We are the baddies
                 tag = ROOT.FROM                #We are acting for ourselves
             }
         }
@@ -95,50 +95,50 @@ peace_ai_desires = {
         ai_desire = 50
     }
 
-    military_junta_puppet_desire = {
+    autocracy_puppet_desire = {
         peace_action_type = puppet
         enable = {
             ROOT = { 
                 NOT = { tag = JAP }            #We aren't Japan (special handling)
                 is_major = yes                #We are big
-                has_government = military_junta    #We are the baddies
+                has_government = autocracy    #We are the baddies
             }
         }
 
         ai_desire = -50
     }
 
-    military_junta_liberate_desire = {
+    autocracy_liberate_desire = {
         peace_action_type = liberate
         enable = {
             ROOT = { 
                 NOT = { tag = JAP }            #We aren't Japan (special handling)
                 is_major = yes                #We are big
-                has_government = military_junta    #We are the baddies
+                has_government = autocracy    #We are the baddies
                 tag = ROOT.FROM                #We are acting for ourselves
             }
-            ROOT.FROM.FROM = { NOT = { has_government = military_junta } }
+            ROOT.FROM.FROM = { NOT = { has_government = autocracy } }
         }
 
         ai_desire = -75
     }
 
-    # Force gov on unionist preferably
-    democracy_force_government_on_unionist = {
+    # Force gov on people preferably
+    parliament_force_government_on_people = {
         peace_action_type = force_government
         enable = {
-            ROOT = { has_government = democratic }
-            ROOT.FROM.FROM = { has_government = unionist }
+            ROOT = { has_government = parliament }
+            ROOT.FROM.FROM = { has_government = people }
             ROOT.FROM.FROM.FROM = { NOT = { is_claimed_by = ROOT.FROM.FROM } }
         }
         ai_desire = 50
     }
 
 
-    democracy_owner_does_not_have_core = {
+    parliament_owner_does_not_have_core = {
         peace_action_type = { force_government puppet take_states }
         enable = {
-            ROOT = { has_government = democratic }
+            ROOT = { has_government = parliament }
             ROOT.FROM.FROM.FROM = { NOT = { is_core_of = ROOT.FROM } }
         }
         ai_desire = -50
@@ -149,8 +149,8 @@ peace_ai_desires = {
         peace_action_type = { force_government puppet take_states }
         enable = {
             ROOT = {
-                NOT = { has_government = democratic }
-                NOT = { has_government = military_junta }
+                NOT = { has_government = parliament }
+                NOT = { has_government = autocracy }
                 NOT = {
                     tag = ROOT.FROM
                 }
@@ -208,7 +208,7 @@ peace_ai_desires = {
     leave_force_gov_at_will_to_allies = { #It is a bit hacky, but we need a preference here or we end up worse than where we started
         peace_action_type = force_government
         enable = {
-            ROOT = { NOT = { has_government = democratic } }
+            ROOT = { NOT = { has_government = parliament } }
             ROOT.FROM.FROM.FROM = {
                 NOT = {
                     any_neighbor_state = {
@@ -251,11 +251,11 @@ peace_ai_desires = {
     democrats_dont_liberate_the_wrong_ideology = {
         peace_action_type = liberate
         enable = {
-            ROOT = { has_government = democratic }
+            ROOT = { has_government = parliament }
             ROOT.FROM = {
                 OR = {
-                    has_government = military_junta
-                    has_government = unionist
+                    has_government = autocracy
+                    has_government = people
                 }
             }
         }
@@ -268,16 +268,16 @@ peace_ai_desires = {
 
         enable = {
             if = {
-                limit = { has_government = democratic }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = democratic }
+                limit = { has_government = parliament }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = parliament }
             }
             else_if = {
-                limit = { has_government = military_junta }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = military_junta }
+                limit = { has_government = autocracy }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = autocracy }
             }
             else_if = {
-                limit = { has_government = unionist }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = unionist }
+                limit = { has_government = people }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = people }
             }
             else_if = {
                 limit = { has_government = arcane }
@@ -311,24 +311,24 @@ peace_ai_desires = {
     }
 
 
-    unionist_dont_liberate_the_wrong_ideology = {
+    people_dont_liberate_the_wrong_ideology = {
         peace_action_type = liberate
         enable = {
-            ROOT = { has_government = unionist }
-            ROOT.FROM = { NOT = { has_government = unionist } }
+            ROOT = { has_government = people }
+            ROOT.FROM = { NOT = { has_government = people } }
         }
         ai_desire = -200
     }
 
 
-    military_junta_dont_liberate_the_wrong_ideology = {
+    autocracy_dont_liberate_the_wrong_ideology = {
         peace_action_type = liberate
         enable = {
-            ROOT = { has_government = military_junta }
+            ROOT = { has_government = autocracy }
             ROOT.FROM = {
                 NOT = {
                     OR = {
-                        has_government = military_junta
+                        has_government = autocracy
                         has_government = arcane
                     }
                 }
@@ -353,7 +353,7 @@ peace_ai_desires = {
     liberate_on_non_core = {
         peace_action_type = liberate
         enable = {
-            ROOT = { has_government = democratic }
+            ROOT = { has_government = parliament }
             ROOT.FROM.FROM.FROM = {
                 NOT = { is_core_of = ROOT.FROM.FROM }
             }
@@ -366,7 +366,7 @@ peace_ai_desires = {
     try_and_take_neighbors_when_forcing_gov = { #Leaving here; this has unintended consequences, but we need it for SOV
         peace_action_type = { force_government puppet }
         enable = {
-            ROOT = { has_government = democratic }
+            ROOT = { has_government = parliament }
             ROOT.FROM.FROM.FROM = {
                 any_neighbor_state = {
                     OR = {
@@ -385,7 +385,7 @@ peace_ai_desires = {
     liberate_if_already_exists = {
         peace_action_type = liberate
         enable = {
-            ROOT = { has_government = democratic }
+            ROOT = { has_government = parliament }
             ROOT.FROM = {
                 pc_is_liberated = yes
             }
@@ -456,10 +456,10 @@ peace_ai_desires = {
         peace_action_type = force_government
         enable = {
             ROOT = {
-                NOT = { has_government = democratic }
+                NOT = { has_government = parliament }
                 any_allied_country = {
                     is_faction_leader = yes
-                    has_government = democratic
+                    has_government = parliament
                 }
             }
         }
@@ -484,16 +484,16 @@ peace_ai_desires = {
 
         enable = {
             if = {
-                limit = { has_government = democratic }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = democratic }
+                limit = { has_government = parliament }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = parliament }
             }
             else_if = {
-                limit = { has_government = military_junta }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = military_junta }
+                limit = { has_government = autocracy }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = autocracy }
             }
             else_if = {
-                limit = { has_government = unionist }
-                ROOT.FROM.FROM = { pc_is_forced_government_to = unionist }
+                limit = { has_government = people }
+                ROOT.FROM.FROM = { pc_is_forced_government_to = people }
             }
             else_if = {
                 limit = { has_government = arcane }

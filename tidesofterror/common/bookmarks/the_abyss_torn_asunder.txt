@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"ENG"={
 			history = "ENG_THE_ABYSS_TORN_ASUNDER_DESC"
-			ideology = democratic
+			ideology = parliament
 			ideas = {
 			}
 			focuses = {

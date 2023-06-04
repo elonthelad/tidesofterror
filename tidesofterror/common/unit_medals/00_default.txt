@@ -29,7 +29,6 @@ unit_medals = {
 	medal_bravery = {
 		
 		available = { 
-			has_government = democratic
 		}
 		frame = 1
 		icon = "GFX_medal_icon_default"
@@ -50,7 +49,6 @@ unit_medals = {
 	medal_military_order = {
 		
 		available = { 
-			has_government = democratic
 		}
 		frame = 2
 		icon = "GFX_medal_icon_default"
@@ -71,7 +69,6 @@ unit_medals = {
 	medal_sword = {
 		
 		available = { 
-			has_government = democratic
 		}
 		frame = 3
 		icon = "GFX_medal_icon_default"
@@ -91,7 +88,6 @@ unit_medals = {
 	medal_virtue = {
 		
 		available = { 
-			has_government = democratic
 		}
 		frame = 4
 		icon = "GFX_medal_icon_default"

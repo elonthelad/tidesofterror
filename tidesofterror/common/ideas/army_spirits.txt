@@ -43,7 +43,7 @@ ideas = {
 		best_of_the_best_spirit = {
 			ledger = army
 			visible = { 
-				has_government = democratic
+				has_government = parliament
 			}
 			modifier = {
 				army_leader_start_level = 2

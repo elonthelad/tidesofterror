@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"ENG"={
 			history = "ENG_CONNIPTIONS_IN_THE_DARK_DESC"
-			ideology = democratic
+			ideology = parliament
 			ideas = {
 			}
 			focuses = {

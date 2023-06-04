@@ -286,7 +286,7 @@ ideas = {
 
 			available = {
 				has_war = yes
-				has_government = military_junta
+				has_government = autocracy
 			}
 
 			cost = 150

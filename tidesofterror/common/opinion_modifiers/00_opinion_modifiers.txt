@@ -130,11 +130,11 @@ opinion_modifiers = {
 		value = 25
 	}
 
-	military_junta_in_government = {
+	autocracy_in_government = {
 		value = 15
 	}
 
-	unionist_in_government = {
+	people_in_government = {
 		value = 15
 	}
 
@@ -165,8 +165,7 @@ opinion_modifiers = {
 		value = 1
 	}
 	
-	puppet_opinion = 
-	{
+	puppet_opinion = {
 		value = 50
 	}
 
@@ -178,19 +177,19 @@ opinion_modifiers = {
 		value = 20
 	}
 	
-	democratic_leanings_good = {
+	parliament_leanings_good = {
 		value = 15
 	}
 	
-	democratic_leanings_bad = {
+	parliament_leanings_bad = {
 		value = -30
 	}
 	
-	unionist_leanings_good = {
+	people_leanings_good = {
 		value = 15
 	}
 	
-	unionist_leanings_bad = {
+	people_leanings_bad = {
 		value = -30
 	}
 	
@@ -210,14 +209,6 @@ opinion_modifiers = {
 		value = -30
 	}
 	
-	tizard_relations = {
-		value = 25
-	}
-	
-	tizard_refused = {
-		value = -50
-	}
-	
 	sanctions_relations = {
 		value = -40
 	}
@@ -234,12 +225,6 @@ opinion_modifiers = {
 
 	aided_industry = {
 		value = 15
-	}
-	
-	communist_collaborators = {
-		value = -125
-		months = 48
-		decay = 1
 	}
 	
 	unholy_alliance  = {

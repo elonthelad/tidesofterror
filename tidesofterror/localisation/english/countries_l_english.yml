@@ -3,8 +3,18 @@
  ENG: "Great Britain"
  ENG_DEF: "British"
  ENG_ADJ: "British"
- #
- FEN: "Fenian Republic"
- FEN_DEF: "Irish"
- FEN_ADJ: "Irish"
- #
+ ENG_parliament: "Great Britain"
+ ENG_autocracy: "British Empire"
+ ENG_people: "People's Britain"
+ #^WIP
+ ENG_arcane: "Dark Isles"
+
+ EIR: "Fenian Republic"
+ EIR_DEF: "Irish"
+ EIR_ADJ: "Irish"
+ EIR_parliament: "Ireland"
+ #^WIP
+ EIR_autocracy: "Eire Ghaelach"
+ EIR_people: "Fenian Ireland"
+ EIR_arcane: "Corrupted Eire"
+ #^WIP
