@@ -1,0 +1,74 @@
+ENG_bop_test = {
+	initial_value = 0
+	left_side = ENG_bop_leftside
+	right_side = ENG_bop_rightside
+
+	range = { #Balanced Range, neither Councils nor Cantons
+		id = ENG_bop_middle
+		min = -0.25
+		max = 0.25
+		modifier = {
+			political_advisor_cost_factor = -0.2
+		}
+	}
+
+	side = {
+		id = ENG_bop_rightside
+		icon = GFX_bop_SWI_centralization_canton_side
+		range = {
+			id = ENG_bop_rightside_max
+			min = 0.75
+			max = 1
+			modifier = {
+				war_support_factor = -0.3
+				political_advisor_cost_factor = -1
+				surrender_limit	= 0.75
+			}
+			
+			on_activate = {
+			}
+		}
+		
+		range = {
+			id = ENG_bop_rightside_high
+			min = 0.25
+			max = 0.75
+			modifier = {
+				war_support_factor = -0.15
+				political_advisor_cost_factor = -0.75
+				surrender_limit	= 0.4
+			}
+			on_activate = {
+			}
+		}
+	}
+
+	side = {
+		id = ENG_bop_leftside
+		icon = GFX_bop_SWI_centralization_council_side
+		range = {
+			id = ENG_bop_leftside_max
+			min = -1
+			max = -0.75
+			modifier = {
+				war_support_factor = 0.15 
+				surrender_limit	= -0.2			
+			}
+			on_activate = {
+			}
+		}
+
+		range = {
+			id = ENG_bop_leftside_high
+			min = -0.75
+			max = -0.25
+			modifier = {
+				war_support_factor = 0.1
+				political_advisor_cost_factor = -0.25
+				surrender_limit	= -0.1
+			}
+			on_activate = {
+			}
+		}
+	}
+} 

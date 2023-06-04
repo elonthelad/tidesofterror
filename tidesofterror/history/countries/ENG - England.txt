@@ -32,7 +32,10 @@ add_ideas = {
 	routine_research
 }
 
-
+set_power_balance = {
+		id = ENG_bop_test
+		set_default = yes  # Uses initial starting value of bop
+}
 
 set_politics = {
 	ruling_party = democratic
