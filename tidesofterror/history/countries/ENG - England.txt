@@ -22,6 +22,8 @@ set_technology = {
 	manby_mortar = 1
 }
 
+create_faction = british_sphere_faction
+
 set_convoys = 100
 
 add_ideas = {
@@ -30,6 +32,26 @@ add_ideas = {
     volunteer_forces
     liberal_trade_policy
 	routine_research
+	#THIS IS FOR NATIONAL SPIRIT TESTING!
+	ENGIDEA_1
+	ENGIDEA_2
+	ENGIDEA_3
+	ENGIDEA_4
+	ENGIDEA_5
+	ENGIDEA_6
+	ENGIDEA_7
+	ENGIDEA_8
+	ENGIDEA_9
+	ENGIDEA_10
+	ENGIDEA_11
+	ENGIDEA_12
+	ENGIDEA_13
+	ENGIDEA_14
+	ENGIDEA_15
+	ENGIDEA_16
+	ENGIDEA_17
+	ENGIDEA_18
+	ENGIDEA_19
 }
 
 set_power_balance = {
@@ -44,7 +66,8 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	parliament = 85
+	parliament = 75
 	people = 6
 	autocracy = 9
+	arcane = 10
 }

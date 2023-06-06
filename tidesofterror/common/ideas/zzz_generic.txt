@@ -84,5 +84,291 @@ ideas = {
 				defense_bonus_against = 0.1
 			}
 		}
+		#THIS IS FOR TESTING NATIONAL SPIRIT UI!
+		ENGIDEA_1 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_2 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_3 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_4 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_5 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_6 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_7 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_8 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_9 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_10 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_11 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_12 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_13 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_14 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_15 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_16 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_17 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_18 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
+		ENGIDEA_19 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+			}
+		}
 	}
 }
