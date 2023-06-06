@@ -205,7 +205,7 @@ lacking_consumer_goods = {
 }
 
 gain_focus = {
-	political_power_cost = 1
+	#political_power_cost = 1
 }
 
 free_license = {
@@ -250,7 +250,6 @@ war_support_bad_modifier = {
 war_support_during_war = { #Applied during war, scaled from 0-100% with war support, not split.
 }
 
-
 attache_sent = {
 	war_support_factor = 0.1
 }
@@ -261,6 +260,12 @@ diff_very_easy_player = {
 }
 
 diff_easy_player = {
+}
+
+diff_normal_player = {
+}
+
+diff_hard_player = {
 	offence = -0.5
 	defence = -0.5
 	army_speed_factor = -0.2
@@ -268,15 +273,8 @@ diff_easy_player = {
 	political_power_factor = -0.3
 }
 
-diff_normal_player = {
-}
-
-diff_hard_player = {
-}
-
 diff_very_hard_player = {
 }
-
 
 diff_very_easy_ai = {
 }
@@ -292,7 +290,6 @@ diff_hard_ai = {
 
 diff_very_hard_ai = {
 }
-
 
 diff_strong_ai_generic = {
 }
@@ -368,7 +365,6 @@ capital_screening_bonus = {
 }
 
 country_is_at_peace = {
-	decryption_power_factor = -0.5
 }
 
 country_is_at_war = {

@@ -1741,7 +1741,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 20 y = 12 }
+			position = {x = 84 y = 12 }
 			name = "difficulty_text"
 			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
@@ -1753,8 +1753,8 @@ guiTypes = {
 
 		checkboxType = {
 			name = "very_easy_cb"
-			position = { x=18 y=47}
-			quadTextureSprite ="GFX_difficulty_button_civilian"
+			position = { x=11118 y=11147}
+			quadTextureSprite ="GFX_hold"
 			buttonText = "FE_DIFFICULTY_EASY"
 			buttonFont = "hoi_20b"
 			clicksound = click_checkbox
@@ -1762,8 +1762,8 @@ guiTypes = {
 
 		checkboxType = {
 			name = "easy_cb"
-			position = { x=132 y=47}
-			quadTextureSprite ="GFX_difficulty_button_recruit"
+			position = { x=11132 y=11147}
+			quadTextureSprite ="GFX_hold"
 			buttonText = "FE_DIFFICULTY_EASY"
 			buttonFont = "hoi_20b"
 			clicksound = click_checkbox
@@ -1771,8 +1771,8 @@ guiTypes = {
 
 		checkboxType = {
 			name = "normal_cb"
-			position = { x=1241 y=1147}
-			quadTextureSprite ="GFX_hold"
+			position = { x=18 y=47}
+			quadTextureSprite ="GFX_difficulty_button_regular"
 			clicksound = click_checkbox
 			buttonText = ""
 			buttonFont = "hoi_20b"
@@ -1780,8 +1780,8 @@ guiTypes = {
 
 		checkboxType = {
 			name = "hard_cb"
-			position = { x=1357 y=1147}
-			quadTextureSprite ="GFX_hold"
+			position = { x=132 y=47}
+			quadTextureSprite ="GFX_difficulty_button_veteran"
 			buttonText = ""
 			buttonFont = "hoi_20b"
 			clicksound = click_checkbox
@@ -1789,60 +1789,60 @@ guiTypes = {
 
 		checkboxType = {
 			name = "very_hard_cb"
-			position = { x=1473 y=1147}
+			position = { x=11473 y=11147}
 			quadTextureSprite ="GFX_hold"
 			buttonText = ""
 			buttonFont = "hoi_20b"
 			clicksound = click_checkbox
 		}
 
+		#instantTextBoxType={
+		#	position = {x=19 y=53 }
+		#	name = "civilian_text"
+		#	font = "hoi_20b"
+		#	borderSize = {x = 0 y = 0}
+		#	maxWidth = 115
+		#	maxHeight = 16
+		#	text = "FE_DIFFICULTY_VERY_EASY"
+		#	format = centre
+		#	alwaystransparent = yes
+		#}
+		#
+		#instantTextBoxType={
+		#	position = {x=133 y=53 }
+		#	name = "beginner_text"
+		#	font = "hoi_20b"
+		#	borderSize = {x = 0 y = 0}
+		#	maxWidth = 115
+		#	maxHeight = 16
+		#	text = "FE_DIFFICULTY_EASY"
+		#	format = centre
+		#	alwaystransparent = yes
+		#}
+
 		instantTextBoxType={
 			position = {x=19 y=53 }
-			name = "civilian_text"
+			name = "normal_text"
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 115
 			maxHeight = 16
-			text = "FE_DIFFICULTY_VERY_EASY"
+			text = "FE_DIFFICULTY_NORMAL"
 			format = centre
 			alwaystransparent = yes
 		}
 
 		instantTextBoxType={
 			position = {x=133 y=53 }
-			name = "beginner_text"
+			name = "hard_text"
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 115
 			maxHeight = 16
-			text = "FE_DIFFICULTY_EASY"
+			text = "FE_DIFFICULTY_HARD"
 			format = centre
 			alwaystransparent = yes
 		}
-
-		#instantTextBoxType={
-		#	position = {x=250 y=53 }
-		#	name = "normal_text"
-		#	font = "hoi_20b"
-		#	borderSize = {x = 0 y = 0}
-		#	maxWidth = 115
-		#	maxHeight = 16
-		#	text = "FE_DIFFICULTY_NORMAL"
-		#	format = centre
-		#	alwaystransparent = yes
-		#}
-
-		#instantTextBoxType={
-		#	position = {x=368 y=53 }
-		#	name = "hard_text"
-		#	font = "hoi_20b"
-		#	borderSize = {x = 0 y = 0}
-		#	maxWidth = 115
-		#	maxHeight = 16
-		#	text = "FE_DIFFICULTY_HARD"
-		#	format = centre
-		#	alwaystransparent = yes
-		#}
 
 		#instantTextBoxType={
 		#	position = {x=480 y=53 }
