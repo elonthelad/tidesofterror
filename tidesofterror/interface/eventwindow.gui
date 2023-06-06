@@ -4,8 +4,8 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "EventWindow"
-		position = { x=-29%% y=-26%% }	
-		size = { width = 1170 height =163 }
+		position = { x=-560 y=-276 }	
+		size = { width = 1174 height =504 }
 		moveable = yes
 		Orientation = CENTER		
 		
@@ -37,10 +37,11 @@ guiTypes = {
 
 			buttonType = {
 				name = "btn_minimize"
-				position = {x=10 y=10}
+				position = {x=1134 y=15}
 				spriteType = "GFX_event_button_minimize"
 				clicksound = click_default
 				pdx_tooltip = "MINIMIZE_EVENT"
+				scale = 0.8
 			}
 		}
 
@@ -54,15 +55,14 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "Description"
-				position = { x = 170 y = -286 }
-				font = "hoi_18mbs"
+				position = { x = 175 y = -154 }
+				font = "hoi_16mbs"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
 				maxWidth = 375
-				maxHeight = 400
+				maxHeight = 390
 				orientation = center
 				format = center
-				vertical_alignment = center
 				fixedsize = yes
 			}	
 		}			
@@ -513,7 +513,7 @@ guiTypes = {
 			{
 				name ="event_picture"
 				spriteType = "GFX_news_event_001"
-				position = { x = 48 y = 121 }
+				position = { x = 47 y = 130 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}		
@@ -532,9 +532,10 @@ guiTypes = {
 			
 			buttonType = {
 				name = "btn_minimize"
-				position = {x=-1030 y=-1040}
+				position = {x=854 y=20}
 				spriteType = "GFX_event_button_minimize"
 				clicksound = click_default
+				scale = 0.8
 			}
 		}
 
@@ -588,10 +589,11 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = 5 y = 0 }
+			position = { x = 30 y = 0 }
 			font = "hoi_20bs"
-			maxWidth = 340
+			maxWidth = 288
 			maxHeight = 40
+			fixedsize = yes
 			format = center
 			vertical_alignment = center
 			alwaystransparent = yes

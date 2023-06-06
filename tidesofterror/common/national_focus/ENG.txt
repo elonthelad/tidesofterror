@@ -7,16 +7,24 @@ focus_tree = {
 		x = 5
 		y = 0
 
-		cost = 1
+		cost = 14
 
 		ai_will_do = {
 			factor = 1
 		}
 
 		available = {
+			ENG = {
+				has_idea = ENGIDEA_freight_crisis
+			}
 		}
 		
 		bypass = {
+			NOT = {
+				ENG = {
+					has_idea = ENGIDEA_freight_crisis
+				}
+			}
 		}
 
 		cancel_if_invalid = yes
@@ -25,62 +33,14 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = ENG_reduced_factory_quotas
-		icon = GFX_goal_unknown
-		prerequisite = { focus = ENG_the_freight_crisis }
-		x = 3
-		y = 1
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = ENG_cancel_all_outbound_export
-		icon = GFX_goal_unknown
-		prerequisite = { focus = ENG_the_freight_crisis }
-		x = 7
-		y = 1
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
+			custom_effect_tooltip = customtooltip_enggetfreightdecision
+			hidden_effect = {
+				ENG = {
+					country_event = {
+						id = british.1
+					}
+				}
+			}
 		}
 	}
 	
@@ -129,7 +89,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_manchester_outrages }
 		x = 15
-		y = 2
+		y = 1
 
 		cost = 10
 
@@ -170,7 +130,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_manchester_outrages }
 		x = 13
-		y = 2
+		y = 1
 
 		cost = 10
 
@@ -212,7 +172,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_military_planning }
 		x = 12
-		y = 4
+		y = 3
 
 		cost = 10
 
@@ -240,7 +200,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_cutting_ties }
 		x = 16
-		y = 4
+		y = 3
 
 		cost = 10
 
@@ -268,7 +228,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_military_planning focus = ENG_cutting_ties }
 		x = 14
-		y = 3
+		y = 2
 
 		cost = 10
 
@@ -296,7 +256,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_organisation_of_intelligence }
 		x = 14
-		y = 5
+		y = 4
 
 		cost = 10
 
@@ -322,9 +282,9 @@ focus_tree = {
     focus = {
 		id = ENG_the_expedition
 		icon = GFX_goal_unknown
-		prerequisite = { focus = ENG_cancel_all_outbound_export focus = ENG_reduced_factory_quotas }
+		prerequisite = { focus = ENG_the_freight_crisis }
 		x = 5
-		y = 2
+		y = 1
 
 		cost = 10
 
@@ -352,7 +312,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_the_expedition}
 		x = 5
-		y = 3
+		y = 2
 
 		cost = 10
 
@@ -380,7 +340,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_the_expedition}
 		x = 1
-		y = 3
+		y = 2
 
 		cost = 10
 
@@ -410,8 +370,7 @@ focus_tree = {
 		#prerequisite = { focus = ENG_examine_the_plasm}
         mutually_exclusive = { focus = ENG_study_the_cliones }
 		x = 0
-		y = 4
-		#y = 5
+		y = 3
 
 		cost = 10
 
@@ -441,8 +400,7 @@ focus_tree = {
 		#prerequisite = { focus = ENG_examine_the_plasm}
         mutually_exclusive = { focus = ENG_dispose_evidence }
 		x = 2
-		y = 4
-		#y = 5
+		y = 3
 
 		cost = 10
 
@@ -470,7 +428,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_the_expedition}
 		x = 9
-		y = 3
+		y = 2
 
 		cost = 10
 
@@ -499,8 +457,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_lockdown_the_harbour}
         mutually_exclusive = { focus = ENG_bribe_independent_reporters }
 		x = 8
-		y = 4
-		#y = 5
+		y = 3
 
 		cost = 10
 
@@ -529,8 +486,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_lockdown_the_harbour}
         mutually_exclusive = { focus = ENG_stop_independent_reporters }
 		x = 10
-		y = 4
-		#y = 5
+		y = 3
 
 		cost = 10
 
@@ -559,7 +515,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_remedy_the_delegate}
         mutually_exclusive = { focus = ENG_snuff_out_the_screams }
 		x = 4
-		y = 4
+		y = 3
 
 		cost = 10
 
@@ -596,8 +552,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_remedy_the_delegate}
         mutually_exclusive = { focus = ENG_humour_the_lunatic }
 		x = 6
-		y = 4
-		#y = 5
+		y = 3
 
 		cost = 10
 
@@ -627,8 +582,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_bribe_independent_reporters focus = ENG_stop_independent_reporters }
 		prerequisite = { focus = ENG_humour_the_lunatic focus = ENG_snuff_out_the_screams }
 		x = 5
-		y = 5
-		#y = 6
+		y = 4
 
 		cost = 10
 
@@ -657,7 +611,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_hunger_of_a_nation}
         mutually_exclusive = { focus = ENG_feed_the_young }
 		x = 3
-		y = 6
+		y = 5
 
 		cost = 10
 
@@ -686,7 +640,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_hunger_of_a_nation}
         mutually_exclusive = { focus = ENG_feed_the_capable }
 		x = 7
-		y = 6
+		y = 5
 
 		cost = 10
 
@@ -715,7 +669,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_hunger_of_a_nation}
         mutually_exclusive = { focus = ENG_we_remain }
 		x = 4
-		y = 7
+		y = 6
 
 		cost = 10
 
@@ -744,7 +698,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_hunger_of_a_nation}
         mutually_exclusive = { focus = ENG_immediate_re_election }
 		x = 6
-		y = 7
+		y = 6
 
 		cost = 10
 
@@ -771,7 +725,7 @@ focus_tree = {
 		id = ENG_the_spectre_fright
 		icon = GFX_goal_unknown
 		x = 3
-		y = 9
+		y = 7
 
 		cost = 10
 
@@ -799,7 +753,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_the_spectre_fright focus = ENG_mutual_nightmares }
 		x = 5
-		y = 10
+		y = 8
 
 		cost = 10
 
@@ -826,7 +780,7 @@ focus_tree = {
 		id = ENG_mutual_nightmares
 		icon = GFX_goal_unknown
 		x = 7
-		y = 9
+		y = 7
 
 		cost = 10
 
@@ -854,7 +808,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_mutual_nightmares }
 		x = 7
-		y = 11
+		y = 9
 
 		cost = 10
 
@@ -882,7 +836,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_the_spectre_fright }
 		x = 3
-		y = 10
+		y = 8
 
 		cost = 10
 
@@ -909,8 +863,8 @@ focus_tree = {
 		id = ENG_asylum_development_project
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_barbituate_development }
-		x = 5
-		y = 13
+		x = 6
+		y = 11
 
 		cost = 10
 
@@ -937,7 +891,7 @@ focus_tree = {
 		id = ENG_wescotts_temple
 		icon = GFX_goal_unknown
 		x = 1
-		y = 10
+		y = 8
 
 		cost = 10
 
@@ -965,7 +919,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_wescotts_temple }
 		x = 1
-		y = 12
+		y = 10
 
 		cost = 10
 
@@ -994,7 +948,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_the_gibson_capture_trials focus = ENG_assurance_campaign }
 		prerequisite = { focus = ENG_mutual_nightmares }
 		x = 4
-		y = 12
+		y = 10
 
 		cost = 10
 
@@ -1021,7 +975,7 @@ focus_tree = {
 		id = ENG_attacks_on_the_coast
 		icon = GFX_goal_unknown
 		x = 10
-		y = 7
+		y = 5
 
 		cost = 10
 
@@ -1049,7 +1003,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_attacks_on_the_coast }
 		x = 10
-		y = 8
+		y = 6
 
 		cost = 10
 
@@ -1077,7 +1031,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_undermine_the_abyssus_theory }
 		x = 10
-		y = 10
+		y = 8
 
 		cost = 10
 
@@ -1104,7 +1058,7 @@ focus_tree = {
 		id = ENG_the_temple_from_the_earth
 		icon = GFX_goal_unknown
 		x = 15
-		y = 7
+		y = 5
 
 		cost = 10
 
@@ -1132,7 +1086,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_the_temple_from_the_earth }
 		x = 13
-		y = 8
+		y = 6
 
 		cost = 10
 
@@ -1161,7 +1115,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_assemble_the_royal_expeditioneers }
 		prerequisite = { focus = ENG_undermine_the_abyssus_theory }
 		x = 13
-		y = 10
+		y = 8
 
 		cost = 10
 
@@ -1189,7 +1143,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_the_temple_from_the_earth }
 		x = 17
-		y = 8
+		y = 6
 
 		cost = 10
 
@@ -1217,7 +1171,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_assemble_the_royal_expeditioneers focus = ENG_rebuild_and_never_return }
 		x = 15
-		y = 9
+		y = 7
 
 		cost = 10
 

@@ -1,0 +1,1 @@
+add news sketch, remove colour, apply layer style, then go to levels and decrease the 255 input level until satisfied

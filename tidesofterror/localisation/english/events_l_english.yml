@@ -1,5 +1,18 @@
 ﻿l_english:
  MINIMIZE_EVENT: "§GClick§! to Minimize. Event will remain in the Event Queue under §HEvents and Decisions§!, if you are a little pre-occupied."
+ 
+ british.1.t: "The Freight Crisis"
+ british.1.d: "The popularly coined 'Freight Crisis' is nothing more than the all-encompassing deep fog settling in off the far shores, as the many trade fleets of the empire succumbed to the unknowable terrors that lie in waiting. Factories and their churning machines fall to a sudden stop when the steady stream of supply from sovereign nations and colonies halts. This is to say nothing of the countless families that have seperated as visitors, foreigners and travellers alike remain stranded, unable to return home to their country and kin.\n\nThe government convenes, now, to decide what to allocate their time towards. In time these three stratagems will see their due, but only one can maintain the primary focus of the nation. Now, they decide."
+ british.1.a: "We shall focus on §YReducing Production Demands.§!"
+ british.1.b: "We shall focus on §YHalting Sea Routes.§!"
+ british.1.c: "We shall focus on §YRepaying the Industry Magnates.§!"
+ british.1.e: "Perhaps we should §Ydivide our focus§! on all aspects..?"
+ 
+ british.2.t: "SUPPLY LINES IN DISTRESS"
+ british.2.d: "The crisis in the Empire's freight supply has become more acute than ever, the Lord Chamberlain announcing that his department is now "unable to issue any further licenses." The situation threatens to degenerate, he declares ominously, into a state of chaos. "We can no longer guarantee that every Londoner shall be supplied with coal for the remainder of the winter," he added. Convoys and clippers hailing from our colonies and alliances have gone mysteriously quiet during our afterglow from the campaign in the Burma proper. Unprecedented and ungainly fog seeps down from all coasts, muddling all communications across the Channel and beyond. And the extent and severity of this new form of inclement weather are calculated by many to portend some approaching change of climate.\n\nTrade bosses exclaim the disrepair their factories have been laden unto, and in discussion they had all but disregarded any excuses, and insist on immediate reparation. They say the time has come at last when "we must face facts". Production has reached an all-time low for the ages."
+ british.2.a: "The Industrialists will just have to be patient, as much as the rest of us."
+ 
+ 
  test.1.t: "Concessions to the Covenant"
  test.1.d: "Dear Commander-in-Chief,\n\nI write to you with grave concerns regarding a recent development in the north. The malcontents who name themselves 'Covenant' has officially staked a claim on York and are demanding the city of Scarborough and imports from the Crown. While I understand the need for diplomacy and peaceful coexistence as they have proven to be extremely violent when provoked, yet I fear that conceding to their demands may set a dangerous precedent for other groups seeking to establish their own territories within our very borders.\n\nI trust that you will make the right decision in this matter, and I look forward to your accord on this issue.\n\nSincerely, General Hall, Conrad"
  test.1.a: "No more violence- They can have the city!"

@@ -1,0 +1,54 @@
+add_namespace = british
+
+country_event = {
+	id = british.1
+	title = british.1.t
+	desc = british.1.d
+
+	picture = GFX_event_freightcrisis1
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = british.1.a
+		ai_chance = {factor = 100}
+	}
+
+	option = {
+		name = british.1.b
+		ai_chance = {factor = 100}
+	}
+
+	option = {
+		name = british.1.c
+		ai_chance = {factor = 100}
+	}
+
+	option = {
+		name = british.1.e
+		ai_chance = {factor = 100}
+	}
+}
+
+news_event = {
+	id = british.2
+	title = british.2.t
+	desc = british.2.d
+
+	picture = GFX_event_freightcrisis2
+	
+	trigger = {
+        focus_progress = {
+			focus = ENG_the_freight_crisis
+			progress > 0.4
+		}
+    }
+
+	fire_only_once = yes
+
+	option = {
+		name = british.2.a
+		ai_chance = {factor = 100}
+	}
+}
