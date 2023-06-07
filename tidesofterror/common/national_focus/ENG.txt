@@ -304,6 +304,14 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
+			custom_effect_tooltip = customtooltip_engthe_expedition
+			hidden_effect = {
+				ENG = {
+					country_event = {
+						id = british.3
+					}
+				}
+			}
 		}
 	}
 

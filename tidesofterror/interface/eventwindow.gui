@@ -26,22 +26,23 @@ guiTypes = {
 		
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 764 y = 8 }
+				position = { x = 760 y = 8 }
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"	
-				maxWidth = 368
-				maxHeight = 32
+				maxWidth = 390
+				maxHeight = 16
+				fixedsize = yes
 				format = centre
 			}
 
 			buttonType = {
 				name = "btn_minimize"
-				position = {x=1134 y=15}
+				position = {x=1150 y=20}
 				spriteType = "GFX_event_button_minimize"
 				clicksound = click_default
 				pdx_tooltip = "MINIMIZE_EVENT"
-				scale = 0.8
+				scale = 0.6
 			}
 		}
 
@@ -55,12 +56,12 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "Description"
-				position = { x = 175 y = -154 }
-				font = "hoi_16mbs"
+				position = { x = 175 y = -160 }
+				font = "hoi_20b"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
-				maxWidth = 375
-				maxHeight = 390
+				maxWidth = 380
+				maxHeight = 394
 				orientation = center
 				format = center
 				fixedsize = yes

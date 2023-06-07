@@ -3,5 +3,11 @@
  ENG_Custom_Tooltip_2: "There needs to be 3 or less states with Irish Sentiment. There is currently:§Y [?global.amount_of_fen_states]§!"
  
  
- customtooltip_enggetfreightdecision: "We will get to decide where our §Yfocuses and efforts§! go to aid the ailing home market."
- customtooltip_cosmicire5: "§0This will bring the attention of the Gods Beyond.§!"
+ customtooltip_enggetfreightdecision: "The ministers of parliament will decide where our focuses and efforts go to §Yreduce the effects§! of the Freight Crisis."
+ customtooltip_engthe_expedition: "§YA series of events will occur§! where the tale of the HMS Undaunted is unraveled."
+ customtooltip_cosmicire1: "§0The Great Ones will hear of this action.§!"
+ customtooltip_cosmicire2: "§0The Great Ones will know of this action.§!"
+ customtooltip_cosmicire5: "§0This may disquiet the Great Ones.§!"
+ customtooltip_cosmicire10: "§0This will take the attention of the Great Ones.§!"
+ customtooltip_cosmicire20: "§0This will upset the Great Ones.§!"
+ customtooltip_cosmicire30: "§0This will awaken the Great Ones.§!"

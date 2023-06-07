@@ -1,6 +1,6 @@
 add_namespace = british
 
-country_event = {
+country_event = { #The Freight Crisis
 	id = british.1
 	title = british.1.t
 	desc = british.1.d
@@ -11,27 +11,43 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
-		name = british.1.a
+		name = british.1.a #We shall focus on Re-Housing Expatriates
 		ai_chance = {factor = 100}
+		swap_ideas = {
+			remove_idea = ENGIDEA_freight_crisis
+			add_idea = ENGIDEA_freight_crisis_stb
+		}
 	}
 
 	option = {
-		name = british.1.b
+		name = british.1.b #We shall focus on Halting Sea Routes
 		ai_chance = {factor = 100}
+		swap_ideas = {
+			remove_idea = ENGIDEA_freight_crisis
+			add_idea = ENGIDEA_freight_crisis_pop
+		}
 	}
 
 	option = {
-		name = british.1.c
+		name = british.1.c #We shall focus on Repaying the Industry Magnates
 		ai_chance = {factor = 100}
+		swap_ideas = {
+			remove_idea = ENGIDEA_freight_crisis
+			add_idea = ENGIDEA_freight_crisis_fac
+		}
 	}
 
 	option = {
-		name = british.1.e
+		name = british.1.e #Perhaps we should divide our focus on all aspects..?
 		ai_chance = {factor = 100}
+		swap_ideas = {
+			remove_idea = ENGIDEA_freight_crisis
+			add_idea = ENGIDEA_freight_crisis_bal
+		}
 	}
 }
 
-news_event = {
+news_event = { #SUPPLY LINES IN DISTRESS
 	id = british.2
 	title = british.2.t
 	desc = british.2.d
@@ -50,5 +66,87 @@ news_event = {
 	option = {
 		name = british.2.a
 		ai_chance = {factor = 100}
+	}
+}
+
+country_event = { #The Expedition Commences
+	id = british.3
+	title = british.3.t
+	desc = british.3.d
+
+	picture = GFX_event_expedition1
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = british.3.a #The people wait anxiously for their safe return.
+		ai_chance = {factor = 100}
+		add_political_power = 5
+		add_stability = 0.08
+		hidden_effect = {
+			ENG = {
+				country_event = {
+					id = british.4
+				}
+			}
+		}
+	}
+
+	option = {
+		name = british.3.b #I do wonder what lies out there..
+		ai_chance = {factor = 100}
+		add_popularity = {
+			ideology = arcane
+			popularity = 0.005
+		}
+		add_fuel = -20000
+		hidden_effect = {
+			ENG = {
+				country_event = {
+					id = british.4
+				}
+			}
+		}
+	}
+}
+
+country_event = { #The Transient Deep
+	id = british.4
+	title = british.4.t
+	desc = british.4.d
+
+	picture = GFX_event_expedition2
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = british.4.a #Don't tell me anymore. I've heard enough.
+		ai_chance = {factor = 100}
+		hidden_effect = {
+			ENG = {
+				country_event = {
+					id = british.5
+				}
+			}
+		}
+	}
+
+	option = {
+		name = british.4.b #How exciting!
+		ai_chance = {factor = 100}
+		add_popularity = {
+			ideology = arcane
+			popularity = 0.005
+		}
+		add_fuel = -60000
+		hidden_effect = {
+			ENG = {
+				country_event = {
+					id = british.5
+				}
+			}
+		}
 	}
 }

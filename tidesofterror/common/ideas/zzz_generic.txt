@@ -56,7 +56,80 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_weekly = -0.02
+				stability_weekly = -0.015
+				industrial_capacity_factory = -0.3
+				monthly_population = -0.5
+			}
+		}
+		
+		ENGIDEA_freight_crisis_stb = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				industrial_capacity_factory = -0.3
+				monthly_population = -0.5
+			}
+		}
+		
+		ENGIDEA_freight_crisis_pop = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_weekly = -0.015
+				industrial_capacity_factory = -0.3
+			}
+		}
+		
+		ENGIDEA_freight_crisis_fac = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_weekly = -0.015
+				monthly_population = -0.5
+			}
+		}
+		
+		ENGIDEA_freight_crisis_bal = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_weekly = -0.0125
 				industrial_capacity_factory = -0.2
 				monthly_population = -0.4
 			}
