@@ -195,7 +195,7 @@ technologies = {
 
 		path = {
 			leads_to_tech = doc_combat_redefined
-			research_cost_coeff = -1
+			research_cost_coeff = 1
 		}
 		
 		xp_research_type = army
@@ -211,6 +211,1258 @@ technologies = {
 		
 		categories = {
 			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_combat_redefined = {
+
+		path = {
+			leads_to_tech = doc_what_it_means_to_be_a_soldier
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = doc_take_to_the_skies
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = doc_consolidate_navy
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 8 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_what_it_means_to_be_a_soldier = {
+
+		path = {
+			leads_to_tech = doc_stoicism
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = doc_face_your_fears
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = doc_tactical_retreat
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 10 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_stoicism = {
+
+		path = {
+			leads_to_tech = doc_empathetic_camaraderie
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 12 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_empathetic_camaraderie = {
+
+		path = {
+			leads_to_tech = doc_at_your_disposal
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 14 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_at_your_disposal = {
+
+		path = {
+			leads_to_tech = doc_glorious_cooperation
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 16 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_glorious_cooperation = {
+
+		#path = {
+		#	leads_to_tech = doc_combat_redefined
+		#	research_cost_coeff = 1
+		#}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 18 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_tactical_retreat = {
+
+		path = {
+			leads_to_tech = doc_live_diversion
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = doc_always_adapting
+			research_cost_coeff = 1
+		}
+		
+		XOR = { doc_face_your_fears }
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 11 y = -1 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_live_diversion = {
+
+		path = {
+			leads_to_tech = doc_no_grievances
+			research_cost_coeff = 1
+		}
+		
+		XOR = { doc_always_adapting }
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 13 y = -1 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_no_grievances = {
+
+		path = {
+			leads_to_tech = doc_every_man_for_himself
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 15 y = -1 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_every_man_for_himself = {
+
+		#path = {
+		#	leads_to_tech = doc_live_diversion
+		#	research_cost_coeff = 1
+		#}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 17 y = -1 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_always_adapting = {
+
+		path = {
+			leads_to_tech = doc_infiltration_at_depth
+			research_cost_coeff = 1
+		}
+		
+		XOR = { doc_live_diversion }
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 12 y = -2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_infiltration_at_depth = {
+
+		path = {
+			leads_to_tech = doc_fight_like_the_beast
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 14 y = -2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_fight_like_the_beast = {
+
+		#path = {
+		#	leads_to_tech = doc_every_man_for_himself
+		#	research_cost_coeff = 1
+		#}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 16 y = -2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_face_your_fears = {
+
+		path = {
+			leads_to_tech = doc_stare_terror_in_the_face
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = doc_the_small_victories
+			research_cost_coeff = 1
+		}
+		
+		XOR = { doc_tactical_retreat }
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 11 y = 1 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_stare_terror_in_the_face = {
+
+		path = {
+			leads_to_tech = doc_elan_in_eminence
+			research_cost_coeff = 1
+		}
+		
+		XOR = { doc_the_small_victories }
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 13 y = 1 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_elan_in_eminence = {
+
+		path = {
+			leads_to_tech = doc_to_the_last_man
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 15 y = 1 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_to_the_last_man = {
+
+		#path = {
+		#	leads_to_tech = doc_what_it_means_to_be_a_soldier
+		#	research_cost_coeff = 1
+		#}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 17 y = 1 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_the_small_victories = {
+
+		path = {
+			leads_to_tech = doc_laugh_away_your_woes
+			research_cost_coeff = 1
+		}
+		
+		XOR = { doc_stare_terror_in_the_face }
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 12 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_laugh_away_your_woes = {
+
+		path = {
+			leads_to_tech = doc_the_jovial_hunt
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 14 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_the_jovial_hunt = {
+
+		#path = {
+		#	leads_to_tech = doc_to_the_last_man
+		#	research_cost_coeff = 1
+		#}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 16 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_take_to_the_skies = {
+
+		path = {
+			leads_to_tech = doc_aerial_collaboration
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = air
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 8 y = 2 }
+		}
+		
+		categories = {
+			air_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_aerial_collaboration = {
+
+		path = {
+			leads_to_tech = doc_air_wing_detachments
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = air
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 8 y = 3 }
+		}
+		
+		categories = {
+			air_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_air_wing_detachments = {
+
+		path = {
+			leads_to_tech = doc_zeppelin_weaponisation
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = doc_signal_via_flare
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = air
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 8 y = 4 }
+		}
+		
+		categories = {
+			air_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_zeppelin_weaponisation = {
+
+		path = {
+			leads_to_tech = doc_greater_ceiling_operation
+			research_cost_coeff = 1
+		}
+		
+		XOR = { doc_signal_via_flare }
+		
+		xp_research_type = air
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 10 y = 5 }
+		}
+		
+		categories = {
+			air_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_greater_ceiling_operation = {
+
+		path = {
+			leads_to_tech = doc_supply_chuting
+			research_cost_coeff = 1
+		}
+		
+		XOR = { doc_signal_via_flare }
+		
+		xp_research_type = air
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 12 y = 5 }
+		}
+		
+		categories = {
+			air_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_supply_chuting = {
+
+		path = {
+			leads_to_tech = doc_blimp_region_patrol
+			research_cost_coeff = 1
+		}
+		
+		XOR = { doc_signal_via_flare }
+		
+		xp_research_type = air
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 14 y = 5 }
+		}
+		
+		categories = {
+			air_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_blimp_region_patrol = {
+
+		path = {
+			leads_to_tech = doc_skies_ablaze
+			research_cost_coeff = 1
+		}
+		
+		XOR = { doc_signal_via_flare }
+		
+		xp_research_type = air
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 16 y = 5 }
+		}
+		
+		categories = {
+			air_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_signal_via_flare = {
+
+		path = {
+			leads_to_tech = doc_unit_on_unit_skirmish
+			research_cost_coeff = 1
+		}
+		
+		XOR = { doc_zeppelin_weaponisation }
+		
+		xp_research_type = air
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 10 y = 3 }
+		}
+		
+		categories = {
+			air_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_unit_on_unit_skirmish = {
+
+		path = {
+			leads_to_tech = doc_near_ground_supporting_fire
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = air
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 12 y = 3 }
+		}
+		
+		categories = {
+			air_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_near_ground_supporting_fire = {
+
+		path = {
+			leads_to_tech = doc_the_dazzling_valkyries
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = air
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 14 y = 3 }
+		}
+		
+		categories = {
+			air_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_the_dazzling_valkyries = {
+
+		path = {
+			leads_to_tech = doc_skies_ablaze
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = air
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 16 y = 3 }
+		}
+		
+		categories = {
+			air_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_skies_ablaze = {
+
+		#path = {
+		#	leads_to_tech = doc_aerial_collaboration
+		#	research_cost_coeff = 1
+		#}
+		
+		xp_research_type = air
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 18 y = 4 }
+		}
+		
+		categories = {
+			air_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_consolidate_navy = {
+
+		path = {
+			leads_to_tech = doc_pressment_gangs
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 8 y = -2 }
+		}
+		
+		categories = {
+			naval_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_pressment_gangs = {
+
+		path = {
+			leads_to_tech = doc_era_of_ironclad
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 8 y = -3 }
+		}
+		
+		categories = {
+			naval_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_era_of_ironclad = {
+
+		path = {
+			leads_to_tech = doc_anti_appendage_armour
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = doc_the_ahead_fleet
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 8 y = -4 }
+		}
+		
+		categories = {
+			naval_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_the_ahead_fleet = {
+
+		path = {
+			leads_to_tech = doc_mid_sortie_refuels
+			research_cost_coeff = 1
+		}
+		
+		XOR = { doc_anti_appendage_armour }
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 10 y = -5 }
+		}
+		
+		categories = {
+			naval_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_mid_sortie_refuels = {
+
+		path = {
+			leads_to_tech = doc_gunnery_central_command
+			research_cost_coeff = 1
+		}
+		
+		XOR = { doc_anti_appendage_armour }
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 12 y = -5 }
+		}
+		
+		categories = {
+			naval_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_gunnery_central_command = {
+
+		path = {
+			leads_to_tech = doc_sequence_fire
+			research_cost_coeff = 1
+		}
+		
+		XOR = { doc_anti_appendage_armour }
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 14 y = -5 }
+		}
+		
+		categories = {
+			naval_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_sequence_fire = {
+
+		path = {
+			leads_to_tech = doc_the_holy_ram
+			research_cost_coeff = 1
+		}
+		
+		XOR = { doc_anti_appendage_armour }
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 16 y = -5 }
+		}
+		
+		categories = {
+			naval_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_anti_appendage_armour = {
+
+		path = {
+			leads_to_tech = doc_smokescreen_defense
+			research_cost_coeff = 1
+		}
+		
+		XOR = { doc_the_ahead_fleet }
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 10 y = -3 }
+		}
+		
+		categories = {
+			naval_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_smokescreen_defense = {
+
+		path = {
+			leads_to_tech = doc_screen_flotilla
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 12 y = -3 }
+		}
+		
+		categories = {
+			naval_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_screen_flotilla = {
+
+		path = {
+			leads_to_tech = doc_supermassive_hulls
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 14 y = -3 }
+		}
+		
+		categories = {
+			naval_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_supermassive_hulls = {
+
+		path = {
+			leads_to_tech = doc_the_holy_ram
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 16 y = -3 }
+		}
+		
+		categories = {
+			naval_doctrine
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	doc_the_holy_ram = {
+
+		#path = {
+		#	leads_to_tech = doc_the
+		#	research_cost_coeff = 1
+		#}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+
+		doctrine = yes	
+		research_cost = 2.25
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 18 y = -4 }
+		}
+		
+		categories = {
+			naval_doctrine
 		}
 		
 		ai_will_do = {
