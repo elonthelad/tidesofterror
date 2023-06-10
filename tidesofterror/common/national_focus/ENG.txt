@@ -281,7 +281,7 @@ focus_tree = {
 	
     focus = {
 		id = ENG_the_expedition
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ENG_ship
 		prerequisite = { focus = ENG_the_freight_crisis }
 		x = 5
 		y = 1
@@ -345,7 +345,7 @@ focus_tree = {
 
     focus = {
 		id = ENG_dredge_the_vessel
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ENG_dredge
 		prerequisite = { focus = ENG_the_expedition}
 		x = 1
 		y = 2
@@ -375,7 +375,6 @@ focus_tree = {
 		id = ENG_dispose_evidence
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_dredge_the_vessel}
-		#prerequisite = { focus = ENG_examine_the_plasm}
         mutually_exclusive = { focus = ENG_study_the_cliones }
 		x = 0
 		y = 3
@@ -403,9 +402,8 @@ focus_tree = {
 
     focus = {
 		id = ENG_study_the_cliones
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ENG_cliones
 		prerequisite = { focus = ENG_dredge_the_vessel}
-		#prerequisite = { focus = ENG_examine_the_plasm}
         mutually_exclusive = { focus = ENG_dispose_evidence }
 		x = 2
 		y = 3
@@ -556,7 +554,7 @@ focus_tree = {
 
     focus = {
 		id = ENG_snuff_out_the_screams
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ENG_lobo
 		prerequisite = { focus = ENG_remedy_the_delegate}
         mutually_exclusive = { focus = ENG_humour_the_lunatic }
 		x = 6

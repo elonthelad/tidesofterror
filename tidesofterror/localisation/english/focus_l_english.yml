@@ -100,12 +100,6 @@
  ENG_the_freight_crisis: "The Freight Crisis"
  ENG_the_freight_crisis_desc: "The Freight Crisis has wracked our internal economy relentlessly- since we returned from our last campaign across the southeastern charter in Burma, absolutely none of our clippers or steamers have returned to port at all. Our inventories remain starved; supply lines in disrepair, our harbours clamouring for help, not to mention the common populace that suspect even a plot of epic proportion. We must have find a conclusion, or perhaps a nicely framed scapegoat."
  
- ENG_reduced_factory_quotas: "Reduced Factory Quotas"
- ENG_reduced_factory_quotas_desc: "On the detail of the loss of all incoming trade, our factories are at a loss for production. We've resorted to falling in to the demands of the foremen, much to our chagrin, but it does suit our situation better, it must be said."
- 
- ENG_cancel_all_outbound_export: "Freeze all Outbound Export"
- ENG_cancel_all_outbound_export_desc: "We are losing vessels at a rate unseen before- A harsh announcement must be made to all heads of the navy and international merchants to cancel export, effective immediately. Our dockworkers are at odds with the tradesmen, before a conflict breaks out we simply must intervene."
- 
  ENG_the_expedition: "The Expedition"
  ENG_the_expedition_desc: "To put it bluntly, our options have run dry. The PM has proposed we allow his acquainted academy captain, Lord John Grimes to partake in a routine expedition to Calais, hailing from Dover. It's but a mere two-hour trip there, but the ever-encompassing fog may reveal its secrets. What could possibly go wrong?"
  
@@ -124,7 +118,7 @@
  ENG_study_the_cliones: "Study the Cliones"
  ENG_study_the_cliones_desc: "With remnants of the boat in safe hands at Newhaven Dock, we have examined it closely and, bizzarely but honestly, dozens of peculiar sea-creatures have oozed out of the mire of the broken and rotten hull. They have been previously documented as Cliones, or 'Sea-angels' due to their, mystical and otherworldly physique. What on earth brought them to the Channel?"
  
- ENG_snuff_out_the_screams: "Silence the Screams"
+ ENG_snuff_out_the_screams: "Forceful Extraction"
  ENG_snuff_out_the_screams_desc: "The howls and screeches even terrorise our interrogators; and these are men who have seen it all. They demand something be done about it, which is practically unheard of- This lunatic is a special case indeed, and maybe the only way to reach his secrets, are through some experimental means..."
  
  ENG_lockdown_the_harbour: "Lockdown the Harbour"

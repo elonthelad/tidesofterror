@@ -66,8 +66,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	parliament = 75
+	parliament = 85
 	people = 6
 	autocracy = 9
-	arcane = 10
 }
