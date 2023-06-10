@@ -3,6 +3,9 @@ category = {
 	soundeffects = {
 		cosmic_ire_sound
 	}
+	soundeffects = {
+		sanity_drain_sound
+	}
 }
 
 soundeffect = {
@@ -10,7 +13,7 @@ soundeffect = {
 	sounds = {
 		sound = cosmic_ire_sound
 	}
-	max_audible = 1
+	max_audible = 10
 	max_audible_behaviour = fail
 	volume = 0.9
 	fade_in = 0.4
@@ -18,7 +21,25 @@ soundeffect = {
 	playbackrate_random_offset = { 0.7 -0.75}
 }
 
+soundeffect = {
+	name = "sanity_drain_sound"
+	sounds = {
+		sound = sanity_drain_sound
+	}
+	max_audible = 10
+	max_audible_behaviour = fail
+	volume = 1
+	fade_in = 0.2
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.7 -0.75}
+}
+
 sound = {
 	name = "cosmic_ire_sound"
 	file = "custom/cosmic_ire_sound.wav"
+}
+
+sound = {
+	name = "sanity_drain_sound"
+	file = "custom/sanity_drain_sound.wav"
 }
