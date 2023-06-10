@@ -7,9 +7,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 4629 10 } #"Ingoldmells"
+		victory_points = { 2436 20 } #"Skegness"
 	}
-	manpower=10000
+	manpower=19843
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

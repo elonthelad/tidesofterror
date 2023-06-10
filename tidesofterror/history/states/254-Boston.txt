@@ -8,9 +8,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 7298 20 } #"Boston"
 	}
-	manpower=10000
+	manpower=23740
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=large_town
 	local_supplies=0.000
 }

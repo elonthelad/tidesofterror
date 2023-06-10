@@ -8,8 +8,9 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 7459 20 } #"Shrewsbury"
 	}
-	manpower=10000
+	manpower=18912
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

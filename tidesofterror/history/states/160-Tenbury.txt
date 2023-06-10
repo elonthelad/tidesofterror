@@ -7,8 +7,9 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 4038 3 } #"Bewdley"
 	}
-	manpower=10000
+	manpower=3831
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -8,8 +8,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 7692 12 } #"Kettering"
+		victory_points = { 3793 12 } #"Corby"
 	}
-	manpower=10000
+	manpower=23669
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

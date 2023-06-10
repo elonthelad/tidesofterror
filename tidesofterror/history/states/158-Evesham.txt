@@ -1,19 +1,16 @@
-
 state={
 	id=158
 	name="STATE_158"
-
-	history={
-		owner = ENG
-		add_core_of = ENG
-
-	}
-
 	provinces={
 		1794 2110 4205 7840 
 	}
-	manpower=10000
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 1794 5 } #"Evesham"
+	}
+	manpower=6890
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=pastoral
 	local_supplies=0.000
 }

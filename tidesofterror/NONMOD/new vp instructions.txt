@@ -1,0 +1,13 @@
+find all in files -> "victory" tidesofterror/history/states/
+
+alt+shift+ctrl column highlight all results top down to penultimate file, up to \history\states\
+
+copy and paste into single indented space after l_english:
+
+find and replace all Documents\Paradox Interactive\Hearts of Iron IV\mod\tidesofterror\history\states\ EXCEPT one space indent. replace into nothing
+
+then replace all "\n  " into nothing
+
+then replace all " victory_points = { " into " VICTORY_POINTS_"
+
+then replace " x } #" into ": " where x is the vp value

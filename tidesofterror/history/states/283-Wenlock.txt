@@ -8,8 +8,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 7448 20 } #"Telford"
+		victory_points = { 4712 8 } #"Ironbridge"
 	}
-	manpower=10000
+	manpower=25202
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

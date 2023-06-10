@@ -1,18 +1,16 @@
-
 state={
 	id=162
 	name="STATE_162"
-
-	history={
-		owner = ENG
-		add_core_of = ENG
-
-	}
-
 	provinces={
 		7711 7724 
 	}
-	manpower=10000
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 7724 20 } #"Redditch"
+		victory_points = { 7711 15 } #"Ipsley"
+	}
+	manpower=40513
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

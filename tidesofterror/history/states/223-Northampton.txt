@@ -8,8 +8,12 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 3088 25 } #"Northampton"
+		victory_points = { 7768 18 } #"Weston Favell"
+		victory_points = { 7777 10 } #"Dallington"
+		victory_points = { 4380 8 } #"Hardingstone"
 	}
-	manpower=10000
+	manpower=52251
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

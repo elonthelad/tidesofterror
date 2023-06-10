@@ -1,18 +1,16 @@
-
 state={
 	id=157
 	name="STATE_157"
-
-	history={
-		owner = ENG
-		add_core_of = ENG
-
-	}
-
 	provinces={
 		1174 1444 3803 7816 7833 7834 7866 7880 
 	}
-	manpower=10000
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = { 1174 2 } #"Atch Lench"
+		victory_points = { 7880 3 } #"Pershore"
+	}
+	manpower=4788
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000
