@@ -796,7 +796,6 @@
  cat_ship_light_battery: "Light Batteries"
  cat_ship_medium_battery: "Medium Batteries"
  cat_ship_heavy_battery: "Heavy Batteries"
- #Non-MTG naval techs that require loc (they may be granted via effects)
  basic_heavy_cruiser: "Basic Heavy Cruiser (Heavy Cruiser II)"
  basic_ship_hull_carrier: "1936 Carrier Hull"
  early_carrier: "Early Carrier (Carrier I)"

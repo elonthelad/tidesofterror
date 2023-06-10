@@ -22,6 +22,8 @@ technology_categories = {
 	industry
 	electronics
 	land_doctrine
+	air_doctrine
+	naval_doctrine
 	strategic_destruction_tree
 	battlefield_support_tree
 	operational_integrity_tree

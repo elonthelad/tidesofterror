@@ -16,16 +16,16 @@ news_event = {
 			NOT = {
 				OR = {
 					AND = {
-						ROOT = { has_government = military_junta }
-						FROM.FROM = { has_government = military_junta }
+						ROOT = { has_government = autocracy }
+						FROM.FROM = { has_government = autocracy }
 					}
 					AND = {
-						ROOT = { has_government = democratic }
-						FROM.FROM = { has_government = democratic }
+						ROOT = { has_government = parliament }
+						FROM.FROM = { has_government = parliament }
 					}
 					AND = {
-						ROOT = { has_government = unionist }
-						FROM.FROM = { has_government = unionist }
+						ROOT = { has_government = people }
+						FROM.FROM = { has_government = people }
 					}
 					AND = {
 						ROOT = { has_government = arcane }
@@ -46,12 +46,12 @@ news_event = {
 		trigger = {
 			OR = {
 				AND = {
-					ROOT = { has_government = military_junta }
-					FROM.FROM = { has_government = military_junta }
+					ROOT = { has_government = autocracy }
+					FROM.FROM = { has_government = autocracy }
 				}
 				AND = {
-					ROOT = { has_government = unionist }
-					FROM.FROM = { has_government = unionist }
+					ROOT = { has_government = people }
+					FROM.FROM = { has_government = people }
 				}
 			}
 			FROM.FROM = {
@@ -127,16 +127,16 @@ news_event = {
 			NOT = {
 				OR = {
 					AND = {
-						ROOT = { has_government = military_junta }
-						FROM.FROM = { has_government = military_junta }
+						ROOT = { has_government = autocracy }
+						FROM.FROM = { has_government = autocracy }
 					}
 					AND = {
-						ROOT = { has_government = democratic }
-						FROM.FROM = { has_government = democratic }
+						ROOT = { has_government = parliament }
+						FROM.FROM = { has_government = parliament }
 					}
 					AND = {
-						ROOT = { has_government = unionist }
-						FROM.FROM = { has_government = unionist }
+						ROOT = { has_government = people }
+						FROM.FROM = { has_government = people }
 					}
 					AND = {
 						ROOT = { has_government = arcane }
