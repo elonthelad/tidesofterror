@@ -58,6 +58,7 @@ replace_path="gfx/flags/medium"
 replace_path="gfx/flags/small"
 replace_path="gfx/flags"
 replace_path="gfx/loadingscreens"
+replace_path="gfx/interface/goals"
 replace_path="history/countries"
 replace_path="history/general"
 replace_path="history/states"
@@ -76,4 +77,4 @@ tags={
 	"Military"
 }
 name="tidesofterror"
-supported_version="1.12.11"
+supported_version="1.12.14"
