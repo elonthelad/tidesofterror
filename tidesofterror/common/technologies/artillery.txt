@@ -15,69 +15,12 @@ technologies = {
 	rifled_armstrong_gun = {
 
 		enable_equipment_modules = {
-			highpreslev_hydrogen
-			highpreslev_helium
-			highpreslev_town_gas
-			lowpreslev_hydrogen
-			lowpreslev_helium
-			lowpreslev_town_gas
-			frame_steel
-			frame_aluminium
-			frame_ferroaluminium
-			frame_oak_beams
-			frame_pine_truss
-			frame_ash_truss
-			steel_panel
-			manganese_infused_steel_panel
-			canvas
-			wooden_panels
-			air_paddles
-			steam_engine
-			roziere_balloon
-			steerable_sail
-			retractable_sail
-			high_quality
-			factory_finish
-			smaller_build
-			hasty_construction
 			huge_forward_cannon
-			huge_dorsal_blastspear
-			huge_glider_factory
-			huge_underside_artillery
 			large_broadsidecannons
-			large_broadsideharpoons
-			large_machinegunnerturrets
-			large_bombbays
-			large_glideremplacements
-			large_riflemancrew
-			large_paratrooperbay
-			large_layeredarmour
-			large_headquarters
-			large_abundantsupplies
-			large_reconfliers
-			medium_handcannon
-			medium_javelincannon
-			medium_firebombs
-			medium_machinegun
-			medium_extraarmour
-			medium_amplesupplies
-			small_rifle
-			small_handful_of_firebombs
-			small_recontelescope
-			small_sparesupplies
 		}
 
 		enable_equipments = {
-			gas_balloon_hull_0
-			zeppelin_hull_0
-			zeppelin_hull_1
-			zeppelin_hull_2
-			glider_hull_0
-			glider_hull_1
-			glider_hull_2
-			glider_hull_3
 			artillery_equipment_1
-			carriage_equipment_1
 		}
 		
 		enable_subunits = {

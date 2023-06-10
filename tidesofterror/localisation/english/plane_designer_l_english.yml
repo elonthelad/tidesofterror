@@ -120,6 +120,8 @@
  EQ_MOD_CAT_aux_locomotionactive_module_type_TITLE: "Active Solution"
  steerable_sail: "Steerable Sails"
  steerable_sail_desc: "§LSteerable Sails do not retract but have pulleys to aim their direction, giving incredible control over the winds and direction of flight. They are however, always open, and bring a significant weakness and point of failure to the machine.§!"
+ steam_engine: "Steam Engine"
+ leviathan_engine: "Leviathan Engine"
  
  #Armour
  EQ_MOD_SLOT_fixed_armour_type_slot_TITLE: "Armour"
@@ -129,6 +131,8 @@
  manganese_infused_steel_panel_desc: "§LRegular thick steel panels intertwined with the bizzare chemistry of Manganese. Highly resistant to electricity and boasts higher tensile strength.§!"
  steel_panel: "Steel Panel"
  steel_panel_desc: "§LUsing steel panels can be particularly strong on the defence, if inordinately heavy for such a delicate flying vehicle.§!"
+ aluminium_panel: "Aluminium Panel"
+ aluminium_panel_desc: "§LAluminium panels bring the protective properties of metals, while easing the weight load on the vehicle greatly. It's harder to procure this material, and currently harder to work, but the savings on weight can make space for more auxillary components.§!"
  canvas: "Canvas"
  canvas_desc: "§LKnown to be slightly better than a placebo; inexpensive canvas largely exists on the aircraft to assist in wind resistance and lift, and considering protection, it still largely concerns just the wind. Any regular ballistic attack will rip right through as if it wasn't there to begin with.§!"
  wooden_panels: "Wooden Panels"
