@@ -103,20 +103,20 @@
  ENG_the_expedition: "The Expedition"
  ENG_the_expedition_desc: "To put it bluntly, our options have run dry. The PM has proposed we allow his acquainted academy captain, Lord John Grimes to partake in a routine expedition to Calais, hailing from Dover. It's but a mere two-hour trip there, but the ever-encompassing fog may reveal its secrets. What could possibly go wrong?"
  
- ENG_remedy_the_delegate: "Remedy the Delegate"
- ENG_remedy_the_delegate_desc: "The vessel has landed ashore a wreck. No survivors but the delegate remain, not a bone. The man is in absolute hysterics and the site has been closed to the apprehensive, prying eyes of the public. What used to be a perfectly agreeable captain is naught but a chattering, howling lunatic. He may be placated in an asylum, perchance."
- 
  ENG_dredge_the_vessel: "Dredge the Vessel"
  ENG_dredge_the_vessel_desc: "The debris of the HMS Undaunted lies in a shallow, grim cove of the Channel. Even our admiralty have reputed the ruins as curs'd, and plead us to leave it be. But there are sure to be records and vestiges that will show us what happened to the boat, we must preserve this to discover more about the endless fog."
- 
- ENG_humour_the_lunatic: "Humour the Lunatic"
- ENG_humour_the_lunatic_desc: "It can't be dismissed- The Mad Delegate speaks the future, and the truth. How could it be? He chitters, seethes and rattles with terrible screams, and even in our custody he asks not for freedom, food or water. All he begs and weeps for is the sea. And currently, between his mad chatters, he mutters the very future in passing; all he has blithered on about, has indeed happened to come true. You know what we say about soothsayers, but what's the harm in a private audience of his own?"
  
  ENG_dispose_evidence: "Disposal of Evidence"
  ENG_dispose_evidence_desc: "The vessel disturbs all in its vicinity. It invades the minds of men and grants us troubled thoughts. What happened to the ship? Why does it curse our minds? The only answer could come from the good book, and it tells us this is the work of the puppeteer, the Devil. "
  
  ENG_study_the_cliones: "Study the Cliones"
  ENG_study_the_cliones_desc: "With remnants of the boat in safe hands at Newhaven Dock, we have examined it closely and, bizzarely but honestly, dozens of peculiar sea-creatures have oozed out of the mire of the broken and rotten hull. They have been previously documented as Cliones, or 'Sea-angels' due to their, mystical and otherworldly physique. What on earth brought them to the Channel?"
+ 
+ ENG_remedy_the_delegate: "Remedy the Delegate"
+ ENG_remedy_the_delegate_desc: "The vessel has landed ashore a wreck. No survivors but the delegate remain, not a bone. The man is in absolute hysterics and the site has been closed to the apprehensive, prying eyes of the public. What used to be a perfectly agreeable captain is naught but a chattering, howling lunatic. He may be placated in an asylum, perchance."
+ 
+ ENG_humour_the_lunatic: "Humour the Lunatic"
+ ENG_humour_the_lunatic_desc: "It can't be dismissed- The Mad Delegate speaks the future, and the truth. How could it be? He chitters, seethes and rattles with terrible screams, and even in our custody he asks not for freedom, food or water. All he begs and weeps for is the sea. And currently, between his mad chatters, he mutters the very future in passing; all he has blithered on about, has indeed happened to come true. You know what we say about soothsayers, but what's the harm in a private audience of his own?"
  
  ENG_snuff_out_the_screams: "Forceful Extraction"
  ENG_snuff_out_the_screams_desc: "The howls and screeches even terrorise our interrogators; and these are men who have seen it all. They demand something be done about it, which is practically unheard of- This lunatic is a special case indeed, and maybe the only way to reach his secrets, are through some experimental means..."
@@ -130,7 +130,7 @@
  ENG_bribe_independent_reporters: "Bribe Independent Reporters"
  ENG_bribe_independent_reporters_desc: "Money oils the wheels of journalism, and we are not one to miss out on an opportunity like so. The press must be kept silent, lest the people lose faith in us, and just a spare coin here and there, will cover our tracks."
  
- ENG_manchester_outrages: "Manchester Outrages"
+ ENG_manchester_outrages: "Outrage in Manchester"
  ENG_manchester_outrages_desc: ""
  
  ENG_military_planning: "Military Preparations"

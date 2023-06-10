@@ -8,7 +8,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_ongoing_focus_goal"
-		texturefile = "gfx/interface/ongoing_focus_goal.dds"
+		texturefile = "gfx/interface/focusview/ongoing_focus_goal.dds"
 		noOfFrames = 3
 		animation_rate_fps = 0.5
 		looping = yes
@@ -151,12 +151,12 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_focus_unavailable"
-		textureFile = "gfx/interface/focus_unavailable_bg.dds"
+		textureFile = "gfx/interface/focusview/focus_unavailable_bg.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_focus_can_start"
-		textureFile = "gfx/interface/focus_can_start_bg.dds"
+		textureFile = "gfx/interface/focusview/focus_can_start_bg.dds"
 	}
 
 	frameAnimatedSpriteType = {
@@ -173,23 +173,11 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_focus_current"
-		texturefile = "gfx/interface/focus_can_start_bg.dds"
+		texturefile = "gfx/interface/focusview/focus_can_start_bg.dds"
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
-		#animation = {
-		#	animationmaskfile = "gfx/interface/focus_ongoing_mask2.dds"
-		#	animationtexturefile = "gfx/interface/focus_ongoing_texture.dds" 	# <- the animated file
-		#	animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-		#	animationlooping = yes			# yes or no ;)
-		#	animationtime = 20.0				# in seconds
-		#	animationdelay = 0.2			# in seconds
-		#	animationblendmode = "add"       #add, multiply, overlay
-		#	animationtype = "rotating"      #scrolling, rotating, pulsing
-		#	animationrotationoffset = { x = 0.0 y = 0.0 }
-		#	animationtexturescale = { x = 1.0 y = 1.0 }
-		#}
 		animation = {
-			animationmaskfile = "gfx/interface/focus_ongoing_mask4.dds"
-			animationtexturefile = "gfx/interface/focus_ongoing_texture.dds"
+			animationmaskfile = "gfx/interface/focusview/focus_ongoing_mask4.dds"
+			animationtexturefile = "gfx/interface/focusview/focus_ongoing_texture.dds"
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = yes			# yes or no ;)
 			animationtime = 25.0				# in seconds
@@ -205,11 +193,11 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_focus_completed"
-		texturefile = "gfx/interface/focus_completed_bg.dds"
+		texturefile = "gfx/interface/focusview/focus_completed_bg.dds"
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/focus_completed_mask.dds"
-			animationtexturefile = "gfx/interface/focus_completed_texture.dds" 	# <- the animated file
+			animationmaskfile = "gfx/interface/focusview/focus_completed_mask.dds"
+			animationtexturefile = "gfx/interface/focusview/focus_completed_texture.dds" 	# <- the animated file
 			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = yes			# yes or no ;)
 			animationtime = 26.0				# in seconds
