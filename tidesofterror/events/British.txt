@@ -80,15 +80,13 @@ country_event = { #The Expedition Commences
 	fire_only_once = yes
 
 	option = {
-		name = british.3.a #The people wait anxiously for their safe return.
+		name = british.3.a #What happened to them?
 		ai_chance = {factor = 100}
 		add_political_power = 5
 		add_stability = 0.08
-		hidden_effect = {
-			ENG = {
-				country_event = {
-					id = british.4
-				}
+		ENG = {
+			country_event = {
+				id = british.4
 			}
 		}
 	}
@@ -100,11 +98,24 @@ country_event = { #The Expedition Commences
 			ideology = arcane
 			popularity = 0.005
 		}
-		add_fuel = -20000
+		sanity_loseslightly = yes
+		ENG = {
+			country_event = {
+				id = british.4
+			}
+		}
+	}
+	
+	option = {
+		name = british.3.c #Just tell me when they return and we'll wait for all this to blow over.
+		ai_chance = {factor = 100}
+		add_political_power = 5
+		add_stability = 0.08
 		hidden_effect = {
 			ENG = {
 				country_event = {
-					id = british.4
+					id = british.6
+					random_hours = 17
 				}
 			}
 		}
@@ -119,7 +130,7 @@ country_event = { #The Transient Deep
 	picture = GFX_event_expedition2
 
 	is_triggered_only = yes
-	fire_only_once = yes
+	#fire_only_once = yes
 
 	option = {
 		name = british.4.a #Don't tell me anymore. I've heard enough.
@@ -127,7 +138,8 @@ country_event = { #The Transient Deep
 		hidden_effect = {
 			ENG = {
 				country_event = {
-					id = british.5
+					id = british.6
+					random_hours = 17
 				}
 			}
 		}
@@ -140,13 +152,67 @@ country_event = { #The Transient Deep
 			ideology = arcane
 			popularity = 0.005
 		}
-		add_fuel = -60000
-		hidden_effect = {
-			ENG = {
-				country_event = {
-					id = british.5
-				}
+		sanity_losemedium = yes
+		ENG = {
+			country_event = {
+				id = british.5
 			}
 		}
+	}
+}
+
+country_event = { #Graced by God
+	id = british.5
+	title = british.5.t
+	desc = british.5.d
+
+	picture = GFX_event_expedition3
+
+	is_triggered_only = yes
+	#fire_only_once = yes
+
+	option = {
+		name = british.5.a #These secrets lie between him and the gods now.
+		ai_chance = {factor = 100}
+		ENG = {
+			country_event = {
+				id = british.6
+				random_hours = 17
+			}
+		}
+	}
+
+	option = {
+		name = british.5.b #I will uncover these divine teachings, any way I can.
+		ai_chance = {factor = 100}
+		add_popularity = {
+			ideology = arcane
+			popularity = 0.01
+		}
+		cosmicire_promised = yes
+		sanity_loseslightly = yes
+		ENG = {
+			country_event = {
+				id = british.6
+				days = 1
+				random_hours = 17
+			}
+		}
+	}
+}
+
+news_event = { #SHIPWRECK AT DOVER
+	id = british.6
+	title = british.6.t
+	desc = british.6.d
+
+	picture = GFX_event_expedition4
+
+	is_triggered_only = yes
+	#fire_only_once = yes
+
+	option = {
+		name = british.6.a
+		ai_chance = {factor = 100}
 	}
 }
