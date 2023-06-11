@@ -915,8 +915,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		XOR = { doc_signal_via_flare }
-		
 		xp_research_type = air
 		xp_unlock_cost = 100
 
@@ -944,8 +942,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		XOR = { doc_signal_via_flare }
-		
 		xp_research_type = air
 		xp_unlock_cost = 100
 
@@ -972,8 +968,6 @@ technologies = {
 			leads_to_tech = doc_skies_ablaze
 			research_cost_coeff = 1
 		}
-		
-		XOR = { doc_signal_via_flare }
 		
 		xp_research_type = air
 		xp_unlock_cost = 100
@@ -1253,8 +1247,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		XOR = { doc_anti_appendage_armour }
-		
 		xp_research_type = navy
 		xp_unlock_cost = 100
 
@@ -1282,8 +1274,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		XOR = { doc_anti_appendage_armour }
-		
 		xp_research_type = navy
 		xp_unlock_cost = 100
 
@@ -1310,8 +1300,6 @@ technologies = {
 			leads_to_tech = doc_the_holy_ram
 			research_cost_coeff = 1
 		}
-		
-		XOR = { doc_anti_appendage_armour }
 		
 		xp_research_type = navy
 		xp_unlock_cost = 100
