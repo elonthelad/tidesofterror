@@ -292,7 +292,7 @@ NCountry = {
 	MIN_COUP_STABILITY_FACTOR = 0.0,				-- Min value of coup factor in stability
 	MAX_COUP_STABILITY_FACTOR = 2.0,				-- Max value of coup factor in stability
 	MIN_COUP_SUCCESS_STABILITY = 0.8,				-- Max stability when coup will happen
-	WAR_SUPPORT_OFFNSIVE_WAR = 0.0,				-- Impact of being in offensive war
+	WAR_SUPPORT_OFFNSIVE_WAR = 0.1,				-- Impact of being in offensive war
 	WAR_SUPPORT_DEFENSIVE_WAR = 0.0,				-- Impact of being in defensive war
 	WAR_SUPPORT_TENSION_IMPACT = 0.0,				-- Total impact of world tension
 	MIN_STABILITY = 0.0,
@@ -458,7 +458,7 @@ NCountry = {
 NResistance = {
 	INITIAL_STATE_RESISTANCE = 10.0,							-- initial resistance percentage of a state once it is captured
 	INITIAL_STATE_COMPLIANCE = 0.0,							-- initial compliance percentage of a state once it is captured
-	COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = 0.0,	-- compliance factor that applies when the state controller changes (in between allies, compliance is zeroed if it is taken by original country)
+	COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = 1.0,	-- compliance factor that applies when the state controller changes (in between allies, compliance is zeroed if it is taken by original country)
 	RESISTANCE_COOLDOWN_WHEN_DISABLED = -0.25,				-- resistance cooldown when the state is taken back by its original owner (compliance is zeroed in that case)
 
 	RESISTANCE_TARGET_BASE = 0.0,							-- base resistance target percentage

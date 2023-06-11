@@ -1,0 +1,15 @@
+characters = {
+	SCO_Declan_Dawson = {
+		name = "Declan Dawson" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_declan_dawson
+			}
+		}
+		country_leader = {
+			ideology = separatists
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}

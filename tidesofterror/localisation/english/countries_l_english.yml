@@ -1,20 +1,29 @@
 ﻿l_english:
- #
- ENG: "Great Britain"
+ 
+ ENG_parliament: "Great Britain" #default at game start
+ ENG_autocracy: "British Empire" #gb gets this if monarchs get in power
+ ENG_people: "People's Britain" #wip
+ ENG_arcane: "Dark Isles" #should be impossible to attain ingame? not sure on that yet
  ENG_DEF: "British"
  ENG_ADJ: "British"
- ENG_parliament: "Great Britain"
- ENG_autocracy: "British Empire"
- ENG_people: "People's Britain"
- #^WIP
- ENG_arcane: "Dark Isles"
-
- EIR: "Fenian Republic"
+ 
+ EIR_parliament: "Irish Puppet" #ireland gets this if gb releases them willingly, as a puppet
+ EIR_autocracy: "Eire Ghaelach" #gaelic dictatorship woo
+ EIR_people: "Fenian Ireland" #default for ireland if they rise up aggressively
+ EIR_arcane: "Corrupted Eire" #wip
  EIR_DEF: "Irish"
  EIR_ADJ: "Irish"
- EIR_parliament: "Ireland"
- #^WIP
- EIR_autocracy: "Eire Ghaelach"
- EIR_people: "Fenian Ireland"
- EIR_arcane: "Corrupted Eire"
- #^WIP
+ 
+ SCO_parliament: "Scottish Puppet" #scotland gets this if gb releases them willingly, as a puppet
+ SCO_autocracy: "House of Stewart" #for the jacobian path
+ SCO_people: "Free Scotland" #default for scotland if they rise up aggressively
+ SCO_arcane: "" #wip
+ SCO_DEF: "Scottish"
+ SCO_ADJ: "Scottish"
+ 
+ WAL_parliament: "Welsh Occupied Region" #wales gets this if gb releases them willingly, as a puppet
+ WAL_autocracy: "Welsh Catholic Church" #welsh autocracy is in the hands of the religious
+ WAL_people: "Free Welsh State" #default for wales if they rise up, kekw
+ WAL_arcane: "" #wip
+ WAL_DEF: "Wales"
+ WAL_ADJ: "Welsh"

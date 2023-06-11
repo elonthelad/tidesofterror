@@ -91,22 +91,3 @@ country_event = {
 		add_political_power = 100
 	}
 }
-
-unit_leader_event = {
-	id = test.31
-	title = test.31.t
-	desc = test.31.d
-	
-	picture = GFX_event_test
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = test.31.a
-		ARC = {
-			add_state_claim = 27
-			add_state_claim = 26
-			add_state_claim = 25
-		}
-	}
-}

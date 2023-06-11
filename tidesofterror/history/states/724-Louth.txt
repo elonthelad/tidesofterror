@@ -6,7 +6,8 @@ state={
 	}
 	history={
 		owner = ENG
-		add_core_of = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

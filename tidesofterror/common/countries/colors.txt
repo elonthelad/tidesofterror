@@ -1,6 +1,21 @@
 #reload countrycolors
 
 ENG = {
-	color = rgb { 86 33 23 }
-	color_ui = rgb { 86 33 23 }
+	color = rgb { 110 33 17 }
+	color_ui = rgb { 110 33 17 }
+}
+
+EIR = {
+	color = rgb { 40 140 77 }
+	color_ui = rgb { 40 140 77 }
+}
+
+SCO = {
+	color = rgb { 77 77 150 }
+	color_ui = rgb { 77 77 150 }
+}
+
+WAL = {
+	color = rgb { 130 15 0 }
+	color_ui = rgb { 130 15 0 }
 }

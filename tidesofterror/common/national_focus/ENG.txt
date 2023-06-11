@@ -1,5 +1,15 @@
 focus_tree = {
     id = english_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	
+	reset_on_civilwar = no
 
     focus = {
 		id = ENG_the_freight_crisis

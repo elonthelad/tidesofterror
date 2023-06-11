@@ -1,13 +1,13 @@
 characters = {
-	ARC_Arc_Man = {
-		name = "Arc Man" 
+	WAL_Welsh_Man = {
+		name = "???" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_william_gladstone
+				large = GFX_portrait_fergal_o_brosnan
 			}
 		}
 		country_leader = {
-			ideology = cult
+			ideology = separatists
 			expire = "9999.1.1.1"
 			id = -1
 		}

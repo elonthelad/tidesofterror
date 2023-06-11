@@ -19,9 +19,7 @@ ideas = {
 			
 			modifier = {
 				drift_defence_factor = -0.1
-				no_compliance_gain = 1
-				stability_factor = -0.15
-				resistance_target = 0.2
+				stability_factor = -0.08
 			}	
 		}
 		

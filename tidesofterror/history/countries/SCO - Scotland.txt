@@ -1,8 +1,8 @@
-capital = 25
+capital = 3
 
 oob = "standard_templates"
 
-recruit_character = ARC_Arc_Man
+recruit_character = SCO_Declan_Dawson
 
 # Starting tech
 set_technology = {
@@ -12,11 +12,13 @@ tech_infantry_weapons = 1
 set_convoys = 100
 
 set_politics = {
-	ruling_party = arcane
+	ruling_party = people
 	last_election = "1867.10.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	arcane = 100
+	people = 67
+	autocracy = 23
+	parliament = 10
 }

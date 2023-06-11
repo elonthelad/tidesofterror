@@ -1,3 +1,4 @@
 ENG = "countries/England.txt"
-EIR = "countries/Fenian.txt"
-ARC = "countries/Arcane.txt"
+EIR = "countries/Ireland.txt"
+SCO = "countries/Scotland.txt"
+WAL = "countries/Wales.txt"
