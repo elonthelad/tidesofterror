@@ -3,12 +3,12 @@
 ###########################
 
 add_namespace = test
-add_namespace = test_state
+add_namespace = teststate
 # Test Event 1
-state_event = {
-	id = test_state.1
-	title = test_state.1.t
-	desc = test_state.1.d
+unit_leader_event = {
+	id = teststate.1
+	title = teststate.1.t
+	desc = teststate.1.d
 	
 	trigger = {
 	}
@@ -16,7 +16,7 @@ state_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = test_state.1.a		
+		name = teststate.1.a
 	}
 }
 

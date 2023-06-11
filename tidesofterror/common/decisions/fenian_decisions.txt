@@ -16,7 +16,6 @@ ENG_fenian_decisioncat = {
 		}
 		
 		cancel_trigger = {
-			
 		}
 		
 		is_good = yes
@@ -26,8 +25,8 @@ ENG_fenian_decisioncat = {
 		days_mission_timeout = 200
 		
 		complete_effect = {
-		
 		}
+		
 		timeout_effect = {
 			remove_ideas = { ENGIDEA_fenian_remnants }
 			add_stability = -0.3

@@ -463,12 +463,12 @@ NResistance = {
 
 	RESISTANCE_TARGET_BASE = 0.0,							-- base resistance target percentage
 
-	RESISTANCE_TARGET_MODIFIER_HAS_CLAIM = -5.0,			-- resistance target modifier in % for states we have claim
+	RESISTANCE_TARGET_MODIFIER_HAS_CLAIM = -15.0,			-- resistance target modifier in % for states we have claim
 
 	RESISTANCE_TARGET_MODIFIER_PER_STABILITY_LOSS = 1.0,	-- resistance target modifier per stability below 100%
 	RESISTANCE_TARGET_MODIFIER_PER_COMPLIANCE = 0.0,		-- resistance target modifier per compliance %
 
-	RESISTANCE_TARGET_MODIFIER_IS_AT_PEACE = -20.0,			-- resistance target modifier when we are at peace
+	RESISTANCE_TARGET_MODIFIER_IS_AT_PEACE = -30.0,			-- resistance target modifier when we are at peace
 
 	RESISTANCE_TARGET_MODIFIER_STATE_VP = {					-- resistance target modifier pairs for vp. first entry is total vp in state and second entry is amount of target modifier that applies for that threshold
 		0,   0.0, -- 0 - 5
@@ -485,8 +485,8 @@ NResistance = {
 	RESISTANCE_TARGET_MODIFIER_POP_LOW = -20.0,			-- how much we reduce the resistance target
 	RESISTANCE_TARGET_MODIFIER_POP_VERY_LOW = -50.0,			-- resistance target modifier in % for states we have claim
 
-	RESISTANCE_POP_LOW_CUTOFF = 5000,
-	RESISTANCE_POP_VERY_LOW_CUTOFF = 1800,
+	RESISTANCE_POP_LOW_CUTOFF = 14000,
+	RESISTANCE_POP_VERY_LOW_CUTOFF = 8800,
 
 	RESISTANCE_TARGET_MIN_CAP_FOR_NON_COMPLIANCE = 0, -- min resistance target will be capped to this percentage for non-compliance sources
 
@@ -511,7 +511,7 @@ NResistance = {
 	COMPLIANCE_GROWTH_MAX = 100.0, -- max compliance grow
 
 	COMPLIANCE_GROWTH_IS_AT_PEACE = 25, -- compliance growth buff at peace
-	COMPLIANCE_GROWTH_HAS_CLAIM = 5, -- compliance growth buff if state has a claim
+	COMPLIANCE_GROWTH_HAS_CLAIM = 0, -- compliance growth buff if state has a claim
 
 	COMPLIANCE_DECAY_AT_MAX_COMPLIANCE = 0.0, -- as compliance increases, it gets a decay rate depending on its value. compliance should stabilize at some value until its growth changes
 	COMPLIANCE_DECAY_PER_EXILE_LEGITIMACY = -0.015, -- higher legitimacy will give higher decay to compliance
@@ -533,7 +533,7 @@ NResistance = {
 	GARRISON_STR_POW_MANPOWER = 2,	--Scales impact of manpower deficiency by raising that deficiency to the number here. Formula: efficiency = 1.0 - manpower_deficiency^GARRISON_STR_POW_MANPOWER
 	GARRISON_STR_POW_EQUIPMENT = 3,	--Scales impact of euqipment deficiency by raising that deficiency to the number here. Formula: efficiency = 1.0 - equipment_deficiency^GARRISON_STR_POW_EQUIPMENT
 
-	SUPPRESSION_NEEDED_BY_RESISTANCE_POINT = 0.15, -- Number of suppression point we need for each 1% of resistance
+	SUPPRESSION_NEEDED_BY_RESISTANCE_POINT = 0.05, -- Number of suppression point we need for each 1% of resistance
 	SUPPRESSION_NEEDED_LOWER_CAP = 10.0,	-- if resistance is lower than this value then we always act as though it is at the define for the purpose of suppresion requirements
 	SUPPRESSION_NEEDED_UPPER_CAP = 50.0, -- if resistance is greater than this value then we always act as though it is at the define for the purpose of suppresion requirements
 
