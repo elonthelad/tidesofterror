@@ -30,6 +30,16 @@ spriteTypes = {
 	}
 
 	SpriteType = { 
+		name = "GFX_focus_ENG_remedy"
+		texturefile = "gfx/interface/goals/ENG_remedy.png"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_ENG_lunatic"
+		texturefile = "gfx/interface/goals/ENG_lunatic.png"
+	}
+
+	SpriteType = { 
 		name = "GFX_focus_ENG_lobo"
 		texturefile = "gfx/interface/goals/ENG_lobo.png"
 	}

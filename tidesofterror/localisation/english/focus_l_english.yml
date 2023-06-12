@@ -106,20 +106,20 @@
  ENG_dredge_the_vessel: "Dredge the Vessel"
  ENG_dredge_the_vessel_desc: "The debris of the HMS Undaunted lies in a shallow, grim cove of the Channel. Even our admiralty have reputed the ruins as curs'd, and plead us to leave it be. But there are sure to be records and vestiges that will show us what happened to the boat, we must preserve this to discover more about the endless fog."
  
- ENG_dispose_evidence: "Disposal of Evidence"
- ENG_dispose_evidence_desc: "The vessel disturbs all in its vicinity. It invades the minds of men and grants us troubled thoughts. What happened to the ship? Why does it curse our minds? The only answer could come from the good book, and it tells us this is the work of the puppeteer, the Devil. "
+ ENG_left_to_rot: "Left to Rot"
+ ENG_left_to_rot_desc: "The vessel disturbs all in its vicinity. It invades the minds of men and grants us troubled thoughts. What happened to the ship? Why does it curse our minds? The only answer could come from the good book, and it tells us this is the work of the puppeteer, the Devil."
  
- ENG_study_the_cliones: "Study the Cliones"
- ENG_study_the_cliones_desc: "With remnants of the boat in safe hands at Newhaven Dock, we have examined it closely and, bizzarely but honestly, dozens of peculiar sea-creatures have oozed out of the mire of the broken and rotten hull. They have been previously documented as Cliones, or 'Sea-angels' due to their, mystical and otherworldly physique. What on earth brought them to the Channel?"
+ ENG_clione_study: "Clione Study"
+ ENG_clione_study_desc: "With remnants of the boat in safe hands at Newhaven Dock, we have examined it closely and, bizzarely but honestly, dozens of peculiar sea-creatures have oozed out of the mire of the broken and rotten hull. They have been previously documented as Cliones, or 'Sea-angels' due to their, mystical and otherworldly physique. What on earth brought them to the Channel?"
  
- ENG_remedy_the_delegate: "Remedy the Delegate"
- ENG_remedy_the_delegate_desc: "The vessel has landed ashore a wreck. No survivors but the delegate remain, not a bone. The man is in absolute hysterics and the site has been closed to the apprehensive, prying eyes of the public. What used to be a perfectly agreeable captain is naught but a chattering, howling lunatic. He may be placated in an asylum, perchance."
+ ENG_alleviate_the_madman: "Alleviate the Madman"
+ ENG_alleviate_the_madman_desc: "The vessel has landed ashore a wreck. No survivors but the delegate remain, not a bone. The man is in absolute hysterics and the site has been closed to the apprehensive, prying eyes of the public. What used to be a perfectly agreeable captain is naught but a chattering, howling lunatic. He may be placated in an asylum, perchance."
  
- ENG_humour_the_lunatic: "Humour the Lunatic"
- ENG_humour_the_lunatic_desc: "It can't be dismissed- The Mad Delegate speaks the future, and the truth. How could it be? He chitters, seethes and rattles with terrible screams, and even in our custody he asks not for freedom, food or water. All he begs and weeps for is the sea. And currently, between his mad chatters, he mutters the very future in passing; all he has blithered on about, has indeed happened to come true. You know what we say about soothsayers, but what's the harm in a private audience of his own?"
+ ENG_furtive_guidance: "Furtive Guidance"
+ ENG_furtive_guidance_desc: "Aah, the gift of the greater knowledge. Provingly, it is enough to turn a man mad. But he was a mere pawn in our workings, and it'd be naught but irresponsible of us to leave him alone, stewing away with his insight. Let us commune, and uncover these wyrd mysteries, and at that, what's the harm in a little private audience of our own?"
  
- ENG_snuff_out_the_screams: "Forceful Extraction"
- ENG_snuff_out_the_screams_desc: "The howls and screeches even terrorise our interrogators; and these are men who have seen it all. They demand something be done about it, which is practically unheard of- This lunatic is a special case indeed, and maybe the only way to reach his secrets, are through some experimental means..."
+ ENG_invasive_extraction: "Invasive Extraction"
+ ENG_invasive_extraction_desc: "The howls and screeches even terrorise our interrogators; and these are men who have seen it all. They demand something be done about it, which is practically unheard of- This lunatic is a special case indeed, and maybe the only way to reach his knowledge, would be through some experimental means..."
  
  ENG_lockdown_the_harbour: "Lockdown the Harbour"
  ENG_lockdown_the_harbour_desc: "Our workers report it is nigh-on impossible to cooperate with the locals. We have to divert resources to reconcile the town and local parish to allow our operatives to continue."
@@ -154,17 +154,17 @@
  ENG_hunger_of_a_nation: "Hunger of a Nation"
  ENG_hunger_of_a_nation_desc: ""
  
- ENG_feed_the_capable: "Feed the Capable"
- ENG_feed_the_capable_desc: ""
+ ENG_dire_times: "Dire Times"
+ ENG_dire_times_desc: ""
  
- ENG_feed_the_young: "Feed the Young"
- ENG_feed_the_young_desc: ""
+ ENG_promises_to_agriculturalists: "Promises to Agriculturalists"
+ ENG_promises_to_agriculturalists_desc: ""
  
  ENG_immediate_re_election: "Immediate Re-Election"
  ENG_immediate_re_election_desc: ""
  
- ENG_we_remain: "We Remain"
- ENG_we_remain_desc: ""
+ ENG_radical_reforms: "Radical Reforms"
+ ENG_radical_reforms_desc: ""
  
  ENG_investigate_the_cult: "Investigate the Cult"
  ENG_investigate_the_cult_desc: ""
@@ -214,8 +214,8 @@
  ENG_the_order_bolstered: "The Order, Bolstered"
  ENG_the_order_bolstered_desc: ""
  
- ENG_department_superphysical: "Department of the Paranormal"
- ENG_department_superphysical_desc: ""
+ ENG_department_supernatural: "Department Supernatural"
+ ENG_department_supernatural_desc: ""
  
  ENG_asylum_development_project: "Asylum Subsidy Project"
  ENG_asylum_development_project_desc: ""

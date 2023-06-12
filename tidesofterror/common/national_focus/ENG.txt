@@ -14,7 +14,7 @@ focus_tree = {
     focus = {
 		id = ENG_the_freight_crisis
 		icon = GFX_goal_unknown
-		x = 5
+		x = 4
 		y = 0
 
 		cost = 14
@@ -293,7 +293,7 @@ focus_tree = {
 		id = ENG_the_expedition
 		icon = GFX_focus_ENG_ship
 		prerequisite = { focus = ENG_the_freight_crisis }
-		x = 5
+		x = 4
 		y = 1
 
 		cost = 10
@@ -326,10 +326,10 @@ focus_tree = {
 	}
 
     focus = {
-		id = ENG_remedy_the_delegate
-		icon = GFX_goal_unknown
+		id = ENG_alleviate_the_madman
+		icon = GFX_focus_ENG_remedy
 		prerequisite = { focus = ENG_the_expedition}
-		x = 5
+		x = 7
 		y = 2
 
 		cost = 10
@@ -382,10 +382,10 @@ focus_tree = {
 	}
 
     focus = {
-		id = ENG_dispose_evidence
+		id = ENG_left_to_rot
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_dredge_the_vessel}
-        mutually_exclusive = { focus = ENG_study_the_cliones }
+        mutually_exclusive = { focus = ENG_clione_study }
 		x = 0
 		y = 3
 
@@ -411,10 +411,10 @@ focus_tree = {
 	}
 
     focus = {
-		id = ENG_study_the_cliones
+		id = ENG_clione_study
 		icon = GFX_focus_ENG_cliones
 		prerequisite = { focus = ENG_dredge_the_vessel}
-        mutually_exclusive = { focus = ENG_dispose_evidence }
+        mutually_exclusive = { focus = ENG_dismantle_the_wreck }
 		x = 2
 		y = 3
 
@@ -443,7 +443,7 @@ focus_tree = {
 		id = ENG_lockdown_the_harbour
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_the_expedition}
-		x = 9
+		x = 4
 		y = 2
 
 		cost = 10
@@ -468,69 +468,39 @@ focus_tree = {
 	}
 
     focus = {
-		id = ENG_stop_independent_reporters
+		id = ENG_address_the_public
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_lockdown_the_harbour}
-        mutually_exclusive = { focus = ENG_bribe_independent_reporters }
-		x = 8
-		y = 3
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = ENG_bribe_independent_reporters
-		icon = GFX_goal_unknown
-		prerequisite = { focus = ENG_lockdown_the_harbour}
-        mutually_exclusive = { focus = ENG_stop_independent_reporters }
-		x = 10
-		y = 3
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = ENG_humour_the_lunatic
-		icon = GFX_goal_unknown
-		prerequisite = { focus = ENG_remedy_the_delegate}
-        mutually_exclusive = { focus = ENG_snuff_out_the_screams }
 		x = 4
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = ENG_furtive_guidance
+		icon = GFX_focus_ENG_lunatic
+		prerequisite = { focus = ENG_alleviate_the_madman }
+        mutually_exclusive = { focus = ENG_invasive_extraction }
+		x = 8
 		y = 3
 
 		cost = 10
@@ -563,10 +533,10 @@ focus_tree = {
 	}
 
     focus = {
-		id = ENG_snuff_out_the_screams
+		id = ENG_invasive_extraction
 		icon = GFX_focus_ENG_lobo
-		prerequisite = { focus = ENG_remedy_the_delegate}
-        mutually_exclusive = { focus = ENG_humour_the_lunatic }
+		prerequisite = { focus = ENG_alleviate_the_madman }
+        mutually_exclusive = { focus = ENG_furtive_guidance }
 		x = 6
 		y = 3
 
@@ -594,10 +564,10 @@ focus_tree = {
     focus = {
 		id = ENG_hunger_of_a_nation
 		icon = GFX_goal_unknown
-		prerequisite = { focus = ENG_dispose_evidence focus = ENG_study_the_cliones }
-		prerequisite = { focus = ENG_bribe_independent_reporters focus = ENG_stop_independent_reporters }
-		prerequisite = { focus = ENG_humour_the_lunatic focus = ENG_snuff_out_the_screams }
-		x = 5
+		prerequisite = { focus = ENG_left_to_rot focus = ENG_clione_study }
+		prerequisite = { focus = ENG_address_the_public }
+		prerequisite = { focus = ENG_furtive_guidance focus = ENG_invasive_extraction }
+		x = 4
 		y = 4
 
 		cost = 10
@@ -622,11 +592,10 @@ focus_tree = {
 	}
 
     focus = {
-		id = ENG_feed_the_capable
+		id = ENG_dire_times
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_hunger_of_a_nation}
-        mutually_exclusive = { focus = ENG_feed_the_young }
-		x = 3
+		x = 2
 		y = 5
 
 		cost = 10
@@ -651,12 +620,11 @@ focus_tree = {
 	}
 
     focus = {
-		id = ENG_feed_the_young
+		id = ENG_promises_to_agriculturalists
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_hunger_of_a_nation}
-        mutually_exclusive = { focus = ENG_feed_the_capable }
-		x = 7
-		y = 5
+		x = 2
+		y = 6
 
 		cost = 10
 
@@ -683,9 +651,8 @@ focus_tree = {
 		id = ENG_immediate_re_election
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_hunger_of_a_nation}
-        mutually_exclusive = { focus = ENG_we_remain }
-		x = 4
-		y = 6
+		x = 6
+		y = 5
 
 		cost = 10
 
@@ -709,10 +676,9 @@ focus_tree = {
 	}
 
     focus = {
-		id = ENG_we_remain
+		id = ENG_radical_reforms
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_hunger_of_a_nation}
-        mutually_exclusive = { focus = ENG_immediate_re_election }
 		x = 6
 		y = 6
 
@@ -876,7 +842,7 @@ focus_tree = {
 	}
 
     focus = {
-		id = ENG_asylum_development_project
+		id = ENG_asylum_subsidy_project
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_barbituate_development }
 		x = 6
@@ -959,7 +925,7 @@ focus_tree = {
 	}
 
     focus = {
-		id = ENG_department_superphysical
+		id = ENG_department_supernatural
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_the_gibson_capture_trials focus = ENG_assurance_campaign }
 		prerequisite = { focus = ENG_mutual_nightmares }
@@ -990,8 +956,8 @@ focus_tree = {
     focus = {
 		id = ENG_attacks_on_the_coast
 		icon = GFX_goal_unknown
-		x = 10
-		y = 5
+		x = 11
+		y = 6
 
 		cost = 10
 
@@ -1018,8 +984,8 @@ focus_tree = {
 		id = ENG_undermine_the_abyssus_theory
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_attacks_on_the_coast }
-		x = 10
-		y = 6
+		x = 11
+		y = 7
 
 		cost = 10
 
@@ -1046,8 +1012,8 @@ focus_tree = {
 		id = ENG_the_late_strangers_of_the_sea
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_undermine_the_abyssus_theory }
-		x = 10
-		y = 8
+		x = 12
+		y = 9
 
 		cost = 10
 
