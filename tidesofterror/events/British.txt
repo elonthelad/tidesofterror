@@ -105,21 +105,6 @@ country_event = { #The Expedition Commences
 			}
 		}
 	}
-	
-	option = {
-		name = british.3.c #Just tell me when they return and we'll wait for all this to blow over.
-		ai_chance = {factor = 100}
-		add_political_power = 5
-		add_stability = 0.08
-		hidden_effect = {
-			ENG = {
-				country_event = {
-					id = british.6
-					random_hours = 17
-				}
-			}
-		}
-	}
 }
 
 country_event = { #The Transient Deep
@@ -135,11 +120,14 @@ country_event = { #The Transient Deep
 	option = {
 		name = british.4.a #Don't tell me anymore. I've heard enough.
 		ai_chance = {factor = 100}
+		custom_effect_tooltip = customtooltip_engtimefornewstoarrive
 		hidden_effect = {
 			ENG = {
 				country_event = {
 					id = british.6
-					random_hours = 17
+					days = 1
+					random_hours = 18
+					random_days = 2
 				}
 			}
 		}
@@ -174,28 +162,39 @@ country_event = { #Graced by God
 	option = {
 		name = british.5.a #These secrets lie between him and the gods now.
 		ai_chance = {factor = 100}
-		ENG = {
-			country_event = {
-				id = british.6
-				random_hours = 17
+		custom_effect_tooltip = customtooltip_engtimefornewstoarrive
+		hidden_effect = {
+			ENG = {
+				country_event = {
+					id = british.6
+					days = 1
+					random_hours = 18
+					random_days = 2
+				}
 			}
 		}
 	}
 
 	option = {
-		name = british.5.b #I will uncover these divine teachings, any way I can.
+		name = british.5.b #I will uncover the Eldritch Truth, any way I must.
 		ai_chance = {factor = 100}
+		custom_effect_tooltip = customtooltip_engselectpromise
 		add_popularity = {
 			ideology = arcane
 			popularity = 0.01
 		}
+		set_country_flag = promisedeldritch
 		cosmicire_promised = yes
 		sanity_loseslightly = yes
-		ENG = {
-			country_event = {
-				id = british.6
-				days = 1
-				random_hours = 17
+		custom_effect_tooltip = customtooltip_engtimefornewstoarrive
+		hidden_effect = {
+			ENG = {
+				country_event = {
+					id = british.6
+					days = 1
+					random_hours = 18
+					random_days = 2
+				}
 			}
 		}
 	}
@@ -214,5 +213,6 @@ news_event = { #SHIPWRECK AT DOVER
 	option = {
 		name = british.6.a
 		ai_chance = {factor = 100}
+		set_country_flag = expeditionlandfall
 	}
 }

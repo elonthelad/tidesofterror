@@ -586,6 +586,7 @@ guiTypes = {
 		background = {
 			name = "event_option_background"	
 			spriteType ="GFX_event_option_entry"
+			position = { x = 31 y = 4 }
 		}
 		
 		instantTextBoxType = {
