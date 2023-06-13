@@ -211,6 +211,10 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}	
 	
+	spriteType = {
+		name = "GFX_focus_detail_bg"
+		textureFile = "gfx/interface/focusview/focus_detail_bg.png"
+	}
 	
 	spriteType = {
 		name = "GFX_FOCUS_FILTER_ICON_BG"
@@ -276,11 +280,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_FOCUS_FILTER_INTERNAL_AFFAIRS"
 		texturefile = "gfx/interface/focusview/filter/internal_affairs_icon.dds"
-	}
-			
-	spriteType = {
-		name = "GFX_FOCUS_FILTER_POWER_STRUGGLE"
-		texturefile = "gfx/interface/focusview/filter/decision_category_power_struggle.dds"
 	}
 			
 	spriteType = {

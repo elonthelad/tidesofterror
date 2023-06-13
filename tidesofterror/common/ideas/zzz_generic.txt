@@ -155,6 +155,24 @@ ideas = {
 				defense_bonus_against = 0.1
 			}
 		}
+		
+		ENGIDEA_madman_in_custody = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				fuel_cost = 15
+				arcane_acceptance = 20
+			}
+		}
 		#THIS IS FOR TESTING NATIONAL SPIRIT UI!
 		ENGIDEA_1 = {
 			

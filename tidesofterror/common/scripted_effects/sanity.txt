@@ -1,3 +1,11 @@
+sanity_gainslightly = {
+	custom_effect_tooltip = customtooltip_gainsanity_slightly
+	hidden_effect = {
+		add_fuel = 20000
+		sound_effect = "sanity_gain_sound"
+	}
+}
+
 sanity_loseslightly = {
 	custom_effect_tooltip = customtooltip_losesanity_slightly
 	hidden_effect = {
@@ -11,16 +19,5 @@ sanity_losemedium = {
 	hidden_effect = {
 		add_fuel = -80000
 		sound_effect = "sanity_drain_sound"
-	}
-}
-
-cosmicire_promised = {
-	custom_effect_tooltip = customtooltip_cosmicire1
-	hidden_effect = {
-		sound_effect = "cosmic_ire_sound"
-		add_named_threat = {
-			threat = 1
-			name = ire_promised
-		}
 	}
 }

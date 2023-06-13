@@ -35,7 +35,9 @@ ENG_irish_resistance = {
 	}
 	icon = GFX_modifiers_generic_supply
 
-	compliance_growth = -0.01
+	compliance_growth = -1.25
+	resistance_target = 0.5
+	local_factories = -0.8
 	local_resources = -0.2
 	local_supplies = -0.15
 }
@@ -151,7 +153,6 @@ military_appeasement = {
 	
 	resistance_growth = -0.5
 }
-
 
 unplanned_offensive = {
 	icon = GFX_unplanned_offensive

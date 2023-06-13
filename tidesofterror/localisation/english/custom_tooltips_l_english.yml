@@ -1,13 +1,21 @@
 ﻿l_english:
+#Triggers
  ENG_Custom_Tooltip_1: "§GWe settle peace in the state.§!"
- ENG_Custom_Tooltip_2: "There needs to be 3 or less states with Irish Sentiment. There is currently:§Y [?global.amount_of_fen_states]§!"
+ customtooltip_eng3orlessirish: "There needs to be 3 or less states with Irish Sentiment. There is currently:§Y [?global.amount_of_fen_states]§!"
+ customtooltip_engmustpromised: "We have promised to uncover the Eldritch Truth."
+ customtooltip_engnotpromised: "We haven't promised to uncover the Eldritch Truth."
+ customtooltip_engexpeditionlandfall: "The HMS Undaunted must have made landfall."
  
- 
+ #Effects
  customtooltip_enggetfreightdecision: "The ministers of parliament will decide where our focuses and efforts go to §Yreduce the effects§! of the Freight Crisis."
  customtooltip_engthe_expedition: "§YA series of events will occur§! where the tale of the HMS Undaunted is unraveled."
+ customtooltip_engselectpromise: "Selecting this will allow us more §Yoccult actions§!, and may eventually lead to the §Yformation of the Covenant.§!"
+ customtooltip_engtimefornewstoarrive: "In a few days the HMS Undaunted will §Yarrive ashore§!."
+ customtooltip_engallowsmadman: "Allows us §Gelucidation§! from the Prognost."
  
- customtooltip_losesanity_slightly: "Sanity decreases §Rslightly.§!"
- customtooltip_losesanity_medium: "Sanity decreases §Rmoderately.§!"
+ customtooltip_gainsanity_slightly: "Sanity increases §Gslightly§!."
+ customtooltip_losesanity_slightly: "Sanity decreases §Rslightly§!."
+ customtooltip_losesanity_medium: "Sanity decreases §Rmoderately§!."
  
  customtooltip_cosmicire1: "The Great Ones will §Rhear§! of this action."
  customtooltip_cosmicire2: "The Great Ones will §Rknow§! of this action."

@@ -106,8 +106,8 @@
  ENG_dredge_the_vessel: "Dredge the Vessel"
  ENG_dredge_the_vessel_desc: "The debris of the HMS Undaunted lies in a shallow, grim cove of the Channel. Even our admiralty have reputed the ruins as curs'd, and plead us to leave it be. But there are sure to be records and vestiges that will show us what happened to the boat, we must preserve this to discover more about the endless fog."
  
- ENG_left_to_rot: "Left to Rot"
- ENG_left_to_rot_desc: "The vessel disturbs all in its vicinity. It invades the minds of men and grants us troubled thoughts. What happened to the ship? Why does it curse our minds? The only answer could come from the good book, and it tells us this is the work of the puppeteer, the Devil."
+ ENG_condemned_to_rot: "Condemned to Rot"
+ ENG_condemned_to_rot_desc: "The vessel disturbs all in its vicinity. It invades the minds of men and grants us troubled thoughts. What happened to the ship? Why does it curse our minds? The only answer could come from the good book, and it tells us this is the work of the puppeteer, the Devil."
  
  ENG_clione_study: "Clione Study"
  ENG_clione_study_desc: "With remnants of the boat in safe hands at Newhaven Dock, we have examined it closely and, bizzarely but honestly, dozens of peculiar sea-creatures have oozed out of the mire of the broken and rotten hull. They have been previously documented as Cliones, or 'Sea-angels' due to their, mystical and otherworldly physique. What on earth brought them to the Channel?"
@@ -116,18 +116,18 @@
  ENG_alleviate_the_madman_desc: "The vessel has landed ashore a wreck. No survivors but the delegate remain, not a bone. The man is in absolute hysterics and the site has been closed to the apprehensive, prying eyes of the public. What used to be a perfectly agreeable captain is naught but a chattering, howling lunatic. He may be placated in an asylum, perchance."
  
  ENG_furtive_guidance: "Furtive Guidance"
- ENG_furtive_guidance_desc: "Aah, the gift of the greater knowledge. Provingly, it is enough to turn a man mad. But he was a mere pawn in our workings, and it'd be naught but irresponsible of us to leave him alone, stewing away with his insight. Let us commune, and uncover these wyrd mysteries, and at that, what's the harm in a little private audience of our own?"
+ ENG_furtive_guidance_desc: "Ah, the gift of the greater knowledge. Provingly, it is enough to turn a man mad. But he was a mere pawn in our workings, and it'd be naught but irresponsible of us to leave him alone, stewing away with this insight. Let us commune, and uncover these wyrd mysteries, and at that, what's the harm in a little private audience of our own?"
  
  ENG_invasive_extraction: "Invasive Extraction"
- ENG_invasive_extraction_desc: "The howls and screeches even terrorise our interrogators; and these are men who have seen it all. They demand something be done about it, which is practically unheard of- This lunatic is a special case indeed, and maybe the only way to reach his knowledge, would be through some experimental means..."
+ ENG_invasive_extraction_desc: "The howls and screeches even terrorise our interrogators; and these are men who have seen it all. They demand something be done about it, which is practically unheard of- This lunatic is a special case indeed, and maybe the only way to reach his knowledge, would be through some experimental means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... means... "
  
  ENG_lockdown_the_harbour: "Lockdown the Harbour"
  ENG_lockdown_the_harbour_desc: "Our workers report it is nigh-on impossible to cooperate with the locals. We have to divert resources to reconcile the town and local parish to allow our operatives to continue."
  
- ENG_stop_independent_reporters: "Stop Independent Reporters"
- ENG_stop_independent_reporters_desc: "Even the local papers of the southern area have spread the word about our investigation- They claim to discredit our integrity, but we're better than that, and we have the assets to make it happen, whether they like it or not."
+ ENG_address_the_public: "Address the Public"
  
- ENG_bribe_independent_reporters: "Bribe Independent Reporters"
+ 
+ ENG_stop_independent_reporters_desc: "Even the local papers of the southern area have spread the word about our investigation- They claim to discredit our integrity, but we're better than that, and we have the assets to make it happen, whether they like it or not."
  ENG_bribe_independent_reporters_desc: "Money oils the wheels of journalism, and we are not one to miss out on an opportunity like so. The press must be kept silent, lest the people lose faith in us, and just a spare coin here and there, will cover our tracks."
  
  ENG_manchester_outrages: "Outrage in Manchester"

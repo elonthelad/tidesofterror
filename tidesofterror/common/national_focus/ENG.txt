@@ -109,7 +109,7 @@ focus_tree = {
 
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = ENG_Custom_Tooltip_2
+				tooltip = customtooltip_eng3orlessirish
 				check_variable = {
 					global.amount_of_fen_states < 4
 				}
@@ -326,34 +326,6 @@ focus_tree = {
 	}
 
     focus = {
-		id = ENG_alleviate_the_madman
-		icon = GFX_focus_ENG_remedy
-		prerequisite = { focus = ENG_the_expedition}
-		x = 7
-		y = 2
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-		}
-	}
-
-    focus = {
 		id = ENG_dredge_the_vessel
 		icon = GFX_focus_ENG_dredge
 		prerequisite = { focus = ENG_the_expedition}
@@ -367,6 +339,10 @@ focus_tree = {
 		}
 
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = customtooltip_engexpeditionlandfall
+				has_country_flag = expeditionlandfall
+			}
 		}
 		
 		bypass = {
@@ -382,7 +358,7 @@ focus_tree = {
 	}
 
     focus = {
-		id = ENG_left_to_rot
+		id = ENG_condemned_to_rot
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_dredge_the_vessel}
         mutually_exclusive = { focus = ENG_clione_study }
@@ -414,7 +390,7 @@ focus_tree = {
 		id = ENG_clione_study
 		icon = GFX_focus_ENG_cliones
 		prerequisite = { focus = ENG_dredge_the_vessel}
-        mutually_exclusive = { focus = ENG_dismantle_the_wreck }
+        mutually_exclusive = { focus = ENG_condemned_to_rot }
 		x = 2
 		y = 3
 
@@ -453,6 +429,10 @@ focus_tree = {
 		}
 
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = customtooltip_engexpeditionlandfall
+				has_country_flag = expeditionlandfall
+			}
 		}
 		
 		bypass = {
@@ -496,6 +476,44 @@ focus_tree = {
 	}
 
     focus = {
+		id = ENG_alleviate_the_madman
+		icon = GFX_focus_ENG_remedy
+		prerequisite = { focus = ENG_the_expedition}
+		x = 7
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = customtooltip_engexpeditionlandfall
+				has_country_flag = expeditionlandfall
+			}
+		}
+		
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = customtooltip_engmustpromised
+				has_country_flag = promisedeldritch
+			}
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			cosmicire_interferedwithdelegate = yes
+			add_ideas = ENGIDEA_madman_in_custody
+		}
+	}
+
+    focus = {
 		id = ENG_furtive_guidance
 		icon = GFX_focus_ENG_lunatic
 		prerequisite = { focus = ENG_alleviate_the_madman }
@@ -510,6 +528,10 @@ focus_tree = {
 		}
 
 		available = {
+			custom_trigger_tooltip = {
+				tooltip = customtooltip_engmustpromised
+				has_country_flag = promisedeldritch
+			}
 		}
 		
 		bypass = {
@@ -521,13 +543,11 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
-			custom_effect_tooltip = customtooltip_cosmicire5
-			hidden_effect = {
-				add_named_threat = {
-					threat = 5
-					name = ire_humourlunatic
-				}
-				sound_effect = "cosmic_ire_sound"
+			custom_effect_tooltip = customtooltip_engallowsmadman
+			stability = -0.1
+			add_popularity = {
+				ideology = arcane
+				popularity = 0.05
 			}
 		}
 	}
@@ -547,9 +567,12 @@ focus_tree = {
 		}
 
 		available = {
-		}
-		
-		bypass = {
+			NOT = {
+				custom_trigger_tooltip = {
+					tooltip = customtooltip_engnotpromised
+					has_country_flag = promisedeldritch
+				}
+			}
 		}
 
 		cancel_if_invalid = yes
@@ -558,13 +581,23 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
+			cosmicire_killdelegate = yes
+			remove_ideas = ENGIDEA_madman_in_custody
+			add_ideas = ENGIDEA_freight_crisis_stb
+			add_ideas = ENGIDEA_freight_crisis_fac
+			stability = 0.05
+			sanity_gainslightly = yes
+			add_popularity = {
+				ideology = arcane
+				popularity = -0.08
+			}
 		}
 	}
 
     focus = {
 		id = ENG_hunger_of_a_nation
 		icon = GFX_goal_unknown
-		prerequisite = { focus = ENG_left_to_rot focus = ENG_clione_study }
+		prerequisite = { focus = ENG_condemned_to_rot focus = ENG_clione_study }
 		prerequisite = { focus = ENG_address_the_public }
 		prerequisite = { focus = ENG_furtive_guidance focus = ENG_invasive_extraction }
 		x = 4
