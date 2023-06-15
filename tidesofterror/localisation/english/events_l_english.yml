@@ -31,6 +31,10 @@
  british.6.d: ""
  british.6.a: "I really had hoped against this."
  
+ british.7.t: "A most Queer Vivisection"
+ british.7.d: ""
+ british.7.a: ""
+ 
  test.1.t: "Concessions to the Covenant"
  test.1.d: "Dear Commander-in-Chief,\n\nI write to you with grave concerns regarding a recent development in the north. The malcontents who name themselves 'Covenant' has officially staked a claim on York and are demanding the city of Scarborough and imports from the Crown. While I understand the need for diplomacy and peaceful coexistence as they have proven to be extremely violent when provoked, yet I fear that conceding to their demands may set a dangerous precedent for other groups seeking to establish their own territories within our very borders.\n\nI trust that you will make the right decision in this matter, and I look forward to your accord on this issue.\n\nSincerely, General Hall, Conrad"
  test.1.a: "No more violence- They can have the city!"

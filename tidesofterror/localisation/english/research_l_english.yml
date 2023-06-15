@@ -480,7 +480,7 @@
  base_cost: "Base Cost"
  civilian_industry: "Civilian industry"
  military_industry: "Military industry"
- ship_modules_tech: "Ship modules"
+ ship_modules_tech: "Naval Modules"
  dd_tech: "Destroyer models"
  cl_tech: "Light Cruiser models"
  ca_tech: "Heavy Cruiser models"
