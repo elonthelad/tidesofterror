@@ -37,7 +37,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "size_filler"
 				position = { x=0 y=0 }
-				size = { width = 2900 height = 100% }
+				size = { width = 2125 height = 110% }
 			}
 				
 			gridboxtype = {
