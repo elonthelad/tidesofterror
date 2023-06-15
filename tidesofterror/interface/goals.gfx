@@ -1,22 +1,107 @@
 spriteTypes = {
 	
+	#Needs to exist for career profile? WHY PARADOX WHY 
+	
 	SpriteType = {
 		name = "GFX_goal_generic_trade"
 		texturefile = "gfx/interface/goals/goal_unknown.png"
 		legacy_lazy_load = no
 	}
-	
-	#Focuses
+
+	#Unknown Focus
 	
 	SpriteType = {
 		name = "GFX_goal_unknown"
 		texturefile = "gfx/interface/goals/goal_unknown.png"
 		legacy_lazy_load = no
 	}
+	
+	SpriteType = {
+		name = "GFX__shine"
+		texturefile = "gfx/interface/goals/goal_unknown.dds"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
 
-	SpriteType = { 
+		animation = {
+			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_unknown_shine"
+		texturefile = "gfx/interface/goals/goal_unknown.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/goal_unknown.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/goal_unknown.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		legacy_lazy_load = no
+	}
+
+	#Actual Focuses
+
+	frameAnimatedSpriteType = { #The Expedition
 		name = "GFX_focus_ENG_ship"
 		texturefile = "gfx/interface/goals/ENG_ship.png"
+		noOfFrames = 3
+		animation_rate_fps = 0.23
+		looping = yes
+		play_on_show = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_focus_ENG_ship_shine"
+		texturefile = "gfx/interface/goals/ENG_ship.png"
+		noOfFrames = 3
+		animation_rate_fps = 0.23
+		looping = yes
+		play_on_show = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+		legacy_lazy_load = no
 	}
 
 	SpriteType = { 
@@ -24,23 +109,89 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/ENG_dredge.png"
 	}
 
-	SpriteType = { 
+	frameAnimatedSpriteType = { #Clione Study
 		name = "GFX_focus_ENG_cliones"
 		texturefile = "gfx/interface/goals/ENG_cliones.png"
+		noOfFrames = 3
+		animation_rate_fps = 0.6
+		looping = yes
+		play_on_show = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
 
-	SpriteType = { 
+	frameAnimatedSpriteType = {
+		name = "GFX_focus_ENG_cliones_shine"
+		texturefile = "gfx/interface/goals/ENG_cliones.png"
+		noOfFrames = 3
+		animation_rate_fps = 0.6
+		looping = yes
+		play_on_show = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+		legacy_lazy_load = no
+	}
+
+	frameAnimatedSpriteType = { #Ail the Madman
 		name = "GFX_focus_ENG_remedy"
 		texturefile = "gfx/interface/goals/ENG_remedy.png"
+		noOfFrames = 3
+		animation_rate_fps = 1.0
+		looping = yes
+		pause_on_loop = 2.9
+		play_on_show = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 
-	SpriteType = { 
+	frameAnimatedSpriteType = {
+		name = "GFX_focus_ENG_remedy_shine"
+		texturefile = "gfx/interface/goals/ENG_remedy.png"
+		noOfFrames = 3
+		animation_rate_fps = 1.0
+		looping = yes
+		pause_on_loop = 2.9
+		play_on_show = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+		legacy_lazy_load = no
+	}
+
+	frameAnimatedSpriteType = { #Furtive Guidance
 		name = "GFX_focus_ENG_lunatic"
 		texturefile = "gfx/interface/goals/ENG_lunatic.png"
+		noOfFrames = 3
+		animation_rate_fps = 0.32
+		looping = yes
+		play_on_show = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
 
-	SpriteType = { 
+	frameAnimatedSpriteType = {
+		name = "GFX_focus_ENG_lunatic_shine"
+		texturefile = "gfx/interface/goals/ENG_lunatic.png"
+		noOfFrames = 3
+		animation_rate_fps = 0.32
+		looping = yes
+		play_on_show = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+		legacy_lazy_load = no
+	}
+
+	frameAnimatedSpriteType = { #Invasive Excision
 		name = "GFX_focus_ENG_lobo"
 		texturefile = "gfx/interface/goals/ENG_lobo.png"
+		noOfFrames = 3
+		animation_rate_fps = 0.22
+		looping = yes
+		play_on_show = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_focus_ENG_lobo_shine"
+		texturefile = "gfx/interface/goals/ENG_lobo.png"
+		noOfFrames = 3
+		animation_rate_fps = 0.22
+		looping = yes
+		play_on_show = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+		legacy_lazy_load = no
 	}
 }

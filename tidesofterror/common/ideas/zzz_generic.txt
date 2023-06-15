@@ -5,6 +5,43 @@ ideas = {
 
 	# Special ones that can be applied on other countries through focus system.
 	country = {
+		ENGIDEA_fixingwreck = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				dockyard_donations = 2
+				industrial_capacity_dockyard = -0.1
+				repair_speed_factor = 0.1
+			}
+		}
+		
+		ENGIDEA_fixingwreckperm = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				naval_accidents_chance = -0.1
+				naval_retreat_chance = 0.25
+			}
+		}
+		
 		ENGIDEA_fenian_remnants = {
 			
 			allowed = {

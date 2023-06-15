@@ -214,7 +214,7 @@ guiTypes = {
 				name = "prev_level_glow"
 				position = { x = 63 y = 2 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
-				alwaystransparent = yes				
+				alwaystransparent = yes
 				scale = 0.5
 			}
 			
@@ -327,6 +327,7 @@ guiTypes = {
 				position = { x = 68 y = 52 }
 				centerposition = yes			
 				spriteType = "GFX_goal_unknown"
+				scale = 0.5
 			}
 
 			iconType = {

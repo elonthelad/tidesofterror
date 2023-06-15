@@ -24,15 +24,14 @@ focus_tree = {
 		}
 
 		available = {
-			ENG = {
-				has_idea = ENGIDEA_freight_crisis
-			}
 		}
 		
 		bypass = {
-			NOT = {
-				ENG = {
-					has_idea = ENGIDEA_freight_crisis
+			hidden_trigger = {
+				NOT = {
+					ENG = {
+						has_idea = ENGIDEA_freight_crisis
+					}
 				}
 			}
 		}
@@ -296,7 +295,7 @@ focus_tree = {
 		x = 4
 		y = 1
 
-		cost = 10
+		cost = 30
 
 		ai_will_do = {
 			factor = 1
@@ -306,6 +305,9 @@ focus_tree = {
 		}
 		
 		bypass = {
+			hidden_trigger = {
+				has_country_flag = expeditionlandfall
+			}
 		}
 
 		cancel_if_invalid = yes
@@ -322,6 +324,8 @@ focus_tree = {
 					}
 				}
 			}
+			add_political_power = 20
+			add_stability = 0.1
 		}
 	}
 
@@ -343,8 +347,15 @@ focus_tree = {
 				tooltip = customtooltip_engexpeditionlandfall
 				has_country_flag = expeditionlandfall
 			}
+			custom_trigger_tooltip = {
+				tooltip = customtooltip_engcosts2dock
+				num_of_naval_factories > 1
+			}
 		}
 		
+		select_effect = {
+		}
+	
 		bypass = {
 		}
 
@@ -354,43 +365,22 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
+			add_timed_idea = {
+				idea = ENGIDEA_fixingwreck
+				days = 120
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = ship_modules_tech
+			}
 		}
 	}
 
     focus = {
-		id = ENG_condemned_to_rot
+		id = ENG_beware_the_seas
 		icon = GFX_goal_unknown
 		prerequisite = { focus = ENG_dredge_the_vessel}
-        mutually_exclusive = { focus = ENG_clione_study }
-		x = 0
-		y = 3
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-		
-		bypass = {
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = ENG_clione_study
-		icon = GFX_focus_ENG_cliones
-		prerequisite = { focus = ENG_dredge_the_vessel}
-        mutually_exclusive = { focus = ENG_condemned_to_rot }
 		x = 2
 		y = 3
 
@@ -412,6 +402,58 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
+			custom_effect_tooltip = customtooltip_engfixingwreckperm
+			hidden_effect = {
+				remove_ideas = ENGIDEA_fixingwreck
+				add_ideas = ENGIDEA_fixingwreckperm
+			}
+			navy_experience = 30
+		}
+	}
+
+    focus = {
+		id = ENG_phantasmic_molluscs
+		icon = GFX_focus_ENG_cliones
+		prerequisite = { focus = ENG_dredge_the_vessel}
+		x = 0
+		y = 3
+
+		cost = 18
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = customtooltip_engmustpromised
+				has_country_flag = promisedeldritch
+			}
+		}
+		
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			cursedepth_dissected = yes
+			custom_effect_tooltip = customtooltip_engvivisection
+			sanity_loseslightly = yes
+			add_popularity = {
+				ideology = arcane
+				popularity = 0.01
+			}
+			hidden_effect = {
+				ENG = {
+					country_event = {
+						id = british.7
+					}
+				}
+			}
 		}
 	}
 
@@ -482,7 +524,7 @@ focus_tree = {
 		x = 7
 		y = 2
 
-		cost = 10
+		cost = 20
 
 		ai_will_do = {
 			factor = 1
@@ -500,6 +542,9 @@ focus_tree = {
 				tooltip = customtooltip_engmustpromised
 				has_country_flag = promisedeldritch
 			}
+			hidden_trigger = {
+				has_country_flag = expeditionlandfall
+			}
 		}
 		
 		cancel_if_invalid = yes
@@ -508,7 +553,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
-			cosmicire_interferedwithdelegate = yes
+			cursedepth_interferedwithdelegate = yes
 			add_ideas = ENGIDEA_madman_in_custody
 		}
 	}
@@ -521,7 +566,7 @@ focus_tree = {
 		x = 8
 		y = 3
 
-		cost = 10
+		cost = 30
 
 		ai_will_do = {
 			factor = 1
@@ -544,7 +589,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = customtooltip_engallowsmadman
-			stability = -0.1
+			add_stability = -0.1
 			add_popularity = {
 				ideology = arcane
 				popularity = 0.05
@@ -560,7 +605,7 @@ focus_tree = {
 		x = 6
 		y = 3
 
-		cost = 10
+		cost = 14
 
 		ai_will_do = {
 			factor = 1
@@ -581,11 +626,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
-			cosmicire_killdelegate = yes
+			cursedepth_killdelegate = yes
 			remove_ideas = ENGIDEA_madman_in_custody
-			add_ideas = ENGIDEA_freight_crisis_stb
-			add_ideas = ENGIDEA_freight_crisis_fac
-			stability = 0.05
+			add_stability = 0.05
 			sanity_gainslightly = yes
 			add_popularity = {
 				ideology = arcane
@@ -597,7 +640,7 @@ focus_tree = {
     focus = {
 		id = ENG_hunger_of_a_nation
 		icon = GFX_goal_unknown
-		prerequisite = { focus = ENG_condemned_to_rot focus = ENG_clione_study }
+		prerequisite = { focus = ENG_beware_the_seas focus = ENG_phantasmic_molluscs }
 		prerequisite = { focus = ENG_address_the_public }
 		prerequisite = { focus = ENG_furtive_guidance focus = ENG_invasive_extraction }
 		x = 4

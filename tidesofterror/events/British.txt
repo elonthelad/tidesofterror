@@ -184,7 +184,7 @@ country_event = { #Graced by God
 			popularity = 0.01
 		}
 		set_country_flag = promisedeldritch
-		cosmicire_promised = yes
+		cursedepth_promised = yes
 		sanity_loseslightly = yes
 		custom_effect_tooltip = customtooltip_engtimefornewstoarrive
 		hidden_effect = {
@@ -214,5 +214,23 @@ news_event = { #SHIPWRECK AT DOVER
 		name = british.6.a
 		ai_chance = {factor = 100}
 		set_country_flag = expeditionlandfall
+	}
+}
+
+country_event = { #Clione Dissection
+	id = british.7
+	title = british.7.t
+	desc = british.7.d
+
+	picture = GFX_event_expedition3
+
+	is_triggered_only = yes
+	#fire_only_once = yes
+
+	option = {
+		name = british.7.a #These secrets lie between him and the gods now.
+		ai_chance = {factor = 100}
+		hidden_effect = {
+		}
 	}
 }

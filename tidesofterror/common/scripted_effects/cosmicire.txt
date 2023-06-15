@@ -1,32 +1,43 @@
-cosmicire_interferedwithdelegate = {
-	custom_effect_tooltip = customtooltip_cosmicire2
+cursedepth_interferedwithdelegate = {
+	custom_effect_tooltip = customtooltip_cursedepth2
 	hidden_effect = {
 		sound_effect = "cosmic_ire_sound"
 		add_named_threat = {
 			threat = 2
-			name = ire_interferedwithdelegate
+			name = cursedepth_interferedwithdelegate
 		}
 	}
 }
 
-cosmicire_promised = {
-	custom_effect_tooltip = customtooltip_cosmicire1
+cursedepth_promised = {
+	custom_effect_tooltip = customtooltip_cursedepth1
 	hidden_effect = {
 		sound_effect = "cosmic_ire_sound"
 		add_named_threat = {
 			threat = 1
-			name = ire_promised
+			name = cursedepth_promised
 		}
 	}
 }
 
-cosmicire_killdelegate = {
-	custom_effect_tooltip = customtooltip_cosmicire10
+cursedepth_dissected = {
+	custom_effect_tooltip = customtooltip_cursedepth1
+	hidden_effect = {
+		sound_effect = "cosmic_ire_sound"
+		add_named_threat = {
+			threat = 1
+			name = cursedepth_dissected
+		}
+	}
+}
+
+cursedepth_killdelegate = {
+	custom_effect_tooltip = customtooltip_cursedepth10
 	hidden_effect = {
 		sound_effect = "cosmic_ire_sound"
 		add_named_threat = {
 			threat = 10
-			name = ire_killeddelegate
+			name = cursedepth_killeddelegate
 		}
 	}
 }
