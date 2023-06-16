@@ -41,8 +41,8 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "toggle_music_commands_win"
-			position = { x= -289 y = 39}
-			show_position = { x= -450 y = 39 }
+			position = { x= -289 y = 0}
+			show_position = { x= -475 y = 0 }
 			show_animation_type = decelerated
 			hide_animation_type = accelerated
 			animation_time = 450
@@ -58,14 +58,14 @@ guiTypes = {
 			buttonType = {
 				name = "music_pause_button"
 				quadTextureSprite ="GFX_music_pause_button"
-				position = { x= -195 y = 6 }
+				position = { x= -225 y = 1 }
 				Orientation = "UPPER_RIGHT"
 			}	
 
 			buttonType = {
 				name = "music_next_button"
 				quadTextureSprite ="GFX_music_next_button"
-				position = { x= -165 y = 6 }
+				position = { x= -195 y = 1 }
 				Orientation = "UPPER_RIGHT"
 				pdx_tooltip = "MUSICPLAYER_NEXT"
 			}
@@ -73,7 +73,7 @@ guiTypes = {
 			buttonType = {
 				name = "musicplayer_button"
 				quadTextureSprite ="GFX_musicplayer_button"
-				position = { x= -130 y = 6 }
+				position = { x= -160 y = 1 }
 				Orientation = "UPPER_RIGHT"
 			}			
 				
@@ -471,7 +471,7 @@ guiTypes = {
 		buttonType ={
 			name ="threat_button"
 			spriteType = "GFX_world_tension_icon_big_strip"
-			position = { x=-96 y=20 }
+			position = { x=-100 y=4 }
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_default
 		}
@@ -479,7 +479,7 @@ guiTypes = {
 		iconType ={
 			name ="threat_icon_glow"
 			spriteType = "GFX_WT_anim_strip"
-			position = { x=-111 y=5 }
+			position = { x=0 y=5 }
 			Orientation = "UPPER_RIGHT"
 			alwaystransparent = yes
 		}
@@ -487,20 +487,20 @@ guiTypes = {
 		buttonType ={
 			name ="threat_value_button"
 			spriteType = "GFX_world_tension_icon_big_strip"
-			position = { x=-98 y=74 }
+			position = { x=-98 y=71 }
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_default
-			size = { x=50 y=20 }
+			size = { x=60 y=20 }
 			quadTextureSprite ="GFX_tiled_window_transparent"
 		}
 		
 		instantTextBoxType = {
 			name ="threat_value"
-			position = { x=-98 y=74 }
+			position = { x=-98 y=71 }
 			font = "hoi_18mbs"
 			text = "50%"
 			format = center
-			maxWidth = 55
+			maxWidth = 65
 			maxHeight = 24
 			fixedsize = yes
 			Orientation = "UPPER_RIGHT"
@@ -542,7 +542,7 @@ guiTypes = {
 			buttonType = {
 				name = "pause_button_date"
 				quadTextureSprite ="GFX_date_pause_button_bg"
-				position = { x = -197 y = 0 }
+				position = { x = -197 y = 2 }
 				Orientation = "UPPER_RIGHT"
 				shortcut = "SPACE" #Will be disabled in MP from code
 				clicksound = pause_button
@@ -551,7 +551,7 @@ guiTypes = {
 			buttonType = {
 				name = "pause_button_date_paused"
 				quadTextureSprite ="GFX_date_pause_button"
-				position = { x = -197 y = 0 }
+				position = { x = -197 y = 2 }
 				Orientation = "UPPER_RIGHT"
 				shortcut = "SPACE" #Will be disabled in MP from code
 				clicksound = pause_button
@@ -560,7 +560,7 @@ guiTypes = {
 			buttonType = {
 				name = "button_speeddown"
 				quadTextureSprite ="GFX_zoom_out"
-				position = { x = 58 y = 1 }
+				position = { x = 58 y = 3 }
 				shortcut = "KP_MINUS"
 				pdx_tooltip = "SPEED_DECREASE"
 				clicksound = time_down
@@ -570,42 +570,42 @@ guiTypes = {
 			buttonType = {
 				name = "button_speedstep1"
 				quadTextureSprite ="GFX_speed_step"
-				position = { x=94 y =27 }
+				position = { x=106 y =29 }
 				clicksound = click_default
 			}
 			
 			buttonType = {
 				name = "button_speedstep2"
 				quadTextureSprite ="GFX_speed_step"
-				position = { x=119 y =27 }
+				position = { x=131 y =29 }
 				clicksound = click_default
 			}
 			
 			buttonType = {
 				name = "button_speedstep3"
 				quadTextureSprite ="GFX_speed_step"
-				position = { x=144 y =27 }
+				position = { x=156 y =29 }
 				clicksound = click_default
 			}
 			
 			buttonType = {
 				name = "button_speedstep4"
 				quadTextureSprite ="GFX_speed_step"
-				position = { x=169 y =27 }
+				position = { x=181 y =29 }
 				clicksound = click_default
 			}
 			
 			buttonType = {
 				name = "button_speedstep5"
 				quadTextureSprite ="GFX_speed_step"
-				position = { x=194 y =27 }
+				position = { x=206 y =29 }
 				clicksound = click_default
 			}
 		
 			buttonType = {
 				name = "button_speedup"
 				quadTextureSprite ="GFX_zoom_in"
-				position = { x = 233 y =1 }
+				position = { x = 233 y =3 }
 				shortcut = "KP_PLUS"
 				pdx_tooltip = "SPEED_INCREASE"
 				clicksound = time_up
@@ -614,7 +614,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "DateText"
-				position = { x = -175 y = 4 }
+				position = { x = -189 y = 5 }
 				textureFile = ""
 				font = "hoi_18mbs"
 				text = "7:00 29, September 1939"
@@ -629,7 +629,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "menu_button"
-			position = { x = -35 y = 7 }
+			position = { x = -28 y = 4 }
 			quadTextureSprite ="GFX_menu_button"
 			buttonText = ""
 			buttonFont = "Main_14_black"
@@ -654,7 +654,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "achievements_button"
-			position = { x = -131 y = 62 }
+			position = { x = -133 y = 66 }
 			quadTextureSprite ="GFX_achievements_button"
 			buttonText = ""
 			buttonFont = "Main_14_black"
@@ -665,7 +665,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "playlist_button"
-			position = { x = -311 y = 46 }
+			position = { x = -355 y = 8 }
 			quadTextureSprite ="GFX_playlist_button"
 			buttonText = ""
 			buttonFont = "Main_14_black"
@@ -677,7 +677,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "dismissed_alerts_button"
-			position = { x = -35 y = 62 }
+			position = { x = -29 y = 65 }
 			quadTextureSprite ="GFX_show_dismissed_alerts_icon"
 			buttonText = ""
 			buttonFont = "Main_14_black"
@@ -891,7 +891,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "army_button"
-				position = { x = -275 y = 8 }
+				position = { x = -271 y = 15 }
 				quadTextureSprite ="GFX_armyoverview_button"
 				Orientation = "UPPER_right"
 				shortcut = "o"
@@ -901,7 +901,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "navy_button"
-				position = { x = -226 y = 8 }
+				position = { x = -226 y = 15 }
 				quadTextureSprite ="GFX_navyoverview_button"
 				Orientation = "UPPER_right"
 				shortcut = "p"
@@ -911,7 +911,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "air_button"
-				position = { x = -180 y = 8 }
+				position = { x = -181 y = 15 }
 				quadTextureSprite ="GFX_airoverview_button"
 				Orientation = "UPPER_right"
 				shortcut = "l"
