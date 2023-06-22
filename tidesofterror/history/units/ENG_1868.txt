@@ -1,0 +1,150 @@
+﻿division_template = {
+	name = "Infantry Division"			# 1st - 5th divisions = fully equipped, others = reserve divisions
+	division_names_group = ENG_INF_01
+	template_counter = 67
+
+	regiments = {
+        artillery_brigade = { x = 0 y = 0 }
+        artillery_brigade = { x = 0 y = 1 }
+        line_infantry = { x = 1 y = 0 }
+		line_infantry = { x = 1 y = 1 }
+		line_infantry = { x = 1 y = 2 }
+		line_infantry = { x = 2 y = 0 }
+		line_infantry = { x = 2 y = 1 }
+		line_infantry = { x = 2 y = 2 }
+	}
+	support = {
+       	sappers_miners = { x = 0 y = 0 }
+       	comissariat = { x = 1 y = 0 }
+	}
+}
+
+units = {
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 51
+		}
+		location = 2487
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 52
+		}
+		location = 2487
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 53
+		}
+		location = 2487
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 54
+		}
+		location = 2487
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 55
+		}
+		location = 2487
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 56
+		}
+		location = 2487
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 57
+		}
+		location = 2487
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 58
+		}
+		location = 2487
+		division_template = "Infantry Division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.3
+	}
+	division= {	
+		name = "Yo!"
+		location = 469
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+}
+
+###airwings in their own file
+
+
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_weapons1
+			creator = "ENG"
+		}
+		requested_factories = 4
+		progress = 0.2
+		efficiency = 30
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "ENG"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ENG" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+}
+	#####################
