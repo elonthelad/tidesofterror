@@ -7,9 +7,12 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 6781 20 } #"Hull"
+		victory_points = { 5501 15 } #"Sculcoates"
+		victory_points = { 4657 12 } #"Bransholme"
 	}
-	manpower=10000
+	manpower=66976
 	buildings_max_level_factor=1.000
-	state_category=great_city
+	state_category=city
 	local_supplies=0.000
 }

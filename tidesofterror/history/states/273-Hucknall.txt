@@ -7,9 +7,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 7236 3 } #"Ravenshead"
+		victory_points = { 3572 3 } #"Giltbrook"
 	}
-	manpower=10000
+	manpower=7534
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=pastoral
 	local_supplies=0.000
 }

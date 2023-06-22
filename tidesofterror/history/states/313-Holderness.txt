@@ -7,8 +7,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 1077 2 } #"Withernsea"
+		victory_points = { 3004 3 } #"Hedon"
+		victory_points = { 3637 2 } #"Hornsea"
 	}
-	manpower=10000
+	manpower=7071
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -7,9 +7,13 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 1502 6 } #"Thorpe Acre"
+		victory_points = { 7419 12 } #"Loughborough"
+		victory_points = { 4243 5 } #"Rothley"
+		victory_points = { 5283 6 } #"Thurmaston"
 	}
-	manpower=10000
+	manpower=31928
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_town
 	local_supplies=0.000
 }

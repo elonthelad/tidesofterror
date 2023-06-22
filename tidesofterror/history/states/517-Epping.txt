@@ -7,7 +7,7 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
-		victory_points = { 8083 20 } #"Waltham"
+		victory_points = { 8083 20 } #"Waltham Abbey"
 		victory_points = { 37 8 } #"Epping"
 	}
 	manpower=35224

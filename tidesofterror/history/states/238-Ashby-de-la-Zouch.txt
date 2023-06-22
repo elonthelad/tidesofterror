@@ -7,8 +7,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 7449 7 } #"Coalville"
+		victory_points = { 7423 4 } #"Ashby-de-la-Zouch"
+		victory_points = { 7447 2 } #"Measham"
 	}
-	manpower=10000
+	manpower=24433
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

@@ -7,8 +7,13 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 2465 25 } #"Leicester"
+		victory_points = { 7547 3 } #"Oadby"
+		victory_points = { 7534 5 } #"Wigston"
+		victory_points = { 468 6 } #"New Humberstone"
+		victory_points = { 7503 3 } #"Glenfield"
 	}
-	manpower=10000
+	manpower=77330
 	buildings_max_level_factor=1.000
 	state_category=great_city
 	local_supplies=0.000

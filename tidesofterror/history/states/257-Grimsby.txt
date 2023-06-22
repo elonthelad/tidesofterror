@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 5415 22 } #"Grimsby"
 		victory_points = { 3503 16 } #"Cleethorpes"
-		victory_points = { 6969 5 } #"Waltham"
+		victory_points = { 6959 5 } #"Waltham"
 	}
 	manpower=72757
 	buildings_max_level_factor=1.000

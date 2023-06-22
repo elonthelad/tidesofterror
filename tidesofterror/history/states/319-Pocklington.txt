@@ -7,9 +7,12 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 6685 2 } #"Pocklington"
+		victory_points = { 2366 5 } #"Market Weighton"
+		victory_points = { 3840 2 } #"Stamford Bridge"
 	}
-	manpower=10000
+	manpower=11638
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

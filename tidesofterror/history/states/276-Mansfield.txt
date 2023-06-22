@@ -7,8 +7,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 7172 6 } #"Mansfield Woodhouse"
+		victory_points = { 81 8 } #"Mansfield"
+		victory_points = { 7178 8 } #"Sutton-in-Ashfield"
 	}
-	manpower=10000
+	manpower=20583
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000
