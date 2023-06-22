@@ -450,5 +450,4 @@ sub_units = {
 			infantry_weapons = 1
 		}
 	}
-
 }

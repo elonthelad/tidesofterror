@@ -1,12 +1,13 @@
 capital = 555
 
-oob = "standard_templates"
+oob = "ENG_1868"
 
 recruit_character = ENG_William_Gladstone
 
 # Starting tech
 set_technology = {
 	tech_infantry_weapons = 1
+	tech_carriage = 1
 	tech_inf_armour1 = 1
 	tech_bayonets = 1
 	tech_redcoats = 1

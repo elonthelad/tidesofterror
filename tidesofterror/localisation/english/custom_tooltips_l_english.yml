@@ -15,6 +15,9 @@
  customtooltip_engallowsmadman: "Allows us §Yelucidation§! from the Prognost."
  customtooltip_engfixingwreckperm: "Turns §YMaintaining the Undaunted§! into §YApprehensive Admiralty§!, of which the effects are; Accident chance §G-10.00%§!, Retreat Decision Chance §G+25.00%§!."
  customtooltip_engvivisection: "An §Yevent for the vivisection§! will take place and we may see if these creatures hold any secrets inside."
+ customtooltip_shaftmining: "Coal Gain Efficiency §G+10.00%§!.\nSteel Gain Efficiency §G+10.00%§!.\nAluminium Gain Efficiency §G+10.00%§!.\nEnables §Ybasic§! prospecting decisions."
+ customtooltip_dynamite: "Enables §Yimproved§! prospecting decisions."
+ customtooltip_steamdonkey: "Enables §Yadvanced§! prospecting decisions."
  
  customtooltip_gainsanity_slightly: "Sanity increases §Gslightly§!."
  customtooltip_losesanity_slightly: "Sanity decreases §Rslightly§!."

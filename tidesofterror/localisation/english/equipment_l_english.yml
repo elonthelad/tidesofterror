@@ -232,6 +232,8 @@
  support_equipment_1: "Auxillary Equipment"
  support_equipment_1_desc: "Various gear and outfits for auxillary battalions."
  
+ carriage_equipment_1: "Supply Carriage"
+ 
  artillery_equipment: "Cannons"
  artillery_equipment_desc: "A large field gun that may be towed by a team of men, and is used to lay suppressive fire to a charging or distant enemy."
  artillery_equipment_1: "Rifled Armstrong Gun"
