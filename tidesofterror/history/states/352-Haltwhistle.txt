@@ -7,8 +7,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 3977 2 } #"Haltwhistle"
+		victory_points = { 6240 2 } #"Bardon Mill"
 	}
-	manpower=10000
+	manpower=2143
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

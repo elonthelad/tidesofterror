@@ -16,7 +16,7 @@
 17		Staffordshire            506250
 18		Lincolnshire             485550 DONE
 19		Cheshire                   478800
-20	Derbyshire                477000
+20	Derbyshire                477000 DONE
 21		Leicestershire            476100 DONE
 22	Middlesex                 461042 DONE
 22	Somerset	                  442350 DONE
@@ -41,7 +41,7 @@
 41		Cumbria                    225450
 42	Shropshire                 221400 DONE
 43	Bristol                        211500 DONE
-44	Northumberland       141300
+44	Northumberland       141300 DONE
 45	Herefordshire           91350 DONE
 46	Rutland                     14900 DONE
 
@@ -65,5 +65,5 @@ pastoral * 0.40
 small_town * 0.54
 large_town * 0.44
 city * 0.47
-great_city * 0.88
+great_city * 0.78
 urban_borough * 0.82

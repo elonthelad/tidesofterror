@@ -7,8 +7,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 2011 2 } #"Bellingham"
+		victory_points = { 6233 2 } #"Haydon Bridge"
 	}
-	manpower=10000
+	manpower=2355
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -1,4 +1,3 @@
-
 state={
 	id=298
 	name="STATE_298"
@@ -8,8 +7,12 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 5168 3 } #"Buxton"
+		victory_points = { 115 2 } #"Chapel-en-le-Firth"
+		victory_points = { 6973 3 } #"Glossop"
+		victory_points = { 2651 2 } #"Edale"
 	}
-	manpower=10000
+	manpower=4520
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

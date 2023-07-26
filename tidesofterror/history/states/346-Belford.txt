@@ -7,8 +7,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 5367 3 } #"Belford"
+		victory_points = { 2071 2 } #"Seahouses"
 	}
-	manpower=10000
+	manpower=3249
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

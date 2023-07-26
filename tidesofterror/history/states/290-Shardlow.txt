@@ -1,4 +1,3 @@
-
 state={
 	id=290
 	name="STATE_290"
@@ -8,8 +7,15 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 5404 25 } #"Derby"
+		victory_points = { 1610 12 } #"Derwent"
+		victory_points = { 4043 10 } #"Alvaston Moor"
+		victory_points = { 4323 4 } #"Melbourne"
+		victory_points = { 7338 8 } #"Long Eaton"
+		victory_points = { 7313 5 } #"Sandiacre"
+		victory_points = { 7332 2 } #"Borrowash"
 	}
-	manpower=10000
+	manpower=96919
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

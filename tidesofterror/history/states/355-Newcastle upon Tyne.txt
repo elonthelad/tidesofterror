@@ -7,9 +7,14 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 6235 10 } #"North Shields"
+		victory_points = { 2963 25 } #"Newcastle-upon-Tyne"
+		victory_points = { 1722 12 } #"Wallsend"
+		victory_points = { 6241 16 } #"Jesmond"
+		victory_points = { 6226 8 } #"Longbenton"
 	}
-	manpower=10000
+	manpower=60193
 	buildings_max_level_factor=1.000
-	state_category=urban_borough
+	state_category=great_city
 	local_supplies=0.000
 }
