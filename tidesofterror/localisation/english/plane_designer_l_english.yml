@@ -72,40 +72,34 @@
  
  EQ_MOD_CAT_highpreslevitation_module_type_TITLE: "High Pressure"
  highpreslev_hydrogen: "High-Pressure Hydrogen"
- highpreslev_hydrogen_desc: "§LHigh-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!High-Pressure Hydrogen todo desc!§!"
+ highpreslev_hydrogen_desc: "§LHigh-Pressure Hydrogen todo desc!§!"
  highpreslev_helium: "High-Pressure Helium"
- highpreslev_helium_desc: "§LHigh-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!High-Pressure Helium todo desc!§!"
- highpreslev_town_gas: "High-Pressure Town Gas"
- highpreslev_town_gas_desc: "§LHigh-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!High-Pressure Town Gas todo desc!§!"
+ highpreslev_helium_desc: "§LHigh-Pressure Helium todo desc!§!"
  
  EQ_MOD_CAT_lowpreslevitation_module_type_TITLE: "Low Pressure"
  lowpreslev_hydrogen: "Low-Pressure Hydrogen"
- lowpreslev_hydrogen_desc: "§LLow-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!Low-Pressure Hydrogen todo desc!§!"
+ lowpreslev_hydrogen_desc: "§LLow-Pressure Hydrogen todo desc!§!"
  lowpreslev_helium: "Low-Pressure Helium"
- lowpreslev_helium_desc: "§LLow-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!Low-Pressure Helium todo desc!§!"
- lowpreslev_town_gas: "Low-Pressure Town Gas"
- lowpreslev_town_gas_desc: "§LLow-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!Low-Pressure Town Gas todo desc!§!"
+ lowpreslev_helium_desc: "§LLow-Pressure Helium todo desc!§!"
+ lev_town_gas: "Town Gas"
+ lev_town_gas_desc: "§LTown Gas todo desc!§!"
  
  #Framework
  EQ_MOD_SLOT_fixed_framework_type_slot_TITLE: "Framework"
  
  EQ_MOD_CAT_heavyframework_module_type_TITLE: "Heavy Frames"
  frame_steel: "Steel Beams"
- frame_steel_desc: "§LSteel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!Steel Beams todo desc!§!"
+ frame_steel_desc: "§LSteel Beams todo desc!§!"
  
  EQ_MOD_CAT_mediumframework_module_type_TITLE: "Medium Frames"
  frame_aluminium: "Aluminium Beams"
- frame_aluminium_desc: "§LAluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!Aluminium Beams todo desc!§!"
- frame_ferroaluminium: "Ferro-Aluminium Beams"
- frame_ferroaluminium_desc: "§LFerro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!Ferro-Aluminium Beams todo desc!§!"
+ frame_aluminium_desc: "§LAluminium Beams todo desc!§!"
  frame_oak_beams: "Oak Beams"
- frame_oak_beams_desc: "§LOak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!Oak Beams todo desc!§!"
+ frame_oak_beams_desc: "§LOak Beams todo desc!§!"
  
  EQ_MOD_CAT_lightframework_module_type_TITLE: "Light Frames"
  frame_pine_truss: "Pine Truss"
- frame_pine_truss_desc: "§LPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo descPine Truss todo desc!§!"
- frame_ash_truss: "Ash Truss"
- frame_ash_truss_desc: "§LAsh Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!Ash Truss todo desc!§!"
+ frame_pine_truss_desc: "§LPine Truss todo desc!§!"
  
  #Auxillary Locomotion
  EQ_MOD_SLOT_fixed_aux_locomotion_type_slot_TITLE: "Auxillary Locomotion"

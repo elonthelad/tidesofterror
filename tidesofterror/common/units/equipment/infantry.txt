@@ -192,7 +192,7 @@ equipments = {
 		}
 	}
 
-	police_weapons1 = {
+	police_weapons1 = { #Truncheon
 		year = 1868
 	
 		archetype = police_weapons
@@ -201,7 +201,7 @@ equipments = {
 		visual_level = 0
 	}
 
-	police_weapons2 = {
+	police_weapons2 = { #Beaumont-Adams Revolver
 		year = 1870
 	
 		archetype = police_weapons

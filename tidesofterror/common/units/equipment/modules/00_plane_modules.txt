@@ -5,7 +5,7 @@ equipment_modules = {
 	
 	#High Pressure
 	
-	highpreslev_hydrogen = { #low reliable cheapish
+	highpreslev_hydrogen = { #Tech- Aeronautics
 		abbreviation = "hyd"
 		category = highpreslevitation_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -23,7 +23,7 @@ equipment_modules = {
 		}
 	}
 	
-	highpreslev_helium = { #expensive reliable harmless
+	highpreslev_helium = { #Tech- Aeronautics
 		abbreviation = "hel"
 		category = highpreslevitation_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -41,30 +41,9 @@ equipment_modules = {
 		}
 	}
 	
-	highpreslev_town_gas = { #medium cost easy to make poor quality
-		abbreviation = "twn"
-		category = highpreslevitation_module_type
-		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			air_range = 400
-			maximum_speed = 80
-			thrust = 6
-			build_cost_ic = 4
-		}
-		
-		multiply_stats = {
-			thrust = 0.4
-		}
-
-		build_cost_resources = {
-			coal = 1
-		}
-	}
-	
 	#Low Pressure
 	
-	lowpreslev_hydrogen = { #low reliable cheapish
+	lowpreslev_hydrogen = { #Tech- Aeronautics
 		abbreviation = "hyd"
 		category = lowpreslevitation_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -82,7 +61,7 @@ equipment_modules = {
 		}
 	}
 	
-	lowpreslev_helium = { #expensive reliable harmless
+	lowpreslev_helium = { #Tech- Aeronautics
 		abbreviation = "hel"
 		category = lowpreslevitation_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -100,7 +79,7 @@ equipment_modules = {
 		}
 	}
 	
-	lowpreslev_town_gas = { #medium cost easy to make poor quality
+	lev_town_gas = { #Tech- Aeronautics
 		abbreviation = "twn"
 		category = lowpreslevitation_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -118,7 +97,7 @@ equipment_modules = {
 	
 	#Heavy Frameworks
 	
-	frame_steel = {
+	frame_steel = { #Tech- Aeronautics
 		abbreviation = "stl"
 		category = heavyframework_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -142,7 +121,7 @@ equipment_modules = {
 	
 	#Medium Frameworks
 	
-	frame_aluminium = {
+	frame_aluminium = { #Tech- Aeronautics
 		abbreviation = "alu"
 		category = mediumframework_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -164,7 +143,7 @@ equipment_modules = {
 		}
 	}
 	
-	frame_ferroaluminium = {
+	frame_ferroaluminium = { #Tech- Aeronautics
 		abbreviation = "fal"
 		category = mediumframework_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -187,7 +166,7 @@ equipment_modules = {
 		}
 	}
 	
-	frame_oak_beams = {
+	frame_oak_beams = { #Tech- Aeronautics
 		abbreviation = "oak"
 		category = mediumframework_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -210,7 +189,7 @@ equipment_modules = {
 	
 	#Light Frameworks
 	
-	frame_pine_truss = {
+	frame_pine_truss = { #Tech- Aeronautics
 		abbreviation = "ptr"
 		category = lightframework_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -229,7 +208,7 @@ equipment_modules = {
 		}
 	}
 	
-	frame_ash_truss = {
+	frame_ash_truss = { #Tech- Aeronautics
 		abbreviation = "atr"
 		category = lightframework_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -252,7 +231,7 @@ equipment_modules = {
 	
 	#Active Locomotion
 	
-	steam_engine = {
+	steam_engine = { #Tech- Industrial "Water-tube Boiler"
 		abbreviation = "ste"
 		category = aux_locomotionactive_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -277,7 +256,7 @@ equipment_modules = {
 		}
 	}
 	
-	experimental_petroleum_engine = {
+	experimental_petroleum_engine = { #Tech- Industrial "Gasoline Turbines"
 		abbreviation = "epe"
 		category = aux_locomotionactive_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -303,7 +282,7 @@ equipment_modules = {
 		}
 	}
 	
-	leviathan_engine = {
+	leviathan_engine = { #Tech- Industrial "Large-scale Pressure Exhausts"
 		abbreviation = "lve"
 		category = aux_locomotionactive_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -331,7 +310,7 @@ equipment_modules = {
 	
 	#Passive Locomotion
 	
-	steerable_sail = {
+	steerable_sail = { #Tech- Aeronautics
 		abbreviation = "rss"
 		category = aux_locomotionpassive_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -353,7 +332,7 @@ equipment_modules = {
 		}
 	}
 	
-	roziere_balloon = {
+	roziere_balloon = { #Tech- Aeronautics
 		abbreviation = "roz"
 		category = aux_locomotionpassive_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -373,7 +352,7 @@ equipment_modules = {
 		}
 	}
 	
-	retractable_sail = {
+	retractable_sail = { #Tech- Aeronautics
 		abbreviation = "rsa"
 		category = aux_locomotionpassive_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -394,7 +373,7 @@ equipment_modules = {
 		}
 	}
 	
-	air_paddles = {
+	air_paddles = { #Tech- Aeronautics
 		abbreviation = "apd"
 		category = aux_locomotionpassive_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -420,7 +399,7 @@ equipment_modules = {
 
 	#Armour
 	
-	manganese_infused_steel_panel = {
+	manganese_infused_steel_panel = { #Tech- Aeronautics
 		abbreviation = "man"
 		category = armour_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -437,7 +416,7 @@ equipment_modules = {
 		}
 	}
 	
-	steel_panel = {
+	steel_panel = { #Tech- Aeronautics
 		abbreviation = "spn"
 		category = armour_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -459,7 +438,7 @@ equipment_modules = {
 		}
 	}
 	
-	aluminium_panel = {
+	aluminium_panel = { #Tech- Aeronautics
 		abbreviation = "apn"
 		category = armour_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -481,7 +460,7 @@ equipment_modules = {
 		}
 	}
 	
-	canvas = {
+	canvas = { #Tech- Aeronautics
 		abbreviation = "cav"
 		category = armour_module_type
 		sfx = sfx_ui_sd_module_engine
@@ -498,7 +477,7 @@ equipment_modules = {
 		}
 	}
 	
-	wooden_panels = {
+	wooden_panels = { #Tech- Aeronautics
 		abbreviation = "wpn"
 		category = armour_module_type
 		sfx = sfx_ui_sd_module_engine

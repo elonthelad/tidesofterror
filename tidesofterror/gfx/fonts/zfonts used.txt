@@ -13,7 +13,12 @@ cg_16b #Used in tooltips
 hoi_16mbs #Used in small titles, modifiers
 #8x8x8x8 Pad, 1x1 Space
 #No outline, added shadow in ps
-#Sitka Banner
+#Sitka Banner 
+
+tech #Used in vertical tech names
+#8x1x8x1 Pad, 1x1 Space
+#1 Outline, Rotated each letter
+#Sitka Banner 15px
 
 hoi_20b #Used in difficulty select
 #8x8x8x8 Pad, 1x1 Space

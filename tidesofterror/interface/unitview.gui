@@ -1498,7 +1498,7 @@ guiTypes = {
 			spriteType = "GFX_unitlist_movement_icon"
 			position = { x=103 y=4 }
 			frame = 1
-			rotation = -1.578=08
+			rotation = -1.57808
 		}
 
 		iconType = {
