@@ -7,8 +7,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 1531 8 } #"Rugeley"
+		victory_points = { 7401 20 } #"Stafford"
 	}
-	manpower=10000
+	manpower=22732
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

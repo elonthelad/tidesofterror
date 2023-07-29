@@ -7,8 +7,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 6422 16 } #"Darlington"
+		victory_points = { 6433 4 } #"Eaglescliffe"
 	}
-	manpower=10000
+	manpower=21109
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

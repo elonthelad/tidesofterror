@@ -8,9 +8,12 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 3100 3 } #"Knutsford"
+		victory_points = { 7029 4 } #"Wilmslow"
+		victory_points = { 4170 3 } #"Altrincham"
 	}
-	manpower=10000
+	manpower=8739
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

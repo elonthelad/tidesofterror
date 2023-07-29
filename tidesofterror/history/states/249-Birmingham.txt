@@ -8,8 +8,15 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 1425 18 } #"Marston Green"
+		victory_points = { 400 50 } #"Birmingham"
+		victory_points = { 1115 10 } #"Shirley"
+		victory_points = { 7619 18 } #"Moor Green"
+		victory_points = { 7633 15 } #"Northfield"
+		victory_points = { 7575 12 } #"Old Oscott"
+		victory_points = { 4005 10 } #"Erdington"
 	}
-	manpower=10000
+	manpower=179401
 	buildings_max_level_factor=1.000
 	state_category=urban_borough
 	local_supplies=0.000

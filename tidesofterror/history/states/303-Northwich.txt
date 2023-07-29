@@ -2,14 +2,16 @@ state={
 	id=303
 	name="STATE_303"
 	provinces={
-		369 1027 1913 2147 7113 7116 7133 7138 7145 7152 7175 
+		369 1027 1913 2147 3827 7113 7116 7133 7138 7145 7152 7175 
 	}
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 7145 5 } #"Winsford"
+		victory_points = { 3827 4 } #"Northwich"
 	}
-	manpower=10000
+	manpower=7720
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=pastoral
 	local_supplies=0.000
 }

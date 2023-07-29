@@ -1,4 +1,3 @@
-
 state={
 	id=363
 	name="STATE_363"
@@ -8,8 +7,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 6299 5 } #"Chester-le-Street"
+		victory_points = { 2080 4 } #"Stanley"
+		victory_points = { 6268 6 } #"Whickham"
 	}
-	manpower=10000
+	manpower=19083
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

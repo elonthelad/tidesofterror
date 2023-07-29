@@ -7,8 +7,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 91 6 } #"Durham"
+		victory_points = { 6322 3 } #"Hetton-le-Hole"
 	}
-	manpower=10000
+	manpower=15336
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

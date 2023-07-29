@@ -9,13 +9,12 @@
 10		South Yorkshire         628200
 11		Surrey                         537750 DONE
 12		Devon                         533700 DONE
-13		Hertfordshire             528300
+13		Hertfordshire             528300 DONE
 14		Nottinghamshire		425150 DONE
 15		North Yorkshire         523800
-16		Tyne & Wear              507600
-17		Staffordshire            506250
+17		Staffordshire            506250 DONE
 18		Lincolnshire             485550 DONE
-19		Cheshire                   478800
+19		Cheshire                   478800 DONE
 20	Derbyshire                477000 DONE
 21		Leicestershire            476100 DONE
 22	Middlesex                 461042 DONE
@@ -23,7 +22,7 @@
 23	Berkshire                   412200 DONE
 24	Gloucestershire         408150 DONE
 25	Norfolk                      402300 DONE
-26	Durham                     387000
+26	Durham                     387000 DONE
 27	West Sussex			   388350 DONE
 28	Cambridgeshire         380700 DONE
 29	East Sussex                379350 DONE
@@ -36,7 +35,7 @@
 36	Bedfordshire             293850 DONE
 37	East Riding                267300 DONE
 38	Worcestershire          265500 DONE
-39	Warwickshire            261450
+39	Warwickshire            261450 DONE
 40	Cornwall                    253800 DONE
 41		Cumbria                    225450
 42	Shropshire                 221400 DONE
@@ -61,6 +60,7 @@ state calculation-
 
 
 state_category value
+peaks * 0.27
 pastoral * 0.40
 small_town * 0.54
 large_town * 0.44

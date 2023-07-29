@@ -7,8 +7,12 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 4304 25 } #"Dudley"
+		victory_points = { 4188 14 } #"West Bromwich"
+		victory_points = { 4922 12 } #"Stourbridge"
+		victory_points = { 1574 12 } #"Coseley"
 	}
-	manpower=10000
+	manpower=103306
 	buildings_max_level_factor=1.000
 	state_category=urban_borough
 	local_supplies=0.000

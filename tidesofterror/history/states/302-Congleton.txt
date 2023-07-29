@@ -3,13 +3,15 @@ state={
 	id=302
 	name="STATE_302"
 	provinces={
-		242 2153 3785 4299 7137 7156 7169 7176 7190 
+		242 1505 2153 3785 4299 7137 7156 7169 7176 7190 
 	}
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 7169 4 } #"Sandbach"
+		victory_points = { 1505 5 } #"Congleton"
 	}
-	manpower=10000
+	manpower=6578
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -2,13 +2,14 @@ state={
 	id=304
 	name="STATE_304"
 	provinces={
-		969 1501 1505 2168 2572 4078 4952 7073 7095 7120 
+		969 1501 2168 2572 4078 4952 7073 7095 7120 
 	}
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 1501 4 } #"Macclesfield"
 	}
-	manpower=10000
+	manpower=5833
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -2,7 +2,7 @@ state={
 	id=396
 	name="STATE_396"
 	provinces={
-		780 3120 3267 4486 5175 6965 6982 7003 
+		780 3267 4486 5175 6965 6982 7003 
 	}
 	history={
 		owner = ENG

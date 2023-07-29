@@ -7,9 +7,15 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 6277 6 } #"Washington"
+		victory_points = { 6295 12 } #"Sunderland"
+		victory_points = { 2266 10 } #"Farringdon"
+		victory_points = { 6271 8 } #"Gateshead"
+		victory_points = { 6255 15 } #"Hebburn"
+		victory_points = { 4928 9 } #"Whitburn"
 	}
-	manpower=10000
+	manpower=66237
 	buildings_max_level_factor=1.000
-	state_category=great_city
+	state_category=city
 	local_supplies=0.000
 }

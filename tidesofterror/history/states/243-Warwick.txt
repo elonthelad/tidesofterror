@@ -7,8 +7,12 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 4907 5 } #"Kenilworth"
+		victory_points = { 2141 8 } #"Lillington"
+		victory_points = { 7748 8 } #"Royal Leamington Spa"
+		victory_points = { 7726 10 } #"Warwick"
 	}
-	manpower=10000
+	manpower=24676
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

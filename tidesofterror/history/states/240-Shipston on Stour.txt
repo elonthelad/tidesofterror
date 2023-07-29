@@ -7,8 +7,9 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 7878 3 } #"Shipston-on-Stour"
 	}
-	manpower=10000
+	manpower=3486
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

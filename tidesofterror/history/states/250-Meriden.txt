@@ -7,8 +7,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 7644 3 } #"Balsall Common"
+		victory_points = { 3437 2 } #"Arley"
 	}
-	manpower=10000
+	manpower=4580
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

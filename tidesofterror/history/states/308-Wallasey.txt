@@ -7,8 +7,12 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 7013 14 } #"Birkenhead"
+		victory_points = { 6989 10 } #"Wallasey"
+		victory_points = { 3709 8 } #"Moreton"
+		victory_points = { 5310 6 } #"Bebington"
 	}
-	manpower=10000
+	manpower=32801
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

@@ -6,13 +6,15 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
-
+		victory_points = { 2422 2 } #"Barnard Castle"
+		victory_points = { 4146 1 } #"Eggleston"
+		victory_points = { 4914 4 } #"St. Helen Auckland"
 	}
 
 	provinces={
 		547 1554 2422 3038 4146 4514 4914 5025 5276 6376 6387 
 	}
-	manpower=10000
+	manpower=3701
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

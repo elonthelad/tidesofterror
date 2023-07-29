@@ -8,8 +8,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 716 7 } #"Crewe"
+		victory_points = { 3636 2 } #"Bunbury"
 	}
-	manpower=10000
+	manpower=10422
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000
