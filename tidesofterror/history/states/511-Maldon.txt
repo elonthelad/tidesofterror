@@ -12,8 +12,8 @@ state={
 		victory_points = { 2400 8 } #"Woodham Ferrers"
 		victory_points = { 8050 3 } #"Tiptree"
 	}
-	manpower=36902
+	manpower=7902
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=pastoral
 	local_supplies=0.000
 }

@@ -11,7 +11,7 @@ state={
 		victory_points = { 5231 8 } #"Ashton Clinton"
 		victory_points = { 8070 4 } #"Haddenham"
 	}
-	manpower=35083
+	manpower=25083
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

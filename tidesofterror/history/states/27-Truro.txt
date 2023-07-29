@@ -8,10 +8,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
-		victory_points = { 5419 15 } #"Newquay"
-		victory_points = { 1870 20 } #"Truro"
+		victory_points = { 5419 10 } #"Newquay"
+		victory_points = { 1870 12 } #"Truro"
 	}
-	manpower=19338
+	manpower=9338
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

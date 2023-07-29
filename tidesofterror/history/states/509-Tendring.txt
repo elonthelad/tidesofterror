@@ -11,7 +11,7 @@ state={
 		victory_points = { 7991 10 } #"Walton-on-the-Naze"
 		victory_points = { 4966 5 } #"Harwich"
 	}
-	manpower=46966
+	manpower=18966
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

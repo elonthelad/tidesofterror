@@ -11,7 +11,7 @@ state={
 		victory_points = { 8304 12 } #"Ramsgate"
 		victory_points = { 5013 8 } #"Deal"
 	}
-	manpower=53623
+	manpower=16623
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

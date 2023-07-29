@@ -7,12 +7,12 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
-		victory_points = { 3491 15 } #"Topsham"
+		victory_points = { 3491 12 } #"Topsham"
 		victory_points = { 5259 25 } #"Exeter"
-		victory_points = { 8548 15 } #"Wonford"
-		victory_points = { 8540 10 } #"Pinhoe"
+		victory_points = { 8548 14 } #"Wonford"
+		victory_points = { 8540 6 } #"Pinhoe"
 	}
-	manpower=87133
+	manpower=77133
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

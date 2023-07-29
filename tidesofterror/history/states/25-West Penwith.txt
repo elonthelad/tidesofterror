@@ -7,10 +7,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
-		victory_points = { 4091 10 } #"Penzance"
-		victory_points = { 3350 5 } #"St. Ives"
+		victory_points = { 4091 8 } #"Penzance"
+		victory_points = { 3350 4 } #"St. Ives"
 	}
-	manpower=7243
+	manpower=5243
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

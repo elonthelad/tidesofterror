@@ -9,9 +9,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 8496 6 } #"Crewkerne"
-		victory_points = { 285 8 } #"Beaminster"
+		victory_points = { 285 4 } #"Beaminster"
 	}
-	manpower=18752
+	manpower=5752
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

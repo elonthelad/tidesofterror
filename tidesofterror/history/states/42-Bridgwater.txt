@@ -8,11 +8,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
-		victory_points = { 4968 20 } #"Bridgwater"
-		victory_points = { 3730 15 } #"East Bower"
+		victory_points = { 4968 16 } #"Bridgwater"
+		victory_points = { 3730 14 } #"East Bower"
 	}
-	manpower=66712
+	manpower=26712
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=small_town
 	local_supplies=0.000
 }

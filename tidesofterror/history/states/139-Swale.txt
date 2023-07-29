@@ -10,7 +10,7 @@ state={
 		victory_points = { 8302 20 } #"Sittingbourne"
 		victory_points = { 8322 10 } #"Faversham"
 	}
-	manpower=69491
+	manpower=21491
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

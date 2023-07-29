@@ -12,7 +12,7 @@ state={
 		victory_points = { 8542 3 } #"Ottery St. Mary"
 		victory_points = { 2505 3 } #"Sidmouth"
 	}
-	manpower=22752
+	manpower=11752
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

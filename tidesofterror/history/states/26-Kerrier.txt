@@ -7,8 +7,8 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
-		victory_points = { 8614 5 } #"Lizard"
-		victory_points = { 8612 5 } #"Falmouth"
+		victory_points = { 8614 2 } #"Lizard"
+		victory_points = { 8612 6 } #"Falmouth"
 		victory_points = { 1858 20 } #"Redruth"
 	}
 	manpower=12486

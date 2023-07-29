@@ -7,9 +7,9 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
-		victory_points = { 29 15 } #"Salisbury"
+		victory_points = { 29 10 } #"Salisbury"
 	}
-	manpower=25201
+	manpower=6201
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

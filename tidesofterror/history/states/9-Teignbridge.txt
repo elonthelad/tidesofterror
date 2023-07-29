@@ -13,7 +13,7 @@ state={
 		victory_points = { 8585 3 } #"Teignmouth"
 		victory_points = { 4234 3 } #"Dawlish"
 	}
-	manpower=31853
+	manpower=11853
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

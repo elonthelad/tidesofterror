@@ -8,11 +8,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
-		victory_points = { 4705 8 } #"Minehead"
+		victory_points = { 4705 4 } #"Minehead"
 		victory_points = { 3524 3 } #"Watchet"
 	}
-	manpower=22049
+	manpower=5049
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=pastoral
 	local_supplies=0.000
 }

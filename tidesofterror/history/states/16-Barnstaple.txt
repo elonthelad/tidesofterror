@@ -8,11 +8,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
-		victory_points = { 234 10 } #"Barnstaple"
-		victory_points = { 8391 6 } #"Braunton"
-		victory_points = { 1769 6 } #"Ilfracombe"
+		victory_points = { 234 7 } #"Barnstaple"
+		victory_points = { 8391 5 } #"Braunton"
+		victory_points = { 1769 4 } #"Ilfracombe"
 	}
-	manpower=34887
+	manpower=9887
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

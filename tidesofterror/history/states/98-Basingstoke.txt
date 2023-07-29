@@ -10,8 +10,8 @@ state={
 		victory_points = { 4964 18 } #"Kempshott"
 		victory_points = { 8347 20 } #"Basingstoke"
 	}
-	manpower=89382
+	manpower=59382
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=city
 	local_supplies=0.000
 }

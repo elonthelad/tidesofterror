@@ -8,9 +8,9 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
-		victory_points = { 4600 15 } #"Glastonbury"
+		victory_points = { 4600 12 } #"Glastonbury"
 	}
-	manpower=19109
+	manpower=9609
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

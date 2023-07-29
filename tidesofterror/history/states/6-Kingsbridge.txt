@@ -8,11 +8,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
-		victory_points = { 2336 3 } #"Salcombe"
-		victory_points = { 8609 5 } #"Kingsbridge"
-		victory_points = { 8603 3 } #"Dartmouth"
+		victory_points = { 2336 2 } #"Salcombe"
+		victory_points = { 8609 3 } #"Kingsbridge"
+		victory_points = { 8603 4 } #"Dartmouth"
 	}
-	manpower=18201
+	manpower=4201
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

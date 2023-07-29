@@ -10,12 +10,12 @@ state={
 		add_core_of = ENG
 		victory_points = { 8218 15 } #"Shirehampton"
 		victory_points = { 8219 18 } #"Clifton"
-		victory_points = { 8242 35 } #"Bristol"
+		victory_points = { 8242 30 } #"Bristol"
 		victory_points = { 8228 18 } #"Bishopston"
 		victory_points = { 8225 12 } #"Kingswood"
 	}
-	manpower=104692
+	manpower=84692
 	buildings_max_level_factor=1.000
-	state_category=great_city
+	state_category=city
 	local_supplies=0.000
 }

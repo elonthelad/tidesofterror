@@ -7,10 +7,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
-		victory_points = { 5506 10 } #"Launceston"
-		victory_points = { 8569 3 } #"Bolventor"
+		victory_points = { 5506 4 } #"Launceston"
+		victory_points = { 8569 2 } #"Bolventor"
 	}
-	manpower=14212
+	manpower=5212
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

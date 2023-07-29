@@ -8,7 +8,7 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
-		victory_points = { 649 5 } #"Holsworthy"
+		victory_points = { 649 4 } #"Holsworthy"
 	}
 	manpower=4241
 	buildings_max_level_factor=1.000
