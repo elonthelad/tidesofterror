@@ -23,21 +23,25 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "countrytechtreeview"
-		position = { x=-3 y=78 }
-		size = { width = 100%% height = 100%% }
+		position = { x=-3 y=60 }
+		size = { width = 550 height = 100%% }
 		fade_time = 400
 		fade_type = linear
+		clipping = no
 
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_tiled_plain_bg2"
+			quadTextureSprite ="GFX_tiled_plain_bg"
+			size = { width = 550 height = 100%% }
+			position = { x=-2 y=1 }
+			alwaystransparent = yes
 		}
 
 		containerWindowType = {
 			name = "infantry_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
-			margin = { top = 13 left = 13 bottom = 13 right = 25}
+			margin = { top = 8 left = 13 bottom = 13 right = 25}
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
@@ -60,64 +64,53 @@ guiTypes = {
 				iconType = {
 					name ="infantry_techtree_bg"
 					spriteType = "GFX_infantry_techtree_bg"
-					position = { x=0 y=0 }
+					position = { x=-60 y=0 }
 					alwaystransparent = yes
 				}
 			}
 
 			gridboxtype = {
-				name = "tech_infantry_weapons_tree"
-				position = { x = 140 y = 100 }
+				name = "inftech_truncheon_tree"
+				position = { x = 90 y = 120 }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "inftech_sniderenfield_tree"
+				position = { x = 440 y = 120 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
 
 			}
 
 			gridboxtype = {
-				name = "tech_police_weapons_tree"
-				position = { x = 140 y = 155 }
+				name = "inftech_officerssword_tree"
+				position = { x = 840 y = 120 }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-
+				format = "UP"
 			}
 
 			gridboxtype = {
-				name = "tech_bayonets_tree"
-				position = { x = 140 y = 100 }
+				name = "inftech_woolclothfulldress_tree"
+				position = { x = 1280 y = 120 }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-
+				format = "UP"
 			}
 
-			gridboxtype = {
-				name = "tech_inf_armour1_tree"
-				position = { x = 140 y = 100 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-
-			}
-
-			gridboxtype = {
-				name = "tech_melee_weapons_tree"
-				position = { x = 140 y = 100 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-
-			}
-
-			gridboxtype = {
-				name = "tech_redcoats_tree"
-				position = { x = 140 y = 525 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
-				name = "tech_misers_infantry_tree"
-				position = { x = 140 y = 525 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
+			#gridboxtype = {
+			#	name = "tech_redcoats_tree"
+			#	position = { x = 840 y = 0 }
+			#	slotsize = { width = 70 height = 70 }
+			#	format = "UP"
+			#}
+			#
+			#gridboxtype = {
+			#	name = "tech_misers_infantry_tree"
+			#	position = { x = 840 y = 0 }	
+			#	slotsize = { width = 70 height = 70 }
+			#	format = "UP"
+			#}
 		}
 
 		containerWindowType = {
@@ -2291,30 +2284,23 @@ guiTypes = {
 
 			buttonType = {
 				name = "infantry_folder_tab"
-				position = { x = 22 y = 0 }
+				position = { x = 0 y = 0 }
 				quadTextureSprite = "GFX_infantry_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_infantry
 			}
 
-			iconType = {
-				name = "highlight_infantry_folder"
-				spriteType = "GFX_tutorial_research_folder_icon_glow"
-				position = { x=22 y=-5}
-				hide = yes
-				alwaystransparent = yes
-			}
-
 			buttonType = {
 				name = "support_folder_tab"
-				position = { x = 111 y = 0 }
+				position = { x = 80 y = 0 }
 				quadTextureSprite = "GFX_support_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_support
 			}
+			
 			buttonType = {
 				name = "armour_folder_tab"
-				position = { x = 200 y = 0 }
+				position = { x = 160 y = 0 }
 				quadTextureSprite = "GFX_armour_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_armor
@@ -2322,7 +2308,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "nsb_armour_folder_tab"
-				position = { x = 200 y = 0 }
+				position = { x = 160 y = 0 }
 				quadTextureSprite = "GFX_armour_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_armor
@@ -2330,7 +2316,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "artillery_folder_tab"
-				position = { x = 289 y = 0 }
+				position = { x = 240 y = 0 }
 				quadTextureSprite = "GFX_artillery_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_artillery
@@ -2338,21 +2324,21 @@ guiTypes = {
 
 			buttonType = {
 				name = "naval_folder_tab"
-				position = { x = 378 y = 0 }
+				position = { x = 320 y = 0 }
 				quadTextureSprite = "GFX_naval_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_naval
 			}
 			buttonType = {
 				name = "mtgnavalfolder_tab"
-				position = { x = 378 y = 0 }
+				position = { x = 320 y = 0 }
 				quadTextureSprite = "GFX_naval_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_naval
 			}
 			buttonType = {
 				name = "mtgnavalsupportfolder_tab"
-				position = { x = 467 y = 0 }
+				position = { x = 400 y = 0 }
 				quadTextureSprite = "GFX_naval_support_tab"
 				frame = 1
 				clicksound = ui_research_tab_naval
@@ -2666,7 +2652,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "techtree_infantry_folder_small_item"
-		position = { x=-10 y=-12 }
+		position = { x=2 y=-30 }
 		size = { width = 90 height = 98 }
 		clipping = no
 
@@ -2684,13 +2670,13 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = -54 y = -24 }
+			position = { x = 69 y = -12 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "vertical_techtree"
 			borderSize = {x = 0 y = 0}
 			text = "Unknown Tech"
-			maxWidth = 200
-			maxHeight = 20
+			maxWidth = 2
+			maxHeight = 200
 			fixedsize = yes
 			format = center
 		}
@@ -2716,54 +2702,52 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "techtree_infantry_folder_item"
-		position = { x=-69 y=-23 }
-		size = { width = 207 height = 116 }
+		position = { x=-10 y=-75 }
+		size = { width = 90 height = 98 }
 		clipping = no
 
 		background = {
-			name = "Background"
+			name = "bg"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
 		}
 
 		iconType = {
 			name = "Icon"
-			position = { x=105 y=67 }
+			position = { x=20 y=24 }
 			spriteType = "GFX_technology_medium"
-			centerposition = yes
 			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = 20 y = 13 }
+			position = { x = 104 y = -12 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "vertical_techtree"
 			borderSize = {x = 0 y = 0}
 			text = "Unknown Tech"
-			maxWidth = 166
-			maxHeight = 20
+			maxWidth = 2
+			maxHeight = 240
 			fixedsize = yes
 			format = center
 		}
-
+		
 		iconType = {
 			name = "bonus_icon"
-			position = { x=111 y=-22 }
+			position = { x=3 y=-14 }
 			spriteType = "GFX_tech_bonus"
 		}
 
 		instantTextBoxType = {
 			name = "bonus"
-			position = { x = 111 y = -22 }
+			position = { x = 19 y = -10 }
 			textureFile = ""
 			font = "hoi_16mbs"
-			borderSize = {x = 4 y = 4}
+			borderSize = {x = 0 y = 0}
 			text = "lol boat"
-			maxWidth = 80
+			maxWidth = 55
 			maxHeight = 20
-			format = center
+			format = right
 		}
-
 
 		containerWindowType = {
 			name = "sub_technology_slot_0"
@@ -2783,6 +2767,7 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
+		
 		containerWindowType = {
 			name = "sub_technology_slot_1"
 			position = { x=141 y=1 }
@@ -2801,7 +2786,6 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
-
 	}
 
 	containerWindowType = {
@@ -3517,6 +3501,7 @@ guiTypes = {
 			format = center
 		}
 	}
+
 	containerWindowType = {
 		name = "techtree_mtgnavalfolder_small_item"
 		position = { x=0 y=5 }
@@ -4583,7 +4568,6 @@ guiTypes = {
 			format = center
 		}
 	}
-
 
 	containerWindowType = {
 		name = "padding_window"

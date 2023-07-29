@@ -2,9 +2,9 @@ technologies = {
 	
 	tech_shaft_mining = {
 
-		add_dynamic_modifier = {
-			modifier = boostmined10
-		}
+		#add_dynamic_modifier = {
+		#	modifier = boostmined10
+		#}
 
 		on_research_complete = {
 			custom_effect_tooltip = customtooltip_shaftmining

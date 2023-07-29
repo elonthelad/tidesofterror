@@ -12,7 +12,172 @@ technologies = {
 	@1945 = 18
 	@1946 = 20
 
-	tech_infantry_weapons = {
+	
+
+	inftech_truncheon = {
+
+		enable_equipments = {
+			police_weapons1
+			daddy_long_legs_frame_0 #Temporarily here while testing armour creator
+		}
+		
+		enable_equipment_modules = { #Temporarily here while testing armour creator
+			tank_light_one_man_tank_turret
+			tank_bogie_suspension
+			tank_riveted_armor
+			tank_gasoline_engine
+			light_mg_2x
+			light_mg_4x
+			highpreslev_hydrogen
+			lmg_defense_turret
+			lmg_defense_turret_2x
+			
+			medium_handcannon
+			medium_javelincannon
+			medium_firebombs
+			medium_machinegun
+			medium_extraarmour
+			medium_amplesupplies: 
+			medium_recontelescope
+			
+			frame_steel
+			frame_aluminium
+			frame_oak_beams
+			frame_pine_truss
+
+			manganese_infused_steel_panel
+			steel_panel
+			aluminium_panel
+			canvas
+			wooden_panels
+			
+			high_quality
+			factory_finish
+			smaller_build
+			hasty_construction
+			
+		}
+		
+		enable_subunits = {
+			constables
+		}
+		
+		path = {
+			leads_to_tech = inftech_beaumontadamsrevolver
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1868
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inftech_beaumontadamsrevolver = { 
+
+		enable_equipments = {
+			police_weapons2
+		}
+		
+		dependencies = {
+   			inftech_truncheon = 1
+   			inftech_percussioncap = 1
+		}
+		
+		path = {
+			leads_to_tech = inftech_righteousrevolver
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = inftech_covviekiller
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1870
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inftech_righteousrevolver = {
+
+		enable_equipments = {
+			police_weapons3
+		}	
+
+		XOR = {
+			inftech_covviekiller
+		}	
+
+		research_cost = 1.5
+		start_year = 1872
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inftech_covviekiller = {
+
+		enable_equipments = {
+			police_weapons4
+		}
+		
+		dependencies = {
+   			inftech_beaumontadamsrevolver = 1
+   			inftech_mercurialpayload = 1
+		}
+
+		XOR = {
+			inftech_righteousrevolver
+		}	
+
+		research_cost = 1.5
+		start_year = 1872
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 13 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inftech_sniderenfield = {
 
 		enable_equipments = {
 			infantry_weapons1
@@ -23,15 +188,107 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = tech_infantry_weapons1
+			leads_to_tech = inftech_martinihenry
 			research_cost_coeff = 1
-		}		
+		}
+		
+		path = {
+			leads_to_tech = inftech_percussioncap
+			research_cost_coeff = 1
+		}	
 
 		research_cost = 1.5
 		start_year = 1868
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = 0 }
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inftech_percussioncap = {
+		
+		path = {
+			leads_to_tech = inftech_integratedcartridges
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1868
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = 1 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inftech_integratedcartridges = {
+		
+		path = {
+			leads_to_tech = inftech_slagrounds
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.5
+		start_year = 1868
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = 5 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inftech_slagrounds = {
+		
+		path = {
+			leads_to_tech = inftech_mercurialpayload
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.5
+		start_year = 1868
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inftech_mercurialpayload = {
+
+		research_cost = 1.5
+		start_year = 1868
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = 10 }
 		}
 		
 		categories = {
@@ -43,22 +300,27 @@ technologies = {
 		}
 	}
 	
-	tech_infantry_weapons1 = {
+	inftech_martinihenry = {
 
 		enable_equipments = {
 			infantry_weapons2
 		}
 				
 		path = {
-			leads_to_tech = tech_infantry_weapons2
+			leads_to_tech = inftech_leveractionwinchester
 			research_cost_coeff = 1
-		}		
+		}
+				
+		path = {
+			leads_to_tech = inftech_magazineloading
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 1870
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = 4 }
+			position = { x = 0 y = 4 }
 		}
 		
 		categories = {
@@ -68,17 +330,48 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-	}	
-	
-	tech_infantry_weapons2 = {
+	}
+
+	inftech_magazineloading = {
 		
 		path = {
-			leads_to_tech = tech_infantry_weapons3
+			leads_to_tech = inftech_leematford
 			research_cost_coeff = 1
-		}		
+		}	
 
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 1868
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 5 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	inftech_leematford = {	
+
+		XOR = {
+			inftech_leveractionwinchester
+		}	
+
+		enable_equipments = {
+			infantry_weapons3
+		}
+		
+		path = {
+			leads_to_tech = inftech_salvationrifle
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.5
+		start_year = 1874
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = 8 }
@@ -93,22 +386,70 @@ technologies = {
 		}
 	}
 	
-	tech_infantry_weapons3 = {
+	inftech_salvationrifle = {
 
 		enable_equipments = {
-			infantry_weapons3
+			infantry_weapons4
+		}
+
+		research_cost = 2.2
+		start_year = 1876
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 14 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	inftech_leveractionwinchester = {
+
+		XOR = {
+			inftech_leematford
+		}	
+
+		enable_equipments = {
+			infantry_weapons5
 		}
 		
 		path = {
-			leads_to_tech = tech_infantry_weapons4
+			leads_to_tech = inftech_winchestertrenchgun
 			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.5
+		start_year = 1873
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	inftech_winchestertrenchgun = {
+
+		enable_equipments = {
+			infantry_weapons6
 		}
 
 		research_cost = 2
-		start_year = 1939
+		start_year = 1875
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = 12 }
+			position = { x = 0 y = 12 }
 		}
 		
 		categories = {
@@ -119,45 +460,60 @@ technologies = {
 			factor = 3
 		}
 	}
-	
-	tech_infantry_weapons4 = {
+
+	inftech_officerssword = {
 
 		enable_equipments = {
-			infantry_weapons4
+			melee_weapons1
+		}
+		
+		path = {
+			leads_to_tech = inftech_officersclaymore
+			research_cost_coeff = 1
+		}		
+	
+		research_cost = 1.5
+		start_year = 1868
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inftech_officersclaymore = {
+
+		enable_equipments = {
+			melee_weapons2
+		}
+		
+		path = {
+			leads_to_tech = inftech_temperedblades
+			research_cost_coeff = 1
 		}	
 		
 		path = {
-			leads_to_tech = tech_infantry_weapons5
+			leads_to_tech = inftech_serrationedge
 			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1942
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = 17 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 0.8
-		}
-	}
-	
-	tech_infantry_weapons5 = {
-
-		enable_equipments = {
-			infantry_weapons5
 		}	
-
+		
+		path = {
+			leads_to_tech = inftech_halfpikeshield
+			research_cost_coeff = 1
+		}		
+	
 		research_cost = 1.5
-		start_year = 1944
+		start_year = 1870
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = 22 }
+			position = { x = 0 y = 4 }
 		}
 		
 		categories = {
@@ -169,26 +525,63 @@ technologies = {
 		}
 	}
 
-	tech_police_weapons = {
+	inftech_temperedblades = {
+	
+		research_cost = 1
+		start_year = 1871
+		folder = {
+			name = infantry_folder
+			position = { x = -2 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inftech_serrationedge = {
+	
+		research_cost = 1
+		start_year = 1871
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inftech_halfpikeshield = {
 
 		enable_equipments = {
-			police_weapons1
-		}
-		
-		enable_subunits = {
-			constables
+			melee_weapons3
 		}
 		
 		path = {
-			leads_to_tech = tech_police_weapons1
+			leads_to_tech = inftech_pallisadegun
+			research_cost_coeff = 1
+		}	
+		
+		path = {
+			leads_to_tech = inftech_righteousspeargreatshield
 			research_cost_coeff = 1
 		}		
-
+	
 		research_cost = 1.5
-		start_year = 1868
+		start_year = 1872
 		folder = {
 			name = infantry_folder
-			position = { x = -1 y = 2 }
+			position = { x = 0 y = 9 }
 		}
 		
 		categories = {
@@ -200,63 +593,47 @@ technologies = {
 		}
 	}
 
-	tech_police_weapons1 = {
-		
-		path = {
-			leads_to_tech = tech_police_weapons2
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1868
-		folder = {
-			name = infantry_folder
-			position = { x = -1 y = 6 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	tech_police_weapons2 = {
-		
-		path = {
-			leads_to_tech = tech_police_weapons3
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1868
-		folder = {
-			name = infantry_folder
-			position = { x = -1 y = 12 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	tech_police_weapons3 = {
+	inftech_pallisadegun = {
 
 		enable_equipments = {
-			police_weapons2
+			melee_weapons4
 		}
 
+		XOR = {
+			inftech_righteousspeargreatshield
+		}	
+	
 		research_cost = 1.5
-		start_year = 1868
+		start_year = 1875
 		folder = {
 			name = infantry_folder
-			position = { x = -1 y = 16 }
+			position = { x = -2 y = 12 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inftech_righteousspeargreatshield = {
+
+		enable_equipments = {
+			melee_weapons5
+		}
+
+		XOR = {
+			inftech_pallisadegun
+		}	
+	
+		research_cost = 1.5
+		start_year = 1875
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 12 }
 		}
 		
 		categories = {
@@ -268,115 +645,115 @@ technologies = {
 		}
 	}
 	
-	tech_bayonets = {
-		
-		path = {
-			leads_to_tech = tech_bayonets1
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1868
-		folder = {
-			name = infantry_folder
-			position = { x = 8 y = 0 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_bayonets1 = {
-		
-		path = {
-			leads_to_tech = tech_bayonets2
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1868
-		folder = {
-			name = infantry_folder
-			position = { x = 8 y = 4 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_bayonets2 = {
-		
-		path = {
-			leads_to_tech = tech_bayonets3
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1868
-		folder = {
-			name = infantry_folder
-			position = { x = 8 y = 8 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_bayonets3 = {
-		
-		path = {
-			leads_to_tech = tech_bayonets4
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1868
-		folder = {
-			name = infantry_folder
-			position = { x = 8 y = 14 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_bayonets4 = {
-
-		research_cost = 1.5
-		start_year = 1868
-		folder = {
-			name = infantry_folder
-			position = { x = 8 y = 20 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	#tech_bayonets = {
+	#	
+	#	path = {
+	#		leads_to_tech = tech_bayonets1
+	#		research_cost_coeff = 1
+	#	}		
+	#
+	#	research_cost = 1.5
+	#	start_year = 1868
+	#	folder = {
+	#		name = infantry_folder
+	#		position = { x = 8 y = 0 }
+	#	}
+	#	
+	#	categories = {
+	#		infantry_weapons
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	#
+	#tech_bayonets1 = {
+	#	
+	#	path = {
+	#		leads_to_tech = tech_bayonets2
+	#		research_cost_coeff = 1
+	#	}		
+	#
+	#	research_cost = 1.5
+	#	start_year = 1868
+	#	folder = {
+	#		name = infantry_folder
+	#		position = { x = 8 y = 4 }
+	#	}
+	#	
+	#	categories = {
+	#		infantry_weapons
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	#
+	#tech_bayonets2 = {
+	#	
+	#	path = {
+	#		leads_to_tech = tech_bayonets3
+	#		research_cost_coeff = 1
+	#	}		
+	#
+	#	research_cost = 1.5
+	#	start_year = 1868
+	#	folder = {
+	#		name = infantry_folder
+	#		position = { x = 8 y = 8 }
+	#	}
+	#	
+	#	categories = {
+	#		infantry_weapons
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	#
+	#tech_bayonets3 = {
+	#	
+	#	path = {
+	#		leads_to_tech = tech_bayonets4
+	#		research_cost_coeff = 1
+	#	}		
+	#
+	#	research_cost = 1.5
+	#	start_year = 1868
+	#	folder = {
+	#		name = infantry_folder
+	#		position = { x = 8 y = 14 }
+	#	}
+	#	
+	#	categories = {
+	#		infantry_weapons
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	#
+	#tech_bayonets4 = {
+	#
+	#	research_cost = 1.5
+	#	start_year = 1868
+	#	folder = {
+	#		name = infantry_folder
+	#		position = { x = 8 y = 20 }
+	#	}
+	#	
+	#	categories = {
+	#		infantry_weapons
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
 
 	tech_melee_weapons = {
 
@@ -485,10 +862,38 @@ technologies = {
 		}
 	}
 
-	tech_inf_armour1 = {
+	inftech_woolclothfulldress = {
 		
 		path = {
-			leads_to_tech = tech_inf_armour2
+			leads_to_tech = inftech_lightchainmail
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = inftech_leatherbrinie
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1868
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inftech_lightchainmail = {
+		
+		path = {
+			leads_to_tech = inftech_armourhardening
 			research_cost_coeff = 1
 		}		
 
@@ -496,7 +901,7 @@ technologies = {
 		start_year = 1868
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = 1 }
+			position = { x = -2 y = 4 }
 		}
 		
 		categories = {
@@ -508,33 +913,10 @@ technologies = {
 		}
 	}
 
-	tech_inf_armour2 = {
+	inftech_armourhardening = {
 		
 		path = {
-			leads_to_tech = tech_inf_armour3
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1868
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = 5 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	tech_inf_armour3 = {
-		
-		path = {
-			leads_to_tech = tech_inf_armour4
+			leads_to_tech = inftech_mgalloyplate
 			research_cost_coeff = 1
 		}
 
@@ -542,7 +924,7 @@ technologies = {
 		start_year = 1868
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = 10 }
+			position = { x = -2 y = 8 }
 		}
 		
 		categories = {
@@ -554,7 +936,7 @@ technologies = {
 		}
 	}
 
-	tech_inf_armour4 = {
+	inftech_mgalloyplate = {
 		
 		path = {
 			leads_to_tech = tech_inf_armour5
@@ -565,7 +947,7 @@ technologies = {
 		start_year = 1868
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = 14 }
+			position = { x = -2 y = 13 }
 		}
 		
 		categories = {
@@ -577,10 +959,10 @@ technologies = {
 		}
 	}
 
-	tech_inf_armour5 = {
+	inftech_leatherbrinie = {
 		
 		path = {
-			leads_to_tech = tech_inf_armour6
+			leads_to_tech = inftech_leatherovercoat
 			research_cost_coeff = 1
 		}	
 
@@ -588,7 +970,7 @@ technologies = {
 		start_year = 1868
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = 19 }
+			position = { x = 2 y = 4 }
 		}
 		
 		categories = {
@@ -600,13 +982,36 @@ technologies = {
 		}
 	}
 
-	tech_inf_armour6 = {
+	inftech_leatherovercoat = {
+		
+		path = {
+			leads_to_tech = inftech_rangegreatcoat
+			research_cost_coeff = 1
+		}	
 
 		research_cost = 2
 		start_year = 1868
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = 22 }
+			position = { x = 2 y = 8 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inftech_rangegreatcoat = {
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 13 }
 		}
 		
 		categories = {
@@ -618,329 +1023,329 @@ technologies = {
 		}
 	}
 	
-	tech_redcoats = {
-		
-		path = {
-			leads_to_tech = tech_fusiliers
-			research_cost_coeff = 1
-		}
-		
-		enable_subunits = {
-			redcoats
-		}
-
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 5 y = 0 }
-		}
-		
-		categories = {
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_fusiliers = {
-		
-		path = {
-			leads_to_tech = tech_hussars
-			research_cost_coeff = 1
-		}
-		
-		enable_subunits = {
-			fusiliers
-		}
-		
-		path = {
-			leads_to_tech = tech_die_hards
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 5 y = 7 }
-		}
-		
-		categories = {
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_die_hards = {
-		
-		dependencies = {
-			tech_melee_weapons = 1
-		}
-		
-		enable_subunits = {
-			diehards
-		}
-
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 6 y = 13 }
-		}
-		
-		categories = {
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_hussars = {
-		
-		path = {
-			leads_to_tech = tech_cannon_cavalry
-			research_cost_coeff = 1
-		}
-		
-		dependencies = {
-			tech_melee_weapons = 1
-		}
-		
-		enable_subunits = {
-			hussar_cavalry
-		}
-
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = 13 }
-		}
-		
-		categories = {
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_cannon_cavalry = {
-		
-		dependencies = {
-			tech_melee_weapons = 1
-			handcannon = 1
-		}
-		
-		enable_subunits = {
-			cannon_cavalry
-		}
-
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = 16 }
-		}
-		
-		categories = {
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_misers_infantry = {
-		
-		path = {
-			leads_to_tech = tech_dragoon
-			research_cost_coeff = 1
-		}
-		
-		path = {
-			leads_to_tech = tech_militia
-			research_cost_coeff = 1
-		}
-		
-		enable_subunits = {
-			misers_infantry
-		}
-
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 9 y = 3 }
-		}
-		
-		categories = {
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_dragoon = {
-		
-		dependencies = {
-			tech_melee_weapons = 1
-		}
-		
-		path = {
-			leads_to_tech = tech_yeomanry
-			research_cost_coeff = 1
-		}
-		
-		enable_subunits = {
-			dragoon_cavalry
-		}
-
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 8 y = 8 }
-		}
-		
-		categories = {
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_yeomanry = {
-		
-		dependencies = {
-			tech_melee_weapons = 1
-			tech_militia = 1
-		}
-		
-		enable_subunits = {
-			yeomanry_cavalry
-		}
-
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 9 y = 12 }
-		}
-		
-		categories = {
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_militia = {
-		
-		dependencies = {
-			tech_melee_weapons = 1
-		}
-		
-		path = {
-			leads_to_tech = tech_yeomanry
-			research_cost_coeff = 1
-		}
-		
-		path = {
-			leads_to_tech = tech_convict
-			research_cost_coeff = 1
-		}
-		
-		enable_subunits = {
-			militia_infantry
-		}
-
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 10 y = 8 }
-		}
-		
-		categories = {
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_convict = {
-		
-		dependencies = {
-			tech_melee_weapons = 1
-		}
-		
-		path = {
-			leads_to_tech = tech_disorderlies
-			research_cost_coeff = 1
-		}
-		
-		enable_subunits = {
-			convict_infantry
-		}
-
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 12 y = 12 }
-		}
-		
-		categories = {
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_disorderlies = {
-		
-		dependencies = {
-			tech_melee_weapons = 1
-		}
-		
-		enable_subunits = {
-			disorderly_infantry
-		}
-
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 12 y = 15 }
-		}
-		
-		categories = {
-			cat_special_forces_generic
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	#tech_redcoats = {
+	#	
+	#	path = {
+	#		leads_to_tech = tech_fusiliers
+	#		research_cost_coeff = 1
+	#	}
+	#	
+	#	enable_subunits = {
+	#		redcoats
+	#	}
+	#
+	#	research_cost = 2
+	#	start_year = 1936
+	#	folder = {
+	#		name = infantry_folder
+	#		position = { x = 5 y = 0 }
+	#	}
+	#	
+	#	categories = {
+	#		cat_special_forces_generic
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	#
+	#tech_fusiliers = {
+	#	
+	#	path = {
+	#		leads_to_tech = tech_hussars
+	#		research_cost_coeff = 1
+	#	}
+	#	
+	#	enable_subunits = {
+	#		fusiliers
+	#	}
+	#	
+	#	path = {
+	#		leads_to_tech = tech_die_hards
+	#		research_cost_coeff = 1
+	#	}
+	#
+	#	research_cost = 2
+	#	start_year = 1936
+	#	folder = {
+	#		name = infantry_folder
+	#		position = { x = 5 y = 7 }
+	#	}
+	#	
+	#	categories = {
+	#		cat_special_forces_generic
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	#
+	#tech_die_hards = {
+	#	
+	#	dependencies = {
+	#		tech_melee_weapons = 1
+	#	}
+	#	
+	#	enable_subunits = {
+	#		diehards
+	#	}
+	#
+	#	research_cost = 2
+	#	start_year = 1936
+	#	folder = {
+	#		name = infantry_folder
+	#		position = { x = 6 y = 13 }
+	#	}
+	#	
+	#	categories = {
+	#		cat_special_forces_generic
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	#
+	#tech_hussars = {
+	#	
+	#	path = {
+	#		leads_to_tech = tech_cannon_cavalry
+	#		research_cost_coeff = 1
+	#	}
+	#	
+	#	dependencies = {
+	#		tech_melee_weapons = 1
+	#	}
+	#	
+	#	enable_subunits = {
+	#		hussar_cavalry
+	#	}
+	#
+	#	research_cost = 2
+	#	start_year = 1936
+	#	folder = {
+	#		name = infantry_folder
+	#		position = { x = 4 y = 13 }
+	#	}
+	#	
+	#	categories = {
+	#		cat_special_forces_generic
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	#
+	#tech_cannon_cavalry = {
+	#	
+	#	dependencies = {
+	#		tech_melee_weapons = 1
+	#		handcannon = 1
+	#	}
+	#	
+	#	enable_subunits = {
+	#		cannon_cavalry
+	#	}
+	#
+	#	research_cost = 2
+	#	start_year = 1936
+	#	folder = {
+	#		name = infantry_folder
+	#		position = { x = 4 y = 16 }
+	#	}
+	#	
+	#	categories = {
+	#		cat_special_forces_generic
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	#
+	#tech_misers_infantry = {
+	#	
+	#	path = {
+	#		leads_to_tech = tech_dragoon
+	#		research_cost_coeff = 1
+	#	}
+	#	
+	#	path = {
+	#		leads_to_tech = tech_militia
+	#		research_cost_coeff = 1
+	#	}
+	#	
+	#	enable_subunits = {
+	#		misers_infantry
+	#	}
+	#
+	#	research_cost = 2
+	#	start_year = 1936
+	#	folder = {
+	#		name = infantry_folder
+	#		position = { x = 9 y = 3 }
+	#	}
+	#	
+	#	categories = {
+	#		cat_special_forces_generic
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	#
+	#tech_dragoon = {
+	#	
+	#	dependencies = {
+	#		tech_melee_weapons = 1
+	#	}
+	#	
+	#	path = {
+	#		leads_to_tech = tech_yeomanry
+	#		research_cost_coeff = 1
+	#	}
+	#	
+	#	enable_subunits = {
+	#		dragoon_cavalry
+	#	}
+	#
+	#	research_cost = 2
+	#	start_year = 1936
+	#	folder = {
+	#		name = infantry_folder
+	#		position = { x = 8 y = 8 }
+	#	}
+	#	
+	#	categories = {
+	#		cat_special_forces_generic
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	#
+	#tech_yeomanry = {
+	#	
+	#	dependencies = {
+	#		tech_melee_weapons = 1
+	#		tech_militia = 1
+	#	}
+	#	
+	#	enable_subunits = {
+	#		yeomanry_cavalry
+	#	}
+	#
+	#	research_cost = 2
+	#	start_year = 1936
+	#	folder = {
+	#		name = infantry_folder
+	#		position = { x = 9 y = 12 }
+	#	}
+	#	
+	#	categories = {
+	#		cat_special_forces_generic
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	#
+	#tech_militia = {
+	#	
+	#	dependencies = {
+	#		tech_melee_weapons = 1
+	#	}
+	#	
+	#	path = {
+	#		leads_to_tech = tech_yeomanry
+	#		research_cost_coeff = 1
+	#	}
+	#	
+	#	path = {
+	#		leads_to_tech = tech_convict
+	#		research_cost_coeff = 1
+	#	}
+	#	
+	#	enable_subunits = {
+	#		militia_infantry
+	#	}
+	#
+	#	research_cost = 2
+	#	start_year = 1936
+	#	folder = {
+	#		name = infantry_folder
+	#		position = { x = 10 y = 8 }
+	#	}
+	#	
+	#	categories = {
+	#		cat_special_forces_generic
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	#
+	#tech_convict = {
+	#	
+	#	dependencies = {
+	#		tech_melee_weapons = 1
+	#	}
+	#	
+	#	path = {
+	#		leads_to_tech = tech_disorderlies
+	#		research_cost_coeff = 1
+	#	}
+	#	
+	#	enable_subunits = {
+	#		convict_infantry
+	#	}
+	#
+	#	research_cost = 2
+	#	start_year = 1936
+	#	folder = {
+	#		name = infantry_folder
+	#		position = { x = 12 y = 12 }
+	#	}
+	#	
+	#	categories = {
+	#		cat_special_forces_generic
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
+	#
+	#tech_disorderlies = {
+	#	
+	#	dependencies = {
+	#		tech_melee_weapons = 1
+	#	}
+	#	
+	#	enable_subunits = {
+	#		disorderly_infantry
+	#	}
+	#
+	#	research_cost = 2
+	#	start_year = 1936
+	#	folder = {
+	#		name = infantry_folder
+	#		position = { x = 12 y = 15 }
+	#	}
+	#	
+	#	categories = {
+	#		cat_special_forces_generic
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
 }

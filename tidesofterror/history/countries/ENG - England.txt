@@ -6,13 +6,14 @@ recruit_character = ENG_William_Gladstone
 
 # Starting tech
 set_technology = {
-	tech_infantry_weapons = 1
+	inftech_sniderenfield = 1
+	inftech_percussioncap = 1
+	inftech_truncheon = 1
 	tech_carriage = 1
 	tech_inf_armour1 = 1
 	tech_bayonets = 1
 	tech_redcoats = 1
 	tech_melee_weapons = 1
-	tech_police_weapons = 1
 	tech_auxillary = 1
 	tech_sappers_miners = 1
 	tech_comissariat = 1

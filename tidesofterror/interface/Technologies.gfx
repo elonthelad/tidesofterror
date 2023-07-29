@@ -3328,6 +3328,14 @@ spriteTypes = {
 		name = "GFX_rifled_armstrong_gun_medium"
 		texturefile = "gfx/interface/technologies/artillery_equipment.dds"
 	}
+	SpriteType = {
+		name = "GFX_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons2.dds"
+	}
 	#SpriteType = {
 	#	name = "GFX_doc_the_colonial_army_medium"
 	#	texturefile = "gfx/interface/thisisdog1.dds"

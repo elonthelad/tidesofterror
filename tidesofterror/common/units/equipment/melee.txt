@@ -36,7 +36,7 @@ equipments = {
 		}
 	}
 
-	melee_weapons1 = {
+	melee_weapons1 = { #Officers Sword
 		year = 1868
 	
 		archetype = melee_weapons
@@ -45,8 +45,8 @@ equipments = {
 		visual_level = 0
 	}
 
-	melee_weapons2 = {
-		year = 1869
+	melee_weapons2 = { #Officers Claymore
+		year = 1870
 	
 		archetype = melee_weapons
 		parent = melee_weapons1
@@ -75,8 +75,8 @@ equipments = {
 		build_cost_ic = 0.28
 	}
 
-	melee_weapons3 = {
-		year = 1869
+	melee_weapons3 = { #Halfpike & Shield
+		year = 1872
 	
 		archetype = melee_weapons
 		parent = melee_weapons2
@@ -105,8 +105,8 @@ equipments = {
 		build_cost_ic = 0.34
 	}
 
-	melee_weapons4 = {
-		year = 1871
+	melee_weapons4 = { #Pallisade Gun
+		year = 1875
 	
 		archetype = melee_weapons
 		parent = melee_weapons3
@@ -120,9 +120,39 @@ equipments = {
 		#Combat Abilities
 		soft_attack = 6 #Standard Damage
 		hard_attack = 3 #Piercing Damage
+		air_attack = 2
+		defense = 18
+		breakthrough = 26
+		
+		#Misc Abilities
+		reliability = 0.8
+		maximum_speed = 4
+		hardness = 0.20 #Toughness
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+		
+		build_cost_ic = 0.62
+	}
+
+	melee_weapons5 = { #Righteous Spear & Greatshield
+		year = 1875
+	
+		archetype = melee_weapons
+		parent = melee_weapons3
+		priority = 10
+		visual_level = 1
+		
+		#Mental Affects
+		armor_value = 16 #Resolve
+		ap_attack = 3.5 #Terror
+
+		#Combat Abilities
+		soft_attack = 4 #Standard Damage
+		hard_attack = 5 #Piercing Damage
 		air_attack = 0
-		defense = 20
-		breakthrough = 28
+		defense = 25
+		breakthrough = 18
 		
 		#Misc Abilities
 		reliability = 0.90
@@ -132,7 +162,6 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 1
 		
-		build_cost_ic = 0.45
+		build_cost_ic = 0.43
 	}
-
 }

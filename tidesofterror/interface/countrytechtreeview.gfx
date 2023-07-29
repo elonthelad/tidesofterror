@@ -94,102 +94,6 @@ spriteTypes = {
 		textureFile = "gfx//interface//research_top_win.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}	
-	
-	spriteType = {
-		name = "GFX_infantry_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_infantry_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_techtree_tank_tab"
-		textureFile = "gfx//interface//techtree//techtree_tank_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_artillery_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_artillery_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_land_doctrine_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_landdoctrine_tab.dds"
-		noOfFrames = 2		
-	}
-
-		spriteType = {
-		name = "GFX_landdoctrine_tab_large"
-		textureFile = "gfx/interface/techtree/techtree_landdoctrine_tab_large.dds"
-		noOfFrames = 2		
-	}
-
-		spriteType = {
-		name = "GFX_airdoctrine_tab_large"
-		textureFile = "gfx/interface/techtree/techtree_airdoctrine_tab_large.dds"
-		noOfFrames = 2		
-	}
-
-		spriteType = {
-		name = "GFX_navaldoctrine_tab_large"
-		textureFile = "gfx/interface/techtree/techtree_navaldoctrine_tab_large.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_naval_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_naval_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_naval_support_tab"
-		textureFile = "gfx/interface/techtree/techtree_naval_support_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_naval_doctrine_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_navaldoctrine_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_air_techs_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_air_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_air_doctrine_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_airdoctrine_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_secret_weapons_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_special_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_techtree_engineering_tab"
-		textureFile = "gfx//interface//techtree//techtree_engineering_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_industry_folder_tab"
-		textureFile = "gfx//interface//techtree//techtree_industry_tab.dds"
-		noOfFrames = 2		
-	}
-
-	spriteType = {
-		name = "GFX_techtree_tabs"
-		textureFile = "gfx//interface//techtree//techtree_tabs.dds"
-		noOfFrames = 2		
-	}
 
 	spriteType = {
 		name = "GFX_2d_3d_switch"
@@ -328,15 +232,15 @@ spriteTypes = {
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
-
-	spriteType = {
-		name = "GFX_technology_available_item_bg"
-		textureFile = "gfx//interface//techtree//technology_available_item_bg.dds"
-	}
 	
 	spriteType = {
 		name = "GFX_technology_branch_item_bg"
 		textureFile = "gfx//interface//techtree//technology_branch_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_available_item_bg.dds"
 	}
 	
 	spriteType = {
@@ -486,7 +390,7 @@ spriteTypes = {
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_currently_researching_item_bg"
-		texturefile = "gfx//interface//researching_anim_strip.dds"
+		texturefile = "gfx/interface/techtree/researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -905,7 +809,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_support_folder_foreign_currently_researching_item_bg"
-		texturefile = "gfx//interface//researching_anim_strip.dds"
+		texturefile = "gfx/interface/techtree/researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -933,7 +837,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_air_techs_folder_foreign_currently_researching_item_bg"
-		texturefile = "gfx//interface//researching_anim_strip.dds"
+		texturefile = "gfx/interface/techtree/researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1001,7 +905,7 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_bba_air_techs_folder_foreign_currently_researching_item_bg"
-		texturefile = "gfx//interface//researching_anim_strip.dds"
+		texturefile = "gfx/interface/techtree/researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1135,79 +1039,79 @@ spriteType = {
 
 	spriteType = {
 		name = "GFX_techtree_line_horisontal"
-		textureFile = "gfx//interface//techtree//techtree_line_horisontal.dds"
+		textureFile = "gfx/interface/techtree/techlines/techtree_line_horisontal.dds"
 		noOfFrames = 4
 		}
 
 	spriteType = {
 		name = "GFX_techtree_line_vertical"
-		textureFile = "gfx//interface//techtree//techtree_line_vertical.dds"
+		textureFile = "gfx/interface/techtree/techlines/techtree_line_vertical.dds"
 		noOfFrames = 4
 		}
 	
 	spriteType = {
 		name = "GFX_techtree_line_up_states"
-		textureFile = "gfx//interface//techtree//techtree_line_vertical.dds"
+		textureFile = "gfx/interface/techtree/techlines/techtree_line_vertical.dds"
 		noOfFrames = 4
 	}
 	
 	spriteType = {
 		name = "GFX_techtree_line_down_states"
-		textureFile = "gfx//interface//techtree//techtree_line_vertical.dds"
+		textureFile = "gfx/interface/techtree/techlines/techtree_line_vertical.dds"
 		noOfFrames = 4
 	}
 	
 	spriteType = {
 		name = "GFX_techtree_line_left_states"
-		textureFile = "gfx//interface//techtree//techtree_line_horisontal.dds"
+		textureFile = "gfx/interface/techtree/techlines/techtree_line_horisontal.dds"
 		noOfFrames = 4
 	}
 	
 	spriteType = {
 		name = "GFX_techtree_line_right_states"
-		textureFile = "gfx//interface//techtree//techtree_line_horisontal.dds"
+		textureFile = "gfx/interface/techtree/techlines/techtree_line_horisontal.dds"
 		noOfFrames = 4
 	}
 	
 	spriteType = {
 		name = "GFX_techtree_line_up_available"
-		textureFile = "gfx//interface//techtree//techtree_line_vertical.dds"
+		textureFile = "gfx/interface/techtree/techlines/techtree_line_vertical.dds"
 		noOfFrames = 4
 	}
 	
 	spriteType = {
 		name = "GFX_techtree_line_down_available"
-		textureFile = "gfx//interface//techtree//techtree_line_vertical.dds"
+		textureFile = "gfx/interface/techtree/techlines/techtree_line_vertical.dds"
 		noOfFrames = 4
 	}
 	
 	spriteType = {
 		name = "GFX_techtree_line_left_available"
-		textureFile = "gfx//interface//techtree//techtree_line_horisontal.dds"
+		textureFile = "gfx/interface/techtree/techlines/techtree_line_horisontal.dds"
 		noOfFrames = 4
 	}
 	
 	spriteType = {
 		name = "GFX_techtree_line_right_available"
-		textureFile = "gfx//interface//techtree//techtree_line_horisontal.dds"
+		textureFile = "gfx/interface/techtree/techlines/techtree_line_horisontal.dds"
 		noOfFrames = 4
 	}
 	
 	spriteType = {
 		name = "GFX_techtree_line_up_researched"
-		textureFile = "gfx//interface//techtree//techtree_line_vertical.dds"
+		textureFile = "gfx/interface/techtree/techlines/techtree_line_vertical.dds"
 		noOfFrames = 4
 	}
 	
 	spriteType = {
 		name = "GFX_techtree_line_down_researched"
-		textureFile = "gfx//interface//techtree//techtree_line_vertical.dds"
+		textureFile = "gfx/interface/techtree/techlines/techtree_line_vertical.dds"
 		noOfFrames = 4
 	}
 	
 	spriteType = {
 		name = "GFX_techtree_line_left_researched"
-		textureFile = "gfx//interface//techtree/techtree_line_horisontal.dds"
+		textureFile = "gfx/interface/techtree/techlines/techtree_line_horisontal.dds"
 		noOfFrames = 4
 	}
 	
@@ -1227,17 +1131,17 @@ spriteType = {
 		textureFile = "gfx//interface//technologies//tank_small_icon.dds"
 	}
 
-		#### Techtree line centerpieces, do not touch!! ####
+	#Techtree Lines
 
 	spriteType = {
 		name = "GFX_techline_center_down_states"
-		textureFile = "gfx//interface//techtree//techline_center_down_researched.dds"
+		textureFile = "gfx/interface/techtree/techlines/techline_center_down_researched.dds"
 		noOfFrames = 4
 		}
 
 	frameAnimatedSpriteType = {
 		name = "GFX_techline_center_down_currently_researching"
-		texturefile = "gfx//interface//techtree//techline_center_down_anim_strip.dds"
+		texturefile = "gfx/interface/techtree/techlines/techline_center_down_anim_strip.dds"
 		noOfFrames = 12
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1249,13 +1153,13 @@ spriteType = {
 		
 	spriteType = {
 		name = "GFX_techline_center_right_states"
-		textureFile = "gfx//interface//techtree//techline_center_right_researched.dds"
+		textureFile = "gfx/interface/techtree/techlines/techline_center_right_researched.dds"
 		noOfFrames = 4
 		}
 
 	frameAnimatedSpriteType = {
 		name = "GFX_techline_center_right_currently_researching"
-		texturefile = "gfx//interface//techtree//techline_center_right_anim_strip.dds"
+		texturefile = "gfx/interface/techtree/techlines/techline_center_right_anim_strip.dds"
 		noOfFrames = 12
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1267,13 +1171,13 @@ spriteType = {
 		
 	spriteType = {
 		name = "GFX_techline_center_left_states"
-		textureFile = "gfx//interface//techtree//techline_center_left_researched.dds"
+		textureFile = "gfx/interface/techtree/techlines/techline_center_left_researched.dds"
 		noOfFrames = 4
 		}
 
 	frameAnimatedSpriteType = {
 		name = "GFX_techline_center_left_currently_researching"
-		texturefile = "gfx//interface//techtree//techline_center_left_anim_strip.dds"
+		texturefile = "gfx/interface/techtree/techlines/techline_center_left_anim_strip.dds"
 		noOfFrames = 12
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1285,13 +1189,13 @@ spriteType = {
 		
 	spriteType = {
 		name = "GFX_techline_center_top_left_states"
-		textureFile = "gfx//interface//techtree//techline_center_top_left_researched.dds"
+		textureFile = "gfx/interface/techtree/techlines/techline_center_top_left_researched.dds"
 		noOfFrames = 4
 		}
 
 	frameAnimatedSpriteType = {
 		name = "GFX_techline_center_top_left_currently_researching"
-		texturefile = "gfx//interface//techtree//techline_center_top_left_anim_strip.dds"
+		texturefile = "gfx/interface/techtree/techlines/techline_center_top_left_anim_strip.dds"
 		noOfFrames = 12
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1303,13 +1207,13 @@ spriteType = {
 	
 	spriteType = {
 		name = "GFX_techline_center_all_states"
-		textureFile = "gfx//interface//techtree//techline_center_all_researched.dds"
+		textureFile = "gfx/interface/techtree/techlines/techline_center_all_researched.dds"
 		noOfFrames = 4
 	}
 		
 	frameAnimatedSpriteType = {
 		name = "GFX_techline_center_all_currently_researching"
-		texturefile = "gfx//interface//techtree//techline_center_all_strip.dds"
+		texturefile = "gfx/interface/techtree/techlines/techline_center_all_strip.dds"
 		noOfFrames = 12
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1321,13 +1225,13 @@ spriteType = {
 
 	spriteType = {
 		name = "GFX_techline_center_top_right_states"
-		textureFile = "gfx//interface//techtree//techline_center_top_right_researched.dds"
+		textureFile = "gfx/interface/techtree/techlines/techline_center_top_right_researched.dds"
 		noOfFrames = 4
 	}
 
 		frameAnimatedSpriteType = {
 		name = "GFX_techline_center_top_right_currently_researching"
-		texturefile = "gfx//interface//techtree//techline_center_top_right_strip.dds"
+		texturefile = "gfx/interface/techtree/techlines/techline_center_top_right_strip.dds"
 		noOfFrames = 12
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1339,13 +1243,13 @@ spriteType = {
 
 	spriteType = {
 		name = "GFX_techline_center_bottom_left_states"
-		textureFile = "gfx//interface//techtree//techline_center_bottom_left_researched.dds"
+		textureFile = "gfx/interface/techtree/techlines/techline_center_bottom_left_researched.dds"
 		noOfFrames = 4
 	}
 
 	frameAnimatedSpriteType = {
 		name = "GFX_techline_center_bottom_left_currently_researching"
-		texturefile = "gfx//interface//techtree//techline_center_bottom_left_anim_strip.dds"
+		texturefile = "gfx/interface/techtree/techlines/techline_center_bottom_left_anim_strip.dds"
 		noOfFrames = 12
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1357,13 +1261,13 @@ spriteType = {
 	
 	spriteType = {
 		name = "GFX_techline_center_bottom_right_states"
-		textureFile = "gfx//interface//techtree//techline_center_bottom_right_researched.dds"
+		textureFile = "gfx/interface/techtree/techlines/techline_center_bottom_right_researched.dds"
 		noOfFrames = 4
 	}
 
 	frameAnimatedSpriteType = {
 		name = "GFX_techline_center_bottom_right_currently_researching"
-		texturefile = "gfx//interface//techtree//techline_center_bottom_right_anim_strip.dds"
+		texturefile = "gfx/interface/techtree/techlines/techline_center_bottom_right_anim_strip.dds"
 		noOfFrames = 12
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1375,13 +1279,13 @@ spriteType = {
 	
 	spriteType = {
 		name = "GFX_techline_center_up_states"
-		textureFile = "gfx//interface//techtree//techline_center_up_researched.dds"
+		textureFile = "gfx/interface/techtree/techlines/techline_center_up_researched.dds"
 		noOfFrames = 4
 	}
 
 	frameAnimatedSpriteType = {
 		name = "GFX_techline_center_up_currently_researching"
-		texturefile = "gfx//interface//techtree//techline_center_up_anim_strip.dds"
+		texturefile = "gfx/interface/techtree/techlines/techline_center_up_anim_strip.dds"
 		noOfFrames = 12
 		loadType = "INGAME"
 		transparencecheck = yes
@@ -1504,6 +1408,115 @@ spriteType = {
 		name = "GFX_techtree_xor_right"
 		textureFile = "gfx//interface//techtree/techtree_xor_right.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_tech_bonus"
+		textureFile = "gfx/interface/tech_bonus.dds"
+		noOfFrames = 6
+	}
+	spriteType = {
+		name = "GFX_bg_tech"
+		textureFile = "gfx/interface/divisiondesigner/bg_tech_wide.dds"
+		noOfFrames = 3
+	}
+	
+	#Folders
+	
+	spriteType = {
+		name = "GFX_infantry_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_infantry_tab.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_techtree_tank_tab"
+		textureFile = "gfx//interface//techtree//techtree_tank_tab.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_artillery_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_artillery_tab.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_land_doctrine_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_landdoctrine_tab.dds"
+		noOfFrames = 2		
+	}
+
+		spriteType = {
+		name = "GFX_landdoctrine_tab_large"
+		textureFile = "gfx/interface/techtree/techtree_landdoctrine_tab_large.dds"
+		noOfFrames = 2		
+	}
+
+		spriteType = {
+		name = "GFX_airdoctrine_tab_large"
+		textureFile = "gfx/interface/techtree/techtree_airdoctrine_tab_large.dds"
+		noOfFrames = 2		
+	}
+
+		spriteType = {
+		name = "GFX_navaldoctrine_tab_large"
+		textureFile = "gfx/interface/techtree/techtree_navaldoctrine_tab_large.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_naval_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_naval_tab.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_naval_support_tab"
+		textureFile = "gfx/interface/techtree/techtree_naval_support_tab.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_naval_doctrine_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_navaldoctrine_tab.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_air_techs_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_air_tab.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_air_doctrine_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_airdoctrine_tab.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_secret_weapons_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_special_tab.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_techtree_engineering_tab"
+		textureFile = "gfx//interface//techtree//techtree_engineering_tab.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_industry_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_industry_tab.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_techtree_tabs"
+		textureFile = "gfx//interface//techtree//techtree_tabs.dds"
+		noOfFrames = 2		
+	}
 
 	spriteType = {
 		name = "GFX_support_folder_tab"
@@ -1516,18 +1529,6 @@ spriteType = {
 		textureFile = "gfx//interface//techtree/techtree_tank_tab.dds"
 		noOfFrames = 2
 	}
-	
-	spriteType = {
-		name = "GFX_tech_bonus"
-		textureFile = "gfx/interface/tech_bonus.dds"
-		noOfFrames = 6
-	}
-	spriteType = {
-		name = "GFX_bg_tech"
-		textureFile = "gfx/interface/divisiondesigner/bg_tech_wide.dds"
-		noOfFrames = 3
-	}
-
 
 	spriteType = {
 		name = "GFX_air_doctrine_folder_icon"

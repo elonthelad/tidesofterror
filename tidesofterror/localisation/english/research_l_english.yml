@@ -740,17 +740,25 @@
  infantry_folder: "Infantry"
  infantry_folder_desc: "Various equipment & weaponry for standing infantry."
  
- tech_infantry_weapons: "Snider-Enfield"
- tech_infantry_weapons1: "Martini-Henry"
- tech_infantry_weapons2: "Magazine Mechanisms"
- tech_infantry_weapons3: "Lee-Matford"
- tech_infantry_weapons4: "Bernard-Fasoldt"
- tech_infantry_weapons5: "Salvation Rifle"
+ inftech_sniderenfield: "Snider-Enfield"
+ inftech_martinihenry: "Martini-Henry"
+ inftech_magazineloading: "Magazine Mechanisms"
+ inftech_leematford: "Lee-Matford"
+ inftech_salvationrifle: "Salvation Rifle"
+ inftech_leveractionwinchester: "Lever-Action Winchester"
+ inftech_winchestertrenchgun: "Trench Gun"
+ 
+ inftech_percussioncap: "Percussion Cap"
+ inftech_integratedcartridges: "Integrated Cartridges"
+ inftech_slagrounds: "Slag Rounds"
+ inftech_mercurialpayload: "Mercurial Payload"
   
- tech_police_weapons: "Beaumont-Adams Revolver"
- tech_police_weapons1: "Lead Truncheon"
- tech_police_weapons2: "Fear Techniques"
- tech_police_weapons3: "Righteous Revolver"
+ inftech_truncheon: "Truncheon"
+ inftech_beaumontadamsrevolver: "Beaumont-Adams Revolver"
+ inftech_righteousrevolver: "Righteous Revolver"
+ inftech_covviekiller: "'Covvie-Killer'"
+ 
+ 
  
  tech_inf_armour1: "Full Dress"
  tech_inf_armour2: "Reinforced Leather"

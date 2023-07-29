@@ -1,0 +1,18 @@
+bitmapfonts = {
+	bitmapfont = {
+		name = "garamond_12"
+		path = "gfx/fonts/garamond_12"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "cw_3d_debug"
+		path = "gfx/fonts/garamond_12"
+		color = 0xffffffff
+	}
+	#^ Vanilla fonts, lets not delete these until we know what theyre used for
+	bitmapfont = {
+		name = "vertical_techtree"
+		path = "gfx/fonts/tech"
+		color = 0xffffffff
+	}
+}
