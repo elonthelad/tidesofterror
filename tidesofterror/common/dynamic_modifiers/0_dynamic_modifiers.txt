@@ -26,13 +26,13 @@
 #	can be added to countries, states or unit leaders
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 
-boostmined10 = { #Increases mined resource gain by 10%
-	enable = { always = yes }
-	
-	country_resource_coal = (resource_produced@coal*1.1)-resource_produced@coal
-	country_resource_steel = (resource_produced@steel*1.1)-resource_produced@steel
-	country_resource_aluminium = (resource_produced@aluminium*1.1)-resource_produced@aluminium
-}
+#boostmined10 = { #Increases mined resource gain by 10%
+#	enable = { always = yes }
+#	
+#	country_resource_coal = (resource_produced@coal*1.1)-resource_produced@coal
+#	country_resource_steel = (resource_produced@steel*1.1)-resource_produced@steel
+#	country_resource_aluminium = (resource_produced@aluminium*1.1)-resource_produced@aluminium
+#}
 
 ENG_irish_resistance = {
 	enable = { always = yes }
