@@ -12,7 +12,7 @@ resources = {
 		convoys = 0.1
 	}
 
-	fabrics = { #rubber > fabrics
+	silicates = { #rubber > silicates > silicates
 		icon_frame = 3
 		cic = 0.125
 		convoys = 0.1

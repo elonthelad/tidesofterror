@@ -118,7 +118,7 @@ guiTypes = {
 					}
 
 					buttonType = {
-						name = "fabrics_icon"
+						name = "silicates_icon"
 						position = { x=70 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 3
@@ -126,7 +126,7 @@ guiTypes = {
 					}
 
 					instantTextboxType = {
-						name = "fabrics_value"
+						name = "silicates_value"
 						position = { x = 101 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
@@ -1243,7 +1243,7 @@ guiTypes = {
 			}
 			
 			iconType = {
-				name = "fabrics_icon"
+				name = "silicates_icon"
 				position = { x=58 y=2 }
 				spriteType = "GFX_resources_strip"
 				frame = 3
@@ -1251,7 +1251,7 @@ guiTypes = {
 			}
 			
 			buttonType = {
-				name = "fabrics_checkbox"
+				name = "silicates_checkbox"
 				position = { x = 80 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"

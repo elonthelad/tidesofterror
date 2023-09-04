@@ -32,7 +32,7 @@ equipments = {
 		
 		build_cost_ic = 0.2
 		resources = {
-			steel = 3
+			steel = 1
 		}
 	}
 
@@ -102,7 +102,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 1
 		
-		build_cost_ic = 0.34
+		build_cost_ic = 0.38
 	}
 
 	melee_weapons4 = { #Pallisade Gun

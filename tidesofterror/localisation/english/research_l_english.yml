@@ -755,6 +755,7 @@
   
  inftech_truncheon: "Truncheon"
  inftech_beaumontadamsrevolver: "Beaumont-Adams Revolver"
+ inftech_beaumontadamsrevolver_desc: "The Police have seen firearm use in select places up until now, where troubled and delinquent-frequent areas arise. Many see it as unbecoming of an officer to trounce around wielding firearms, and it could incite further animosity. Regrettably, perhaps it is the time to roll-out guns to the average officer?"
  inftech_righteousrevolver: "Righteous Revolver"
  inftech_covviekiller: "'Covvie-Killer'"
  
@@ -763,7 +764,7 @@
  tech_inf_armour1: "Full Dress"
  tech_inf_armour2: "Reinforced Leather"
  tech_inf_armour3: "Under-Chain & Tunic"
- tech_inf_armour4: "Manganese-Alloy Plate Mail"
+ tech_inf_armour4: "Hadfield Steel Plate Mail"
  tech_inf_armour5: "Early Hardsuit"
  tech_inf_armour6: "Carmagnolle Suit"
  

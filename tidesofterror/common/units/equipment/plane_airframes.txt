@@ -32,7 +32,7 @@ equipments = {
 		manpower = 4
 		build_cost_ic = 4
 		resources = {
-			fabrics = 1
+			timber = 1
 		}
 
 		module_slots = {
@@ -150,7 +150,8 @@ equipments = {
 		manpower = 100
 		build_cost_ic = 40
 		resources = {
-			fabrics = 6
+			timber = 6
+			steel = 2
 		}
 
 		module_slots = {
@@ -269,7 +270,8 @@ equipments = {
 		thrust = 105
 		build_cost_ic = 40
 		resources = {
-			fabrics = 6
+			timber = 6
+			steel = 2
 		}
 		module_slots = {
 			fixed_levitation_type_slot = {
@@ -377,7 +379,8 @@ equipments = {
 		thrust = 180
 		build_cost_ic = 120
 		resources = {
-			fabrics = 12
+			timber = 12
+			steel = 6
 		}
 		module_slots = {
 			fixed_levitation_type_slot = {

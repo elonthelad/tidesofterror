@@ -326,10 +326,6 @@ equipment_modules = {
 		multiply_stats = {
 			air_agility = 0.25
 		}
-
-		build_cost_resources = {
-			fabrics = 1
-		}
 	}
 	
 	roziere_balloon = { #Tech- Aeronautics
@@ -345,10 +341,6 @@ equipment_modules = {
 			air_agility = 4
 			build_cost_ic = 4
 			weight = 2
-		}
-
-		build_cost_resources = {
-			fabrics = 2
 		}
 	}
 	
@@ -366,10 +358,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			air_agility = 0.2
-		}
-
-		build_cost_resources = {
-			fabrics = 1
 		}
 	}
 	
@@ -390,10 +378,6 @@ equipment_modules = {
 			maximum_speed = 0.05
 			weight = 0.05
 			air_agility = 0.1
-		}
-
-		build_cost_resources = {
-			fabrics = 2
 		}
 	}
 
@@ -470,10 +454,6 @@ equipment_modules = {
 			air_defence = 0.5
 			weight = 3
 			build_cost_ic = 0.4
-		}
-
-		build_cost_resources = {
-			fabrics = 1
 		}
 	}
 	
@@ -623,7 +603,7 @@ equipment_modules = {
 
 		build_cost_resources = {
 			timber = 14
-			fabrics = 6
+			steel = 6
 		}	
 	
 		allow_mission_type = {
@@ -772,7 +752,7 @@ equipment_modules = {
 
 		build_cost_resources = {
 			timber = 4
-			fabrics = 2
+			steel = 2
 		}	
 	
 		allow_mission_type = {

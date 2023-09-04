@@ -56,7 +56,7 @@ sabotaged_resources = {
 	
 	temporary_state_resource_coal = sabotaged_coal
 	temporary_state_resource_aluminium = sabotaged_aluminium
-	temporary_state_resource_fabrics = sabotaged_fabrics
+	temporary_state_resource_silicates = sabotaged_silicates
 	temporary_state_resource_timber = sabotaged_timber
 	temporary_state_resource_manganese = sabotaged_manganese
 	temporary_state_resource_steel = sabotaged_steel

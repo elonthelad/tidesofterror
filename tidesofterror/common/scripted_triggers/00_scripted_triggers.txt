@@ -248,7 +248,7 @@ state_has_any_resource = {
 			amount > 0
 		}
 		has_resources_amount = {
-			resource = fabrics
+			resource = silicates
 			amount > 0
 		}
 		has_resources_amount = {
