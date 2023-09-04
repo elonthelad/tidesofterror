@@ -364,30 +364,7 @@
  additional_machine_guns: "Additional Machineguns"
  additional_machine_guns_desc: "A set of machineguns in sponsons and special pintle mounts give the vehicle improved defense against close-in infantry attack."
 
- GER_light_tank_flame_equipment_0: "Versuchsflammpanzer"
- GER_medium_tank_flame_equipment_0: "Versuchsflammpanzer (Mittelschwer)"
- GER_heavy_tank_flame_equipment_0: "Versuchsflammpanzer (schwer)"
- GER_light_tank_flame_equipment_1: "Flammpanzer I"
- GER_light_tank_flame_equipment_2: "Flammpanzer II"
- GER_light_tank_flame_equipment_3: "Flammpanzer Leopard"
- GER_medium_tank_flame_equipment_1: "Flammpanzer III"
- GER_medium_tank_flame_equipment_2: "Flammpanzer IV"
- GER_medium_tank_flame_equipment_3: "Flammpanzer Panther"
- GER_heavy_tank_flame_equipment_1: "Flammpanzer (Schwer)"
- GER_heavy_tank_flame_equipment_2: "Flammpanzer Tiger"
- GER_heavy_tank_flame_equipment_3: "Flammpanzer Tiger II"
- GER_light_tank_amphibious_equipment_0: "Versuchsschwimmpanzer"
- GER_medium_tank_amphibious_equipment_0: "Versuchschwimmpanzer (Mittelschwer)"
- GER_heavy_tank_amphibious_equipment_0: "Versuchsschwimmpanzer (schwer)"
- GER_light_tank_amphibious_equipment_1: "Schwimmpanzer I"
- GER_light_tank_amphibious_equipment_2: "Schwimmpanzer II"
- GER_light_tank_amphibious_equipment_3: "Schwimmpanzer Leopard"
- GER_medium_tank_amphibious_equipment_1: "Schwimmpanzer III"
- GER_medium_tank_amphibious_equipment_2: "Schwimmpanzer IV"
- GER_medium_tank_amphibious_equipment_3: "Schwimmpanzer Panther"
- GER_heavy_tank_amphibious_equipment_1: "Schwimmpanzer (Schwer)"
- GER_heavy_tank_amphibious_equipment_2: "Schwimmpanzer Tiger"
- GER_heavy_tank_amphibious_equipment_3: "Schwimmpanzer Tiger II"
+
  light_tank_equipment_0: "IW Light Tank"
  medium_tank_equipment_0: "IW Medium Tank"
  heavy_tank_equipment_0: "IW Heavy Tank"
@@ -405,10 +382,6 @@
  heavy_tank_artillery_equipment_0: "IW Heavy SP Artillery"
 
 
- GER_heavy_tank_equipment_0: "Versuchspanzerkampfwagen (schwer)"
- GER_light_tank_equipment_0: "Leichttraktor"
- GER_medium_tank_equipment_0: "Mittlerer Traktor"
-
  EQUIPMENT_AMPHIBIOUS: "Amphibious Tank"
 
  light_flame_tank: "Light Flame Tank Company"
@@ -425,3 +398,96 @@
  
  expanded_fuel_tank: "Fuel Drum"
  expanded_fuel_tank_desc: "An externally mounted fuel drum designed to extend the operational range of an armored vehicle."
+
+
+
+
+
+
+
+
+ #MOD
+ 
+ tank_designer_battle_hardsuit_frame: "Generalist Hardsuit"
+ 
+ battle_hardsuit_frame_metalman: "Prototype Hardsuit 'Metalman'"
+ battle_hardsuit_frame_strongmansuit: "Basic Hardsuit 'Strongman'"
+ battle_hardsuit_frame_battlehardsuit: "Advanced Hardsuit 'Battlesuit'"
+ 
+ battle_hardsuit_frame_0: "Prototype Battle Hardsuit"
+ battle_hardsuit_frame_1: "Basic Battle Hardsuit"
+ battle_hardsuit_frame_2: "Advanced Battle Hardsuit"
+ battle_hardsuit_frame_3: "Modern Heavy Hardsuit"
+ battle_hardsuit_frame_4: "Modern Lightframe"
+ 
+ #EQ_MOD_SLOT_hardsuitframe_type_slot_TITLE: "Endoskeleton"
+ #EQ_MOD_CAT_hardsuitframe_module_type_TITLE: "Hardsuit Endoskeletons"
+ #
+ #hardsuit_aluminiumtruss: "Aluminium Truss"
+ #hardsuit_steelbar: "Steel Bar"
+ #hardsuit_ironbar: "Iron Bar"
+ #hardsuit_oakframe: "Oak"
+ 
+ EQ_MOD_SLOT_hardsuitactuation_type_slot_TITLE: "Hardsuit Actuation"
+ EQ_MOD_CAT_hardsuitactuator_module_type_TITLE: "Actuation Method"
+ 
+ hardsuit_noactuation: "No Actuation"
+ hardsuit_noactuation_desc: "With no actuation method installed, the poor sod in this suit of armour will just have to cope and bear the brunt of such heavy equipment across their body. Cruel, but a league cheaper than manufacturing intricate and complex piston actuation."
+ hardsuit_pneumatic: "Pneumatics"
+ hardsuit_hydraulic: "Hydraulics"
+ 
+ EQ_MOD_SLOT_hardsuitarmour_type_slot_TITLE: "Armour"
+ EQ_MOD_SLOT_hardsuitarmour2_type_slot_TITLE: "Secondary Armour Layer"
+ EQ_MOD_CAT_hardsuitarmour_module_type_TITLE: "Medium Armour"
+ 
+ hardsuit_ceramic: "Ceramic"
+ hardsuit_ceramic_desc: "While not as durable as steel, ceramics provide adequate armor in the face of regular ballistics and close-quarters engagements. It is also notable that the melting point and insulation of the material is notably high, protecting against shocking attacks, shockingly well. Additionally, ceramics are easier to procure and work than metals. They are also quite lightweight."
+ hardsuit_steel: "Steel"
+ hardsuit_steel_desc: "As strong as it is prominent, when can't you rely on steel? Bullets fly off it, and it'll shrug shrapnel and explosives off like it always will. Bear in mind, this strength is warranted by its cumbersome heft."
+ hardsuit_mnalloysteel: "Hadfield Steel"
+ hardsuit_mnalloysteel_desc: "This alloy sees to it that Manganese is introduced to the Steel compound. This brings some desired qualities, such as higher toughness, hardier reaction to impacts and abrasions, and most importantly- An outstanding insulating ability.\n\nLuddite metalworkers look down on the meddling of cold hard steel, but they have yet to witness the shocking bolts of the eldritch menace, haven't they?"
+ hardsuit_ceramometal: "Ceramometals"
+ hardsuit_ceramometal_desc: "A new combination found in military innovation, this fine hybrid spares no great weaknesses or compromises; it is the very definition of balance. It is well insulated, sufficiently protective, while being lighter and cheaper than pure metal solutions."
+ hardsuit_reinforcedoak: "Reinforced Oak"
+ hardsuit_reinforcedoak_desc: "Some would look at a Hardsuit bearing wooden armour, and scoff. Then, you'll show them the outstanding production charts, see how they laugh then!"
+ 
+ hardsuit_aluminium: "Aluminium"
+
+ EQ_MOD_SLOT_hardsuitmisc_type_slot_TITLE: "Hardsuit Miscellaneous"
+ EQ_MOD_CAT_hardsuitmisc_module_type_TITLE: "Auxillary Suit Modifications"
+ 
+ hardsuit_groundingrods: "Grounding Rods"
+ hardsuit_groundingrods_desc: "These negatively charged poles do a first-rate job of attracting and dissipating electric charge in the immediate vicinity. The object of these modifications is to divert shocks from the battlefield to a controlled area, allowing other units to advance safely. That is, relative safety."
+ hardsuit_thermalinsulation: "Thermal Insulation"
+ hardsuit_thermalinsulation_desc: "Accidents and raging infernos are a common occurence in the modern battlefield. Using an innovative substance known as asbestos, we can temper these flames on this machine greatly, which can be especially prudent when using volatile hydraulics.\n\nThankfully, asbestos is known to have no adverse, long-lasting or toxic affects to the operator of the machine!"
+ hardsuit_liftingapparatus: "Lifting Apparatus"
+ hardsuit_liftingapparatus_desc: "When it comes to barricading and rapid defense, few solutions compares to re-using the objects and debris of the local area and town. This requites a great deal of lifting and transport, and using the great brawn found in these machines we can assist in this desperate defense."
+ hardsuit_riotermodification: "Bluecoat Retrofit"
+ hardsuit_riotermodification_desc: "While not being suited for combat with demons on the battlefield, this model will help us quell the demons at home. Seeing as our streets grow with feverish unrest and violence, it looks as if more extreme measures are going to see the most effective use. One of these measures comes in the form of an imposing metalman powered by pistons."
+ hardsuit_immersionbowl: "Immersion Bowl"
+ hardsuit_immersionbowl_desc: "This cap is worn on the interior of the helmet, sheltering the cranium area of the operator. The 'Bowl' is a jelly of quicksilver and some unidentified substance. This invention was conceived from a sect of explorers that had ventured deep into the heart of darkness, of which are among the few that had returned with their wits about them. As ridiculous as it looks and seems, they swear by the application of this gel in military use and implore us to deploy it widely, as they affirm that it regulates the humours and dulls the psychal impact found when facing against the eldritch menace."
+ hardsuit_dryplatecamera: "Dry Plate Camera"
+ hardsuit_dryplatecamera_desc: "There is room on the armour where we may insert a full-size camera into, allowing armoured soldiers to enter previously perilous combat or occupied zones. This imaging can be invaluable to reconnaitre and intelligence."
+ hardsuit_localdischargefield: "Local Discharge Field"
+ hardsuit_localdischargefield_desc: "A Local Discharge Field is certainly an experimental technology, as it uses an array of Grove cells to rapidly jolt the surface of the armour at the soldiers command. This shock does not at all damage the operator, but assuredly will dazzle and fry any creature or thing that may be trying to forcefully open or get inside the suit."
+ 
+ EQ_MOD_SLOT_hardsuitweapon1_type_slot_TITLE: "Primary Weapon"
+ EQ_MOD_SLOT_hardsuitweapon2_type_slot_TITLE: "Secondary Weapon"
+ EQ_MOD_CAT_hardsuitregularweapons_module_type_TITLE: "Medium Weaponry"
+ EQ_MOD_CAT_hardsuitlargeweapons_module_type_TITLE: "Large Weaponry"
+ 
+ hardsuit_sniderenfield: "Snider-Enfield Rifle"
+ hardsuit_martinihenry: "Martini-Henry Rifle"
+ hardsuit_leematford: "Lee-Matford Rifle"
+ hardsuit_salvationrifle: "Salvation Rifle"
+ hardsuit_winchester73: "Winchester '73"
+ hardsuit_trenchgun: "Trench Gun"
+ hardsuit_officersword: "Officers Sword"
+ hardsuit_officersclaymore: "Officers Claymore"
+ 
+ hardsuit_halfpikeandshield: "Half-Pike & Shield"
+ hardsuit_pallisadegun: "Pallisade Gun"
+ hardsuit_righteousspeargreatshield: "Righteous Spear & Greatshield"
+ hardsuit_handcannon: "Handcannon"
+ hardsuit_breachspear: "Breachspear"
+ hardsuit_boomlance: "Boomlance"

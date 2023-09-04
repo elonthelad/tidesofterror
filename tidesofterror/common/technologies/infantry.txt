@@ -1,37 +1,17 @@
 technologies = {
-	
-	@1918 = 0
-	@1936 = 2
-	@1938 = 4
-	@1939 = 6
-	@1940 = 8
-	@1941 = 10
-	@1942 = 12
-	@1943 = 14
-	@1944 = 16
-	@1945 = 18
-	@1946 = 20
-
-	
 
 	inftech_truncheon = {
 
 		enable_equipments = {
 			police_weapons1
-			daddy_long_legs_frame_0 #Temporarily here while testing armour creator
+			battle_hardsuit_frame_0 #Temporarily here while testing armour creator
+			battle_hardsuit_frame_1
+			battle_hardsuit_frame_2
+			battle_hardsuit_frame_3
+			battle_hardsuit_frame_4
 		}
 		
 		enable_equipment_modules = { #Temporarily here while testing armour creator
-			tank_light_one_man_tank_turret
-			tank_bogie_suspension
-			tank_riveted_armor
-			tank_gasoline_engine
-			light_mg_2x
-			light_mg_4x
-			highpreslev_hydrogen
-			lmg_defense_turret
-			lmg_defense_turret_2x
-			
 			medium_handcannon
 			medium_javelincannon
 			medium_firebombs
@@ -39,23 +19,59 @@ technologies = {
 			medium_extraarmour
 			medium_amplesupplies: 
 			medium_recontelescope
-			
 			frame_steel
 			frame_aluminium
 			frame_oak_beams
 			frame_pine_truss
-
 			manganese_infused_steel_panel
 			steel_panel
 			aluminium_panel
 			canvas
 			wooden_panels
-			
 			high_quality
 			factory_finish
 			smaller_build
 			hasty_construction
 			
+			#hardsuit_aluminiumtruss
+			#hardsuit_steelbar
+			#hardsuit_ironbar
+			#hardsuit_oakframe
+			
+			hardsuit_noactuation
+			hardsuit_pneumatic
+			hardsuit_hydraulic
+			
+			hardsuit_ceramic
+			hardsuit_steel
+			hardsuit_aluminium
+			hardsuit_mnalloysteel
+			hardsuit_ceramometal
+			hardsuit_reinforcedoak
+			
+			hardsuit_groundingrods
+			hardsuit_thermalinsulation
+			hardsuit_liftingapparatus
+			hardsuit_riotermodification
+			hardsuit_immersionbowl
+			hardsuit_dryplatecamera
+			hardsuit_localdischargefield
+			
+			hardsuit_sniderenfield
+			hardsuit_martinihenry
+			hardsuit_leematford
+			hardsuit_salvationrifle
+			hardsuit_winchester73
+			hardsuit_trenchgun
+			hardsuit_officersword
+			hardsuit_officersclaymore
+			
+			hardsuit_halfpikeandshield
+			hardsuit_pallisadegun
+			hardsuit_righteousspeargreatshield
+			hardsuit_handcannon
+			hardsuit_breachspear
+			hardsuit_boomlance
 		}
 		
 		enable_subunits = {
