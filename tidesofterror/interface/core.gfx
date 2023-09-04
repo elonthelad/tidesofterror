@@ -1038,7 +1038,6 @@ bitmapfonts = {
 #		path = "gfx/fonts/hoi_16mbs"
 		fontfiles = {
 			"gfx/fonts/hoi_16mbs"
-			"gfx/fonts/hoi_16mbs_cryllic"
 		}
 		color = 0xffffffff
 
@@ -1117,7 +1116,6 @@ bitmapfonts = {
 		name = "hoi_18mbs"
 		fontfiles = {
 			"gfx/fonts/hoi_18mbs"
-			"gfx/fonts/hoi_18mbs_cryllic"
 		}
 		color = 0xffffffff
 
@@ -1700,7 +1698,6 @@ bitmapfonts = {
 #		path = "gfx/fonts/cg_16b"
 		fontfiles = {
 			"gfx/fonts/cg_16b"
-			"gfx/fonts/hoi_16tooltip3"
 		}
 		color = 0xffffffff
 	}
