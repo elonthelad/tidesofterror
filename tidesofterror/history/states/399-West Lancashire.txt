@@ -7,9 +7,14 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 1087 2 } #"Tarleton"
+		victory_points = { 5136 2 } #"Burscough"
+		victory_points = { 6888 5 } #"Skelmersdale"
+		victory_points = { 465 7 } #"Kirkby"
+		victory_points = { 13 15 } #"Aintree"
 	}
-	manpower=10000
+	manpower=20536
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=large_town
 	local_supplies=0.000
 }

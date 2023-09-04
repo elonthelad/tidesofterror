@@ -7,9 +7,12 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 2259 4 } #"Halifax"
+		victory_points = { 3102 2 } #"Queensbury"
+		victory_points = { 6816 2 } #"Elland"
 	}
-	manpower=10000
+	manpower=3163
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=small_town
 	local_supplies=0.000
 }

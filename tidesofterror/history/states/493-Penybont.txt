@@ -8,8 +8,12 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 5353 18 } #"Bridgend"
+		victory_points = { 1129 5 } #"Pencoed"
+		victory_points = { 2976 4 } #"Porthcawl"
+		victory_points = { 3526 4 } #"Pyle"
 	}
-	manpower=10000
+	manpower=11107
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

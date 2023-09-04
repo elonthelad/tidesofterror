@@ -9,8 +9,14 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 8082 12 } #"Llanelli"
+		victory_points = { 8071 10 } #"Gorseinon"
+		victory_points = { 5280 2 } #"Capel Hendre"
+		victory_points = { 1245 4 } #"Bynea"
+		victory_points = { 4165 4 } #"Gorslas"
+		victory_points = { 4392 3 } #"Pontyates"
 	}
-	manpower=10000
+	manpower=15870
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

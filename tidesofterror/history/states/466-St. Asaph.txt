@@ -8,8 +8,11 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 7053 7 } #"Rhyl"
+		victory_points = { 2267 6 } #"Prestatyn"
+		victory_points = { 7059 2 } #"Talacre"
 	}
-	manpower=10000
+	manpower=8656
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

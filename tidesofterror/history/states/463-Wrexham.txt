@@ -9,8 +9,12 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 7213 16 } #"Wrexham"
+		victory_points = { 3076 8 } #"Rhosllanerchrugog"
+		victory_points = { 7274 4 } #"Newbridge"
+		victory_points = { 7207 3 } #"Coedpoeth"
 	}
-	manpower=10000
+	manpower=17107
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

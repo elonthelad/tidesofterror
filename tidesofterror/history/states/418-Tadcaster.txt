@@ -8,9 +8,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 4887 2 } #"Copmanthorpe"
+		victory_points = { 6722 2 } #"Tadcaster"
 	}
-	manpower=10000
+	manpower=3002
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=pastoral
 	local_supplies=0.000
 }

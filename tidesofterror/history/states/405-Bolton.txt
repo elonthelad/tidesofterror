@@ -7,8 +7,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 6896 15 } #"Bolton"
+		victory_points = { 1412 14 } #"Farnworth"
+		victory_points = { 956 8 } #"Westhoughton"
 	}
-	manpower=10000
+	manpower=21579
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

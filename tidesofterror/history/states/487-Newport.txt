@@ -8,8 +8,13 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 8165 45 } #"Newport"
+		victory_points = { 5270 6 } #"Duffryn"
+		victory_points = { 4245 8 } #"Nash"
+		victory_points = { 1431 14 } #"Somerton"
+		victory_points = { 4330 5 } #"Magor"
 	}
-	manpower=10000
+	manpower=31259
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

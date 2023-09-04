@@ -1,17 +1,14 @@
 1       Greater London	       945450 DONE
-3		Greater Manchester   870800
-4		West Yorkshire           841300
+4		West Riding           841300 DONE
 5		Hampshire                  833400 DONE
 6		Kent                            830250 DONE
 7		Essex                           821250 DONE
-8		Lancashire                  677250
-9		Merseyside                 673200
-10		South Yorkshire         628200
+8		Lancashire                  677250 DONE
 11		Surrey                         537750 DONE
 12		Devon                         533700 DONE
 13		Hertfordshire             528300 DONE
 14		Nottinghamshire		425150 DONE
-15		North Yorkshire         523800
+15		North Yorkshire         523800 DONE
 17		Staffordshire            506250 DONE
 18		Lincolnshire             485550 DONE
 19		Cheshire                   478800 DONE
@@ -37,9 +34,8 @@
 38	Worcestershire          265500 DONE
 39	Warwickshire            261450 DONE
 40	Cornwall                    253800 DONE
-41		Cumbria                    225450
+41		Cumbria                    225450 DONE
 42	Shropshire                 221400 DONE
-43	Bristol                        211500 DONE
 44	Northumberland       141300 DONE
 45	Herefordshire           91350 DONE
 46	Rutland                     14900 DONE
@@ -49,17 +45,21 @@
 49	N. Ireland Total	~1.4M
 50  Ireland Total		~3.9M
 
+VP WIGTOWN
+VP KIRKCUDBRIGHT
+VP DUMFRIES
+VP SELKIRK
+VP ROXBURGH
+VP BERWICK
+VP EAST LOTHIAN
+VP PEEBLES
 
 		victory_points = { 9999 99 } #"Blablablablablablablablabla"
-
-state calculation-
 
 (region / states count) * (((victory point total / 10)+0.1)*state_category)
 
 (a / b) * (((c/10)+0.1) * d)
 
-
-state_category value
 peaks * 0.27
 pastoral * 0.40
 small_town * 0.54

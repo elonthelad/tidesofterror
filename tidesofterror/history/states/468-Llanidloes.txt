@@ -9,8 +9,12 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 4846 3 } #"Llandloes"
+		victory_points = { 3155 4 } #"Newtown"
+		victory_points = { 4872 2 } #"Tregynon"
+		victory_points = { 7572 1 } #"Kerry"
 	}
-	manpower=10000
+	manpower=6537
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

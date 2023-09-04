@@ -1,4 +1,3 @@
-
 state={
 	id=394
 	name="STATE_394"
@@ -8,8 +7,12 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 5185 30 } #"Blackpool"
+		victory_points = { 3814 12 } #"Fleetwood"
+		victory_points = { 658 10 } #"Lytham St. Annes"
+		victory_points = { 6742 8 } #"Kirkham"
 	}
-	manpower=10000
+	manpower=37851
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

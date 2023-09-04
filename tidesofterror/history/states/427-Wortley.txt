@@ -7,9 +7,14 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 6904 12 } #"Barnsley"
+		victory_points = { 6928 5 } #"Worsborough"
+		victory_points = { 831 4 } #"Hoyland"
+		victory_points = { 6941 2 } #"Penistone"
+		victory_points = { 2382 2 } #"Holmfirth"
 	}
-	manpower=10000
+	manpower=8871
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=large_town
 	local_supplies=0.000
 }

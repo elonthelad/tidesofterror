@@ -2,15 +2,20 @@ state={
 	id=497
 	name="STATE_497"
 	provinces={
-		477 2445 3609 5037 8056 8106 8122 8126 
+		477 2445 3609 5037 8056 8106 8122 8126 8162
 	}
 	history={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 8162 12 } #"Caerphilly"
+		victory_points = { 477 6 } #"Trecenydd"
+		victory_points = { 8106 10 } #"Ystrad Mynach"
+		victory_points = { 5037 4 } #"Abercynon"
+		victory_points = { 2445 5 } #"Mountain Ash"
 	}
-	manpower=10000
+	manpower=12752
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=large_town
 	local_supplies=0.000
 }

@@ -7,8 +7,13 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 2055 18 } #"Everton"
+		victory_points = { 4930 8 } #"Knowsley"
+		victory_points = { 6996 50 } #"Liverpool"
+		victory_points = { 7018 16 } #"St. Michael's Hamlet"
+		victory_points = { 3923 15 } #"Garston"
 	}
-	manpower=10000
+	manpower=87927
 	buildings_max_level_factor=1.000
 	state_category=urban_borough
 	local_supplies=0.000

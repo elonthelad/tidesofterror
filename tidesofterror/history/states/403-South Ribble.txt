@@ -7,8 +7,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 6791 8 } #"Leyland"
+		victory_points = { 447 3 } #"Penwortham"
 	}
-	manpower=10000
+	manpower=8555
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

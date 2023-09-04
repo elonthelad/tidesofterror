@@ -7,9 +7,14 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 5330 30 } #"Middlesborough"
+		victory_points = { 6409 16 } #"South Bank"
+		victory_points = { 6421 14 } #"Stainton"
+		victory_points = { 1965 12 } #"Ormesby"
+		victory_points = { 1277 12 } #"Lazenby"
 	}
-	manpower=10000
+	manpower=63969
 	buildings_max_level_factor=1.000
-	state_category=great_city
+	state_category=city
 	local_supplies=0.000
 }

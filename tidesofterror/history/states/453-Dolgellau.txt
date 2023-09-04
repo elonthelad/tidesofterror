@@ -8,9 +8,12 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 4046 3 } #"Barmouth"
+		victory_points = { 809 4 } #"Dolgellau"
+		victory_points = { 5079 3 } #"Tywyn"
 	}
-	manpower=10000
+	manpower=4951
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

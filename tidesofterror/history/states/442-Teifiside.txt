@@ -8,8 +8,11 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 2837 3 } #"Cardigan"
+		victory_points = { 3800 2 } #"Aberporth"
+		victory_points = { 7854 2 } #"Llandysul"
 	}
-	manpower=10000
+	manpower=4654
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

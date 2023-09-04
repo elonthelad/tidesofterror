@@ -7,9 +7,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 1915 4 } #"Ripon"
+		victory_points = { 3078 1 } #"Boroughbridge"
 	}
-	manpower=10000
+	manpower=3729
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=pastoral
 	local_supplies=0.000
 }

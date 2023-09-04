@@ -7,9 +7,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 2525 2 } #"Settle"
+		victory_points = { 6628 1 } #"Malham"
 	}
-	manpower=10000
+	manpower=2162
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=peaks
 	local_supplies=0.000
 }

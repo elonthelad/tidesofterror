@@ -7,8 +7,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 678 7 } #"Clitheroe"
+		victory_points = { 2588 3 } #"Barnoldswick"
 	}
-	manpower=10000
+	manpower=3813
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

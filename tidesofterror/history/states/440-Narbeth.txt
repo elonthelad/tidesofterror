@@ -8,8 +8,11 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 1301 2 } #"Tenby"
+		victory_points = { 1480 2 } #"Kilgetty"
+		victory_points = { 7986 3 } #"Narbeth"
 	}
-	manpower=10000
+	manpower=4654
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -8,9 +8,10 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 8072 10 } #"Pontardawe"
 	}
-	manpower=10000
+	manpower=5951
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

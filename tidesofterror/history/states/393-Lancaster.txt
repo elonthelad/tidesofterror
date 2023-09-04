@@ -1,4 +1,3 @@
-
 state={
 	id=393
 	name="STATE_393"
@@ -8,8 +7,11 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 2815 20 } #"Lancaster"
+		victory_points = { 2882 12 } #"Morecambe"
+		victory_points = { 6636 8 } #"Heysham"
 	}
-	manpower=10000
+	manpower=21817
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

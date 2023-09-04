@@ -2,14 +2,16 @@ state={
 	id=451
 	name="STATE_451"
 	provinces={
-		1016 2946 4228 5123 7052 7087 7111 7128 
+		1016 5123 7087 7111 7128 
 	}
 	history={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 5123 2 } #"Bethesda"
+		victory_points = { 7087 6 } #"Bangor"
 	}
-	manpower=10000
+	manpower=4869
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

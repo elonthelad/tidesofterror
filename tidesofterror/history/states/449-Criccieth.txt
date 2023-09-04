@@ -8,8 +8,14 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 4618 2 } #"Morfa Nefyn"
+		victory_points = { 3653 2 } #"Llanbedrog"
+		victory_points = { 249 3 } #"Pwllheli"
+		victory_points = { 7288 2 } #"Afon Wen"
+		victory_points = { 7328 2 } #"Abersoch"
+		victory_points = { 896 3 } #"Criccieth"
 	}
-	manpower=10000
+	manpower=8115
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

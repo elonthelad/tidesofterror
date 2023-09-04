@@ -8,8 +8,13 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 6770 35 } #"Leeds"
+		victory_points = { 6738 10 } #"Horsforth"
+		victory_points = { 6747 16 } #"Headingley"
+		victory_points = { 3517 12 } #"Oakwood"
+		victory_points = { 4538 10 } #"Morley"
 	}
-	manpower=10000
+	manpower=56569
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

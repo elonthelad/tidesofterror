@@ -7,9 +7,13 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 3267 22 } #"Widnes"
+		victory_points = { 5175 15 } #"St Helens"
+		victory_points = { 780 12 } #"Prescot"
+		victory_points = { 6982 10 } #"Sutton"
 	}
-	manpower=10000
+	manpower=32631
 	buildings_max_level_factor=1.000
-	state_category=great_city
+	state_category=city
 	local_supplies=0.000
 }

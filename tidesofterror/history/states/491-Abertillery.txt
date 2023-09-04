@@ -1,4 +1,3 @@
-
 state={
 	id=491
 	name="STATE_491"
@@ -9,9 +8,15 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 3429 7 } #"Ebbw Vale"
+		victory_points = { 8031 7 } #"Brynmawr"
+		victory_points = { 2776 8 } #"Abertillery"
+		victory_points = { 4214 3 } #"Blaenavon"
+		victory_points = { 5385 5 } #"Bargoed"
+		victory_points = { 105 10 } #"Blackwood"
 	}
-	manpower=10000
+	manpower=18075
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=large_town
 	local_supplies=0.000
 }

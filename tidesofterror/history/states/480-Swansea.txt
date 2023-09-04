@@ -9,8 +9,12 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 8110 25 } #"Swansea"
+		victory_points = { 8096 10 } #"Morriston"
+		victory_points = { 8119 6 } #"Sketty"
+		victory_points = { 5278 4 } #"Waunarlwydd"
 	}
-	manpower=10000
+	manpower=28661
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

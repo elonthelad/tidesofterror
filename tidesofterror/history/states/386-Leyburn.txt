@@ -7,8 +7,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 2429 2 } #"Brompton on Swale"
+		victory_points = { 6508 2 } #"Leyburn"
 	}
-	manpower=10000
+	manpower=2560
 	buildings_max_level_factor=1.000
 	state_category=peaks
 	local_supplies=0.000

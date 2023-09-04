@@ -7,8 +7,9 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 1757 4 } #"Millom"
 	}
-	manpower=10000
+	manpower=2906
 	buildings_max_level_factor=1.000
 	state_category=peaks
 	local_supplies=0.000

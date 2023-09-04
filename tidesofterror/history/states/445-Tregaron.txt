@@ -1,16 +1,16 @@
-
 state={
 	id=445
 	name="STATE_445"
 	provinces={
-		769 1186 1421 3510 3726 4501 5195 7717 7732 
+		86 769 1186 1421 3510 3726 4501 5195 7717 7732 
 	}
 	history={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 86 2 } #"Tregaron"
 	}
-	manpower=10000
+	manpower=1489
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

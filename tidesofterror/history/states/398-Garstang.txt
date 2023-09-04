@@ -1,15 +1,15 @@
-
 state={
 	id=398
 	name="STATE_398"
 	provinces={
-		345 1698 2782 3347 3831 4047 5235 5475 6654 6718 
+		345 2782 3347 3831 4047 5235 5475 6654 6718 
 	}
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 6718 3 } #"Great Eccleston"
 	}
-	manpower=10000
+	manpower=1712
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

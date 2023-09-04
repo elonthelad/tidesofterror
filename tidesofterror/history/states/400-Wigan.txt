@@ -7,8 +7,12 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 6916 7 } #"Wigan"
+		victory_points = { 4495 4 } #"Ashton-in-Makerfield"
+		victory_points = { 64 4 } #"Orrell"
+		victory_points = { 6947 5 } #"Leigh"
 	}
-	manpower=10000
+	manpower=13360
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

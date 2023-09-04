@@ -3,13 +3,14 @@ state={
 	id=381
 	name="STATE_381"
 	provinces={
-		568 1419 5237 6527 6550 6569 
+		1419 5237 6550 6569 
 	}
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 6569 4 } #"Thirsk"
 	}
-	manpower=10000
+	manpower=5497
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

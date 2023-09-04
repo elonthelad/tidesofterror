@@ -2,14 +2,15 @@ state={
 	id=433
 	name="STATE_433"
 	provinces={
-		624 1116 2339 2757 3564 3638 6825 6834 6842 6852 6863 6885 
+		624 1116 3564 3638 6825 6834 6842 6852 6863 6885 
 	}
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 624 3 } #"Hemsworth"
 	}
-	manpower=10000
+	manpower=3053
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=pastoral
 	local_supplies=0.000
 }

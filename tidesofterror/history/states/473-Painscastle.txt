@@ -8,8 +8,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 2312 4 } #"Llandrindod Wells"
 	}
-	manpower=10000
+	manpower=2076
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

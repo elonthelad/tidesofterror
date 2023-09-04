@@ -8,8 +8,12 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 5437 4 } #"Milford Haven"
+		victory_points = { 3704 3 } #"Neyland"
+		victory_points = { 4211 6 } #"Haverfordwest"
+		victory_points = { 2913 3 } #"Fishguard"
 	}
-	manpower=10000
+	manpower=8461
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

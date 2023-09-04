@@ -7,8 +7,12 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 6798 3 } #"Dewsbury"
+		victory_points = { 6817 3 } #"Ossett"
+		victory_points = { 4886 4 } #"Wakefield"
+		victory_points = { 6804 3 } #"Normanton"
 	}
-	manpower=10000
+	manpower=7369
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

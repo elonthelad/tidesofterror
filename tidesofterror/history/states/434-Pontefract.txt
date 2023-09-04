@@ -2,13 +2,15 @@ state={
 	id=434
 	name="STATE_434"
 	provinces={
-		388 486 2992 4315 5244 6771 6784 
+		388 486 2339 2757 2992 4315 5244 6771 6784 
 	}
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 2339 6 } #"Pontefract"
+		victory_points = { 2757 5 } #"Castleford"
 	}
-	manpower=10000
+	manpower=3684
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

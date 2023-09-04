@@ -8,8 +8,12 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 2137 15 } #"Cwmbran"
+		victory_points = { 5146 4 } #"Pontypool"
+		victory_points = { 8076 2 } #"Usk"
+		victory_points = { 5464 2 } #"Raglan"
 	}
-	manpower=10000
+	manpower=5580
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

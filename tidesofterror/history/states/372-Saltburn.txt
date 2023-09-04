@@ -8,8 +8,10 @@ state={
 	history={
 		owner = ENG
 		add_core_of = ENG
+		victory_points = { 6426 6 } #"Guisborough"
+		victory_points = { 3535 3 } #"Skelton-in-Cleveland"
 	}
-	manpower=10000
+	manpower=9882
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

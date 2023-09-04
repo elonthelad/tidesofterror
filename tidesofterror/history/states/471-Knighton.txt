@@ -8,8 +8,11 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 4633 3 } #"Presteigne"
+		victory_points = { 7704 3 } #"Knighton"
+		victory_points = { 3467 1 } #"Crossgates"
 	}
-	manpower=10000
+	manpower=2654
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

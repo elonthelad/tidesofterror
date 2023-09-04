@@ -9,9 +9,13 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 1256 6 } #"Colwyn Bay"
+		victory_points = { 3932 7 } #"Towyn"
+		victory_points = { 1935 4 } #"St. Asaph"
+		victory_points = { 7109 6 } #"Denbigh"
 	}
-	manpower=10000
+	manpower=10580
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=large_town
 	local_supplies=0.000
 }

@@ -1,16 +1,18 @@
-
 state={
 	id=443
 	name="STATE_443"
 	provinces={
-		86 397 783 1076 2181 4163 4613 7715 7743 7773 7781 7798 
+		397 783 1076 2181 4163 4613 7715 7743 7773 7781 7798 
 	}
 	history={
 		owner = ENG
 		add_core_of = ENG
 		add_claim_by = WAL
+		victory_points = { 397 4 } #"New Quay"
+		victory_points = { 7798 3 } #"Lampeter"
+		victory_points = { 4163 3 } #"Aberaeron"
 	}
-	manpower=10000
+	manpower=6537
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000
