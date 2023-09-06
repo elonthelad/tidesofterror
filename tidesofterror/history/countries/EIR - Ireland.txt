@@ -6,7 +6,7 @@ recruit_character = EIR_Fergal_O_Brosnan
 
 # Starting tech
 set_technology = {
-tech_infantry_weapons = 1
+	inftech_sniderenfield = 1
 }
 
 set_convoys = 100

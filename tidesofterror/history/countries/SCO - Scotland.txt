@@ -6,7 +6,7 @@ recruit_character = SCO_Declan_Dawson
 
 # Starting tech
 set_technology = {
-tech_infantry_weapons = 1
+	inftech_sniderenfield = 1
 }
 
 set_convoys = 100

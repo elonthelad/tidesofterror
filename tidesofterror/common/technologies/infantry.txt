@@ -79,15 +79,15 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = inftech_beaumontadamsrevolver
+			leads_to_tech = inftech_trunchupgrade1
 			research_cost_coeff = 1
-		}		
+		}
 
 		research_cost = 1.5
 		start_year = 1868
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = 0 }
+			position = { x = 2 y = 0 }
 		}
 		
 		categories = {
@@ -99,7 +99,50 @@ technologies = {
 		}
 	}
 
-	inftech_beaumontadamsrevolver = { 
+	inftech_trunchupgrade1 = {
+
+		research_cost = 1.5
+		start_year = 1868
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = inftech_trunchupgrade2
+			research_cost_coeff = 1
+		}	
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inftech_trunchupgrade2 = {
+
+		research_cost = 1.5
+		start_year = 1868
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 7 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+
+	inftech_beaumontadamsrevolver = {
 
 		enable_equipments = {
 			police_weapons2
@@ -111,20 +154,43 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = inftech_righteousrevolver
+			leads_to_tech = inftech_revolverupgrade1
 			research_cost_coeff = 1
 		}
 		
 		path = {
+			leads_to_tech = inftech_righteousrevolver
+			research_cost_coeff = 1
+		}	
+		
+		path = {
 			leads_to_tech = inftech_covviekiller
 			research_cost_coeff = 1
-		}
+		}	
 
 		research_cost = 1.5
 		start_year = 1870
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = 6 }
+			position = { x = 3 y = 12 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inftech_revolverupgrade1 = {
+
+		research_cost = 1.5
+		start_year = 1868
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = 16 }
 		}
 		
 		categories = {
@@ -150,7 +216,7 @@ technologies = {
 		start_year = 1872
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = 12 }
+			position = { x = 3 y = 22 }
 		}
 		
 		categories = {
@@ -181,7 +247,7 @@ technologies = {
 		start_year = 1872
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = 13 }
+			position = { x = 1 y = 25 }
 		}
 		
 		categories = {
@@ -207,17 +273,12 @@ technologies = {
 			leads_to_tech = inftech_martinihenry
 			research_cost_coeff = 1
 		}
-		
-		path = {
-			leads_to_tech = inftech_percussioncap
-			research_cost_coeff = 1
-		}	
 
 		research_cost = 1.5
 		start_year = 1868
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = 0 }
+			position = { x = 8 y = 0 }
 		}
 		
 		categories = {
@@ -240,7 +301,7 @@ technologies = {
 		start_year = 1868
 		folder = {
 			name = infantry_folder
-			position = { x = -2 y = 1 }
+			position = { x = 11 y = 1 }
 		}
 		
 		categories = {
@@ -253,17 +314,12 @@ technologies = {
 	}
 
 	inftech_integratedcartridges = {
-		
-		path = {
-			leads_to_tech = inftech_slagrounds
-			research_cost_coeff = 1
-		}	
 
 		research_cost = 1.5
 		start_year = 1868
 		folder = {
 			name = infantry_folder
-			position = { x = -2 y = 5 }
+			position = { x = 11 y = 9 }
 		}
 		
 		categories = {
@@ -281,12 +337,17 @@ technologies = {
 			leads_to_tech = inftech_mercurialpayload
 			research_cost_coeff = 1
 		}	
+		
+		path = {
+			leads_to_tech = inftech_leveractionwinchester
+			research_cost_coeff = 1
+		}	
 
 		research_cost = 1.5
 		start_year = 1868
 		folder = {
 			name = infantry_folder
-			position = { x = -2 y = 8 }
+			position = { x = 7 y = 14 }
 		}
 		
 		categories = {
@@ -304,7 +365,12 @@ technologies = {
 		start_year = 1868
 		folder = {
 			name = infantry_folder
-			position = { x = -2 y = 10 }
+			position = { x = 7 y = 22 }
+		}
+		
+		path = {
+			leads_to_tech = inftech_salvationrifle
+			research_cost_coeff = 1
 		}
 		
 		categories = {
@@ -321,22 +387,12 @@ technologies = {
 		enable_equipments = {
 			infantry_weapons2
 		}
-				
-		path = {
-			leads_to_tech = inftech_leveractionwinchester
-			research_cost_coeff = 1
-		}
-				
-		path = {
-			leads_to_tech = inftech_magazineloading
-			research_cost_coeff = 1
-		}
 
 		research_cost = 1.5
 		start_year = 1870
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = 4 }
+			position = { x = 8 y = 7 }
 		}
 		
 		categories = {
@@ -359,7 +415,7 @@ technologies = {
 		start_year = 1868
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = 5 }
+			position = { x = 10 y = 19 }
 		}
 		
 		categories = {
@@ -371,26 +427,17 @@ technologies = {
 		}
 	}
 	
-	inftech_leematford = {	
-
-		XOR = {
-			inftech_leveractionwinchester
-		}	
+	inftech_leematford = {
 
 		enable_equipments = {
 			infantry_weapons3
 		}
-		
-		path = {
-			leads_to_tech = inftech_salvationrifle
-			research_cost_coeff = 1
-		}	
 
 		research_cost = 1.5
 		start_year = 1874
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = 8 }
+			position = { x = 9 y = 27 }
 		}
 		
 		categories = {
@@ -412,7 +459,7 @@ technologies = {
 		start_year = 1876
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = 14 }
+			position = { x = 7 y = 32 }
 		}
 		
 		categories = {
@@ -425,10 +472,6 @@ technologies = {
 	}
 	
 	inftech_leveractionwinchester = {
-
-		XOR = {
-			inftech_leematford
-		}	
 
 		enable_equipments = {
 			infantry_weapons5
@@ -443,7 +486,7 @@ technologies = {
 		start_year = 1873
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = 8 }
+			position = { x = 10.5 y = 15 }
 		}
 		
 		categories = {
@@ -465,7 +508,7 @@ technologies = {
 		start_year = 1875
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = 12 }
+			position = { x = 10.5 y = 24 }
 		}
 		
 		categories = {
@@ -478,7 +521,11 @@ technologies = {
 	}
 
 	inftech_officerssword = {
-
+	
+		enable_subunits = {
+			lancer_cavalry
+		}
+	
 		enable_equipments = {
 			melee_weapons1
 		}
@@ -492,7 +539,7 @@ technologies = {
 		start_year = 1868
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = 0 }
+			position = { x = 17 y = 0 }
 		}
 		
 		categories = {
@@ -529,7 +576,7 @@ technologies = {
 		start_year = 1870
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = 4 }
+			position = { x = 17 y = 4 }
 		}
 		
 		categories = {
@@ -547,7 +594,7 @@ technologies = {
 		start_year = 1871
 		folder = {
 			name = infantry_folder
-			position = { x = -2 y = 6 }
+			position = { x = 15 y = 8 }
 		}
 		
 		categories = {
@@ -565,7 +612,7 @@ technologies = {
 		start_year = 1871
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = 6 }
+			position = { x = 19 y = 8 }
 		}
 		
 		categories = {
@@ -597,7 +644,7 @@ technologies = {
 		start_year = 1872
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = 9 }
+			position = { x = 17 y = 16 }
 		}
 		
 		categories = {
@@ -623,7 +670,7 @@ technologies = {
 		start_year = 1875
 		folder = {
 			name = infantry_folder
-			position = { x = -2 y = 12 }
+			position = { x = 15 y = 26 }
 		}
 		
 		categories = {
@@ -649,7 +696,7 @@ technologies = {
 		start_year = 1875
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = 12 }
+			position = { x = 19 y = 26 }
 		}
 		
 		categories = {
@@ -770,113 +817,6 @@ technologies = {
 	#		factor = 1
 	#	}
 	#}
-
-	tech_melee_weapons = {
-
-		enable_subunits = {
-			lancer_cavalry
-		}
-
-		enable_equipments = {
-			melee_weapons1
-		}
-		
-		path = {
-			leads_to_tech = tech_melee_weapons1
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1868
-		folder = {
-			name = infantry_folder
-			position = { x = 6 y = 2 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	tech_melee_weapons1 = {
-
-		enable_equipments = {
-			melee_weapons2
-		}
-		
-		path = {
-			leads_to_tech = tech_melee_weapons2
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1868
-		folder = {
-			name = infantry_folder
-			position = { x = 6 y = 7 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	tech_melee_weapons2 = {
-
-		enable_equipments = {
-			melee_weapons3
-		}
-		
-		path = {
-			leads_to_tech = tech_melee_weapons3
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1868
-		folder = {
-			name = infantry_folder
-			position = { x = 6 y = 11 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	tech_melee_weapons3 = {
-
-		enable_equipments = {
-			melee_weapons4
-		}
-
-		research_cost = 1.5
-		start_year = 1868
-		folder = {
-			name = infantry_folder
-			position = { x = 6 y = 15 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
 	inftech_woolclothfulldress = {
 		

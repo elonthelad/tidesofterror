@@ -1590,4 +1590,23 @@ spriteType = {
 		name = "GFX_support_folder_icon"
 		textureFile = "gfx/interface/techtree/icons/support_folder_icon.dds"
 	}
+	
+	#MOD
+	
+	spriteType = {
+		name = "GFX_research_tier_banner_icon"
+		textureFile = "gfx/interface/techtree/tier_banner.png"
+	}
+	spriteType = {
+		name = "GFX_research_tab_divider_icon"
+		textureFile = "gfx/interface/techtree/tab_divider.png"
+	}
+	spriteType = {
+		name = "GFX_medium_tech_shadow_icon"
+		textureFile = "gfx/interface/techtree/mediumtechshadow.png"
+	}
+	spriteType = {
+		name = "GFX_small_tech_shadow_icon"
+		textureFile = "gfx/interface/techtree/smalltechshadow.png"
+	}
 }

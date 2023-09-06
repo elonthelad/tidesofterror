@@ -1,4 +1,5 @@
 ﻿l_english:
+ RESEARCH_BIG_TITLE: "Research Bureau"
  RESEARCH_BONUSES_TOOLTIP: "Limited technology bonuses we have:"
  RESEARCH_BONUSES_EMPTY_TOOLTIP: "Limited technology bonuses will be listed here."
  RESEARCH_BONUS_SPEED_DESC: "§Y$COUNT$x§! $VALUE|G%0$ research speed $NAME$"

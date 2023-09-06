@@ -10,18 +10,6 @@ set_technology = {
 	inftech_percussioncap = 1
 	inftech_truncheon = 1
 	tech_carriage = 1
-	tech_inf_armour1 = 1
-	tech_bayonets = 1
-	tech_redcoats = 1
-	tech_melee_weapons = 1
-	tech_auxillary = 1
-	tech_sappers_miners = 1
-	tech_comissariat = 1
-	tech_auxillary_cavalry = 1
-	tech_reconnaissance_scouters = 1
-	rifled_armstrong_gun = 1
-	cannonball = 1
-	manby_mortar = 1
 }
 
 create_faction = british_sphere_faction
