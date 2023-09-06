@@ -8,9 +8,13 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 5971 20 } #"Livingston"
+		victory_points = { 4175 7 } #"West Calder"
+		victory_points = { 2545 8 } #"East Calder"
+		victory_points = { 2449 5 } #"Broxburn"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_town
 	local_supplies=0.000
 }

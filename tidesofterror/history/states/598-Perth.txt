@@ -8,6 +8,11 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 788 20 } #"Perth"
+		victory_points = { 5407 6 } #"Bridgend"
+		victory_points = { 5867 10 } #"Scone"
+		victory_points = { 141 2 } #"Errol"
+		victory_points = { 5885 3 } #"Bridge of Earn"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

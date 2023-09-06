@@ -9,9 +9,11 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 3457 3 } #"Dalbeattie"
+		victory_points = { 2242 5 } #"Lincluden"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

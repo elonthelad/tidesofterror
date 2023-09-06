@@ -8,9 +8,11 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 971 2 } #"Bowmore"
+		victory_points = { 924 1 } #"Port Ellen"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000
-	state_category=small_island
+	state_category=small_town
 	local_supplies=0.000
 }

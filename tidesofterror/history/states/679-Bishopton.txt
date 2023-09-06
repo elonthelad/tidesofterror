@@ -8,6 +8,10 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 2950 15 } #"Paisley"
+		victory_points = { 1774 12 } #"Renfrew"
+		victory_points = { 5960 7 } #"Inchinnan"
+		victory_points = { 3857 7 } #"Crosslee"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

@@ -8,6 +8,10 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 5862 20 } #"Dundee"
+		victory_points = { 2899 12 } #"Dryburgh"
+		victory_points = { 5863 14 } #"Douglas and Angus"
+		victory_points = { 5857 10 } #"Monifieth"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

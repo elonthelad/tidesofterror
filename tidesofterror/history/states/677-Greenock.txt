@@ -9,6 +9,10 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 4432 8 } #"Greenock"
+		victory_points = { 3146 5 } #"Port Glasgow"
+		victory_points = { 4 3 } #"Inverkip"
+		victory_points = { 2633 4 } #"Largs"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

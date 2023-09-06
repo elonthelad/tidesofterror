@@ -8,6 +8,9 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 5902 10 } #"Kinross"
+		victory_points = { 5906 2 } #"Crook of Devon"
+		victory_points = { 1350 2 } #"Falkland"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

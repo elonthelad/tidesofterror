@@ -9,9 +9,15 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 1535 30 } #"Inverness"
+		victory_points = { 497 6 } #"Inshes Wood"
+		victory_points = { 5652 4 } #"Balloch"
+		victory_points = { 193 3 } #"Aviemore"
+		victory_points = { 5745 2 } #"Kingussie"
+		victory_points = { 5665 12 } #"Ballifeary"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=city
 	local_supplies=0.000
 }

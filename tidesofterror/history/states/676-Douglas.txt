@@ -3,12 +3,13 @@ state={
 	id=676
 	name="STATE_676"
 	provinces={
-		385 849 1356 1561 1571 1675 2379 2384 3469 3776 3823 3856 3899 4049 4555 5398 6060 6076 6099 6102 6107 
+		385 849 1356 1561 1571 1675 2379 2384 3469 3776 3823 3856 3899 4049 4555 5398 6060 6072 6076 6099 6102 6107 
 	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 6072 2 } #"Douglas"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

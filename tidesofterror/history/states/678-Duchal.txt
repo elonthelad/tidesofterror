@@ -9,6 +9,9 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 341 4 } #"Barrhead"
+		victory_points = { 857 6 } #"Elderslie"
+		victory_points = { 5983 6 } #"Bridge of Weir"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

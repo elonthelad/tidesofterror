@@ -7,7 +7,8 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
-
+		victory_points = { 190 2 } #"Portree"
+		victory_points = { 5384 1 } #"Broadford"
 	}
 
 	provinces={

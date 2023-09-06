@@ -8,6 +8,9 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 433 2 } #"Selkirk"
+		victory_points = { 893 4 } #"Galashiels"
+		victory_points = { 4033 3 } #"St. Boswells"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

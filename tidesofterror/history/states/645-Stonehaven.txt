@@ -9,6 +9,9 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 2358 10 } #"East Tullos"
+		victory_points = { 4576 3 } #"Portlethen"
+		victory_points = { 3094 4 } #"Stonehaven"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

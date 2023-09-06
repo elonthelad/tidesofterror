@@ -8,9 +8,13 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 3644 4 } #"Buckie"
+		victory_points = { 5655 4 } #"Keith"
+		victory_points = { 2021 2 } #"Fochabers"
+		victory_points = { 5636 1 } #"Cullen"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

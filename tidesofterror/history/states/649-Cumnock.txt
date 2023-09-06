@@ -8,6 +8,8 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 2476 5 } #"Cumnock"
+		victory_points = { 3205 1 } #"Mansfield"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

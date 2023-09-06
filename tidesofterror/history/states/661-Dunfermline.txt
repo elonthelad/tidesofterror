@@ -9,9 +9,15 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 4709 20 } #"Dunfermline"
+		victory_points = { 2304 16 } #"Rosyth"
+		victory_points = { 5090 12 } #"Crossgates"
+		victory_points = { 5428 7 } #"Dalgety Bay"
+		victory_points = { 1 2 } #"Saline"
+		victory_points = { 5936 2 } #"Kincardine"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=city
 	local_supplies=0.000
 }

@@ -8,6 +8,10 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 5928 10 } #"Kirkcaldy"
+		victory_points = { 3707 8 } #"Newliston"
+		victory_points = { 1511 8 } #"Dysart"
+		victory_points = { 5938 4 } #"Burntisland"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

@@ -40,19 +40,31 @@
 45	Herefordshire           91350 DONE
 46	Rutland                     14900 DONE
 
-47  Scotland Total		~3.2M
-48	Wales Total			~1.3M
+47  Scotland Total		~3.2M DONE
+48	Wales Total			~1.3M DONE
 49	N. Ireland Total	~1.4M
 50  Ireland Total		~3.9M
 
-VP WIGTOWN
-VP KIRKCUDBRIGHT
-VP DUMFRIES
-VP SELKIRK
-VP ROXBURGH
-VP BERWICK
-VP EAST LOTHIAN
-VP PEEBLES
+VP MP WIGTOWNSHIRE
+VP MP KIRKCUDBRIGHT
+VP MP DUMFRIES
+VP MP ROXBURGH
+VP MP BERWICK
+VP MP SELKIRK
+VP MP PEEBLES
+VP MP EAST LOTHIAN
+VP MP LOTHIAN
+VP MP 
+VP MP 
+VP MP 
+VP MP 
+VP MP 
+VP MP 
+VP MP 
+VP MP 
+VP MP 
+VP MP 
+VP MP 
 
 		victory_points = { 9999 99 } #"Blablablablablablablablabla"
 

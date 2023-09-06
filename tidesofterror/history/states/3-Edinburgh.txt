@@ -7,13 +7,17 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
-
+		victory_points = { 4702 50 } #"Edinburgh"
+		victory_points = { 2681 18 } #"Leith"
+		victory_points = { 5956 14 } #"Craigentinny"
+		victory_points = { 2878 15 } #"Blackford"
+		victory_points = { 3527 12 } #"Cramond"
 	}
 
 	provinces={
 		2681 2878 3527 4702 5956 5964 5970 
 	}
-	manpower=1
+	manpower=10000
 	buildings_max_level_factor=1.000
 	state_category=great_city
 	local_supplies=0.000

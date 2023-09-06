@@ -9,9 +9,15 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 4109 12 } #"Bridge of Dee"
+		victory_points = { 2095 30 } #"Aberdeen"
+		victory_points = { 3579 10 } #"Dyce"
+		victory_points = { 5044 8 } #"Kintore"
+		victory_points = { 4734 5 } #"Westhill"
+		victory_points = { 3605 3 } #"Banchory"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=city
 	local_supplies=0.000
 }

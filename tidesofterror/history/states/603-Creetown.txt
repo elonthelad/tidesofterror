@@ -9,6 +9,9 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 5443 2 } #"Newton Stewart"
+		victory_points = { 6253 2 } #"Gatehouse of Fleet"
+		victory_points = { 4130 2 } #"Creetown"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

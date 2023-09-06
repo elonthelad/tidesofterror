@@ -9,6 +9,11 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 5445 20 } #"Ayr"
+		victory_points = { 6075 10 } #"Prestwick"
+		victory_points = { 6089 8 } #"Alloway"
+		victory_points = { 6071 12 } #"Troon"
+		victory_points = { 2448 2 } #"Tarbolton"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

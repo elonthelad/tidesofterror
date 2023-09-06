@@ -8,6 +8,9 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 5941 2 } #"Killearn"
+		victory_points = { 745 2 } #"Blanefield"
+		victory_points = { 1880 1 } #"Milngavie"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

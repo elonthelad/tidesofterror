@@ -8,6 +8,8 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 421 1 } #"Lochmaddy"
+		victory_points = { 2096 1 } #"Balivanich"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

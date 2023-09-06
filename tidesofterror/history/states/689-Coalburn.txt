@@ -2,12 +2,15 @@ state={
 	id=689
 	name="STATE_689"
 	provinces={
-		1437 1957 3474 6020 6054 6056 6065 6072 
+		1437 1957 3474 6020 6054 6056 6065 
 	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 6020 7 } #"Larkhall"
+		victory_points = { 1957 4 } #"Kirkmuirhill"
+		victory_points = { 1437 2 } #"Lesmahagow"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

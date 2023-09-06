@@ -8,6 +8,9 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 651 8 } #"Cowdenbeath"
+		victory_points = { 5914 10 } #"Glenrothes"
+		victory_points = { 5466 3 } #"Freuchie"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

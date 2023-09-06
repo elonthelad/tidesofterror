@@ -9,6 +9,8 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 3498 20 } #"Kilmarnock"
+		victory_points = { 6064 4 } #"Hurlford"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

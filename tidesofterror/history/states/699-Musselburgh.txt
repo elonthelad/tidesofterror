@@ -8,6 +8,10 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
+		victory_points = { 1369 8 } #"Musselburgh"
+		victory_points = { 4151 20 } #"Dalkeith"
+		victory_points = { 5972 16 } #"Danderhall"
+		victory_points = { 5990 4 } #"Bonnyrigg"
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000
