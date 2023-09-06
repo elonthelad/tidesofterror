@@ -1279,9 +1279,9 @@ NFrontend = {
 	CAMERA_END_Y = 1500.0,
 	CAMERA_END_Z = 1400.0,
 	CAMERA_MIN_HEIGHT = 38.0,						-- Minimum camera height
-	CAMERA_MAX_HEIGHT = 1760.0,						-- Maximum camera height
+	CAMERA_MAX_HEIGHT = 1830.0,						-- Maximum camera height
 	CAMERA_SPEED_IN_MENUS = 0.1,
-	CAMERA_INTERPOLATION_SPEED = 0.28,
+	CAMERA_INTERPOLATION_SPEED = 0.12,
 
 	FRONTEND_POS_X = 2858.0,
 	FRONTEND_POS_Y = 1500.0,
