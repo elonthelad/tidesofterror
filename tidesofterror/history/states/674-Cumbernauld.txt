@@ -8,12 +8,12 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
-		victory_points = { 4821 20 } #"Kirkintilloch"
-		victory_points = { 5963 8 } #"Condorrat"
+		victory_points = { 4821 12 } #"Kirkintilloch"
+		victory_points = { 5963 7 } #"Condorrat"
 		victory_points = { 5969 4 } #"Moodiesburn"
 	}
-	manpower=10000
+	manpower=5348
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=small_town
 	local_supplies=0.000
 }

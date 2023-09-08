@@ -13,8 +13,8 @@ state={
 		victory_points = { 1570 1 } #"Portavadie"
 		victory_points = { 1218 2 } #"Lochgoilhea"
 	}
-	manpower=10000
+	manpower=1693
 	buildings_max_level_factor=1.000
-	state_category=peaks
+	state_category=small_town
 	local_supplies=0.000
 }

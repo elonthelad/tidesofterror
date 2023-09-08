@@ -1,8 +1,9 @@
-
 state={
 	id=3
 	name="STATE_3"
-
+	provinces={
+		2681 2878 3527 4702 5956 5964 5970 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
@@ -13,11 +14,7 @@ state={
 		victory_points = { 2878 15 } #"Blackford"
 		victory_points = { 3527 12 } #"Cramond"
 	}
-
-	provinces={
-		2681 2878 3527 4702 5956 5964 5970 
-	}
-	manpower=10000
+	manpower=93578
 	buildings_max_level_factor=1.000
 	state_category=great_city
 	local_supplies=0.000

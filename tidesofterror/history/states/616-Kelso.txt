@@ -11,7 +11,7 @@ state={
 		victory_points = { 3365 2 } #"Maxwellheugh"
 		victory_points = { 5522 1 } #"Town Yetholm"
 	}
-	manpower=10000
+	manpower=1198
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

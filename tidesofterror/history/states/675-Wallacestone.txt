@@ -13,7 +13,7 @@ state={
 		victory_points = { 2636 8 } #"Armadale"
 		victory_points = { 3993 6 } #"Bo'ness"
 	}
-	manpower=10000
+	manpower=8099
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

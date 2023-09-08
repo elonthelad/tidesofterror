@@ -11,7 +11,7 @@ state={
 		victory_points = { 2476 5 } #"Cumnock"
 		victory_points = { 3205 1 } #"Mansfield"
 	}
-	manpower=10000
+	manpower=2133
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

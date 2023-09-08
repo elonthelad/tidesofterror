@@ -11,8 +11,8 @@ state={
 		victory_points = { 5632 4 } #"Dingwall"
 		victory_points = { 4855 2 } #"Evanton"
 	}
-	manpower=10000
+	manpower=1858
 	buildings_max_level_factor=1.000
-	state_category=peaks
+	state_category=small_town
 	local_supplies=0.000
 }

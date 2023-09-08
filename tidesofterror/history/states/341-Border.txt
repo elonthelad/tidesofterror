@@ -13,7 +13,7 @@ state={
 		victory_points = { 984 12 } #"Carleton"
 		victory_points = { 706 14 } #"Kingmoor"
 	}
-	manpower=46709
+	manpower=17709
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

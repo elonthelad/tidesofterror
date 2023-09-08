@@ -11,7 +11,7 @@ state={
 		victory_points = { 535 1 } #"Bonar Bridge"
 		victory_points = { 5602 2 } #"Dornoch"
 	}
-	manpower=10000
+	manpower=768
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

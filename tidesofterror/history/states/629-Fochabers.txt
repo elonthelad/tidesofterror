@@ -12,7 +12,7 @@ state={
 		victory_points = { 3282 4 } #"Lossiemouth"
 		victory_points = { 3037 2 } #"Mosstodloch"
 	}
-	manpower=10000
+	manpower=3244
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

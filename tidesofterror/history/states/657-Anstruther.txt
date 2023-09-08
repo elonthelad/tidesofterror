@@ -12,7 +12,7 @@ state={
 		victory_points = { 298 3 } #"Crail"
 		victory_points = { 4795 2 } #"Lundin Links"
 	}
-	manpower=10000
+	manpower=1812
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

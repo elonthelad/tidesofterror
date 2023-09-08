@@ -12,7 +12,7 @@ state={
 		victory_points = { 144 1 } #"Glencoe"
 		victory_points = { 1616 1 } #"Benderloch"
 	}
-	manpower=10000
+	manpower=738
 	buildings_max_level_factor=1.000
 	state_category=peaks
 	local_supplies=0.000

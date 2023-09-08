@@ -13,7 +13,7 @@ state={
 		victory_points = { 4576 3 } #"Portlethen"
 		victory_points = { 3094 4 } #"Stonehaven"
 	}
-	manpower=10000
+	manpower=4067
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

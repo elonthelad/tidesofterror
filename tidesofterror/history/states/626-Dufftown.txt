@@ -11,7 +11,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 5708 1 } #"Tomintoul"
 	}
-	manpower=10000
+	manpower=709
 	buildings_max_level_factor=1.000
 	state_category=peaks
 	local_supplies=0.000

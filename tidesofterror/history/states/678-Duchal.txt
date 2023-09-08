@@ -13,8 +13,8 @@ state={
 		victory_points = { 857 6 } #"Elderslie"
 		victory_points = { 5983 6 } #"Bridge of Weir"
 	}
-	manpower=10000
+	manpower=7925
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

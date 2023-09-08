@@ -9,12 +9,12 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
-		victory_points = { 6196 15 } #"Dumfries"
+		victory_points = { 6196 20 } #"Dumfries"
 		victory_points = { 1789 6 } #"Heathhall"
 		victory_points = { 328 2 } #"Lochmaben"
 		victory_points = { 1975 1 } #"Parkgate"
 	}
-	manpower=10000
+	manpower=11644
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

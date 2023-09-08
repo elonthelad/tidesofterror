@@ -8,10 +8,10 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = SCO
-		victory_points = { 1405 5 } #"Maybole"
+		victory_points = { 1405 3 } #"Maybole"
 	}
-	manpower=10000
+	manpower=1311
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=pastoral
 	local_supplies=0.000
 }

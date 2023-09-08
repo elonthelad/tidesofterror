@@ -10,7 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 5540 1 } #"Oldshoremore"
 	}
-	manpower=10000
+	manpower=419
 	buildings_max_level_factor=1.000
 	state_category=peaks
 	local_supplies=0.000

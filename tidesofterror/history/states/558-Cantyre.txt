@@ -12,8 +12,8 @@ state={
 		victory_points = { 4986 1 } #"Southend"
 		victory_points = { 1242 1 } #"Carradale"
 	}
-	manpower=10000
+	manpower=1228
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=pastoral
 	local_supplies=0.000
 }

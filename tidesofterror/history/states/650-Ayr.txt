@@ -15,7 +15,7 @@ state={
 		victory_points = { 6071 12 } #"Troon"
 		victory_points = { 2448 2 } #"Tarbolton"
 	}
-	manpower=10000
+	manpower=19154
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

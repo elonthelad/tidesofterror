@@ -12,7 +12,7 @@ state={
 		victory_points = { 5904 6 } #"Buckhaven"
 		victory_points = { 5911 4 } #"Markinch"
 	}
-	manpower=10000
+	manpower=5708
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

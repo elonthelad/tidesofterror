@@ -12,7 +12,7 @@ state={
 		victory_points = { 893 4 } #"Galashiels"
 		victory_points = { 4033 3 } #"St. Boswells"
 	}
-	manpower=10000
+	manpower=2087
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

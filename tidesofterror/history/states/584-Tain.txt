@@ -10,7 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 4797 1 } #"Rosehall"
 	}
-	manpower=10000
+	manpower=612
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

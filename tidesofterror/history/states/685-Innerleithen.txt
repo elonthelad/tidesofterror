@@ -10,7 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 6062 3 } #"Innerleithen"
 	}
-	manpower=10000
+	manpower=615
 	buildings_max_level_factor=1.000
 	state_category=peaks
 	local_supplies=0.000

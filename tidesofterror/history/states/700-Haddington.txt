@@ -11,7 +11,7 @@ state={
 		victory_points = { 5968 6 } #"Haddington"
 		victory_points = { 5977 3 } #"Gifford"
 	}
-	manpower=10000
+	manpower=2082
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

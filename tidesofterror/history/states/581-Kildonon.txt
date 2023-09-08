@@ -10,7 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 4945 2 } #"Brora"
 	}
-	manpower=10000
+	manpower=722
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

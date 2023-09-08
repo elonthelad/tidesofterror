@@ -12,7 +12,7 @@ state={
 		victory_points = { 1599 8 } #"Blantyre"
 		victory_points = { 6008 6 } #"East Kilbride"
 	}
-	manpower=10000
+	manpower=11491
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

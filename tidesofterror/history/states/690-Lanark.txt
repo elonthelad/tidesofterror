@@ -12,7 +12,7 @@ state={
 		victory_points = { 3975 5 } #"Carluke"
 		victory_points = { 6039 2 } #"Carstairs"
 	}
-	manpower=10000
+	manpower=4835
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000
