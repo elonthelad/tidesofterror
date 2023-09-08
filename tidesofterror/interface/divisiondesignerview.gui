@@ -593,7 +593,7 @@ guiTypes = {
 
 		ButtonType = {
 			name ="div_templ_symbol_button"
-			spriteType = "GFX_unit_super_heavy_armor_icon_medium"	
+			spriteType = "GFX_unit_line_infantry_icon_medium"	
 			position = { x=384 y=187 } #x+8 y+1
 			clicksound = click_default
 		}	

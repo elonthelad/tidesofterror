@@ -56,7 +56,7 @@ guiTypes = {
 			buttonType = {
 				name = "land_doctrine_folder_tab"
 				position = { x = -2250 y = 0 }
-				quadTextureSprite = "GFX_landdoctrine_tab_large"
+				quadTextureSprite = "GFX_infantry_folder_tab"
 				frame = 1
 				clicksound = ui_doctrine_tab_land
 			}
@@ -118,6 +118,18 @@ guiTypes = {
 			maxWidth = 80
 			maxHeight = 20
 			format = center
+		}
+	}
+	
+	containerWindowType = {
+		name = "technology_air_mission_entry"
+		position = { x=5 y=22 }
+		size = { width = 40 height = 40 }	
+		clipping = no
+
+		iconType = {
+			name ="mission_icon"
+			spriteType = "GFX_strategicair_mission_types"
 		}
 	}
 }

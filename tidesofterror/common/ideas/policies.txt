@@ -66,12 +66,6 @@ ideas = {
 					factor = 20
 					manpower_per_military_factory <  400
 				}
-
-				modifier = {
-					factor = 0
-					NOT = { has_idea = press_gangers }
-				}
-
 			}
 
 			cost = 150
