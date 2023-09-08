@@ -489,7 +489,7 @@ equipment_modules = {
 		}
 	}
 	
-	hardsuit_pallisadegun = {
+	hardsuit_palisadegun = {
 		category = hardsuitlargeweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 

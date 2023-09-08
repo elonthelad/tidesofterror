@@ -105,7 +105,7 @@ equipments = {
 		build_cost_ic = 0.38
 	}
 
-	melee_weapons4 = { #Pallisade Gun
+	melee_weapons4 = { #Palisade Gun
 		year = 1875
 	
 		archetype = melee_weapons
