@@ -1,0 +1,59 @@
+"Battle Hardsuit"
+Based off the hardsuit unlocked in infantry techs, which are used for marines and underwater exploration. These are customisable versions, fitted for outright combat. They are hard to make, expensive, but very effective at protecting the brave soul inside. The first model doesnt feature weaponry, acting only as a shell of armour. The later editions allow the user to carry very heavy specialised weapons.
+
+Suits progress as such-
+
+Prototype "Metalman" -> Basic "Strongman Suit" -> Advanced "Battle Hardsuit" -> Splits off into either;
+
+Modern Heavy Hardsuit
+or
+Modern Lightframe
+
+
+
+"Daddy Long Legs"
+Advancing from the Strongman Suit design, this lightweight and tall two legged machine also fits one person. Can mount some heavy weapons like machine guns and flamers, focusing on speed and low resource cost.
+
+Frames progress as such-
+
+Prototype "Stalker" -> Basic "Widower" -> Advanced "Daddy Long Legs"
+
+
+
+"War Carriage"
+Horse-drawn carriage modified for military use. Takes a crew of four. Can mount medium-large weaponry, or one singular large weapon. Somewhat cheap and quick to make, but not as effective or as fast as other options.
+
+Chassis progress as such-
+
+Prototype "Chariot" -> Basic "Iron Carriage" -> Advanced "War Carriage"
+
+
+
+"Steel Jumbo"
+Large tank-like vehicle which houses a crew of eight. Early designs work off the davinci tank, boasting a circle of cannons and spearguns. Mounts high numbers of medium-large weaponry. Initially uses a crank+steam operated central transmission for its wheels, eventually upgrading to full steam and eventually gasoline engines if the player chooses so. Focuses on very high defence and hardness, can be a little expensive.
+
+Hulls progress as such-
+
+Prototype "Siege Motile" -> Basic "Iron Coffer" -> Advanced "Steel Jumbo"
+
+
+
+"God's Chariot"
+Exclusive to Hammers of God and the Golden Dawn tag, this replaces the Steel Jumbo. It is a large machine built in the likeness of a chapel, built out of stone, cobble and thatch. It moves on wheels, then tracks as it progresses. It is manned by three crusaders. It can carry medium weapons and focuses more on defense but is terribly slow, and but uses cheap non-metal materials.
+
+Chassis progress as such-
+
+Prototype "Little Chapel" -> Basic "Death Chantry" -> Advanced "God's Chariot"
+
+
+
+"Derailed Engine Car"
+Its a train taken off its tracks. I'm going off the rails on a crazy train!
+
+
+"Skybreaker"
+Only unlocked when researching the Steam-Stake Ballista and track propulsion. It is just the one chassis, and has low customisation. It is an enormous self-propelled speargun, acting as the inbetween for the artillery and railway gun versions of the steam-stake ballista.
+
+
+"Tin Deathtrap"
+Branching off the Iron Coffer, this cheap machine is an enclosed metal box which is designed to head straight into deep enemy territory, as it spews deathly mustard gas, choking out any creatures near it but keeping the brave two crewman safe inside to steer it and man the gas valves. It works off steam propulsion, assisted by the driver pedalling to provide additional power. Being one of the least customisable vehicles, it is very cheap and has only one chassis. It can go between gas and flammables for its weapon type.

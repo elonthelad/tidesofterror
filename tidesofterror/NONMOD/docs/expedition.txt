@@ -1,0 +1,200 @@
+------------------------------------------------------------------------------------------------------------------
+Encounters-
+------------------------------------------------------------------------------------------------------------------
+
+Encounters are mini-events to go alongside the GUI that usually only have one option, and will appear every few rooms when progressing through a site. Sometimes, they can be positive and require a skill check to unlock the buff/treasure, however most of the time, they will be negative and may not give you a choice in the result. In these options, the encounter might let the player spend a supply related to the nature of the encounter to improve the result.
+
+Encounters have skill checks with increasing thresholds as the depth & room number increase, but the checks are set between a variable range before they are put against the players team total score in the respective skill.
+
+Encounter Categories-
+
+Volition
+This governs all horrifying things. Terror, disgust, and most manners of strange eldritch happenings. Takes priority when an otherwise Conflict encounter contains an entity beyond reasoning.
+
+Conflict
+This covers all fights, be it against monsters, animals, other people or even infighting between the crew.
+
+Appraisal
+This covers most encounters to do with relics, books, ancient language and precious treasure.
+
+Labouring
+This governs all forms of mining, digging, clearing rubble and debris.
+
+Danger-
+
+Danger is a malus to all skills that is calculated when the company is designed, this mechanic exists to prevent players from spamming one meta weapon or supply while ignoring others they would've needed. It should be a calculation that considers how much food each crewmember would eat on the sites average time to complete, compares that against the amount of food brought, it would also compare the hidden stat 'depth' from sites against the amount of lights brought, and so on. This stops the player from suceeding with nonsense builds. The malus should be fairly subtle, but enough to turn the tide in many encounters. It should also lower the maximum morale, which makes sense context wise for the crew to be worried about a ridiculous build.
+
+------------------------------------------------------------------------------------------------------------------
+Crew-
+------------------------------------------------------------------------------------------------------------------
+
+Explorers are jacks of all trade, not great at anything in particular, but can do almost anything.
++20 Morale
++50 Encumbrance
++1 Medium Weapon Slot
++10 days Prep Time
+--Bonuses--
++2 Volition
++2 Appraisal
++2 Conflict
++2 Labouring
+
+Soldiers care not for trinkets and dusty old books. They're just here to clear any scum from the pits of hell.
++30 Morale
++80 Encumbrance
++1 Large Weapon Slot
++30 days Prep Time
+--Bonuses--
++3 Volition
++4 Conflict
++2 Labouring
+
+Miners arent here for fun. As soon as any lovecraftian abominations rear their ugly head, they're the first to bolt.
++20 Morale
++60 Encumbrance
++1 Medium Weapon Slot
++20 days Prep Time
+--Bonuses--
++2 Conflict
++4 Labouring
+
+Scientists are here for the great mystery that the hypogean ruins present. What lies in the deep, and why is it here?
++15 Morale
++20 Encumbrance
++1 Pistol Weapon Slot
++40 days Prep Time
+--Bonuses--
++1 Volition
++3 Appraisal
+
+Occultists are here for the better, or more often, worse. They work best with other outcasts such as themselves, but beware the bargains they may try to strike up with things that lie in the deep. They wont hesitate to abandon their post.
++25 Morale
++60 Encumbrance
+Presence of occultists reduces morale of all non-occultists by -40%
+Enables the "hasoccultist" flag if present in the team, which can have a hand in some encounters
++1 Medium Weapon Slot
++20 days Prep Time
+--Bonuses--
++3 Volition
++3 Appraisal
++2 Conflict
++2 Labouring
+
+------------------------------------------------------------------------------------------------------------------
+Weaponry-
+------------------------------------------------------------------------------------------------------------------
+
+Rifles Medium Conflict bonus. Somewhat expensive.
++10 Morale
++30 Weight
++10% Conflict Bonus per Rifle
++30 Prod. Cost
+
+Pistols Low Conflict bonus. Cheaper than rifles. Lightest Weapon.
++8 Morale
++10 Weight
++6% Conflict Bonus per Pistol
++20 Prod. Cost
+
+Melee Lower Conflict bonus than pistols, but even cheaper.
++5 Morale
++20 Weight
++4% Conflict Bonus per Melee
++12 Prod. Cost
+
+Machine Guns can only be carried by soldiers. High Conflict bonus. Very Expensive. Heaviest Weapon.
++20 Morale
++70 Weight
++15% Conflict Bonus per Machine Gun
++100 Prod. Cost
+Enables the "hasmachinegun" flag, which can have a hand in some encounters
+
+Large Weapon Slot governs all weapons.
+
+Medium governs rifles, pistols and melee.
+
+Pistol Weapon Slot governs.. pistols..
+
+Weapon Quality-
+Perfect
++50% Weapon Prod. Cost
++12% Conflict Bonus
+
+Fine
++30% Weapon Prod. Cost
++8% Conflict Bonus
+
+Adequate
+No change
+
+Poor
+-15% Weapon Prod. Cost
+-15% Conflict Bonus
+
+Cheap
+-30% Weapon Prod. Cost
+-40% Conflict Bonus
+Enables the "ischeap" flag, which can have a hand in some encounters
+
+------------------------------------------------------------------------------------------------------------------
+Supplies-
+------------------------------------------------------------------------------------------------------------------
+
+Food is used by everyone for every week that passes. Soldiers consume slightly more food. Occultists use slightly less food cuz they magic. When food runs out, everyone begins to starve and has an increasing chance to die every week, until they escape or somehow find some food again, where the chance resets to its base value.
+
+In the planning phase, food is added/removed by steps of 10 at a time.
+Per/10 Food-
++15 Weight
++10 Prod. Cost
+
+Tools are used in certain events and are lost or broken easily. When tools run out, cave-ins become impossible walls, and some escape options may quickly vanish.
+
+In the planning phase, tools are added/removed by steps of 2 at a time.
+Per/2 Tools-
++10 Weight
++20 Prod. Cost
+
+Lights are vital the lower you are. Near the surface, lights are consumed very slowly, but at low depths lights get consumed at their full speed, increasing with every 2 crewmembers. When lights go out in the far depths, things become incredibly hard quick. Escape is unlikely in this scenario.
+
+In the planning phase, lights are added/removed by steps of 6 at a time.
+Per/6 lights-
++8 Weight
++15 Prod. Cost
+
+Medical supplies are spent to mitigate deaths and occasionally and optionally, morale loss. When medical supplies run out, this no longer becomes possible, and deaths are likely, especially in Conflict encounters.
+
+In the planning phase, medical supplies are added/removed by steps of 4 at a time.
+Per/4 meds-
++10 Weight
++25 Prod. Cost
+
+Alcohol can be spent when resting to boost morale. Dont bring too much, however, as an overabundance of alcohol will lead to just a terrible lads night out in a pit of eldritch horrors- never ends well.
+
+In the planning phase, alcohol is added/removed by steps of 10 at a time.
+Per/10 Alcohol-
++5 Weight
++15 Prod. Cost
+
+All these stats for weapons and supplies are up for balancing, these are just initial
+
+------------------------------------------------------------------------------------------------------------------
+Map/Progression-
+------------------------------------------------------------------------------------------------------------------
+
+Every site is pre-made (No random generation) and they vary with length (Depth). Every site begins at the top, at surface level. They are made up of a linear series of 'rooms' which can represent anything from the way leading up to the entrance, a stairway, a corridor, an actual room or chamber. Each room has a differing time to traverse, and already-travelled rooms have a large speed buff, since you're following previous tracks. Some rooms give the player an encounter to decide to rest (Technically speaking, the people in the team would be resting every night but this is arbitrated in the hoi4 pace of time. it would be a nightmare having them actually stop every time between 22:00 - 6:00).
+
+At any moment during the journey, there is a button that can recall the team. They will attempt to leave the way they came, and some new encounters may happen during this to try to get in their way, making it a risk decision for the player whether to brunt the difficulty of leaving early, or continuing so they dont have to make multiple trips, saving time for the sake of risk. Sites can be visited as many times as the player likes, except for a few areas that have a specific flag which would be seen on the site summary view.
+
+Each room is initially covered in a 'fog-of-war', and every room visited uncovers fog for that room. Setting an ahead-team during the planning phase removes a portion of the fog near the start. Fog-of-war progression is permanent between all visits. Certain encounters can reward the player with fog removal beyond where they are, which may help the player make decisions ahead of time.
+
+The expedition crew has a morale bar, which decreases quite slowly with each room uncovered, but encounters are the main source of morale loss/gain. When morale is below a threshold, (Maybe 25%?) some crewmembers may start deserting the team, and once it reaches 0, the team will suffer mania and the journey will be declared failed, or they may even outright commit suicide, which of course will also fail the mission. Failed missions can be revisited, but for each loss in a specific site, beginning morale on that area takes a hit. If missions are failed 3 times, they become unavailable no matter what.
+
+Normal country events can occur from expeditions for important events, like the beginning of an expedition, a major discovery, a sudden calamity, major loss of life, and mission clears/fails/abandons.
+
+Sites can only be begun and evacuated if the state is not under alien control. Sea tombs can only be begun and evacuated if the sea region has >50% supremacy. Sites will continue as normal even if they lose control, this is just for starting and leaving. If the team has returned to the surface, they will leave as soon as control is regained. New journeys cannot be started while waiting, so the player will either have to return control or abandon the site for good.
+
+------------------------------------------------------------------------------------------------------------------
+Items and Encumbrance-
+------------------------------------------------------------------------------------------------------------------
+
+All weapons, supplies and bonus items have a weight to them, and each member of the team has a specific amount of carry cap they provide. Relics and treasures found within sites also have weight. In the map view, there will be an inventory button which will show a gutted version of the planning menu, where weapons, supplies and treasures can be discarded to save weight. Teams can carry an indefinite amount of weight, but anything beyond the carry cap reduces speed through rooms proportionally to the amount weight over the limit, capping at 90% reduction. Being encumbered by any degree reduces all skills by 20%.
