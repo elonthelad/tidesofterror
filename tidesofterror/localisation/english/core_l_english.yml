@@ -762,10 +762,6 @@
  UNIT_TOOLTIP_BATTALIONS: "§GBattalions§!"
  UNIT_TOOLTIP_SUPPORT: "§GSupport§!"
  MAP_ARROWS_LOCALIZATION: "$ORDERNAME$$DIVISIONS$ - $GROUP$"
- MAP_ARROWS_LOCALIZATION_EMPTY: "No divisions"
- MAP_ARROWS_DIVISIONS_COUNT: "$DIV$ Divs"
- MAP_ARROWS_DIVISIONS_COUNT_SHORT: "$DIV$ Divs"
- MAP_ARROWS_LOCALIZATION_EMPTY_SHORT: "No Divs"
  MAP_ARROWS_PARATROOPERS_COUNT: "$DIV$ Paras"
  MAP_ARROWS_INVASION_TRANSPORTS_COUNT: " - $TR$ Transports"
  MAP_ARROWS_PARADROP_TRANSPORTS_COUNT: " - $TR$ Transports"
@@ -1863,3 +1859,10 @@
  PARADROP_PLANES_REQUIRED: "\n§RThis order cannot be executed:§!\nAn additional $WINGS|H$ transport wing(s) are required."
  RETAIN_CORES: "Retain States With Our Core"
  DIVISION_VIEW_HAS_MEDALS:0 "This battalion has won the opportunity to be bestowed a §HMedal§!.\n§GClick to open Medals view.§!"
+ 
+ #MOD
+ 
+ MAP_ARROWS_LOCALIZATION_EMPTY: "None Assigned"
+ MAP_ARROWS_DIVISIONS_COUNT_SHORT: "$DIV$ Units"
+ MAP_ARROWS_LOCALIZATION_EMPTY_SHORT: "No Units"
+ MAP_ARROWS_DIVISIONS_COUNT: "$DIV$ Battalions"
