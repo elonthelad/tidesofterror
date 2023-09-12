@@ -183,6 +183,20 @@ guiTypes = {
 				slotsize = { width = 70 height = 40 }
 				format = "LEFT"
 			}
+
+			gridboxtype = {
+				name = "inftech_disorderlies_tree"
+				position = { x = 40 y = 40 }
+				slotsize = { width = 70 height = 40 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "inftech_noddies_tree"
+				position = { x = 40 y = 40 }
+				slotsize = { width = 70 height = 40 }
+				format = "LEFT"
+			}
 			
 			#Top Banner
 
@@ -274,21 +288,21 @@ guiTypes = {
 			#Trees
 
 			gridboxtype = {
-				name = "tech_auxillary_tree"
-				position = { x = 40 y = 40 }
-				slotsize = { width = 70 height = 40 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
-				name = "tech_carriage_tree"
+				name = "suptech_auxillary_tree"
 				position = { x = 40 y = 40 }
 				slotsize = { width = 70 height = 40 }
 				format = "LEFT"
 			}
 			
 			gridboxtype = {
-				name = "tech_auxillary_cavalry_tree"
+				name = "suptech_auxillary_cavalry_tree"
+				position = { x = 40 y = 40 }
+				slotsize = { width = 70 height = 40 }
+				format = "LEFT"
+			}
+			
+			gridboxtype = {
+				name = "suptech_auxillary_kelpie_tree"
 				position = { x = 40 y = 40 }
 				slotsize = { width = 70 height = 40 }
 				format = "LEFT"
@@ -384,30 +398,30 @@ guiTypes = {
 			#Trees
 
 			gridboxtype = {
-				name = "rifled_armstrong_gun_tree"
-				position = { x = 140 y = 130 }
-				slotsize = { width = 70 height = 70 }
+				name = "arttech_rifled_armstrong_gun_tree"
+				position = { x = 40 y = 40 }
+				slotsize = { width = 70 height = 40 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
-				name = "controlled_fireplans_tree"
-				position = { x = 140 y = 130 }
-				slotsize = { width = 70 height = 70 }
+				name = "arttech_controlled_fireplans_tree"
+				position = { x = 40 y = 40 }
+				slotsize = { width = 70 height = 40 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
-				name = "manby_mortar_tree"
-				position = { x = 140 y = 130 }
-				slotsize = { width = 70 height = 70 }
+				name = "arttech_manby_mortar_tree"
+				position = { x = 40 y = 40 }
+				slotsize = { width = 70 height = 40 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
-				name = "gatling_gun_tree"
-				position = { x = 140 y = 75 }
-				slotsize = { width = 70 height = 70 }
+				name = "arttech_gatling_gun_tree"
+				position = { x = 40 y = 40 }
+				slotsize = { width = 70 height = 40 }
 				format = "LEFT"
 			}
 			
@@ -810,51 +824,52 @@ guiTypes = {
 			#Trees
 
 			gridboxtype = {
-				name = "tech_shaft_mining_tree"
-				position = { x = 100 y = 100 }
-				size = { width = 120 height = 100 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
+				name = "indtech_blast_furnace_tree"
+				position = { x = 40 y = 40 }
+				slotsize = { width = 70 height = 40 }
+				format = "LEFT"
 			}
 
 			gridboxtype = {
-				name = "tech_mechanical_tools_tree"
-				position = { x = 100 y = 100 }
-				size = { width = 120 height = 100 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
+				name = "indtech_pumpjack_tree"
+				position = { x = 40 y = 40 }
+				slotsize = { width = 70 height = 40 }
+				format = "LEFT"
 			}
 
 			gridboxtype = {
-				name = "tech_water_tube_boiler_tree"
-				position = { x = 100 y = 100 }
-				size = { width = 120 height = 100 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
+				name = "indtech_water_tube_boiler_tree"
+				position = { x = 40 y = 40 }
+				slotsize = { width = 70 height = 40 }
+				format = "LEFT"
 			}
 
 			gridboxtype = {
-				name = "tech_application_of_electricity_tree"
-				position = { x = 100 y = 100 }
-				size = { width = 120 height = 100 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
+				name = "indtech_mechanical_tools_tree"
+				position = { x = 40 y = 40 }
+				slotsize = { width = 70 height = 40 }
+				format = "LEFT"
 			}
 
 			gridboxtype = {
-				name = "tech_blast_furnace_tree"
-				position = { x = 100 y = 100 }
-				size = { width = 120 height = 100 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
+				name = "indtech_shaft_mining_tree"
+				position = { x = 40 y = 40 }
+				slotsize = { width = 70 height = 40 }
+				format = "LEFT"
 			}
 
 			gridboxtype = {
-				name = "tech_boulin_framing_tree"
-				position = { x = 100 y = 100 }
-				size = { width = 120 height = 100 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
+				name = "indtech_boulin_framing_tree"
+				position = { x = 40 y = 40 }
+				slotsize = { width = 70 height = 40 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "indtech_carriage_tree"
+				position = { x = 40 y = 40 }
+				slotsize = { width = 70 height = 40 }
+				format = "LEFT"
 			}
 			
 			#Top Banner
@@ -1121,7 +1136,6 @@ guiTypes = {
 		size = { width = 550 height = 550 }
 		Orientation = UPPER_LEFT
 		moveable = yes
-		#clipping = no
 		fade_time = 500
 		fade_type = linear
 
@@ -1129,7 +1143,6 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			#SpriteType ="GFX_technology_info_bg"
 			SpriteType = "GFX_tiled_window_thin_border2"
 		}
 
@@ -1528,7 +1541,7 @@ guiTypes = {
 		iconType = {
 			name = "smallshadow"
 			position = { x=-175 y=-144 }
-			spriteType = "GFX_small_tech_shadow_icon"
+			#spriteType = "GFX_small_tech_shadow_icon"
 			alwaystransparent = yes
 		}
 
@@ -1585,7 +1598,7 @@ guiTypes = {
 		iconType = {
 			name = "mediumshadow"
 			position = { x=-116 y=-135 }
-			spriteType = "GFX_medium_tech_shadow_icon"
+			#spriteType = "GFX_medium_tech_shadow_icon"
 			alwaystransparent = yes
 		}
 
@@ -2378,55 +2391,118 @@ guiTypes = {
 	}
 
 	#Industry Tech Items
-
+	
 	containerWindowType = {
-		name = "techtree_industry_folder_small_item"
-		position = { x=-69 y=-23 }
-		size = { width = 207 height = 116 }
+		name = "techtree_industry_folder_item"
+		position = { x=0 y=0 }
+		size = { width = 90 height = 98 }
 		clipping = no
 
+		iconType = {
+			name = "mediumshadow"
+			position = { x=-116 y=-135 }
+			spriteType = "GFX_medium_tech_shadow_icon"
+			alwaystransparent = yes
+		}
+
 		background = {
-			name = "Background"
+			name = "bg"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
 		}
 
 		iconType = {
 			name = "Icon"
-			position = { x=105 y=67 }
+			position = { x=80 y=24 }
 			spriteType = "GFX_technology_medium"
-			centerposition = yes
 			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
 			name = "Name"
-			position = { x = 20 y = 13 }
+			position = { x = -16 y = 80 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Unknown Tech"
-			maxWidth = 166
+			maxWidth = 240
+			maxHeight = 16
+			fixedsize = yes
+			format = center
+		}
+		
+		iconType = {
+			name = "bonus_icon"
+			position = { x=3 y=-14 }
+			spriteType = "GFX_tech_bonus"
+		}
+
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 19 y = -10 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 0}
+			text = "bonus"
+			maxWidth = 55
 			maxHeight = 20
+			format = right
+		}
+	}
+
+	containerWindowType = {
+		name = "techtree_industry_folder_small_item"
+		position = { x=-10 y=8 }
+		size = { width = 90 height = 98 }
+		clipping = no
+
+		iconType = {
+			name = "smallshadow"
+			position = { x=-175 y=-144 }
+			spriteType = "GFX_small_tech_shadow_icon"
+			alwaystransparent = yes
+		}
+
+		background = {
+			name = "bg"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=20 y=24 }
+			spriteType = "GFX_technology_medium"
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "Name"
+			position = { x = -56 y = 94 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 0}
+			text = "tech"
+			maxWidth = 200
+			maxHeight = 16
 			fixedsize = yes
 			format = center
 		}
 
 		iconType = {
 			name = "bonus_icon"
-			position = { x=111 y=-22 }
+			position = { x=3 y=-14 }
 			spriteType = "GFX_tech_bonus"
 		}
 
 		instantTextBoxType = {
 			name = "bonus"
-			position = { x = 111 y = -22 }
+			position = { x = 19 y = -10 }
 			textureFile = ""
 			font = "hoi_16mbs"
-			borderSize = {x = 4 y = 4}
-			text = "lol boat"
-			maxWidth = 80
+			borderSize = {x = 0 y = 0}
+			text = "bonus"
+			maxWidth = 55
 			maxHeight = 20
-			format = center
+			format = right
 		}
 	}
 

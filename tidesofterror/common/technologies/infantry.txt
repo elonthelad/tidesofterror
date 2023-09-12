@@ -1081,7 +1081,7 @@ technologies = {
 	inftech_cannon_cavalry = {
 		
 		dependencies = {
-			handcannon = 1
+			arttech_handcannon = 1
 		}
 		
 		enable_subunits = {
@@ -1219,11 +1219,6 @@ technologies = {
 	
 	inftech_convict = {
 		
-		path = {
-			leads_to_tech = inftech_disorderlies
-			research_cost_coeff = 1
-		}
-		
 		enable_subunits = {
 			convict_infantry
 		}
@@ -1255,6 +1250,28 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = 38 y = 28 }
+		}
+		
+		categories = {
+			cat_special_forces_generic
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	inftech_noddies = {
+		
+		enable_subunits = {
+			noddy_infantry
+		}
+	
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 38 y = 34 }
 		}
 		
 		categories = {

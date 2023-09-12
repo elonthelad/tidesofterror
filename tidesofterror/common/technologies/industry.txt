@@ -1,6 +1,6 @@
 technologies = {
 	
-	tech_shaft_mining = {
+	indtech_shaft_mining = {
 
 		#add_dynamic_modifier = {
 		#	modifier = boostmined10
@@ -11,7 +11,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = tech_blasting_dynamite
+			leads_to_tech = indtech_blasting_dynamite
 			research_cost_coeff = 1
 		}
 		
@@ -23,7 +23,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 0 }
+			position = { x = 37 y = 0 }
 		}
 		
 		ai_will_do = {
@@ -31,10 +31,10 @@ technologies = {
 		}
 	}
 	
-	tech_blasting_dynamite = {
+	indtech_blasting_dynamite = {
 
 		path = {
-			leads_to_tech = tech_steam_donkey
+			leads_to_tech = indtech_steam_donkey
 			research_cost_coeff = 1
 		}
 		
@@ -46,7 +46,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 4 }
+			position = { x = 37 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -54,29 +54,16 @@ technologies = {
 		}
 	}
 	
-	tech_steam_donkey = {
-		
-		research_cost = 2
-		start_year = 1868
-		categories = {
-			industry
-		}
-		
-		folder = {
-			name = industry_folder
-			position = { x = 0 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_mechanical_tools = {
+	indtech_steam_donkey = {
 
 		path = {
-			leads_to_tech = tech_mechanised_workshops
+			leads_to_tech = indtech_colossal_engineering_theory
 			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			indtech_rotary_valve_engine = 1
+			indtech_blasting_dynamite = 1
 		}
 		
 		research_cost = 2
@@ -87,7 +74,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 5 y = 0 }
+			position = { x = 37 y = 20 }
 		}
 		
 		ai_will_do = {
@@ -95,16 +82,12 @@ technologies = {
 		}
 	}
 	
-	tech_mechanised_workshops = {
+	indtech_colossal_engineering_theory = {
 
-		path = {
-			leads_to_tech = tech_pneumatics
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = tech_industrial_machines
-			research_cost_coeff = 1
+		dependencies = {
+			indtech_electrical_machines = 1
+			indtech_steam_donkey = 1
+			indtech_steel_frame_buildings = 1
 		}
 		
 		research_cost = 2
@@ -115,7 +98,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 5 y = 4 }
+			position = { x = 37 y = 35 }
 		}
 		
 		ai_will_do = {
@@ -123,268 +106,10 @@ technologies = {
 		}
 	}
 	
-	tech_industrial_machines = {
-		
-		research_cost = 2
-		start_year = 1868
-		categories = {
-			industry
-		}
-		
-		folder = {
-			name = industry_folder
-			position = { x = 5 y = 10 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_pneumatics = {
-		
-		research_cost = 2
-		start_year = 1868
-		categories = {
-			industry
-		}
-		
-		folder = {
-			name = industry_folder
-			position = { x = 8 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_water_tube_boiler = {
+	indtech_mechanical_tools = {
 
 		path = {
-			leads_to_tech = tech_rotary_valve_engine
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1868
-		categories = {
-			industry
-		}
-		
-		folder = {
-			name = industry_folder
-			position = { x = 15 y = 0 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_rotary_valve_engine = {
-
-		path = {
-			leads_to_tech = tech_gasoline_combustion_engine
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = tech_drop_valve_applications
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = tech_steam_donkey
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = tech_steam_turbines
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1868
-		categories = {
-			industry
-		}
-		
-		folder = {
-			name = industry_folder
-			position = { x = 15 y = 4 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_drop_valve_applications = {
-
-		path = {
-			leads_to_tech = tech_large_scale_pressure_outlets
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = tech_pneumatics
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1868
-		categories = {
-			industry
-		}
-		
-		folder = {
-			name = industry_folder
-			position = { x = 11 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_large_scale_pressure_outlets = {
-		
-		research_cost = 2
-		start_year = 1868
-		categories = {
-			industry
-		}
-		
-		folder = {
-			name = industry_folder
-			position = { x = 11 y = 10 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_steam_turbines = {
-
-		path = {
-			leads_to_tech = tech_gasoline_turbines
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1868
-		categories = {
-			industry
-		}
-		
-		folder = {
-			name = industry_folder
-			position = { x = 15 y = 10 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_gasoline_turbines = {
-		
-		research_cost = 2
-		start_year = 1868
-		categories = {
-			industry
-		}
-		
-		folder = {
-			name = industry_folder
-			position = { x = 15 y = 14 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_gasoline_combustion_engine = {
-
-		path = {
-			leads_to_tech = tech_compressor_ignition_engine
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1868
-		categories = {
-			industry
-		}
-		
-		folder = {
-			name = industry_folder
-			position = { x = 20 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_compressor_ignition_engine = {
-		
-		research_cost = 2
-		start_year = 1868
-		categories = {
-			industry
-		}
-		
-		folder = {
-			name = industry_folder
-			position = { x = 20 y = 12 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_application_of_electricity = {
-
-		path = {
-			leads_to_tech = tech_compressor_ignition_engine
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = tech_steam_turbines
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = tech_electrical_arc_furnace
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1868
-		categories = {
-			industry
-		}
-		
-		folder = {
-			name = industry_folder
-			position = { x = 25 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_blast_furnace = {
-
-		path = {
-			leads_to_tech = tech_bessemer_process
+			leads_to_tech = indtech_mechanised_workshops
 			research_cost_coeff = 1
 		}
 		
@@ -404,38 +129,20 @@ technologies = {
 		}
 	}
 	
-	tech_bessemer_process = {
+	indtech_mechanised_workshops = {
 
 		path = {
-			leads_to_tech = tech_open_hearth_process
+			leads_to_tech = indtech_military_hydraulics
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = tech_reinforced_concrete
+			leads_to_tech = indtech_interchangeable_parts
 			research_cost_coeff = 1
 		}
-		
-		research_cost = 2
-		start_year = 1868
-		categories = {
-			industry
-		}
-		
-		folder = {
-			name = industry_folder
-			position = { x = 30 y = 4 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_open_hearth_process = {
 
 		path = {
-			leads_to_tech = tech_electrical_arc_furnace
+			leads_to_tech = indtech_steam_donkey
 			research_cost_coeff = 1
 		}
 		
@@ -447,7 +154,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 30 y = 8 }
+			position = { x = 30 y = 9 }
 		}
 		
 		ai_will_do = {
@@ -455,28 +162,10 @@ technologies = {
 		}
 	}
 	
-	tech_electrical_arc_furnace = {
-		
-		research_cost = 2
-		start_year = 1868
-		categories = {
-			industry
-		}
-		
-		folder = {
-			name = industry_folder
-			position = { x = 30 y = 12 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	tech_boulin_framing = {
+	indtech_interchangeable_parts = {
 
 		path = {
-			leads_to_tech = tech_reinforced_concrete
+			leads_to_tech = indtech_electrical_machines
 			research_cost_coeff = 1
 		}
 		
@@ -488,7 +177,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 35 y = 3 }
+			position = { x = 30 y = 22 }
 		}
 		
 		ai_will_do = {
@@ -496,10 +185,62 @@ technologies = {
 		}
 	}
 	
-	tech_reinforced_concrete = {
+	indtech_electrical_machines = {
 
 		path = {
-			leads_to_tech = tech_steel_frame_buildings
+			leads_to_tech = indtech_colossal_engineering_theory
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			indtech_interchangeable_parts = 1
+			indtech_application_of_electricity = 1
+		}
+
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 30 y = 33 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	indtech_military_hydraulics = {
+
+		dependencies ={
+			indtech_high_pressure_valve_applications = 1
+			indtech_mechanised_workshops = 1
+		}
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 26 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	indtech_boulin_framing = {
+
+		path = {
+			leads_to_tech = indtech_reinforced_concrete
 			research_cost_coeff = 1
 		}
 		
@@ -511,7 +252,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 35 y = 7 }
+			position = { x = 44 y = 0 }
 		}
 		
 		ai_will_do = {
@@ -519,7 +260,12 @@ technologies = {
 		}
 	}
 	
-	tech_steel_frame_buildings = {
+	indtech_reinforced_concrete = {
+
+		path = {
+			leads_to_tech = indtech_steel_frame_buildings
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 2
 		start_year = 1868
@@ -529,11 +275,482 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 35 y = 11 }
+			position = { x = 44 y = 18 }
 		}
 		
 		ai_will_do = {
 			factor = 1
+		}
+	}
+	
+	indtech_steel_frame_buildings = {
+
+		path = {
+			leads_to_tech = indtech_colossal_engineering_theory
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 44 y = 30 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	indtech_water_tube_boiler = {
+
+		path = {
+			leads_to_tech = indtech_rotary_valve_engine
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 16 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	indtech_rotary_valve_engine = {
+
+		path = {
+			leads_to_tech = indtech_basic_train
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = indtech_high_pressure_valve_applications
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = indtech_steam_turbines
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 16 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	indtech_high_pressure_valve_applications = {
+
+		path = {
+			leads_to_tech = indtech_tremendous_pressure_outlets
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = indtech_military_hydraulics
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 22 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	indtech_tremendous_pressure_outlets = {
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 22 y = 21 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	indtech_steam_turbines = {
+
+		path = {
+			leads_to_tech = indtech_gasoline_turbines
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = indtech_application_of_electricity
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 16 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	indtech_gasoline_turbines = {
+
+		dependencies = {
+			indtech_gasoline_combustion_engine = 1
+			indtech_steam_turbines = 1
+		}
+
+		path = {
+			leads_to_tech = indtech_application_of_electricity
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 16 y = 27 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	indtech_application_of_electricity = {
+
+		path = {
+			leads_to_tech = indtech_compressor_ignition_engine
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = indtech_electrical_machines
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = indtech_electrical_arc_furnace
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 12 y = 28 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	indtech_blast_furnace = {
+
+		path = {
+			leads_to_tech = indtech_bessemer_process
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	indtech_bessemer_process = {
+
+		path = {
+			leads_to_tech = indtech_open_hearth_process
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = indtech_hadfield_steel
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	indtech_open_hearth_process = {
+
+		path = {
+			leads_to_tech = indtech_electrical_arc_furnace
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 20 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	indtech_electrical_arc_furnace = {
+
+		dependencies ={
+			indtech_open_hearth_process = 1
+			indtech_application_of_electricity = 1
+		}
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 31 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	indtech_hadfield_steel = {
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 4 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	indtech_pumpjack = {
+
+		path = {
+			leads_to_tech = indtech_gasoline_combustion_engine
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 7 y = 9 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	indtech_gasoline_combustion_engine = {
+
+		path = {
+			leads_to_tech = indtech_compressor_ignition_engine
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 7 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	indtech_compressor_ignition_engine = {
+		
+		research_cost = 2
+		start_year = 1868
+		categories = {
+			industry
+		}
+		
+		folder = {
+			name = industry_folder
+			position = { x = 7 y = 27 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	indtech_carriage = {
+		enable_equipments = {
+			carriage_equipment_1
+		}
+
+		path = {
+			leads_to_tech = indtech_basic_train
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+		start_year = 1838
+		folder = {
+			name = industry_folder
+			position = { x = 12 y = 0 }
+		}
+		
+		categories = {
+			train_tech
+		}
+		
+		ai_will_do = {
+			factor = 75
+		}
+	}
+
+	indtech_basic_train = {
+		enable_equipments = {
+			train_equipment_1
+		}
+
+		dependencies = {
+			indtech_carriage = 1
+			indtech_rotary_valve_engine = 1
+		}
+
+		path = {
+			leads_to_tech = indtech_austere_train
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1804
+		folder = {
+			name = industry_folder
+			position = { x = 12 y = 8 }
+		}
+		
+		categories = {
+			train_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	indtech_austere_train = {
+		enable_equipments = {
+			train_equipment_2
+		}
+
+		research_cost = 1.6
+		start_year = 1870
+		folder = {
+			name = industry_folder
+			position = { x = 12 y = 16 }
+		}
+		
+		categories = {
+			train_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
 		}
 	}
 }

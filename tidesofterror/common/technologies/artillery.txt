@@ -1,18 +1,6 @@
 technologies = {
-	
-	@1918 = 0
-	@1936 = 2
-	@1938 = 4
-	@1939 = 6
-	@1940 = 8
-	@1941 = 10
-	@1942 = 12
-	@1943 = 14
-	@1944 = 16
-	@1945 = 18
-	@1946 = 20
 
-	rifled_armstrong_gun = {
+	arttech_rifled_armstrong_gun = {
 
 		enable_equipment_modules = {
 			huge_forward_cannon
@@ -28,12 +16,12 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = cannon9_pdr_8_cwt_gun
+			leads_to_tech = arttech_cannon9_pdr_8_cwt_gun
 			research_cost_coeff = 1
 		}		
 		
 		path = {
-			leads_to_tech = cannonball
+			leads_to_tech = arttech_cannonball
 			research_cost_coeff = 1
 		}	
 
@@ -41,7 +29,7 @@ technologies = {
 		start_year = 1866
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 0 }
+			position = { x = 5 y = 0 }
 		}
 		
 		categories = {
@@ -53,20 +41,13 @@ technologies = {
 		}
 	}
 
-    cannonball = {
-
-		enable_equipments = {
-		}
-		
-		path = {
-			research_cost_coeff = 1
-		}		
+    cannonball = {	
 
 		research_cost = 1.5
 		start_year = 1867
 		folder = {
 			name = artillery_folder
-			position = { x = -1 y = 0 }
+			position = { x = 8 y = 1 }
 		}
 		
 		categories = {
@@ -78,24 +59,24 @@ technologies = {
 		}
 	}
     
-	cannon9_pdr_8_cwt_gun = {
+	arttech_cannon9_pdr_8_cwt_gun = {
 
 		enable_equipments = {
 			artillery_equipment_2
 		}
 		
 		path = {
-			leads_to_tech = handcannon
+			leads_to_tech = arttech_handcannon
 			research_cost_coeff = 1
 		}	
 		
 		path = {
-			leads_to_tech = steam_pressure_10_cwt_gun
+			leads_to_tech = arttech_steam_pressure_10_cwt_gun
 			research_cost_coeff = 1
 		}	
 		
 		path = {
-			leads_to_tech = canistershot
+			leads_to_tech = arttech_canistershot
 			research_cost_coeff = 1
 		}	
 
@@ -103,7 +84,7 @@ technologies = {
 		start_year = 1869
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 5 }
+			position = { x = 5 y = 7 }
 		}
 		
 		categories = {
@@ -115,20 +96,13 @@ technologies = {
 		}
 	}
 
-    canistershot = {
-
-		enable_equipments = {
-		}
-		
-		path = {
-			research_cost_coeff = 1
-		}		
+    arttech_canistershot = {
 
 		research_cost = 1.5
 		start_year = 1869
 		folder = {
 			name = artillery_folder
-			position = { x = -1 y = 5 }
+			position = { x = 8 y = 8 }
 		}
 		
 		categories = {
@@ -140,19 +114,19 @@ technologies = {
 		}
 	}
     
-	steam_pressure_10_cwt_gun = {
+	arttech_steam_pressure_10_cwt_gun = {
 
 		enable_equipments = {
 			artillery_equipment_3
 		}
 		
 		path = {
-			leads_to_tech = heated_carcass_shot
+			leads_to_tech = arttech_heated_carcass_shot
 			research_cost_coeff = 1
 		}
 		
 		path = {
-			leads_to_tech = steam_stake_ballistae
+			leads_to_tech = arttech_steam_stake_ballistae
 			research_cost_coeff = 1
 		}
 
@@ -160,7 +134,7 @@ technologies = {
 		start_year = 1870
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 10 }
+			position = { x = 5 y = 15 }
 		}
 		
 		categories = {
@@ -172,11 +146,11 @@ technologies = {
 		}
 	}
 
-    heated_carcass_shot = {
+    arttech_heated_carcass_shot = {
 
 		dependencies = {
-    		tar_peat_pitch_compounds = 1
-   			steam_pressure_10_cwt_gun = 1
+    		arttech_tar_peat_pitch_compounds = 1
+   			arttech_steam_pressure_10_cwt_gun = 1
 		}
 		
 		path = {
@@ -187,7 +161,7 @@ technologies = {
 		start_year = 1870
 		folder = {
 			name = artillery_folder
-			position = { x = -1 y = 10 }
+			position = { x = 8 y = 16 }
 		}
 		
 		categories = {
@@ -199,22 +173,22 @@ technologies = {
 		}
 	}
     
-	molten_stake_arbalest = {
+	arttech_molten_stake_arbalest = {
 
 		enable_equipments = {
 			artillery_equipment_5
 		}
 		
 		dependencies = {
-   			steam_stake_ballistae = 1
-   			oil_nitroglycerin_compounds = 1
+   			arttech_steam_stake_ballistae = 1
+   			arttech_oil_nitroglycerin_compounds = 1
 		}
 
 		research_cost = 1.5
 		start_year = 1874
 		folder = {
 			name = artillery_folder
-			position = { x = 1 y = 21 }
+			position = { x = 7 y = 31 }
 		}
 		
 		categories = {
@@ -226,14 +200,14 @@ technologies = {
 		}
 	}
     
-	steam_stake_ballistae = {
+	arttech_steam_stake_ballistae = {
 
 		enable_equipments = {
 			artillery_equipment_4
 		}
 		
 		path = {
-			leads_to_tech = molten_stake_arbalest
+			leads_to_tech = arttech_molten_stake_arbalest
 			research_cost_coeff = 1
 		}
 
@@ -241,7 +215,7 @@ technologies = {
 		start_year = 1872
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 17 }
+			position = { x = 5 y = 22 }
 		}
 		
 		categories = {
@@ -253,7 +227,7 @@ technologies = {
 		}
 	}
     
-	handcannon = {
+	arttech_handcannon = {
 
 		enable_equipments = {
 			handcannon_equipment_1
@@ -264,202 +238,12 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = breechspear
+			leads_to_tech = arttech_breechspear
 			research_cost_coeff = 1
 		}		
 
 		research_cost = 1.5
 		start_year = 1871
-		folder = {
-			name = artillery_folder
-			position = { x = -6 y = 9 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-    
-	breechspear = {
-
-		enable_equipments = {
-			handcannon_equipment_2
-		}
-		
-		path = {
-            leads_to_tech = boomstick
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1872
-		folder = {
-			name = artillery_folder
-			position = { x = -6 y = 14 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-    
-	boomstick = {
-
-		enable_equipments = {
-			handcannon_equipment_3
-		}	
-
-		research_cost = 1.5
-		start_year = 1874
-		folder = {
-			name = artillery_folder
-			position = { x = -6 y = 21 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-    
-	controlled_fireplans = {
-
-		enable_equipments = {
-			scorch_equipment_1
-		}	
-		
-		enable_subunits = {
-			scorch_crew
-		}
-		
-		path = {
-            leads_to_tech = tar_peat_pitch_compounds
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1944
-		folder = {
-			name = artillery_folder
-			position = { x = 1 y = 2 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-    
-	tar_peat_pitch_compounds = {
-
-		enable_equipments = {
-			scorch_equipment_2
-		}
-		
-		path = {
-            leads_to_tech = oil_nitroglycerin_compounds
-			research_cost_coeff = 1
-		}
-		
-		path = {
-            leads_to_tech = molotov_cocktails
-			research_cost_coeff = 1
-		}
-		
-		path = {
-            leads_to_tech = heated_carcass_shot
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1944
-		folder = {
-			name = artillery_folder
-			position = { x = 1 y = 7 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-    
-	molotov_cocktails = {
-
-        path = {
-            leads_to_tech = fracturing_hand_bomb
-            research_cost_coeff = 1
-        }
-
-		research_cost = 1.5
-		start_year = 1944
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 7 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-    
-	fracturing_hand_bomb = {
-
-		research_cost = 1.5
-		start_year = 1944
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 17 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-    
-	oil_nitroglycerin_compounds = {
-
-		enable_equipments = {
-			scorch_equipment_3
-		}
-		
-		path = {
-            leads_to_tech = molten_stake_arbalest
-            research_cost_coeff = 1
-		}
-		
-		path = {
-            leads_to_tech = naphtha_howitzer
-            research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1944
 		folder = {
 			name = artillery_folder
 			position = { x = 1 y = 12 }
@@ -474,7 +258,197 @@ technologies = {
 		}
 	}
     
-	manby_mortar = {
+	arttech_breechspear = {
+
+		enable_equipments = {
+			handcannon_equipment_2
+		}
+		
+		path = {
+            leads_to_tech = arttech_boomstick
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1872
+		folder = {
+			name = artillery_folder
+			position = { x = 1 y = 23 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+	arttech_boomstick = {
+
+		enable_equipments = {
+			handcannon_equipment_3
+		}	
+
+		research_cost = 1.5
+		start_year = 1874
+		folder = {
+			name = artillery_folder
+			position = { x = 1 y = 34 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+	arttech_controlled_fireplans = {
+
+		enable_equipments = {
+			scorch_equipment_1
+		}	
+		
+		enable_subunits = {
+			scorch_crew
+		}
+		
+		path = {
+            leads_to_tech = arttech_tar_peat_pitch_compounds
+			research_cost_coeff = 1
+		}
+		
+		path = {
+            leads_to_tech = arttech_molotov_cocktails
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1944
+		folder = {
+			name = artillery_folder
+			position = { x = 14 y = 2 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+	arttech_tar_peat_pitch_compounds = {
+
+		enable_equipments = {
+			scorch_equipment_2
+		}
+		
+		path = {
+            leads_to_tech = arttech_oil_nitroglycerin_compounds
+			research_cost_coeff = 1
+		}
+		
+		path = {
+            leads_to_tech = arttech_heated_carcass_shot
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1944
+		folder = {
+			name = artillery_folder
+			position = { x = 14 y = 11 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+	arttech_molotov_cocktails = {
+
+        path = {
+            leads_to_tech = arttech_mercury_spoke_bomb
+            research_cost_coeff = 1
+        }
+
+		research_cost = 1.5
+		start_year = 1944
+		folder = {
+			name = artillery_folder
+			position = { x = 17 y = 7 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+	arttech_mercury_spoke_bomb = {
+
+		research_cost = 1.5
+		start_year = 1944
+		folder = {
+			name = artillery_folder
+			position = { x = 17 y = 16 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+	arttech_oil_nitroglycerin_compounds = {
+
+		enable_equipments = {
+			scorch_equipment_3
+		}
+		
+		path = {
+            leads_to_tech = arttech_molten_stake_arbalest
+            research_cost_coeff = 1
+		}
+		
+		path = {
+            leads_to_tech = arttech_naphtha_howitzer
+            research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1944
+		folder = {
+			name = artillery_folder
+			position = { x = 14 y = 21 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+	arttech_manby_mortar = {
 
 		enable_equipments = {
 			mortar_equipment_1
@@ -485,7 +459,7 @@ technologies = {
 		}
 		
 		path = {
-            leads_to_tech = mortar_miniaturisation
+            leads_to_tech = arttech_mortar_miniaturisation
 			research_cost_coeff = 1
 		}
 
@@ -493,7 +467,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = artillery_folder
-			position = { x = 5 y = 0 }
+			position = { x = 21 y = 0 }
 		}
 		
 		categories = {
@@ -505,13 +479,13 @@ technologies = {
 		}
 	}
     
-	mortar_miniaturisation = {
+	arttech_mortar_miniaturisation = {
 
 		enable_equipments = {
 		}
 		
 		path = {
-            leads_to_tech = coehorn_mortar
+            leads_to_tech = arttech_coehorn_mortar
 			research_cost_coeff = 1
 		}
 
@@ -519,7 +493,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = artillery_folder
-			position = { x = 5 y = 4 }
+			position = { x = 21 y = 7 }
 		}
 		
 		categories = {
@@ -531,14 +505,14 @@ technologies = {
 		}
 	}
     
-	coehorn_mortar = {
+	arttech_coehorn_mortar = {
 
 		enable_equipments = {
 			mortar_equipment_2
 		}
 		
 		path = {
-            leads_to_tech = naphtha_howitzer
+            leads_to_tech = arttech_naphtha_howitzer
 			research_cost_coeff = 1
 		}
 
@@ -546,7 +520,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = artillery_folder
-			position = { x = 5 y = 8 }
+			position = { x = 21 y = 9 }
 		}
 		
 		categories = {
@@ -558,22 +532,21 @@ technologies = {
 		}
 	}
     
-	naphtha_howitzer = {
+	arttech_naphtha_howitzer = {
 
 		enable_equipments = {
 			mortar_equipment_3
 		}
 
 		dependencies = {
-   			coehorn_mortar = 1
-  			tar_peat_pitch_compounds = 1
+  			arttech_tar_peat_pitch_compounds = 1
 		}
 
 		research_cost = 1.5
-		start_year = 1944
+		start_year = 1872
 		folder = {
 			name = artillery_folder
-			position = { x = 5 y = 14 }
+			position = { x = 21 y = 24 }
 		}
 		
 		categories = {
@@ -585,7 +558,7 @@ technologies = {
 		}
 	}
     
-	gatling_gun = {
+	arttech_gatling_gun = {
 
 		enable_equipments = {
 			gatling_equipment_1
@@ -596,12 +569,12 @@ technologies = {
 		}
 		
 		path = {
-            leads_to_tech = maxim_gun
+            leads_to_tech = arttech_maxim_gun
 			research_cost_coeff = 1
 		}
 		
 		path = {
-            leads_to_tech = smooth_crank_synchronisation
+            leads_to_tech = arttech_smooth_crank_synchronisation
 			research_cost_coeff = 1
 		}
 
@@ -609,7 +582,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = artillery_folder
-			position = { x = 8 y = 0 }
+			position = { x = 28 y = 5 }
 		}
 		
 		categories = {
@@ -621,7 +594,7 @@ technologies = {
 		}
 	}
     
-	smooth_crank_synchronisation = {
+	arttech_smooth_crank_synchronisation = {
 
 		enable_equipments = {
 		}
@@ -630,7 +603,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = artillery_folder
-			position = { x = 10 y = 0 }
+			position = { x = 31 y = 6 }
 		}
 		
 		categories = {
@@ -642,19 +615,19 @@ technologies = {
 		}
 	}
     
-	maxim_gun = {
+	arttech_maxim_gun = {
 
 		enable_equipments = {
 			gatling_equipment_2
 		}
 		
 		path = {
-            leads_to_tech = snapdragon_tyler_gun
+            leads_to_tech = arttech_snapdragon_tyler_gun
 			research_cost_coeff = 1
 		}
 		
 		path = {
-            leads_to_tech = boilwater_exhausts
+            leads_to_tech = arttech_boilwater_exhausts
 			research_cost_coeff = 1
 		}
 
@@ -662,7 +635,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = artillery_folder
-			position = { x = 8 y = 5 }
+			position = { x = 28 y = 17 }
 		}
 		
 		categories = {
@@ -674,10 +647,10 @@ technologies = {
 		}
 	}
     
-	boilwater_exhausts = {
+	arttech_boilwater_exhausts = {
 		
 		path = {
-            leads_to_tech = icebox_reducer
+            leads_to_tech = arttech_icebox_reducer
 			research_cost_coeff = 1
 		}
 
@@ -685,7 +658,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = artillery_folder
-			position = { x = 10 y = 5 }
+			position = { x = 31 y = 18 }
 		}
 		
 		categories = {
@@ -697,7 +670,7 @@ technologies = {
 		}
 	}
     
-	snapdragon_tyler_gun = {
+	arttech_snapdragon_tyler_gun = {
 
 		enable_equipments = {
 			gatling_equipment_3
@@ -707,7 +680,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = artillery_folder
-			position = { x = 8 y = 12 }
+			position = { x = 28 y = 30 }
 		}
 		
 		categories = {
@@ -719,7 +692,7 @@ technologies = {
 		}
 	}
     
-	icebox_reducer = {
+	arttech_icebox_reducer = {
 
 		enable_equipments = {
 		}
@@ -728,7 +701,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = artillery_folder
-			position = { x = 10 y = 12 }
+			position = { x = 31 y = 24 }
 		}
 		
 		categories = {

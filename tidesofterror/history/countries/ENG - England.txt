@@ -7,9 +7,13 @@ recruit_character = ENG_William_Gladstone
 # Starting tech
 set_technology = {
 	inftech_sniderenfield = 1
-	inftech_percussioncap = 1
 	inftech_truncheon = 1
-	tech_carriage = 1
+	indtech_carriage = 1
+	indtech_basic_train = 1
+	arttech_rifled_armstrong_gun = 1
+	tech_auxillary = 1
+	tech_sappers_miners = 1
+	tech_comissariat = 1
 }
 
 create_faction = british_sphere_faction
