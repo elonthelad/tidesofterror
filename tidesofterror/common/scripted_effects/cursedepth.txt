@@ -1,0 +1,43 @@
+cursedepth_interferedwithdelegate = {
+	custom_effect_tooltip = customtooltip_cursedepth2
+	hidden_effect = {
+		sound_effect = "cosmic_ire_sound"
+		add_named_threat = {
+			threat = 2
+			name = cursedepth_interferedwithdelegate
+		}
+	}
+}
+
+cursedepth_promised = {
+	custom_effect_tooltip = customtooltip_cursedepth1
+	hidden_effect = {
+		sound_effect = "cosmic_ire_sound"
+		add_named_threat = {
+			threat = 1
+			name = cursedepth_promised
+		}
+	}
+}
+
+cursedepth_dissected = {
+	custom_effect_tooltip = customtooltip_cursedepth1
+	hidden_effect = {
+		sound_effect = "cosmic_ire_sound"
+		add_named_threat = {
+			threat = 1
+			name = cursedepth_dissected
+		}
+	}
+}
+
+cursedepth_killdelegate = {
+	custom_effect_tooltip = customtooltip_cursedepth10
+	hidden_effect = {
+		sound_effect = "cosmic_ire_sound"
+		add_named_threat = {
+			threat = 10
+			name = cursedepth_killeddelegate
+		}
+	}
+}
