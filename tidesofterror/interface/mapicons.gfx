@@ -12,32 +12,9 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_onmap_digin_icon"
-		texturefile = "gfx/interface/onmap_digin_icon.dds"
-		noOfFrames = 2
-	}
-	
-	spriteType = {
-		name = "GFX_onmap_action_icon"
-		texturefile = "gfx/interface/onmap_action_icon.dds"
-		noOfFrames = 14
-	}
-
-	spriteType = {
-		name = "GFX_onmap_training_icon"
-		texturefile = "gfx/interface/onmap_in_training_icon.dds"
-	}
-
-	spriteType = {
 		name = "GFX_onmap_air_action_icon"
 		texturefile = "gfx/interface/onmap_air_action_icon.dds"
 		noOfFrames = 4
-	}
-
-	spriteType = {
-		name = "GFX_onmap_unit_counter_overlay"
-		texturefile = "gfx/interface/onmap_unit_counter_overlay.dds"
-		alwaystransparent = yes
 	}
 
 	frameAnimatedSpriteType = {
@@ -58,12 +35,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/onmap_unit_counter_half_selected.dds"
 		alwaystransparent = yes
 	}
-
-	spriteType = {
-		name = "GFX_onmap_unit_counter_selected"
-		texturefile = "gfx/interface/onmap_unit_counter_selected.dds"
-		alwaystransparent = yes
-	}
 	
 	spriteType = {
 		name = "GFX_onmap_unit_counter_active_ability"
@@ -74,12 +45,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_onmap_unit_counter_half"
 		texturefile = "gfx/interface/onmap_unit_counter_half.dds"
-	}
-
-	spriteType = {
-		name = "GFX_onmap_unit_counter"
-		noOfFrames = 3
-		texturefile = "gfx/interface/onmap_unit_counter.dds"
 	}
 
 	spriteType = {
@@ -318,36 +283,6 @@ spriteTypes = {
 	}	
 
 	spriteType = {
-		name = "GFX_mapicon_unit_bar_org"
-		texturefile = "gfx/interface/mapicons/mapicon_bar_org_sprite.dds"
-		dx_offset = { x=0.5 y=-0.5 }
-	}
-	spriteType = {
-		name = "GFX_mapicon_unit_bar_str"
-		texturefile = "gfx/interface/mapicons/mapicon_bar_str_sprite.dds"
-		dx_offset = { x=0.5 y=-0.5 }
-	}
-	#progressbartype = {
-	#	name = "GFX_mapicon_unit_bar_str"
-	#	color = { 0.0 0.5 0.0 }
-	#	colortwo = { 1.0 0.0 0.0 }
-	#	textureFile1 = "gfx\\interfaceinterface\\mapicons\\mapicon_bar_str.dds"
-	#	textureFile2 = "gfx\\interfaceinterface\\mapicons\\mapicon_bar_bg.dds"
-	#	size = { x = 17 y = 3 }
-	#	effectFile = "gfx/FX/progress.lua"
-	#	horizontal = yes
-	#}
-	#progressbartype = {
-	#	name = "GFX_mapicon_unit_bar_org"
-	#	color = { 0.0 0.5 0.0 }
-	#	colortwo = { 1.0 0.0 0.0 }
-	#	textureFile1 = "gfx\\interfaceinterface\\mapicons\\mapicon_bar_org.dds"
-	#	textureFile2 = "gfx\\interfaceinterface\\mapicons\\mapicon_bar_bg.dds"
-	#	size = { x = 17 y = 3 }
-	#	effectFile = "gfx/FX/progress.lua"
-	#	horizontal = yes
-	#}
-	spriteType = {
 		name = "GFX_mapicon_unit_frame_strip"
 		texturefile = "gfx/interface/mapicons/mapicon_frame_strip.dds"
 		noOfFrames = 3
@@ -409,11 +344,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_mapicon_land_combat"
 		texturefile = "gfx/interface/mapicons/mapicon_land_combat.dds"
-	}
-
-	spriteType = {
-		name = "GFX_battle_indicator_direction"
-		texturefile = "gfx/interface/battle_indicator_direction.dds"
 	}
 	
 	spriteType = {
@@ -625,11 +555,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_unit_attrition"
-		texturefile = "gfx/interface/onmap_attrition.dds"
-	}	
-
-	spriteType = {
 		name = "GFX_naval_mine_icon"
 		texturefile = "gfx/interface/naval_mine_icon.dds"
 	}	
@@ -810,5 +735,68 @@ spriteType = {
 		name = "GFX_on_map_supply_values_bg"
 		texturefile = "gfx/interface/mapicons/on_map_supply_values_bg.dds"
 		noOfFrames = 1
+	}
+	
+	#MOD
+	
+	#Battle Bubble
+	spriteType = {
+		name = "GFX_battle_indicator_direction"
+		texturefile = "gfx/interface/mapicons/battle_indicator_direction.dds"
+	}
+
+	spriteType = {
+		name = "GFX_onmap_unit_counter"
+		noOfFrames = 3
+		texturefile = "gfx/interface/mapicons/onmap_unit_counter.png"
+	}
+	spriteType = {
+		name = "GFX_onmap_unit_counter_overlay"
+		texturefile = "gfx/interface/mapicons/onmap_unit_counter_overlay.png"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_UV_group_marker12"
+		texturefile = "gfx/interface/mapicons/unit_counter_group_markers.dds"
+	}
+	spriteType = {
+		name = "GFX_onmap_unit_counter_selected"
+		texturefile = "gfx/interface/mapicons/onmap_unit_counter_selected.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_unit_counter_dropshadow"
+		texturefile = "gfx/interface/mapicons/unit_counter_dropshadow.png"
+		alwaystransparent = yes
+	}
+	#HP & Morale Bars
+	spriteType = {
+		name = "GFX_mapicon_unit_bar_org"
+		texturefile = "gfx/interface/mapicons/mapicon_bar_org_sprite.dds"
+		dx_offset = { x=0.5 y=-0.5 }
+	}
+	spriteType = {
+		name = "GFX_mapicon_unit_bar_str"
+		texturefile = "gfx/interface/mapicons/mapicon_bar_str_sprite.dds"
+		dx_offset = { x=0.5 y=-0.5 }
+	}
+	#Unit Icons
+	spriteType = {
+		name = "GFX_unit_attrition"
+		texturefile = "gfx/interface/mapicons/onmap_attrition.dds"
+	}	
+	spriteType = {
+		name = "GFX_onmap_digin_icon"
+		texturefile = "gfx/interface/mapicons/onmap_digin_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_onmap_action_icon"
+		texturefile = "gfx/interface/mapicons/onmap_action_icon.dds"
+		noOfFrames = 14
+	}
+	spriteType = {
+		name = "GFX_onmap_training_icon"
+		texturefile = "gfx/interface/mapicons/onmap_in_training_icon.dds"
 	}
 }
