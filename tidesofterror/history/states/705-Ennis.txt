@@ -1,0 +1,22 @@
+
+state={
+	id=705
+	name="STATE_705"
+
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+		set_demilitarized_zone = yes
+		set_state_flag = fenian_sentiment
+
+	}
+
+	provinces={
+		1145 1276 1823 1932 2218 2362 2865 3075 3167 3269 4405 4635 7106 7136 7149 7186 7197 7240 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=764
+	name="STATE_764"
+	provinces={
+		453 635 721 981 1092 1792 1882 3341 4573 6844 6865 6872 6875 6907 6966 7011 12039 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

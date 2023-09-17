@@ -1,0 +1,16 @@
+state={
+	id=801
+	name="STATE_801"
+	provinces={
+		210 375 401 644 868 1724 1730 1951 2702 2799 3738 3830 5124 7655 7667 7693 7730 7750 7751 7778 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=799
+	name="STATE_799"
+	provinces={
+		1107 1723 1990 2551 3790 3912 4314 7805 7860 7870 7890 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

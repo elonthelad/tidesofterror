@@ -1,0 +1,17 @@
+
+state={
+	id=752
+	name="STATE_752"
+	provinces={
+		1728 2094 2515 3031 3942 4440 5158 5200 6339 6344 6355 6374 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

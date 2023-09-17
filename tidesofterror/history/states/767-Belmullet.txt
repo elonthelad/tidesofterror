@@ -1,0 +1,16 @@
+state={
+	id=767
+	name="STATE_767"
+	provinces={
+		258 280 405 1045 1349 1491 2118 2886 3919 4108 4313 4339 4537 6369 6378 6393 6400 6415 8652 8653 12013 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

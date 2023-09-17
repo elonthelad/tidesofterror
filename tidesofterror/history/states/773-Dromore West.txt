@@ -1,0 +1,16 @@
+state={
+	id=773
+	name="STATE_773"
+	provinces={
+		157 389 435 1528 1898 2222 2609 2620 2640 2870 3428 4752 5045 5413 6414 6446 6456 6494 6498 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

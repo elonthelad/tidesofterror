@@ -1,0 +1,16 @@
+state={
+	id=761
+	name="STATE_761"
+	provinces={
+		566 733 861 959 1325 1603 1871 2085 2533 3430 3767 4663 4842 5053 5141 6657 6667 6680 6698 6705 6707 6734 6737 6756 6760 6761 6795 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

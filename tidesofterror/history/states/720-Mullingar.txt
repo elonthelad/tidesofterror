@@ -1,0 +1,20 @@
+
+state={
+	id=720
+	name="STATE_720"
+
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+
+	}
+
+	provinces={
+		376 445 758 772 948 1118 1265 1779 3035 3722 4754 4934 5514 6735 6762 6766 6788 6821 6837 6843 6857 12035 12036 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

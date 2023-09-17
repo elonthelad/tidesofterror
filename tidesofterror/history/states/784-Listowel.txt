@@ -1,0 +1,17 @@
+
+state={
+	id=784
+	name="STATE_784"
+	provinces={
+		381 530 1144 1221 1884 2589 3580 4041 5031 5209 7324 7326 7354 7367 7377 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

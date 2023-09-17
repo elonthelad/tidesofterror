@@ -1,0 +1,16 @@
+state={
+	id=783
+	name="STATE_783"
+	provinces={
+		1117 1235 1859 1917 2013 2314 2994 3917 4122 4897 5160 5318 7609 7634 7638 7684 7710 7728 12050 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=peaks
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=780
+	name="STATE_780"
+	provinces={
+		373 1190 1362 1743 2699 3021 3928 6925 6939 6964 6971 7020 12040 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

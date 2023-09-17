@@ -1,0 +1,17 @@
+
+state={
+	id=794
+	name="STATE_794"
+	provinces={
+		449 877 1445 1482 2101 2121 2264 2698 3362 3539 3855 4167 4536 4792 7458 7559 7567 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

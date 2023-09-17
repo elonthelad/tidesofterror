@@ -1,0 +1,16 @@
+state={
+	id=735
+	name="STATE_735"
+	provinces={
+		170 382 452 1513 1673 2105 2528 3336 4413 4522 4765 5455 6181 6199 6217 6228 6245 6293 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

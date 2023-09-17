@@ -1,0 +1,17 @@
+
+state={
+	id=791
+	name="STATE_791"
+	provinces={
+		112 186 318 543 1177 1488 1758 1855 2033 2190 2332 2595 2723 3113 3618 3766 4524 4597 5008 5058 5348 7771 7796 7815 7846 7856 7933 8666 8667 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=peaks
+	local_supplies=0.000
+}

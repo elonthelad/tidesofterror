@@ -1,0 +1,16 @@
+state={
+	id=746
+	name="STATE_746"
+	provinces={
+		61 1231 1539 1706 3348 3404 4017 4673 6200 6219 6254 6269 6287 6296 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

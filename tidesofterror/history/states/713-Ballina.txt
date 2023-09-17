@@ -1,0 +1,18 @@
+state={
+	id=713
+	name="STATE_713"
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+		set_demilitarized_zone = yes
+		set_state_flag = fenian_sentiment
+	}
+	provinces={
+		862 1326 1452 1772 1928 1956 1993 2849 3643 4129 4221 4996 5177 6423 6429 6445 6466 6467 12019 12023 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=789
+	name="STATE_789"
+	provinces={
+		563 1433 2052 2501 2554 2575 3278 4356 5016 7371 7396 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

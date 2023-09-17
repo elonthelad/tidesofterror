@@ -1,0 +1,16 @@
+state={
+	id=792
+	name="STATE_792"
+	provinces={
+		899 905 1457 1811 3013 3103 3346 4250 4773 5094 5376 7493 7510 7540 7545 7598 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

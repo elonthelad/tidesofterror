@@ -1,0 +1,16 @@
+state={
+	id=786
+	name="STATE_786"
+	provinces={
+		267 1143 1620 2150 2493 2586 2930 3090 4938 4994 5202 7677 7686 7688 7725 7746 7770 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=peaks
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=755
+	name="STATE_755"
+	provinces={
+		1756 1888 1894 2219 3725 3956 4149 4465 6475 6495 6513 6515 6524 6545 6554 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

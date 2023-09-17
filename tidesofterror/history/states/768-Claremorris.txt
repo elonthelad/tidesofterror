@@ -1,0 +1,16 @@
+state={
+	id=768
+	name="STATE_768"
+	provinces={
+		113 135 148 265 722 855 1081 1322 1640 1719 1996 2001 2428 2712 3483 3698 3700 3761 5039 5387 6595 6613 6621 6631 6637 6643 6652 6655 6658 6673 12027 12028 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

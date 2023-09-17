@@ -1,0 +1,17 @@
+
+state={
+	id=785
+	name="STATE_785"
+	provinces={
+		8 454 602 1777 2345 2375 2380 2415 2460 2877 3408 3505 3646 3762 4309 4333 4483 4519 4697 4860 5390 7497 7554 7571 7586 7610 7626 7654 7685 12048 12049 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

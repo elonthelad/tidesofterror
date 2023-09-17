@@ -1,0 +1,16 @@
+state={
+	id=740
+	name="STATE_740"
+	provinces={
+		517 633 817 830 1530 1648 2023 2246 2622 2745 3544 3635 3673 4215 4374 5298 5487 6142 6152 6155 6188 6195 6207 6215 6238 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=782
+	name="STATE_782"
+	provinces={
+		256 1248 1481 1803 3679 4287 4400 4450 7460 7532 8665 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=peaks
+	local_supplies=0.000
+}

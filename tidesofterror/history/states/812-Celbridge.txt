@@ -1,0 +1,16 @@
+state={
+	id=812
+	name="STATE_812"
+	provinces={
+		963 1544 2606 3177 4686 5513 6895 6902 6946 6962 6968 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

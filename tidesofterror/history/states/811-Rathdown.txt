@@ -1,0 +1,16 @@
+state={
+	id=811
+	name="STATE_811"
+	provinces={
+		510 1802 2186 3480 4632 7012 7017 7046 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

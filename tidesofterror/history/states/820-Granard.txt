@@ -1,0 +1,16 @@
+state={
+	id=820
+	name="STATE_820"
+	provinces={
+		342 2351 2494 2669 3265 3462 3961 6601 6607 6609 6626 6640 6642 6656 6684 12029 12033 
+	}
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

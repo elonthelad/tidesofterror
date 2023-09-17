@@ -1,0 +1,20 @@
+
+state={
+	id=719
+	name="STATE_719"
+
+	history={
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = EIR
+
+	}
+
+	provinces={
+		19 196 652 774 1011 1659 2537 2544 2662 2796 3215 3954 4029 4052 5156 5218 5482 6870 6873 6906 6912 6935 6952 6960 6976 6999 7033 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
