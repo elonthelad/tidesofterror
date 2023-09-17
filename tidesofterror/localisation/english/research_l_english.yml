@@ -264,6 +264,23 @@
  airtitle2: "§H1872§!"
  airtitle3: "§H1876§!"
  
+ airtech_range_improvements: "Range Improvisations"
+ airtech_maneuverability: "Air Maneuverability"
+ airtech_lighter_than_air_gas: "Lighter-than-Air Gas"
+ airtech_aerostatic_weapon_coordination: "Aerostatic Weapon Co-ordination"
+ airtech_airborne_command: "Airborne Command"
+ airtech_air_to_air_detachments: "Air-to-Air Detachments"
+ airtech_gas_pressurisation: "Gas Pressurisation"
+ airtech_dorsal_artillery: "Dorsal Artillery"
+ airtech_forward_cannon: "Huge Forward Cannon"
+ airtech_mobile_factory_operations: "Mobile Factory Operations"
+ airtech_underside_blastspear: "Underside Blastspear"
+ airtech_flight_capable_metal_armour: "Flight-worthy Medium Armour"
+ airtech_heavy_armour: "Flight-worthy Heavy Armour"
+ airtech_aerodynamism: "Aerodynamism & Lift"
+ airtech_multicrewed_planes: "Multicrewed Planes"
+ airtech_applied_wingspan_theory: "Applied Wingspan Theory"
+ 
  #Industry
  
  industry_folder: "Industry & Engineering"

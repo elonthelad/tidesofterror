@@ -38,8 +38,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
-		start_year = 1868
+		research_cost = 1.75
+		start_year = 1870
 		categories = {
 			industry
 		}
@@ -66,8 +66,8 @@ technologies = {
 			indtech_blasting_dynamite = 1
 		}
 		
-		research_cost = 2
-		start_year = 1868
+		research_cost = 1.75
+		start_year = 1873
 		categories = {
 			industry
 		}
@@ -91,7 +91,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1868
+		start_year = 1876
 		categories = {
 			industry
 		}
@@ -113,7 +113,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 1868
 		categories = {
 			industry
@@ -146,8 +146,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
-		start_year = 1868
+		research_cost = 1.5
+		start_year = 1870
 		categories = {
 			industry
 		}
@@ -169,8 +169,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
-		start_year = 1868
+		research_cost = 1.75
+		start_year = 1873
 		categories = {
 			industry
 		}
@@ -199,7 +199,7 @@ technologies = {
 
 		
 		research_cost = 2
-		start_year = 1868
+		start_year = 1875
 		categories = {
 			industry
 		}
@@ -221,8 +221,8 @@ technologies = {
 			indtech_mechanised_workshops = 1
 		}
 		
-		research_cost = 2
-		start_year = 1868
+		research_cost = 1.5
+		start_year = 1871
 		categories = {
 			industry
 		}
@@ -244,7 +244,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 1868
 		categories = {
 			industry
@@ -267,8 +267,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
-		start_year = 1868
+		research_cost = 1.75
+		start_year = 1872
 		categories = {
 			industry
 		}
@@ -291,7 +291,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1868
+		start_year = 1875
 		categories = {
 			industry
 		}
@@ -313,7 +313,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 1.75
 		start_year = 1868
 		categories = {
 			industry
@@ -346,8 +346,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
-		start_year = 1868
+		research_cost = 1.5
+		start_year = 1869
 		categories = {
 			industry
 		}
@@ -374,8 +374,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
-		start_year = 1868
+		research_cost = 1.5
+		start_year = 1870
 		categories = {
 			industry
 		}
@@ -392,8 +392,12 @@ technologies = {
 	
 	indtech_tremendous_pressure_outlets = {
 		
+		enable_equipment_modules = {
+			air_leviathan_engine
+		}
+		
 		research_cost = 2
-		start_year = 1868
+		start_year = 1873
 		categories = {
 			industry
 		}
@@ -421,7 +425,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1868
+		start_year = 1872
 		categories = {
 			industry
 		}
@@ -449,7 +453,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1868
+		start_year = 1874
 		categories = {
 			industry
 		}
@@ -482,14 +486,14 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1868
+		start_year = 1875
 		categories = {
 			industry
 		}
 		
 		folder = {
 			name = industry_folder
-			position = { x = 12 y = 28 }
+			position = { x = 12 y = 30 }
 		}
 		
 		ai_will_do = {
@@ -504,7 +508,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 1.75
 		start_year = 1868
 		categories = {
 			industry
@@ -533,7 +537,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1868
+		start_year = 1871
 		categories = {
 			industry
 		}
@@ -555,8 +559,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
-		start_year = 1868
+		research_cost = 1.75
+		start_year = 1872
 		categories = {
 			industry
 		}
@@ -579,7 +583,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1868
+		start_year = 1875
 		categories = {
 			industry
 		}
@@ -597,7 +601,7 @@ technologies = {
 	indtech_hadfield_steel = {
 		
 		research_cost = 2
-		start_year = 1868
+		start_year = 1872
 		categories = {
 			industry
 		}
@@ -619,8 +623,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
-		start_year = 1868
+		research_cost = 1.5
+		start_year = 1870
 		categories = {
 			industry
 		}
@@ -643,7 +647,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1868
+		start_year = 1872
 		categories = {
 			industry
 		}
@@ -660,8 +664,12 @@ technologies = {
 	
 	indtech_compressor_ignition_engine = {
 		
+		enable_equipment_modules = {
+			air_experimental_petroleum_engine
+		}
+		
 		research_cost = 2
-		start_year = 1868
+		start_year = 1874
 		categories = {
 			industry
 		}
@@ -680,14 +688,18 @@ technologies = {
 		enable_equipments = {
 			carriage_equipment_1
 		}
+		
+		enable_equipment_modules = {
+			air_steam_engine
+		}
 
 		path = {
 			leads_to_tech = indtech_basic_train
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
-		start_year = 1838
+		research_cost = 1.5
+		start_year = 1868
 		folder = {
 			name = industry_folder
 			position = { x = 12 y = 0 }
@@ -718,7 +730,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1804
+		start_year = 1870
 		folder = {
 			name = industry_folder
 			position = { x = 12 y = 8 }
@@ -738,8 +750,8 @@ technologies = {
 			train_equipment_2
 		}
 
-		research_cost = 1.6
-		start_year = 1870
+		research_cost = 1.25
+		start_year = 1872
 		folder = {
 			name = industry_folder
 			position = { x = 12 y = 16 }

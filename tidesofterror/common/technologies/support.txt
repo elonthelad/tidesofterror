@@ -1,17 +1,4 @@
 technologies = {
-	
-	@1918 = 0
-	@1936 = 2
-	@1938 = 4
-	@1939 = 6
-	@1940 = 8
-	@1941 = 10
-	@1942 = 12
-	@1943 = 14
-	@1944 = 16
-	@1945 = 18
-	@1946 = 20
-
 
 	suptech_auxillary = {
 
@@ -33,7 +20,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.0
+		research_cost = 1.75
 		start_year = 1868
 		folder = {
 			name = support_folder
@@ -61,7 +48,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1.2
 		start_year = 1869
 		folder = {
 			name = support_folder
@@ -88,8 +75,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
-		start_year = 1872
+		research_cost = 1.2
+		start_year = 1870
 		folder = {
 			name = support_folder
 			position = { x = 1 y = 11 }
@@ -115,8 +102,8 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.5
-		start_year = 1874
+		research_cost = 1.2
+		start_year = 1873
 		folder = {
 			name = support_folder
 			position = { x = 1 y = 24 }
@@ -137,8 +124,8 @@ technologies = {
 			entrenchment  = 0.2
 		}
 
-		research_cost = 1.5
-		start_year = 1876
+		research_cost = 1.2
+		start_year = 1875
 		folder = {
 			name = support_folder
 			position = { x = 1 y = 31 }
@@ -164,7 +151,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1.2
 		start_year = 1869
 		folder = {
 			name = support_folder
@@ -187,8 +174,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
-		start_year = 1872
+		research_cost = 1.2
+		start_year = 1870
 		folder = {
 			name = support_folder
 			position = { x = 4 y = 12 }
@@ -210,8 +197,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
-		start_year = 1874
+		research_cost = 1.2
+		start_year = 1872
 		folder = {
 			name = support_folder
 			position = { x = 4 y = 20 }
@@ -233,8 +220,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
-		start_year = 1876
+		research_cost = 1.2
+		start_year = 1874
 		folder = {
 			name = support_folder
 			position = { x = 4 y = 28 }
@@ -251,7 +238,7 @@ technologies = {
 
 	suptech_comissariat5 = {
 
-		research_cost = 1.5
+		research_cost = 1.75
 		start_year = 1876
 		folder = {
 			name = support_folder
@@ -278,7 +265,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1.2
 		start_year = 1869
 		folder = {
 			name = support_folder
@@ -312,8 +299,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
-		start_year = 1872
+		research_cost = 1.2
+		start_year = 1870
 		folder = {
 			name = support_folder
 			position = { x = 9 y = 13 }
@@ -335,8 +322,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
-		start_year = 1874
+		research_cost = 1.2
+		start_year = 1873
 		folder = {
 			name = support_folder
 			position = { x = 9 y = 22 }
@@ -353,7 +340,7 @@ technologies = {
 
 	suptech_field_ward4 = {
 
-		research_cost = 1.5
+		research_cost = 1.75
 		start_year = 1876
 		folder = {
 			name = support_folder
@@ -380,8 +367,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
-		start_year = 1870
+		research_cost = 1.2
+		start_year = 1872
 		folder = {
 			name = support_folder
 			position = { x = 7 y = 18 }
@@ -403,7 +390,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1.2
 		start_year = 1873
 		folder = {
 			name = support_folder
@@ -426,8 +413,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
-		start_year = 1875
+		research_cost = 1.2
+		start_year = 1874
 		folder = {
 			name = support_folder
 			position = { x = 7 y = 30 }
@@ -444,8 +431,8 @@ technologies = {
 	
 	suptech_psychosomatic_company4 = {
 
-		research_cost = 2
-		start_year = 1877
+		research_cost = 1.75
+		start_year = 1876
 		folder = {
 			name = support_folder
 			position = { x = 7 y = 34 }
@@ -481,7 +468,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.0
+		research_cost = 1.75
 		start_year = 1868
 		folder = {
 			name = support_folder
@@ -508,7 +495,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1.2
 		start_year = 1869
 		folder = {
 			name = support_folder
@@ -531,8 +518,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
-		start_year = 1872
+		research_cost = 1.2
+		start_year = 1871
 		folder = {
 			name = support_folder
 			position = { x = 14 y = 14 }
@@ -549,8 +536,8 @@ technologies = {
 	
 	suptech_mounted_constabulary3 = {
 
-		research_cost = 1.5
-		start_year = 1874
+		research_cost = 1.2
+		start_year = 1873
 		folder = {
 			name = support_folder
 			position = { x = 14 y = 22 }
@@ -576,7 +563,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1.2
 		start_year = 1869
 		folder = {
 			name = support_folder
@@ -599,8 +586,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
-		start_year = 1872
+		research_cost = 1.2
+		start_year = 1871
 		folder = {
 			name = support_folder
 			position = { x = 21 y = 14 }
@@ -617,8 +604,8 @@ technologies = {
 	
 	suptech_mounted_sergeants3 = {
 
-		research_cost = 1.5
-		start_year = 1874
+		research_cost = 1.2
+		start_year = 1873
 		folder = {
 			name = support_folder
 			position = { x = 21 y = 24 }
@@ -644,7 +631,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1.2
 		start_year = 1869
 		folder = {
 			name = support_folder
@@ -667,8 +654,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
-		start_year = 1872
+		research_cost = 1.2
+		start_year = 1871
 		folder = {
 			name = support_folder
 			position = { x = 17 y = 16 }
@@ -685,8 +672,8 @@ technologies = {
 	
 	suptech_reconnaissance_scouters3 = {
 
-		research_cost = 1.5
-		start_year = 1874
+		research_cost = 1.2
+		start_year = 1873
 		folder = {
 			name = support_folder
 			position = { x = 17 y = 25 }
@@ -716,8 +703,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.0
-		start_year = 1868
+		research_cost = 1.2
+		start_year = 1874
 		folder = {
 			name = support_folder
 			position = { x = 18 y = 30 }
@@ -734,8 +721,8 @@ technologies = {
 	
 	suptech_kelpiewaterriders = {
 
-		research_cost = 1.5
-		start_year = 1874
+		research_cost = 1.2
+		start_year = 1875
 		folder = {
 			name = support_folder
 			position = { x = 14 y = 31 }
@@ -752,8 +739,8 @@ technologies = {
 	
 	suptech_kelpierecon = {
 
-		research_cost = 1.5
-		start_year = 1874
+		research_cost = 1.2
+		start_year = 1875
 		folder = {
 			name = support_folder
 			position = { x = 22 y = 31 }

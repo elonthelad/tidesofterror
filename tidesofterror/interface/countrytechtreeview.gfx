@@ -343,16 +343,6 @@ spriteTypes = {
 		name = "GFX_infobox_progressbar_frame"
 		textureFile = "gfx/interface/infobox_progressbar_frame.dds"
 	}	
-	
-	spriteType = {
-		name = "GFX_stats_entry_bg"
-		textureFile = "gfx/interface/stats_entry_bg.dds"
-	}
-
-	spriteType = {
-		name = "GFX_stats_entry_long_bg"
-		textureFile = "gfx/interface/stats_entry_long_bg.dds"
-	}
 
 	corneredTileSpriteType = {
 		name = "GFX_tech_info_bg"
@@ -1395,5 +1385,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_small_tech_shadow_icon"
 		textureFile = "gfx/interface/techtree/smalltechshadow.png"
+	}
+	
+	#MOD
+	
+	spriteType = {
+		name = "GFX_stats_entry_bg"
+		textureFile = "gfx/interface/techtree/unlock_window/stats_entry_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_stats_entry_long_bg"
+		textureFile = "gfx/interface/techtree/unlock_window/stats_entry_long_bg.dds"
 	}
 }

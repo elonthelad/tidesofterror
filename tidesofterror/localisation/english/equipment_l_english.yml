@@ -28,7 +28,6 @@
  EQUIPMENT_ANTI_TANK: "Anti-Tank"
  EQUIPMENT_ROCKET: "Rocket"
  EQUIPMENT_FLAME: "Flame"
- EQUIPMENT_MISSILE: "Guided Missile"
  EQUIPMENT_LAND: "Land Equipment"
  EQUIPMENT_NAVAL: "Naval Equipment"
  EQUIPMENT_AIR: "Air Equipment"
@@ -156,6 +155,7 @@
  floating_harbor_equipment_desc: "A series of pontoons and pre-fabricated concrete structures that can be moved across water and assembled within hours to create a sheltered landing space to unload supplies."
  floating_harbor_equipment_1: "Floating Harbor"
  floating_harbor_equipment_1_desc: "A series of pontoons and pre-fabricated concrete structures that can be moved across water and assembled within hours to create a sheltered landing space to unload supplies."
+ 
  #MOD
  
  police_weapons: "Police Equipment"

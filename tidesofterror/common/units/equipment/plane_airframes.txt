@@ -43,15 +43,22 @@ equipments = {
 					lowpreslevitation_module_type
 				}
 			}
-
-			fixed_framework_type_slot = {
-				required = yes
+			
+			fixed_armour_type_slot = {
+				required = no
 				allowed_module_categories = {
-					heavyframework_module_type
-					mediumframework_module_type
-					lightframework_module_type
+					armour_module_type
 				}
 			}
+
+			#fixed_framework_type_slot = {
+			#	required = yes
+			#	allowed_module_categories = {
+			#		heavyframework_module_type
+			#		mediumframework_module_type
+			#		lightframework_module_type
+			#	}
+			#}
 
 			fixed_aux_locomotion_type_slot = {
 				required = no
@@ -61,19 +68,13 @@ equipments = {
 				}
 			}
 
-			fixed_armour_type_slot = {
-				required = no
-				allowed_module_categories = {
-					armour_module_type
-				}
-			}
 
-			fixed_build_finish_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					build_finish_module_type
-				}
-			}
+			#fixed_build_finish_type_slot = {
+			#	required = yes
+			#	allowed_module_categories = {
+			#		build_finish_module_type
+			#	}
+			#}
 
 			mediumshared_type_slot_1 = {
 				required = yes
@@ -93,7 +94,7 @@ equipments = {
 
 		default_modules = {
 			fixed_levitation_type_slot = empty
-			fixed_framework_type_slot = empty
+			#fixed_framework_type_slot = empty
 			fixed_armour_type_slot = empty
 			fixed_aux_locomotion_type_slot = empty
 			fixed_build_finish_type_slot = empty
@@ -162,15 +163,22 @@ equipments = {
 					lowpreslevitation_module_type
 				}
 			}
-
-			fixed_framework_type_slot = {
-				required = yes
+			
+			fixed_armour_type_slot = {
+				required = no
 				allowed_module_categories = {
-					heavyframework_module_type
-					mediumframework_module_type
-					lightframework_module_type
+					armour_module_type
 				}
 			}
+
+			#fixed_framework_type_slot = {
+			#	required = yes
+			#	allowed_module_categories = {
+			#		heavyframework_module_type
+			#		mediumframework_module_type
+			#		lightframework_module_type
+			#	}
+			#}
 
 			fixed_locomotion_type_slot = {
 				required = yes
@@ -180,19 +188,13 @@ equipments = {
 				}
 			}
 
-			fixed_armour_type_slot = {
-				required = no
-				allowed_module_categories = {
-					armour_module_type
-				}
-			}
 
-			fixed_build_finish_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					build_finish_module_type
-				}
-			}
+			#fixed_build_finish_type_slot = {
+			#	required = yes
+			#	allowed_module_categories = {
+			#		build_finish_module_type
+			#	}
+			#}
 
 			largeshared_type_slot_1 = {
 				required = yes
@@ -228,9 +230,9 @@ equipments = {
 
 		default_modules = {
 			fixed_levitation_type_slot = empty
-			fixed_framework_type_slot = empty
-			fixed_locomotion_type_slot = empty
 			fixed_armour_type_slot = empty
+			#fixed_framework_type_slot = empty
+			fixed_locomotion_type_slot = empty
 			fixed_build_finish_type_slot = empty
 			largeshared_type_slot_1 = empty
 			mediumshared_type_slot_2 = empty
@@ -282,14 +284,21 @@ equipments = {
 				}
 			}
 
-			fixed_framework_type_slot = {
-				required = yes
+			fixed_armour_type_slot = {
+				required = no
 				allowed_module_categories = {
-					heavyframework_module_type
-					mediumframework_module_type
-					lightframework_module_type
+					armour_module_type
 				}
 			}
+
+			#fixed_framework_type_slot = {
+			#	required = yes
+			#	allowed_module_categories = {
+			#		heavyframework_module_type
+			#		mediumframework_module_type
+			#		lightframework_module_type
+			#	}
+			#}
 
 			fixed_locomotion_type_slot = {
 				required = yes
@@ -299,19 +308,12 @@ equipments = {
 				}
 			}
 
-			fixed_armour_type_slot = {
-				required = no
-				allowed_module_categories = {
-					armour_module_type
-				}
-			}
-
-			fixed_build_finish_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					build_finish_module_type
-				}
-			}
+			#fixed_build_finish_type_slot = {
+			#	required = yes
+			#	allowed_module_categories = {
+			#		build_finish_module_type
+			#	}
+			#}
 
 			largeshared_type_slot_1 = {
 				required = yes
@@ -353,13 +355,6 @@ equipments = {
 					smallshared_module_type
 				}
 			}
-
-			smallshared_type_slot_6 = {
-				required = no
-				allowed_module_categories = {
-					smallshared_module_type
-				}
-			}
 		}
 	}
 
@@ -391,14 +386,21 @@ equipments = {
 				}
 			}
 
-			fixed_framework_type_slot = {
-				required = yes
+			fixed_armour_type_slot = {
+				required = no
 				allowed_module_categories = {
-					heavyframework_module_type
-					mediumframework_module_type
-					lightframework_module_type
+					armour_module_type
 				}
 			}
+
+			#fixed_framework_type_slot = {
+			#	required = yes
+			#	allowed_module_categories = {
+			#		heavyframework_module_type
+			#		mediumframework_module_type
+			#		lightframework_module_type
+			#	}
+			#}
 
 			fixed_locomotion_type_slot = {
 				required = yes
@@ -408,19 +410,12 @@ equipments = {
 				}
 			}
 
-			fixed_armour_type_slot = {
-				required = no
-				allowed_module_categories = {
-					armour_module_type
-				}
-			}
-
-			fixed_build_finish_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					build_finish_module_type
-				}
-			}
+			#fixed_build_finish_type_slot = {
+			#	required = yes
+			#	allowed_module_categories = {
+			#		build_finish_module_type
+			#	}
+			#}
 
 			hugeshared_type_slot_1 = {
 				required = yes
@@ -515,13 +510,13 @@ equipments = {
 		}
 
 		module_slots = {
-			fixed_framework_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					mediumframework_module_type
-					lightframework_module_type
-				}
-			}
+			#fixed_framework_type_slot = {
+			#	required = yes
+			#	allowed_module_categories = {
+			#		mediumframework_module_type
+			#		lightframework_module_type
+			#	}
+			#}
 
 			fixed_armour_type_slot = {
 				required = no
@@ -530,12 +525,12 @@ equipments = {
 				}
 			}
 
-			fixed_build_finish_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					build_finish_module_type
-				}
-			}
+			#fixed_build_finish_type_slot = {
+			#	required = yes
+			#	allowed_module_categories = {
+			#		build_finish_module_type
+			#	}
+			#}
 
 			smallshared_type_slot_1 = {
 				required = yes
@@ -553,7 +548,7 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_framework_type_slot = empty
+			#fixed_framework_type_slot = empty
 			fixed_armour_type_slot = empty
 			fixed_build_finish_type_slot = empty
 			smallshared_type_slot_1 = empty
@@ -584,13 +579,13 @@ equipments = {
 		type_override = mediumshared_type_slot_1
 		archetype = glider_hull
 		module_slots = {
-			fixed_framework_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					mediumframework_module_type
-					lightframework_module_type
-				}
-			}
+			#fixed_framework_type_slot = {
+			#	required = yes
+			#	allowed_module_categories = {
+			#		mediumframework_module_type
+			#		lightframework_module_type
+			#	}
+			#}
 
 			fixed_armour_type_slot = {
 				required = no
@@ -599,12 +594,12 @@ equipments = {
 				}
 			}
 
-			fixed_build_finish_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					build_finish_module_type
-				}
-			}
+			#fixed_build_finish_type_slot = {
+			#	required = yes
+			#	allowed_module_categories = {
+			#		build_finish_module_type
+			#	}
+			#}
 
 			mediumshared_type_slot_1 = {
 				required = yes
@@ -641,20 +636,20 @@ equipments = {
 		year = 1874
 		archetype = glider_hull
 		module_slots = {
-			fixed_framework_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					mediumframework_module_type
-					lightframework_module_type
-				}
-			}
+			#fixed_framework_type_slot = {
+			#	required = yes
+			#	allowed_module_categories = {
+			#		mediumframework_module_type
+			#		lightframework_module_type
+			#	}
+			#}
 
-			fixed_build_finish_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					build_finish_module_type
-				}
-			}
+			#fixed_build_finish_type_slot = {
+			#	required = yes
+			#	allowed_module_categories = {
+			#		build_finish_module_type
+			#	}
+			#}
 
 			smallshared_type_slot_1 = {
 				required = yes
@@ -692,20 +687,20 @@ equipments = {
 				}
 			}
 			
-			fixed_framework_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					mediumframework_module_type
-					lightframework_module_type
-				}
-			}
+			#fixed_framework_type_slot = {
+			#	required = yes
+			#	allowed_module_categories = {
+			#		mediumframework_module_type
+			#		lightframework_module_type
+			#	}
+			#}
 
-			fixed_build_finish_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					build_finish_module_type
-				}
-			}
+			#fixed_build_finish_type_slot = {
+			#	required = yes
+			#	allowed_module_categories = {
+			#		build_finish_module_type
+			#	}
+			#}
 
 			mediumshared_type_slot_1 = {
 				required = yes

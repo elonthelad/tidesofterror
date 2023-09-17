@@ -1,0 +1,656 @@
+technologies = {
+
+	airtech_gas_balloon = {
+		enable_equipments = {
+			gas_balloon_hull_0
+		}
+		
+		enable_equipment_modules = {
+			air_lev_town_gas
+			air_canvas
+			air_wooden_panels
+			air_medium_extraarmour
+			air_small_recontelescope
+			air_small_sparesupplies
+		}
+		
+		path = {
+			leads_to_tech = airtech_lighter_than_air_gas
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = airtech_range_improvements
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1869
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 5 y = 4 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_range_improvements = {
+		
+		enable_equipment_modules = {
+			air_roziere_balloon
+			air_medium_amplesupplies
+		}
+		
+		path = {
+			leads_to_tech = airtech_maneuverability
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1869
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 1 y = 5 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_maneuverability = {
+		
+		enable_equipment_modules = {
+			air_retractable_sail
+			air_steerable_sail
+			air_paddles
+		}
+
+		research_cost = 1.75
+		start_year = 1870
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 1 y = 12 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_lighter_than_air_gas = {
+		enable_equipments = {
+		}
+		
+		enable_equipment_modules = {
+			air_lowpreslev_hydrogen
+			air_lowpreslev_helium
+		}
+		
+		path = {
+			leads_to_tech = airtech_earlyzeppelin
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.75
+		start_year = 1870
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 5 y = 9 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_earlyzeppelin = {
+		enable_equipments = {
+			zeppelin_hull_0
+		}
+		
+		enable_equipment_modules = {
+			air_large_abundantsupplies
+			air_large_layeredarmour
+		}
+		
+		path = {
+			leads_to_tech = airtech_aerostatic_weapon_coordination
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = airtech_airborne_command
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1871
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 5 y = 13 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_airborne_command = {
+		
+		enable_equipment_modules = {
+			air_large_headquarters
+			air_large_paratrooperbay
+		}
+
+		research_cost = 2
+		start_year = 1872
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 1 y = 20 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_aerostatic_weapon_coordination = {
+		
+		path = {
+			leads_to_tech = airtech_developedzeppelin
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1872
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 5 y = 18 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_developedzeppelin = {
+		enable_equipments = {
+			zeppelin_hull_1
+		}
+		
+		path = {
+			leads_to_tech = airtech_air_to_air_detachments
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = airtech_gas_pressurisation
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1873
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 5 y = 23 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_air_to_air_detachments = {
+		
+		enable_equipment_modules = {
+			air_large_glideremplacements
+			air_large_reconfliers
+		}
+
+		dependencies = {
+			airtech_airborne_command = 1
+		}
+
+		research_cost = 1.75
+		start_year = 1874
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 1 y = 26 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_gas_pressurisation = {
+		
+		enable_equipment_modules = {
+			air_highpreslev_helium
+			air_highpreslev_hydrogen
+		}
+		
+		path = {
+			leads_to_tech = airtech_supermassivezeppelin
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.75
+		start_year = 1875
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 5 y = 29 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_supermassivezeppelin = {
+		enable_equipments = {
+			zeppelin_hull_2
+		}
+
+		dependencies = {
+			indtech_colossal_engineering_theory = 1
+		}
+
+		path = {
+			leads_to_tech = airtech_dorsal_artillery
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = airtech_forward_cannon
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = airtech_mobile_factory_operations
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = airtech_underside_blastspear
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1876
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 5 y = 33 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_dorsal_artillery = {
+		
+		enable_equipment_modules = {
+			air_huge_dorsal_artillery
+		}
+
+		research_cost = 1
+		start_year = 1876
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 1 y = 37 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_forward_cannon = {
+		
+		enable_equipment_modules = {
+			air_huge_forward_cannon
+		}
+
+		research_cost = 1
+		start_year = 1876
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 4 y = 37 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_mobile_factory_operations = {
+		
+		enable_equipment_modules = {
+			air_huge_biplane_factory
+		}
+
+		research_cost = 1
+		start_year = 1876
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 7 y = 37 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_underside_blastspear = {
+		
+		enable_equipment_modules = {
+			air_huge_underside_blastspear
+		}
+
+		research_cost = 1
+		start_year = 1876
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 10 y = 37 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_flight_capable_metal_armour = {
+		
+		enable_equipment_modules = {
+			air_steel_panel
+			air_aluminium_panel
+		}
+		
+		path = {
+			leads_to_tech = airtech_heavy_armour
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1871
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 9 y = 16 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_heavy_armour = {
+		
+		enable_equipment_modules = {
+			air_manganese_infused_steel_panel
+		}
+		
+		path = {
+			leads_to_tech = airtech_heavy_armour
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1874
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 9 y = 26 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_aerodynamism = {
+		
+		path = {
+			leads_to_tech = airtech_earlyglider
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.75
+		start_year = 1870
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 14 y = 12 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_earlyglider = {
+		enable_equipments = {
+			glider_hull_0
+		}
+		
+		dependencies = {
+			airtech_gas_balloon = 1
+		}
+		
+		path = {
+			leads_to_tech = airtech_developedglider
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1871
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 14 y = 15 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_developedglider = {
+		enable_equipments = {
+			glider_hull_1
+		}
+		
+		dependencies = {
+			airtech_gas_balloon = 1
+		}
+		
+		path = {
+			leads_to_tech = airtech_applied_wingspan_theory
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = airtech_multicrewed_planes
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1873
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 14 y = 23 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_multicrewed_planes = {
+
+		research_cost = 1.5
+		start_year = 1875
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 14 y = 31 }
+		}
+		
+		path = {
+			leads_to_tech = airtech_biplane
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_biplane = {
+		enable_equipments = {
+			glider_hull_3
+		}
+
+		research_cost = 2
+		start_year = 1876
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 14 y = 34 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_applied_wingspan_theory = {
+		
+		path = {
+			leads_to_tech = airtech_icarus_wings
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1873
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 17 y = 25 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	airtech_icarus_wings = {
+		enable_equipments = {
+			glider_hull_2
+		}
+
+		research_cost = 2
+		start_year = 1875
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = 17 y = 30 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

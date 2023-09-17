@@ -594,20 +594,9 @@ equipment_modules = {
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	#Daddy Long Legs Locomotion
 	
-	longlegs_machineddoublejoints = {
+	longlegs_machinedpneumaticjoints = {
 		category = longlegs_locomotion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -766,65 +755,9 @@ equipment_modules = {
 		}
 	}
 	
-	#Daddy Long Legs Auxillary
+	#Daddy Long Legs Front Slot
 	
-	longlegs_dousingtanks = { #Barricade improvement, puts out fires
-		category = longlegsmisc_module_type
-		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			entrenchment = 5
-			supply_consumption = 0.3
-			build_cost_ic = 0.8
-		}
-	}
-	
-	longlegs_groundingspire = { #Absorbs electricity, defense against eldritch
-		category = longlegsmisc_module_type
-		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			breakthrough = 3
-			ap_attack = 1.5
-			build_cost_ic = 0.5
-		}
-		multiply_stats = {
-			hardness = 0.2
-		}
-	}
-	
-	longlegs_searchlights = {
-		category = longlegsmisc_module_type
-		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			suppression = 0.8
-		}
-	}
-	
-	longlegs_immersionbowl = {
-		category = longlegsmisc_module_type
-		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			armor_value = 4
-			build_cost_ic = 0.8
-		}
-	}
-	
-	longlegs_dryplatecamera = {
-		category = longlegsmisc_module_type
-		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			recon = 2.2
-			build_cost_ic = 0.3
-		}
-	}
-	
-	#Daddy Long Legs Front Weapons
-	
-	longlegs_dragonsfire = { #Harold, produce the flammenwerfer.
+	longlegs_dragonsfire = { #Harry, produce the flamethrower.
 		category = longlegsfrontweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -864,7 +797,67 @@ equipment_modules = {
 		}
 	}
 	
-	#Daddy Long Legs Rear Weapons
+	longlegs_benedicite_mist = {
+		category = longlegsfrontweapons_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			steel = 1
+			timber = 1
+		}
+	}
+	
+	longlegs_paired_handcannons = {
+		category = longlegsfrontweapons_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			steel = 1
+			timber = 1
+		}
+	}
+	
+	longlegs_lifter_arms = {
+		category = longlegsfrontweapons_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			steel = 1
+			timber = 1
+		}
+	}
+	
+	#Daddy Long Legs Rear Slot Weapons
 	
 	longlegs_rearmortar = {
 		category = longlegsrearweapons_module_type
@@ -886,13 +879,125 @@ equipment_modules = {
 		}
 	}
 	
+	longlegs_catapult = {
+		category = longlegsrearweapons_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			steel = 1
+			timber = 1
+		}
+	}
 	
+	longlegs_munitioncatapult = {
+		category = longlegsrearweapons_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			steel = 1
+			timber = 1
+		}
+	}
 	
+	#Daddy Long Legs Rear Slot
 	
+	longlegs_dousingtanks = { #Barricade improvement, puts out fires
+		category = longlegsrearslot_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			entrenchment = 5
+			supply_consumption = 0.3
+			build_cost_ic = 0.8
+		}
+	}
 	
+	longlegs_groundingspire = { #Absorbs electricity, defense against eldritch
+		category = longlegsrearslot_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			breakthrough = 3
+			ap_attack = 1.5
+			build_cost_ic = 0.5
+		}
+		multiply_stats = {
+			hardness = 0.2
+		}
+	}
 	
+	longlegs_searchlights = {
+		category = longlegsrearslot_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			suppression = 0.8
+		}
+	}
 	
+	longlegs_immersionbowl = {
+		category = longlegsrearslot_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			armor_value = 4
+			build_cost_ic = 0.8
+		}
+	}
 	
+	longlegs_dryplatecamera = {
+		category = longlegsrearslot_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			recon = 2.2
+			build_cost_ic = 0.3
+		}
+	}
+	
+	longlegs_steamacceleration = {
+		category = longlegsrearslot_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = 3
+			reliability = -0.3
+			supply_consumption = 0.08
+			build_cost_ic = 2.2
+		}
+	}
+	
+	longlegs_signalflares = {
+		category = longlegsrearslot_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = 3
+			reliability = -0.3
+			supply_consumption = 0.08
+			build_cost_ic = 2.2
+		}
+	}
 	
 	
 	
