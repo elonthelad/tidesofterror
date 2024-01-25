@@ -1,16 +1,21 @@
 state={
 	id=749
 	name="STATE_749"
-	provinces={
-		76 484 1112 2561 2812 3574 3865 4185 6304 6310 6328 6340 6348 6352 6371 6372 12010 
-	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 2812 3 } #"Irvinestown"
+		victory_points = { 3865 5 } #"Kesh"
+		victory_points = { 1112 2 } #"Ederney"
+		victory_points = { 6372 1 } #"Ballycassidy"
+		victory_points = { 484 1 } #"Derrygonnelly"
 	}
-	manpower=0
+	provinces={
+		76 484 1112 2561 2812 3574 3865 4185 6304 6310 6328 6340 6348 6352 6371 6372 12010 
+	}
+	manpower=5007
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=pastoral
 	local_supplies=0.000
 }

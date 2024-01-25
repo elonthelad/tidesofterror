@@ -1,15 +1,17 @@
 state={
 	id=746
 	name="STATE_746"
-	provinces={
-		61 1231 1539 1706 3348 3404 4017 4673 6200 6219 6254 6269 6287 6296 
-	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 4673 12 } #"Carrickfergus"
+		victory_points = { 3348 10 } #"Larne"
 	}
-	manpower=0
+	provinces={
+		61 1231 1539 1706 3348 3404 4017 4673 6200 6219 6254 6269 6287 6296 
+	}
+	manpower=9784
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

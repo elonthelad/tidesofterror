@@ -5,12 +5,16 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 881 25 } #"Londonderry"
+		victory_points = { 1734 18 } #"Shantallow"
+		victory_points = { 3788 4 } #"Eglinton"
+		victory_points = { 1655 2 } #"Claudy"
 	}
 	provinces={
 		881 1182 1655 1734 3788 5050 5198 6138 6153 6156 6165 6166 6187 6208 
 	}
-	manpower=1
+	manpower=62721
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=city
 	local_supplies=0.000
 }

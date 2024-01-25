@@ -1,20 +1,17 @@
-
 state={
 	id=732
 	name="STATE_732"
-
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
-
+		victory_points = { 3414 10 } #"Enniskillen"
 	}
-
 	provinces={
 		735 932 974 1873 2444 3058 3414 3588 4935 5395 6397 6404 6452 12017 
 	}
-	manpower=10000
+	manpower=5743
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

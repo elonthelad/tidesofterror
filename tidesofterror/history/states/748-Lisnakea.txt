@@ -1,4 +1,3 @@
-
 state={
 	id=748
 	name="STATE_748"
@@ -9,8 +8,9 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 6453 4 } #"Lisnaskea"
 	}
-	manpower=0
+	manpower=2133
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

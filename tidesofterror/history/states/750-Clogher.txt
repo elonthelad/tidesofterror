@@ -1,16 +1,16 @@
-
 state={
 	id=750
 	name="STATE_750"
-	provinces={
-		371 1003 1292 1337 1545 1563 1764 2022 3367 3809 5070 6365 6379 6380 6384 6410 
-	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 2022 2 } #"Ballygawley"
 	}
-	manpower=0
+	provinces={
+		371 1003 1292 1337 1545 1563 1764 2022 3367 3809 5070 6365 6379 6380 6384 6410 
+	}
+	manpower=1855
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

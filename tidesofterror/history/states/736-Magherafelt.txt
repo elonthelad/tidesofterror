@@ -1,15 +1,18 @@
 state={
 	id=736
 	name="STATE_736"
-	provinces={
-		500 900 1382 1490 1896 3154 3291 3620 6230 6237 6243 6264 6305 
-	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 900 6 } #"Magherafelt"
+		victory_points = { 1490 3 } #"Draperstown"
+		victory_points = { 6230 2 } #"Tobermore"
 	}
-	manpower=0
+	provinces={
+		500 900 1382 1490 1896 3154 3291 3620 6230 6237 6243 6264 6305 
+	}
+	manpower=6260
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

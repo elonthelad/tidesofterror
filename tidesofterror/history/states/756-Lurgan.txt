@@ -1,15 +1,18 @@
 state={
 	id=756
 	name="STATE_756"
-	provinces={
-		229 442 765 1241 2220 2282 3657 4027 6388 6401 6419 
-	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 6388 10 } #"Portadown"
+		victory_points = { 229 12 } #"Craigavon"
+		victory_points = { 4027 6 } #"Tandragee"
 	}
-	manpower=0
+	provinces={
+		229 442 765 1241 2220 2282 3657 4027 6388 6401 6419 
+	}
+	manpower=12337
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

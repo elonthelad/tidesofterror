@@ -1,16 +1,18 @@
 state={
 	id=737
 	name="STATE_737"
-	provinces={
-		1268 1352 1725 3136 3249 3250 4421 5113 6121 6147 6154 6167 6175 6209 6216 
-	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 4421 2 } #"Macosquin"
+		victory_points = { 3249 2 } #"Garvagh"
 	}
-	manpower=0
+	provinces={
+		1268 1352 1725 3136 3249 3250 4421 5113 6121 6147 6154 6167 6175 6209 6216 
+	}
+	manpower=2425
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=pastoral
 	local_supplies=0.000
 }

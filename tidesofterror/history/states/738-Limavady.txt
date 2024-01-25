@@ -1,16 +1,18 @@
 state={
 	id=738
 	name="STATE_738"
-	provinces={
-		102 570 903 1403 2156 3097 3327 3546 5114 5399 6159 6174 6185 6203 6220 
-	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 3327 6 } #"Limavady"
+		victory_points = { 6185 2 } #"Dungiven"
 	}
-	manpower=0
+	provinces={
+		102 570 903 1403 2156 3097 3327 3546 5114 5399 6159 6174 6185 6203 6220 
+	}
+	manpower=3466
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=pastoral
 	local_supplies=0.000
 }

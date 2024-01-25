@@ -8,8 +8,11 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 2715 8 } #"Banbridge"
+		victory_points = { 4148 20 } #"Lurgan"
+		victory_points = { 1815 4 } #"Magheralin"
 	}
-	manpower=0
+	manpower=14039
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

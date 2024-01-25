@@ -1,16 +1,20 @@
-
 state={
 	id=744
 	name="STATE_744"
-	provinces={
-		748 836 983 1185 1299 1343 1503 1903 2274 2381 2480 2908 2919 3176 3339 3686 4721 4866 6112 6122 6124 6133 6140 6148 6157 6161 6163 6168 6169 6197 8651 
-	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 4721 7 } #"Ballymoney"
+		victory_points = { 2908 18 } #"Coleraine"
+		victory_points = { 6169 2 } #"Cloughmills"
+		victory_points = { 1503 4 } #"Ballycastle"
+		victory_points = { 2274 1 } #"Ballintoy"
 	}
-	manpower=0
+	provinces={
+		748 836 983 1185 1299 1343 1503 1903 2274 2381 2480 2908 2919 3176 3339 3686 4721 4866 6112 6122 6124 6133 6140 6148 6157 6161 6163 6168 6169 6197 8651 
+	}
+	manpower=14039
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

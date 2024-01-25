@@ -1,16 +1,21 @@
 state={
 	id=754
 	name="STATE_754"
-	provinces={
-		228 278 303 1645 1850 3134 3649 3718 4433 6386 6394 6399 6407 
-	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 4433 10 } #"Castlereagh"
+		victory_points = { 3649 14 } #"Newtownbreda"
+		victory_points = { 3134 5 } #"Saintfield"
+		victory_points = { 303 4 } #"Ballynahinch"
+		victory_points = { 278 2 } #"Drumbeg"
 	}
-	manpower=0
+	provinces={
+		228 278 303 1645 1850 3134 3649 3718 4433 6386 6394 6399 6407 
+	}
+	manpower=15315
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=large_town
 	local_supplies=0.000
 }

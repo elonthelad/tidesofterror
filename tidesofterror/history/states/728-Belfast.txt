@@ -1,20 +1,23 @@
-
 state={
 	id=728
 	name="STATE_728"
-
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
-
+		victory_points = { 3342 50 } #"Strandtown"
+		victory_points = { 4706 100 } #"Belfast"
+		victory_points = { 4889 12 } #"Holylands"
+		victory_points = { 6354 30 } #"Balmoral"
+		victory_points = { 6338 35 } #"Blackstaff"
+		victory_points = { 6309 40 } #"Glengormley"
+		victory_points = { 6320 30 } #"Whiteabbey"
 	}
-
 	provinces={
 		3274 3342 3873 4706 4889 6302 6309 6320 6338 6354 
 	}
-	manpower=10000
+	manpower=143221
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=great_city
 	local_supplies=0.000
 }
