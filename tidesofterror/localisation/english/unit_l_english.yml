@@ -19,9 +19,6 @@
  UNIT_LEADER_NEW_LEADER_TOOLTIP: "Recruiting new Commanders costs £command_power $VALUE|Y0$\n Up to a cap, the more Commanders you have, the more expensive it gets to recruit new ones, so try to find jobs for the ones you have first."
  UNIT_LEADER_NO_GROUP: "Army not created"
  UNIT_LEADER_SKILL: "$SKILL|Y$"
- UNIT_LEADER_PROMOTE_POPUP_TITLE: "Promote Leader"
- UNIT_LEADER_PROMOTE_POPUP_DESC: "Are you sure you want to promote $LEADER$? After the promotion, $LEADER$ will temporarily §Rlose§! a skill level while adjusting to the responsibilities of the new rank."
- UNIT_LEADER_PROMOTE_POPUP_DESC_COST: "It will cost $CP|2R$ £command_power to promote this leader."
  UNIT_LEADER_ASSIGNMENT_COST_HEADER: "Assignment Cost (£command_power ):"
  UNIT_LEADER_ALREADY_AN_ADVISOR: "$NAME|Y$ §Ris already an advisor.§!"
  UNIT_LEADER_TRAIT_REQUIRES: "§RRequires $TRAITNAME|Y$.§!"
@@ -100,7 +97,6 @@
  DESELECT_UNIT: "Deselect"
  DISBAND_UNIT: "Disband"
  DISBAND_ALL_UNIT: "Disband all selected units"
- HALT_UNIT: "Halt all selected units"
  PLAN_EXECUTE_CAREFUL_TITLE: "§YCarefully§! execute battle plans"
  PLAN_EXECUTE_BALANCED_TITLE: "Execute battle plans in a §Ybalanced manner§!"
  PLAN_EXECUTE_RUSH_TITLE: "§YAggressively§! execute battle plans"
@@ -346,7 +342,6 @@
  PLAN_PREPARATION_FACTOR: "Plan preparation attack bonus factored by: $VALUE|0+%$"
  PLAN_PREPARATION_CHANGE: "Preparation increases by $VALUE|1Y%$ each day."
  PLAN_PREPARATION_DESC: "Units at the starting position of a plan will start ticking up a preparation bonus. Once they start fighting with the plan or move away this bonus will begin ticking down again."
- SELECT_HALF_DIVISIONS: "§TSelect half of the current divisions§!"
  HOLD_DIVISIONS: "§THold divisions.§!"
  MOUNT_BUTTON_SINGLE_LOAD_DESC: "Load division to transport ship."
  MOUNT_BUTTON_SINGLE_UNLOAD_DESC: "Unload division from transport ship."
@@ -390,7 +385,6 @@
  category_light_infantry: "Leg Infantry"
  TRANSPORT_WEIGHT_VAL: "$VAL$"
  TRANSPORT_WEIGHT_DESC: "Total weight of divisions"
- category_all_infantry: "All Infantry & Mot/Mech"
  category_front_line: "All Frontline Battalions"
  category_support_battalions: "Support Companies"
  category_all_armor: "Tanks & Armor Variants"
@@ -538,7 +532,22 @@
  ARMY_COMPOSITION_SPECIAL_HEADER: "\nIt also gets bonuses based on this:\n"
  ARMY_COMPOSITION_DELAYED: "The composition controls which bonuses are applied from advisors and commanders. Battalions lacking equipment contribute less than those that are fully equipped."
  
- #MOD
+ 
+ #MODDED
+ 
+ 
+ UNIT_LEADER_PROMOTE_POPUP_TITLE: "Promote Leader"
+ UNIT_LEADER_PROMOTE_POPUP_DESC: "Are you certain you wish to promote\n§Y$LEADER$§!\nAfter the promotion, they will temporarily §Rlose§! a skill level as they adjust to the charge of the new rank."
+ UNIT_LEADER_PROMOTE_POPUP_DESC_COST: "It will cost $CP|2R$ £command_power to promote this leader."
+ 
+ 
+ SELECT_HALF_DIVISIONS: "§TSplit current selection, rounding up.§!"
+ HALT_UNIT: "Halt all selected Battalions"
+ 
+ category_police_units: "Police Battalions"
+ category_rifle_infantry: "Rifle Infantry"
+ category_melee_infantry: "Melee Infantry"
+ category_all_infantry: "All Infantry"
  
  group_infantry_title: "Infantry Brigades"
  line_infantry: "Line Infantry"

@@ -1,0 +1,13 @@
+ideas = {
+
+	hidden_ideas = {
+		truncheon_techidea1 = {#Confirmed working!
+			equipment_bonus = {
+				police_weapons = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+			}
+		}
+	}
+}

@@ -67,7 +67,7 @@ technologies = {
 	suptech_sappers_miners2 = {
 
 		sappers_miners = {
-			entrenchment  = 0.2
+			entrenchment  = 2
 		}
 		
 		path = {
@@ -94,7 +94,7 @@ technologies = {
 	suptech_sappers_miners3 = {
 
 		sappers_miners = {
-			entrenchment  = 0.2
+			entrenchment  = 2
 		}
 
 		path = {
@@ -121,7 +121,7 @@ technologies = {
 	suptech_sappers_miners4 = {
 
 		sappers_miners = {
-			entrenchment  = 0.2
+			entrenchment  = 2
 		}
 
 		research_cost = 1.2
@@ -168,6 +168,10 @@ technologies = {
 	}
 	
 	suptech_comissariat2 = {
+
+		comissariat = {
+			supply_consumption_factor  = -0.1
+		}
 		
 		path = {
 			leads_to_tech = suptech_comissariat3
@@ -192,6 +196,10 @@ technologies = {
 	
 	suptech_comissariat3 = {
 
+		comissariat = {
+			supply_consumption_factor  = -0.125
+		}
+
 		path = {
 			leads_to_tech = suptech_comissariat4
 			research_cost_coeff = 1
@@ -215,6 +223,11 @@ technologies = {
 
 	suptech_comissariat4 = {
 
+		comissariat = {
+			supply_consumption_factor  = -0.1
+			equipment_capture_factor = 0.05
+		}
+
 		path = {
 			leads_to_tech = suptech_comissariat5
 			research_cost_coeff = 1
@@ -237,6 +250,13 @@ technologies = {
 	}
 
 	suptech_comissariat5 = {
+
+		comissariat = {
+			supply_consumption_factor  = -0.2
+		}
+		on_research_complete = {
+			add_fuel = -50000
+		}
 
 		research_cost = 1.75
 		start_year = 1876
@@ -288,6 +308,10 @@ technologies = {
 	}
 	
 	suptech_field_ward2 = {
+	
+		field_ward = {
+			casualty_trickleback  = 0.1
+		}
 		
 		path = {
 			leads_to_tech = suptech_field_ward3
@@ -316,6 +340,11 @@ technologies = {
 	}
 	
 	suptech_field_ward3 = {
+	
+		field_ward = {
+			casualty_trickleback  = 0.1
+			experience_loss_factor = 0.05
+		}
 		
 		path = {
 			leads_to_tech = suptech_field_ward4
@@ -339,6 +368,15 @@ technologies = {
 	}
 
 	suptech_field_ward4 = {
+	
+		field_ward = {
+			casualty_trickleback  = 0.3
+			experience_loss_factor = 0.1
+		}
+		on_research_complete = {
+			add_stability = -0.05
+			add_fuel = -30000
+		}
 
 		research_cost = 1.75
 		start_year = 1876
@@ -384,6 +422,11 @@ technologies = {
 	}
 	
 	suptech_psychosomatic_company2 = {
+	
+		psychosomatic_company = {
+			armor_value = 0.2
+			default_morale = 0.1
+		}
 		
 		path = {
 			leads_to_tech = suptech_psychosomatic_company3
@@ -407,6 +450,11 @@ technologies = {
 	}
 	
 	suptech_psychosomatic_company3 = {
+	
+		psychosomatic_company = {
+			armor_value = 0.3
+			training_time = 0.5
+		}
 		
 		path = {
 			leads_to_tech = suptech_psychosomatic_company4
@@ -430,6 +478,11 @@ technologies = {
 	}
 	
 	suptech_psychosomatic_company4 = {
+	
+		psychosomatic_company = {
+			armor_value = 0.5
+			default_morale = 0.1
+		}
 
 		research_cost = 1.75
 		start_year = 1876
@@ -512,6 +565,10 @@ technologies = {
 	}
 	
 	suptech_mounted_constabulary2 = {
+	
+		mounted_constabulary = {
+			suppression_factor = 0.2
+		}
 		
 		path = {
 			leads_to_tech = suptech_mounted_constabulary3
@@ -535,6 +592,10 @@ technologies = {
 	}
 	
 	suptech_mounted_constabulary3 = {
+	
+		mounted_constabulary = {
+			suppression_factor = 0.2
+		}
 
 		research_cost = 1.2
 		start_year = 1873
@@ -580,6 +641,11 @@ technologies = {
 	}
 	
 	suptech_mounted_sergeants2 = {
+
+		mounted_sergeants = {
+			initiative = 0.12
+			experience_loss_factor = 0.05
+		}
 		
 		path = {
 			leads_to_tech = suptech_mounted_sergeants3
@@ -603,6 +669,11 @@ technologies = {
 	}
 	
 	suptech_mounted_sergeants3 = {
+
+		mounted_sergeants = {
+			initiative = 0.15
+			experience_loss_factor = 0.1
+		}
 
 		research_cost = 1.2
 		start_year = 1873
@@ -648,6 +719,10 @@ technologies = {
 	}
 	
 	suptech_reconnaissance_scouters2 = {
+
+		reconnaissance_scouters = {
+			recon = 2
+		}
 		
 		path = {
 			leads_to_tech = suptech_reconnaissance_scouters3
@@ -671,6 +746,10 @@ technologies = {
 	}
 	
 	suptech_reconnaissance_scouters3 = {
+
+		reconnaissance_scouters = {
+			recon = 2
+		}
 
 		research_cost = 1.2
 		start_year = 1873

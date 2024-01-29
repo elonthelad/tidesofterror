@@ -113,7 +113,14 @@ technologies = {
 	}
 
 	inftech_trunchupgrade1 = {
-
+		
+		on_research_complete = {
+			hidden_effect = {
+				add_ideas = truncheon_techidea1
+			}
+			custom_effect_tooltip = customtooltip_truncheon_tech1
+		}
+		
 		research_cost = 1.5
 		start_year = 1868
 		folder = {
@@ -136,6 +143,11 @@ technologies = {
 	}
 
 	inftech_trunchupgrade2 = {
+		
+		category_police_units = {
+			max_strength = 0.1
+			defense = 0.05
+		}
 
 		research_cost = 1.5
 		start_year = 1869
@@ -197,6 +209,10 @@ technologies = {
 	}
 
 	inftech_revolverupgrade1 = {
+		
+		category_police_units = {
+			soft_attack = 0.1
+		}
 
 		research_cost = 1.5
 		start_year = 1871
@@ -308,6 +324,13 @@ technologies = {
 
 	inftech_percussioncap = {
 		
+		category_rifle_infantry = {
+			soft_attack = 0.025
+			hard_attack = 0.025
+			breakthrough = 0.05
+			defense = 0.05
+		}
+		
 		path = {
 			leads_to_tech = inftech_integratedcartridges
 			research_cost_coeff = 1
@@ -330,6 +353,14 @@ technologies = {
 	}
 
 	inftech_integratedcartridges = {
+		
+		category_rifle_infantry = {
+			soft_attack = 0.03
+			hard_attack = 0.03
+			breakthrough = 0.05
+			defense = 0.05
+			supply_consumption = 0.02
+		}
 
 		research_cost = 1.5
 		start_year = 1870
@@ -348,6 +379,12 @@ technologies = {
 	}
 
 	inftech_slagrounds = {
+		
+		category_rifle_infantry = {
+			soft_attack =-0.05
+			hard_attack = 0.075
+			supply_consumption = -0.05
+		}
 		
 		path = {
 			leads_to_tech = inftech_mercurialpayload
@@ -376,6 +413,11 @@ technologies = {
 	}
 
 	inftech_mercurialpayload = {
+		
+		category_rifle_infantry = {
+			soft_attack =-0.05
+			hard_attack = 0.25
+		}
 
 		research_cost = 1.5
 		start_year = 1872
@@ -404,6 +446,9 @@ technologies = {
 			infantry_weapons2
 		}
 
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
 		research_cost = 2
 		start_year = 1870
 		folder = {
@@ -421,6 +466,10 @@ technologies = {
 	}
 
 	inftech_gunupgrade1 = {
+		
+		category_rifle_infantry = {
+			breakthrough = 0.15
+		}
 
 		research_cost = 1.5
 		start_year = 1871
@@ -439,6 +488,12 @@ technologies = {
 	}
 
 	inftech_magazineloading = {
+		
+		category_rifle_infantry = {
+			soft_attack = 0.025
+			hard_attack = 0.025
+			defense = 0.08
+		}
 		
 		path = {
 			leads_to_tech = inftech_leematford
@@ -618,6 +673,11 @@ technologies = {
 	}
 
 	inftech_temperedblades = {
+		
+		category_melee_infantry = {
+			soft_attack = 0.02
+			reliability = 0.05
+		}
 	
 		research_cost = 1.25
 		start_year = 1868
@@ -636,6 +696,11 @@ technologies = {
 	}
 
 	inftech_serrationedge = {
+		
+		category_melee_infantry = {
+			soft_attack = 0.08
+			breakthrough = 0.05
+		}
 	
 		research_cost = 1.25
 		start_year = 1870
@@ -686,6 +751,10 @@ technologies = {
 	}
 
 	inftech_pikeupgrade1 = {
+		
+		category_melee_infantry = {
+			defense = 0.2
+		}
 	
 		research_cost = 1.25
 		start_year = 1872
@@ -736,6 +805,11 @@ technologies = {
 	}
 
 	inftech_palisadeupgrade1 = {
+		
+		category_melee_infantry = {
+			soft_attack = 0.25
+			defense = -0.1
+		}
 
 		xor = {
 			inftech_palisadeupgrade2
@@ -758,6 +832,10 @@ technologies = {
 	}
 
 	inftech_palisadeupgrade2 = {
+		
+		category_melee_infantry = {
+			defense = 0.2
+		}
 
 		xor = {
 			inftech_palisadeupgrade1
@@ -807,6 +885,13 @@ technologies = {
 	}
 
 	inftech_pikeupgrade3 = {
+		
+		category_melee_infantry = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			breakthrough = 0.08
+			reliability = -0.04
+		}
 	
 		research_cost = 1.25
 		start_year = 1874
@@ -825,6 +910,10 @@ technologies = {
 	}
 
 	inftech_woolclothfulldress = {
+	
+		category_all_infantry = {
+			defense = 0.06
+		}
 		
 		path = {
 			leads_to_tech = inftech_lightchainmail
@@ -853,6 +942,13 @@ technologies = {
 	}
 
 	inftech_lightchainmail = {
+	
+		category_all_infantry = {
+			defense = 0.08
+			breakthrough = 0.02
+			hardness = 0.1
+			supply_consumption = 0.06
+		}
 
 		xor = {
 			inftech_leatherbrinie
@@ -880,6 +976,13 @@ technologies = {
 	}
 
 	inftech_armourhardening = {
+	
+		category_all_infantry = {
+			defense = 0.04
+			breakthrough = 0.01
+			hardness = 0.05
+			supply_consumption = 0.03
+		}
 		
 		path = {
 			leads_to_tech = inftech_mgalloyplate
@@ -903,6 +1006,14 @@ technologies = {
 	}
 
 	inftech_mgalloyplate = {
+	
+		category_all_infantry = {
+			defense = 0.12
+			breakthrough = 0.06
+			casualty_trickleback = 0.05
+			hardness = 0.3
+			supply_consumption = 0.12
+		}
 		
 		path = {
 			leads_to_tech = tech_inf_armour5
@@ -926,6 +1037,12 @@ technologies = {
 	}
 
 	inftech_leatherbrinie = {
+	
+		category_all_infantry = {
+			defense = 0.04
+			breakthrough = 0.01
+			supply_consumption = 0.01
+		}
 
 		xor = {
 			inftech_lightchainmail
@@ -953,6 +1070,13 @@ technologies = {
 	}
 
 	inftech_leatherovercoat = {
+	
+		category_all_infantry = {
+			defense = 0.04
+			breakthrough = 0.01
+			hardness = -0.05
+			supply_consumption = 0.01
+		}
 		
 		path = {
 			leads_to_tech = inftech_rangegreatcoat
@@ -976,6 +1100,14 @@ technologies = {
 	}
 
 	inftech_rangegreatcoat = {
+	
+		category_all_infantry = {
+			defense = 0.05
+			breakthrough = 0.02
+			hardness = -0.08
+			experience_loss_factor = -0.10
+			supply_consumption = 0.02
+		}
 
 		research_cost = 2
 		start_year = 1873

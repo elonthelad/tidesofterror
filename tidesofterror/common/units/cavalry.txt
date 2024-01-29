@@ -21,7 +21,8 @@ sub_units = {
 		
 		categories = {
 			category_front_line
-			category_light_infantry
+			category_melee_infantry
+			category_cavalry
 			category_all_infantry
 			category_army
 		}
@@ -65,7 +66,9 @@ sub_units = {
 		
 		categories = {
 			category_front_line
-			category_light_infantry
+			category_rifle_infantry
+			category_melee_infantry
+			category_cavalry
 			category_all_infantry
 			category_army
 		}
@@ -88,6 +91,7 @@ sub_units = {
 		supply_consumption = 0.07
 	
 		need = {
+			infantry_weapons = 150
 			melee_weapons = 150
 		}
 	}
@@ -109,7 +113,9 @@ sub_units = {
 		
 		categories = {
 			category_front_line
-			category_light_infantry
+			category_rifle_infantry
+			category_melee_infantry
+			category_cavalry
 			category_all_infantry
 			category_army
 		}
@@ -133,6 +139,7 @@ sub_units = {
 	
 		need = {
 			infantry_weapons = 150
+			melee_weapons = 150
 		}
 	}
 	
@@ -153,7 +160,9 @@ sub_units = {
 		
 		categories = {
 			category_front_line
-			category_light_infantry
+			category_rifle_infantry
+			category_melee_infantry
+			category_cavalry
 			category_all_infantry
 			category_army
 		}
@@ -200,7 +209,7 @@ sub_units = {
 		
 		categories = {
 			category_front_line
-			category_light_infantry
+			category_cavalry
 			category_all_infantry
 			category_army
 		}

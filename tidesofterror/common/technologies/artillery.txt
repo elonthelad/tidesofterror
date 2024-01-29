@@ -18,12 +18,7 @@ technologies = {
 		path = {
 			leads_to_tech = arttech_cannon9_pdr_8_cwt_gun
 			research_cost_coeff = 1
-		}		
-		
-		path = {
-			leads_to_tech = arttech_cannonball
-			research_cost_coeff = 1
-		}	
+		}
 
 		research_cost = 2
 		start_year = 1868
@@ -83,7 +78,11 @@ technologies = {
 	}
 
     arttech_canistershot = {
-
+	
+		artillery_brigade = {
+			soft_attack = 0.2
+		}
+		
 		research_cost = 1.5
 		start_year = 1869
 		folder = {
@@ -133,6 +132,11 @@ technologies = {
 	}
 
     arttech_heated_carcass_shot = {
+	
+		artillery_brigade = {
+			soft_attack = 0.1
+			ap_attack = 0.2
+		}
 
 		dependencies = {
     		arttech_tar_peat_pitch_compounds = 1
@@ -371,6 +375,12 @@ technologies = {
 	}
     
 	arttech_molotov_cocktails = {
+	
+		scorch_crew = {
+			soft_attack = 0.1
+			ap_attack = 0.1
+			breakthrough = 0.15
+		}
 
         path = {
             leads_to_tech = arttech_mercury_spoke_bomb
@@ -394,6 +404,11 @@ technologies = {
 	}
     
 	arttech_mercury_spoke_bomb = {
+	
+		scorch_crew = {
+			hard_attack = 0.2
+			ap_attack = 0.2
+		}
 
 		research_cost = 1.5
 		start_year = 1871
@@ -479,9 +494,13 @@ technologies = {
 	}
     
 	arttech_mortar_miniaturisation = {
-
-		enable_equipments = {
+	
+		mortar_regiments = {
+			maximum_speed = 0.1
 		}
+		
+		production_speed_coastal_bunker_factor = 0.1
+		production_speed_bunker_factor = 0.1
 		
 		path = {
             leads_to_tech = arttech_coehorn_mortar
@@ -594,8 +613,9 @@ technologies = {
 	}
     
 	arttech_smooth_crank_synchronisation = {
-
-		enable_equipments = {
+	
+		gatling_squadron = {
+			soft_attack = 0.08
 		}
 
 		research_cost = 1.5
@@ -652,6 +672,10 @@ technologies = {
 	}
     
 	arttech_boilwater_exhausts = {
+	
+		gatling_squadron = {
+			reliability = 0.08
+		}
 		
 		path = {
             leads_to_tech = arttech_icebox_reducer
@@ -697,8 +721,10 @@ technologies = {
 	}
     
 	arttech_icebox_reducer = {
-
-		enable_equipments = {
+	
+		gatling_squadron = {
+			soft_attack = 0.08
+			hard_attack = 0.05
 		}
 
 		research_cost = 1.5

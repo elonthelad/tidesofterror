@@ -18,4 +18,11 @@ sub_unit_categories = {
 	category_strat_bomber
 	category_scout_plane
 	category_recon
+	
+	#MOD
+	
+	category_rifle_infantry
+	category_melee_infantry
+	category_police_units
+	category_cavalry
 }

@@ -1,0 +1,162 @@
+﻿# Battalion template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+ENG_INF_01 = {
+	name = "Infantry Battalion"
+
+	for_countries = { ENG }
+
+	can_use = { always = yes }
+
+	division_types = { "line_infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ENG_INF_01 }
+
+	fallback_name = "%d Infantry Battalion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%dst Infantry Battalion" }
+		2 = { "%dnd Infantry Battalion" }
+		3 = { "%drd Infantry Battalion" }
+		4 = { "%dth Infantry Battalion" }
+		5 = { "%dth Infantry Battalion" }
+		42 = { "%dnd (East Lancashire) Infantry Battalion" }
+		43 = { "%drd (Wessex) Infantry Battalion" }
+		44 = { "%dth (Home Counties) Battalion" }
+		48 = { "%dth (South Midlands) Infantry Battalion" }
+		49 = { "%dth (West Riding) Infantry Battalion" }
+		50 = { "%dth (Northumbrian) Infantry Battalion" }
+		51 = { "%dst (Highland) Infantry Battalion" }
+		52 = { "%dnd (Lowland) Infantry Battalion" }
+		53 = { "%drd (Welsh) Infantry Battalion" }
+		54 = { "%dth (East Anglia) Infantry Battalion" }
+		55 = { "%dth (West Lancashire) Infantry Battalion" }
+		7 = { "%dth Infantry Battalion" }
+		8 = { "%dth Infantry Battalion" }
+		9 = { "%dth (Highland) Infantry Battalion" }
+		15 = { "%dth (Scottish) Infantry Battalion" }
+		18 = { "%dth Infantry Battalion" }
+		38 = { "%dth (Welsh) Infantry Battalion" }
+		45 = { "%dth Infantry Battalion" }
+		59 = { "%dth (Staffordshire) Infantry Battalion" }
+		61 = { "%dst Infantry Battalion" }
+		66 = { "%dth Infantry Battalion" }
+		23 = { "%drd (Northumbrian) Infantry Battalion" }
+		46 = { "%dth (North Midlands) Infantry Battalion" }
+		6 = { "%dth Infantry Battalion" }
+		47 = { "%dth (London) Infantry Battalion" }
+		56 = { "%dth (London) Infantry Battalion" }
+		70 = { "%dth Infantry Battalion" }
+		76 = { "%dth Infantry Battalion" }
+		77 = { "%dth Infantry Battalion" }
+		78 = { "%dth Infantry Battalion" }
+		80 = { "%dth Infantry Battalion" }
+		36 = { "%dth Infantry Battalion" }
+		801 = { "Guards Infantry Battalion" }
+		40 = { "%dth Infantry Battalion" }				# phantom division organizations
+		57 = { "%dth (2nd West Lancashire) Infantry Div." }
+		58 = { "%dth (2/1st London) Infantry Battalion" }
+		28 = { "%dth Infantry Battalion" }				# inactive and fictional units
+		33 = { "%drd Infantry Battalion" }
+		34 = { "%dth Infantry Battalion" }
+		37 = { "%dth Infantry Battalion" }
+		41 = { "%dst Infantry Battalion" }
+		60 = { "%dth Infantry Battalion" }
+		62 = { "%dnd Infantry Battalion" }
+		63 = { "%drd Infantry Battalion" }
+		67 = { "%dth Infantry Battalion" }
+		68 = { "%dth Infantry Battalion" }
+		69 = { "%dth Infantry Battalion" }
+		71 = { "%dst Infantry Battalion" }
+		72 = { "%dnd Infantry Battalion" }
+		73 = { "%drd Infantry Battalion" }
+		74 = { "%dth Infantry Battalion" }
+		75 = { "%dth Infantry Battalion" }
+		97 = { "%dth Infantry Battalion" }
+		98 = { "%dth Infantry Battalion" }
+		99 = { "%dth Infantry Battalion" }
+		100 = { "%dth Infantry Battalion" }
+		101 = { "%dst Infantry Battalion" }
+		102 = { "%dnd Infantry Battalion" }
+		103 = { "%drd Infantry Battalion" }
+		104 = { "%dth Infantry Battalion" }
+		105 = { "%dth Infantry Battalion" }
+		106 = { "%dth Infantry Battalion" }
+		107 = { "%dth Infantry Battalion" }
+		108 = { "%dth Infantry Battalion" }
+		109 = { "%dth Infantry Battalion" }
+		110 = { "%dth Infantry Battalion" }
+		111 = { "%dth Infantry Battalion" }
+		112 = { "%dth Infantry Battalion" }
+		113 = { "%dth Infantry Battalion" }
+		114 = { "%dth Infantry Battalion" }
+		115 = { "%dth Infantry Battalion" }
+		116 = { "%dth Infantry Battalion" }
+		117 = { "%dth Infantry Battalion" }
+		118 = { "%dth Infantry Battalion" }
+		119 = { "%dth Infantry Battalion" }
+		120 = { "%dth Infantry Battalion" }
+		121 = { "%dst Infantry Battalion" }
+		122 = { "%dnd Infantry Battalion" }
+		123 = { "%drd Infantry Battalion" }
+		124 = { "%dth Infantry Battalion" }
+		125 = { "%dth Infantry Battalion" }
+		126 = { "%dth Infantry Battalion" }
+		127 = { "%dth Infantry Battalion" }
+		128 = { "%dth Infantry Battalion" }
+		129 = { "%dth Infantry Battalion" }
+		130 = { "%dth Infantry Battalion" }
+		131 = { "%dst Infantry Battalion" }
+		132 = { "%dnd Infantry Battalion" }
+		133 = { "%drd Infantry Battalion" }
+		134 = { "%dth Infantry Battalion" }
+		135 = { "%dth Infantry Battalion" }
+		136 = { "%dth Infantry Battalion" }
+		137 = { "%dth Infantry Battalion" }
+		138 = { "%dth Infantry Battalion" }
+		139 = { "%dth Infantry Battalion" }
+		140 = { "%dth Infantry Battalion" }
+		141 = { "%dst Infantry Battalion" }
+		142 = { "%dnd Infantry Battalion" }
+		143 = { "%drd Infantry Battalion" }
+		144 = { "%dth Infantry Battalion" }
+		145 = { "%dth Infantry Battalion" }
+		146 = { "%dth Infantry Battalion" }
+		147 = { "%dth Infantry Battalion" }
+		148 = { "%dth Infantry Battalion" }
+		149 = { "%dth Infantry Battalion" }
+		150 = { "%dth Infantry Battalion" }
+	}
+}

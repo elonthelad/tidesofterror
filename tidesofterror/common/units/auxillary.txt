@@ -171,17 +171,16 @@ sub_units = {
 	
 		#Size Definitions
 		max_strength = 2
-		max_organisation = 60
-		default_morale = 0.3
+		max_organisation = 40
+		default_morale = 0.4
 		manpower = 100
 		training_time = 120
 		armor_value = 1.5
 
 		#Misc Abilities
 		weight = 0.1
-		supply_consumption = 0.08
-		
-
+		supply_consumption = 0.09
+	
 		casualty_trickleback = 0.05
 
 		essential = {
