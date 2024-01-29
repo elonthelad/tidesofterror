@@ -26,4 +26,25 @@ spriteTypes = {
 		name = "GFX_portrait_fergal_o_brosnan"
 		texturefile = "gfx/leaders/portrait_fergal_o_brosnan.png"
 	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_charles_dickens"
+		texturefile = "gfx/interface/ideas/idea_ENG_charles_dickens.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_charles_darwin"
+		texturefile = "gfx/interface/ideas/idea_ENG_charles_darwin.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_frederick_cave"
+		texturefile = "gfx/interface/ideas/idea_ENG_frederick_cave.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_henry_pinkerton"
+		texturefile = "gfx/interface/ideas/idea_ENG_henry_pinkerton.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_joseph_lister"
+		texturefile = "gfx/interface/ideas/idea_ENG_joseph_lister.png"
+	}
 }

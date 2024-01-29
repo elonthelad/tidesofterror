@@ -2,7 +2,12 @@ capital = 555
 
 oob = "ENG_1868"
 
-recruit_character = ENG_William_Gladstone
+recruit_character = ENG_william_gladstone
+recruit_character = ENG_charles_dickens
+recruit_character = ENG_joseph_lister
+recruit_character = ENG_charles_darwin
+recruit_character = ENG_frederick_cave
+recruit_character = ENG_henry_pinkerton
 
 # Starting tech
 set_technology = {
@@ -23,29 +28,31 @@ set_convoys = 100
 add_ideas = {
 	ENGIDEA_fenian_remnants
 	ENGIDEA_freight_crisis
-    volunteer_forces
-    liberal_trade_policy
-	routine_research
-	#THIS IS FOR NATIONAL SPIRIT TESTING!
-	ENGIDEA_1
-	ENGIDEA_2
-	ENGIDEA_3
-	ENGIDEA_4
-	ENGIDEA_5
-	ENGIDEA_6
-	ENGIDEA_7
-	ENGIDEA_8
-	ENGIDEA_9
-	ENGIDEA_10
-	ENGIDEA_11
-	ENGIDEA_12
-	ENGIDEA_13
-	ENGIDEA_14
-	ENGIDEA_15
-	ENGIDEA_16
-	ENGIDEA_17
-	ENGIDEA_18
-	ENGIDEA_19
+    the_volunteer_act
+	inventor_endorsement
+	steer_the_course
+	noone_enters_noone_leaves
+	hear_ye_hear_ye
+	#This is for testing the national spirit gui box, specifically the gridboxtype
+	#ENGIDEA_1
+	#ENGIDEA_2
+	#ENGIDEA_3
+	#ENGIDEA_4
+	#ENGIDEA_5
+	#ENGIDEA_6
+	#ENGIDEA_7
+	#ENGIDEA_8
+	#ENGIDEA_9
+	#ENGIDEA_10
+	#ENGIDEA_11
+	#ENGIDEA_12
+	#ENGIDEA_13
+	#ENGIDEA_14
+	#ENGIDEA_15
+	#ENGIDEA_16
+	#ENGIDEA_17
+	#ENGIDEA_18
+	#ENGIDEA_19
 }
 
 set_power_balance = {

@@ -183,8 +183,8 @@ spriteTypes = {
 
 	frameAnimatedSpriteType = {
 		name = "GFX_ongoing_generic_glow_yellow"
-		texturefile = "gfx/interface/ongoing_generic_glow_yellow.dds"
-		noOfFrames = 3
+		texturefile = "gfx/interface/officer_corp/idea_available_anim.dds"
+		noOfFrames = 2
 		animation_rate_fps = 1
 		looping = yes
 		play_on_show = yes
@@ -217,11 +217,6 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
 
-	spriteType = {
-		name = "GFX_dismantle_faction_button"
-		textureFile = "gfx/interface/dismantle_faction_button.dds"
-	}
-
 	frameAnimatedSpriteType = {
 		name = "GFX_idea_alert_glow"
 		texturefile = "gfx/interface/idea_alert_glow.dds"
@@ -237,11 +232,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_leading_pol_party_bg"
 		textureFile = "gfx/interface/leading_pol_party_bg.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_rules_sum_icon"
-		textureFile = "gfx/interface/rules_sum_icon.dds"
 	}
 
 
@@ -310,27 +300,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/followup_goal_bg.dds"
 	}
 
-#	spriteType = {
-#		name = "GFX_add_national_goal_button"
-#		textureFile = "gfx/interface/add_national_goal_button.dds"
-#	}
 
 	spriteType = {
 		name = "GFX_close_button_small"
 		textureFile = "gfx/interface/close_button_small.dds"
 	}
-
-	frameAnimatedSpriteType = {
-		name = "GFX_nat_spirit_glow_overlay"
-		texturefile = "gfx/interface/nat_spirit_glow_overlay.dds"
-		noOfFrames = 2
-		animation_rate_fps = 1
-		looping = yes
-		play_on_show = yes
-		pause_on_loop = 0.0
-		alwaystransparent = yes
-		effectFile = "gfx/FX/buttonstate_blendframes.lua"
-	}	
 	
 	spriteType = {
 		name = "GFX_diplo_goal_button"
@@ -338,23 +312,11 @@ spriteTypes = {
 		noOfFrames = 3
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"		
 	}	
-	
-	spriteType = {
-		name = "GFX_add_national_goal_button"
-		textureFile = "gfx/interface/add_national_goal_button.dds"
-		noOfFrames = 3
-		effectFile = "gfx/FX/buttonstate_onlydisable.lua"		
-	}
 
 	spriteType = {
 		name = "GFX_ideas_icon"
 		textureFile = "gfx/interface/ideas_icon.dds"
 	}
-
-	spriteType = {
-		name = "GFX_category_header"
-		textureFile = "gfx/interface/category_header.dds"
-	}	
 	
 	spriteType = {
 		name = "GFX_pol_win_idea_header"
@@ -395,12 +357,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/idea_country_tab.dds"
 		noOfFrames = 2
 	}
-	
-	spriteType = {
-		name = "GFX_idea_categories"
-		texturefile = "gfx/interface/idea_categories.dds"
-		noOfFrames = 6
-	}
 
 	spriteType = {
 		name = "GFX_goal_entry_bg"
@@ -415,12 +371,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_entry_bg_2"
 		texturefile = "gfx/interface/idea_entry_bg_2.dds"
-		noOfFrames = 2
-	}
-
-	spriteType = {
-		name = "GFX_idea_entry_bg_3"
-		texturefile = "gfx/interface/idea_entry_bg_3.dds"
 		noOfFrames = 2
 	}
 
@@ -518,12 +468,6 @@ spriteTypes = {
 		textureFile = "gfx//interface//pol_piechart_overlay_63x63.dds"
 		alwaystransparent = yes			
 	}
-	
-	spriteType = {
-		name = "GFX_pol_piechart_overlay"
-		textureFile = "gfx//interface//pol_piechart_overlay.dds"
-		alwaystransparent = yes			
-	}
 
 	spriteType = {
 		name = "GFX_goal_placeholder"
@@ -536,11 +480,6 @@ spriteTypes = {
 		name = "GFX_add_goal_button"
 		textureFile = "gfx//interface//add_goal_button.dds"
 		alwaystransparent = yes			
-	}
-
-	spriteType = {
-		name = "GFX_pol_leader_frame"
-		textureFile = "gfx//interface//pol_leader_frame.dds"
 	}
 	
 	spriteType = {
@@ -558,11 +497,6 @@ spriteTypes = {
 		name = "GFX_pol_piechart_bg"
 		textureFile = "gfx//interface//pol_piechart_bg.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"		
-	}
-
-	spriteType = {
-		name = "GFX_pol_view_bg"
-		textureFile = "gfx//interface//pol_view_bg.dds"
 	}
 
 	spriteType = {
@@ -612,22 +546,6 @@ spriteTypes = {
 		rotation = 90
 		amount = 75
 	}	
-
-	spriteType = {
-		name = "GFX_pol_goal_progress_frame"
-		textureFile = "gfx//interface//pol_goal_progress_frame.dds"
-	}
-	
-	progressbartype = {
-		name = "GFX_activegoal_progress"
-		color = { 0.0 0.5 0.0 }
-		colortwo = { 1.0 0.0 0.0 }
-		textureFile1 = "gfx//interface//pol_goal_progress.dds"
-		textureFile2 = "gfx//interface//pol_goal_progress_bg.dds"
-		size = { x = 237 y = 6 }
-		effectFile = "gfx/FX/progress_startend.lua"
-		horizontal = yes
-	}
 	
 	spriteType = {
 		name = "GFX_occupied_territory"
@@ -665,4 +583,115 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
 	
+	
+	#MODDED
+
+
+
+	spriteType = {
+		name = "GFX_pol_view_bg"
+		textureFile = "gfx/interface/politicsview/pol_view_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_pol_view_above_frame"
+		textureFile = "gfx/interface/politicsview/pol_view_above_frame.png"
+	}	
+
+	spriteType = {
+		name = "GFX_pol_view_name_shadow"
+		textureFile = "gfx/interface/politicsview/name_shadow.png"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_nat_spirit_glow_overlay"
+		texturefile = "gfx/interface/politicsview/nat_spirit_glow_overlay.dds"
+		noOfFrames = 2
+		animation_rate_fps = 0.8
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}	
+
+	spriteType = {
+		name = "GFX_category_header"
+		textureFile = "gfx/interface/politicsview/category_header.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_add_national_goal_button"
+		textureFile = "gfx/interface/politicsview/add_national_goal_button.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"		
+	}
+
+	textSpriteType = {
+		name = "GFX_government_button"
+		texturefile = "gfx/interface/politicsview/government_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_dismantle_faction_button"
+		textureFile = "gfx/interface/politicsview/dismantle_faction_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_gov_bop"
+		texturefile = "gfx/interface/politicsview/gov_bop.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_categories"
+		texturefile = "gfx/interface/politicsview/idea_categories.dds"
+		noOfFrames = 6
+	}
+
+	spriteType = {
+		name = "GFX_idea_entry_bg_3"
+		texturefile = "gfx/interface/ideas/policies/idea_entry_bg_3.dds"
+		noOfFrames = 2
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_upgrade_idea_glow_anim"
+		texturefile = "gfx/interface/ideas/policies/upgrade_idea_glow_anim.dds"
+		noOfFrames = 2
+		animation_rate_fps = 0.5
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+	spriteType = {
+		name = "GFX_pol_goal_progress_frame"
+		textureFile = "gfx/interface/politicsview/pol_goal_progress_frame.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_pol_piechart_overlay"
+		textureFile = "gfx/interface/pol_piechart_overlay.dds"
+		alwaystransparent = yes
+	}
+	
+	progressbartype = {
+		name = "GFX_activegoal_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx/interface/pol_goal_progress.dds"
+		textureFile2 = "gfx/interface/pol_goal_progress_bg.dds"
+		size = { x = 128 y = 3 }
+		effectFile = "gfx/FX/progress_startend.lua"
+		horizontal = yes
+	}
+	
+	spriteType = {
+		name = "GFX_rules_sum_icon"
+		textureFile = "gfx/interface/politicsview/rules_sum_icon.png"
+	}
 }

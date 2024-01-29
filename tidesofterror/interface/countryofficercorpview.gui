@@ -18,25 +18,18 @@ guiTypes = {
 		}
 	}
 
-	containerWindowType = {
+	containerWindowType = { 
 		name = "country_view_advisor_entry"
 		position = { x = 0 y = -47 }
 		size = { width = 53 height = 53 }
 		clipping = no
-
-		iconType = {
-			name = "idea_alert_glow"
-			position = { x = -14 y = 39 }
-			spriteType = "GFX_ongoing_generic_glow_yellow"
-			scale = 0.65
-			alwaystransparent = yes
-		}
-
+		
 		buttonType = {
 			name = "button"
 			position = { x = 0 y = 47 }
 			spriteType = "GFX_add_pol_idea_button"
 			no_clicksound = yes
+			scale = 0.5
 		}
 
 		iconType = {
@@ -50,13 +43,39 @@ guiTypes = {
 
 		iconType = {
 			name = "advisor_type_icon"
-			position = { x = 43 y = 93 }
+			position = { x = 51 y = 210 }
 			spriteType = "GFX_chief_and_theorist_strip"
 			centerposition = yes
 			alwaystransparent = yes
 			frame = 6
 		}
+
+		iconType = {
+			name = "idea_alert_glow"
+			position = { x = 34 y = 123 }
+			spriteType = "GFX_ongoing_generic_glow_yellow"
+			alwaystransparent = yes
+		}
+
+		#instantTextBoxType = {
+		#	name = "advisor_name"
+		#	position = { x = 0 y = 110 }
+		#	textureFile = ""
+		#	font = "hoi_16mbs"
+		#	borderSize = {x = 0 y = 0}
+		#	text = "advisortext"
+		#	maxWidth = 240
+		#	maxHeight = 16
+		#	fixedsize = yes
+		#	format = left
+		#}
 	}
+	
+	#containerWindowType = {
+	#name = "advisor_name_pdx_horseshit"
+	#position = {x=0 y=0}
+	#size = { width=84 height=150 }
+	#clipping = no
 	
 	containerWindowType = {
 		name = "high_command_entry"

@@ -5,22 +5,69 @@
  ENROUTE: "We have sent a diplomatic request. We cannot bother them with another until §Y$DATE$§!."
  lend_lease_idea: "Lend Lease"
  theorist: "Theorist"
- SPIRIT_ADD_IDEA: "Click to Add"
- CHANGE_ADVISOR: "\nYou can remove this advisor by clicking here. This comes at no cost to §YPolitcal Influence.§!"
- political_advisor: "Ministers of Cabinet"
+ CHANGE_ADVISOR: "--------------\nYou may unassign this advisor by clicking here. This comes at no cost to §YPolitcal Influence.§!"
+ 
+ 
+ #MODDED
+ 
+ #Policies and Ministers
+ 
+ SPIRIT_ADD_IDEA: "§GClick to Assign§! "
+ 
+ political_advisor: "Advisors"
  military_staff: "High Military Personnel"
- government: "Policies & Ministers"
+ retinue: "Retinue"
+ government: "Policy"
  high_command: "General Staff"
  army_chief: "Commander-in-Chief"
  navy_chief: "Lord High Admiral"
  air_chief: "General of Aircraft"
  
- mobilization_laws: "Conscription Policy"
- volunteer_forces: "Volunteer Forces"
- cardwell_reform: "Cardwell Reform"
+ mobilization_laws: "Enlistment Policy"
+ the_volunteer_act: "The Volunteer Act"
+ the_volunteer_act_desc: "The Volunteer Act was enacted in 1863 to carry into the effect of the royal commission of Viscount Eversley the year prior. These changes saw fit that every enlistee would receive government imbursement of 20 shillings if they had attended a prescribed number of drills in the last year. However grants could be refused at the general officer's scrutiny- Inefficiency of any order was unacceptable.\n\nDuring the time since this policy, the army as a whole has seen major recruitment and quality since."
+ cardwell_reforms: "Cardwell Reforms"
+ cardwell_reforms_desc: "These Reforms see to it that the War Office is greatly centralised, all the while entirely abolishing the purchase of officers commissions, while keeping pension for senior retiring officers. This makes a mans military career one of meritocracy, not one of simple purchase. The Cardwell Reforms had been brewing for a while coming- So these radical changes could be received better."
  homeland_emergency: "Homeland Emergency"
- enforced_conscription: "Enforced Conscription"
- manpower_any_will_do: "Any Will Do"
+ homeland_emergency_desc: "A state of emergency has been reached- the call to hand-off the responsibility to raise local militia will be deliv'rd to the appropriate lord-lieutenants. When the safety of our shores and homes are at compromise, all must rise to the call of their lord."
+ citizenship_by_enlistment: "Citizenship by Enlistment"
+ citizenship_by_enlistment_desc: "A good, safe, and secure home is a precious commodity in these times. Countless poor souls shack up together in communes- And when enlistment is at an all time low, we can assure all soldiers a provided home and sanctuary whenever available. Sadly, times are tough, yet payment can always help along the proceedure of resettlement. We will not budget for the dead, afterall."
+ grim_sortition: "The Grim Sortition"
+ grim_sortition_desc: "A peculiar option, perhaps befitting of a most peculiar crisis. Every man will willingly, or unwillingly sign on the list. At any draw, a quarter of the list will be up for mandatory enlistment. When facing against a demonic menace, you cannot quite blame the men for a lack of bravery. So, we could bypass making this decision, by making it seem fair for all when the red ticket is drawn.\n\nMaybe its a mercy that we don't show them our slight of hand. The noblemen are dubiously lucky, aren't they?"
+ all_willing_and_able: "All Willing and Able"
+ all_willing_and_able_desc: "'All Willing and Able' was a motto spouted by town criers in their mustering halls for a time now. Truthfully, they never really meant precisely 'All' but nowadays, we cannot afford to be so prude. With what resources we have, we will deliver a campaign by word-of-mouth, to safeguard our land.\n\n'To all you men and women who remain, take up arms, ye infirm, young or elder, for the love of god, fight for the rising of the dawn.'"
+ 
+ rnd_laws: "Institutions of Study"
+ technological_holocaust: "Technological Holocaust"
+ technological_holocaust_desc: "Todo"
+ luddite_appeasement: "Luddite Appeasement"
+ luddite_impedance_desc: "Todo"
+ the_prohibitory_developments_act: "The Prohibitory Developments Act"
+ the_prohibitory_developments_act_desc: "Todo"
+ inventor_endorsement: "Inventor Endorsement"
+ inventor_endorsement_desc: "Todo"
+ the_hermetical_guild: "The Hermetical Guild"
+ the_hermetical_guild_desc: "Todo"
+ sanctioned_dissections: "Sanctioned Dissections"
+ sanctioned_dissections_desc: "Todo"
+ the_wyrd_finds_bounty: "The Wyrd Finds Bounty"
+ the_wyrd_finds_bounty_desc: "Todo"
+ divination: "Divination"
+ divination_desc: "Todo"
+ human_developments_instituion: "Human Developments Institution"
+ human_developments_instituion_desc: "As we've recently learnt to discover, as apparent inheritants of this planet, who are we but masters of our own creation now? We, as our corporeal body, are no better than the animals we domesitcate. Our tools shape us- And we will shape ourselves with our tools.\n\nAs the new addage goes, evolve or die."
+ 
+ industrial_laws: "Industrial-Economic Policy"
+ steer_the_course: "Steer the Course"
+ steer_the_course_desc: "Todo"
+ 
+ foreign_policy: "Foreign Policy"
+ noone_enters_noone_leaves: "None to Enter, None to Leave"
+ noone_enters_noone_leaves_desc: "Todo"
+ 
+ reception_laws: "Public Reception"
+ hear_ye_hear_ye: "Hear ye, Hear ye!"
+ hear_ye_hear_ye_desc: "Todo"
  
  trade_laws: "Trade & Economy"
  free_internal_trade: "Free Internal Trade"
@@ -29,12 +76,7 @@
  reserved_market: "Reserved Market"
  military_economy: "Military Economy"
  
- rnd_laws: "Research Institutions"
- restrained_research: "Restrained Research"
- routine_research: "Routine Science"
- hermetical_colleges: "Hermetical Colleges"
- experimental_probing: "Experimental Probing"
- depths_of_knowledge: "§1Depths of Knowledge§!"
+ #Spirits
  
  ENGIDEA_fenian_remnants: "Fenian Remnants"
  ENGIDEA_fenian_remnants_desc: "The Fenian Republic was a proposed independent repubilic to own the four total regions of Ireland. The council of three were gaining traction and causing instability throughout England and Scotland, but public approval suddenely turned when they detonated a bomb at Clerkenwell Prison in London, to attempt to free one of the Manchester Martyrs kept there. This 'Irish Gunpowder Plot' practically blew up in their faces when the police immediately put down the perpertrators, letting no prisoners escape. This idea of an irish republic began with a most unruly riot in Kerry, Southern Ireland. It should've ended after the failure of a bombing, yet resentment in the southern region remains."

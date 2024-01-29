@@ -7,7 +7,15 @@
  customtooltip_engexpeditionlandfall: "The HMS Undaunted must have made landfall."
  customtooltip_engcosts2dock: "Has more than two Shipyards"
  
+ #Modifiers
+ # --- Traits
+ 
+ customtooltip_trait_ailing_desc: "This advisor is of dire humours and is §Rnot expected to last long§!, without intervention."
+ customtooltip_trait_nepotist_desc: "This advisor will §Rexpect you to hire more of his ilk§!."
+ 
  #Effects
+ 
+ 
  customtooltip_enggetfreightdecision: "The ministers of parliament will decide where their focuses and efforts go to §Yeliminate one of the effects§! from the Freight Crisis."
  customtooltip_engthe_expedition: "§YA series of events§! will tell us of the voyage of the HMS Undaunted."
  customtooltip_engselectpromise: "Selecting this will allow us more §Yoccult actions§!, and may eventually lead to the §Yformation of the Covenant.§!"
@@ -15,6 +23,8 @@
  customtooltip_engallowsmadman: "Allows us §Yelucidation§! from the Prognost."
  customtooltip_engfixingwreckperm: "Turns §YMaintaining the Undaunted§! into §YApprehensive Admiralty§!, of which the effects are; Accident chance §G-10.00%§!, Retreat Decision Chance §G+25.00%§!."
  customtooltip_engvivisection: "An §Yevent for the vivisection§! will take place and we may see if these creatures hold any secrets inside."
+ 
+ customtooltip_truncheon_tech1: "§YTruncheon§!: \n £production_cost  Production Cost: §G-20%§! \n"
  customtooltip_shaftmining: "Coal Gain Efficiency §G+10.00%§!.\nSteel Gain Efficiency §G+10.00%§!.\nAluminium Gain Efficiency §G+10.00%§!.\nEnables §Ybasic§! prospecting decisions."
  customtooltip_dynamite: "Enables §Yimproved§! prospecting decisions."
  customtooltip_steamdonkey: "Enables §Yadvanced§! prospecting decisions."

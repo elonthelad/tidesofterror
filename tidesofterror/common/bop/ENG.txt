@@ -7,9 +7,9 @@ ENG_bop_test = {
 		id = ENG_bop_middle
 		min = -0.25
 		max = 0.25
-		modifier = {
-			political_advisor_cost_factor = -0.2
-		}
+		#modifier = {
+		#	political_advisor_cost_factor = -0.2
+		#}
 	}
 
 	side = {

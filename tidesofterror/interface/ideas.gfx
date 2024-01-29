@@ -1,0 +1,90 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 18
+	}
+	
+	
+	#MODDED
+	
+	
+	#Enlistment policy
+	spriteType = {
+		name = "GFX_idea_the_volunteer_act"
+		texturefile = "gfx/interface/ideas/policies/enlistment/idea_the_volunteer_act.png"
+	}
+	spriteType = {
+		name = "GFX_idea_cardwell_reforms"
+		texturefile = "gfx/interface/ideas/policies/enlistment/idea_cardwell_reforms.png"
+	}
+	spriteType = {
+		name = "GFX_idea_homeland_emergency"
+		texturefile = "gfx/interface/ideas/policies/enlistment/idea_homeland_emergency.png"
+	}
+	spriteType = {
+		name = "GFX_idea_citizenship_by_enlistment"
+		texturefile = "gfx/interface/ideas/policies/enlistment/idea_citizenship_by_enlistment.png"
+	}
+	spriteType = {
+		name = "GFX_idea_grim_sortition"
+		texturefile = "gfx/interface/ideas/policies/enlistment/idea_grim_sortition.png"
+	}
+	spriteType = {
+		name = "GFX_idea_all_willing_and_able"
+		texturefile = "gfx/interface/ideas/policies/enlistment/idea_all_willing_and_able.png"
+	}
+	#Science policy
+	spriteType = {
+		name = "GFX_idea_technological_holocaust"
+		texturefile = "gfx/interface/ideas/policies/science/idea_technological_holocaust.png"
+	}
+	spriteType = {
+		name = "GFX_idea_luddite_appeasement"
+		texturefile = "gfx/interface/ideas/policies/science/idea_luddite_appeasement.png"
+	}
+	spriteType = {
+		name = "GFX_idea_the_prohibitory_developments_act"
+		texturefile = "gfx/interface/ideas/policies/science/idea_the_prohibitory_developments_act.png"
+	}
+	spriteType = {
+		name = "GFX_idea_inventor_endorsement"
+		texturefile = "gfx/interface/ideas/policies/science/idea_inventor_endorsement.png"
+	}
+	spriteType = {
+		name = "GFX_idea_the_hermetical_guild"
+		texturefile = "gfx/interface/ideas/policies/science/idea_the_hermetical_guild.png"
+	}
+	spriteType = {
+		name = "GFX_idea_sanctioned_dissections"
+		texturefile = "gfx/interface/ideas/policies/science/idea_sanctioned_dissections.png"
+	}
+	spriteType = {
+		name = "GFX_idea_the_wyrd_finds_bounty"
+		texturefile = "gfx/interface/ideas/policies/science/idea_the_wyrd_finds_bounty.png"
+	}
+	spriteType = {
+		name = "GFX_idea_divination"
+		texturefile = "gfx/interface/ideas/policies/science/idea_divination.png"
+	}
+	spriteType = {
+		name = "GFX_idea_human_developments_instituion"
+		texturefile = "gfx/interface/ideas/policies/science/idea_human_developments_instituion.png"
+	}
+	#Industrial-Economic policy
+	spriteType = {
+		name = "GFX_idea_steer_the_course"
+		texturefile = "gfx/interface/ideas/policies/industrial/idea_steer_the_course.png"
+	}
+	#Foreign policy
+	spriteType = {
+		name = "GFX_idea_noone_enters_noone_leaves"
+		texturefile = "gfx/interface/ideas/policies/foreignpolicy/idea_noone_enters_noone_leaves.png"
+	}
+	#Reception
+	spriteType = {
+		name = "GFX_idea_hear_ye_hear_ye"
+		texturefile = "gfx/interface/ideas/policies/reception/idea_hear_ye_hear_ye.png"
+	}
+}

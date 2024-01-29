@@ -23,13 +23,25 @@ idea_categories = {
 		ledger = hidden
 	}
 	
+	retinue = {
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+		
+		ledger = civilian
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
 	government = {
 		slot = mobilization_laws
-		slot = trade_laws
 		slot = rnd_laws
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
+		slot = industrial_laws
+		slot = foreign_policy
+		slot = reception_laws
 		
 		ledger = civilian
 		
@@ -41,7 +53,6 @@ idea_categories = {
 		character_slot = army_chief 
 		character_slot = navy_chief 
 		character_slot = air_chief
-		character_slot = high_command
 		character_slot = high_command
 		character_slot = high_command
 		

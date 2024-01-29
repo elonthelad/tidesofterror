@@ -1,6 +1,6 @@
 characters = {
-	ENG_William_Gladstone = {
-		name = "Lord William Gladstone" 
+	ENG_william_gladstone = {
+		name = ENG_william_gladstone
 		portraits = {
 			civilian = {
 				large = GFX_portrait_william_gladstone
@@ -10,6 +10,101 @@ characters = {
 			ideology = liberal_party
 			expire = "9999.1.1.1"
 			id = -1
+		}
+	}
+	
+	ENG_henry_pinkerton = {
+		name = ENG_henry_pinkerton
+		portraits = {
+			civilian = {
+				large = GFX_portrait_henry_pinkerton
+				small = GFX_idea_ENG_henry_pinkerton
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_henry_pinkerton
+			desc = ENG_henry_pinkerton_desc
+			traits  = {
+				trait_antiquity_mogul
+				trait_nepotist_henry_pinkerton
+			}
+		}
+	}
+	
+	ENG_frederick_cave = {
+		name = ENG_frederick_cave
+		portraits = {
+			civilian = {
+				large = GFX_portrait_frederick_cave
+				small = GFX_idea_ENG_frederick_cave
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_frederick_cave
+			desc = ENG_frederick_cave_desc
+			traits  = {
+				trait_eagle_eyed
+				trait_nepotist_frederick_cave
+			}
+		}
+	}
+	
+	ENG_charles_dickens = {
+		name = ENG_charles_dickens
+		portraits = {
+			civilian = {
+				large = GFX_portrait_charles_dickens
+				small = GFX_idea_ENG_charles_dickens
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_charles_dickens
+			desc = ENG_charles_dickens_desc
+			traits  = {
+				trait_great_writer 
+				trait_worldwide_figure_charles_dickens
+				trait_ailing
+			}
+		}
+	}
+	
+	ENG_joseph_lister = {
+		name = ENG_joseph_lister
+		portraits = {
+			civilian = {
+				large = GFX_portrait_joseph_lister
+				small = GFX_idea_ENG_joseph_lister
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_joseph_lister
+			desc = ENG_joseph_lister_desc
+			traits  = {
+				trait_public_health_pioneer
+			}
+		}
+	}
+	
+	ENG_charles_darwin = {
+		name = ENG_charles_darwin
+		portraits = {
+			civilian = {
+				large = GFX_portrait_charles_darwin
+				small = GFX_idea_ENG_charles_darwin
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = ENG_charles_darwin
+			desc = ENG_charles_darwin_desc
+			traits  = {
+				trait_father_of_evolution
+				trait_worldwide_figure_charles_darwin
+			}
 		}
 	}
 }
