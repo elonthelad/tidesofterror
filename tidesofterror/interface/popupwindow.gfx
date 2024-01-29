@@ -161,5 +161,13 @@ spriteTypes = {
 	}
 
 	### End of parts for a Re-Sizeable PopUp Confirmation Window.
-
+	
+	
+	#MODDED
+	
+	
+	spriteType = {
+		name = "GFX_400px_divider"
+		texturefile = "gfx/interface/400px_divider.png"
+	}
 }

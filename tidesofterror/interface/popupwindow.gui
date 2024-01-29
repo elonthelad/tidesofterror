@@ -1466,7 +1466,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "default_confirmation_popup"
-		size = { width = 480 height=322 }
+		size = { width = 430 height=300 }
 		orientation= center
 		origo = center
 		moveable = yes
@@ -1475,19 +1475,32 @@ guiTypes = {
 		click_to_front = yes
 
 		background = {
-			name = "Background"
-			quadTextureSprite ="GFX_tiled_window_pol_goal"
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
+		
+		iconType = {
+			name = "divider"
+			position = { x = 17 y = 54 }
+			spriteType = "GFX_400px_divider"
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name = "divider2"
+			position = { x = 17 y = 221 }
+			spriteType = "GFX_400px_divider"
+			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 10 y = 16 }
+			position = { x = 13 y = 15 }
 			textureFile = ""
-			font = "hoi_24header"
-			borderSize = {x = 0 y = 10}
+			font = "hoi_30header"
 			text = "Title"
-			maxWidth = 450
-			maxHeight = 40
+			maxWidth = 410
+			maxHeight = 30
 			fixedsize = yes
 			vertical_alignment = center
 			format = centre
@@ -1495,20 +1508,20 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "description"
-			position = { x = 24 y = 90 }
+			position = { x = 18 y = 65 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"
-			maxWidth = 430
-			maxHeight = 155
+			maxWidth = 390
+			maxHeight = 163
 			format = centre
 			scrollbartype = "standardtext_slider"
 		}
 
 		buttonType = {
 			name = "decline_button"
-			position = { x=90 y=250}
+			position = { x=55 y=248}
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "PDXO_CANCEL"
 			buttonFont = "hoi_16mbs"
@@ -1518,7 +1531,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "accept_button"
-			position = { x=260 y=250}
+			position = { x=230 y=248}
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "OK"
 			buttonFont = "hoi_16mbs"
