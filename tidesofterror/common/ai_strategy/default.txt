@@ -1,17 +1,7 @@
-stop_death_spiral_production = {
-	
-	enable = { always = yes }
-
-	ai_strategy = {
-		type = equipment_production_min_factories
-		id = train
-		value = 2
-	}
-}
-
 default_unit_production = {
 
 	enable = { always = yes }
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = role_ratio

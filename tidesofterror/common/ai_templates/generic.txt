@@ -940,6 +940,7 @@ mountaineers_generic = {
 		allowed_types = {
 			mountaineers
 			artillery
+			artillery_brigade
 			recon
 			signal_company
 			field_hospital

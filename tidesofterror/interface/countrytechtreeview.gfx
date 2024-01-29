@@ -5,16 +5,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/techtree/techtree_details_progress_bar_frame.dds"
 	}
 
-	progressbartype = {
-		name = "GFX_techtree_details_progress_bar"
-		color = { 0.0 0.5 0.0 }
-		colortwo = { 1.0 0.0 0.0 }
-		textureFile1 = "gfx\\interface\\prod_progress_bar2.dds"
-		textureFile2 = "gfx\\interface\\prod_progress_bar2_bg.dds"
-		size = { x = 218 y = 21 }
-		effectFile = "gfx/FX/progress_startend.lua"
-	}
-
 	spriteType = {
 		name = "GFX_tech_idea_bg"
 		textureFile = "gfx/interface/add_pol_idea_button.dds"
@@ -349,12 +339,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/techtree/tech_info_bg.dds"
 		size= { x=800 y=224 }
 		borderSize = { x=5 y=5 }
-	}
-
-	SpriteType = {
-		name = "GFX_tech_info_top_win"
-		textureFile = "gfx/interface/techtree/tech_info_top_win.dds"
-		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 	
 	SpriteType = {
@@ -1389,12 +1373,28 @@ spriteTypes = {
 	
 	#MOD
 	
+
+
+	SpriteType = {
+		name = "GFX_tech_info_top_win"
+		textureFile = "gfx/interface/techtree/unlock_window/tech_info_top_win.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	progressbartype = {
+		name = "GFX_techtree_details_progress_bar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx/interface/techtree/unlock_window/prod_progress_bar2.dds"
+		textureFile2 = "gfx/interface/techtree/unlock_window/prod_progress_bar2_bg.dds"
+		size = { x = 218 y = 21 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
 	spriteType = {
 		name = "GFX_stats_entry_bg"
 		textureFile = "gfx/interface/techtree/unlock_window/stats_entry_bg.dds"
 	}
 	spriteType = {
-		name = "GFX_stats_entry_long_bg"
-		textureFile = "gfx/interface/techtree/unlock_window/stats_entry_long_bg.dds"
+		name = "GFX_tech_info_line"
+		textureFile = "gfx/interface/techtree/unlock_window/tech_info_line.png"
 	}
 }
