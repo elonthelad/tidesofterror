@@ -1,0 +1,53 @@
+#Commands
+
+pp [+/- value] 							#Modifies political power (influence)
+add_stability [+/- value] 		#Modifies stability (order)
+ws [+/- value] 							#Modifies war support (hope)
+manpower [+/- value] 			#Modifies manpower
+fuel [+/- value]						#Modifies fuel (sanity)
+cp [+/- value]							#Modifies command power
+
+add_party_popularity arcane [+/- value]	#Modifies arcane idea popularity
+
+fa												#Instantaneous focus completion
+research_on_icon_click			#Instantaneous research when clicking on research items
+nocb										#Allows instant declaration of war
+allowdiplo								#Can send all types of diplomacy offers
+yesman									#AI accepts all diplomacy offers
+
+event british.1							#Executes 'The Freight Crisis' country_event
+event british.2							#Executes 'SUPPLY LINES IN DISTRESS' news_event
+
+debug_smooth						#Accelerates speed 5 CONSIDERABLY
+gui											#Shows gui bounds, dimensions, elements, gfx, and names
+
+ae 10000 infantry_weapons1	#Add 10,000 snider-enfields to stockpile
+
+#Localisation syntax
+
+\n			#Break line
+
+§! 			#Ends the current formatting rule.
+§C 			#light cyan
+§L 			#description gray-brown
+§W 			#pure white
+§T 			#same as §W
+§B 			#blue
+§G 			#green
+§R 			#red
+§b 			#black
+§g 			#light gray
+§Y 			#yellow
+§H 			#same as §Y 
+§O 			#orange
+§0 			#purple (labeled "Gradient Step 0")
+§1 			#lilac (labeled "Gradient Step 1")
+§2 			#blue (labeled "Gradient Step 2")
+§3 			#gray-blue (labeled "Gradient Step 3")
+§4 			#light blue (labeled "Gradient Step 4")
+§5 			#dull cyan (labeled "Gradient Step 5")
+§6 			#turquoise (labeled "Gradient Step 6")
+§7 			#light green (labeled "Gradient Step 7")
+§8 			#orange-yellow (labeled "Gradient Step 8")
+§9 			#white-orange (labeled "Gradient Step 9")
+§t 			#vivid red (labeled "Gradient Step 10")

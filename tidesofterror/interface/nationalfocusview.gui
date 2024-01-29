@@ -458,6 +458,20 @@ guiTypes = {
 			spriteType = "GFX_own_chat"
 			pdx_tooltip = "HISTORICAL_FOCUS"
 		}
+
+		iconType = {
+			name = "viewing_flag"
+			quadTextureSprite ="GFX_goal_unknown"
+			position = {  x=-8888 y=-8888 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType ={
+			name ="viewing_flag_border"
+			quadTextureSprite = "GFX_goal_unknown"
+			position = { x= -8888 y = -8888 }
+			alwaystransparent = yes
+		}
 		
 		iconType = {
 			name = "highlight_glow"
