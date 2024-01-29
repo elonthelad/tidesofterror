@@ -25,6 +25,8 @@ no_garrison = {
 local_police_force_garrison = {
 	icon = 11
 	sound_effect = "Martial_Law_Interface_Local_Police_Force_Garrison"
+	default_law = yes
+	starting_law = yes
 	
 	state_modifier = {
 		resistance_target 				= -0.15
