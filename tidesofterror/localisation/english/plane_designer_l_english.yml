@@ -7,9 +7,9 @@
  
  EQ_MOD_CAT_hugeshared_module_type_TITLE: "Huge Armaments"
  
- air_huge_underside_artillery: "Dorsal Artillery"
+ air_huge_dorsal_artillery: "Dorsal Artillery"
  air_huge_forward_cannon: "Colossal Forward Cannon"
- air_huge_dorsal_blastspear: "Underside Blastspear"
+ air_huge_underside_blastspear: "Underside Blastspear"
  air_huge_biplane_factory: "Biplane Factory"
  
  EQ_MOD_SLOT_largeshared_type_slot_1_TITLE: "Primary Large Slot"

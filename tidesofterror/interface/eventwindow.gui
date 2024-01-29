@@ -205,11 +205,7 @@ guiTypes = {
 	#	}
 	#}
 
- ##  ###  ### ###   ##  ### ### #   # ###     ### #   # ### #  # ###  ## 
-#  # #  # #   #  # #  #  #   #  #   # #       #   #   # #   ## #  #  #   
-#  # ###  ##  ###  ####  #   #  #   # ##      ##   # #  ##  # ##  #   #  
-#  # #    #   # #  #  #  #   #   # #  #       #    # #  #   #  #  #    # 
- ##  #    ### #  # #  #  #  ###   #   ###     ###   #   ### #  #  #  ##  
+#Operative burning letter event
 
 	@fade_time = 1000
 	containerWindowType = {
@@ -390,7 +386,7 @@ guiTypes = {
 		}
 	}
 
-#Below is letter of address, no picture. unit_leader_event
+#Below is letter of address, no picture. Used in place of unit_leader_event
 
 	containerWindowType = {
 		name = "EventWindow_leader"
@@ -488,7 +484,7 @@ guiTypes = {
 
 	}
 
-#Below is London News. news_event
+#Below is London News. In place of news_event
 
 	containerWindowType = {
 		name = "EventWindow_News"
