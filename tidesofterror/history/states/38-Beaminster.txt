@@ -11,7 +11,7 @@ state={
 		victory_points = { 8496 6 } #"Crewkerne"
 		victory_points = { 285 4 } #"Beaminster"
 	}
-	manpower=5752
+	manpower=17256
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

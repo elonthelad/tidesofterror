@@ -1,19 +1,16 @@
-
 state={
 	id=824
 	name="STATE_824"
-
+	provinces={
+		814 2016 2133 2393 3179 3322 7062 7081 7094 7104 7153 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
-
+		victory_points = { 814 5 } #"Roscrea"
 	}
-
-	provinces={
-		814 2016 2133 2393 3179 3322 7062 7081 7094 7104 7153 
-	}
-	manpower=10000
+	manpower=12633
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 480 3 } #"Eye"
 	}
-	manpower=4765
+	manpower=14295
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -10,7 +10,7 @@ state={
 		victory_points = { 436 16 } #"Salford"
 		victory_points = { 6981 14 } #"Stretford"
 	}
-	manpower=41923
+	manpower=125769
 	buildings_max_level_factor=1.000
 	state_category=great_city
 	local_supplies=0.000

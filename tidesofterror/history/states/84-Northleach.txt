@@ -11,7 +11,7 @@ state={
 		victory_points = { 3921 3 } #"Northleach"
 		victory_points = { 5420 5 } #"Charlton Kings"
 	}
-	manpower=11661
+	manpower=34983
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -10,7 +10,7 @@ state={
 		victory_points = { 7894 5 } #"Sudbury"
 		victory_points = { 3358 4 } #"Long Melford"
 	}
-	manpower=14943
+	manpower=44829
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

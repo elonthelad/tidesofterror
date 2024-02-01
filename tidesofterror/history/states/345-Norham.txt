@@ -9,8 +9,11 @@ state={
 		add_core_of = ENG
 		victory_points = { 4863 8 } #"Berwick-upon-Tweed"
 		victory_points = { 887 1 } #"Beal"
+		buildings = {
+			4863 = { naval_base = 1 }
+		}
 	}
-	manpower=4710
+	manpower=14130
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

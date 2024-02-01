@@ -8,8 +8,10 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 3903 2 } #"Cootehill"
+		victory_points = { 4386 1 } #"Virginia"
 	}
-	manpower=10000
+	manpower=10974
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

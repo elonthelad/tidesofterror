@@ -12,7 +12,7 @@ state={
 		victory_points = { 1994 2 } #"Wigtown"
 		victory_points = { 4933 1 } #"Garlieston"
 	}
-	manpower=2620
+	manpower=7860
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

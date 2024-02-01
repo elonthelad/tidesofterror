@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 7276 5 } #"Ashbourne"
 	}
-	manpower=3200
+	manpower=9600
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

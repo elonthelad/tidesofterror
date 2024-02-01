@@ -1,4 +1,3 @@
-
 state={
 	id=793
 	name="STATE_793"
@@ -9,8 +8,13 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 106 3 } #"Skibbereen"
+		victory_points = { 689 2 } #"Baltimore"
+		buildings = {
+			689 = { naval_base = 1 }
+		}
 	}
-	manpower=10000
+	manpower=17430
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -12,8 +12,11 @@ state={
 		victory_points = { 3704 3 } #"Neyland"
 		victory_points = { 4211 6 } #"Haverfordwest"
 		victory_points = { 2913 3 } #"Fishguard"
+		buildings = {
+			3704 = { naval_base = 2 }
+		}
 	}
-	manpower=8461
+	manpower=25383
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

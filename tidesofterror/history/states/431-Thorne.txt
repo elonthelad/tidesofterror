@@ -10,7 +10,7 @@ state={
 		victory_points = { 6856 4 } #"Thorne"
 		victory_points = { 6931 3 } #"Armthorpe"
 	}
-	manpower=3747
+	manpower=11241
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

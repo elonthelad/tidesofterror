@@ -10,7 +10,7 @@ state={
 		victory_points = { 6808 6 } #"Chorley"
 		victory_points = { 6823 6 } #"Adlington"
 	}
-	manpower=5865
+	manpower=17595
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

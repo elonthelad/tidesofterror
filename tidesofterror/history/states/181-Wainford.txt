@@ -10,7 +10,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 663 4 } #"Beccles"
 	}
-	manpower=4234
+	manpower=12702
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

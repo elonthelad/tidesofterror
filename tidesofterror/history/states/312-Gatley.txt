@@ -11,7 +11,7 @@ state={
 		victory_points = { 2683 10 } #"Cheadle Hulme"
 		victory_points = { 4500 5 } #"Poynton"
 	}
-	manpower=17529
+	manpower=52587
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

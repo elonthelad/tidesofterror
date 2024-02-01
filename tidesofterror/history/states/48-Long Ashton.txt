@@ -11,7 +11,7 @@ state={
 		victory_points = { 5356 12 } #"Portishead"
 		victory_points = { 493 6 } #"Nailsea"
 	}
-	manpower=13399
+	manpower=40197
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

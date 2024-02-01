@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 236 20 } #"Peterborough"
 	}
-	manpower=38204
+	manpower=114612
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

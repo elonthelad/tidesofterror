@@ -13,8 +13,11 @@ state={
 		victory_points = { 5867 10 } #"Scone"
 		victory_points = { 141 2 } #"Errol"
 		victory_points = { 5885 3 } #"Bridge of Earn"
+		buildings = {
+			3380 = { naval_base = 3 }
+		}
 	}
-	manpower=10587
+	manpower=31761
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

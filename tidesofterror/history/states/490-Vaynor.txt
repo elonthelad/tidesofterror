@@ -10,7 +10,7 @@ state={
 		add_claim_by = WAL
 		victory_points = { 8034 10 } #"Merthyr Tydfil"
 	}
-	manpower=2951
+	manpower=8853
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

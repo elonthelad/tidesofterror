@@ -10,7 +10,7 @@ state={
 		victory_points = { 5358 4 } #"Tiddington"
 		victory_points = { 7828 4 } #"Wellesbourne"
 	}
-	manpower=5357
+	manpower=16071
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -12,8 +12,11 @@ state={
 		victory_points = { 1774 12 } #"Renfrew"
 		victory_points = { 5960 7 } #"Inchinnan"
 		victory_points = { 3857 7 } #"Crosslee"
+		buildings = {
+			5960 = { naval_base = 6 }
+		}
 	}
-	manpower=27942
+	manpower=83826
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

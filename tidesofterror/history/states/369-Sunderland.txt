@@ -13,8 +13,11 @@ state={
 		victory_points = { 6271 8 } #"Gateshead"
 		victory_points = { 6255 15 } #"Hebburn"
 		victory_points = { 4928 9 } #"Whitburn"
+		buildings = {
+			6255 = { naval_base = 8 }
+		}
 	}
-	manpower=66237
+	manpower=198711
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

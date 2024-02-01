@@ -8,8 +8,11 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 1418 5 } #"Neston"
+		buildings = {
+			1418 = { naval_base = 2 }
+		}
 	}
-	manpower=3147
+	manpower=9441
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -1,19 +1,16 @@
-
 state={
 	id=813
 	name="STATE_813"
-
+	provinces={
+		513 1687 2456 2641 2807 4132 4850 4903 6853 6887 6898 6923 6926 6938 6954 6955 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
-
+		victory_points = { 4850 6 } #"Edenderry"
 	}
-
-	provinces={
-		513 1687 2456 2641 2807 4132 4850 4903 6853 6887 6898 6923 6926 6938 6954 6955 
-	}
-	manpower=10000
+	manpower=17337
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

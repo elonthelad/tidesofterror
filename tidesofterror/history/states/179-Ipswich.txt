@@ -11,8 +11,11 @@ state={
 		victory_points = { 672 10 } #"Castle Hill"
 		victory_points = { 7887 20 } #"Ipswich"
 		victory_points = { 7907 8 } #"Gainsborough"
+		buildings = {
+			7907 = { naval_base = 1 }
+		}
 	}
-	manpower=75211
+	manpower=225633
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 7457 10 } #"Cannock"
 	}
-	manpower=11484
+	manpower=34452
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

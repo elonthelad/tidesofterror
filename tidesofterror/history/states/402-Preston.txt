@@ -11,7 +11,7 @@ state={
 		victory_points = { 398 4 } #"Grange"
 		victory_points = { 3598 3 } #"Lea"
 	}
-	manpower=16103
+	manpower=48309
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

@@ -11,8 +11,11 @@ state={
 		victory_points = { 5259 25 } #"Exeter"
 		victory_points = { 8548 14 } #"Wonford"
 		victory_points = { 8540 6 } #"Pinhoe"
+		buildings = {
+			8548 = { naval_base = 4 }
+		}
 	}
-	manpower=32133
+	manpower=96399
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

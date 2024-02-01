@@ -10,8 +10,11 @@ state={
 		victory_points = { 2815 20 } #"Lancaster"
 		victory_points = { 2882 12 } #"Morecambe"
 		victory_points = { 6636 8 } #"Heysham"
+		buildings = {
+			2882 = { naval_base = 4 }
+		}
 	}
-	manpower=21817
+	manpower=65451
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

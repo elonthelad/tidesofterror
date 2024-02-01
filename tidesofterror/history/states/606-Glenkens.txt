@@ -11,7 +11,7 @@ state={
 		victory_points = { 618 1 } #"Clarebrand"
 		victory_points = { 2115 2 } #"New Galloway"
 	}
-	manpower=1094
+	manpower=3282
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

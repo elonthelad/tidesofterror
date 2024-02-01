@@ -12,8 +12,11 @@ state={
 		victory_points = { 902 15 } #"Yewdale"
 		victory_points = { 984 12 } #"Carleton"
 		victory_points = { 706 14 } #"Kingmoor"
+		buildings = {
+			4110 = { naval_base = 2 }
+		}
 	}
-	manpower=17709
+	manpower=53127
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

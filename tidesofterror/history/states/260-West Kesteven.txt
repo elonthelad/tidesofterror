@@ -10,7 +10,7 @@ state={
 		victory_points = { 5220 8 } #"Grantham"
 		victory_points = { 7330 12 } #"Manthorpe"
 	}
-	manpower=28040
+	manpower=84120
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

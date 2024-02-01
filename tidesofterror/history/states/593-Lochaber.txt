@@ -12,7 +12,7 @@ state={
 		victory_points = { 3987 2 } #"Caol"
 		victory_points = { 348 1 } #"Mallaig"
 	}
-	manpower=969
+	manpower=2907
 	buildings_max_level_factor=1.000
 	state_category=peaks
 	local_supplies=0.000

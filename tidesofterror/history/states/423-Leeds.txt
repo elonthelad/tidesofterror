@@ -14,7 +14,7 @@ state={
 		victory_points = { 3517 12 } #"Oakwood"
 		victory_points = { 4538 10 } #"Morley"
 	}
-	manpower=56569
+	manpower=169707
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

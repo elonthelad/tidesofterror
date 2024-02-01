@@ -10,7 +10,7 @@ state={
 		victory_points = { 1332 6 } #"Newhaven"
 		victory_points = { 8507 3 } #"Tarring Neville"
 	}
-	manpower=19956
+	manpower=59868
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

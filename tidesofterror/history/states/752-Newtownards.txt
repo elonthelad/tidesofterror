@@ -9,11 +9,17 @@ state={
 		victory_points = { 4440 20 } #"Bangor"
 		victory_points = { 5158 7 } #"Comber"
 		victory_points = { 6355 5 } #"Dundonald"
+		buildings = {
+			4440 = { naval_base = 3 }
+		}
+		buildings = {
+			5200 = { naval_base = 2 }
+		}
 	}
 	provinces={
 		1728 2094 2515 3031 3942 4440 5158 5200 6339 6344 6355 6374 
 	}
-	manpower=18293
+	manpower=54879
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

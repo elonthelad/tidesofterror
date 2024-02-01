@@ -10,7 +10,7 @@ state={
 		victory_points = { 3033 10 } #"Stevenage"
 		victory_points = { 8021 4 } #"Hatfield"
 	}
-	manpower=29193
+	manpower=87579
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

@@ -10,7 +10,7 @@ state={
 		victory_points = { 678 7 } #"Clitheroe"
 		victory_points = { 2588 3 } #"Barnoldswick"
 	}
-	manpower=3813
+	manpower=11439
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

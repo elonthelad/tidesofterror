@@ -11,7 +11,7 @@ state={
 		victory_points = { 8015 12 } #"Brockworth"
 		victory_points = { 8011 10 } #"Quedgeley"
 	}
-	manpower=61572
+	manpower=184716
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

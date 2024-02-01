@@ -11,7 +11,7 @@ state={
 		victory_points = { 410 4 } #"Newport"
 		victory_points = { 3913 2 } #"Shawbury"
 	}
-	manpower=4885
+	manpower=14655
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

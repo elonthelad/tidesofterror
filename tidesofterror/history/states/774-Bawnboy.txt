@@ -8,8 +8,10 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 2495 1 } #"Ballyconnell"
+		victory_points = { 4327 1 } #"KIllashandra"
 	}
-	manpower=10000
+	manpower=8667
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

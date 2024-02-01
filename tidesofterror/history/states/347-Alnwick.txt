@@ -10,7 +10,7 @@ state={
 		victory_points = { 3554 4 } #"Alnwick"
 		victory_points = { 2852 3 } #"Craster"
 	}
-	manpower=3768
+	manpower=11304
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

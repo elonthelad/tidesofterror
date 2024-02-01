@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 6417 2 } #"Startforth"
 	}
-	manpower=3062
+	manpower=9186
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

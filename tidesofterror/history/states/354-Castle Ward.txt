@@ -10,7 +10,7 @@ state={
 		victory_points = { 6213 5 } #"Ponteland"
 		victory_points = { 1253 3 } #"Acomb"
 	}
-	manpower=5722
+	manpower=17166
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 7617 2 } #"Oundle"
 	}
-	manpower=2551
+	manpower=7653
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

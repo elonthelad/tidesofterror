@@ -11,7 +11,7 @@ state={
 		victory_points = { 3324 8 } #"Scarborough"
 		victory_points = { 6561 8 } #"Eastfield"
 	}
-	manpower=11858
+	manpower=35574
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

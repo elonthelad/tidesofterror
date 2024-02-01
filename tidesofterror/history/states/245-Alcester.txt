@@ -11,7 +11,7 @@ state={
 		victory_points = { 4771 4 } #"Bidford-on-Avon"
 		victory_points = { 7754 4 } #"Alcester"
 	}
-	manpower=6815
+	manpower=20445
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

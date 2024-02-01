@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 57 12 } #"Sevenoaks"
 	}
-	manpower=26141
+	manpower=78423
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

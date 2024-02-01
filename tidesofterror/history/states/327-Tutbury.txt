@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 3150 14 } #"Burton upon Trent"
 	}
-	manpower=20537
+	manpower=61611
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

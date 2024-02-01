@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 6519 2 } #"Aysgarth"
 	}
-	manpower=1716
+	manpower=5148
 	buildings_max_level_factor=1.000
 	state_category=peaks
 	local_supplies=0.000

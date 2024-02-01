@@ -11,7 +11,7 @@ state={
 		victory_points = { 3102 2 } #"Queensbury"
 		victory_points = { 6816 2 } #"Elland"
 	}
-	manpower=3163
+	manpower=9489
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

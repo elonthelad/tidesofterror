@@ -10,7 +10,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 7194 2 } #"Tattenhall"
 	}
-	manpower=2973
+	manpower=8919
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

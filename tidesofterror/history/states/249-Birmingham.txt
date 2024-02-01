@@ -16,7 +16,7 @@ state={
 		victory_points = { 7575 12 } #"Old Oscott"
 		victory_points = { 4005 10 } #"Erdington"
 	}
-	manpower=179401
+	manpower=538203
 	buildings_max_level_factor=1.000
 	state_category=urban_borough
 	local_supplies=0.000

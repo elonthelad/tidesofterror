@@ -11,7 +11,7 @@ state={
 		victory_points = { 4968 16 } #"Bridgwater"
 		victory_points = { 3730 14 } #"East Bower"
 	}
-	manpower=26712
+	manpower=80136
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

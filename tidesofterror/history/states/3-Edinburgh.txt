@@ -13,8 +13,11 @@ state={
 		victory_points = { 5956 14 } #"Craigentinny"
 		victory_points = { 2878 15 } #"Blackford"
 		victory_points = { 3527 12 } #"Cramond"
+		buildings = {
+			2681 = { naval_base = 5 }
+		}
 	}
-	manpower=93578
+	manpower=280734
 	buildings_max_level_factor=1.000
 	state_category=great_city
 	local_supplies=0.000

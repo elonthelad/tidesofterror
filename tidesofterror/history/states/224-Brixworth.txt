@@ -11,7 +11,7 @@ state={
 		victory_points = { 1600 2 } #"Mawsley"
 		victory_points = { 7721 3 } #"Brixworth"
 	}
-	manpower=3803
+	manpower=11409
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -9,8 +9,11 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 2594 3 } #"Stornoway"
+		buildings = {
+			2594 = { naval_base = 1 }
+		}
 	}
-	manpower=699
+	manpower=2097
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

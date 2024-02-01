@@ -10,7 +10,7 @@ state={
 		add_claim_by = WAL
 		victory_points = { 4183 5 } #"Ystradgynlais"
 	}
-	manpower=2065
+	manpower=6195
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

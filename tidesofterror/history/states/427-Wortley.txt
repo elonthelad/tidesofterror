@@ -13,7 +13,7 @@ state={
 		victory_points = { 6941 2 } #"Penistone"
 		victory_points = { 2382 2 } #"Holmfirth"
 	}
-	manpower=8871
+	manpower=26613
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

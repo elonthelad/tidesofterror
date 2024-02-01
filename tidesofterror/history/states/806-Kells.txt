@@ -1,4 +1,3 @@
-
 state={
 	id=806
 	name="STATE_806"
@@ -9,8 +8,9 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 762 3 } #"Kells"
 	}
-	manpower=10000
+	manpower=9906
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

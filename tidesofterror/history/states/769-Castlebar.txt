@@ -8,8 +8,9 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 718 10 } #"Castlebar"
 	}
-	manpower=10000
+	manpower=45960
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

@@ -11,7 +11,7 @@ state={
 		victory_points = { 4703 5 } #"Swaffham"
 		victory_points = { 734 3 } #"Brandon"
 	}
-	manpower=7622
+	manpower=22866
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

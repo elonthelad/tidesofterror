@@ -10,7 +10,7 @@ state={
 		victory_points = { 4471 4 } #"Clowne" Honk honk
 		victory_points = { 1912 3 } #"Whitwell"
 	}
-	manpower=2462
+	manpower=7386
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

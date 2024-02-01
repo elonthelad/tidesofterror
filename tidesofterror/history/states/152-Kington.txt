@@ -10,7 +10,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 2059 2 } #"Kington"
 	}
-	manpower=3598
+	manpower=10794
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

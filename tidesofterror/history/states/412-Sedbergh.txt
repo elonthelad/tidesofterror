@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 6506 1 } #"Sedbergh"
 	}
-	manpower=1168
+	manpower=3504
 	buildings_max_level_factor=1.000
 	state_category=peaks
 	local_supplies=0.000

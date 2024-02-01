@@ -13,8 +13,11 @@ state={
 		victory_points = { 8242 30 } #"Bristol"
 		victory_points = { 8228 18 } #"Bishopston"
 		victory_points = { 8225 12 } #"Kingswood"
+		buildings = {
+			8218 = { naval_base = 8 }
+		}
 	}
-	manpower=84692
+	manpower=254076
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

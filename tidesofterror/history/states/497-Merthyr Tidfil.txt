@@ -14,7 +14,7 @@ state={
 		victory_points = { 5037 4 } #"Abercynon"
 		victory_points = { 2445 5 } #"Mountain Ash"
 	}
-	manpower=12752
+	manpower=38256
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

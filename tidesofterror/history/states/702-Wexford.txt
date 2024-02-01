@@ -1,20 +1,21 @@
-
 state={
 	id=702
 	name="STATE_702"
-
+	provinces={
+		479 713 1550 1654 1851 1942 2057 3287 3614 3850 4418 7562 7600 7604 7620 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
-
+		victory_points = { 7600 10 } #"Wexford"
+		victory_points = { 4418 3 } #"Rosslare Harbour"
+		buildings = {
+			4418 = { naval_base = 2 }
+		}
 	}
-
-	provinces={
-		479 713 1550 1654 1851 1942 2057 3287 3614 3850 4418 7562 7600 7604 7620 
-	}
-	manpower=10000
+	manpower=34815
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

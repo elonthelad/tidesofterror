@@ -10,7 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 757 2 } #"Ullapool"
 	}
-	manpower=1032
+	manpower=3096
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -12,7 +12,7 @@ state={
 		victory_points = { 3820 8 } #"Dronfield"
 		victory_points = { 2568 4 } #"Staveley"
 	}
-	manpower=38170
+	manpower=114510
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

@@ -11,7 +11,7 @@ state={
 		victory_points = { 971 2 } #"Bowmore"
 		victory_points = { 924 1 } #"Port Ellen"
 	}
-	manpower=431
+	manpower=1293
 	buildings_max_level_factor=1.000
 	state_category=small_island
 	local_supplies=0.000

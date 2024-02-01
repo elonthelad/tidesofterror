@@ -1,20 +1,17 @@
-
 state={
 	id=716
 	name="STATE_716"
-
+	provinces={
+		93 310 1621 2157 2178 2879 4469 4476 4588 4693 4947 5216 6604 6608 6625 6629 6692 6696 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
-
+		victory_points = { 93 8 } #"Roscommon"
 	}
-
-	provinces={
-		93 310 1621 2157 2178 2879 4469 4476 4588 4693 4947 5216 6604 6608 6625 6629 6692 6696 
-	}
-	manpower=10000
+	manpower=30435
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

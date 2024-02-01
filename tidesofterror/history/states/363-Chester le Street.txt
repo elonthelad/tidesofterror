@@ -11,7 +11,7 @@ state={
 		victory_points = { 2080 4 } #"Stanley"
 		victory_points = { 6268 6 } #"Whickham"
 	}
-	manpower=19083
+	manpower=57249
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

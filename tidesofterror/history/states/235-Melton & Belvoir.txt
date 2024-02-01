@@ -11,7 +11,7 @@ state={
 		victory_points = { 4083 10 } #"Melton Mowbray"
 		victory_points = { 1671 2 } #"Harby"
 	}
-	manpower=19402
+	manpower=58206
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

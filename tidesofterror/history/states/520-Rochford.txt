@@ -10,8 +10,11 @@ state={
 		victory_points = { 8211 25 } #"Southend-on-Sea"
 		victory_points = { 3508 6 } #"Hockley"
 		victory_points = { 8199 10 } #"Rochford"
+		buildings = {
+			8211 = { naval_base = 2 }
+		}
 	}
-	manpower=57403
+	manpower=172209
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

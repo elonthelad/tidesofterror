@@ -11,7 +11,7 @@ state={
 		victory_points = { 8074 15 } #"Headington"
 		victory_points = { 8098 10 } #"Cowley"
 	}
-	manpower=76435
+	manpower=229305
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

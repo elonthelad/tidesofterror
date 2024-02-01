@@ -8,8 +8,9 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 2493 2 } #"Kenmare"
 	}
-	manpower=10000
+	manpower=5886
 	buildings_max_level_factor=1.000
 	state_category=peaks
 	local_supplies=0.000

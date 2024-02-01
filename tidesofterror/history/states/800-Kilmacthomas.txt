@@ -8,8 +8,9 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 419 2 } #"Portlaw"
 	}
-	manpower=10000
+	manpower=6426
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

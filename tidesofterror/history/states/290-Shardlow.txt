@@ -15,7 +15,7 @@ state={
 		victory_points = { 7313 5 } #"Sandiacre"
 		victory_points = { 7332 2 } #"Borrowash"
 	}
-	manpower=96919
+	manpower=290757
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

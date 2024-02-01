@@ -12,7 +12,7 @@ state={
 		victory_points = { 6206 5 } #"Gretna"
 		victory_points = { 937 2 } #"Lockerbie"
 	}
-	manpower=2843
+	manpower=8529
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

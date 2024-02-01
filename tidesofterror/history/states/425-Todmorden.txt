@@ -10,7 +10,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 3242 2 } #"Todmorden"
 	}
-	manpower=1837
+	manpower=5511
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

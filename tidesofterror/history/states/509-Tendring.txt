@@ -10,8 +10,11 @@ state={
 		victory_points = { 8058 12 } #"Clacton-on-Sea"
 		victory_points = { 7991 10 } #"Walton-on-the-Naze"
 		victory_points = { 4966 5 } #"Harwich"
+		buildings = {
+			8058 = { naval_base = 2 }
+		}
 	}
-	manpower=18966
+	manpower=56898
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

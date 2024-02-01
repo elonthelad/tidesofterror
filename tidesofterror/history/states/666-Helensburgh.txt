@@ -10,7 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 2889 6 } #"Helensburgh"
 	}
-	manpower=2993
+	manpower=8979
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

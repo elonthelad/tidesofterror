@@ -9,8 +9,11 @@ state={
 		add_core_of = ENG
 		victory_points = { 5450 20 } #"Hastings"
 		victory_points = { 2214 6 } #"Camber"
+		buildings = {
+			5450 = { naval_base = 2 }
+		}
 	}
-	manpower=25742
+	manpower=77226
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

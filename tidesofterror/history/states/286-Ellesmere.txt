@@ -10,7 +10,7 @@ state={
 		victory_points = { 2743 2 } #"Ellesmere"
 		victory_points = { 7385 2 } #"Baschurch"
 	}
-	manpower=1901
+	manpower=5703
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

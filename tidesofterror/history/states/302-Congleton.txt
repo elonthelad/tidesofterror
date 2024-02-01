@@ -11,7 +11,7 @@ state={
 		victory_points = { 7169 4 } #"Sandbach"
 		victory_points = { 1505 5 } #"Congleton"
 	}
-	manpower=6578
+	manpower=19734
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -1,20 +1,18 @@
-
 state={
 	id=718
 	name="STATE_718"
-
+	provinces={
+		56 160 521 768 1635 1649 1742 1895 2319 2530 2618 2672 3371 3661 3811 3826 5502 7084 7092 7121 7122 7147 7151 7202 7203 7220 7224 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
-
+		victory_points = { 2319 12 } #"Portlaoise"
+		victory_points = { 768 4 } #"Abbeyleix"
 	}
-
-	provinces={
-		56 160 521 768 1635 1649 1742 1895 2319 2530 2618 2672 3371 3661 3811 3826 5502 7084 7092 7121 7122 7147 7151 7202 7203 7220 7224 
-	}
-	manpower=10000
+	manpower=56847
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

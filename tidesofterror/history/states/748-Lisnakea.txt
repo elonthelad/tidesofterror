@@ -10,7 +10,7 @@ state={
 		add_core_of = EIR
 		victory_points = { 6453 4 } #"Lisnaskea"
 	}
-	manpower=2133
+	manpower=6399
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

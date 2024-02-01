@@ -10,9 +10,11 @@ state={
 		add_core_of = EIR
 		set_demilitarized_zone = yes
 		set_state_flag = fenian_sentiment
+		victory_points = { 5054 20 } #"Limerick"
+		victory_points = { 7294 10 } #"Dooradoyle"
 	}
-	manpower=10000
+	manpower=99063
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=large_town
 	local_supplies=0.000
 }

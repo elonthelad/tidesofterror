@@ -1,19 +1,16 @@
-
 state={
 	id=715
 	name="STATE_715"
-
+	provinces={
+		145 309 711 719 790 1014 1306 1667 1741 2316 2508 6471 6491 6516 6541 6556 6564 6570 6582 12021 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
-
+		victory_points = { 6582 2 } #"Mohill"
 	}
-
-	provinces={
-		145 309 711 719 790 1014 1306 1667 1741 2316 2508 6471 6491 6516 6541 6556 6564 6570 6582 12015 12021 
-	}
-	manpower=10000
+	manpower=9285
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

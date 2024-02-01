@@ -10,7 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 2577 2 } #"West Linton"
 	}
-	manpower=911
+	manpower=2733
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

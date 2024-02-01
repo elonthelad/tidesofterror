@@ -11,7 +11,7 @@ state={
 		victory_points = { 7745 10 } #"Wellingborough"
 		victory_points = { 7747 10 } #"Rushden"
 	}
-	manpower=19068
+	manpower=57204
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

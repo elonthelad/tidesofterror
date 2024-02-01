@@ -10,7 +10,7 @@ state={
 		victory_points = { 65 3 } #"Fowey"
 		victory_points = { 4134 10 } #"Liskeard"
 	}
-	manpower=4212
+	manpower=12636
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

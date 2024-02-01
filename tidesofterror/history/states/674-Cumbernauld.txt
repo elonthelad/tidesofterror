@@ -12,7 +12,7 @@ state={
 		victory_points = { 5963 7 } #"Condorrat"
 		victory_points = { 5969 4 } #"Moodiesburn"
 	}
-	manpower=5348
+	manpower=16044
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

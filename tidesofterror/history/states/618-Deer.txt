@@ -13,7 +13,7 @@ state={
 		victory_points = { 5511 6 } #"Peterhead"
 		victory_points = { 2076 3 } #"Mintlaw"
 	}
-	manpower=2829
+	manpower=8487
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

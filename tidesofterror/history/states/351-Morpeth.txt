@@ -11,7 +11,7 @@ state={
 		victory_points = { 4750 5 } #"Morpeth"
 		victory_points = { 2771 3 } #"Amble"
 	}
-	manpower=7630
+	manpower=22890
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

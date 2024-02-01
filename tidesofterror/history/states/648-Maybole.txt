@@ -10,7 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 1405 3 } #"Maybole"
 	}
-	manpower=1311
+	manpower=3933
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -14,8 +14,11 @@ state={
 		victory_points = { 6089 8 } #"Alloway"
 		victory_points = { 6071 12 } #"Troon"
 		victory_points = { 2448 2 } #"Tarbolton"
+		buildings = {
+			5445 = { naval_base = 2 }
+		}
 	}
-	manpower=19154
+	manpower=57462
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

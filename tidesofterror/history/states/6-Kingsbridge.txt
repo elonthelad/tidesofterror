@@ -12,7 +12,7 @@ state={
 		victory_points = { 8609 3 } #"Kingsbridge"
 		victory_points = { 8603 4 } #"Dartmouth"
 	}
-	manpower=2201
+	manpower=6603
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -13,8 +13,11 @@ state={
 		victory_points = { 1789 6 } #"Heathhall"
 		victory_points = { 328 2 } #"Lochmaben"
 		victory_points = { 1975 1 } #"Parkgate"
+		buildings = {
+			1134 = { naval_base = 2 }
+		}
 	}
-	manpower=11644
+	manpower=34932
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

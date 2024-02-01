@@ -11,7 +11,7 @@ state={
 		victory_points = { 1653 10 } #"Accrington"
 		victory_points = { 3065 6 } #"Darwen"
 	}
-	manpower=23588
+	manpower=70764
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

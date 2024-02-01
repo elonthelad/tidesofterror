@@ -10,7 +10,7 @@ state={
 		victory_points = { 895 6 } #"Oswestry"
 		victory_points = { 4851 2 } #"St. Martin's"
 	}
-	manpower=4872
+	manpower=14616
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

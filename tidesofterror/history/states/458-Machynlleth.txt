@@ -11,7 +11,7 @@ state={
 		victory_points = { 35 2 } #"Machynlleth"
 		victory_points = { 3896 1 } #"Llanbrynmair"
 	}
-	manpower=2635
+	manpower=7905
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

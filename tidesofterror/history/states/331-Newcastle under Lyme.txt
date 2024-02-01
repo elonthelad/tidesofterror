@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 7242 2 } #"Audley"
 	}
-	manpower=3956
+	manpower=11868
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -11,7 +11,7 @@ state={
 		victory_points = { 3441 6 } #"Derriford"
 		victory_points = { 3922 3 } #"Tavistock"
 	}
-	manpower=8302
+	manpower=24906
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

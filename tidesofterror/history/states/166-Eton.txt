@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 8229 14 } #"Slough"
 	}
-	manpower=21151
+	manpower=63453
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

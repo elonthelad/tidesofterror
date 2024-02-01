@@ -12,7 +12,7 @@ state={
 		victory_points = { 3721 10 } #"Tullibody"
 		victory_points = { 5920 3 } #"Dollar"
 	}
-	manpower=6068
+	manpower=18204
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

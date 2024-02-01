@@ -13,8 +13,11 @@ state={
 		victory_points = { 1611 18 } #"Woolston"
 		victory_points = { 4813 15 } #"Midanbury"
 		victory_points = { 3887 15 } #"Eastleigh"
+		buildings = {
+			1611 = { naval_base = 5 }
+		}
 	}
-	manpower=88466
+	manpower=265398
 	buildings_max_level_factor=1.000
 	state_category=great_city
 	local_supplies=0.000

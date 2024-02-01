@@ -13,7 +13,7 @@ state={
 		victory_points = { 3689 2 } #"Pwllcrochan"
 		victory_points = { 819 2 } #"St. Florence"
 	}
-	manpower=7574
+	manpower=22722
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

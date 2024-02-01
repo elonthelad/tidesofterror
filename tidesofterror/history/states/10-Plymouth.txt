@@ -11,8 +11,11 @@ state={
 		victory_points = { 2937 30 } #"Plymouth"
 		victory_points = { 3214 15 } #"Plymstock"
 		victory_points = { 8593 18 } #"St. Budeaux"
+		buildings = {
+			8598 = { naval_base = 6 }
+		}
 	}
-	manpower=47840
+	manpower=143520
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

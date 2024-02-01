@@ -8,8 +8,22 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 4077 80 } #"Dublin"
+		victory_points = { 2403 18 } #"Killester"
+		victory_points = { 5309 15 } #"Coolock"
+		victory_points = { 3063 6 } #"Sutton"
+		victory_points = { 6942 18 } #"Ballyfermot"
+		victory_points = { 3587 16 } #"Drimnagh Castle"
+		victory_points = { 6979 10 } #"Knocklyon"
+		victory_points = { 6977 16 } #"Dundrum"
+		victory_points = { 5307 14 } #"Blanchardstown"
+		victory_points = { 6882 8 } #"Rosemount"
+		victory_points = { 6903 12 } #"Santry"
+		buildings = {
+			4077 = { naval_base = 8 }
+		}
 	}
-	manpower=10000
+	manpower=499557
 	buildings_max_level_factor=1.000
 	state_category=great_city
 	local_supplies=0.000

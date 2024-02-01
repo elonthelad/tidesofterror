@@ -13,7 +13,7 @@ state={
 		victory_points = { 4127 6 } #"Ammanford"
 		victory_points = { 8001 3 } #"Glanaman"
 	}
-	manpower=6320
+	manpower=18960
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

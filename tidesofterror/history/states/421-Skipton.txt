@@ -10,7 +10,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 4506 3 } #"Skipton"
 	}
-	manpower=2337
+	manpower=7011
 	buildings_max_level_factor=1.000
 	state_category=peaks
 	local_supplies=0.000

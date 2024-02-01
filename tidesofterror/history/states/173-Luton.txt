@@ -11,7 +11,7 @@ state={
 		victory_points = { 4700 14 } #"Maidenhall"
 		victory_points = { 7977 15 } #"Dunstable"
 	}
-	manpower=98713
+	manpower=296139
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

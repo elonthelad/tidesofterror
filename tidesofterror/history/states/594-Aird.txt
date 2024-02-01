@@ -11,7 +11,7 @@ state={
 		victory_points = { 1364 2 } #"Kilmore"
 		victory_points = { 5672 2 } #"Kiltarlity"
 	}
-	manpower=1026
+	manpower=3078
 	buildings_max_level_factor=1.000
 	state_category=peaks
 	local_supplies=0.000

@@ -11,8 +11,11 @@ state={
 		victory_points = { 2663 4 } #"Ramsey"
 		victory_points = { 75 3 } #"Port St. Mary"
 		victory_points = { 3392 2 } #"Peel"
+		buildings = {
+			6549 = { naval_base = 2 }
+		}
 	}
-	manpower=7583
+	manpower=22749
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

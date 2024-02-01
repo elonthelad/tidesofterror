@@ -10,7 +10,7 @@ state={
 		victory_points = { 1646 20 } #"Worcester"
 		victory_points = { 7737 12 } #"Droitwich Spa"
 	}
-	manpower=42767
+	manpower=128301
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

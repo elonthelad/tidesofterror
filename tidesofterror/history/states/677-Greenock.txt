@@ -13,8 +13,11 @@ state={
 		victory_points = { 3146 5 } #"Port Glasgow"
 		victory_points = { 4 3 } #"Inverkip"
 		victory_points = { 2633 4 } #"Largs"
+		buildings = {
+			4432 = { naval_base = 1 }
+		}
 	}
-	manpower=8555
+	manpower=25665
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

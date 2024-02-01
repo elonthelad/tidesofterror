@@ -10,8 +10,11 @@ state={
 		add_claim_by = WAL
 		victory_points = { 5091 3 } #"Amlwch"
 		victory_points = { 2006 4 } #"Llangefni"
+		buildings = {
+			2654 = { naval_base = 1 }
+		}
 	}
-	manpower=4328
+	manpower=12984
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

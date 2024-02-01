@@ -12,8 +12,11 @@ state={
 		victory_points = { 6047 16 } #"Stanecastle"
 		victory_points = { 755 10 } #"Saltcoats"
 		victory_points = { 6024 4 } #"Seamill"
+		buildings = {
+			6047 = { naval_base = 3 }
+		}
 	}
-	manpower=11048
+	manpower=33144
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

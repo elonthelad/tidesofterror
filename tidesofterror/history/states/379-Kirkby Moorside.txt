@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 2966 2 } #"Kirkbymoorside"
 	}
-	manpower=2728
+	manpower=8184
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

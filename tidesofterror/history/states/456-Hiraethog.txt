@@ -10,7 +10,7 @@ state={
 		add_claim_by = WAL
 		victory_points = { 4592 2 } #"Eglwysbach"
 	}
-	manpower=1930
+	manpower=5790
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

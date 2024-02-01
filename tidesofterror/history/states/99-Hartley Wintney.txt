@@ -10,7 +10,7 @@ state={
 		victory_points = { 8333 6 } #"Farnborough"
 		victory_points = { 8311 4 } #"Blackwater"
 	}
-	manpower=5918
+	manpower=17754
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

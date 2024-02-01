@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 8078 16 } #"St. Albans"
 	}
-	manpower=38176
+	manpower=114528
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

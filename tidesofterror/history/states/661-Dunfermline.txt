@@ -15,8 +15,11 @@ state={
 		victory_points = { 5428 7 } #"Dalgety Bay"
 		victory_points = { 1 2 } #"Saline"
 		victory_points = { 5936 2 } #"Kincardine"
+		buildings = {
+			2304 = { naval_base = 2 }
+		}
 	}
-	manpower=15310
+	manpower=45930
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

@@ -12,7 +12,7 @@ state={
 		victory_points = { 6373 6 } #"Workington"
 		victory_points = { 4699 3 } #"Maryport"
 	}
-	manpower=14638
+	manpower=43914
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

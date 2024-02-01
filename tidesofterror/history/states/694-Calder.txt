@@ -11,7 +11,7 @@ state={
 		victory_points = { 5976 4 } #"Currie"
 		victory_points = { 4918 3 } #"Kirknewton"
 	}
-	manpower=2194
+	manpower=6582
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

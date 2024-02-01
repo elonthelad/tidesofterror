@@ -10,7 +10,7 @@ state={
 		victory_points = { 2339 6 } #"Pontefract"
 		victory_points = { 2757 5 } #"Castleford"
 	}
-	manpower=3684
+	manpower=11052
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

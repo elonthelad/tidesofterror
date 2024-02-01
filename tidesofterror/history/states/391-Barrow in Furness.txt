@@ -10,7 +10,7 @@ state={
 		victory_points = { 1614 20 } #"Barrow-in-Furness"
 		victory_points = { 2406 8 } #"Dalton-in-Furness"
 	}
-	manpower=20839
+	manpower=62517
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

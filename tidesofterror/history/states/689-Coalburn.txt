@@ -12,7 +12,7 @@ state={
 		victory_points = { 1957 4 } #"Kirkmuirhill"
 		victory_points = { 1437 2 } #"Lesmahagow"
 	}
-	manpower=6446
+	manpower=19338
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

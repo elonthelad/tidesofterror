@@ -11,7 +11,7 @@ state={
 		victory_points = { 1412 14 } #"Farnworth"
 		victory_points = { 956 8 } #"Westhoughton"
 	}
-	manpower=21579
+	manpower=64737
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

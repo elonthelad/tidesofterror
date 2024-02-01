@@ -10,7 +10,7 @@ state={
 		add_claim_by = WAL
 		victory_points = { 5127 2 } #"Hay-on-Wye"
 	}
-	manpower=1242
+	manpower=3726
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

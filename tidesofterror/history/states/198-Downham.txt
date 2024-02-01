@@ -11,7 +11,7 @@ state={
 		victory_points = { 1506 8 } #"Downham Market"
 		victory_points = { 10 3 } #"Watlington"
 	}
-	manpower=13720
+	manpower=41160
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

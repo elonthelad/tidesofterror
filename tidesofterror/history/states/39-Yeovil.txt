@@ -11,7 +11,7 @@ state={
 		victory_points = { 4391 20 } #"Yeovil"
 		victory_points = { 8443 5 } #"Nartock"
 	}
-	manpower=33736
+	manpower=101208
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

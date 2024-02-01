@@ -12,7 +12,7 @@ state={
 		victory_points = { 745 2 } #"Blanefield"
 		victory_points = { 1880 1 } #"Milngavie"
 	}
-	manpower=1194
+	manpower=3582
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

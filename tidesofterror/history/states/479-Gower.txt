@@ -12,7 +12,7 @@ state={
 		victory_points = { 3573 3 } #"Mumbles"
 		victory_points = { 8149 2 } #"Scurlage"
 	}
-	manpower=3246
+	manpower=9738
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

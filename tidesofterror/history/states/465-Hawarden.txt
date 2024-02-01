@@ -13,7 +13,7 @@ state={
 		victory_points = { 7131 7 } #"Connah's Quay"
 		victory_points = { 2676 5 } #"Buckley"
 	}
-	manpower=14548
+	manpower=43644
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

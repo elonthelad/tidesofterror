@@ -15,8 +15,11 @@ state={
 		victory_points = { 1245 4 } #"Bynea"
 		victory_points = { 4165 4 } #"Gorslas"
 		victory_points = { 4392 3 } #"Pontyates"
+		buildings = {
+			8082 = { naval_base = 3 }
+		}
 	}
-	manpower=15870
+	manpower=47610
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

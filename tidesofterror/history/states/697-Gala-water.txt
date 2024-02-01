@@ -12,7 +12,7 @@ state={
 		victory_points = { 3547 2 } #"Lauder"
 		victory_points = { 5989 4 } #"Gorebridge"
 	}
-	manpower=1361
+	manpower=4083
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

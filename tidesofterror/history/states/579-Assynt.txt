@@ -10,7 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 3663 1 } #"Lochinver"
 	}
-	manpower=621
+	manpower=1863
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

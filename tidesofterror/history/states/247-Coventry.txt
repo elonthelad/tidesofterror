@@ -12,7 +12,7 @@ state={
 		victory_points = { 7670 16 } #"Earlsdon"
 		victory_points = { 7630 14 } #"Edgwick"
 	}
-	manpower=84752
+	manpower=254256
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

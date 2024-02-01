@@ -11,7 +11,7 @@ state={
 		victory_points = { 2949 18 } #"Prestwich"
 		victory_points = { 947 18 } #"Old Trafford"
 	}
-	manpower=73359
+	manpower=220077
 	buildings_max_level_factor=1.000
 	state_category=urban_borough
 	local_supplies=0.000

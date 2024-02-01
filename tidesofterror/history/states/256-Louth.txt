@@ -10,7 +10,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 2223 5 } #"Louth"
 	}
-	manpower=7283
+	manpower=21849
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -11,7 +11,7 @@ state={
 		victory_points = { 2997 2 } #"Newport"
 		victory_points = { 3015 1 } #"Moylgrove"
 	}
-	manpower=2044
+	manpower=6132
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

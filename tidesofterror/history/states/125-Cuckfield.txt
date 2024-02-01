@@ -11,7 +11,7 @@ state={
 		victory_points = { 8444 10 } #"Haywards Heath"
 		victory_points = { 8476 8 } #"Burgess Hill"
 	}
-	manpower=8709
+	manpower=26127
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

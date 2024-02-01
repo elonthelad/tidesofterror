@@ -9,8 +9,11 @@ state={
 		add_core_of = ENG
 		victory_points = { 1154 14 } #"Thornaby"
 		victory_points = { 1785 18 } #"Stockton-on-Tees"
+		buildings = {
+			6392 = { naval_base = 7 }
+		}
 	}
-	manpower=35434
+	manpower=106302
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

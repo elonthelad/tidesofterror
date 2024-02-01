@@ -10,8 +10,11 @@ state={
 		add_core_of = SCO
 		victory_points = { 1338 2 } #"Stranraer"
 		victory_points = { 4111 1 } #"Glenluce"
+		buildings = {
+			1338 = { naval_base = 1 }
+		}
 	}
-	manpower=2086
+	manpower=6258
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

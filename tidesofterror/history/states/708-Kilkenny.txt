@@ -1,20 +1,17 @@
-
 state={
 	id=708
 	name="STATE_708"
-
+	provinces={
+		167 174 675 1705 1881 2215 2546 2632 4275 4822 4982 5151 5403 7256 7277 7293 7302 7309 7342 7373 7399 7405 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
-
+		victory_points = { 4275 8 } #"Kilkenny"
 	}
-
-	provinces={
-		167 174 675 1705 1881 2215 2546 2632 4275 4822 4982 5151 5403 7256 7277 7293 7302 7309 7342 7373 7399 7405 
-	}
-	manpower=10000
+	manpower=27096
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

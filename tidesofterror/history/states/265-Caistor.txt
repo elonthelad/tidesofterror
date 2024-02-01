@@ -11,7 +11,7 @@ state={
 		victory_points = { 7032 2 } #"Market Rasen"
 		victory_points = { 6956 2 } #"Caistor"
 	}
-	manpower=6057
+	manpower=18171
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

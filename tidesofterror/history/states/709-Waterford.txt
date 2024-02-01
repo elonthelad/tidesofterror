@@ -1,22 +1,23 @@
-
 state={
 	id=709
 	name="STATE_709"
-
+	provinces={
+		603 999 1255 2647 3880 5118 7611 7631 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
 		set_demilitarized_zone = yes
 		set_state_flag = fenian_sentiment
-
+		victory_points = { 603 20 } #"Waterford"
+		victory_points = { 2647 7 } #"Tramore"
+		buildings = {
+			1255 = { naval_base = 4 }
+		}
 	}
-
-	provinces={
-		603 999 1255 2647 3880 5118 7611 7631 
-	}
-	manpower=10000
+	manpower=89478
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=large_town
 	local_supplies=0.000
 }

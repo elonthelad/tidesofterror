@@ -10,8 +10,11 @@ state={
 		add_core_of = EIR
 		victory_points = { 6503 20 } #"Newry"
 		victory_points = { 4798 13 } #"Kilkeel"
+		buildings = {
+			4798 = { naval_base = 1 }
+		}
 	}
-	manpower=13464
+	manpower=40392
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

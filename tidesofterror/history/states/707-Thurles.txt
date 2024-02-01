@@ -1,21 +1,20 @@
-
 state={
 	id=707
 	name="STATE_707"
-
+	provinces={
+		851 939 1048 2162 2697 3164 3955 4161 4242 4893 5422 7180 7188 7199 7201 7209 7239 7250 7272 7275 7283 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
 		set_demilitarized_zone = yes
 		set_state_flag = fenian_sentiment
-
+		victory_points = { 2162 6 } #"Thurles"
+		victory_points = { 4242 3 } #"Templemore"
+		victory_points = { 7272 2 } #"Urlingford"
 	}
-
-	provinces={
-		851 939 1048 2162 2697 3164 3955 4161 4242 4893 5422 7180 7188 7199 7201 7209 7239 7250 7272 7275 7283 
-	}
-	manpower=10000
+	manpower=36261
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

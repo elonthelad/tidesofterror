@@ -14,7 +14,7 @@ state={
 		victory_points = { 4872 2 } #"Tregynon"
 		victory_points = { 7572 1 } #"Kerry"
 	}
-	manpower=6537
+	manpower=19611
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

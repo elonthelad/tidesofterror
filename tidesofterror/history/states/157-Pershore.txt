@@ -10,7 +10,7 @@ state={
 		victory_points = { 1174 2 } #"Atch Lench"
 		victory_points = { 7880 3 } #"Pershore"
 	}
-	manpower=4788
+	manpower=14364
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -12,11 +12,14 @@ state={
 		victory_points = { 6338 35 } #"Blackstaff"
 		victory_points = { 6309 40 } #"Glengormley"
 		victory_points = { 6320 30 } #"Whiteabbey"
+		buildings = {
+			4706 = { naval_base = 7 }
+		}
 	}
 	provinces={
 		3274 3342 3873 4706 4889 6302 6309 6320 6338 6354 
 	}
-	manpower=143221
+	manpower=429663
 	buildings_max_level_factor=1.000
 	state_category=great_city
 	local_supplies=0.000

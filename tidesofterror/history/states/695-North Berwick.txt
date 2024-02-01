@@ -12,7 +12,7 @@ state={
 		victory_points = { 4092 3 } #"North Berwick"
 		victory_points = { 1278 2 } #"East Linton"
 	}
-	manpower=1073
+	manpower=3219
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

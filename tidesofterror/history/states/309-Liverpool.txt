@@ -12,8 +12,11 @@ state={
 		victory_points = { 6996 50 } #"Liverpool"
 		victory_points = { 7018 16 } #"St. Michael's Hamlet"
 		victory_points = { 3923 15 } #"Garston"
+		buildings = {
+			6996 = { naval_base = 8 }
+		}
 	}
-	manpower=87927
+	manpower=263781
 	buildings_max_level_factor=1.000
 	state_category=urban_borough
 	local_supplies=0.000

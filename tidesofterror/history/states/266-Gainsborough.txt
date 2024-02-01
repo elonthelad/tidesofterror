@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 4292 3 } #"Gainsborough"
 	}
-	manpower=5309
+	manpower=15927
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

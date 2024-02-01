@@ -10,8 +10,11 @@ state={
 		victory_points = { 1727 12 } #"Littlehampton"
 		victory_points = { 8529 25 } #"Worthing"
 		victory_points = { 539 8 } #"Shoreham-by-Sea"
+		buildings = {
+			8529 = { naval_base = 2 }
+		}
 	}
-	manpower=56935
+	manpower=170805
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

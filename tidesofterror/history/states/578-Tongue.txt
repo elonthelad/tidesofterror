@@ -12,7 +12,7 @@ state={
 		victory_points = { 2986 1 } #"Tongue"
 		victory_points = { 5574 1 } #"Altnaharra"
 	}
-	manpower=931
+	manpower=2793
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

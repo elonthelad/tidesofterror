@@ -11,7 +11,7 @@ state={
 		victory_points = { 421 1 } #"Lochmaddy"
 		victory_points = { 2096 1 } #"Balivanich"
 	}
-	manpower=348
+	manpower=1044
 	buildings_max_level_factor=1.000
 	state_category=small_island
 	local_supplies=0.000

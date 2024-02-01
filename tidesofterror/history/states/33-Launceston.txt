@@ -10,7 +10,7 @@ state={
 		victory_points = { 5506 4 } #"Launceston"
 		victory_points = { 8569 2 } #"Bolventor"
 	}
-	manpower=5212
+	manpower=15636
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

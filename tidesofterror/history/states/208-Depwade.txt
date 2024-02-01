@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 1374 6 } #"Harleston"
 	}
-	manpower=4981
+	manpower=14943
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

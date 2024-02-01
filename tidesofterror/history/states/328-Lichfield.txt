@@ -10,7 +10,7 @@ state={
 		victory_points = { 7474 11 } #"Lichfield"
 		victory_points = { 7484 12 } #"Burntwood"
 	}
-	manpower=14328
+	manpower=42984
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

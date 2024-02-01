@@ -12,7 +12,7 @@ state={
 		victory_points = { 3457 3 } #"Dalbeattie"
 		victory_points = { 2242 5 } #"Lincluden"
 	}
-	manpower=2586
+	manpower=7758
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

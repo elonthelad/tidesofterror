@@ -1,20 +1,17 @@
-
 state={
 	id=726
 	name="STATE_726"
-
+	provinces={
+		53 245 379 2183 2221 2364 2775 3808 4551 5528 6525 6571 6583 6590 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
-
+		victory_points = { 6571 4 } #"Cavan"
 	}
-
-	provinces={
-		53 245 379 2183 2221 2364 2775 3808 4551 5528 6525 6571 6583 6590 
-	}
-	manpower=10000
+	manpower=16719
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

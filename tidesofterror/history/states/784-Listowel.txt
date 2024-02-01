@@ -1,4 +1,3 @@
-
 state={
 	id=784
 	name="STATE_784"
@@ -9,9 +8,12 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 7326 4 } #"Ballybunion"
+		victory_points = { 1144 4 } #"Listowel"
+		victory_points = { 5209 1 } #"Lixnaw"
 	}
-	manpower=10000
+	manpower=24219
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

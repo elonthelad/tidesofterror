@@ -12,7 +12,7 @@ state={
 		victory_points = { 780 12 } #"Prescot"
 		victory_points = { 6982 10 } #"Sutton"
 	}
-	manpower=32631
+	manpower=97893
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

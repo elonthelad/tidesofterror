@@ -10,7 +10,7 @@ state={
 		victory_points = { 7722 10 } #"Huntingdon"
 		victory_points = { 2103 6 } #"Sawtry"
 	}
-	manpower=15907
+	manpower=47721
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

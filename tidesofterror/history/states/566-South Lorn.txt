@@ -10,7 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 175 3 } #"Oban"
 	}
-	manpower=1262
+	manpower=3786
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

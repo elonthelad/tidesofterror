@@ -11,7 +11,7 @@ state={
 		victory_points = { 2826 10 } #"Wadebridge"
 		victory_points = { 3129 3 } #"Pentire Point"
 	}
-	manpower=6633
+	manpower=19899
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

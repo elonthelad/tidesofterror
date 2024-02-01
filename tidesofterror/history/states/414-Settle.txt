@@ -10,7 +10,7 @@ state={
 		victory_points = { 2525 2 } #"Settle"
 		victory_points = { 6628 1 } #"Malham"
 	}
-	manpower=2162
+	manpower=6486
 	buildings_max_level_factor=1.000
 	state_category=peaks
 	local_supplies=0.000

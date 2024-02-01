@@ -42,8 +42,14 @@
 
 47  Scotland Total		~3.2M DONE
 48  Wales Total			~1.3M DONE
-49  N. Ireland Total	~1.4M
-50  Ireland Total		~3.9M
+49  N. Ireland Total	~1.4M DONE
+50  Ireland Total		~4.04M
+	Ulster 			454241 DONE
+	Connacht 	867620 DONE
+	Munster		1423000 DONE
+	Leinster		1456000 DONE
+	
+Total Pop. ~31.48M
 
 		victory_points = { 9999 99 } #"Blablablablablablablablabla"
 

@@ -11,7 +11,7 @@ state={
 		victory_points = { 6687 2 } #"Wetherby"
 		victory_points = { 6732 2 } #"Bardsey"
 	}
-	manpower=3229
+	manpower=9687
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

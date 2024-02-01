@@ -13,7 +13,7 @@ state={
 		victory_points = { 1598 6 } #"Caldicot"
 		victory_points = { 1183 1 } #"Tintern"
 	}
-	manpower=4112
+	manpower=12336
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

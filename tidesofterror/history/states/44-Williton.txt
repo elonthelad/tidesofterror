@@ -10,8 +10,11 @@ state={
 		add_core_of = ENG
 		victory_points = { 4705 4 } #"Minehead"
 		victory_points = { 3524 3 } #"Watchet"
+		buildings = {
+			4705 = { naval_base = 1 }
+		}
 	}
-	manpower=5049
+	manpower=15147
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

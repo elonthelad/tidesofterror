@@ -10,8 +10,11 @@ state={
 		victory_points = { 6191 5 } #"Cramlington"
 		victory_points = { 2785 4 } #"Seaton Delaval"
 		victory_points = { 1376 20 } #"Ashington"
+		buildings = {
+			1376 = { naval_base = 2 }
+		}
 	}
-	manpower=19398
+	manpower=58194
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

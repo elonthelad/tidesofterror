@@ -10,7 +10,7 @@ state={
 		victory_points = { 1039 2 } #"Otterburn"
 		victory_points = { 3112 3 } #"Rothbury"
 	}
-	manpower=2826
+	manpower=8478
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

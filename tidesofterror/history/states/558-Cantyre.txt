@@ -11,8 +11,11 @@ state={
 		victory_points = { 3061 4 } #"Campbeltown"
 		victory_points = { 4986 1 } #"Southend"
 		victory_points = { 1242 1 } #"Carradale"
+		buildings = {
+			1242 = { naval_base = 1 }
+		}
 	}
-	manpower=1228
+	manpower=3684
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

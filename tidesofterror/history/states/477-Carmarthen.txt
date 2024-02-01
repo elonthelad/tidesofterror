@@ -11,7 +11,7 @@ state={
 		victory_points = { 1018 3 } #"St. Clears"
 		victory_points = { 5255 6 } #"Carmarthen"
 	}
-	manpower=5155
+	manpower=15465
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

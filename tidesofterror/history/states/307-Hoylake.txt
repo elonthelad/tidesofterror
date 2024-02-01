@@ -10,7 +10,7 @@ state={
 		victory_points = { 1360 4 } #"West Kirby"
 		victory_points = { 7028 5 } #"Heswall"
 	}
-	manpower=6580
+	manpower=19740
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

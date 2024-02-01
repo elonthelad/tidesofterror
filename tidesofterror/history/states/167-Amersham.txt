@@ -10,7 +10,7 @@ state={
 		victory_points = { 8166 6 } #"Beaconsfield"
 		victory_points = { 8104 4 } #"Amersham"
 	}
-	manpower=16101
+	manpower=48303
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

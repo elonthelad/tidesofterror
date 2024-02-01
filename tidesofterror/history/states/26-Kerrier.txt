@@ -10,8 +10,11 @@ state={
 		victory_points = { 8614 2 } #"Lizard"
 		victory_points = { 8612 6 } #"Falmouth"
 		victory_points = { 1858 20 } #"Redruth"
+		buildings = {
+			8612 = { naval_base = 1 }
+		}
 	}
-	manpower=12486
+	manpower=37458
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

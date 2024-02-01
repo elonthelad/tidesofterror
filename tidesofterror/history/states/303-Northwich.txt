@@ -10,7 +10,7 @@ state={
 		victory_points = { 7145 5 } #"Winsford"
 		victory_points = { 3827 4 } #"Northwich"
 	}
-	manpower=7720
+	manpower=23160
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

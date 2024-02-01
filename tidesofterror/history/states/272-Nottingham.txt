@@ -15,7 +15,7 @@ state={
 		victory_points = { 976 5 } #"Broxtowe"
 		victory_points = { 7286 5 } #"Highbury Vale"
 	}
-	manpower=86052
+	manpower=258156
 	buildings_max_level_factor=1.000
 	state_category=great_city
 	local_supplies=0.000

@@ -10,7 +10,7 @@ state={
 		victory_points = { 7904 4 } #"Ampthill"
 		victory_points = { 3330 2 } #"Cranfield"
 	}
-	manpower=10892
+	manpower=32676
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

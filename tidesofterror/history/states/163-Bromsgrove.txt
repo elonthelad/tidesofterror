@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 3652 18 } #"Bromsgrove"
 	}
-	manpower=14567
+	manpower=43701
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

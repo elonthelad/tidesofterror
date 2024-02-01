@@ -13,7 +13,7 @@ state={
 		victory_points = { 1965 12 } #"Ormesby"
 		victory_points = { 1277 12 } #"Lazenby"
 	}
-	manpower=63969
+	manpower=191907
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

@@ -10,7 +10,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 2245 10 } #"Dorchester"
 	}
-	manpower=18565
+	manpower=55695
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

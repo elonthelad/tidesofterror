@@ -12,7 +12,7 @@ state={
 		victory_points = { 4243 5 } #"Rothley"
 		victory_points = { 5283 6 } #"Thurmaston"
 	}
-	manpower=31928
+	manpower=95784
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

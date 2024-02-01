@@ -10,7 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 2955 2 } #"Huntly"
 	}
-	manpower=965
+	manpower=2895
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 7865 3 } #"Lavenham"
 	}
-	manpower=2020
+	manpower=6060
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -13,7 +13,7 @@ state={
 		victory_points = { 6241 16 } #"Jesmond"
 		victory_points = { 6226 8 } #"Longbenton"
 	}
-	manpower=60193
+	manpower=180579
 	buildings_max_level_factor=1.000
 	state_category=great_city
 	local_supplies=0.000

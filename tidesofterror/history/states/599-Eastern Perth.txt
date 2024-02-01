@@ -11,7 +11,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 1624 4 } #"Blairgowrie and Rattray"
 	}
-	manpower=1834
+	manpower=5502
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

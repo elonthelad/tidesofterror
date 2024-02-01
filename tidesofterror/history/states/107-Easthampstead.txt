@@ -10,7 +10,7 @@ state={
 		victory_points = { 587 20 } #"Sandhurst"
 		victory_points = { 3241 18 } #"Bracknell"
 	}
-	manpower=20917
+	manpower=62751
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

@@ -10,7 +10,7 @@ state={
 		victory_points = { 5319 16 } #"Oldham"
 		victory_points = { 4534 18 } #"Stockport"
 	}
-	manpower=49891
+	manpower=149673
 	buildings_max_level_factor=1.000
 	state_category=urban_borough
 	local_supplies=0.000

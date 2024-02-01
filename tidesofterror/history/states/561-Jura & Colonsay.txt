@@ -10,7 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 5966 1 } #"Craighouse"
 	}
-	manpower=197
+	manpower=591
 	buildings_max_level_factor=1.000
 	state_category=small_island
 	local_supplies=0.000

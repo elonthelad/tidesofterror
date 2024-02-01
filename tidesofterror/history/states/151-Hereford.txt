@@ -10,7 +10,7 @@ state={
 		victory_points = { 7876 20 } #"Hereford"
 		victory_points = { 1158 8 } #"Belmont"
 	}
-	manpower=22570
+	manpower=67710
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

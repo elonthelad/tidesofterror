@@ -11,7 +11,7 @@ state={
 		victory_points = { 6893 8 } #"Brumby"
 		victory_points = { 847 20 } #"Scunthorpe"
 	}
-	manpower=57187
+	manpower=171561
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

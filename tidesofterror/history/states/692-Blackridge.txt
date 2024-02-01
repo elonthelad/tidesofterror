@@ -15,7 +15,7 @@ state={
 		victory_points = { 2235 12 } #"Coatbridge"
 		victory_points = { 5199 4 } #"Airdrie"
 	}
-	manpower=38117
+	manpower=114351
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

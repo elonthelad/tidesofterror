@@ -13,7 +13,7 @@ state={
 		victory_points = { 2976 4 } #"Porthcawl"
 		victory_points = { 3526 4 } #"Pyle"
 	}
-	manpower=11107
+	manpower=33321
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

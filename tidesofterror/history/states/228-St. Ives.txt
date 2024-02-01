@@ -10,7 +10,7 @@ state={
 		victory_points = { 2290 10 } #"St. Ives"
 		victory_points = { 3991 8 } #"Ramsey"
 	}
-	manpower=11710
+	manpower=35130
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

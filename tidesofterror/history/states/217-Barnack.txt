@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 7526 4 } #"Wansford"
 	}
-	manpower=6503
+	manpower=19509
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

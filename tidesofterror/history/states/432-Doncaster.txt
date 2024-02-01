@@ -10,7 +10,7 @@ state={
 		victory_points = { 4277 8 } #"Doncaster"
 		victory_points = { 208 5 } #"Edenthorpe"
 	}
-	manpower=6087
+	manpower=18261
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

@@ -11,7 +11,7 @@ state={
 		victory_points = { 3055 5 } #"Three Bridges"
 		victory_points = { 5254 8 } #"Crawley"
 	}
-	manpower=14903
+	manpower=44709
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

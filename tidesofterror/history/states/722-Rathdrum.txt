@@ -1,19 +1,19 @@
-
 state={
 	id=722
 	name="STATE_722"
-
+	provinces={
+		184 207 416 524 542 625 953 1336 1402 1824 2784 2905 2940 3387 3617 3901 4804 5085 5260 7045 7050 7069 7072 7080 7102 7119 7135 7160 7181 7204 7205 7249 7281 12042 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
-
+		victory_points = { 7181 5 } #"Wicklow"
+		buildings = {
+			7181 = { naval_base = 3 }
+		}
 	}
-
-	provinces={
-		184 207 416 524 542 625 953 1336 1402 1824 2784 2905 2940 3387 3617 3901 4804 5085 5260 7045 7050 7069 7072 7080 7102 7119 7135 7160 7181 7204 7205 7249 7281 12042 
-	}
-	manpower=10000
+	manpower=14253
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

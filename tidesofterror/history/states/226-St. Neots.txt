@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 1243 6 } #"St. Neots"
 	}
-	manpower=7451
+	manpower=22353
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

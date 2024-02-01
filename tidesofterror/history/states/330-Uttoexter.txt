@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 3927 5 } #"Uttoxeter"
 	}
-	manpower=6468
+	manpower=19404
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -10,7 +10,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 1944 8 } #"Newent"
 	}
-	manpower=9329
+	manpower=27987
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

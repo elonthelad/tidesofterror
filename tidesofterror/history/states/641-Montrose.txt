@@ -9,8 +9,11 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 5814 5 } #"Montrose"
+		buildings = {
+			5814 = { naval_base = 2 }
+		}
 	}
-	manpower=1646
+	manpower=4938
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

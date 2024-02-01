@@ -8,8 +8,9 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 6393 1 } #"Belmullet"
 	}
-	manpower=10000
+	manpower=6363
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

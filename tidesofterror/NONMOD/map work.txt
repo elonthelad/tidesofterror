@@ -1,0 +1,14 @@
+state coverage 100%
+state categories 100%
+strategic regions 100%
+population 100%
+victory points 100%
+ports 100%
+rail 100%
+X supply hubs
+X weather
+X adjancencies
+X factories
+X shipyards
+X infrastructure
+X resources

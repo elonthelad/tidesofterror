@@ -12,7 +12,7 @@ state={
 		victory_points = { 2198 2 } #"Earlston"
 		victory_points = { 257 1 } #"Gordon"
 	}
-	manpower=1498
+	manpower=4494
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

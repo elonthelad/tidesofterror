@@ -10,7 +10,7 @@ state={
 		victory_points = { 5316 3 } #"Windermere"
 		victory_points = { 1269 2 } #"Ambleside"
 	}
-	manpower=2478
+	manpower=7434
 	buildings_max_level_factor=1.000
 	state_category=peaks
 	local_supplies=0.000

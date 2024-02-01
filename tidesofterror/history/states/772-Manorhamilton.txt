@@ -2,14 +2,15 @@ state={
 	id=772
 	name="STATE_772"
 	provinces={
-		2 837 1401 2478 2861 2939 3391 4338 4553 6357 6370 6385 6411 6434 6461 6486 12011 
+		2 837 1401 2478 2861 2939 3391 4338 4553 6357 6370 6385 6411 6434 6461 6486 12011 12015
 	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 2861 5 } #"Bundoran"
 	}
-	manpower=10000
+	manpower=20589
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

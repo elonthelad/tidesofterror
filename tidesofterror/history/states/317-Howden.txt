@@ -10,7 +10,7 @@ state={
 		victory_points = { 4919 3 } #"Howden"
 		victory_points = { 1578 2 } #"Gilberdyke"
 	}
-	manpower=6061
+	manpower=18183
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

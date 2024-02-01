@@ -12,7 +12,7 @@ state={
 		victory_points = { 3084 1 } #"Montgomery"
 		victory_points = { 4363 4 } #"Welshpool"
 	}
-	manpower=2686
+	manpower=8058
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -10,7 +10,7 @@ state={
 		victory_points = { 2011 2 } #"Bellingham"
 		victory_points = { 6233 2 } #"Haydon Bridge"
 	}
-	manpower=2355
+	manpower=7065
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

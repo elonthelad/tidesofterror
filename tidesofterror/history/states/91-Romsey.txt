@@ -10,7 +10,7 @@ state={
 		victory_points = { 1585 12 } #"Rownhams"
 		victory_points = { 5370 3 } #"Stockbridge"
 	}
-	manpower=7536
+	manpower=22608
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

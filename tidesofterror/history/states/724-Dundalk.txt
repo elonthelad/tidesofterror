@@ -1,20 +1,17 @@
-
 state={
 	id=724
 	name="STATE_724"
-
+	provinces={
+		638 1945 2749 3255 3924 4249 6552 6565 6572 6585 6587 6593 6602 6620 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
-
+		victory_points = { 6587 14 } #"Dundalk"
 	}
-
-	provinces={
-		638 1945 2749 3255 3924 4249 6552 6565 6572 6585 6587 6593 6602 6620 
-	}
-	manpower=10000
+	manpower=49869
 	buildings_max_level_factor=1.000
-	state_category=small_town
+	state_category=large_town
 	local_supplies=0.000
 }

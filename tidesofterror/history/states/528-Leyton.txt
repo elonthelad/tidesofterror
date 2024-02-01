@@ -11,7 +11,7 @@ state={
 		victory_points = { 2603 15 } #"Walthamstow"
 		victory_points = { 8186 8 } #"Wanstead"
 	}
-	manpower=71317
+	manpower=213951
 	buildings_max_level_factor=1.000
 	state_category=great_city
 	local_supplies=0.000

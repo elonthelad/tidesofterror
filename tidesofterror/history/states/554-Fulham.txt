@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 8237 50 } #"Fulham"
 	}
-	manpower=92042
+	manpower=276126
 	buildings_max_level_factor=1.000
 	state_category=urban_borough
 	local_supplies=0.000

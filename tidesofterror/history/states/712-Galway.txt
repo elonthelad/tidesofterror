@@ -1,17 +1,24 @@
 state={
 	id=712
 	name="STATE_712"
+	provinces={
+		127 189 892 1204 1303 1818 2392 2642 3468 3713 4016 4463 4659 4990 5096 6782 6810 6811 6829 6860 6881 6905 6922 8663 8664 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
 		set_demilitarized_zone = yes
 		set_state_flag = fenian_sentiment
+		victory_points = { 4990 2 } #"Moycullen"
+		victory_points = { 3468 16 } #"Galway"
+		victory_points = { 127 5 } #"Ballybane"
+		victory_points = { 4016 4 } #"Oranmore"
+		buildings = {
+			3468 = { naval_base = 3 }
+		}
 	}
-	provinces={
-		127 189 892 1204 1303 1818 2392 2642 3468 3713 4016 4463 4659 4785 4990 5096 5110 6782 6810 6811 6829 6860 6881 6905 6922 8663 8664 
-	}
-	manpower=10000
+	manpower=107658
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

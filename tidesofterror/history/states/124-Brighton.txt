@@ -10,8 +10,11 @@ state={
 		victory_points = { 8530 18 } #"Portslade"
 		victory_points = { 4776 30 } #"Brighton"
 		victory_points = { 3138 12 } #"Falmer"
+		buildings = {
+			8530 = { naval_base = 2 }
+		}
 	}
-	manpower=63909
+	manpower=191727
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

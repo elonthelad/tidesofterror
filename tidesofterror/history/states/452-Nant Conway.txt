@@ -11,8 +11,11 @@ state={
 		victory_points = { 7052 5 } #"Conwy"
 		victory_points = { 4228 4 } #"Llandudno"
 		victory_points = { 7171 2 } #"Llanrwst"
+		buildings = {
+			4228 = { naval_base = 1 }
+		}
 	}
-	manpower=7131
+	manpower=21393
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

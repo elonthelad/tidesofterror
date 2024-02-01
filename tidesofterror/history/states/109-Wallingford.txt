@@ -10,7 +10,7 @@ state={
 		victory_points = { 2468 10 } #"Didcot"
 		victory_points = { 2169 4 } #"Wallingford"
 	}
-	manpower=19434
+	manpower=58302
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

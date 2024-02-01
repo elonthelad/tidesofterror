@@ -11,7 +11,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 707 1 } #"Laide"
 	}
-	manpower=514
+	manpower=1542
 	buildings_max_level_factor=1.000
 	state_category=peaks
 	local_supplies=0.000

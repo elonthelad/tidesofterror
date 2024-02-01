@@ -10,7 +10,7 @@ state={
 		victory_points = { 490 6 } #"Hexham"
 		victory_points = { 320 1 } #"Allendale Town"
 	}
-	manpower=3815
+	manpower=11445
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -10,8 +10,11 @@ state={
 		victory_points = { 8576 20 } #"Weymouth"
 		victory_points = { 3890 10 } #"Portland"
 		victory_points = { 414 10 } #"Preston"
+		buildings = {
+			8576 = { naval_base = 1 }
+		}
 	}
-	manpower=20383
+	manpower=61149
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

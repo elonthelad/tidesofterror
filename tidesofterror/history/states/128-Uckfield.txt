@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 4332 6 } #"Uckfield"
 	}
-	manpower=13969
+	manpower=41907
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

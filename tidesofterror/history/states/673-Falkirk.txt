@@ -14,8 +14,11 @@ state={
 		victory_points = { 5947 8 } #"Camelon"
 		victory_points = { 936 8 } #"Larbert"
 		victory_points = { 3005 5 } #"Denny"
+		buildings = {
+			5944 = { naval_base = 2 }
+		}
 	}
-	manpower=31492
+	manpower=94476
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

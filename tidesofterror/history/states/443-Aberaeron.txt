@@ -12,7 +12,7 @@ state={
 		victory_points = { 7798 3 } #"Lampeter"
 		victory_points = { 4163 3 } #"Aberaeron"
 	}
-	manpower=6537
+	manpower=19611
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

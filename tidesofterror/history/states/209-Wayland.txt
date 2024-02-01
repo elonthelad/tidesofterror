@@ -12,7 +12,7 @@ state={
 		victory_points = { 140 3 } #"Woodbridge"
 		victory_points = { 40 3 } #"Attleborough"
 	}
-	manpower=12704
+	manpower=38112
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

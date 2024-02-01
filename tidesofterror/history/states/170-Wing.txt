@@ -10,7 +10,7 @@ state={
 		victory_points = { 4382 3 } #"Pitstone"
 		victory_points = { 4651 3 } #"Wing"
 	}
-	manpower=5855
+	manpower=17565
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

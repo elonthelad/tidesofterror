@@ -10,7 +10,7 @@ state={
 		victory_points = { 7487 3 } #"Dereham"
 		victory_points = { 7398 6 } #"Fakenham"
 	}
-	manpower=8469
+	manpower=25407
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

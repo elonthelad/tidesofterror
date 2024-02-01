@@ -8,8 +8,10 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 5227 2 } #"Muff"
+		victory_points = { 6193 1 } #"Raphoe"
 	}
-	manpower=10000
+	manpower=10206
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

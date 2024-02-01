@@ -1,19 +1,16 @@
-
 state={
 	id=725
 	name="STATE_725"
-
+	provinces={
+		634 1074 1359 1669 2015 2579 2597 2701 3041 3222 3443 3798 4910 6430 6468 6479 6521 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
-
+		victory_points = { 2597 4 } #"Monaghan"
 	}
-
-	provinces={
-		634 1074 1359 1669 2015 2579 2597 2701 3041 3222 3443 3798 4910 6430 6468 6479 6521 
-	}
-	manpower=10000
+	manpower=15438
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

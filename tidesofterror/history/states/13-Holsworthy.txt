@@ -10,7 +10,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 649 4 } #"Holsworthy"
 	}
-	manpower=4241
+	manpower=12723
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

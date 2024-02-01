@@ -11,7 +11,7 @@ state={
 		victory_points = { 3192 4 } #"Forfar"
 		victory_points = { 292 3 } #"Kirriemuir"
 	}
-	manpower=1986
+	manpower=5958
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 8264 10 } #"Marlborough"
 	}
-	manpower=12834
+	manpower=38502
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

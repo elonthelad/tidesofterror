@@ -11,7 +11,7 @@ state={
 		victory_points = { 4489 4 } #"Strathaven"
 		victory_points = { 2564 3 } #"Stonehouse"
 	}
-	manpower=1685
+	manpower=5055
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

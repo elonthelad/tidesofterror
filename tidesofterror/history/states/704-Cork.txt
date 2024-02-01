@@ -1,22 +1,26 @@
-
 state={
 	id=704
 	name="STATE_704"
-
+	provinces={
+		412 664 1021 1288 1519 2165 2402 2655 2831 2990 3060 3223 3264 4989 5205 7679 7714 7763 7765 7793 7797 7822 7830 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
 		set_demilitarized_zone = yes
 		set_state_flag = fenian_sentiment
-
+		victory_points = { 7793 25 } #"Cork"
+		victory_points = { 1519 12 } #"Gurranabraher"
+		victory_points = { 2831 6 } #"Carrigaline"
+		victory_points = { 7797 3 } #"Little Island"
+		victory_points = { 7830 4 } #"Ringaskiddy"
+		buildings = {
+			7793 = { naval_base = 5 }
+		}
 	}
-
-	provinces={
-		412 664 1021 1288 1519 2165 2402 2655 2831 2990 3060 3223 3264 4989 5205 7679 7714 7763 7765 7793 7797 7822 7830 
-	}
-	manpower=10000
+	manpower=138978
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=large_town
 	local_supplies=0.000
 }

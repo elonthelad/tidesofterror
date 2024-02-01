@@ -13,8 +13,11 @@ state={
 		victory_points = { 4245 8 } #"Nash"
 		victory_points = { 1431 14 } #"Somerton"
 		victory_points = { 4330 5 } #"Magor"
+		buildings = {
+			4245 = { naval_base = 8 }
+		}
 	}
-	manpower=31259
+	manpower=93777
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

@@ -10,8 +10,11 @@ state={
 		victory_points = { 4334 10 } #"Broadstairs"
 		victory_points = { 8304 12 } #"Ramsgate"
 		victory_points = { 5013 8 } #"Deal"
+		buildings = {
+			8304 = { naval_base = 1 }
+		}
 	}
-	manpower=16623
+	manpower=49869
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

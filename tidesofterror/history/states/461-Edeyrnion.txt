@@ -10,7 +10,7 @@ state={
 		add_claim_by = WAL
 		victory_points = { 3081 2 } #"Corwen"
 	}
-	manpower=1050
+	manpower=3150
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

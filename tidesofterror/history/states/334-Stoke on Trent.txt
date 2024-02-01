@@ -13,7 +13,7 @@ state={
 		victory_points = { 4838 12 } #"Blythe Bridge"
 		victory_points = { 7243 14 } #"Hanley"
 	}
-	manpower=80677
+	manpower=242031
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

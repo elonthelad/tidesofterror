@@ -13,7 +13,7 @@ state={
 		victory_points = { 468 6 } #"New Humberstone"
 		victory_points = { 7503 3 } #"Glenfield"
 	}
-	manpower=77330
+	manpower=231990
 	buildings_max_level_factor=1.000
 	state_category=great_city
 	local_supplies=0.000

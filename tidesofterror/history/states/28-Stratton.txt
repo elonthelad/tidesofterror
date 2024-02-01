@@ -8,8 +8,11 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 1970 2 } #"Bude"
+		buildings = {
+			1970 = { naval_base = 1 }
+		}
 	}
-	manpower=3167
+	manpower=9501
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

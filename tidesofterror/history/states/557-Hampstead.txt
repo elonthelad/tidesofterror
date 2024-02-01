@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 4137 65 } #"Islington"
 	}
-	manpower=94073
+	manpower=282219
 	buildings_max_level_factor=1.000
 	state_category=urban_borough
 	local_supplies=0.000

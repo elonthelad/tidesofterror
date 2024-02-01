@@ -11,7 +11,7 @@ state={
 		victory_points = { 3743 1 } #"Golspie"
 		victory_points = { 557 1 } #"Lairg"
 	}
-	manpower=698
+	manpower=2094
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

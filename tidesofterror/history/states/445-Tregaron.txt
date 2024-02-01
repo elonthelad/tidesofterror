@@ -10,7 +10,7 @@ state={
 		add_claim_by = WAL
 		victory_points = { 86 2 } #"Tregaron"
 	}
-	manpower=1489
+	manpower=4467
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

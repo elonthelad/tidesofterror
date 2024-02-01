@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 3586 3 } #"Tisbury"
 	}
-	manpower=4666
+	manpower=13998
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

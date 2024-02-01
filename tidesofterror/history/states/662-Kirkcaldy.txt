@@ -12,8 +12,11 @@ state={
 		victory_points = { 3707 8 } #"Newliston"
 		victory_points = { 1511 8 } #"Dysart"
 		victory_points = { 5938 4 } #"Burntisland"
+		buildings = {
+			5928 = { naval_base = 2 }
+		}
 	}
-	manpower=7027
+	manpower=21081
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

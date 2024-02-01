@@ -11,7 +11,7 @@ state={
 		victory_points = { 4887 2 } #"Copmanthorpe"
 		victory_points = { 6722 2 } #"Tadcaster"
 	}
-	manpower=3002
+	manpower=9006
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -10,7 +10,7 @@ state={
 		add_claim_by = WAL
 		victory_points = { 7974 3 } #"Crickhowell"
 	}
-	manpower=1877
+	manpower=5631
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 1175 8 } #"Folkestone"
 	}
-	manpower=12284
+	manpower=36852
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

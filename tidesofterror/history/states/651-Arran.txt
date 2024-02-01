@@ -9,8 +9,11 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 6061 1 } #"Lamlash"
+		buildings = {
+			6061 = { naval_base = 1 }
+		}
 	}
-	manpower=532
+	manpower=1596
 	buildings_max_level_factor=1.000
 	state_category=small_island
 	local_supplies=0.000

@@ -11,7 +11,7 @@ state={
 		victory_points = { 4622 4 } #"Blaby"
 		victory_points = { 2694 5 } #"Narborough"
 	}
-	manpower=12185
+	manpower=36555
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

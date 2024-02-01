@@ -10,7 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 2728 1 } #"St. Margaret's Hope"
 	}
-	manpower=321
+	manpower=963
 	buildings_max_level_factor=1.000
 	state_category=small_island
 	local_supplies=0.000

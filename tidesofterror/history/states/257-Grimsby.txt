@@ -10,8 +10,11 @@ state={
 		victory_points = { 5415 22 } #"Grimsby"
 		victory_points = { 3503 16 } #"Cleethorpes"
 		victory_points = { 6959 5 } #"Waltham"
+		buildings = {
+			5415 = { naval_base = 2 }
+		}
 	}
-	manpower=72757
+	manpower=218271
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

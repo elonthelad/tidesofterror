@@ -12,7 +12,7 @@ state={
 		victory_points = { 4922 12 } #"Stourbridge"
 		victory_points = { 1574 12 } #"Coseley"
 	}
-	manpower=103306
+	manpower=309918
 	buildings_max_level_factor=1.000
 	state_category=urban_borough
 	local_supplies=0.000

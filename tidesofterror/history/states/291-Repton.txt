@@ -10,7 +10,7 @@ state={
 		victory_points = { 5374 10 } #"Swadlincote"
 		victory_points = { 7364 6 } #"Hilton"
 	}
-	manpower=28254
+	manpower=84762
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

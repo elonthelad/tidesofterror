@@ -8,8 +8,11 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 7616 7 } #"Lowestoft"
+		buildings = {
+			7616 = { naval_base = 2 }
+		}
 	}
-	manpower=7791
+	manpower=23373
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

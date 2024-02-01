@@ -11,7 +11,7 @@ state={
 		victory_points = { 2202 8 } #"Old Shotton"
 		victory_points = { 1901 6 } #"Seaham"
 	}
-	manpower=20842
+	manpower=62526
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

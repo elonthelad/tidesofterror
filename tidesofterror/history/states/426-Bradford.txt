@@ -12,7 +12,7 @@ state={
 		victory_points = { 4481 14 } #"Shipley"
 		victory_points = { 4372 7 } #"Low Moor"
 	}
-	manpower=22719
+	manpower=68157
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

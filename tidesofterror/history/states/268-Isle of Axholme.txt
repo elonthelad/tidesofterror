@@ -9,7 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 2657 4 } #"Crowle"
 	}
-	manpower=8069
+	manpower=24207
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -13,7 +13,7 @@ state={
 		victory_points = { 3732 3 } #"Tayport"
 		victory_points = { 4255 2 } #"Gauldry"
 	}
-	manpower=2141
+	manpower=6423
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -11,7 +11,7 @@ state={
 		victory_points = { 8194 20 } #"Basildon"
 		victory_points = { 1952 8 } #"Billericay"
 	}
-	manpower=31435
+	manpower=94305
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

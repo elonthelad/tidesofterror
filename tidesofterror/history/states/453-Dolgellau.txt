@@ -11,8 +11,11 @@ state={
 		victory_points = { 4046 3 } #"Barmouth"
 		victory_points = { 809 4 } #"Dolgellau"
 		victory_points = { 5079 3 } #"Tywyn"
+		buildings = {
+			4046 = { naval_base = 1 }
+		}
 	}
-	manpower=4951
+	manpower=14853
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

@@ -9,8 +9,11 @@ state={
 		add_core_of = ENG
 		victory_points = { 5377 30 } #"Rotherhithe"
 		victory_points = { 2284 18 } #"Camberwell"
+		buildings = {
+			5377 = { naval_base = 10 }
+		}
 	}
-	manpower=119341
+	manpower=358023
 	buildings_max_level_factor=1.000
 	state_category=urban_borough
 	local_supplies=0.000

@@ -1,20 +1,17 @@
-
 state={
 	id=727
 	name="STATE_727"
-
+	provinces={
+		1211 1392 2859 3286 3881 4074 5423 6669 6677 6697 6715 6727 6740 6748 6758 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
-
+		victory_points = { 5423 6 } #"Navan"
 	}
-
-	provinces={
-		1211 1392 2859 3286 3881 4074 5423 6669 6677 6697 6715 6727 6740 6748 6758 
-	}
-	manpower=10000
+	manpower=23406
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_town
 	local_supplies=0.000
 }

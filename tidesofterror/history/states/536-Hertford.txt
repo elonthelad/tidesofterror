@@ -10,7 +10,7 @@ state={
 		victory_points = { 3053 10 } #"Cheshunt"
 		victory_points = { 8060 8 } #"Hertford"
 	}
-	manpower=22364
+	manpower=67092
 	buildings_max_level_factor=1.000
 	state_category=small_town
 	local_supplies=0.000

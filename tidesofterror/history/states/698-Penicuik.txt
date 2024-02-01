@@ -10,7 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 6001 5 } #"Penicuik"
 	}
-	manpower=1218
+	manpower=3654
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -13,7 +13,7 @@ state={
 		victory_points = { 481 10 } #"Newport Pagnell"
 		victory_points = { 7910 8 } #"Kingston"
 	}
-	manpower=76634
+	manpower=229902
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

@@ -10,7 +10,7 @@ state={
 		victory_points = { 7596 8 } #"Market Harborough"
 		victory_points = { 408 2 } #"Fleckney"
 	}
-	manpower=13044
+	manpower=39132
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

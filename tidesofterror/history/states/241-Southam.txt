@@ -10,7 +10,7 @@ state={
 		victory_points = { 7774 5 } #"Southam"
 		victory_points = { 7804 3 } #"Lighthorne Heath"
 	}
-	manpower=5843
+	manpower=17529
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -11,7 +11,7 @@ state={
 		victory_points = { 5028 2 } #"Castle Douglas"
 		victory_points = { 4393 2 } #"Kirkcudbright"
 	}
-	manpower=1368
+	manpower=4104
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

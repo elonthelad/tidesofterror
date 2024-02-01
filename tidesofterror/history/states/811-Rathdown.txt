@@ -8,8 +8,11 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
+		victory_points = { 510 12 } #"Blackrock"
+		victory_points = { 2186 15 } #"Sandyford"
+		victory_points = { 3480 8 } #"Bray"
 	}
-	manpower=10000
+	manpower=74091
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

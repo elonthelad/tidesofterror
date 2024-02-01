@@ -10,7 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 5571 1 } #"Lybster"
 	}
-	manpower=994
+	manpower=2982
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000
