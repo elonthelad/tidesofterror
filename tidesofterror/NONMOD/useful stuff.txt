@@ -20,6 +20,7 @@ event british.2							#Executes 'SUPPLY LINES IN DISTRESS' news_event
 
 debug_smooth						#Accelerates speed 5 CONSIDERABLY
 gui											#Shows gui bounds, dimensions, elements, gfx, and names
+debug_nogui							#Hides all interface
 
 ae 10000 infantry_weapons1	#Add 10,000 snider-enfields to stockpile
 
