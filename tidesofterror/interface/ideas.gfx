@@ -9,11 +9,29 @@ spriteTypes = {
 	
 	#MODDED
 	
+	#Spirits
+	
+	spriteType = {
+		name = "GFX_idea_ENGIDEA_freight_crisis"
+		texturefile = "gfx/interface/ideas/ENGIDEA_freight_crisis.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENGIDEA_fenian_remnants"
+		texturefile = "gfx/interface/ideas/ENGIDEA_fenian_remnants.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENGIDEA_victors_of_the_third_burmese_campaign"
+		texturefile = "gfx/interface/ideas/ENGIDEA_victors_of_the_third_burmese_campaign.png"
+	}
 	
 	#Enlistment policy
 	spriteType = {
 		name = "GFX_idea_the_volunteer_act"
 		texturefile = "gfx/interface/ideas/policies/enlistment/idea_the_volunteer_act.png"
+	}
+	spriteType = {
+		name = "GFX_idea_cream_of_the_crop"
+		texturefile = "gfx/interface/ideas/policies/enlistment/idea_cream_of_the_crop.png"
 	}
 	spriteType = {
 		name = "GFX_idea_cardwell_reforms"
@@ -30,6 +48,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_grim_sortition"
 		texturefile = "gfx/interface/ideas/policies/enlistment/idea_grim_sortition.png"
+	}
+	spriteType = {
+		name = "GFX_idea_the_punitive_march"
+		texturefile = "gfx/interface/ideas/policies/enlistment/idea_the_punitive_march.png"
 	}
 	spriteType = {
 		name = "GFX_idea_all_willing_and_able"

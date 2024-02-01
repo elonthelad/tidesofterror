@@ -1,7 +1,5 @@
 spriteTypes = {
 
-	# leaders we need to override in DLC go in this file
-
 	spriteType = {
 		name = "GFX_portrait_operative_unknown"
 		texturefile = "gfx/leaders/operative_unknown.dds"
@@ -17,6 +15,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/leader_unknown_female.dds"
 	}
 	
+	#MODDED
+	
 	spriteType = {
 		name = "GFX_portrait_william_gladstone"
 		texturefile = "gfx/leaders/portrait_william_gladstone.png"
@@ -29,22 +29,22 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_ENG_charles_dickens"
-		texturefile = "gfx/interface/ideas/idea_ENG_charles_dickens.png"
+		texturefile = "gfx/interface/ideas/advisors/idea_ENG_charles_dickens.png"
 	}
 	spriteType = {
 		name = "GFX_idea_ENG_charles_darwin"
-		texturefile = "gfx/interface/ideas/idea_ENG_charles_darwin.png"
+		texturefile = "gfx/interface/ideas/advisors/idea_ENG_charles_darwin.png"
 	}
 	spriteType = {
 		name = "GFX_idea_ENG_frederick_cave"
-		texturefile = "gfx/interface/ideas/idea_ENG_frederick_cave.png"
+		texturefile = "gfx/interface/ideas/advisors/idea_ENG_frederick_cave.png"
 	}
 	spriteType = {
 		name = "GFX_idea_ENG_henry_pinkerton"
-		texturefile = "gfx/interface/ideas/idea_ENG_henry_pinkerton.png"
+		texturefile = "gfx/interface/ideas/advisors/idea_ENG_henry_pinkerton.png"
 	}
 	spriteType = {
 		name = "GFX_idea_ENG_joseph_lister"
-		texturefile = "gfx/interface/ideas/idea_ENG_joseph_lister.png"
+		texturefile = "gfx/interface/ideas/advisors/idea_ENG_joseph_lister.png"
 	}
 }

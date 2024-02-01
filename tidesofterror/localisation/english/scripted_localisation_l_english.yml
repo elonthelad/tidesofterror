@@ -2,3 +2,4 @@
  STARTIRISHSTATESLIST: "States: [RecursiveIrishStates]"
  IRISHSTATESEMPTY: "There are no states with Irish Sentiment."
  SECTIONIRISHSTATE: "[?global.irishstates^temp_indexervar.GetName], [RecursiveIrishStates]"
+ JohnFullname: "[?ENG_characternamesvariable.GetTokenLocalizedKey]"

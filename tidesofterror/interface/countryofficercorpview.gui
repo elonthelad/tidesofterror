@@ -57,18 +57,18 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		#instantTextBoxType = {
-		#name = "advisor_name"
-		#position = { x = -68 y = 195 }
-		#textureFile = ""
-		#font = "hoi_16mbs"
-		#borderSize = {x = 0 y = 0}
-		#text = "John Fullname"
-		#maxWidth = 240
-		#maxHeight = 16
-		#fixedsize = yes
-		#format = center
-		#}
+		instantTextBoxType = {
+		name = "advisor_name"
+		position = { x = -68 y = 195 }
+		textureFile = ""
+		font = "hoi_16mbs"
+		borderSize = {x = 0 y = 0}
+		text = "JohnFullname"
+		maxWidth = 240
+		maxHeight = 16
+		fixedsize = yes
+		format = center
+		}
 	}
 	
 	containerWindowType = {

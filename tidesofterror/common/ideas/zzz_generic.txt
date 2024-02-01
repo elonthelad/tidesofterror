@@ -3,7 +3,6 @@ ideas = {
 	hidden_ideas = {
 	}
 
-	# Special ones that can be applied on other countries through focus system.
 	country = {
 		ENGIDEA_fixingwreck = {
 			
@@ -42,6 +41,43 @@ ideas = {
 			}
 		}
 		
+		ENGIDEA_victors_of_the_third_burmese_campaign = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_gain = 0.2
+				command_power_gain_mult = 0.5
+			}	
+		}
+		
+		ENGIDEA_freight_crisis = {
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				stability_weekly = -0.015
+				industrial_capacity_factory = -0.3
+				monthly_population = -0.5
+			}
+		}
+		
 		ENGIDEA_fenian_remnants = {
 			
 			allowed = {
@@ -76,25 +112,6 @@ ideas = {
 				supply_node_range = -0.1
 				industry_repair_factor = -0.2
 			}	
-		}
-		
-		ENGIDEA_freight_crisis = {
-			
-			allowed = {
-				always = no
-			}
-			
-			removal_cost = -1
-			
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			modifier = {
-				stability_weekly = -0.015
-				industrial_capacity_factory = -0.3
-				monthly_population = -0.5
-			}
 		}
 		
 		ENGIDEA_freight_crisis_stb = {

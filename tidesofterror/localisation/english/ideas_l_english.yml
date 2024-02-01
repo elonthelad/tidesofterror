@@ -26,6 +26,8 @@
  mobilization_laws: "Enlistment Policy"
  the_volunteer_act: "The Volunteer Act"
  the_volunteer_act_desc: "The Volunteer Act was enacted in 1863 to carry into the effect of the royal commission of Viscount Eversley the year prior. These changes saw fit that every enlistee would receive government imbursement of 20 shillings if they had attended a prescribed number of drills in the last year. However grants could be refused at the general officer's scrutiny- Inefficiency of any order was unacceptable.\n\nDuring the time since this policy, the army as a whole has seen major recruitment and quality since."
+ cream_of_the_crop: "Cream of the Crop"
+ cream_of_the_crop_desc: "We will perform great scrutiny on those who wish to serve under our Queen."
  cardwell_reforms: "Cardwell Reforms"
  cardwell_reforms_desc: "These Reforms see to it that the War Office is greatly centralised, all the while entirely abolishing the purchase of officers commissions, while keeping pension for senior retiring officers. This makes a mans military career one of meritocracy, not one of simple purchase. The Cardwell Reforms had been brewing for a while coming- So these radical changes could be received better."
  homeland_emergency: "Homeland Emergency"
@@ -34,8 +36,10 @@
  citizenship_by_enlistment_desc: "A good, safe, and secure home is a precious commodity in these times. Countless poor souls shack up together in communes- And when enlistment is at an all time low, we can assure all soldiers a provided home and sanctuary whenever available. Sadly, times are tough, yet payment can always help along the proceedure of resettlement. We will not budget for the dead, afterall."
  grim_sortition: "The Grim Sortition"
  grim_sortition_desc: "A peculiar option, perhaps befitting of a most peculiar crisis. Every man will willingly, or unwillingly sign on the list. At any draw, a quarter of the list will be up for mandatory enlistment. When facing against a demonic menace, you cannot quite blame the men for a lack of bravery. So, we could bypass making this decision, by making it seem fair for all when the red ticket is drawn.\n\nMaybe its a mercy that we don't show them our slight of hand. The noblemen are dubiously lucky, aren't they?"
+ the_punitive_march: "Punitive Draft"
+ the_punitive_march_desc: "Our streets run amok with criminals, vagabonds, no-hopers and deserters. Factions continually arise against us. We may also put the ill-of-humours to work on simple construction projects too. People do not fear our prisons- they fear the dark, the all-encompassing evil. We will help them face reality, with chains and truncheons.\n\nTo all the dissenters, thieves and deserters- take this as a warning. Prison would be paradise compared to the punishment ahead of you."
  all_willing_and_able: "All Willing and Able"
- all_willing_and_able_desc: "'All Willing and Able' was a motto spouted by town criers in their mustering halls for a time now. Truthfully, they never really meant precisely 'All' but nowadays, we cannot afford to be so prude. With what resources we have, we will deliver a campaign by word-of-mouth, to safeguard our land.\n\n'To all you men and women who remain, take up arms, ye infirm, young or elder, for the love of god, fight for the rising of the dawn.'"
+ all_willing_and_able_desc: "'All Willing and Able' was a motto spouted by town criers in their mustering halls for a time now. Truthfully, they never really meant precisely 'All' but nowadays, we cannot afford to be so prude. With what resources we have, we will deliver a campaign by word-of-mouth, to safeguard our land.\n\n'To all you willing and able, take up arms, ye infirm, young or elder, for the love of god, fight for the rising of the dawn.'"
  
  rnd_laws: "Institutions of Study"
  technological_holocaust: "Technological Holocaust"
@@ -57,9 +61,21 @@
  human_developments_instituion: "Human Developments Institution"
  human_developments_instituion_desc: "As we've recently learnt to discover, as apparent inheritants of this planet, who are we but masters of our own creation now? We, as our corporeal body, are no better than the animals we domesitcate. Our tools shape us- And we will shape ourselves with our tools.\n\nAs the new addage goes, evolve or die."
  
- industrial_laws: "Industrial-Economic Policy"
+ industrial_laws: "Industrial-Economic Plan"
+ tycoon_favouritism: "Tycoon Favouritism"
+ tycoon_favouritism_desc: "Todo"
  steer_the_course: "Steer the Course"
  steer_the_course_desc: "Todo"
+ total_agriculture_premiums: "Total Agriculture Premiums"
+ total_agriculture_premiums_desc: "Todo"
+ preparedness_effort: "Preparedness Effort"
+ preparedness_effort_desc: "Todo"
+ army_serves_industry: "Army Serves Industry"
+ army_serves_industry_desc: "Todo"
+ new_navy_programme: "New Navy Programme"
+ new_navy_programme_desc: "Todo"
+ overwork_initiative: "Overwork Initiative"
+ overwork_initiative_desc: "Todo"
  
  foreign_policy: "Foreign Policy"
  noone_enters_noone_leaves: "None to Enter, None to Leave"
@@ -82,31 +98,34 @@
  ENGIDEA_fenian_remnants_desc: "The Fenian Republic was a proposed independent repubilic to own the four total regions of Ireland. The council of three were gaining traction and causing instability throughout England and Scotland, but public approval suddenely turned when they detonated a bomb at Clerkenwell Prison in London, to attempt to free one of the Manchester Martyrs kept there. This 'Irish Gunpowder Plot' practically blew up in their faces when the police immediately put down the perpertrators, letting no prisoners escape. This idea of an irish republic began with a most unruly riot in Kerry, Southern Ireland. It should've ended after the failure of a bombing, yet resentment in the southern region remains."
  
  ENGIDEA_freight_crisis: "Freight Crisis"
- ENGIDEA_freight_crisis_desc: "The Freight Crisis is pretty bad :("
+ ENGIDEA_freight_crisis_desc: "All of a sudden, as if they had all decided in secret- all trade by sea, has stopped almost entirely. Internal trade routes are scant, while all external routes have yet to arrive..\n\nWhere on earth have they gone to?"
  
  ENGIDEA_freight_crisis_stb: "Freight Crisis"
- ENGIDEA_freight_crisis_stb_desc: "The Freight Crisis is pretty bad :("
+ ENGIDEA_freight_crisis_stb_desc: "Todo"
  
  ENGIDEA_freight_crisis_pop: "Freight Crisis"
- ENGIDEA_freight_crisis_pop_desc: "The Freight Crisis is pretty bad :("
+ ENGIDEA_freight_crisis_pop_desc: "Todo"
  
  ENGIDEA_freight_crisis_fac: "Freight Crisis"
- ENGIDEA_freight_crisis_fac_desc: "The Freight Crisis is pretty bad :("
+ ENGIDEA_freight_crisis_fac_desc: "Todo"
  
  ENGIDEA_freight_crisis_bal: "Freight Crisis"
- ENGIDEA_freight_crisis_bal_desc: "The Freight Crisis is pretty bad :("
+ ENGIDEA_freight_crisis_bal_desc: "Todo"
+ 
+ ENGIDEA_victors_of_the_third_burmese_campaign: "Victors of the Third Burmese Campaign"
+ ENGIDEA_victors_of_the_third_burmese_campaign_desc: "Beginning on 1866, following the Second Anglo-Burmese war ten years prior, the Third Burmese War was to depose the Konbaung Dynasty- to let us take the whole region as a province under the British Raj. It was a successful and most rapid campaign to be sure, as was routine for our time, the golden age of the British Empire. With the war, we took back many a valuable trinket and artifact, the riches of the exotic Assam are ours now.\n\nNot that it matters immediately- We've yet to hear back from the Viceroy. Infact, we're yet to hear back from any reports overseas..."
  
  ENGIDEA_manc_repay: "Repayments to Manchester"
- ENGIDEA_manc_repay_desc: "The Repayments to Manchester are pretty bad :("
+ ENGIDEA_manc_repay_desc: "Todo"
  
  ENGIDEA_military_preparations: "Military Preparations"
- ENGIDEA_military_preparations_desc: "The Military Preparations are pretty good :)"
+ ENGIDEA_military_preparations_desc: "Todo"
  
  ENGIDEA_fixingwreck: "Maintaining the Undaunted"
- ENGIDEA_fixingwreck_desc: "Maintaining the Undaunted is pretty good :)"
+ ENGIDEA_fixingwreck_desc: "Todo"
  
  ENGIDEA_fixingwreckperm: "Apprehensive Admiralty"
- ENGIDEA_fixingwreckperm_desc: "Apprehensive Admiralty is pretty good :)"
+ ENGIDEA_fixingwreckperm_desc: "Todo"
  
  ENGIDEA_madman_in_custody: "Madman in Custody"
- ENGIDEA_madman_in_custody_desc: "Pretty spooky"
+ ENGIDEA_madman_in_custody_desc: "Todo"

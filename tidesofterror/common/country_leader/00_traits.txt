@@ -1,17 +1,3 @@
-@tier1 = 30
-@tier2 = 20
-@tier3 = 10
-
-@experience_gain_low = 0.03
-@experience_gain_medium = 0.06
-@experience_gain_high = 0.08
-
-@chief_experience_gain_low = 0.20
-@chief_experience_gain_medium = 0.30
-@chief_experience_gain_high = 0.40
-
-###Todo remove commented advisor experience gains
-
 leader_traits = {
 	#Charles Dickens
 	trait_great_writer = {
@@ -38,7 +24,8 @@ leader_traits = {
 	#Joseph Lister
 	trait_public_health_pioneer = {
 		random = no
-		monthly_population = 0.15
+		monthly_population = 0.1
+		experience_loss_factor = -0.1
 	}
 	#Frederick Cave
 	trait_eagle_eyed = {
@@ -54,7 +41,7 @@ leader_traits = {
 	#Henry Pinkerton
 	trait_antiquity_mogul = {
 		random = no
-		consumer_goods_factor = -0.05
+		consumer_goods_factor = -0.1
 	}
 	trait_nepotist_henry_pinkerton = {
 		random = no

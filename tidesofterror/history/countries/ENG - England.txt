@@ -28,6 +28,7 @@ set_convoys = 100
 add_ideas = {
 	ENGIDEA_fenian_remnants
 	ENGIDEA_freight_crisis
+	ENGIDEA_victors_of_the_third_burmese_campaign
     the_volunteer_act
 	inventor_endorsement
 	steer_the_course

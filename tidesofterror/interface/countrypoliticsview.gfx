@@ -643,6 +643,11 @@ spriteTypes = {
 		name = "GFX_gov_bop"
 		texturefile = "gfx/interface/politicsview/gov_bop.png"
 	}
+
+	spriteType = {
+		name = "GFX_idea_cabinet_bg"
+		texturefile = "gfx/interface/politicsview/idea_cabinet_bg.png"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_categories"
