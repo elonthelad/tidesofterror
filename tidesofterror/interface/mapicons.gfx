@@ -319,18 +319,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_mapicon_naval_base_large"
-		texturefile = "gfx/interface/mapicons/mapicon_building_navalbase_large.dds"
-		noOfFrames = 10
-	}
-	
-	spriteType = {
-		name = "GFX_mapicon_naval_base"
-		texturefile = "gfx/interface/mapicons/mapicon_building_navalbase.dds"
-		noOfFrames = 10
-	}
-
-	spriteType = {
 		name = "GFX_mapicon_land_combat_frame"
 		texturefile = "gfx/interface/mapicons/mapicon_land_combat_frame.dds"
 		noOfFrames = 2
@@ -737,7 +725,9 @@ spriteType = {
 		noOfFrames = 1
 	}
 	
-	#MOD
+	
+	#MODDED
+	
 	
 	#Battle Bubble
 	spriteType = {
@@ -799,4 +789,18 @@ spriteType = {
 		name = "GFX_onmap_training_icon"
 		texturefile = "gfx/interface/mapicons/onmap_in_training_icon.dds"
 	}
+	
+	
+
+	spriteType = {
+		name = "GFX_mapicon_naval_base_large"
+		texturefile = "gfx/interface/mapicons/mapicon_building_navalbase_large.dds"
+		noOfFrames = 10
+	}
+	spriteType = {
+		name = "GFX_mapicon_naval_base"
+		texturefile = "gfx/interface/mapicons/mapicon_building_navalbase.dds"
+		noOfFrames = 10
+	}
+	
 }
