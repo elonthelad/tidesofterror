@@ -1,0 +1,66 @@
+###GUI/GFX###
+topbar 100%
+stateview 100%
+alerts 30%
+politicalview 100%
+divisionview 50%
+orders/frontlines gfx 40%
+decisionview 100%
+focusview 90%
+countryevent 100%
+newsevent 100%
+leaderevent 80%
+division editor 100%
+division icons 2%
+X equipment icons
+
+###RESEARCH PLOTTING###
+infantry 100%
+support 100%
+ordnance 100%
+war machines 0%
+naval 0%
+air 100%
+industry 100%
+inventions 0%
+
+###UNITS###
+infantry 70%
+artillery 100%
+X war machines
+X ships
+planes 20%
+
+###MAP###
+state coverage 100%
+state categories 100%
+strategic regions 100%
+population 100%
+victory points 100%
+ports 100%
+rail 100%
+weather 100%
+shipyards 100%
+X supply hubs
+X adjancencies
+X factories
+X infrastructure
+X resources
+
+###POLTICAL###
+policies 30%
+advisors 10%
+focuses 1%
+decisions 2%
+tags  10%
+X leaders
+
+###SFX###
+menu 50%
+X alerts
+X units
+
+###3D###
+X map objects
+X cities
+X unit models
