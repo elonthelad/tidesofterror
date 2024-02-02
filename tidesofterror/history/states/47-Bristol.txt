@@ -1,4 +1,3 @@
-
 state={
 	id=47
 	name="STATE_47"
@@ -14,6 +13,7 @@ state={
 		victory_points = { 8228 18 } #"Bishopston"
 		victory_points = { 8225 12 } #"Kingswood"
 		buildings = {
+			dockyard = 3
 			8218 = { naval_base = 8 }
 		}
 	}

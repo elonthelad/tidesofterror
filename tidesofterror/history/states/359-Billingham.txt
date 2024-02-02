@@ -10,6 +10,7 @@ state={
 		victory_points = { 1154 14 } #"Thornaby"
 		victory_points = { 1785 18 } #"Stockton-on-Tees"
 		buildings = {
+			dockyard = 6
 			6392 = { naval_base = 7 }
 		}
 	}

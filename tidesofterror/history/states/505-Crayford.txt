@@ -1,14 +1,17 @@
 state={
 	id=505
 	name="STATE_505"
+	provinces={
+		952 3971 8249 8260 8278 
+	}
 	history={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 952 15 } #"Bexleyheath"
 		victory_points = { 3971 12 } #"Erith"
-	}
-	provinces={
-		952 3971 8249 8260 8278 
+		buildings = {
+			dockyard = 2
+		}
 	}
 	manpower=296631
 	buildings_max_level_factor=1.000

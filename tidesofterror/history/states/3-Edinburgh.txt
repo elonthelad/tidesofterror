@@ -14,6 +14,7 @@ state={
 		victory_points = { 2878 15 } #"Blackford"
 		victory_points = { 3527 12 } #"Cramond"
 		buildings = {
+			dockyard = 1
 			2681 = { naval_base = 5 }
 		}
 	}

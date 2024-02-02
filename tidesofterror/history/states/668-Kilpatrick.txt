@@ -10,6 +10,9 @@ state={
 		add_core_of = SCO
 		victory_points = { 5952 16 } #"Clydebank"
 		victory_points = { 5950 10 } #"Dumbarton"
+		buildings = {
+			dockyard = 2
+		}
 	}
 	manpower=35118
 	buildings_max_level_factor=1.000

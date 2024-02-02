@@ -9,6 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 4050 10 } #"Canning Town"
 		buildings = {
+			dockyard = 3
 			4050 = { naval_base = 4 }
 		}
 	}

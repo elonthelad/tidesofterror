@@ -13,6 +13,7 @@ state={
 		victory_points = { 5863 14 } #"Douglas and Angus"
 		victory_points = { 5857 10 } #"Monifieth"
 		buildings = {
+			dockyard = 1
 			5862 = { naval_base = 2 }
 		}
 	}

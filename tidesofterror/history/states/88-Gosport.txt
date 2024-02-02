@@ -1,4 +1,3 @@
-
 state={
 	id=88
 	name="STATE_88"
@@ -11,6 +10,9 @@ state={
 		victory_points = { 2308 18 } #"Gosport"
 		victory_points = { 1000 15 } #"Park Gate"
 		victory_points = { 8519 19 } #"Fareham"
+		buildings = {
+			dockyard = 2
+		}
 	}
 	manpower=214404
 	buildings_max_level_factor=1.000
