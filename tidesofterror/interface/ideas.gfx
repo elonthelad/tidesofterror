@@ -16,6 +16,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ENGIDEA_freight_crisis.png"
 	}
 	spriteType = {
+		name = "GFX_idea_ENGIDEA_freight_crisis_stb"
+		texturefile = "gfx/interface/ideas/ENGIDEA_freight_crisis.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENGIDEA_freight_crisis_pop"
+		texturefile = "gfx/interface/ideas/ENGIDEA_freight_crisis.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENGIDEA_freight_crisis_fac"
+		texturefile = "gfx/interface/ideas/ENGIDEA_freight_crisis.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENGIDEA_freight_crisis_bal"
+		texturefile = "gfx/interface/ideas/ENGIDEA_freight_crisis.png"
+	}
+	spriteType = {
 		name = "GFX_idea_ENGIDEA_fenian_remnants"
 		texturefile = "gfx/interface/ideas/ENGIDEA_fenian_remnants.png"
 	}
@@ -23,6 +39,9 @@ spriteTypes = {
 		name = "GFX_idea_ENGIDEA_victors_of_the_third_burmese_campaign"
 		texturefile = "gfx/interface/ideas/ENGIDEA_victors_of_the_third_burmese_campaign.png"
 	}
+	
+	
+	
 	
 	#Enlistment policy
 	spriteType = {
