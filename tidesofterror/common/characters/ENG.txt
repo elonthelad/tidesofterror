@@ -105,22 +105,22 @@ characters = {
 				trait_father_of_evolution
 				trait_worldwide_figure_charles_darwin
 			}
-			on_add = { 
-                ROOT = {
-                    add_to_array = {
-                        ENG_characternames = { token:tokenlocalizedkey = PREV }
-                    }
-                    set_variable = { ENG_characternamesvariable = ENG_characternames^0 }
-                }
-            }
-            on_remove = {
-                ROOT = {
-                    remove_from_array = {
-                        ENG_characternames = { token:tokenlocalizedkey = PREV }
-                    }
-                    clear_variable = ENG_characternamesvariable
-                }
-            }
+			#on_add = { 
+			#	owner = {
+			#		add_to_array = {
+			#			characternames = token:ENG_charles_darwin
+			#		}
+			#		#set_variable = { ENG_characternamesvariable = ENG_characternames^0 }
+			#	}
+            #}
+            #on_remove = {
+			#	owner = {
+			#		remove_from_array = {
+			#			characternames = token:ENG_charles_darwin
+			#		}
+			#		#clear_variable = ENG_characternamesvariable
+			#	}
+            #}
 		}
 	}
 }

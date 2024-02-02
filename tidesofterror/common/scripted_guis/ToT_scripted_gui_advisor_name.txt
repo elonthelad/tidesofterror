@@ -1,0 +1,19 @@
+#scripted_gui = {
+#	ToT_advisor_name_container = {
+#		window_name = "ToT_advisor_name_container"
+#		context_type = player_context
+#		parent_window_name = country_view_advisor_name_entry
+#		
+#		visible = { 
+#			always = yes
+#		}
+#		
+#		properties = {
+#			
+#        }
+#
+#		effects = {
+#			
+#		}
+#	}
+#}
