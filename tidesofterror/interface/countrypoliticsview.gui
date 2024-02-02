@@ -290,7 +290,7 @@ guiTypes = {
 	
 		containerWindowType = {
 			name = "active_goal"
-			position = { x = 219 y = 57 }
+			position = { x = 217 y = 57 }
 			size = { width = 330 height = 50 }
 			clipping = no
 			
@@ -333,7 +333,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "goal_icon"
-				position = { x = 72 y = 91 }
+				position = { x = 72 y = 81 }
 				centerposition = yes			
 				spriteType = "GFX_goal_unknown"
 				scale = 0.6
