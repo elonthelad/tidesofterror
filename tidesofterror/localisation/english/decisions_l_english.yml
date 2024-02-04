@@ -1,17 +1,7 @@
 ﻿l_english:
- DECISIONVIEW_TITLE: "Events and Decisions"
- DECISIONSVIEW_EVENT_HEADER: "Notification Settings:"
- POPUP_NEWS: "Newsletters"
- POPUP_EVENTS: "Event Popup"
- CATEGORY_COLLAPSE_DESC: "§GClick§! to collapse."
- CATEGORY_EXPAND_DESC: "§GClick§! to expand."
  DECISION_KEEP_NOTIFIED: "§HNotify§!\n\n§GClick§! to §Rnot be notified§! when it is next possible to enact this Decision.\n"
  DECISION_NOT_KEEP_NOTIFIED: "§HNotify§!\n\n§GClick§! to §Gbe notified§! when it is next possible to enact this Decision.\n"
  TAKE_DECISION_HEADER: "§HTake decision§!\n\n"
- NEWS_POPUP_CHECKBOX_TOOLTIP: "§GClick§! to toggle News notifications."
- EVENT_POPUP_CHECKBOX_TOOLTIP: "§GClick§! to toggle Event notifications."
- MINOR_EVENT_POPUP_CHECKBOX_TOOLTIP: "§GClick§! to toggle minor event notifications, such as Ace Pilot events."
- POPUP_MINOR_EVENTS: "Minor Popup"
  DECISION_COST_DESC: "It would cost £pol_power $VAL|H0$ to enact this Decision."
  DECISION_COST_NOT_ENOUGH: "It would cost £pol_power $VAL|HR0$ to enact this Decision."
  ON_MAP_DECISION_NAME_DEFAULT: "Find decisions on the map."
@@ -20,6 +10,23 @@
  ADD_DAYS_TO_MISSION: "Add $DAYS|H$ days to Mission $MISSION|H$"
  REMOVE_DAYS_TO_MISSION: "Remove $DAYS|H$ days from Mission $MISSION|H$"
  CLICK_TO_TOGGLE_ALL_CATEGORY_DECISION_TRACKING: "§GClick§! to toggle notification status for all decisions under this category."
+ 
+ 
+ #MODDED
+ 
+ CATEGORY_COLLAPSE_DESC: "§GClick to collapse category.§!"
+ CATEGORY_EXPAND_DESC: "§GClick to expand category.§!"
+ DECISIONVIEW_TITLE: "Events and Decisions"
+ 
+ DECISIONSVIEW_EVENT_HEADER: "Notification Settings:"
+ POPUP_MINOR_EVENTS: "Minor Events"
+ MINOR_EVENT_POPUP_CHECKBOX_TOOLTIP: "§GClick to toggle minor event popups.§!"
+ POPUP_EVENTS: "Events"
+ EVENT_POPUP_CHECKBOX_TOOLTIP: "§GClick to toggle Event popups.§! "
+ POPUP_NEWS: "Papers"
+ NEWS_POPUP_CHECKBOX_TOOLTIP: "§GClick to toggle News popups.§! "
+ 
+ NAME_THEME_STATES: "States"
  
  decision_cost_civ_factory_5: "£civ_factory  §Y5§!"
  decision_cost_civ_factory_5_blocked: "£civ_factory  §R5§!"
@@ -31,7 +38,7 @@
 
  ENG_fenian_decisioncat: "Malcontents of Eire"
  ENG_fenian_decisioncat_desc: "The Fenian Council were of three irish upper-classmen; and this notion of Irish Independency began two years prior to its creation. Since then the council were gaining traction and causing instability throughout England and Scotland, public approval suddenly turned when they detonated a bomb at Clerkenwell Prison in London, to attempt to free one of the Manchester Martyrs kept there.\n\nThis Irish 'Gunpowder Plot' practically blew up in their faces when the police immediately put down the perpertrators, letting no prisoners escape. This idea of an irish republic began with a most unruly riot in Kerry, Southern Ireland. It should've ended after the failure of a bombing, yet resentment in the southern region remains.\n\nWe shan't position troops within these areas, as any military presence would absolutely begin the chaos. Although, we can use this fact to the advantage of surprise.."
- areas_with_sentiment: "Areas Displaying Irish Sentiment:\n[GetIrishStatesList]"
+ areas_with_sentiment: "Areas Displaying Irish Sentiment:\nStates: Kerry, Cork, Limerick, Galway, Mayo, Waterford, South Tipperary, Tipperary"
  
  #[GetIrishStatesList]
  #States: Kerry, Cork, Limerick, Galway, Mayo, Waterford, South Tipperary, Tipperary

@@ -735,7 +735,7 @@ NGraphics = {
 	GRADIENT_BORDERS_OUTLINE_CUTOFF_INTEL_LEDGER = 0.973,
 	GRADIENT_BORDERS_OUTLINE_CUTOFF_PEACE_CONFERENCE = 0.973,
 	GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_COUNTRY = 0.0, -- 0 to 1 value for override filling when camera zooms in/out. 0 = override disabled
-	GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_STATE = 0.4,
+	GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_STATE = 0.5,
 	GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_SUPPLY_AREA = 1.0,
 	GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_STRATEGIC_REGIONS = 1.0,
 	GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_RESISTANCE = 0.35,
@@ -748,7 +748,7 @@ NGraphics = {
 	GRADIENT_BORDERS_ACTIVATE_FOR_PEACE_CONFERENCE = false,
 	GRADIENT_BORDERS_ONE_COLOR_FOR_PEACE_CONFERENCE = { -1.0, -1.0, -1.0, -1.0 }, -- all gradient will have this color. if { -1.0, -1.0, -1.0, -1.0 } then use Negotiator MapColor
 
-	GRADIENT_BORDERS_OPTIMIZATION_RANGE = 30.0, -- smaller value = faster gradient borders but may have artifacts on large provinces (value to balance)
+	GRADIENT_BORDERS_OPTIMIZATION_RANGE = 20.0, -- smaller value = faster gradient borders but may have artifacts on large provinces (value to balance)
 	GRADIENT_BORDERS_REFRESH_FREQ = 0.12, -- how frequent is gradient borders repainting (optimization for high-speed gameplay)
 	STRATEGIC_AIR_COLOR_BAD = {0.8, 0, 0, 1}, -- rgb
 	STRATEGIC_AIR_COLOR_GOOD = {0, 0.8, 0, 1},
