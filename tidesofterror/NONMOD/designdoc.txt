@@ -1,0 +1,34 @@
+#Unit/Combat
+Organisation > 'Morale'
+Org Regen > 'Morale Regain'
+#'Morale' is seperate from 'resolve'.
+
+Armour > 'Resolve'
+Piercing > 'Terror'
+#Vanilla-
+#Having higher armour than piercing reduces damage recieved
+#Mod
+#Having higher armour than piercing changes nothing. 100% of regular damage is still recieved
+#Having higher piercing than enemies armour will increase damage dealt
+
+
+#Resources
+X Oil
+X Rubber
+X Tungsten
+X Chromium
+
+Coal
+Steel
+Silicates
+Aluminium
+Timber
+Manganese
+Arcane Vapours
+
+Fuel > Sanity
+#Units do not consume or store fuel on them. Nor the navy, or airforce.
+
+base_fuel_gain	#Sanity increase per hour
+base_fuel_cost	#Sanity loss per hour
+fuel_gain_factor		#Sanity multiplier

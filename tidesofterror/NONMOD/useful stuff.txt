@@ -24,6 +24,9 @@ debug_nogui							#Hides all interface
 
 ae 10000 infantry_weapons1	#Add 10,000 snider-enfields to stockpile
 
+#GUI
+GFX_invis								#For elements i need to hide from the player
+
 #Localisation syntax
 
 \n			#Break line

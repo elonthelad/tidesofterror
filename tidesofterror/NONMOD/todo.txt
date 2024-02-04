@@ -41,8 +41,8 @@ ports 100%
 rail 100%
 weather 100%
 shipyards 100%
+adjancencies 100%
 X supply hubs
-X adjancencies
 X factories
 X infrastructure
 X resources
