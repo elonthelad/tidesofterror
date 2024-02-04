@@ -1753,4 +1753,13 @@ bitmapfonts = {
 		name = "GFX_red_cross_small"
 		textureFile = "gfx//interface//red_cross_small.dds"
 	}
+	
+	
+	#MODDED
+	
+	
+	SpriteType = {
+		name = "GFX_invis"
+		textureFile = "gfx/interface/invis.dds"
+	}
 }
