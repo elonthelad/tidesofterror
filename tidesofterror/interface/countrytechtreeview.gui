@@ -1444,7 +1444,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=20 y=24 }
+			position = { x=9 y=14 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
 		}
@@ -1507,7 +1507,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=80 y=24 }
+			position = { x=17 y=20 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
 		}
