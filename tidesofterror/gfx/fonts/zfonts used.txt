@@ -25,6 +25,13 @@ hoi_20b #Used in difficulty select
 #No outline, added shadow in ps
 #Georgia 14px
 
+hoi_24header #Used in headers everywhere
+#8x8x8x8 Pad, 1x1 Space
+#No outline, added shadow in ps
+#Drop shadow 62%, 0px distance, 12% spread, 6px size
+#Inner shadow 31%, 1px distance -90*, 1px size
+#Sitka Banner 20px
+
 hoi_30header #Used in loading top status
 #8x8x8x8 Pad, 1x1 Space
 #No outline, added shadow in ps
