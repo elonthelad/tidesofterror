@@ -174,7 +174,7 @@
  suptech_comissariat: "Comissariats"
  suptech_comissariat2: "Supply Trains"
  suptech_comissariat3: "Scheduled Fasting"
- supth_comissariat4: "Salvage Brigades"
+ suptech_comissariat4: "Salvage Brigades"
  suptech_comissariat4_desc: "It would seem to be that we fight amongst ruin more than abundance. Resourceful soldiers have taken it upon themselves to discover that there are many re-usable tools, equipment and food within these broken estates and cities. We may establish Salvage Brigades to reclaim food caches and equipment on the field."
  suptech_comissariat5: "'Exotic' Meat Cut Charts"
  suptech_comissariat5_desc: "Do you know how many bodies lie out there, rotting, human or no? Waiting for a scavenger to come along and pick at it? Well, it would appear that a few expedient cooks in the making have gotten creative with this fact. Let's just say, we can collate some cut charts to let others in on the secret. There's an awful lot of meat out there."
@@ -320,13 +320,6 @@
  indtech_steel_frame_buildings: "Steel Frame Buildings"
 
  bessemer_process_tt: "Adds §Y2§! steel to every state we control that already has a steel mine."
- hadfield_steel_tt: "Adds §Y3§! steel to every state we control that already has a steel mine."
- develop_steel_deposits_tt: "Adds §Y3§! steel to a random state we control that already has a steel mine."
- develop_coal_deposits_tt: "Adds §Y3§! coal to a random state we control that already has a coal mine."
- develop_silicates_deposits_tt: "Adds §Y3§! silicates to a random state we control that already has a silicates mine."
- develop_timber_deposits_tt: "Adds §Y3§! timber to a random state we control that already has a timber yard."
- develop_aluminum_deposits_tt: "Adds §Y3§! aluminum to a random state we control that already has a aluminum mine."
- develop_maganese_deposits_tt: "Adds §Y3§! maganese to a random state we control that already has a maganese mine."
  #Inventions
  
  electronics_folder: "Inventions"

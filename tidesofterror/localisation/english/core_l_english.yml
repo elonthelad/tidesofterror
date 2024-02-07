@@ -337,7 +337,6 @@
  MENU_BAR_IRONMAN_SAVE: "Sealed Fate Save Game"
  MENU_BAR_IRONMAN_PLAIN: "Sealed Fate"
  MENU_ACHIEVEMENTS: "Hearts of Iron IV Achievements"
- MENU_DISCORD: "Tides of Terror Discord"
  MENU_PRIVACY_POLICY: "Hearts of Iron IV Privacy Policy"
  MAIN_MENU: "Main menu"
  MAIN_MENU_BACK: "Back to Menu"
@@ -1693,7 +1692,6 @@
  RAILWAY_CANCEL_UPGRADE: "§GRight Click§! to cancel upgrade"
  TRAINS: "Trains"
  TRAINS_COLON: "$TRAINS$:"
- TRUCKS: "Carriages"
  TRUCKS_COLON: "$TRUCKS$:"
  CONVOYS_COLON: "$CONVOYS$:"
  NEEDED: "Needed"
@@ -1825,6 +1823,8 @@
  #MODDED
  
  
+ TRUCKS: "Carriages"
+ MENU_DISCORD: "Tides of Terror Discord"
  LAG_BEHIND_TEXT: "The game speed has been lowered to allow laggards to catch up."
  
  CONFIRMDELETETITLE: "Abandon Timeline"
