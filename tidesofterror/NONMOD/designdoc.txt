@@ -1,3 +1,15 @@
+#Politics
+Political Power > 'Influence'
+Stability > 'Order'
+War Support > 'Hope'
+
+Fuel > Sanity
+#Units do not consume or store fuel on them. Nor the navy, or airforce.
+base_fuel_gain	#Sanity increase per hour
+base_fuel_cost	#Sanity loss per hour
+fuel_gain_factor		#Sanity multiplier
+
+
 #Unit/Combat
 Organisation > 'Morale'
 Org Regen > 'Morale Regain'
@@ -25,10 +37,3 @@ Aluminium
 Timber
 Manganese
 Arcane Vapours
-
-Fuel > Sanity
-#Units do not consume or store fuel on them. Nor the navy, or airforce.
-
-base_fuel_gain	#Sanity increase per hour
-base_fuel_cost	#Sanity loss per hour
-fuel_gain_factor		#Sanity multiplier
