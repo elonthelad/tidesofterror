@@ -17,7 +17,8 @@ equipments = {
 
 		build_cost_ic = 70
 		resources = {
-			steel = 1
+			steel = 8
+			coal = 5
 		}
 	}
 	# regular trains
@@ -30,9 +31,6 @@ equipments = {
 		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
 
 		build_cost_ic = 70
-		resources = {
-			steel = 1
-		}
 	}
 	# cheap trains
 	train_equipment_2 = {

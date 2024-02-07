@@ -24,7 +24,7 @@ equipments = {
 
 		build_cost_ic = 2.1
 		resources = {
-			timber = 1
+			timber = 2
 		}
 		
 		supply_truck = yes
