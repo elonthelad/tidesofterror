@@ -18,13 +18,6 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 
-
-	spriteType = {
-		name = "GFX_inf_art_checkbox"
-		texturefile = "gfx/interface/inf_art_checkbox.dds"
-		noOfFrames = 2
-	}
-
 	spriteType = {
 		name = "GFX_armour_checkbox"
 		texturefile = "gfx/interface/armour_checkbox.dds"
@@ -268,36 +261,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_add_prod_aircraft_line"
-		textureFile = "gfx//interface//add_prod_aircraft_line.dds"
-		noOfFrames = 3			
-	}
-
-	spriteType = {
-		name = "GFX_add_prod_inf_art_line"
-		textureFile = "gfx//interface//add_prod_inf_art_line.dds"
-		noOfFrames = 3			
-	}
-
-	spriteType = {
-		name = "GFX_add_prod_armour_line"
-		textureFile = "gfx//interface//add_prod_armour_line.dds"
-		noOfFrames = 3			
-	}
-
-	spriteType = {
-		name = "GFX_add_prod_naval_line"
-		textureFile = "gfx//interface//add_prod_naval_line.dds"
-		noOfFrames = 3			
-	}	
-	
-	spriteType = {
-		name = "GFX_toggle_naval_repair_window"
-		textureFile = "gfx//interface//naval_repair_view_button.dds"
-		noOfFrames = 3			
-	}
-
-	spriteType = {
 		name = "GFX_prod_naval_equipment_item_large"
 		textureFile = "gfx//interface//prod_naval_equipment_item_large.dds"
 	}	
@@ -354,16 +317,6 @@ spriteTypes = {
 		name = "GFX_outdated_naval_equipment_overlay"
 		textureFile = "gfx//interface//outdated_naval_equipment_overlay.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_outdated_equipment_overlay"
-		textureFile = "gfx//interface//outdated_equipment_overlay.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_prod_land_equipment_item_large"
-		textureFile = "gfx//interface//prod_land_equipment_item_large.dds"
-	}
 
 	spriteType = {
 		name = "GFX_naval_item_collapsed"
@@ -371,18 +324,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_equipment_item_collapsed"
-		textureFile = "gfx//interface//equipment_item_collapsed.dds"
-	}
-
-	spriteType = {
 		name = "GFX_equipment_item_collapsed_wide"
 		textureFile = "gfx//interface//equipment_item_collapsed_wide.dds"
-	}
-
-	spriteType = {
-		name = "GFX_outdated_equipment_overlay_collapsed"
-		textureFile = "gfx//interface//outdated_equipment_overlay_collapsed.dds"
 	}
 
 	spriteType = {
@@ -412,16 +355,6 @@ spriteTypes = {
 		name = "GFX_naval_equipment_item"
 		textureFile = "gfx//interface//naval_equipment_item.dds"
 	}	
-	
-	spriteType = {
-		name = "GFX_production_line_selected"
-		textureFile = "gfx//interface//production_line_selected.dds"
-	}
-
-	spriteType = {
-		name = "GFX_production_line_selected_collapsed"
-		textureFile = "gfx//interface//production_item_selected_collapsed.dds"
-	}
 
 	spriteType = {
 		name = "GFX_naval_production_line_selected"
@@ -523,15 +456,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/progress_startend.lua"
 	}
 	
-	progressbartype = {
-		name = "GFX_prod_progress_bar2"
-		color = { 0.0 0.5 0.0 }
-		colortwo = { 1.0 0.0 0.0 }
-		textureFile1 = "gfx\\interface\\prod_progress_bar2.dds"
-		textureFile2 = "gfx\\interface\\prod_progress_bar2_bg.dds"
-		size = { x = 118 y = 21 }
-		effectFile = "gfx/FX/progress_startend.lua"
-	}	
+	
 	
 	progressbartype = {
 		name = "GFX_production_progressbar"
@@ -613,18 +538,6 @@ spriteTypes = {
 		name = "GFX_naval_increase_amount"
 		textureFile = "gfx//interface//naval_increase_amount.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_production_item"
-		textureFile = "gfx//interface//production_item.dds"
-		#effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
-	}
-
-	spriteType = {
-		name = "GFX_production_item_collapsed"
-		textureFile = "gfx//interface//production_item_collapsed.dds"
-		#effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
-	}
 
 	spriteType = {
 		name = "GFX_naval_production_item"
@@ -637,13 +550,6 @@ spriteTypes = {
 		textureFile = "gfx//interface//naval_production_item_slots_strip.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 		noOfFrames = 3
-	}
-
-	spriteType = {
-		name = "GFX_factory_item"
-		textureFile = "gfx//interface//factory_icon.dds"
-		noOfFrames = 15
-		alwaystransparent = yes
 	}
 
 	spriteType = {
@@ -672,15 +578,6 @@ spriteTypes = {
 		textureFile = "gfx//interface//naval_factory_icon.dds"
 		noOfFrames = 15
 	}
-	
-	corneredTileSpriteType = {
-		name = "GFX_factory_bg"
-		size= { x=28 y=22 }
-		textureFile = "gfx//interface//factory_item_bg.dds"
-		borderSize = { x=0 y=0 }
-		tilingCenter = no
-		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
-	}	
 	
 	spriteType = {
 		name = "GFX_production_line_convert"
@@ -721,5 +618,148 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_production_prohibition_sign_icon"
 		textureFile = "gfx/interface/equipmentdesigner/production_prohibition_sign_icon.dds"
+	}
+	
+	
+	#MODDED
+	
+	
+	spriteType = {
+		name = "GFX_behind_prod_bg"
+		texturefile = "gfx/interface/productionlineview/behind.png"
+	}
+	
+	spriteType = {
+		name = "GFX_production_item"
+		textureFile = "gfx/interface/productionlineview/production_item.dds"
+	}
+	spriteType = {
+		name = "GFX_production_line_selected"
+		textureFile = "gfx/interface/productionlineview/production_line_selected.dds"
+	}
+
+	spriteType = {
+		name = "GFX_production_item_collapsed"
+		textureFile = "gfx/interface/productionlineview/production_item_collapsed.png"
+	}
+	spriteType = {
+		name = "GFX_production_line_selected_collapsed"
+		textureFile = "gfx/interface/productionlineview/production_item_collapsed_selected.png"
+	}
+
+	spriteType = {
+		name = "GFX_equipment_item_collapsed"
+		textureFile = "gfx/interface/productionlineview/equipment_item_collapsed.png"
+	}
+	
+	progressbartype = {
+		name = "GFX_prod_progress_bar2"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx/interface/prod_progress_bar2.dds"
+		textureFile2 = "gfx/interface/prod_progress_bar2_bg.dds"
+		size = { x = 300 y = 55 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_prod_land_equipment_item_large"
+		textureFile = "gfx/interface/productionlineview/prod_land_equipment_item_large.png"
+	}
+	
+	spriteType = {
+		name = "GFX_prod_name_header"
+		textureFile = "gfx/interface/productionlineview/prod_name_header.png"
+	}
+	
+	spriteType = {
+		name = "GFX_prod_speed_header"
+		textureFile = "gfx/interface/productionlineview/prod_speed_header.png"
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_outdated_equipment_overlay"
+		textureFile = "gfx/interface/productionlineview/outdated_eq.png"
+		noOfFrames = 2
+		animation_rate_fps = 0.41
+		looping = yes
+		play_on_show = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_outdated_equipment_overlay_collapsed"
+		textureFile = "gfx/interface/productionlineview/outdated_eq_collapsed.png"
+		noOfFrames = 2
+		animation_rate_fps = 0.41
+		looping = yes
+		play_on_show = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+	
+	#Factory Grid
+	corneredTileSpriteType = {
+		name = "GFX_factory_bg"
+		size= { x=33 y=26 }
+		textureFile = "gfx/interface/productionlineview/factory_item_bg.dds"
+		borderSize = { x=0 y=0 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = {
+		name = "GFX_factory_item"
+		textureFile = "gfx/interface/productionlineview/factory_icon.dds"
+		noOfFrames = 15
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_big_mil_factory_icon"
+		textureFile = "gfx/interface/productionlineview/big_mil_factory.png"
+	}
+
+	#Build Buttons
+	spriteType = {
+		name = "GFX_add_prod_inf_art_line"
+		textureFile = "gfx/interface/productionlineview/build_buttons/add_prod_inf_art_line.png"
+		noOfFrames = 3			
+	}
+	spriteType = {
+		name = "GFX_add_prod_armour_line"
+		textureFile = "gfx/interface/productionlineview/build_buttons/add_prod_armour_line.png"
+		noOfFrames = 3			
+	}
+	spriteType = {
+		name = "GFX_add_prod_aircraft_line"
+		textureFile = "gfx/interface/productionlineview/build_buttons/add_prod_aircraft_line.png"
+		noOfFrames = 3			
+	}
+	spriteType = {
+		name = "GFX_add_prod_naval_line"
+		textureFile = "gfx/interface/productionlineview/build_buttons/add_prod_naval_line.png"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_toggle_naval_repair_window"
+		textureFile = "gfx/interface/productionlineview/build_buttons/naval_repair_view_button.png"
+		noOfFrames = 3			
+	}
+	
+	#Filters
+	spriteType = {
+		name = "GFX_field_eq_checkbox"
+		texturefile = "gfx/interface/productionlineview/filters/field_eq_checkbox.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_war_machines_checkbox"
+		texturefile = "gfx/interface/productionlineview/filters/war_machines_checkbox.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_aircraft_checkbox"
+		texturefile = "gfx/interface/productionlineview/filters/aircraft_checkbox.png"
+		noOfFrames = 2
 	}
 }

@@ -44,23 +44,7 @@
  PRODUCTION_RESOURCE_PENALTY: "§TLack of resources: $AMOUNT|R2%$§!"
  PRODUCTION_RESOURCE_PENALTY_WITH_MIO: "§TLack of resources: $AMOUNT|R2%$§! ($FROM_MIO$)"
  PRODUCTION_ASSIGN_EQUIPMENT: "§TAssign Equipment to start production.§!"
- PRODUCTION_MATERIALS_COAL: "Coal"
- PRODUCTION_MATERIALS_ALUMINIUM: "Aluminum"
- PRODUCTION_MATERIALS_SILICATES: "Silicates"
- PRODUCTION_MATERIALS_TIMBER: "Timber"
- PRODUCTION_MATERIALS_ARCANE_VAPOURS: "Arcane Vapours"
- PRODUCTION_MATERIALS_STEEL: "Steel"
- PRODUCTION_MATERIALS_MANGANESE: "Manganese"
  PRODUCTION_MATERIAL_VAL: "$VALUE|0H$"
- PRODUCTION_VEHICLES_BUTTON: "Build Armored Vehicles"
- PRODUCTION_VEHICLES_BUTTON_DISABLED: "Armored Vehicles are §RNot invented§!!"
- PRODUCTION_VEHICLES_BUTTON_NO_FACTORIES_DISABLED: "We have §RNo military factories!§!"
- PRODUCTION_INFANTRY_BUTTON: "Build Infantry & Artillery Equipment"
- PRODUCTION_INFANTRY_BUTTON_DISABLED: "Infantry & Artillery Equipment is §RNot invented§!!"
- PRODUCTION_INFANTRY_BUTTON_NO_FACTORIES_DISABLED: "We have §RNo military factories!§!"
- PRODUCTION_AIRCRAFT_BUTTON: "Build Aircraft"
- PRODUCTION_AIRCRAFT_BUTTON_DISABLED: "Aircraft is §RNot invented§!!"
- PRODUCTION_AIRCRAFT_BUTTON_NO_FACTORIES_DISABLED: "We have §RNo military factories§!!"
  PRODUCTION_SHIPS_BUTTON: "Build Ships"
  PRODUCTION_SHIPS_BUTTON_DISABLED: "Ships are §RNot invented§!!"
  PRODUCTION_SHIPS_BUTTON_NO_DEPLOY_DISABLED: "We have §RNo ports§!!"
@@ -202,9 +186,6 @@
  PRODUCTION_ENTRY_OUTDATED: "(outdated)"
  PRODUCTION_LINE_CHANGE: "§GClick to §Hchange§! the produced equipment.\nYou will retain some of the Efficiency if you switch to a newer version of the same equipment.\n§!§RYou will lose all progress for this line.§!"
  PRODUCTION_LINE_CHANGE_NAVAL: "§GClick to §Hchange§! the produced equipment.\n§!§RYou will lose all progress for this line.§!"
- PRODUCTION_EQUIPMENT_FILTER: "Infantry & Artillery Equipment"
- PRODUCTION_ARMOR_FILTER: "Armored Vehicles"
- PRODUCTION_AIR_FILTER: "Aircraft"
  PRODUCTION_CAPITAL_SHIPS_FILTER: "Capital Ships"
  PRODUCTION_SCREEN_SHIPS_FILTER: "Screen Ships"
  PRODUCTION_OTHER_SHIPS_FILTER: "Other Ships"
@@ -300,9 +281,33 @@
  PRODUCTION_EQUIPMENT_ROLE_NO_FILTER: "Show all roles"
  PRODUCTION_EQUIPMENT_ROLE_FILTER: "Show only equipments with the role $ROLE|H$"
 
- #MOD
+
+ #MODDED
  
  
+ 
+
+ PRODUCTION_MATERIALS_MANGANESE: "Manganese"
+ PRODUCTION_INFANTRY_BUTTON: "Produce Field Equipment"
+ PRODUCTION_INFANTRY_BUTTON_DISABLED: "§RField Equipment has not been invented yet.§!"
+ PRODUCTION_INFANTRY_BUTTON_NO_FACTORIES_DISABLED: "We have §RNo military factories!§!"
+ PRODUCTION_VEHICLES_BUTTON: "Produce War Machines"
+ PRODUCTION_VEHICLES_BUTTON_DISABLED: "§RWar Machines have not been invented yet.§!"
+ PRODUCTION_VEHICLES_BUTTON_NO_FACTORIES_DISABLED: "We have §RNo military factories!§!"
+ PRODUCTION_AIRCRAFT_BUTTON: "Build Aircraft"
+ PRODUCTION_AIRCRAFT_BUTTON_DISABLED: "§RAircraft has not been invented yet.§!"
+ PRODUCTION_AIRCRAFT_BUTTON_NO_FACTORIES_DISABLED: "We have §RNo military factories§!!"
+ 
+ PRODUCTION_EQUIPMENT_FILTER: "Field Equipment"
+ PRODUCTION_ARMOR_FILTER: "War Machines"
+ PRODUCTION_AIR_FILTER: "Aircraft"
+ 
+ PRODUCTION_MATERIALS_COAL: "Coal"
+ PRODUCTION_MATERIALS_ALUMINIUM: "Aluminum"
+ PRODUCTION_MATERIALS_SILICATES: "Silicates"
+ PRODUCTION_MATERIALS_TIMBER: "Timber"
+ PRODUCTION_MATERIALS_ARCANE_VAPOURS: "Arcane Vapours"
+ PRODUCTION_MATERIALS_STEEL: "Steel"
  steel_desc: "\n§LSteel is a hardy compound of carbon and iron, having proved reliable for centuries. It is used in nearly all manners of military production, as it is as strong as it is easily found.§!"
  coal_desc: "\n§LCoal is a black carbon mineral mined from the earth, and is used in combustion & steam engines at an industrial scale.§!"
  silicates_desc: "\n§LSilicates include stone, clay. It is simply mined and excavated from the earth and sees most use in buildings, and very rarely in military use, however it is as strong as it is inordinately heavy. Another advantage over metals is that it is highly resistant to shock and bolts of electricity. This may become more crucial in the near future.§!"

@@ -1762,4 +1762,8 @@ bitmapfonts = {
 		name = "GFX_invis"
 		textureFile = "gfx/interface/invis.dds"
 	}
+	SpriteType = {
+		name = "GFX_minimize_button"
+		textureFile = "gfx/interface/minimizebutton.png"
+	}
 }
