@@ -4,21 +4,29 @@ spriteTypes = {
 	#MODDED
 	
 	#Infantry Tech
-	SpriteType = {
+	spriteType = {
 		name = "GFX_inftech_sniderenfield_medium"
 		texturefile = "gfx/interface/technologies/inftech_sniderenfield.png"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_inftech_martinihenry_medium"
 		texturefile = "gfx/interface/technologies/inftech_martinihenry.png"
 	}
+	spriteType = {
+		name = "GFX_indtech_carriage_medium"
+		texturefile = "gfx/interface/technologies/indtech_carriage.png"
+	}
+	spriteType = {
+		name = "GFX_indtech_basic_train_medium"
+		texturefile = "gfx/interface/technologies/indtech_basic_train.png"
+	}
 	
 	#Smalltech
-	SpriteType = {
+	spriteType = {
 		name = "GFX_inftech_percussioncap_medium"
 		texturefile = "gfx/interface/technologies/inftech_percussioncap.png"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_inftech_integratedcartridges_medium"
 		texturefile = "gfx/interface/technologies/inftech_integratedcartridges.png"
 	}

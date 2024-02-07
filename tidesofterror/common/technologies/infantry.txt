@@ -310,7 +310,7 @@ technologies = {
 		start_year = 1868
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = 0 }
+			position = { x = 7 y = 0 }
 		}
 		
 		categories = {
@@ -340,7 +340,7 @@ technologies = {
 		start_year = 1868
 		folder = {
 			name = infantry_folder
-			position = { x = 11 y = 2 }
+			position = { x = 10 y = 2 }
 		}
 		
 		categories = {
@@ -366,7 +366,7 @@ technologies = {
 		start_year = 1870
 		folder = {
 			name = infantry_folder
-			position = { x = 11 y = 11 }
+			position = { x = 10 y = 11 }
 		}
 		
 		categories = {
@@ -453,7 +453,7 @@ technologies = {
 		start_year = 1870
 		folder = {
 			name = infantry_folder
-			position = { x = 8 y = 9 }
+			position = { x = 7 y = 9 }
 		}
 		
 		categories = {
