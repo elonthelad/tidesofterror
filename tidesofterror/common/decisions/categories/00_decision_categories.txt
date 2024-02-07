@@ -10,8 +10,8 @@ political_actions = {
 	}
 }
 
-prospect_for_resources = {
-	icon = generic_prospect_for_resources
+commodity_management = {
+	icon = GFX_decision_category_resources
 	
 }
 

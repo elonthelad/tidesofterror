@@ -25,9 +25,10 @@
  customtooltip_engvivisection: "An §Yevent for the vivisection§! will take place and we may see if these creatures hold any secrets inside."
  
  customtooltip_truncheon_tech1: "§YTruncheon§!: \n £production_cost  Production Cost: §G-20%§! \n"
- customtooltip_shaftmining: "Enables §Ybasic§! prospecting decisions."
- customtooltip_dynamite: "Enables §Yimproved§! prospecting decisions."
- customtooltip_steamdonkey: "Enables §Yadvanced§! prospecting decisions."
+ customtooltip_shaftmining: "Enables §YSteel§! development decisions."
+ customtooltip_mechanicaltools: "Enables §YTimber§! development decisions."
+ customtooltip_dynamite: "Enables §YSilicate§! development decisions.\nEnables §YCoal§! development decisions."
+ customtooltip_steamdonkey: "Enables §YAluminium§! development decisions."
  
  customtooltip_gainsanity_slightly: "Sanity increases §Gslightly§!."
  customtooltip_losesanity_slightly: "Sanity decreases §Rslightly§!."

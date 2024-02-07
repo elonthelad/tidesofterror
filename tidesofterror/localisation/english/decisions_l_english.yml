@@ -1,17 +1,7 @@
 ﻿l_english:
- DECISIONVIEW_TITLE: "Events and Decisions"
- DECISIONSVIEW_EVENT_HEADER: "Notification Settings:"
- POPUP_NEWS: "Newsletters"
- POPUP_EVENTS: "Event Popup"
- CATEGORY_COLLAPSE_DESC: "§GClick§! to collapse."
- CATEGORY_EXPAND_DESC: "§GClick§! to expand."
  DECISION_KEEP_NOTIFIED: "§HNotify§!\n\n§GClick§! to §Rnot be notified§! when it is next possible to enact this Decision.\n"
  DECISION_NOT_KEEP_NOTIFIED: "§HNotify§!\n\n§GClick§! to §Gbe notified§! when it is next possible to enact this Decision.\n"
  TAKE_DECISION_HEADER: "§HTake decision§!\n\n"
- NEWS_POPUP_CHECKBOX_TOOLTIP: "§GClick§! to toggle News notifications."
- EVENT_POPUP_CHECKBOX_TOOLTIP: "§GClick§! to toggle Event notifications."
- MINOR_EVENT_POPUP_CHECKBOX_TOOLTIP: "§GClick§! to toggle minor event notifications, such as Ace Pilot events."
- POPUP_MINOR_EVENTS: "Minor Popup"
  DECISION_COST_DESC: "It would cost £pol_power $VAL|H0$ to enact this Decision."
  DECISION_COST_NOT_ENOUGH: "It would cost £pol_power $VAL|HR0$ to enact this Decision."
  ON_MAP_DECISION_NAME_DEFAULT: "Find decisions on the map."
@@ -21,6 +11,24 @@
  REMOVE_DAYS_TO_MISSION: "Remove $DAYS|H$ days from Mission $MISSION|H$"
  CLICK_TO_TOGGLE_ALL_CATEGORY_DECISION_TRACKING: "§GClick§! to toggle notification status for all decisions under this category."
  
+ 
+ #MODDED
+ 
+ 
+ CATEGORY_COLLAPSE_DESC: "§GClick to collapse category.§!"
+ CATEGORY_EXPAND_DESC: "§GClick to expand category.§!"
+ DECISIONVIEW_TITLE: "Events and Decisions"
+ 
+ DECISIONSVIEW_EVENT_HEADER: "Notification Settings:"
+ POPUP_MINOR_EVENTS: "Minor Events"
+ MINOR_EVENT_POPUP_CHECKBOX_TOOLTIP: "§GClick to toggle minor event popups.§!"
+ POPUP_EVENTS: "Events"
+ EVENT_POPUP_CHECKBOX_TOOLTIP: "§GClick to toggle Event popups.§! "
+ POPUP_NEWS: "Papers"
+ NEWS_POPUP_CHECKBOX_TOOLTIP: "§GClick to toggle News popups.§! "
+ 
+ NAME_THEME_STATES: "States"
+ 
  decision_cost_civ_factory_5: "£civ_factory  §Y5§!"
  decision_cost_civ_factory_5_blocked: "£civ_factory  §R5§!"
  decision_cost_civ_factory_5_tooltip: "It costs £civ_factory  §Y5§! while this decision is active"
@@ -29,9 +37,10 @@
  decision_cost_1000_police_blocked: "£infantry_equipment_text_icon  §R1000§!"
  decision_cost_1000_police_tooltip: "It would cost £infantry_equipment_text_icon  §Y1000 Police Weapons§! and §Y1000 £manpower_texticon Manpower§! to enact this Decision."
 
+#Fenian Decisions
  ENG_fenian_decisioncat: "Malcontents of Eire"
  ENG_fenian_decisioncat_desc: "The Fenian Council were of three irish upper-classmen; and this notion of Irish Independency began two years prior to its creation. Since then the council were gaining traction and causing instability throughout England and Scotland, public approval suddenly turned when they detonated a bomb at Clerkenwell Prison in London, to attempt to free one of the Manchester Martyrs kept there.\n\nThis Irish 'Gunpowder Plot' practically blew up in their faces when the police immediately put down the perpertrators, letting no prisoners escape. This idea of an irish republic began with a most unruly riot in Kerry, Southern Ireland. It should've ended after the failure of a bombing, yet resentment in the southern region remains.\n\nWe shan't position troops within these areas, as any military presence would absolutely begin the chaos. Although, we can use this fact to the advantage of surprise.."
- areas_with_sentiment: "Areas Displaying Irish Sentiment:\n[GetIrishStatesList]"
+ areas_with_sentiment: "Areas Displaying Irish Sentiment:\nStates: Kerry, Cork, Limerick, Galway, Mayo, Waterford, South Tipperary, Tipperary"
  
  #[GetIrishStatesList]
  #States: Kerry, Cork, Limerick, Galway, Mayo, Waterford, South Tipperary, Tipperary
@@ -53,10 +62,18 @@
  ENG_second_fenian_plot: "Second Fenian Plot"
  ENG_second_fenian_plot_desc: "A new plot is, without a doubt, on its way. The effects could be demonstrably worse than the last, and word has spread that the irish plan to take arms on a regional scale this time. We need to do whatever we can to ensure this will not happen!"
  
- ### RESOURCE DECISIONS
- develop_steel_deposits: "Develop Steel Deposits"
- develop_coal_deposits: "Develop Coal Deposits"
- develop_silicates_deposits: "Develop Silicate Deposits"
- develop_timber_deposits: "Develop Timber Deposits"
- develop_aluminum_deposits: "Develop Aluminum Deposits"
- develop_manganese_deposits: "Develop Manganese Deposits"
+ #Resource Decisions
+ commodity_management: "Commodity Management"
+ buyout_private_labour_enterprises: "Buyout Private Labour Enterprises"
+ slacken_production_deadlines: "Slacken Production Deadlines"
+ develop_steel_deposits: "Develop Steel Mines"
+ develop_coal_deposits: "Develop Coal Mines"
+ develop_silicates_deposits: "Fund Quarries"
+ develop_timber_deposits: "Fund Logging Companies"
+ develop_aluminium_deposits: "Develop Aluminum Mines"
+ 
+ develop_steel_deposits_tt: "Adds up to §Y6 Steel§! across §Y3§! random states we control that already has steel present."
+ develop_coal_deposits_tt: "Adds up to §Y6 Coal§! across §Y3§! random states we control that already has coal present."
+ develop_silicates_deposits_tt: "Adds up to §Y6 Silicates§! across §Y3§! random states we control that already has silicates present."
+ develop_timber_deposits_tt: "Adds up to §Y6 Timber§! across §Y3§! random states we control that already has timber present."
+ develop_aluminium_deposits_tt: "Adds up to §Y6 Aluminium§! across §Y3§! random states we control that already has aluminium present."

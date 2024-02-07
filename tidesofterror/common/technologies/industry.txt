@@ -2,8 +2,6 @@ technologies = {
 	
 	indtech_shaft_mining = {
 
-		
-		local_resources_factor = 0.10
 		on_research_complete = {
 			custom_effect_tooltip = customtooltip_shaftmining
 		}
@@ -31,12 +29,14 @@ technologies = {
 	
 	indtech_blasting_dynamite = {
 
+		on_research_complete = {
+			custom_effect_tooltip = customtooltip_dynamite
+		}
+
 		path = {
 			leads_to_tech = indtech_steam_donkey
 			research_cost_coeff = 1
 		}
-
-		local_resources_factor = 0.1
 		
 		research_cost = 1.75
 		start_year = 1870
@@ -60,8 +60,6 @@ technologies = {
 			leads_to_tech = indtech_colossal_engineering_theory
 			research_cost_coeff = 1
 		}
-
-		local_resources_factor = 0.10
 
 		dependencies = {
 			indtech_rotary_valve_engine = 1
@@ -112,16 +110,20 @@ technologies = {
 	}
 	
 	indtech_mechanical_tools = {
+	
+		on_research_complete = {
+			custom_effect_tooltip = customtooltip_mechanicaltools
+		}
 
 		path = {
 			leads_to_tech = indtech_mechanised_workshops
 			research_cost_coeff = 1
 		}
 
-		industry_free_repair_factor = 0.1
+		industry_repair_factor = 0.1
 		industrial_capacity_factory = 0.05
-		production_factory_max_efficiency_factor = 0.02
 		industrial_capacity_dockyard = 0.025
+		local_resources_factor = 0.1
 		
 		research_cost = 1.5
 		start_year = 1868
@@ -141,10 +143,10 @@ technologies = {
 	
 	indtech_mechanised_workshops = {
 
-		industry_free_repair_factor = 0.1
+		industry_repair_factor = 0.1
 		industrial_capacity_factory = 0.05
-		production_factory_max_efficiency_factor = 0.04
 		industrial_capacity_dockyard = 0.025
+		local_resources_factor = 0.1
 
 		path = {
 			leads_to_tech = indtech_military_hydraulics
@@ -179,10 +181,10 @@ technologies = {
 	
 	indtech_interchangeable_parts = {
 
-		industry_free_repair_factor = 0.1
-		industrial_capacity_factory = 0.1
-		production_factory_max_efficiency_factor = 0.04
+		industry_repair_factor = 0.1
+		industrial_capacity_factory = 0.05
 		industrial_capacity_dockyard = 0.025
+		local_resources_factor = 0.1
 
 		path = {
 			leads_to_tech = indtech_electrical_machines
@@ -212,10 +214,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		industrial_capacity_factory = 0.15
-		production_factory_max_efficiency_factor = 0.06
-		industrial_capacity_dockyard = 0.05
-		consumer_goods_factor = 0.075
+		industrial_capacity_factory = 0.125
+		industrial_capacity_dockyard = 0.075
+		consumer_goods_factor = -0.075
+		local_resources_factor = 0.1
 
 		dependencies = {
 			indtech_interchangeable_parts = 1
@@ -269,7 +271,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		monthly_population = 0.025
+		industry_air_damage_factor = -0.15
 		production_speed_buildings_factor = 0.025
 		global_building_slots_factor = 0.05
 		
@@ -296,7 +298,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		monthly_population = 0.025
+		industry_air_damage_factor = -0.15
 		production_speed_buildings_factor = 0.05
 		global_building_slots_factor = 0.075
 		
@@ -324,7 +326,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		monthly_population = 0.025
+		industry_air_damage_factor = -0.2
 		production_speed_buildings_factor = 0.075
 		global_building_slots_factor = 0.1
 		
@@ -347,14 +349,7 @@ technologies = {
 	indtech_water_tube_boiler = {
 
 		on_research_complete = {
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 1
-				category = industry
-			}
 		}
-		line_change_production_efficiency_factor = 0.04
-		production_factory_max_efficiency_factor = 0.04
 
 		path = {
 			leads_to_tech = indtech_rotary_valve_engine
@@ -378,9 +373,6 @@ technologies = {
 	}
 	
 	indtech_rotary_valve_engine = {
-		
-		line_change_production_efficiency_factor = 0.04
-		production_factory_max_efficiency_factor = 0.04
 
 		path = {
 			leads_to_tech = indtech_basic_train
@@ -465,9 +457,6 @@ technologies = {
 	
 	indtech_steam_turbines = {
 
-		line_change_production_efficiency_factor = 0.04
-		production_factory_max_efficiency_factor = 0.04
-
 		path = {
 			leads_to_tech = indtech_gasoline_turbines
 			research_cost_coeff = 1
@@ -495,9 +484,6 @@ technologies = {
 	}
 	
 	indtech_gasoline_turbines = {
-
-		line_change_production_efficiency_factor = 0.04
-		production_factory_max_efficiency_factor = 0.04
 
 		dependencies = {
 			indtech_gasoline_combustion_engine = 1
@@ -529,7 +515,7 @@ technologies = {
 
 		industrial_capacity_factory = 0.1
 		production_speed_buildings_factor = 0.1
-		consumer_goods_factor = 0.1
+		consumer_goods_factor = -0.1
 
 		path = {
 			leads_to_tech = indtech_compressor_ignition_engine
@@ -563,8 +549,6 @@ technologies = {
 	}
 	
 	indtech_blast_furnace = {
-
-		production_factory_max_efficiency_factor = 0.06
 
 		path = {
 			leads_to_tech = indtech_bessemer_process
@@ -687,18 +671,7 @@ technologies = {
 	
 	indtech_hadfield_steel = {
 
-		local_resources = 0.05
 		on_research_complete = {
-			custom_effect_tooltip = hadfield_steel_tt
-			every_controlled_state = {
-				limit = {
-					steel > 0
-				}
-				add_resource = {
-					type = steel
-					amount = 3
-				}
-			}
 		}
 		
 		research_cost = 2

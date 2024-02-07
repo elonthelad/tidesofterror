@@ -1,10 +1,90 @@
-prospect_for_resources = {
-    develop_steel_deposits = { 
+commodity_management = {
+    buyout_private_labour_enterprises = {
 
-		icon = steel
+		icon = GFX_decision_steel
 
 		allowed = {
+		}
 
+		available = {
+		}
+
+		visible = {
+		}
+
+		fire_only_once = no
+
+		cost = 200
+		days_remove = 180
+
+		modifier = {
+			consumer_goods_factor = -0.1
+			production_lack_of_resource_penalty_factor = -0.4
+			country_resource_coal = 30
+			country_resource_steel = 30
+			country_resource_aluminium = 20
+			country_resource_silicates = 50
+			country_resource_timber = 50
+		}
+
+		ai_will_do = {
+			base = 0.3
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+            add_stability = -0.08
+		}
+	}
+	
+	slacken_production_deadlines = {
+
+		icon = GFX_decision_steel
+
+		allowed = {
+		}
+
+		available = {
+		}
+
+		visible = {
+		}
+
+		fire_only_once = no
+
+		cost = 150
+		days_remove = 180
+
+		modifier = {
+			consumer_goods_factor = 0.1
+			local_resources_factor = -0.3
+			industrial_capacity_factory = -0.25
+			war_support_factor = 0.1
+		}
+		
+		complete_effect = {
+			add_stability = 0.1
+		}
+
+		ai_will_do = {
+			base = 0.3
+		}
+	}
+	
+	develop_steel_deposits = {
+
+		icon = GFX_decision_steel
+
+		allowed = {
 		}
 
 		available = {
@@ -23,7 +103,7 @@ prospect_for_resources = {
 
 		fire_only_once = no
 
-		cost = 25
+		cost = 50
 		days_remove = 120
 
 		modifier = {
@@ -35,10 +115,6 @@ prospect_for_resources = {
 			modifier = {  # Too low PP
 				factor = 0.5
 					has_political_power < 80
-			}
-			modifier = { #We have plenty of PP, avanti!
-				factor = 3
-				has_political_power > 200
 			}
 			modifier = { #Running out of the stuff, need more!
 				factor = 5
@@ -57,23 +133,40 @@ prospect_for_resources = {
                     }
                     add_resource = {
                         type = steel
-                        amount = 3
+                        amount = 2
+                    }
+                }
+                random_owned_state = {
+                    limit = {
+                        steel > 0
+                    }
+                    add_resource = {
+                        type = steel
+                        amount = 2
+                    }
+                }
+                random_owned_state = {
+                    limit = {
+                        steel > 0
+                    }
+                    add_resource = {
+                        type = steel
+                        amount = 2
                     }
                 }
             }
 		}
 	}
 
-    develop_coal_deposits = { 
+    develop_coal_deposits = {
 
-		icon = steel
+		icon = GFX_decision_coal
 
 		allowed = {
-
 		}
 
 		available = {
-			has_tech = indtech_shaft_mining
+			has_tech = indtech_blasting_dynamite
 			num_of_civilian_factories_available_for_projects > 2
 			any_owned_state = {
 				coal > 0
@@ -88,7 +181,7 @@ prospect_for_resources = {
 
 		fire_only_once = no
 
-		cost = 25
+		cost = 50
 		days_remove = 120
 
 		modifier = {
@@ -100,10 +193,6 @@ prospect_for_resources = {
 			modifier = {  # Too low PP
 				factor = 0.5
 					has_political_power < 80
-			}
-			modifier = { #We have plenty of PP, avanti!
-				factor = 3
-				has_political_power > 200
 			}
 			modifier = { #Running out of the stuff, need more!
 				factor = 5
@@ -122,23 +211,40 @@ prospect_for_resources = {
                     }
                     add_resource = {
                         type = coal
-                        amount = 3
+                        amount = 2
+                    }
+                }
+                random_owned_state = {
+                    limit = {
+                        coal > 0
+                    }
+                    add_resource = {
+                        type = coal
+                        amount = 2
+                    }
+                }
+                random_owned_state = {
+                    limit = {
+                        coal > 0
+                    }
+                    add_resource = {
+                        type = coal
+                        amount = 2
                     }
                 }
             }
 		}
 	}
 
-    develop_silicates_deposits = { 
+    develop_silicates_deposits = {
 
-		icon = steel
+		icon = GFX_decision_silicates
 
 		allowed = {
-
 		}
 
 		available = {
-			has_tech = indtech_shaft_mining
+			has_tech = indtech_blasting_dynamite
 			num_of_civilian_factories_available_for_projects > 2
 			any_owned_state = {
 				silicates > 0
@@ -153,7 +259,7 @@ prospect_for_resources = {
 
 		fire_only_once = no
 
-		cost = 25
+		cost = 50
 		days_remove = 120
 
 		modifier = {
@@ -165,10 +271,6 @@ prospect_for_resources = {
 			modifier = {  # Too low PP
 				factor = 0.5
 					has_political_power < 80
-			}
-			modifier = { #We have plenty of PP, avanti!
-				factor = 3
-				has_political_power > 200
 			}
 			modifier = { #Running out of the stuff, need more!
 				factor = 5
@@ -187,26 +289,43 @@ prospect_for_resources = {
                     }
                     add_resource = {
                         type = silicates
-                        amount = 3
+                        amount = 2
+                    }
+                }
+                random_owned_state = {
+                    limit = {
+                        silicates > 0
+                    }
+                    add_resource = {
+                        type = silicates
+                        amount = 2
+                    }
+                }
+                random_owned_state = {
+                    limit = {
+                        silicates > 0
+                    }
+                    add_resource = {
+                        type = silicates
+                        amount = 2
                     }
                 }
             }
 		}
 	}
 
-    develop_timber_deposits = { 
+    develop_timber_deposits = {
 
-		icon = steel
+		icon = GFX_decision_timber
 
 		allowed = {
-
 		}
 
 		available = {
-			has_tech = indtech_shaft_mining
+			has_tech = indtech_mechanical_tools
 			num_of_civilian_factories_available_for_projects > 2
 			any_owned_state = {
-				silicates > 0
+				timber > 0
             }
 		}
 
@@ -218,7 +337,7 @@ prospect_for_resources = {
 
 		fire_only_once = no
 
-		cost = 25
+		cost = 50
 		days_remove = 120
 
 		modifier = {
@@ -230,10 +349,6 @@ prospect_for_resources = {
 			modifier = {  # Too low PP
 				factor = 0.5
 					has_political_power < 80
-			}
-			modifier = { #We have plenty of PP, avanti!
-				factor = 3
-				has_political_power > 200
 			}
 			modifier = { #Running out of the stuff, need more!
 				factor = 5
@@ -252,23 +367,40 @@ prospect_for_resources = {
                     }
                     add_resource = {
                         type = timber
-                        amount = 3
+                        amount = 2
+                    }
+                }
+				random_owned_state = {
+                    limit = {
+                        timber > 0
+                    }
+                    add_resource = {
+                        type = timber
+                        amount = 2
+                    }
+                }
+				random_owned_state = {
+                    limit = {
+                        timber > 0
+                    }
+                    add_resource = {
+                        type = timber
+                        amount = 2
                     }
                 }
             }
 		}
 	}
 
-    develop_aluminium_deposits = { 
+    develop_aluminium_deposits = {
 
-		icon = steel
+		icon = GFX_decision_aluminium
 
 		allowed = {
-
 		}
 
 		available = {
-			has_tech = indtech_shaft_mining
+			has_tech = indtech_steam_donkey
 			num_of_civilian_factories_available_for_projects > 2
 			any_owned_state = {
 				aluminium > 0
@@ -283,7 +415,7 @@ prospect_for_resources = {
 
 		fire_only_once = no
 
-		cost = 25
+		cost = 50
 		days_remove = 120
 
 		modifier = {
@@ -295,10 +427,6 @@ prospect_for_resources = {
 			modifier = {  # Too low PP
 				factor = 0.5
 					has_political_power < 80
-			}
-			modifier = { #We have plenty of PP, avanti!
-				factor = 3
-				has_political_power > 200
 			}
 			modifier = { #Running out of the stuff, need more!
 				factor = 5
@@ -317,137 +445,25 @@ prospect_for_resources = {
                     }
                     add_resource = {
                         type = aluminium
-                        amount = 3
+                        amount = 2
                     }
                 }
-            }
-		}
-	}
-
-    develop_manganese_deposits = { 
-
-		icon = steel
-
-		allowed = {
-
-		}
-
-		available = {
-			has_tech = indtech_shaft_mining
-			num_of_civilian_factories_available_for_projects > 2
-			any_owned_state = {
-				manganese > 0
-            }
-		}
-
-		visible = {
-			any_owned_state = {
-				manganese > 0
-            }
-		}
-
-		fire_only_once = no
-
-		cost = 25
-		days_remove = 120
-
-		modifier = {
-			civilian_factory_use = 3
-		}
-
-		ai_will_do = {
-			base = 0.3
-			modifier = {  # Too low PP
-				factor = 0.5
-					has_political_power < 80
-			}
-			modifier = { #We have plenty of PP, avanti!
-				factor = 3
-				has_political_power > 200
-			}
-			modifier = { #Running out of the stuff, need more!
-				factor = 5
-				has_resources_in_country = {
-					resource = manganese
-					amount < 1
-				}
-			}
-		}
-		remove_effect = {
-            custom_effect_tooltip = develop_manganese_deposits_tt
-            hidden_effect = {
                 random_owned_state = {
                     limit = {
-                        manganese > 0
+                        aluminium > 0
                     }
                     add_resource = {
-                        type = manganese
-                        amount = 3
+                        type = aluminium
+                        amount = 2
                     }
                 }
-            }
-		}
-	}
-
-    develop_manganese_deposits = { 
-
-		icon = steel
-
-		allowed = {
-
-		}
-
-		available = {
-			has_tech = indtech_shaft_mining
-			num_of_civilian_factories_available_for_projects > 2
-			any_owned_state = {
-				manganese > 0
-            }
-		}
-
-		visible = {
-			any_owned_state = {
-				manganese > 0
-            }
-		}
-
-		fire_only_once = no
-
-		cost = 25
-		days_remove = 120
-
-		modifier = {
-			civilian_factory_use = 3
-		}
-
-		ai_will_do = {
-			base = 0.3
-			modifier = {  # Too low PP
-				factor = 0.5
-					has_political_power < 80
-			}
-			modifier = { #We have plenty of PP, avanti!
-				factor = 3
-				has_political_power > 200
-			}
-			modifier = { #Running out of the stuff, need more!
-				factor = 5
-				has_resources_in_country = {
-					resource = manganese
-					amount < 1
-				}
-			}
-		}
-		remove_effect = {
-            custom_effect_tooltip = develop_manganese_deposits_tt
-            hidden_effect = {
                 random_owned_state = {
                     limit = {
-                        manganese > 0
+                        aluminium > 0
                     }
                     add_resource = {
-                        type = manganese
-                        amount = 3
+                        type = aluminium
+                        amount = 2
                     }
                 }
             }

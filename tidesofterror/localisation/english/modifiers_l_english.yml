@@ -899,12 +899,6 @@
  temporary_state_resource_tungsten: "Tungsten"
  temporary_state_resource_steel: "Steel"
  temporary_state_resource_chromium: "Chromium"
- country_resource_oil: "Oil"
- country_resource_aluminium: "Aluminum"
- country_resource_rubber: "Rubber"
- country_resource_tungsten: "Tungsten"
- country_resource_steel: "Steel"
- country_resource_chromium: "Chromium"
  state_resource_cost_coal: "Coal Requirement"
  state_resource_cost_aluminium: "Aluminum Consumption"
  state_resource_cost_rubber: "Rubber Consumption"
@@ -1575,6 +1569,12 @@
  
  
  #MODDED
+ 
+ country_resource_coal: "Available Coal"
+ country_resource_steel: "Available Steel"
+ country_resource_silicates: "Available Silicates"
+ country_resource_aluminium: "Available Aluminum"
+ country_resource_timber: "Available Timber"
  
  
  MODIFIER_POLITICAL_POWER_GAIN: "Daily Influence Gain"
