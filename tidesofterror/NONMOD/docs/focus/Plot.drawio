@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T23:03:54.548Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="YP3l6fZhbdReF-gkDpgs" version="21.7.5" type="device">
+<mxfile host="app.diagrams.net" modified="2024-02-06T20:08:10.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="vF7gD1jaoTQbq93iORwx" version="23.1.1" type="device">
   <diagram name="Page-1" id="dh63sKJWGFTGscZVSjrb">
-    <mxGraphModel dx="3565" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2742" pageHeight="13300" math="0" shadow="0">
+    <mxGraphModel dx="3348" dy="1528" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2742" pageHeight="13300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,16 +28,13 @@
         <mxCell id="qRttPEpNi9v2t03d3xiU-4" value="The Curse begins, transporting the isles into an alternate reality" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
           <mxGeometry x="2660" y="470" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="qRttPEpNi9v2t03d3xiU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qRttPEpNi9v2t03d3xiU-6" target="qRttPEpNi9v2t03d3xiU-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="qRttPEpNi9v2t03d3xiU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qRttPEpNi9v2t03d3xiU-6" target="qRttPEpNi9v2t03d3xiU-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qRttPEpNi9v2t03d3xiU-6" target="sEKZSCvjfFUYKqFIliLz-56" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2800" y="920" />
+              <mxPoint x="2780" y="920" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -45,8 +42,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2720" y="790" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="2800" y="790" />
-              <mxPoint x="2800" y="920" />
+              <mxPoint x="2780" y="790" />
+              <mxPoint x="2780" y="920" />
               <mxPoint x="3530" y="920" />
             </Array>
           </mxGeometry>
@@ -66,7 +63,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qRttPEpNi9v2t03d3xiU-8" value="The first underground temple cracks beneath the surface, destroying a town" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="4160" y="670" width="240" height="120" as="geometry" />
+          <mxGeometry x="4313" y="3880" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qRttPEpNi9v2t03d3xiU-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qRttPEpNi9v2t03d3xiU-11" target="sEKZSCvjfFUYKqFIliLz-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -81,7 +78,7 @@
           <mxGeometry x="860" y="880" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qRttPEpNi9v2t03d3xiU-13" value="GB Deploys the Royal Expeditioneers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="3960" y="870" width="240" height="120" as="geometry" />
+          <mxGeometry x="4113" y="4080" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qRttPEpNi9v2t03d3xiU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qRttPEpNi9v2t03d3xiU-14" target="qRttPEpNi9v2t03d3xiU-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -90,10 +87,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qRttPEpNi9v2t03d3xiU-14" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="4240" y="890" width="80" height="80" as="geometry" />
+          <mxGeometry x="4393" y="4100" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qRttPEpNi9v2t03d3xiU-17" value="GB Makes efforts to repair the area, but not explore the underground networks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="4360" y="870" width="240" height="120" as="geometry" />
+        <mxCell id="qRttPEpNi9v2t03d3xiU-17" value="GB Makes efforts to repair the area, but not explore the underground networks, condemning it for all" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="4513" y="4080" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="sEKZSCvjfFUYKqFIliLz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sEKZSCvjfFUYKqFIliLz-1" target="sEKZSCvjfFUYKqFIliLz-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -113,13 +110,13 @@
         <mxCell id="sEKZSCvjfFUYKqFIliLz-4" value="GB Releases diplomatically, leaving IRE in the Parliamentary Ideology as a puppet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
           <mxGeometry x="620" y="1060" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="sEKZSCvjfFUYKqFIliLz-15" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" parent="1" edge="1">
+        <mxCell id="sEKZSCvjfFUYKqFIliLz-15" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;exitX=-0.017;exitY=1.75;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="8760" as="sourcePoint" />
+            <mxPoint x="240" y="13790" as="sourcePoint" />
             <mxPoint x="240" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sEKZSCvjfFUYKqFIliLz-16" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" parent="1" edge="1">
+        <mxCell id="sEKZSCvjfFUYKqFIliLz-16" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="5260" y="640" as="sourcePoint" />
             <mxPoint x="240" y="640" as="targetPoint" />
@@ -149,7 +146,7 @@
           <mxGeometry x="1480" y="1260" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="sEKZSCvjfFUYKqFIliLz-23" value="Can lead to an easier invasion on the Alien&#39;s side, in ireland" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="1750" y="1380" width="230" height="100" as="geometry" />
+          <mxGeometry x="1660" y="1410" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="sEKZSCvjfFUYKqFIliLz-24" value="" style="endArrow=none;html=1;rounded=0;exitX=0.998;exitY=0.862;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="sEKZSCvjfFUYKqFIliLz-20" target="sEKZSCvjfFUYKqFIliLz-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -158,27 +155,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sEKZSCvjfFUYKqFIliLz-25" value="1869" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Garamond;" parent="1" vertex="1">
-          <mxGeometry x="240" y="1560" width="80" height="40" as="geometry" />
+          <mxGeometry x="240" y="3980" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sEKZSCvjfFUYKqFIliLz-27" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" parent="1" edge="1">
+        <mxCell id="sEKZSCvjfFUYKqFIliLz-27" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="5130" y="1600" as="sourcePoint" />
-            <mxPoint x="240" y="1600" as="targetPoint" />
+            <mxPoint x="5130" y="4020" as="sourcePoint" />
+            <mxPoint x="240" y="4020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sEKZSCvjfFUYKqFIliLz-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sEKZSCvjfFUYKqFIliLz-28" target="sEKZSCvjfFUYKqFIliLz-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sEKZSCvjfFUYKqFIliLz-28" value="Covenant demands more land" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1870" y="2430" width="240" height="120" as="geometry" />
+          <mxGeometry x="1920" y="4110" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="sEKZSCvjfFUYKqFIliLz-29" value="1870" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Garamond;" parent="1" vertex="1">
-          <mxGeometry x="240" y="2570" width="80" height="40" as="geometry" />
+          <mxGeometry x="240" y="6200" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sEKZSCvjfFUYKqFIliLz-30" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" parent="1" edge="1">
+        <mxCell id="sEKZSCvjfFUYKqFIliLz-30" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="4780" y="2610" as="sourcePoint" />
-            <mxPoint x="240" y="2610" as="targetPoint" />
+            <mxPoint x="4740" y="6230" as="sourcePoint" />
+            <mxPoint x="240" y="6240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sEKZSCvjfFUYKqFIliLz-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sEKZSCvjfFUYKqFIliLz-32" target="sEKZSCvjfFUYKqFIliLz-34" edge="1">
@@ -188,40 +185,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sEKZSCvjfFUYKqFIliLz-32" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1950" y="2650" width="80" height="80" as="geometry" />
+          <mxGeometry x="2000" y="4290" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sEKZSCvjfFUYKqFIliLz-34" target="P2O7L1teCBfzodLQNDpv-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2260" y="2800" />
-              <mxPoint x="2260" y="2800" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8Nhp3FDwyoHqAJHhYkBi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sEKZSCvjfFUYKqFIliLz-34" target="8Nhp3FDwyoHqAJHhYkBi-9" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2380" y="2840" />
-              <mxPoint x="2775" y="2840" />
+              <mxPoint x="2360" y="4410" />
+              <mxPoint x="2360" y="4410" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="sEKZSCvjfFUYKqFIliLz-34" value="Leads to a border conflict" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="2260" y="2630" width="240" height="120" as="geometry" />
+          <mxGeometry x="2240" y="4270" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="sEKZSCvjfFUYKqFIliLz-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sEKZSCvjfFUYKqFIliLz-36" target="sEKZSCvjfFUYKqFIliLz-28" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2040" y="2820" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="sEKZSCvjfFUYKqFIliLz-36" value="Covenant establishes itself in the north" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1870" y="2230" width="240" height="120" as="geometry" />
+        <mxCell id="sEKZSCvjfFUYKqFIliLz-36" value="Covenant establishes itself in one of three coastal cities" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="1920" y="2440" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="sEKZSCvjfFUYKqFIliLz-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sEKZSCvjfFUYKqFIliLz-38" target="sEKZSCvjfFUYKqFIliLz-48" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="750" y="1460" as="targetPoint" />
+            <mxPoint x="750" y="2670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sEKZSCvjfFUYKqFIliLz-38" value="IRE suffers internal political division" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="1540" width="240" height="120" as="geometry" />
+        <mxCell id="sEKZSCvjfFUYKqFIliLz-38" value="People-ruled IRE suffers internal political division" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="1595" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="sEKZSCvjfFUYKqFIliLz-46" value="If IRE takes buffs during the war, it will bolster the authoritarian faction later if they succeed" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="1270" y="1420" width="270" height="120" as="geometry" />
@@ -235,25 +226,25 @@
         <mxCell id="sEKZSCvjfFUYKqFIliLz-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sEKZSCvjfFUYKqFIliLz-48" target="sEKZSCvjfFUYKqFIliLz-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sEKZSCvjfFUYKqFIliLz-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sEKZSCvjfFUYKqFIliLz-48" target="sEKZSCvjfFUYKqFIliLz-53" edge="1">
+        <mxCell id="88gbNTyHVZIzAFfqHntG-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sEKZSCvjfFUYKqFIliLz-48" target="sEKZSCvjfFUYKqFIliLz-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sEKZSCvjfFUYKqFIliLz-48" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="1750" width="80" height="80" as="geometry" />
+          <mxGeometry x="1100" y="1805" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sEKZSCvjfFUYKqFIliLz-49" value="If the situation is handled poorly, civil war breaks out between the Authoritarians and the Chartists" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1290" y="1730" width="240" height="120" as="geometry" />
+          <mxGeometry x="790" y="1785" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sEKZSCvjfFUYKqFIliLz-53" target="aQKrxDEKhkCdj-Tvo7_M-7">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sEKZSCvjfFUYKqFIliLz-53" target="aQKrxDEKhkCdj-Tvo7_M-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sEKZSCvjfFUYKqFIliLz-53" value="If the strife doesn&#39;t get violent, the government reunifies as Chartists for good" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="770" y="1730" width="240" height="120" as="geometry" />
+          <mxGeometry x="1391" y="1785" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3270" y="1120" as="sourcePoint" />
-            <mxPoint x="3270" y="1210" as="targetPoint" />
+            <mxPoint x="3260" y="1580" as="sourcePoint" />
+            <mxPoint x="3260" y="1670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sEKZSCvjfFUYKqFIliLz-56" target="P2O7L1teCBfzodLQNDpv-57" edge="1">
@@ -267,121 +258,94 @@
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sEKZSCvjfFUYKqFIliLz-56" target="8Nhp3FDwyoHqAJHhYkBi-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sEKZSCvjfFUYKqFIliLz-56" value="Henry P. (Arcane Leader) subversively finds proof and gains the first following in his cult" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1910" y="860" width="240" height="120" as="geometry" />
+        <mxCell id="sEKZSCvjfFUYKqFIliLz-56" value="Henry P. (Arcane Leader) subversively finds proof of the arcane and gains the first following in his cult" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="1920" y="860" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-4" target="P2O7L1teCBfzodLQNDpv-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-4" value="GB Gives into demands" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1550" y="2630" width="240" height="120" as="geometry" />
+          <mxGeometry x="1640" y="4270" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="P2O7L1teCBfzodLQNDpv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-6" target="P2O7L1teCBfzodLQNDpv-16" edge="1">
+        <mxCell id="88gbNTyHVZIzAFfqHntG-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-6" target="P2O7L1teCBfzodLQNDpv-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1550" y="3160" />
+              <mxPoint x="1760" y="4900" />
+              <mxPoint x="1840" y="4900" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-6" value="Covenant gains land, getting stronger later, and GB suffers stability loss" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1430" y="2950" width="240" height="120" as="geometry" />
+          <mxGeometry x="1640" y="4590" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-7" target="P2O7L1teCBfzodLQNDpv-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P2O7L1teCBfzodLQNDpv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-7" target="P2O7L1teCBfzodLQNDpv-9" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2350" y="2960" />
-              <mxPoint x="2350" y="2960" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="P2O7L1teCBfzodLQNDpv-7" target="P2O7L1teCBfzodLQNDpv-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-7" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="2220" y="2920" width="80" height="80" as="geometry" />
+          <mxGeometry x="2320" y="4555" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8Nhp3FDwyoHqAJHhYkBi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-9" target="8Nhp3FDwyoHqAJHhYkBi-20" edge="1">
+        <mxCell id="88gbNTyHVZIzAFfqHntG-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-9" target="88gbNTyHVZIzAFfqHntG-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="P2O7L1teCBfzodLQNDpv-9" target="88gbNTyHVZIzAFfqHntG-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2490" y="3100" />
-              <mxPoint x="2775" y="3100" />
+              <mxPoint x="2620" y="4830" />
+              <mxPoint x="3100" y="4830" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="P2O7L1teCBfzodLQNDpv-9" value="GB Wins the fight, giving them a wargoal to wipe out the covenant" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="2370" y="2900" width="240" height="120" as="geometry" />
+        <mxCell id="P2O7L1teCBfzodLQNDpv-9" value="GB Wins the conflict, giving them a wargoal to wipe out the covenant" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="2500" y="4535" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="P2O7L1teCBfzodLQNDpv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-10" target="P2O7L1teCBfzodLQNDpv-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="88gbNTyHVZIzAFfqHntG-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-10" target="P2O7L1teCBfzodLQNDpv-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2060" y="4900" />
+              <mxPoint x="1840" y="4900" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="P2O7L1teCBfzodLQNDpv-10" value="GB Loses the fight, covenant forcefully take their land" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1910" y="2900" width="240" height="120" as="geometry" />
+        <mxCell id="P2O7L1teCBfzodLQNDpv-10" value="GB Loses the conflict, covenant forcefully take the demanded land" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="1940" y="4535" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="P2O7L1teCBfzodLQNDpv-16" value="Covenant gains many more members, accelerating the Night of the Tides" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1750" y="3100" width="240" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="P2O7L1teCBfzodLQNDpv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-19" target="P2O7L1teCBfzodLQNDpv-20" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="P2O7L1teCBfzodLQNDpv-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-19" target="P2O7L1teCBfzodLQNDpv-29" edge="1">
+        <mxCell id="88gbNTyHVZIzAFfqHntG-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-19" target="88gbNTyHVZIzAFfqHntG-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-19" value="Covenant successfully infiltrates the palace, breaching the Reliquary Chamber, starting the Night of the Tides" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1560" y="3290" width="240" height="120" as="geometry" />
+          <mxGeometry x="1720" y="6310" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="P2O7L1teCBfzodLQNDpv-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-20" target="P2O7L1teCBfzodLQNDpv-26" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8Nhp3FDwyoHqAJHhYkBi-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-20" target="P2O7L1teCBfzodLQNDpv-35" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="K99i4i_5tVR40hHeye9a-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-20" target="K99i4i_5tVR40hHeye9a-11" edge="1">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-22" target="8Nhp3FDwyoHqAJHhYkBi-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1670" y="3680" />
-              <mxPoint x="580" y="3680" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="P2O7L1teCBfzodLQNDpv-20" value="First eldritch wave arrive at Ireland, Southwest ENG, Isle of Wight, Dover, and North Scotland" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1560" y="3490" width="240" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P2O7L1teCBfzodLQNDpv-22" target="8Nhp3FDwyoHqAJHhYkBi-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="3440" y="1840" />
-              <mxPoint x="3070" y="1840" />
+              <mxPoint x="4030" y="2920" />
+              <mxPoint x="3430" y="2920" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-22" value="Skeleton of a leviathan washes up on the shore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="3320" y="1660" width="240" height="120" as="geometry" />
+          <mxGeometry x="3910" y="2210" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-24" value="1871" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Garamond;" parent="1" vertex="1">
-          <mxGeometry x="240" y="3720" width="80" height="40" as="geometry" />
+          <mxGeometry x="240" y="8365" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P2O7L1teCBfzodLQNDpv-25" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" parent="1" edge="1">
+        <mxCell id="P2O7L1teCBfzodLQNDpv-25" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="4680" y="3760" as="sourcePoint" />
-            <mxPoint x="240" y="3760" as="targetPoint" />
+            <mxPoint x="4680" y="8405" as="sourcePoint" />
+            <mxPoint x="240" y="8405" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P2O7L1teCBfzodLQNDpv-26" value="If IRE is independent and in Authoritarian control, they will fight alone, if under control of the People, they will ask to join GB alongside the war&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="3475" width="280" height="150" as="geometry" />
+        <mxCell id="P2O7L1teCBfzodLQNDpv-26" value="If IRE is independent and in Authoritarian control, they will fight alone, if under control of the People, they will ask to join GB alongside the war&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Garamond;fontSize=21;gradientColor=#00FF00;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="6640" width="280" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="P2O7L1teCBfzodLQNDpv-29" value="The sun sets for the last time" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1880" y="3490" width="240" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="8Nhp3FDwyoHqAJHhYkBi-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-32" target="P2O7L1teCBfzodLQNDpv-38" edge="1">
+        <mxCell id="88gbNTyHVZIzAFfqHntG-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-32" target="88gbNTyHVZIzAFfqHntG-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P2O7L1teCBfzodLQNDpv-32">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2400" y="5242.857142857142" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="P2O7L1teCBfzodLQNDpv-32" value="GB Fails to defend London, releasing the London Defence Council, and in its charge the revered general Cpt. Leopold" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1800" y="3780" width="240" height="120" as="geometry" />
+        <mxCell id="P2O7L1teCBfzodLQNDpv-32" value="GB Fails to defend London, releasing the London Defence Council to hold the surrounding area, and in its charge the revered general Cpt. Leopold" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="1434" y="8218" width="290" height="120" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-33" target="P2O7L1teCBfzodLQNDpv-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -390,7 +354,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-33" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1880" y="4160" width="80" height="80" as="geometry" />
+          <mxGeometry x="1539" y="8986" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-35" target="P2O7L1teCBfzodLQNDpv-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -399,22 +363,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-35" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1640" y="3800" width="80" height="80" as="geometry" />
+          <mxGeometry x="1802" y="8239" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-36" value="The MP Stands down, allowing the CIC (Prince George) to take control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="2060" y="4140" width="240" height="120" as="geometry" />
+          <mxGeometry x="1719" y="8966" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-38" target="P2O7L1teCBfzodLQNDpv-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-38" value="Martial law is instated in the London Hazard Zone and the rest of the GB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1800" y="3960" width="240" height="120" as="geometry" />
+          <mxGeometry x="1459" y="8786" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-40" target="P2O7L1teCBfzodLQNDpv-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-40" value="The Great Hunger begins" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="3410" y="950" width="240" height="120" as="geometry" />
+          <mxGeometry x="3400" y="1410" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-41" target="P2O7L1teCBfzodLQNDpv-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -423,41 +387,36 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-41" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="3490" y="1130" width="80" height="80" as="geometry" />
+          <mxGeometry x="3480" y="1590" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-42" value="Re-election is called, making William Gladstone and the Liberal Party stand down, and Benjamin Disraeli and the Conservatives take control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="3650" y="1095" width="240" height="150" as="geometry" />
+          <mxGeometry x="3640" y="1555" width="240" height="150" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-46" value="William Gladstone and his party resist and double down on suppression" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="3180" y="1110" width="240" height="120" as="geometry" />
+          <mxGeometry x="3170" y="1570" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-48" target="P2O7L1teCBfzodLQNDpv-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-48" value="The Visitants arrive, causing public distress and panic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="2455" y="1460" width="240" height="120" as="geometry" />
+          <mxGeometry x="2845" y="2560" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="8Nhp3FDwyoHqAJHhYkBi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-49" target="8Nhp3FDwyoHqAJHhYkBi-4" edge="1">
+        <mxCell id="88gbNTyHVZIzAFfqHntG-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-49" target="8Nhp3FDwyoHqAJHhYkBi-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2575" y="1840" />
-              <mxPoint x="2955" y="1840" />
+              <mxPoint x="2965" y="2920" />
+              <mxPoint x="3430" y="2920" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-49" value="The Gibson Capture Trials occur, and are unsuccessful but insightful, and lead to the creation of the Department Supernatural (Spy Agency)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="2450" y="1660" width="250" height="150" as="geometry" />
+          <mxGeometry x="2840" y="2730" width="250" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="8Nhp3FDwyoHqAJHhYkBi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-51" target="8Nhp3FDwyoHqAJHhYkBi-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2935" y="1890" />
-              <mxPoint x="2935" y="1890" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-51" target="8Nhp3FDwyoHqAJHhYkBi-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-51" value="Mutual Nightmares spread all across the country, leading to the barbiturate industry profiting majorly" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="2920" y="1660" width="240" height="120" as="geometry" />
+          <mxGeometry x="3310" y="2720" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-52" target="P2O7L1teCBfzodLQNDpv-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -484,99 +443,103 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-60" value="Following the uprising that took place in IRE (Successful or not) Proponents of the Stuart bloodline find a lasting legitimate member of the line, Henry Villiers-Stuart at 42 yrs old." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="400" y="1690" width="320" height="160" as="geometry" />
+          <mxGeometry x="420" y="1745" width="320" height="160" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="P2O7L1teCBfzodLQNDpv-61" target="P2O7L1teCBfzodLQNDpv-65" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="970" y="2190" as="targetPoint" />
+            <mxPoint x="970" y="3400" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="680" y="2080" />
-              <mxPoint x="950" y="2080" />
+              <mxPoint x="680" y="2130" />
+              <mxPoint x="970" y="2130" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-61" value="Leads to a internal debate at Edinburgh to the legitimacy of his claim, and it gains traction." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="560" y="1910" width="240" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="P2O7L1teCBfzodLQNDpv-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="P2O7L1teCBfzodLQNDpv-66" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="990" y="2215" as="sourcePoint" />
-          </mxGeometry>
+          <mxGeometry x="580" y="1965" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-65" target="P2O7L1teCBfzodLQNDpv-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P2O7L1teCBfzodLQNDpv-65" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="910" y="2175" width="80" height="80" as="geometry" />
+        <mxCell id="88gbNTyHVZIzAFfqHntG-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-65" target="P2O7L1teCBfzodLQNDpv-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K99i4i_5tVR40hHeye9a-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-66" target="K99i4i_5tVR40hHeye9a-11" edge="1">
+        <mxCell id="P2O7L1teCBfzodLQNDpv-65" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="930" y="2230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K99i4i_5tVR40hHeye9a-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="P2O7L1teCBfzodLQNDpv-66" target="K99i4i_5tVR40hHeye9a-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1190" y="2800" />
-              <mxPoint x="580" y="2800" />
+              <mxPoint x="1190" y="2720" />
+              <mxPoint x="580" y="2720" />
+              <mxPoint x="580" y="6714" />
+              <mxPoint x="727" y="6714" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-66" value="GB Allows the crowning of the last Stuart King of Scotland, as long as they keep the region as a puppet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1070" y="2155" width="240" height="120" as="geometry" />
+          <mxGeometry x="1090" y="2210" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="K99i4i_5tVR40hHeye9a-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P2O7L1teCBfzodLQNDpv-68" target="K99i4i_5tVR40hHeye9a-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P2O7L1teCBfzodLQNDpv-68" value="GB Doesn&#39;t recognise the claim, but locally Scotland continues support, so in retailiation they refuse manpower/industry from main scottish states" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="550" y="2150" width="280" height="130" as="geometry" />
+          <mxGeometry x="570" y="2205" width="280" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="K99i4i_5tVR40hHeye9a-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8Nhp3FDwyoHqAJHhYkBi-1" target="K99i4i_5tVR40hHeye9a-11" edge="1">
+        <mxCell id="K99i4i_5tVR40hHeye9a-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8Nhp3FDwyoHqAJHhYkBi-1" target="K99i4i_5tVR40hHeye9a-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="440" y="2800" />
-              <mxPoint x="580" y="2800" />
+              <mxPoint x="440" y="2720" />
+              <mxPoint x="580" y="2720" />
+              <mxPoint x="580" y="6714" />
+              <mxPoint x="727" y="6714" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-1" value="If IRE exists and is authoritarian/in the midst of the authoritarian civil war, Henry Villiers Stuart will flee there" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="300" y="2375" width="280" height="130" as="geometry" />
+          <mxGeometry x="320" y="2430" width="280" height="130" as="geometry" />
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8Nhp3FDwyoHqAJHhYkBi-4" target="8Nhp3FDwyoHqAJHhYkBi-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-4" value="The &#39;Outer Order&#39; of hermetics are began by William Wescott, with the establishment of two temples- The Osiris Temple in Weston-super-Mare, and the Horus Temple in Bradford." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="2815" y="1880" width="280" height="160" as="geometry" />
+          <mxGeometry x="3290" y="2960" width="280" height="160" as="geometry" />
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8Nhp3FDwyoHqAJHhYkBi-7" target="8Nhp3FDwyoHqAJHhYkBi-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8Nhp3FDwyoHqAJHhYkBi-7" value="Samuel Liddell Macgregor translates the Kabbalah, allowing the public formation of the &#39;Hermetic Order of the Golden Dawn&#39;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="2815" y="2120" width="280" height="160" as="geometry" />
+        <mxCell id="88gbNTyHVZIzAFfqHntG-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8Nhp3FDwyoHqAJHhYkBi-7" target="8Nhp3FDwyoHqAJHhYkBi-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8Nhp3FDwyoHqAJHhYkBi-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8Nhp3FDwyoHqAJHhYkBi-9" target="8Nhp3FDwyoHqAJHhYkBi-20" edge="1">
+        <mxCell id="8Nhp3FDwyoHqAJHhYkBi-7" value="Samuel Liddell Macgregor translates the Kabbalah, allowing the public formation of the &#39;Hermetic Order of the Golden Dawn&#39;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="3290" y="3160" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8Nhp3FDwyoHqAJHhYkBi-9" target="88gbNTyHVZIzAFfqHntG-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2775" y="3150" />
-              <mxPoint x="2775" y="3150" />
+              <mxPoint x="3100" y="4830" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-9" value="The Golden Dawn offers their services to fight, however asking for landownership of a fortress in the north." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="2650" y="2900" width="250" height="120" as="geometry" />
+          <mxGeometry x="3305" y="4760" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-12" value="In light of the recent strange happenings, the Order gains many members and skyrockets in popularity." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="2815" y="2360" width="280" height="160" as="geometry" />
+          <mxGeometry x="3290" y="3370" width="280" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="8Nhp3FDwyoHqAJHhYkBi-15" value="The Golden Dawn is released independently under the stipulation that they remain under the British Sphere and promise to keep the cultists in check." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="2635" y="3440" width="280" height="160" as="geometry" />
+        <mxCell id="8Nhp3FDwyoHqAJHhYkBi-15" value="The Golden Dawn is released independently under the stipulation that they remain under the British Sphere and promise to keep any cultists in check." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="3230" y="5930" width="280" height="160" as="geometry" />
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8Nhp3FDwyoHqAJHhYkBi-18" target="8Nhp3FDwyoHqAJHhYkBi-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-18" value="In the peace deal, Golden Dawn is given land that the cultists held, entrusting them to GB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="2885" y="3200" width="250" height="120" as="geometry" />
+          <mxGeometry x="3510" y="5640" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8Nhp3FDwyoHqAJHhYkBi-19" target="8Nhp3FDwyoHqAJHhYkBi-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-19" value="Golden Dawn is granted no land after the peace deal, later they will ask for land in Weston-super-Mare, near the Osiris Temple" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="2425" y="3200" width="240" height="120" as="geometry" />
+          <mxGeometry x="2990" y="5640" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8Nhp3FDwyoHqAJHhYkBi-20" target="8Nhp3FDwyoHqAJHhYkBi-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -585,22 +548,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-20" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="2735" y="3220" width="80" height="80" as="geometry" />
+          <mxGeometry x="3320" y="5660" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8Nhp3FDwyoHqAJHhYkBi-24" target="sEKZSCvjfFUYKqFIliLz-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-24" value="Word of a secret cult begins to spread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1910" y="1630" width="240" height="120" as="geometry" />
+          <mxGeometry x="1920" y="1720" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-36" value="The MP Refuses to step down, leading to a military plot to overtake the current GB government" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1540" y="4140" width="240" height="120" as="geometry" />
+          <mxGeometry x="1199" y="8966" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8Nhp3FDwyoHqAJHhYkBi-38" target="88gbNTyHVZIzAFfqHntG-101" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Nhp3FDwyoHqAJHhYkBi-38" value="GB Holds London" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="3780" width="240" height="120" as="geometry" />
+          <mxGeometry x="2412" y="8220" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="K99i4i_5tVR40hHeye9a-1" value="If Henry Stuart dies on the battlefield, his young and inexperienced successor&amp;nbsp;Edward James Montagu-Stuart will take his place, and his fathers studies will go discontinued" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="320" y="4045" width="320" height="160" as="geometry" />
+          <mxGeometry x="467" y="7106" width="320" height="160" as="geometry" />
         </mxCell>
         <mxCell id="K99i4i_5tVR40hHeye9a-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="K99i4i_5tVR40hHeye9a-4" target="8Nhp3FDwyoHqAJHhYkBi-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -609,10 +575,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K99i4i_5tVR40hHeye9a-4" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="650" y="2400" width="80" height="80" as="geometry" />
+          <mxGeometry x="670" y="2455" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K99i4i_5tVR40hHeye9a-7" value="If Henry Stuart can find no landed titles, he will retreat into the dark studies and eventually join the covenant." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="810" y="2375" width="280" height="130" as="geometry" />
+          <mxGeometry x="830" y="2430" width="280" height="130" as="geometry" />
         </mxCell>
         <mxCell id="K99i4i_5tVR40hHeye9a-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="K99i4i_5tVR40hHeye9a-10" target="K99i4i_5tVR40hHeye9a-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -621,154 +587,351 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K99i4i_5tVR40hHeye9a-10" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="680" y="4085" width="80" height="80" as="geometry" />
+          <mxGeometry x="827" y="7146" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K99i4i_5tVR40hHeye9a-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="K99i4i_5tVR40hHeye9a-11" target="K99i4i_5tVR40hHeye9a-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K99i4i_5tVR40hHeye9a-11" value="Henry Stuart will take it upon himself to join the battlefield as a general" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="460" y="3780" width="240" height="120" as="geometry" />
+          <mxGeometry x="607" y="6841" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="K99i4i_5tVR40hHeye9a-12" value="If Henry Stuart survives the first wave in IRE/SCO he will resign as a general and will retreat into his arcane studies" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="800" y="4045" width="320" height="160" as="geometry" />
+          <mxGeometry x="947" y="7106" width="320" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-1" value="1872" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Garamond;" vertex="1" parent="1">
-          <mxGeometry x="240" y="4600" width="80" height="40" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-1" value="1872" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Garamond;" parent="1" vertex="1">
+          <mxGeometry x="240" y="10090" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-2" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" edge="1" parent="1">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-2" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="4680" y="4640" as="sourcePoint" />
-            <mxPoint x="240" y="4640" as="targetPoint" />
+            <mxPoint x="4680" y="10130" as="sourcePoint" />
+            <mxPoint x="240" y="10130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-3" value="1873" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Garamond;" vertex="1" parent="1">
-          <mxGeometry x="240" y="5410" width="80" height="40" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-3" value="1873" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Garamond;" parent="1" vertex="1">
+          <mxGeometry x="247" y="12113" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-4" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" edge="1" parent="1">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-4" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="4680" y="5450" as="sourcePoint" />
-            <mxPoint x="240" y="5450" as="targetPoint" />
+            <mxPoint x="4687" y="12153" as="sourcePoint" />
+            <mxPoint x="247" y="12153" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-5" value="1874" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Garamond;" vertex="1" parent="1">
-          <mxGeometry x="240" y="6200" width="80" height="40" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-5" value="1874" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Garamond;" parent="1" vertex="1">
+          <mxGeometry x="241" y="13803" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-6" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" edge="1" parent="1">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-6" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="4680" y="6240" as="sourcePoint" />
-            <mxPoint x="240" y="6240" as="targetPoint" />
+            <mxPoint x="4681" y="13843" as="sourcePoint" />
+            <mxPoint x="241" y="13843" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-7" value="IRE can boost the Chartist popularity in SCO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;fontFamily=Garamond;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1920" width="240" height="120" as="geometry" />
+        <mxCell id="88gbNTyHVZIzAFfqHntG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-7" target="P2O7L1teCBfzodLQNDpv-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-9" value="1875" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Garamond;" vertex="1" parent="1">
-          <mxGeometry x="240" y="7160" width="80" height="40" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-7" value="IRE can boost the Chartist popularity in SCO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="1391" y="2035" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-10" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" edge="1" parent="1">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-9" value="1875" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Garamond;" parent="1" vertex="1">
+          <mxGeometry x="241" y="14763" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-10" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="4680" y="7200" as="sourcePoint" />
-            <mxPoint x="240" y="7200" as="targetPoint" />
+            <mxPoint x="4681" y="14803" as="sourcePoint" />
+            <mxPoint x="241" y="14803" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-11" value="1876" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Garamond;" vertex="1" parent="1">
-          <mxGeometry x="240" y="8040" width="80" height="40" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-11" value="1876" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Garamond;" parent="1" vertex="1">
+          <mxGeometry x="241" y="15643" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-12" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" edge="1" parent="1">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-12" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="4680" y="8080" as="sourcePoint" />
-            <mxPoint x="240" y="8080" as="targetPoint" />
+            <mxPoint x="4681" y="15683" as="sourcePoint" />
+            <mxPoint x="241" y="15683" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-13" target="aQKrxDEKhkCdj-Tvo7_M-14">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-13" target="aQKrxDEKhkCdj-Tvo7_M-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-13" value="If the Isle of Man and Anglesey has remained free and untouched by the invaders, these places will attract more population" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="800" y="4880" width="240" height="120" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-13" value="If the Isle of Man and Anglesey has remained free and untouched by the invaders, these places will attract more population" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="800" y="10370" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-14" target="aQKrxDEKhkCdj-Tvo7_M-39">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-14" target="aQKrxDEKhkCdj-Tvo7_M-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-14" value="Soon the two islands will realise they can live self-sufficiently from GB, and will stop paying taxes and providing for GB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="800" y="5080" width="240" height="120" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-14" value="Soon the two islands will realise they can live self-sufficiently from GB, and will stop paying taxes and providing for GB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="800" y="10570" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-16" target="aQKrxDEKhkCdj-Tvo7_M-27">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-16" target="aQKrxDEKhkCdj-Tvo7_M-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-16" value="GB Will demand they pay up and claim they have incurred additional fines" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="560" y="5280" width="240" height="120" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-16" value="GB Will demand they pay up and claim they have incurred additional fines" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="560" y="10770" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-27" target="aQKrxDEKhkCdj-Tvo7_M-29">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-27" target="aQKrxDEKhkCdj-Tvo7_M-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-27" target="aQKrxDEKhkCdj-Tvo7_M-31">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-27" target="aQKrxDEKhkCdj-Tvo7_M-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-27" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="640" y="5480" width="80" height="80" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-27" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="640" y="10970" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-29" target="aQKrxDEKhkCdj-Tvo7_M-33">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-29" target="aQKrxDEKhkCdj-Tvo7_M-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-29" value="The Cooperative of Free Islands will declare themselves independent, defending their islands with their own makeshift navy and local militia." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="800" y="5460" width="280" height="120" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-29" value="The Cooperative of Free Islands will declare themselves independent, defending their islands with their own makeshift navy and local militia." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="800" y="10950" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-31" value="The islanders pay the reparations, and many locals emigrate out from the islands. Only the rich can now afford to live in these safe havens." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="280" y="5460" width="280" height="120" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-31" value="The islanders pay the reparations, and many locals emigrate out from the islands. Only the rich can now afford to live in these safe havens." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="280" y="10950" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-33" target="aQKrxDEKhkCdj-Tvo7_M-35">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-33" target="aQKrxDEKhkCdj-Tvo7_M-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-33" target="aQKrxDEKhkCdj-Tvo7_M-37">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-33" target="aQKrxDEKhkCdj-Tvo7_M-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-33" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="900" y="5660" width="80" height="80" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-33" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="900" y="11150" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-35" value="The Cooperative succeed in their defense, gaining complete Chartist control and renaming themselves the &#39;Pirates of the Green Vale&#39;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="5640" width="280" height="120" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-35" value="The Cooperative succeed in their defense, gaining complete Chartist control and renaming themselves the &#39;Pirates of the Green Vale&#39;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="11130" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-37" target="aQKrxDEKhkCdj-Tvo7_M-44">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-37" target="aQKrxDEKhkCdj-Tvo7_M-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-37" value="The Cooperative fail and lose their land." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="580" y="5640" width="240" height="120" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-37" value="The Cooperative fail and lose their land." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="580" y="11130" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-39" target="aQKrxDEKhkCdj-Tvo7_M-16">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-39" target="aQKrxDEKhkCdj-Tvo7_M-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-39" target="aQKrxDEKhkCdj-Tvo7_M-42">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-39" target="aQKrxDEKhkCdj-Tvo7_M-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-39" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="880" y="5300" width="80" height="80" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-39" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="880" y="10790" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-42" value="GB Will allow the islands autonomy, releasing the Cooperative of Free Islands as a divided Chartist/Parliamentary puppet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="5280" width="280" height="120" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-42" value="GB Will allow the islands autonomy, releasing the Cooperative of Free Islands as a divided Chartist/Parliamentary puppet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="10770" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-44" target="aQKrxDEKhkCdj-Tvo7_M-46">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-44" target="aQKrxDEKhkCdj-Tvo7_M-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-44" target="aQKrxDEKhkCdj-Tvo7_M-48">
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aQKrxDEKhkCdj-Tvo7_M-44" target="aQKrxDEKhkCdj-Tvo7_M-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-44" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="660" y="5840" width="80" height="80" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-44" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="660" y="11330" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-46" value="GB Retakes the land for themselves, dealing with the unrest to come in the future" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="820" y="5820" width="240" height="120" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-46" value="GB Retakes the land for themselves, dealing with the unrest to come" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="820" y="11310" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-48" value="GB Declares the commune a Parliamentary ruled puppet, expelling all the Chartist dissenters" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="340" y="5820" width="240" height="120" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-48" value="GB Declares the commune a Parliamentary ruled puppet, expelling all the Chartist dissenters" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="340" y="11310" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-51" value="Eldritch reinforcements from the sea stop coming" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Garamond;fontSize=21;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="5120" width="240" height="120" as="geometry" />
+        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-51" value="Eldritch reinforcements from the sea stop coming" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Garamond;fontSize=21;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1963" y="10420" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-53" value="Gold" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="2425" y="5420" width="240" height="120" as="geometry" />
+        <mxCell id="88gbNTyHVZIzAFfqHntG-1" value="Golden Dawn is a half arcane half parliamentary faction whose interests lie in the humans success, they are sane and can be trusted by GB" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="3620" y="3270" width="290" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="aQKrxDEKhkCdj-Tvo7_M-55" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="2070" y="5430" width="80" height="80" as="geometry" />
+        <mxCell id="88gbNTyHVZIzAFfqHntG-2" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8Nhp3FDwyoHqAJHhYkBi-7" target="88gbNTyHVZIzAFfqHntG-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3095" y="4700" as="sourcePoint" />
+            <mxPoint x="3160" y="4731" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-5" target="88gbNTyHVZIzAFfqHntG-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-5" target="88gbNTyHVZIzAFfqHntG-79" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-5" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2580" y="4870" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-6" target="P2O7L1teCBfzodLQNDpv-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1840" y="4900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-6" value="GB will be forced to surrender the offensive if they havent taken land for a long time" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="2275" y="4850" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-10" target="88gbNTyHVZIzAFfqHntG-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-10" target="88gbNTyHVZIzAFfqHntG-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-10" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="3060" y="5190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-11" target="88gbNTyHVZIzAFfqHntG-79" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2820" y="5428" />
+              <mxPoint x="2706" y="5428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-11" value="Both GB and Golden Dawn are unsuccessful and havent taken land for a long time, they will be forced to surrender the offensive" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="2700" y="5170" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="88gbNTyHVZIzAFfqHntG-14" target="8Nhp3FDwyoHqAJHhYkBi-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-14" target="88gbNTyHVZIzAFfqHntG-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3360" y="5500" />
+              <mxPoint x="2370" y="5500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-14" value="GB and Golden Dawn in co-operation are successful in taking back all of the Covenants land" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="3240" y="5170" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-29" value="&lt;div&gt;Visitants are phantoms that look like people, except they only appear in the corner of your eye for brief moments at a time. They also happen to be everywhere.&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="3140" y="2560" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-30" value="" style="endArrow=none;html=1;rounded=0;exitX=0.992;exitY=0.563;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="P2O7L1teCBfzodLQNDpv-48" target="88gbNTyHVZIzAFfqHntG-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3130" y="1471" as="sourcePoint" />
+            <mxPoint x="3222" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-36" target="K99i4i_5tVR40hHeye9a-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-36" value="After 1st Wave Invades" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Garamond;fontSize=21;gradientColor=#E1D5E7;" parent="1" vertex="1">
+          <mxGeometry x="662" y="6544" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-39" target="P2O7L1teCBfzodLQNDpv-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="88gbNTyHVZIzAFfqHntG-39" target="88gbNTyHVZIzAFfqHntG-84" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-39" target="88gbNTyHVZIzAFfqHntG-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-39" value="After 1st Wave Invades" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Garamond;fontSize=21;gradientColor=#E1D5E7;" parent="1" vertex="1">
+          <mxGeometry x="1770" y="6690" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-40" value="&lt;div&gt;1st Wave Invades at Ireland, Southwest ENG, Isle of Wight, south of Ireland, and North Scotland.&lt;/div&gt;&lt;div&gt;The sun sets for the last time.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Garamond;fontSize=21;gradientColor=#E1D5E7;" parent="1" vertex="1">
+          <mxGeometry x="1685" y="6500" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-47" target="88gbNTyHVZIzAFfqHntG-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2356" y="8744" />
+              <mxPoint x="2254" y="8744" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-47" value="1st Wave starts construction of the great spire, a tower reaching far into the sky. It is built in whatever state they own that has the most units/have held the longest" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Garamond;fontSize=21;gradientColor=#E1D5E7;" parent="1" vertex="1">
+          <mxGeometry x="2226" y="8551" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-48" target="P2O7L1teCBfzodLQNDpv-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-48" target="88gbNTyHVZIzAFfqHntG-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1579" y="8746" />
+              <mxPoint x="2254" y="8746" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-48" value="1st Wave starts construction of the great spire, a tower reaching far into the sky. It is built deep within London" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Garamond;fontSize=21;gradientColor=#E1D5E7;" parent="1" vertex="1">
+          <mxGeometry x="1459" y="8576" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-51" target="88gbNTyHVZIzAFfqHntG-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-51" value="Henry P. successfully infiltrates the palace, breaching the Reliquary Chamber, starting the Night of the Tides" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="2250" y="6510" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-68" value="The 1st Wave consists of aquatic-horrors, such as fishmen, deep-ones, and abyssal terrors. They are a little sluggish on land at first, but excel on coastal invasions and rivers." style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;fontSize=20;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="1270" y="6358" width="345" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-70" value="The spire acts as a portal to allow eldritch air units to spawn." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Garamond;fontSize=21;gradientColor=#E1D5E7;" parent="1" vertex="1">
+          <mxGeometry x="2134" y="8851" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="88gbNTyHVZIzAFfqHntG-73" target="P2O7L1teCBfzodLQNDpv-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-73" value="A little later, a huge horde of arcane units around the london area" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Garamond;fontSize=21;gradientColor=#E1D5E7;" parent="1" vertex="1">
+          <mxGeometry x="1722" y="7916" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-77" target="88gbNTyHVZIzAFfqHntG-89" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-77" value="A little later, a huge horde of arcane units spawn where the covenant used to be." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Garamond;fontSize=21;gradientColor=#E1D5E7;" parent="1" vertex="1">
+          <mxGeometry x="2586" y="6941" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-79" target="88gbNTyHVZIzAFfqHntG-77" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2820" y="6675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-79" value="Covenant is annexed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="2586" y="5912" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-83" value="A little later, a huge horde of arcane units spawn near the covenants land." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Garamond;fontSize=21;gradientColor=#E1D5E7;" parent="1" vertex="1">
+          <mxGeometry x="2105" y="6943" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-84" target="88gbNTyHVZIzAFfqHntG-83" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-84" target="88gbNTyHVZIzAFfqHntG-77" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-84" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2420" y="6962" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-89" target="88gbNTyHVZIzAFfqHntG-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2706" y="8746" />
+              <mxPoint x="2254" y="8746" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-89" value="1st Wave starts construction of the great spire, a tower reaching far into the sky. It is built in next to the Covenant" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Garamond;fontSize=21;gradientColor=#E1D5E7;" parent="1" vertex="1">
+          <mxGeometry x="2576" y="8554" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-101" target="88gbNTyHVZIzAFfqHntG-89" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2706" y="8456" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-101" target="88gbNTyHVZIzAFfqHntG-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-101" value="v" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="2491" y="8412" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="88gbNTyHVZIzAFfqHntG-112" target="aQKrxDEKhkCdj-Tvo7_M-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88gbNTyHVZIzAFfqHntG-112" value="After 1st Wave Invades" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Garamond;fontSize=21;gradientColor=#E1D5E7;" parent="1" vertex="1">
+          <mxGeometry x="854" y="10218" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wbP_qxWVYcutTAwVSEk8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wbP_qxWVYcutTAwVSEk8-2" target="wbP_qxWVYcutTAwVSEk8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wbP_qxWVYcutTAwVSEk8-2" value="Manganese is discovered on the dangerous undersea beds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="2771" y="11846" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wbP_qxWVYcutTAwVSEk8-3" value="It is developed into hadfield steel, which resists arcane shocking attacks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;fontFamily=Garamond;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="2771" y="12115" width="240" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
