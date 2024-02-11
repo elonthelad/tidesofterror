@@ -4,28 +4,30 @@ pp [+/- value] 							#Modifies political power (influence)
 add_stability [+/- value] 		#Modifies stability (order)
 ws [+/- value] 							#Modifies war support (hope)
 manpower [+/- value] 			#Modifies manpower
-fuel [+/- value]						#Modifies fuel (sanity)
+fuel [+/- value]							#Modifies fuel (sanity)
 cp [+/- value]							#Modifies command power
 
 add_party_popularity arcane [+/- value]	#Modifies arcane idea popularity
 
-fa												#Instantaneous focus completion
+fa													#Instantaneous focus completion
 research_on_icon_click			#Instantaneous research when clicking on research items
-nocb										#Allows instant declaration of war
-allowdiplo								#Can send all types of diplomacy offers
-yesman									#AI accepts all diplomacy offers
+nocb											#Allows instant declaration of war
+allowdiplo									#Can send all types of diplomacy offers
+yesman										#AI accepts all diplomacy offers
 
 event british.1							#Executes 'The Freight Crisis' country_event
 event british.2							#Executes 'SUPPLY LINES IN DISTRESS' news_event
 
-debug_smooth						#Accelerates speed 5 CONSIDERABLY
-gui											#Shows gui bounds, dimensions, elements, gfx, and names
-debug_nogui							#Hides all interface
+debug_smooth							#Accelerates speed 5 CONSIDERABLY
+gui												#Shows gui bounds, dimensions, elements, gfx, and names
+debug_nogui								#Hides all interface
+reload [x]									#Reloads files in the mod. Arguments it accepts are; focus assets loc ideas
+reloadtechnologies 					#Reloads Techtree
 
 ae 10000 infantry_weapons1	#Add 10,000 snider-enfields to stockpile
 
 #GUI
-GFX_invis								#For elements i need to hide from the player
+GFX_invis									#For elements i need to hide from the player
 
 #Localisation syntax
 

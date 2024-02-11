@@ -1530,12 +1530,12 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "priority"
-			position = { x = 3 y = 6 }
+			position = { x = 3 y = -5 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "hoi_24header"
 			maxWidth = 25
 			maxHeight = 20
-			text = "7"
+			text = "null"
 			format = center
 			alwaystransparent = yes
 		}
@@ -1884,12 +1884,12 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "priority"
-			position = { x = 3 y = 6 }
+			position = { x = 3 y = -5 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "hoi_24header"
 			maxWidth = 25
 			maxHeight = 20
-			text = "7"
+			text = "null"
 			format = center
 			alwaystransparent = yes
 		}
@@ -2017,7 +2017,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 40
 			maxHeight = 20
-			text = "Total need: 200"
+			text = "null"
 			format = right
 		}
 

@@ -42,10 +42,10 @@ rail 100%
 weather 100%
 shipyards 100%
 adjancencies 100%
-X supply hubs
+resources 100%
+supply hubs 100%
+infrastructure 100%
 X factories
-X infrastructure
-X resources
 
 ###POLTICAL###
 policies 30%
