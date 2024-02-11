@@ -1,4 +1,3 @@
-
 state={
 	id=419
 	name="STATE_419"
@@ -10,7 +9,11 @@ state={
 		add_core_of = ENG
 		victory_points = { 4856 5 } #"Harrogate"
 		victory_points = { 6635 2 } #"Knaresborough"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { silicates = 20 }
 	manpower=10524
 	buildings_max_level_factor=1.000
 	state_category=small_town

@@ -10,6 +10,9 @@ state={
 		add_core_of = EIR
 		victory_points = { 1855 2 } #"Bantry"
 		victory_points = { 3618 2 } #"Castletown-Bearhaven"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=5604
 	buildings_max_level_factor=1.000

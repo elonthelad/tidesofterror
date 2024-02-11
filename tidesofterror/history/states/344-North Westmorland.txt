@@ -7,6 +7,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 251 2 } #"Kirkby Stephen"
 		victory_points = { 6390 5 } #"Appleby-in-Westmorland"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={

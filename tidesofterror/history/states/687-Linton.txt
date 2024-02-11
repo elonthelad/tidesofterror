@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 2577 2 } #"West Linton"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=2733
 	buildings_max_level_factor=1.000

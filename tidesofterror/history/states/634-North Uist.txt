@@ -10,6 +10,9 @@ state={
 		add_core_of = SCO
 		victory_points = { 421 1 } #"Lochmaddy"
 		victory_points = { 2096 1 } #"Balivanich"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=1044
 	buildings_max_level_factor=1.000

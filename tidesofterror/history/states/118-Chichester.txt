@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 5433 3 } #"Selsey"
 		victory_points = { 2763 8 } #"Bognor Regis"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=60582
 	buildings_max_level_factor=1.000

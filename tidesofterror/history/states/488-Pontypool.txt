@@ -12,6 +12,9 @@ state={
 		victory_points = { 5146 4 } #"Pontypool"
 		victory_points = { 8076 2 } #"Usk"
 		victory_points = { 5464 2 } #"Raglan"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=16740
 	buildings_max_level_factor=1.000

@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 4382 3 } #"Pitstone"
 		victory_points = { 4651 3 } #"Wing"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=17565
 	buildings_max_level_factor=1.000

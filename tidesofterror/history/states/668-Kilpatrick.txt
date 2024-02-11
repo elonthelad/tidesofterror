@@ -11,6 +11,7 @@ state={
 		victory_points = { 5952 16 } #"Clydebank"
 		victory_points = { 5950 10 } #"Dumbarton"
 		buildings = {
+			infrastructure = 3
 			dockyard = 2
 		}
 	}

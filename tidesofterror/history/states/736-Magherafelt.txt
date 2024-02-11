@@ -8,6 +8,9 @@ state={
 		victory_points = { 900 6 } #"Magherafelt"
 		victory_points = { 1490 3 } #"Draperstown"
 		victory_points = { 6230 2 } #"Tobermore"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	provinces={
 		500 900 1382 1490 1896 3154 3291 3620 6230 6237 6243 6264 6305 

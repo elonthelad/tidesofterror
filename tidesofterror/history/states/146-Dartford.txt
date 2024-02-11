@@ -9,6 +9,9 @@ state={
 		victory_points = { 8267 20 } #"Gravesend"
 		victory_points = { 4517 12 } #"Northfleet"
 		victory_points = { 8258 15 } #"Greenhithe"
+		buildings = {
+			infrastructure = 3
+		}
 
 	}
 

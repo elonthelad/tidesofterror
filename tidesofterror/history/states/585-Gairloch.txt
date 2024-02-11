@@ -10,6 +10,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 707 1 } #"Laide"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=1542
 	buildings_max_level_factor=1.000

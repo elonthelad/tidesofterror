@@ -11,6 +11,9 @@ state={
 		add_core_of = SCO
 		victory_points = { 222 2 } #"Rattray"
 		victory_points = { 2926 2 } #"Alyth"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=2778
 	buildings_max_level_factor=1.000

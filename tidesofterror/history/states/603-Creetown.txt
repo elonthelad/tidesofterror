@@ -11,7 +11,11 @@ state={
 		victory_points = { 5443 2 } #"Newton Stewart"
 		victory_points = { 6253 2 } #"Gatehouse of Fleet"
 		victory_points = { 4130 2 } #"Creetown"
+		buildings = {
+			infrastructure = 0
+		}
 	}
+	resources = { timber = 10 }
 	manpower=2769
 	buildings_max_level_factor=1.000
 	state_category=peaks

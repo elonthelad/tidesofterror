@@ -10,6 +10,9 @@ state={
 		victory_points = { 487 4 } #"Consett"
 		victory_points = { 1400 4 } #"Ryton"
 		victory_points = { 5077 6 } #"Blaydon"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=34515
 	buildings_max_level_factor=1.000

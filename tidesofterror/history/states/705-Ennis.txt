@@ -9,6 +9,9 @@ state={
 		set_state_flag = fenian_sentiment
 		victory_points = { 4405 15 } #"Ennis"
 		victory_points = { 7136 3 } #"Leamhan"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	provinces={
 		1145 1276 1823 1932 2218 2362 2865 3075 3167 3269 4405 4635 7106 7136 7149 7186 7197 7240 

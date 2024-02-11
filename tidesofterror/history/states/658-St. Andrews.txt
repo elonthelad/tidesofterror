@@ -12,6 +12,9 @@ state={
 		victory_points = { 5875 4 } #"Leuchars"
 		victory_points = { 3732 3 } #"Tayport"
 		victory_points = { 4255 2 } #"Gauldry"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=6423
 	buildings_max_level_factor=1.000

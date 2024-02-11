@@ -10,6 +10,9 @@ state={
 		victory_points = { 3213 8 } #"Ashley Heath"
 		victory_points = { 2760 10 } #"Christchurch"
 		victory_points = { 4464 12 } #"Highcliffe"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=45582
 	buildings_max_level_factor=1.000

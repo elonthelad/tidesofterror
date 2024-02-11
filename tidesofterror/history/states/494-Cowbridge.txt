@@ -11,6 +11,9 @@ state={
 		victory_points = { 8247 7 } #"Llantwit Major"
 		victory_points = { 8220 3 } #"Cowbridge"
 		victory_points = { 8173 4 } #"Llanharan"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=20205
 	buildings_max_level_factor=1.000

@@ -10,6 +10,9 @@ state={
 		add_core_of = EIR
 		victory_points = { 6994 7 } #"Naas"
 		victory_points = { 7034 5 } #"Newbridge"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=23202
 	buildings_max_level_factor=1.000

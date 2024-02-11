@@ -12,6 +12,7 @@ state={
 		victory_points = { 658 10 } #"Lytham St. Annes"
 		victory_points = { 6742 8 } #"Kirkham"
 		buildings = {
+			infrastructure = 4
 			5185 = { naval_base = 4 }
 		}
 	}

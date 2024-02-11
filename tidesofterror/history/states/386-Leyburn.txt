@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 2429 2 } #"Brompton on Swale"
 		victory_points = { 6508 2 } #"Leyburn"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=7680
 	buildings_max_level_factor=1.000

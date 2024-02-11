@@ -11,7 +11,11 @@ state={
 		victory_points = { 4367 8 } #"Annan"
 		victory_points = { 6206 5 } #"Gretna"
 		victory_points = { 937 2 } #"Lockerbie"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { timber = 10 }
 	manpower=8529
 	buildings_max_level_factor=1.000
 	state_category=small_town

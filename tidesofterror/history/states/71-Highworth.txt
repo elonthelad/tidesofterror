@@ -11,6 +11,9 @@ state={
 		victory_points = { 3438 25 } #"Swindon"
 		victory_points = { 8176 18 } #"Blunsdon"
 		victory_points = { 8183 12 } #"South Marston"
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	manpower=230310
 	buildings_max_level_factor=1.000

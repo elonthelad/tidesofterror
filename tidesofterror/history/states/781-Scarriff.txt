@@ -9,7 +9,11 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 7191 2 } #"Killaloe"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { timber = 20 }
 	manpower=8628
 	buildings_max_level_factor=1.000
 	state_category=pastoral

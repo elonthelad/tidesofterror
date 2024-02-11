@@ -9,6 +9,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 8425 4 } #"South Molton"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=16851
 	buildings_max_level_factor=1.000

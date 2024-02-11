@@ -12,6 +12,9 @@ state={
 		victory_points = { 4089 7 } #"Chepstow"
 		victory_points = { 1598 6 } #"Caldicot"
 		victory_points = { 1183 1 } #"Tintern"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=12336
 	buildings_max_level_factor=1.000

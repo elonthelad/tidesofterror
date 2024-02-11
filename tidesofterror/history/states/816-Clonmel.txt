@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 2772 8 } #"Clonmel"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=27453
 	buildings_max_level_factor=1.000

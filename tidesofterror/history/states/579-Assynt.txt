@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 3663 1 } #"Lochinver"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=1863
 	buildings_max_level_factor=1.000

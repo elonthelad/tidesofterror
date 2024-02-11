@@ -11,6 +11,9 @@ state={
 		victory_points = { 2224 12 } #"Daimler Green"
 		victory_points = { 7670 16 } #"Earlsdon"
 		victory_points = { 7630 14 } #"Edgwick"
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	manpower=254256
 	buildings_max_level_factor=1.000

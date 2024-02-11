@@ -10,6 +10,9 @@ state={
 		add_core_of = EIR
 		victory_points = { 5110 3 } #"Athenry"
 		victory_points = { 721 4 } #"Loughrea"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=24426
 	buildings_max_level_factor=1.000

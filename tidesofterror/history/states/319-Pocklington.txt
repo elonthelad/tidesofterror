@@ -10,6 +10,9 @@ state={
 		victory_points = { 6685 2 } #"Pocklington"
 		victory_points = { 2366 5 } #"Market Weighton"
 		victory_points = { 3840 2 } #"Stamford Bridge"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=34914
 	buildings_max_level_factor=1.000

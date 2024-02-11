@@ -11,6 +11,9 @@ state={
 		victory_points = { 7326 4 } #"Ballybunion"
 		victory_points = { 1144 4 } #"Listowel"
 		victory_points = { 5209 1 } #"Lixnaw"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=24219
 	buildings_max_level_factor=1.000

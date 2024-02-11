@@ -10,6 +10,9 @@ state={
 		add_core_of = EIR
 		victory_points = { 7609 2 } #"Glenbeigh"
 		victory_points = { 5318 1 } #"Cahersiveen"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=7842
 	buildings_max_level_factor=1.000

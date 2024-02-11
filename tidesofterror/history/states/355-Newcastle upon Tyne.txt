@@ -12,6 +12,9 @@ state={
 		victory_points = { 1722 12 } #"Wallsend"
 		victory_points = { 6241 16 } #"Jesmond"
 		victory_points = { 6226 8 } #"Longbenton"
+		buildings = {
+			infrastructure = 5
+		}
 	}
 	manpower=180579
 	buildings_max_level_factor=1.000

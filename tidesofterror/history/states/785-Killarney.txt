@@ -11,6 +11,9 @@ state={
 		victory_points = { 2460 7 } #"Killarney"
 		victory_points = { 2380 3 } #"Killorglin"
 		victory_points = { 1777 1 } #"Milltown"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=26061
 	buildings_max_level_factor=1.000

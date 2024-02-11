@@ -9,6 +9,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 1988 2 } #"Bishop's Castle"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=3108
 	buildings_max_level_factor=1.000

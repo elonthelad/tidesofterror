@@ -10,7 +10,11 @@ state={
 		add_core_of = EIR
 		victory_points = { 2495 1 } #"Ballyconnell"
 		victory_points = { 4327 1 } #"KIllashandra"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { coal = 15 timber = 10}
 	manpower=8667
 	buildings_max_level_factor=1.000
 	state_category=pastoral

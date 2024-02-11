@@ -9,6 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 3180 10 } #"King's Lynn"
 		buildings = {
+			infrastructure = 3
 			1925 = { naval_base = 2 }
 		}
 	}

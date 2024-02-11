@@ -10,6 +10,9 @@ state={
 		add_claim_by = WAL
 		victory_points = { 5453 3 } #"Monmouth"
 		victory_points = { 8006 2 } #"Dixton"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=8505
 	buildings_max_level_factor=1.000

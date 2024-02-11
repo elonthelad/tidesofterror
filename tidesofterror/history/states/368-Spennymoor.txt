@@ -10,7 +10,11 @@ state={
 		victory_points = { 6382 4 } #"Shildon"
 		victory_points = { 551 4 } #"Bishop Auckland"
 		victory_points = { 4459 3 } #"Crook"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { coal = 15 }
 	manpower=26898
 	buildings_max_level_factor=1.000
 	state_category=pastoral

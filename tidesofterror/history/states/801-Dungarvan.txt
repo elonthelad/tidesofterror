@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 644 5 } #"Dungarvan"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=14475
 	buildings_max_level_factor=1.000

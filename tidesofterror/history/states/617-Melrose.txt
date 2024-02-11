@@ -11,6 +11,9 @@ state={
 		victory_points = { 1166 1 } #"Nisbet"
 		victory_points = { 2198 2 } #"Earlston"
 		victory_points = { 257 1 } #"Gordon"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=4494
 	buildings_max_level_factor=1.000

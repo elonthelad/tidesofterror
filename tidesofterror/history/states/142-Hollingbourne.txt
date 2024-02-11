@@ -9,6 +9,9 @@ state={
 		victory_points = { 8351 15 } #"Bearsted"
 		victory_points = { 8375 3 } #"Lenham"
 		victory_points = { 4319 5 } #"Peckham"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 
 	provinces={

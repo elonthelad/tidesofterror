@@ -9,7 +9,11 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 8431 3 } #"Cranbrook"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { timber = 15 }
 	manpower=19926
 	buildings_max_level_factor=1.000
 	state_category=pastoral

@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 4471 4 } #"Clowne" Honk honk
 		victory_points = { 1912 3 } #"Whitwell"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=7386
 	buildings_max_level_factor=1.000

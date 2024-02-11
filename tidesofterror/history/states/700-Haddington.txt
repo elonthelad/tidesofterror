@@ -10,6 +10,9 @@ state={
 		add_core_of = SCO
 		victory_points = { 5968 6 } #"Haddington"
 		victory_points = { 5977 3 } #"Gifford"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=6246
 	buildings_max_level_factor=1.000

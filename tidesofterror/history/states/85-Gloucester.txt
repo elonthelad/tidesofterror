@@ -10,6 +10,9 @@ state={
 		victory_points = { 4552 25 } #"Gloucester"
 		victory_points = { 8015 12 } #"Brockworth"
 		victory_points = { 8011 10 } #"Quedgeley"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=184716
 	buildings_max_level_factor=1.000

@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		add_claim_by = WAL
 		victory_points = { 2312 4 } #"Llandrindod Wells"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=6228
 	buildings_max_level_factor=1.000

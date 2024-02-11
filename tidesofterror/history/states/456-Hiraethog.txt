@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		add_claim_by = WAL
 		victory_points = { 4592 2 } #"Eglwysbach"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=5790
 	buildings_max_level_factor=1.000

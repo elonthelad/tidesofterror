@@ -9,6 +9,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 8457 10 } #"Petersfield"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=24039
 	buildings_max_level_factor=1.000

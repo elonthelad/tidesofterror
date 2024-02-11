@@ -10,6 +10,9 @@ state={
 		add_core_of = SCO
 		victory_points = { 535 1 } #"Bonar Bridge"
 		victory_points = { 5602 2 } #"Dornoch"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=2304
 	buildings_max_level_factor=1.000

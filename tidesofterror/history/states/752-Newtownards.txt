@@ -1,6 +1,9 @@
 state={
 	id=752
 	name="STATE_752"
+	provinces={
+		1728 2094 2515 3031 3942 4440 5158 5200 6339 6344 6355 6374 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
@@ -10,15 +13,12 @@ state={
 		victory_points = { 5158 7 } #"Comber"
 		victory_points = { 6355 5 } #"Dundonald"
 		buildings = {
+			infrastructure = 3
 			4440 = { naval_base = 3 }
-		}
-		buildings = {
 			5200 = { naval_base = 2 }
 		}
 	}
-	provinces={
-		1728 2094 2515 3031 3942 4440 5158 5200 6339 6344 6355 6374 
-	}
+	resources = { silicates = 10 }
 	manpower=54879
 	buildings_max_level_factor=1.000
 	state_category=large_town

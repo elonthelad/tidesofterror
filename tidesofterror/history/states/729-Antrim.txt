@@ -8,6 +8,9 @@ state={
 		victory_points = { 6289 22 } #"Antrim"
 		victory_points = { 6331 4 } #"Crumlin"
 		victory_points = { 865 8 } #"Ballyclare"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	provinces={
 		272 865 989 1487 3595 3642 4368 4477 5109 6274 6281 6286 6289 6318 6319 6331 

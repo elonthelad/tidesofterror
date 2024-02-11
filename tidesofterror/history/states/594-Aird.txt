@@ -10,6 +10,9 @@ state={
 		add_core_of = SCO
 		victory_points = { 1364 2 } #"Kilmore"
 		victory_points = { 5672 2 } #"Kiltarlity"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=3078
 	buildings_max_level_factor=1.000

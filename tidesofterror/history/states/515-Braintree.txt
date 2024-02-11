@@ -11,6 +11,9 @@ state={
 		victory_points = { 2600 10 } #"Braintree"
 		victory_points = { 8013 5 } #"Great Notley"
 		victory_points = { 8042 8 } #"Witham"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=36771
 	buildings_max_level_factor=1.000

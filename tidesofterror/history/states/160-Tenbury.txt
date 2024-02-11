@@ -8,6 +8,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 4038 3 } #"Bewdley"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=11493
 	buildings_max_level_factor=1.000

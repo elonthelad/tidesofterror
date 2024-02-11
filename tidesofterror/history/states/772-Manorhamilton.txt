@@ -9,7 +9,11 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 2861 5 } #"Bundoran"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { coal = 40 timber = 10}
 	manpower=20589
 	buildings_max_level_factor=1.000
 	state_category=small_town

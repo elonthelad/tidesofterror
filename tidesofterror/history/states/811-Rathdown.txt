@@ -11,6 +11,9 @@ state={
 		victory_points = { 510 12 } #"Blackrock"
 		victory_points = { 2186 15 } #"Sandyford"
 		victory_points = { 3480 8 } #"Bray"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=74091
 	buildings_max_level_factor=1.000

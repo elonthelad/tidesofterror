@@ -10,6 +10,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 1624 4 } #"Blairgowrie and Rattray"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=5502
 	buildings_max_level_factor=1.000

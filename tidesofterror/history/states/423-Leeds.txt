@@ -1,4 +1,3 @@
-
 state={
 	id=423
 	name="STATE_423"
@@ -13,7 +12,11 @@ state={
 		victory_points = { 6747 16 } #"Headingley"
 		victory_points = { 3517 12 } #"Oakwood"
 		victory_points = { 4538 10 } #"Morley"
+		buildings = {
+			infrastructure = 4
+		}
 	}
+	resources = { coal = 30 silicates = 15}
 	manpower=169707
 	buildings_max_level_factor=1.000
 	state_category=city

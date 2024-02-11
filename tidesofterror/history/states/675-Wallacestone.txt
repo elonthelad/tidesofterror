@@ -12,6 +12,9 @@ state={
 		victory_points = { 4525 12 } #"Bathgate"
 		victory_points = { 2636 8 } #"Armadale"
 		victory_points = { 3993 6 } #"Bo'ness"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=24297
 	buildings_max_level_factor=1.000

@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 4629 10 } #"Ingoldmells"
 		victory_points = { 2436 20 } #"Skegness"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=59529
 	buildings_max_level_factor=1.000

@@ -10,6 +10,9 @@ state={
 		add_claim_by = WAL
 		victory_points = { 4533 8 } #"Briton Ferry"
 		victory_points = { 4737 10 } #"Port Talbot"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=24837
 	buildings_max_level_factor=1.000

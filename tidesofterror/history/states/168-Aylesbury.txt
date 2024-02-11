@@ -10,6 +10,9 @@ state={
 		victory_points = { 1612 15 } #"Aylesbury"
 		victory_points = { 5231 8 } #"Ashton Clinton"
 		victory_points = { 8070 4 } #"Haddenham"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=75249
 	buildings_max_level_factor=1.000

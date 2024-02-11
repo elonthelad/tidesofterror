@@ -12,6 +12,9 @@ state={
 		set_state_flag = fenian_sentiment
 		victory_points = { 5054 20 } #"Limerick"
 		victory_points = { 7294 10 } #"Dooradoyle"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=99063
 	buildings_max_level_factor=1.000

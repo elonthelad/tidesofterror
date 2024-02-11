@@ -13,6 +13,9 @@ state={
 		victory_points = { 3932 7 } #"Towyn"
 		victory_points = { 1935 4 } #"St. Asaph"
 		victory_points = { 7109 6 } #"Denbigh"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=31740
 	buildings_max_level_factor=1.000

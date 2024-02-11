@@ -10,6 +10,9 @@ state={
 		victory_points = { 2228 10 } #"Peterlee"
 		victory_points = { 2202 8 } #"Old Shotton"
 		victory_points = { 1901 6 } #"Seaham"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=62526
 	buildings_max_level_factor=1.000

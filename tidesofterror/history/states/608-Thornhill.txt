@@ -10,6 +10,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 3006 2 } #"Thornhill"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=3780
 	buildings_max_level_factor=1.000

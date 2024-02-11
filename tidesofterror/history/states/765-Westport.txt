@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 4507 5 } #"Westport"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=22068
 	buildings_max_level_factor=1.000

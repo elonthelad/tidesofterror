@@ -9,7 +9,11 @@ state={
 		add_core_of = ENG
 		victory_points = { 6383 8 } #"Newton Aycliffe"
 		victory_points = { 2371 2 } #"Ferryhill"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { coal = 20 silicates = 20}
 	manpower=40710
 	buildings_max_level_factor=1.000
 	state_category=small_town

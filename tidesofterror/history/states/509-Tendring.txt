@@ -11,6 +11,7 @@ state={
 		victory_points = { 7991 10 } #"Walton-on-the-Naze"
 		victory_points = { 4966 5 } #"Harwich"
 		buildings = {
+			infrastructure = 2
 			8058 = { naval_base = 2 }
 		}
 	}

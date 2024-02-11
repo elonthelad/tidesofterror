@@ -10,7 +10,11 @@ state={
 		victory_points = { 6768 15 } #"Blackburn"
 		victory_points = { 1653 10 } #"Accrington"
 		victory_points = { 3065 6 } #"Darwen"
+		buildings = {
+			infrastructure = 3
+		}
 	}
+	resources = { coal = 25 }
 	manpower=70764
 	buildings_max_level_factor=1.000
 	state_category=large_town

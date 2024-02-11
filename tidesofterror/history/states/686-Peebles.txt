@@ -10,6 +10,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 4929 5 } #"Peebles"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=5274
 	buildings_max_level_factor=1.000

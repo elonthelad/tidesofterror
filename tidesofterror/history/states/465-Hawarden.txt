@@ -12,7 +12,11 @@ state={
 		victory_points = { 509 12 } #"Deeside"
 		victory_points = { 7131 7 } #"Connah's Quay"
 		victory_points = { 2676 5 } #"Buckley"
+		buildings = {
+			infrastructure = 3
+		}
 	}
+	resources = { coal = 15 }
 	manpower=43644
 	buildings_max_level_factor=1.000
 	state_category=large_town

@@ -1,4 +1,3 @@
-
 state={
 	id=11
 	name="STATE_11"
@@ -10,7 +9,11 @@ state={
 		add_core_of = ENG
 		victory_points = { 8533 4 } #"Okehampton"
 		victory_points = { 8563 1 } #"Moretonhampstead"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { silicates = 20 }
 	manpower=4884
 	buildings_max_level_factor=1.000
 	state_category=pastoral

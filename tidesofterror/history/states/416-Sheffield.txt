@@ -1,7 +1,9 @@
 state={
 	id=416
 	name="STATE_416"
-
+	provinces={
+		552 1193 2065 3986 5241 5302 5508 7010 7026 7036 7038 
+	}
 	history={
 		owner = ENG
 		add_core_of = ENG
@@ -10,11 +12,11 @@ state={
 		victory_points = { 7038 16 } #"Arbourthorne"
 		victory_points = { 7010 12 } #"Wadsley Bridge"
 		victory_points = { 7036 16 } #"Tapton Hall"
+		buildings = {
+			infrastructure = 4
+		}
 	}
-
-	provinces={
-		552 1193 2065 3986 5241 5302 5508 7010 7026 7036 7038 
-	}
+	resources = { steel = 25 }
 	manpower=230505
 	buildings_max_level_factor=1.000
 	state_category=city

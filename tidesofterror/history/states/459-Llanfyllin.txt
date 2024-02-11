@@ -12,6 +12,9 @@ state={
 		victory_points = { 4147 3 } #"Four Crosses"
 		victory_points = { 41 3 } #"Llanfyllin"
 		victory_points = { 3466 1 } #"Llanwddyn"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=9297
 	buildings_max_level_factor=1.000

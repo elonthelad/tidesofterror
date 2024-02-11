@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 4297 5 } #"Drogheda"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=16833
 	buildings_max_level_factor=1.000

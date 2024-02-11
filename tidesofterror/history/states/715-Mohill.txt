@@ -9,7 +9,11 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 6582 2 } #"Mohill"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { coal = 10 timber = 20}
 	manpower=9285
 	buildings_max_level_factor=1.000
 	state_category=pastoral

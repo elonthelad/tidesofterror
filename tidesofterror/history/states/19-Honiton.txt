@@ -11,6 +11,9 @@ state={
 		victory_points = { 8537 8 } #"Honiton"
 		victory_points = { 8542 3 } #"Ottery St. Mary"
 		victory_points = { 2505 3 } #"Sidmouth"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=35256
 	buildings_max_level_factor=1.000

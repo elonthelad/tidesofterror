@@ -9,7 +9,11 @@ state={
 		add_core_of = ENG
 		victory_points = { 1039 2 } #"Otterburn"
 		victory_points = { 3112 3 } #"Rothbury"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { timber = 8 }
 	manpower=8478
 	buildings_max_level_factor=1.000
 	state_category=pastoral

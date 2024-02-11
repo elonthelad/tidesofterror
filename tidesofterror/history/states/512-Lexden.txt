@@ -10,6 +10,9 @@ state={
 		victory_points = { 5350 4 } #"Mersea Island"
 		victory_points = { 7982 20 } #"Colchester"
 		victory_points = { 3292 10 } #"Wivenhoe"
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	manpower=153291
 	buildings_max_level_factor=1.000

@@ -10,7 +10,11 @@ state={
 		victory_points = { 1869 3 } #"Brierfield"
 		victory_points = { 2789 5 } #"Burnley"
 		victory_points = { 2262 3 } #"Padiham"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { coal = 10 }
 	manpower=21771
 	buildings_max_level_factor=1.000
 	state_category=small_town

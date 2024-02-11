@@ -7,6 +7,9 @@ state={
 		add_core_of = EIR
 		victory_points = { 3930 10 } #"Omagh"
 		victory_points = { 938 2 } #"Fintona"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	provinces={
 		548 938 1351 1992 2056 2217 3117 3172 3407 3451 3930 3937 5126 5180 5262 6263 6311 6312 6313 6332 6333 6345 6346 6358 6360 6362 

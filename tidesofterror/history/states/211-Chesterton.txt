@@ -11,6 +11,9 @@ state={
 		victory_points = { 3515 4 } #"Cambourne"
 		victory_points = { 5213 2 } #"Milton"
 		victory_points = { 5019 4 } #"Bar Hill"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=42972
 	buildings_max_level_factor=1.000

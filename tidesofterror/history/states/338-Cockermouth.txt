@@ -11,6 +11,9 @@ state={
 		victory_points = { 2506 8 } #"Cockermouth"
 		victory_points = { 6373 6 } #"Workington"
 		victory_points = { 4699 3 } #"Maryport"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=43914
 	buildings_max_level_factor=1.000

@@ -10,6 +10,9 @@ state={
 		victory_points = { 2259 4 } #"Halifax"
 		victory_points = { 3102 2 } #"Queensbury"
 		victory_points = { 6816 2 } #"Elland"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=9489
 	buildings_max_level_factor=1.000

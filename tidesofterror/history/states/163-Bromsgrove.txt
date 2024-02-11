@@ -8,6 +8,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 3652 18 } #"Bromsgrove"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=43701
 	buildings_max_level_factor=1.000

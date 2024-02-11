@@ -12,6 +12,9 @@ state={
 		victory_points = { 3968 8 } #"Wolverton"
 		victory_points = { 481 10 } #"Newport Pagnell"
 		victory_points = { 7910 8 } #"Kingston"
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	manpower=229902
 	buildings_max_level_factor=1.000

@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 5316 3 } #"Windermere"
 		victory_points = { 1269 2 } #"Ambleside"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=7434
 	buildings_max_level_factor=1.000

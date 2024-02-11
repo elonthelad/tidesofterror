@@ -13,9 +13,11 @@ state={
 		victory_points = { 984 12 } #"Carleton"
 		victory_points = { 706 14 } #"Kingmoor"
 		buildings = {
+			infrastructure = 3
 			4110 = { naval_base = 2 }
 		}
 	}
+	resources = { coal = 10 }
 	manpower=53127
 	buildings_max_level_factor=1.000
 	state_category=large_town

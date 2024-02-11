@@ -9,7 +9,11 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 7396 7 } #"Newcastle West"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { coal = 20 }
 	manpower=21435
 	buildings_max_level_factor=1.000
 	state_category=small_town

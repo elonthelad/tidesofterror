@@ -11,6 +11,9 @@ state={
 		victory_points = { 507 5 } #"Lanark"
 		victory_points = { 3975 5 } #"Carluke"
 		victory_points = { 6039 2 } #"Carstairs"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=14505
 	buildings_max_level_factor=1.000

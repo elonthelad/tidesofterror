@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		add_claim_by = WAL
 		victory_points = { 4183 5 } #"Ystradgynlais"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=6195
 	buildings_max_level_factor=1.000

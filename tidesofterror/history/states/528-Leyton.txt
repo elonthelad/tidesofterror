@@ -10,6 +10,9 @@ state={
 		victory_points = { 4453 18 } #"Stratford"
 		victory_points = { 2603 15 } #"Walthamstow"
 		victory_points = { 8186 8 } #"Wanstead"
+		buildings = {
+			infrastructure = 5
+		}
 	}
 	manpower=213951
 	buildings_max_level_factor=1.000

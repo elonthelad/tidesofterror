@@ -10,6 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 5814 5 } #"Montrose"
 		buildings = {
+			infrastructure = 1
 			5814 = { naval_base = 2 }
 		}
 	}

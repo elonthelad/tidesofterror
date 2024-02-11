@@ -7,11 +7,15 @@ state={
 		add_core_of = ENG
 		victory_points = { 8294 15 } #"Orpington"
 		victory_points = { 8293 8 } #"Addington"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 
 	provinces={
 		2461 4062 8293 8294 
 	}
+	resources = { timber = 10 }
 	manpower=129429
 	buildings_max_level_factor=1.000
 	state_category=small_town

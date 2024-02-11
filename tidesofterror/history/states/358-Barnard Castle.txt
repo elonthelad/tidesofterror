@@ -9,6 +9,9 @@ state={
 		victory_points = { 2422 2 } #"Barnard Castle"
 		victory_points = { 4146 1 } #"Eggleston"
 		victory_points = { 4914 4 } #"St. Helen Auckland"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={

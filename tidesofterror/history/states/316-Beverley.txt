@@ -10,6 +10,9 @@ state={
 		victory_points = { 6786 4 } #"Willerby"
 		victory_points = { 6800 3 } #"Hessle"
 		victory_points = { 6723 10 } #"Beverley"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=55644
 	buildings_max_level_factor=1.000

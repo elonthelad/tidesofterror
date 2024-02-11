@@ -10,6 +10,9 @@ state={
 		victory_points = { 812 12 } #"Watford"
 		victory_points = { 5410 6 } #"South Oxhey"
 		victory_points = { 8167 10 } #"Bushey"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=195651
 	buildings_max_level_factor=1.000

@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 2841 2 } #"Ballaghaderreen"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=12603
 	buildings_max_level_factor=1.000

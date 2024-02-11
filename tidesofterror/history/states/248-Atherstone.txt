@@ -13,6 +13,9 @@ state={
 		victory_points = { 7593 20 } #"Nuneaton"
 		victory_points = { 7568 8 } #"Camp Hill"
 		victory_points = { 1399 10 } #"Atherstone"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=101277
 	buildings_max_level_factor=1.000

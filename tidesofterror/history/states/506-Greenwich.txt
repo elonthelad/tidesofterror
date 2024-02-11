@@ -7,6 +7,9 @@ state={
 		victory_points = { 8241 12 } #"Woolwich"
 		victory_points = { 514 10 } #"Thameshead"
 		victory_points = { 1497 15 } #"Welling"
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	provinces={
 		514 1497 1556 8241 

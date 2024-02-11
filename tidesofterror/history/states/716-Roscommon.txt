@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 93 8 } #"Roscommon"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=30435
 	buildings_max_level_factor=1.000

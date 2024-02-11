@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 964 1 } #"Clifden"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=6189
 	buildings_max_level_factor=1.000

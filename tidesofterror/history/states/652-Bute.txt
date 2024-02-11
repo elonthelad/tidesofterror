@@ -10,6 +10,9 @@ state={
 		add_core_of = SCO
 		victory_points = { 5978 2 } #"Rothesay"
 		victory_points = { 2754 1 } #"Millport"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=2892
 	buildings_max_level_factor=1.000

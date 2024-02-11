@@ -10,6 +10,9 @@ state={
 		victory_points = { 6896 15 } #"Bolton"
 		victory_points = { 1412 14 } #"Farnworth"
 		victory_points = { 956 8 } #"Westhoughton"
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	manpower=64737
 	buildings_max_level_factor=1.000

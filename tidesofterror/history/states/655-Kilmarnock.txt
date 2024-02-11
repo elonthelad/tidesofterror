@@ -11,7 +11,11 @@ state={
 		add_core_of = SCO
 		victory_points = { 3498 20 } #"Kilmarnock"
 		victory_points = { 6064 4 } #"Hurlford"
+		buildings = {
+			infrastructure = 3
+		}
 	}
+	resources = { steel = 10 }
 	manpower=46488
 	buildings_max_level_factor=1.000
 	state_category=large_town

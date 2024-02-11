@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 2728 1 } #"St. Margaret's Hope"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=963
 	buildings_max_level_factor=1.000

@@ -11,6 +11,9 @@ state={
 		victory_points = { 5175 15 } #"St Helens"
 		victory_points = { 780 12 } #"Prescot"
 		victory_points = { 6982 10 } #"Sutton"
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	manpower=97893
 	buildings_max_level_factor=1.000

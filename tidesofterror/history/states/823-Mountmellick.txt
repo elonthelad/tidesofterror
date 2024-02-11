@@ -10,7 +10,11 @@ state={
 		add_core_of = EIR
 		victory_points = { 346 3 } #"Mountmellick"
 		victory_points = { 3024 5 } #"Portarlington"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { timber = 10 }
 	manpower=26751
 	buildings_max_level_factor=1.000
 	state_category=small_town

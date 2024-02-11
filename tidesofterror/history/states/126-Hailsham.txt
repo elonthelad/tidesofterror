@@ -11,7 +11,11 @@ state={
 		victory_points = { 173 25 } #"Eastbourne"
 		victory_points = { 8513 8 } #"Hailsham"
 		victory_points = { 8532 18 } #"Bexhill"
+		buildings = {
+			infrastructure = 3
+		}
 	}
+	resources = { timber = 20 }
 	manpower=70830
 	buildings_max_level_factor=1.000
 	state_category=large_town

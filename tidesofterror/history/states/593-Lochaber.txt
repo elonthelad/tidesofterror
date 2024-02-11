@@ -11,6 +11,9 @@ state={
 		add_core_of = SCO
 		victory_points = { 3987 2 } #"Caol"
 		victory_points = { 348 1 } #"Mallaig"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=2907
 	buildings_max_level_factor=1.000

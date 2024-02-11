@@ -9,7 +9,11 @@ state={
 		add_core_of = ENG
 		victory_points = { 2007 2 } #"Shirebrook"
 		victory_points = { 5425 4 } #"South Normanton"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { silicates = 10 }
 	manpower=9372
 	buildings_max_level_factor=1.000
 	state_category=pastoral

@@ -12,6 +12,9 @@ state={
 		victory_points = { 4510 5 } #"Pembroke"
 		victory_points = { 3689 2 } #"Pwllcrochan"
 		victory_points = { 819 2 } #"St. Florence"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=22722
 	buildings_max_level_factor=1.000

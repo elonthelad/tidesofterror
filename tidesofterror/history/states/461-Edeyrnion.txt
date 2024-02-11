@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		add_claim_by = WAL
 		victory_points = { 3081 2 } #"Corwen"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=3150
 	buildings_max_level_factor=1.000

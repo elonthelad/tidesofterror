@@ -10,6 +10,9 @@ state={
 		add_claim_by = WAL
 		victory_points = { 1018 3 } #"St. Clears"
 		victory_points = { 5255 6 } #"Carmarthen"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=15465
 	buildings_max_level_factor=1.000

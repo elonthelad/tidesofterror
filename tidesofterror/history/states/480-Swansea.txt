@@ -14,9 +14,11 @@ state={
 		victory_points = { 8119 6 } #"Sketty"
 		victory_points = { 5278 4 } #"Waunarlwydd"
 		buildings = {
+			infrastructure = 4
 			8110 = { naval_base = 7 }
 		}
 	}
+	resources = { coal = 15 }
 	manpower=85983
 	buildings_max_level_factor=1.000
 	state_category=city

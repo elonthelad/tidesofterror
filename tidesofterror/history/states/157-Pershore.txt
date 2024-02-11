@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 1174 2 } #"Atch Lench"
 		victory_points = { 7880 3 } #"Pershore"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=14364
 	buildings_max_level_factor=1.000

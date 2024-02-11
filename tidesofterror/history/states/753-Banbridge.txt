@@ -11,7 +11,11 @@ state={
 		victory_points = { 2715 8 } #"Banbridge"
 		victory_points = { 4148 20 } #"Lurgan"
 		victory_points = { 1815 4 } #"Magheralin"
+		buildings = {
+			infrastructure = 3
+		}
 	}
+	resources = { silicates = 10 }
 	manpower=42117
 	buildings_max_level_factor=1.000
 	state_category=large_town

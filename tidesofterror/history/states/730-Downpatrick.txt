@@ -6,6 +6,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 239 20 } #"Downpatrick"
+		buildings = {
+			infrastructure = 2
+		}
 
 	}
 	provinces={

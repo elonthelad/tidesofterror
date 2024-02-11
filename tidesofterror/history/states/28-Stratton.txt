@@ -9,6 +9,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 1970 2 } #"Bude"
 		buildings = {
+			infrastructure = 1
 			1970 = { naval_base = 1 }
 		}
 	}

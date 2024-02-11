@@ -8,6 +8,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 8336 6 } #"Tidworth"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=24501
 	buildings_max_level_factor=1.000

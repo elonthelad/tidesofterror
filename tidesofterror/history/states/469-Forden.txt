@@ -11,6 +11,9 @@ state={
 		victory_points = { 7556 2 } #"Church Stoke"
 		victory_points = { 3084 1 } #"Montgomery"
 		victory_points = { 4363 4 } #"Welshpool"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=8058
 	buildings_max_level_factor=1.000

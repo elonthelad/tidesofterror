@@ -12,6 +12,9 @@ state={
 		victory_points = { 2358 10 } #"East Tullos"
 		victory_points = { 4576 3 } #"Portlethen"
 		victory_points = { 3094 4 } #"Stonehaven"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=12201
 	buildings_max_level_factor=1.000

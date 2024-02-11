@@ -8,6 +8,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 3150 14 } #"Burton upon Trent"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=61611
 	buildings_max_level_factor=1.000

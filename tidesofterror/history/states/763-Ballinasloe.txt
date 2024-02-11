@@ -10,7 +10,11 @@ state={
 		add_core_of = EIR
 		victory_points = { 2988 2 } #"Ballinasloe"
 		victory_points = { 1004 1 } #"Portumna"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { timber = 10 }
 	manpower=10878
 	buildings_max_level_factor=1.000
 	state_category=pastoral

@@ -10,11 +10,15 @@ state={
 		victory_points = { 305 3 } #"Cranleigh"
 		victory_points = { 2003 3 } #"Haslemere"
 		victory_points = { 8388 10 } #"Farnham"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={
 		305 879 2003 2643 4265 5165 5273 8388 8393 8404 
 	}
+	resources = { timber = 35 }
 	manpower=69573
 	buildings_max_level_factor=1.000
 	state_category=pastoral

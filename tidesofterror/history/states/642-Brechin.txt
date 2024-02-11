@@ -10,6 +10,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 2719 5 } #"Brechin"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=4644
 	buildings_max_level_factor=1.000

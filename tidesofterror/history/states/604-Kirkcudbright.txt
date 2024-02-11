@@ -10,7 +10,11 @@ state={
 		add_core_of = SCO
 		victory_points = { 5028 2 } #"Castle Douglas"
 		victory_points = { 4393 2 } #"Kirkcudbright"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { timber = 5 }
 	manpower=4104
 	buildings_max_level_factor=1.000
 	state_category=pastoral

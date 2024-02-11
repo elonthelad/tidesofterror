@@ -11,6 +11,9 @@ state={
 		victory_points = { 2560 8 } #"Hillmorton"
 		victory_points = { 418 10 } #"Rugby"
 		victory_points = { 9999 6 } #"Brownsover"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=58059
 	buildings_max_level_factor=1.000

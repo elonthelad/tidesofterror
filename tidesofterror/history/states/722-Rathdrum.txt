@@ -13,6 +13,7 @@ state={
 			7181 = { naval_base = 3 }
 		}
 	}
+	resources = { silicates = 20 }
 	manpower=14253
 	buildings_max_level_factor=1.000
 	state_category=pastoral

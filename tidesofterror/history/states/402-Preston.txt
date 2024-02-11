@@ -10,7 +10,11 @@ state={
 		victory_points = { 4521 18 } #"Preston"
 		victory_points = { 398 4 } #"Grange"
 		victory_points = { 3598 3 } #"Lea"
+		buildings = {
+			infrastructure = 3
+		}
 	}
+	resources = { coal = 10 }
 	manpower=48309
 	buildings_max_level_factor=1.000
 	state_category=large_town

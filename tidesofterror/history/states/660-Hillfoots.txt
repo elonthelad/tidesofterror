@@ -11,6 +11,9 @@ state={
 		victory_points = { 5300 12 } #"Alloa"
 		victory_points = { 3721 10 } #"Tullibody"
 		victory_points = { 5920 3 } #"Dollar"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=18204
 	buildings_max_level_factor=1.000

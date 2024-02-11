@@ -10,6 +10,9 @@ state={
 		add_core_of = EIR
 		victory_points = { 6854 10 } #"Swords"
 		victory_points = { 276 4 } #"Balbriggan"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=41160
 	buildings_max_level_factor=1.000

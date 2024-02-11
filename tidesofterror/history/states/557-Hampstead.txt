@@ -8,6 +8,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 4137 65 } #"Islington"
+		buildings = {
+			infrastructure = 5
+		}
 	}
 	manpower=282219
 	buildings_max_level_factor=1.000

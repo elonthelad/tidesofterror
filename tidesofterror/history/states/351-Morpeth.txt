@@ -10,6 +10,9 @@ state={
 		victory_points = { 6162 3 } #"Newbiggin-by-the-Sea"
 		victory_points = { 4750 5 } #"Morpeth"
 		victory_points = { 2771 3 } #"Amble"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=22890
 	buildings_max_level_factor=1.000

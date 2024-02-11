@@ -11,6 +11,9 @@ state={
 		victory_points = { 3853 6 } #"Kilsyth"
 		victory_points = { 3613 20 } #"Cumbernauld"
 		victory_points = { 5949 4 } #"Milton of Campsie"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=23358
 	buildings_max_level_factor=1.000

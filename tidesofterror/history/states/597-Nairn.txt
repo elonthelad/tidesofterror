@@ -9,7 +9,11 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 2830 5 } #"Nairn"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { timber = 15 }
 	manpower=5760
 	buildings_max_level_factor=1.000
 	state_category=small_town

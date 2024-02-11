@@ -11,6 +11,9 @@ state={
 		victory_points = { 5941 2 } #"Killearn"
 		victory_points = { 745 2 } #"Blanefield"
 		victory_points = { 1880 1 } #"Milngavie"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=3582
 	buildings_max_level_factor=1.000

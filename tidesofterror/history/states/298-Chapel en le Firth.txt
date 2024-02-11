@@ -11,6 +11,9 @@ state={
 		victory_points = { 115 2 } #"Chapel-en-le-Firth"
 		victory_points = { 6973 3 } #"Glossop"
 		victory_points = { 2651 2 } #"Edale"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=13560
 	buildings_max_level_factor=1.000

@@ -11,6 +11,9 @@ state={
 		victory_points = { 5627 7 } #"Elgin"
 		victory_points = { 3282 4 } #"Lossiemouth"
 		victory_points = { 3037 2 } #"Mosstodloch"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=9732
 	buildings_max_level_factor=1.000

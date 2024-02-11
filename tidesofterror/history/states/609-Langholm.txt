@@ -9,7 +9,11 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 460 2 } #"Langholm"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { timber = 15 }
 	manpower=6105
 	buildings_max_level_factor=1.000
 	state_category=pastoral

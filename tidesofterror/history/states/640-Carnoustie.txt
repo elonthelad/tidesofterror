@@ -10,6 +10,9 @@ state={
 		add_core_of = SCO
 		victory_points = { 5397 5 } #"Arbroath"
 		victory_points = { 2798 3 } #"Carnoustie"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=7599
 	buildings_max_level_factor=1.000

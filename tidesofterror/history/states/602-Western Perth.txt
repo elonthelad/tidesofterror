@@ -10,7 +10,11 @@ state={
 		add_core_of = SCO
 		victory_points = { 2534 4 } #"Dunblane"
 		victory_points = { 2973 1 } #"Callander"
+		buildings = {
+			infrastructure = 0
+		}
 	}
+	resources = { timber = 10 }
 	manpower=5136
 	buildings_max_level_factor=1.000
 	state_category=peaks

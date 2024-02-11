@@ -12,7 +12,11 @@ state={
 		victory_points = { 5945 6 } #"Dunoon"
 		victory_points = { 1570 1 } #"Portavadie"
 		victory_points = { 1218 2 } #"Lochgoilhea"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { timber = 10 }
 	manpower=5079
 	buildings_max_level_factor=1.000
 	state_category=small_town

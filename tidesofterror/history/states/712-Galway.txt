@@ -15,9 +15,11 @@ state={
 		victory_points = { 127 5 } #"Ballybane"
 		victory_points = { 4016 4 } #"Oranmore"
 		buildings = {
+			infrastructure = 3
 			3468 = { naval_base = 3 }
 		}
 	}
+	resources = { silicates = 10 }
 	manpower=107658
 	buildings_max_level_factor=1.000
 	state_category=large_town

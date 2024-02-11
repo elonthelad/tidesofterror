@@ -14,7 +14,11 @@ state={
 		victory_points = { 802 16 } #"Neath"
 		victory_points = { 2935 5 } #"Glynneath"
 		victory_points = { 3259 3 } #"Cryant"
+		buildings = {
+			infrastructure = 3
+		}
 	}
+	resources = { timber = 15 }
 	manpower=62418
 	buildings_max_level_factor=1.000
 	state_category=large_town

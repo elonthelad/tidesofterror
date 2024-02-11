@@ -1,15 +1,19 @@
 state={
 	id=731
 	name="STATE_731"
+	provinces={
+		760 1104 1324 1897 2843 3533 3585 4064 4786 6418 6427 6432 6440 6448 6454 6462 6481 6482 
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 3585 8 } #"Armagh"
+		buildings = {
+			infrastructure = 2
+		}
 	}
-	provinces={
-		760 1104 1324 1897 2843 3533 3585 4064 4786 6418 6427 6432 6440 6448 6454 6462 6481 6482 
-	}
+	resources = { silicates = 15 }
 	manpower=14097
 	buildings_max_level_factor=1.000
 	state_category=small_town

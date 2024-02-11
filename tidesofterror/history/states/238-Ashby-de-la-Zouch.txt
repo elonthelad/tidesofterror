@@ -10,6 +10,9 @@ state={
 		victory_points = { 7449 7 } #"Coalville"
 		victory_points = { 7423 4 } #"Ashby-de-la-Zouch"
 		victory_points = { 7447 2 } #"Measham"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=73299
 	buildings_max_level_factor=1.000

@@ -14,6 +14,9 @@ state={
 		victory_points = { 7288 2 } #"Afon Wen"
 		victory_points = { 7328 2 } #"Abersoch"
 		victory_points = { 896 3 } #"Criccieth"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=24345
 	buildings_max_level_factor=1.000

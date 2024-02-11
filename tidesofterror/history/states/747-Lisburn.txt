@@ -7,6 +7,9 @@ state={
 		add_core_of = EIR
 		victory_points = { 4199 30 } #"Lisburn"
 		victory_points = { 4543 16 } #"Dunmurry"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	provinces={
 		1672 2404 3829 4199 4543 5271 5486 6347 6367 

@@ -10,6 +10,9 @@ state={
 		add_core_of = EIR
 		victory_points = { 3362 5 } #"Mallow"
 		victory_points = { 449 4 } #"Charleville"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=33219
 	buildings_max_level_factor=1.000

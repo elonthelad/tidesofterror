@@ -11,6 +11,9 @@ state={
 		victory_points = { 3100 3 } #"Knutsford"
 		victory_points = { 7029 4 } #"Wilmslow"
 		victory_points = { 4170 3 } #"Altrincham"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=26217
 	buildings_max_level_factor=1.000

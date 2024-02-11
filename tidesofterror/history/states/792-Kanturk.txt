@@ -9,7 +9,11 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 3103 1 } #"Kanturk"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { coal = 10 }
 	manpower=4608
 	buildings_max_level_factor=1.000
 	state_category=pastoral

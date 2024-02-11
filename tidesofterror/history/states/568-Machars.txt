@@ -11,7 +11,11 @@ state={
 		add_core_of = SCO
 		victory_points = { 1994 2 } #"Wigtown"
 		victory_points = { 4933 1 } #"Garlieston"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { timber = 15 }
 	manpower=7860
 	buildings_max_level_factor=1.000
 	state_category=pastoral

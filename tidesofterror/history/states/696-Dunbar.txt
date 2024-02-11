@@ -10,6 +10,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 4058 6 } #"Dunbar"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=5070
 	buildings_max_level_factor=1.000

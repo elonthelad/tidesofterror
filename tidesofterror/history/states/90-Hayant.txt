@@ -10,6 +10,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 1049 10 } #"Hayling Island"
 		victory_points = { 1623 18 } #"Hayant"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=139389
 	buildings_max_level_factor=1.000

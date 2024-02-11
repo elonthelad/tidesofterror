@@ -10,7 +10,11 @@ state={
 		add_core_of = SCO
 		victory_points = { 2476 5 } #"Cumnock"
 		victory_points = { 3205 1 } #"Mansfield"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { steel = 30 }
 	manpower=6399
 	buildings_max_level_factor=1.000
 	state_category=small_town

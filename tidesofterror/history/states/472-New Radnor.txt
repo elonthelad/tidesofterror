@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		add_claim_by = WAL
 		victory_points = { 7756 1 } #"New Radnor"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=3564
 	buildings_max_level_factor=1.000

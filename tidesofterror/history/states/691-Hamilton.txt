@@ -11,7 +11,11 @@ state={
 		victory_points = { 1164 20 } #"Hamilton"
 		victory_points = { 1599 8 } #"Blantyre"
 		victory_points = { 6008 6 } #"East Kilbride"
+		buildings = {
+			infrastructure = 3
+		}
 	}
+	resources = { steel = 10 }
 	manpower=34473
 	buildings_max_level_factor=1.000
 	state_category=large_town

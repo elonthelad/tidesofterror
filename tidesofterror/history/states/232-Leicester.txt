@@ -12,6 +12,9 @@ state={
 		victory_points = { 7534 5 } #"Wigston"
 		victory_points = { 468 6 } #"New Humberstone"
 		victory_points = { 7503 3 } #"Glenfield"
+		buildings = {
+			infrastructure = 5
+		}
 	}
 	manpower=231990
 	buildings_max_level_factor=1.000

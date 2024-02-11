@@ -12,7 +12,11 @@ state={
 		victory_points = { 4487 10 } #"Newcastle-under-Lyme"
 		victory_points = { 4838 12 } #"Blythe Bridge"
 		victory_points = { 7243 14 } #"Hanley"
+		buildings = {
+			infrastructure = 4
+		}
 	}
+	resources = { steel = 15 }
 	manpower=242031
 	buildings_max_level_factor=1.000
 	state_category=city

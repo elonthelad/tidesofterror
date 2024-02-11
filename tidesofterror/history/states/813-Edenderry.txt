@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 4850 6 } #"Edenderry"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=17337
 	buildings_max_level_factor=1.000

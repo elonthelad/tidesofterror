@@ -11,6 +11,9 @@ state={
 		victory_points = { 7004 14 } #"Great Sankey"
 		victory_points = { 6990 12 } #"Bruche"
 		victory_points = { 6969 12 } #"Newton-le-Willows"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=72363
 	buildings_max_level_factor=1.000

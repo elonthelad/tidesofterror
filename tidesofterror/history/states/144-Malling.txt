@@ -9,7 +9,11 @@ state={
 		add_core_of = ENG
 		victory_points = { 4837 8 } #"Kings Hill"
 		victory_points = { 839 10 } #"Mailing"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { timber = 10 }
 	manpower=127773
 	buildings_max_level_factor=1.000
 	state_category=small_town

@@ -6,6 +6,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 3414 10 } #"Enniskillen"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	provinces={
 		735 932 974 1873 2444 3058 3414 3588 4935 5395 6397 6404 6452 12017 

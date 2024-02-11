@@ -9,7 +9,11 @@ state={
 		add_core_of = ENG
 		victory_points = { 1585 12 } #"Rownhams"
 		victory_points = { 5370 3 } #"Stockbridge"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { timber = 20 }
 	manpower=22608
 	buildings_max_level_factor=1.000
 	state_category=pastoral

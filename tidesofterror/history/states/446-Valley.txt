@@ -10,6 +10,9 @@ state={
 		add_claim_by = WAL
 		victory_points = { 933 5 } #"Holyhead"
 		victory_points = { 16 3 } #"Valley"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=14607
 	buildings_max_level_factor=1.000

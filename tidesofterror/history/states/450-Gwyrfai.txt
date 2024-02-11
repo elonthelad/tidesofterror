@@ -11,6 +11,9 @@ state={
 		victory_points = { 1806 4 } #"Caernarfon"
 		victory_points = { 3537 2 } #"Llanberis"
 		victory_points = { 2279 3 } #"Penygroes"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=16929
 	buildings_max_level_factor=1.000

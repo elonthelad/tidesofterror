@@ -10,6 +10,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 1600 2 } #"Mawsley"
 		victory_points = { 7721 3 } #"Brixworth"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=11409
 	buildings_max_level_factor=1.000

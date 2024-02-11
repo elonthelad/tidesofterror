@@ -8,7 +8,11 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 2909 20 } #"Kidderminster"
+		buildings = {
+			infrastructure = 3
+		}
 	}
+	resources = { steel = 35 }
 	manpower=66456
 	buildings_max_level_factor=1.000
 	state_category=large_town

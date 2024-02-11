@@ -10,6 +10,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 3147 4 } #"Ashton-under-Lyne"
 		victory_points = { 6838 6 } #"Huddersfield"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=16182
 	buildings_max_level_factor=1.000

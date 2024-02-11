@@ -10,6 +10,7 @@ state={
 		victory_points = { 952 15 } #"Bexleyheath"
 		victory_points = { 3971 12 } #"Erith"
 		buildings = {
+			infrastructure = 4
 			dockyard = 2
 		}
 	}

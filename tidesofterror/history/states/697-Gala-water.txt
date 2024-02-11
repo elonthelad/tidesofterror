@@ -11,6 +11,9 @@ state={
 		add_core_of = SCO
 		victory_points = { 3547 2 } #"Lauder"
 		victory_points = { 5989 4 } #"Gorebridge"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=4083
 	buildings_max_level_factor=1.000

@@ -11,6 +11,9 @@ state={
 		victory_points = { 2141 8 } #"Lillington"
 		victory_points = { 7748 8 } #"Royal Leamington Spa"
 		victory_points = { 7726 10 } #"Warwick"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=74028
 	buildings_max_level_factor=1.000

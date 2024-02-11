@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 2828 2 } #"Grange-over-Sands"
 		victory_points = { 4006 6 } #"Ulverston"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=23811
 	buildings_max_level_factor=1.000

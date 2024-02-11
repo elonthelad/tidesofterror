@@ -11,7 +11,11 @@ state={
 		victory_points = { 4188 14 } #"West Bromwich"
 		victory_points = { 4922 12 } #"Stourbridge"
 		victory_points = { 1574 12 } #"Coseley"
+		buildings = {
+			infrastructure = 5
+		}
 	}
+	resources = { steel = 30 }
 	manpower=309918
 	buildings_max_level_factor=1.000
 	state_category=urban_borough

@@ -11,6 +11,9 @@ state={
 		victory_points = { 5467 10 } #"Maldon"
 		victory_points = { 2400 8 } #"Woodham Ferrers"
 		victory_points = { 8050 3 } #"Tiptree"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=23706
 	buildings_max_level_factor=1.000

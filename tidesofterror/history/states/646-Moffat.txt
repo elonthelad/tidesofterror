@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 1904 2 } #"Moffat"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=4122
 	buildings_max_level_factor=1.000

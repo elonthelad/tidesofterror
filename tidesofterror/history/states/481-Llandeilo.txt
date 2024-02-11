@@ -12,6 +12,9 @@ state={
 		victory_points = { 291 2 } #"Llandovery"
 		victory_points = { 4127 6 } #"Ammanford"
 		victory_points = { 8001 3 } #"Glanaman"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=18960
 	buildings_max_level_factor=1.000

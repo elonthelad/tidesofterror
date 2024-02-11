@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 4173 1 } #"Mount William"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=5907
 	buildings_max_level_factor=1.000

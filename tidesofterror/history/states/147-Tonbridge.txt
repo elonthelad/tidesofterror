@@ -8,7 +8,11 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 2648 18 } #"Tonbridge"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { timber = 10 }
 	manpower=112050
 	buildings_max_level_factor=1.000
 	state_category=small_town

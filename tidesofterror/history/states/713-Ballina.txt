@@ -12,6 +12,9 @@ state={
 		set_state_flag = fenian_sentiment
 		victory_points = { 6445 6 } #"Ballina"
 		victory_points = { 2849 4 } #"Crossmolina"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=37602
 	buildings_max_level_factor=1.000

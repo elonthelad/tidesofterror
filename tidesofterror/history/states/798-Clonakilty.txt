@@ -10,6 +10,9 @@ state={
 		add_core_of = EIR
 		victory_points = { 7920 4 } #"Clonakilty"
 		victory_points = { 2463 1 } #"Cappeen"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=17430
 	buildings_max_level_factor=1.000

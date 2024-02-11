@@ -11,7 +11,11 @@ state={
 		victory_points = { 6817 3 } #"Ossett"
 		victory_points = { 4886 4 } #"Wakefield"
 		victory_points = { 6804 3 } #"Normanton"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { steel = 25 coal = 20 silicates = 15}
 	manpower=22107
 	buildings_max_level_factor=1.000
 	state_category=small_town

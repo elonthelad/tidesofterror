@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 1674 1 } #"Birse"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=1110
 	buildings_max_level_factor=1.000

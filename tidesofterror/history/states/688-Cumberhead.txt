@@ -10,7 +10,11 @@ state={
 		add_core_of = SCO
 		victory_points = { 4489 4 } #"Strathaven"
 		victory_points = { 2564 3 } #"Stonehouse"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { steel = 30 }
 	manpower=5055
 	buildings_max_level_factor=1.000
 	state_category=pastoral

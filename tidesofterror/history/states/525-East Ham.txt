@@ -8,6 +8,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 4192 18 } #"Barking"
+		buildings = {
+			infrastructure = 5
+		}
 	}
 	manpower=145185
 	buildings_max_level_factor=1.000

@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		add_claim_by = WAL
 		victory_points = { 3701 3 } #"Chirk"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=6360
 	buildings_max_level_factor=1.000

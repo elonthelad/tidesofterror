@@ -9,7 +9,11 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 3435 8 } #"Letterkenny"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { silicates = 10 }
 	manpower=21522
 	buildings_max_level_factor=1.000
 	state_category=small_town

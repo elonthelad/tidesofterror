@@ -10,6 +10,9 @@ state={
 		add_core_of = EIR
 		victory_points = { 4765 12 } #"Strabane"
 		victory_points = { 4413 2 } #"Newtownstewart"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=23493
 	buildings_max_level_factor=1.000

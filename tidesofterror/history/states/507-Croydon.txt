@@ -9,12 +9,16 @@ state={
 		victory_points = { 4593 10 } #"Wickham"
 		victory_points = { 8312 16 } #"Croydon"
 		victory_points = { 665 3 } #"Warlingham"
+		buildings = {
+			infrastructure = 2
+		}
 
 	}
 
 	provinces={
 		665 1656 4593 4642 5247 8312 8321 8357 
 	}
+	resources = { timber = 5 }
 	manpower=134499
 	buildings_max_level_factor=1.000
 	state_category=small_town

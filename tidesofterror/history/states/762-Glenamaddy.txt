@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 203 1 } #"Mountbellew"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=6531
 	buildings_max_level_factor=1.000

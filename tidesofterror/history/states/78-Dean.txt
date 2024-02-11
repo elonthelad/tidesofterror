@@ -9,7 +9,11 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 5523 4 } #"Mitcheldean"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { timber = 15 }
 	manpower=17490
 	buildings_max_level_factor=1.000
 	state_category=pastoral

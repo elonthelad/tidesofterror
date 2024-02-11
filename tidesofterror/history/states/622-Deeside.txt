@@ -11,6 +11,9 @@ state={
 		victory_points = { 1613 1 } #"Aboyne"
 		victory_points = { 2500 2 } #"Ballater"
 		victory_points = { 5770 2 } #"Braemar"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=4359
 	buildings_max_level_factor=1.000

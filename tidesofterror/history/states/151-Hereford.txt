@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 7876 20 } #"Hereford"
 		victory_points = { 1158 8 } #"Belmont"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=67710
 	buildings_max_level_factor=1.000

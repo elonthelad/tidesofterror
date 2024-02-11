@@ -11,7 +11,11 @@ state={
 		victory_points = { 6020 7 } #"Larkhall"
 		victory_points = { 1957 4 } #"Kirkmuirhill"
 		victory_points = { 1437 2 } #"Lesmahagow"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { steel = 25 }
 	manpower=19338
 	buildings_max_level_factor=1.000
 	state_category=small_town

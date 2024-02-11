@@ -10,6 +10,9 @@ state={
 		victory_points = { 362 8 } #"Letchworth"
 		victory_points = { 7949 8 } #"Hitchin"
 		victory_points = { 5023 4 } #"Shefford"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=93942
 	buildings_max_level_factor=1.000

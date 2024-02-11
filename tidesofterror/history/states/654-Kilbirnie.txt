@@ -12,6 +12,9 @@ state={
 		victory_points = { 6022 8 } #"Kilbirnie"
 		victory_points = { 615 4 } #"Stewarton"
 		victory_points = { 82 2 } #"Lochwinnoch"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=13716
 	buildings_max_level_factor=1.000

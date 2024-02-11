@@ -8,6 +8,7 @@ state={
 		victory_points = { 4673 12 } #"Carrickfergus"
 		victory_points = { 3348 10 } #"Larne"
 		buildings = {
+			infrastructure = 3
 			4673 = { naval_base = 3 }
 		}
 	}

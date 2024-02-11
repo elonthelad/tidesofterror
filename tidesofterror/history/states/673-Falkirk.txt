@@ -1,4 +1,3 @@
-
 state={
 	id=673
 	name="STATE_673"
@@ -15,9 +14,11 @@ state={
 		victory_points = { 936 8 } #"Larbert"
 		victory_points = { 3005 5 } #"Denny"
 		buildings = {
+			infrastructure = 4
 			5944 = { naval_base = 2 }
 		}
 	}
+	resources = { steel = 20 }
 	manpower=94476
 	buildings_max_level_factor=1.000
 	state_category=city

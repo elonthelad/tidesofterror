@@ -11,6 +11,7 @@ state={
 		victory_points = { 1000 15 } #"Park Gate"
 		victory_points = { 8519 19 } #"Fareham"
 		buildings = {
+			infrastructure = 3
 			dockyard = 2
 		}
 	}

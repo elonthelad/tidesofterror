@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 1429 2 } #"Fortrose"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=2517
 	buildings_max_level_factor=1.000

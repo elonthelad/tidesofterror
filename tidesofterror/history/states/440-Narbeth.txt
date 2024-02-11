@@ -11,6 +11,9 @@ state={
 		victory_points = { 1301 2 } #"Tenby"
 		victory_points = { 1480 2 } #"Kilgetty"
 		victory_points = { 7986 3 } #"Narbeth"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=13962
 	buildings_max_level_factor=1.000

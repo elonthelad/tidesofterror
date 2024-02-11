@@ -8,6 +8,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 7855 2 } #"Whitney-on-Wye"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=6126
 	buildings_max_level_factor=1.000

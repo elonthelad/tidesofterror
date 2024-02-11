@@ -10,6 +10,7 @@ state={
 		add_core_of = ENG
 		victory_points = { 7298 20 } #"Boston"
 		buildings = {
+			infrastructure = 3
 			7304 = { naval_base = 1 }
 		}
 	}

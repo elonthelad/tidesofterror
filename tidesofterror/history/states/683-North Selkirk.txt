@@ -11,6 +11,9 @@ state={
 		victory_points = { 433 2 } #"Selkirk"
 		victory_points = { 893 4 } #"Galashiels"
 		victory_points = { 4033 3 } #"St. Boswells"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=6261
 	buildings_max_level_factor=1.000

@@ -12,6 +12,9 @@ state={
 		victory_points = { 4175 7 } #"West Calder"
 		victory_points = { 2545 8 } #"East Calder"
 		victory_points = { 2449 5 } #"Broxburn"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=57486
 	buildings_max_level_factor=1.000

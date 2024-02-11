@@ -9,7 +9,11 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 5993 10 } #"Roughmussel"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { steel = 20 }
 	manpower=13443
 	buildings_max_level_factor=1.000
 	state_category=small_town

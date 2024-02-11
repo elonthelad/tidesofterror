@@ -7,6 +7,9 @@ state={
 		add_core_of = EIR
 		victory_points = { 4421 2 } #"Macosquin"
 		victory_points = { 3249 2 } #"Garvagh"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	provinces={
 		1268 1352 1725 3136 3249 3250 4421 5113 6121 6147 6154 6167 6175 6209 6216 

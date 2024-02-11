@@ -12,7 +12,11 @@ state={
 		victory_points = { 5655 4 } #"Keith"
 		victory_points = { 2021 2 } #"Fochabers"
 		victory_points = { 5636 1 } #"Cullen"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { timber = 5 }
 	manpower=6843
 	buildings_max_level_factor=1.000
 	state_category=small_town

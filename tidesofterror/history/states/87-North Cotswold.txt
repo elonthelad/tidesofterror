@@ -9,6 +9,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 1750 2 } #"Moreton-in-Marsh"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=13494
 	buildings_max_level_factor=1.000

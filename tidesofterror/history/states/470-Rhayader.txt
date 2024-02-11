@@ -10,6 +10,9 @@ state={
 		add_core_of = ENG
 		add_claim_by = WAL
 		victory_points = { 7703 2 } #"Rhayader"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=3723
 	buildings_max_level_factor=1.000

@@ -10,6 +10,9 @@ state={
 		add_core_of = SCO
 		victory_points = { 1632 2 } #"Coldstream"
 		victory_points = { 450 4 } #"Kelso"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=5817
 	buildings_max_level_factor=1.000

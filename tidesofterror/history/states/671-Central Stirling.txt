@@ -11,6 +11,9 @@ state={
 		victory_points = { 5924 20 } #"Stirling"
 		victory_points = { 5919 6 } #"Bridge of Allan"
 		victory_points = { 5931 3 } #"Bannockburn"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=24285
 	buildings_max_level_factor=1.000

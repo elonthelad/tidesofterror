@@ -10,6 +10,9 @@ state={
 		add_core_of = EIR
 		victory_points = { 2858 10 } #"Athlone"
 		victory_points = { 6845 1 } #"Moate"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=34128
 	buildings_max_level_factor=1.000

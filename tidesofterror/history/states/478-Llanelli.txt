@@ -1,4 +1,3 @@
-
 state={
 	id=478
 	name="STATE_478"
@@ -16,9 +15,11 @@ state={
 		victory_points = { 4165 4 } #"Gorslas"
 		victory_points = { 4392 3 } #"Pontyates"
 		buildings = {
+			infrastructure = 3
 			8082 = { naval_base = 3 }
 		}
 	}
+	resources = { coal = 30 }
 	manpower=47610
 	buildings_max_level_factor=1.000
 	state_category=large_town

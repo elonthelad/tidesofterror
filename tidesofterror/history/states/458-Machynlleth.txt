@@ -10,6 +10,9 @@ state={
 		add_claim_by = WAL
 		victory_points = { 35 2 } #"Machynlleth"
 		victory_points = { 3896 1 } #"Llanbrynmair"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=7905
 	buildings_max_level_factor=1.000

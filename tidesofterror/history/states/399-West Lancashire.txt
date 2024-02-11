@@ -12,6 +12,9 @@ state={
 		victory_points = { 6888 5 } #"Skelmersdale"
 		victory_points = { 465 7 } #"Kirkby"
 		victory_points = { 13 15 } #"Aintree"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=61608
 	buildings_max_level_factor=1.000

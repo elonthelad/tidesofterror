@@ -11,6 +11,9 @@ state={
 		victory_points = { 2970 3 } #"Anstruther"
 		victory_points = { 298 3 } #"Crail"
 		victory_points = { 4795 2 } #"Lundin Links"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=5436
 	buildings_max_level_factor=1.000

@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 7596 8 } #"Market Harborough"
 		victory_points = { 408 2 } #"Fleckney"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=39132
 	buildings_max_level_factor=1.000

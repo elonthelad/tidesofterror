@@ -10,6 +10,9 @@ state={
 		victory_points = { 6299 5 } #"Chester-le-Street"
 		victory_points = { 2080 4 } #"Stanley"
 		victory_points = { 6268 6 } #"Whickham"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=57249
 	buildings_max_level_factor=1.000

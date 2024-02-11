@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 7644 3 } #"Balsall Common"
 		victory_points = { 3437 2 } #"Arley"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=13740
 	buildings_max_level_factor=1.000

@@ -11,6 +11,9 @@ state={
 		victory_points = { 397 4 } #"New Quay"
 		victory_points = { 7798 3 } #"Lampeter"
 		victory_points = { 4163 3 } #"Aberaeron"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=19611
 	buildings_max_level_factor=1.000

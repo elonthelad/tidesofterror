@@ -10,6 +10,9 @@ state={
 		victory_points = { 5328 12 } #"Ashby"
 		victory_points = { 6893 8 } #"Brumby"
 		victory_points = { 847 20 } #"Scunthorpe"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=171561
 	buildings_max_level_factor=1.000

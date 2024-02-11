@@ -12,7 +12,11 @@ state={
 		victory_points = { 8579 6 } #"Kingsteignton"
 		victory_points = { 8585 3 } #"Teignmouth"
 		victory_points = { 4234 3 } #"Dawlish"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { timber = 15 }
 	manpower=35559
 	buildings_max_level_factor=1.000
 	state_category=small_town

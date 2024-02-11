@@ -9,6 +9,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 132 3 } #"Dulverton"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=13482
 	buildings_max_level_factor=1.000

@@ -13,6 +13,9 @@ state={
 		victory_points = { 3076 8 } #"Rhosllanerchrugog"
 		victory_points = { 7274 4 } #"Newbridge"
 		victory_points = { 7207 3 } #"Coedpoeth"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=51321
 	buildings_max_level_factor=1.000

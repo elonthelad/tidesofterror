@@ -10,6 +10,7 @@ state={
 		add_core_of = EIR
 		victory_points = { 5483 12 } #"Sligo"
 		buildings = {
+			infrastructure = 3
 			5483 = { naval_base = 2 }
 		}
 	}

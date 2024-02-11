@@ -10,7 +10,11 @@ state={
 		victory_points = { 5473 4 } #"Alfreton"
 		victory_points = { 219 5 } #"Heanor"
 		victory_points = { 7267 5 } #"Belper"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { silicates = 15 timber = 5}
 	manpower=18465
 	buildings_max_level_factor=1.000
 	state_category=pastoral

@@ -9,6 +9,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 3242 2 } #"Todmorden"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=5511
 	buildings_max_level_factor=1.000

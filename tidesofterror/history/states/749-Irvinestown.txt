@@ -10,6 +10,9 @@ state={
 		victory_points = { 1112 2 } #"Ederney"
 		victory_points = { 6372 1 } #"Ballycassidy"
 		victory_points = { 484 1 } #"Derrygonnelly"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	provinces={
 		76 484 1112 2561 2812 3574 3865 4185 6304 6310 6328 6340 6348 6352 6371 6372 12010 

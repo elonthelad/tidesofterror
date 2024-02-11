@@ -11,6 +11,9 @@ state={
 		victory_points = { 6989 10 } #"Wallasey"
 		victory_points = { 3709 8 } #"Moreton"
 		victory_points = { 5310 6 } #"Bebington"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=98403
 	buildings_max_level_factor=1.000

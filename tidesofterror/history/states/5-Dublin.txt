@@ -20,6 +20,8 @@ state={
 		victory_points = { 6882 8 } #"Rosemount"
 		victory_points = { 6903 12 } #"Santry"
 		buildings = {
+			infrastructure = 5
+			dockyard = 4
 			4077 = { naval_base = 8 }
 		}
 	}

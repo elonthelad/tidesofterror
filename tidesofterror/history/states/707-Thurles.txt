@@ -13,6 +13,9 @@ state={
 		victory_points = { 2162 6 } #"Thurles"
 		victory_points = { 4242 3 } #"Templemore"
 		victory_points = { 7272 2 } #"Urlingford"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=36261
 	buildings_max_level_factor=1.000

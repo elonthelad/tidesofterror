@@ -8,6 +8,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 7999 5 } #"Bishop's Stortford"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=36747
 	buildings_max_level_factor=1.000

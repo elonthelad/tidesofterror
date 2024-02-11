@@ -11,6 +11,9 @@ state={
 		victory_points = { 3742 6 } #"Fazeley"
 		victory_points = { 7527 16 } #"Wilnecote"
 		victory_points = { 4244 16 } #"Tamworth"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=85161
 	buildings_max_level_factor=1.000

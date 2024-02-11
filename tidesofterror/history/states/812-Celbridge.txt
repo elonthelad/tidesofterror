@@ -10,6 +10,9 @@ state={
 		add_core_of = EIR
 		victory_points = { 1544 4 } #"Maynooth"
 		victory_points = { 2606 3 } #"Celbridge"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=23406
 	buildings_max_level_factor=1.000

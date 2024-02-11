@@ -9,11 +9,15 @@ state={
 		victory_points = { 8341 10 } #"Chessington"
 		victory_points = { 2368 12 } #"Surbiton"
 		victory_points = { 701 8 } #"Sutton"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 
 	provinces={
 		701 2368 2725 3305 3413 3879 8309 8326 8341 
 	}
+	resources = { timber = 15 }
 	manpower=74334
 	buildings_max_level_factor=1.000
 	state_category=small_town

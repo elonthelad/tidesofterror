@@ -9,7 +9,11 @@ state={
 		add_core_of = ENG
 		victory_points = { 3492 12 } #"Waterlooville"
 		victory_points = { 1160 5 } #"Shedfield"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { timber = 15 }
 	manpower=31887
 	buildings_max_level_factor=1.000
 	state_category=small_town

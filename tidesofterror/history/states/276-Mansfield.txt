@@ -10,7 +10,11 @@ state={
 		victory_points = { 7172 6 } #"Mansfield Woodhouse"
 		victory_points = { 81 8 } #"Mansfield"
 		victory_points = { 7178 8 } #"Sutton-in-Ashfield"
+		buildings = {
+			infrastructure = 3
+		}
 	}
+	resources = { silicates = 5 }
 	manpower=61749
 	buildings_max_level_factor=1.000
 	state_category=large_town

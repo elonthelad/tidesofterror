@@ -12,6 +12,7 @@ state={
 		victory_points = { 7887 20 } #"Ipswich"
 		victory_points = { 7907 8 } #"Gainsborough"
 		buildings = {
+			infrastructure = 4
 			7907 = { naval_base = 1 }
 		}
 	}

@@ -10,7 +10,11 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 4780 2 } #"Grantown-on-Spey"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { timber = 10 }
 	manpower=2574
 	buildings_max_level_factor=1.000
 	state_category=pastoral

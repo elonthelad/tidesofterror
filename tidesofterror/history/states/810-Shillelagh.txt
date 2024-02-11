@@ -10,7 +10,11 @@ state={
 		add_core_of = EIR
 		victory_points = { 7244 3 } #"Aughrim"
 		victory_points = { 7165 1 } #"Dunlavin"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { silicates = 25 }
 	manpower=13518
 	buildings_max_level_factor=1.000
 	state_category=pastoral

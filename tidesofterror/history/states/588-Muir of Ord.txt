@@ -10,6 +10,9 @@ state={
 		add_core_of = SCO
 		victory_points = { 4950 3 } #"Muir of Ord"
 		victory_points = { 3189 1 } #"Beauly"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=2358
 	buildings_max_level_factor=1.000

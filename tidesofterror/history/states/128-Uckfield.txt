@@ -8,7 +8,11 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 4332 6 } #"Uckfield"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { timber = 20 }
 	manpower=41907
 	buildings_max_level_factor=1.000
 	state_category=pastoral

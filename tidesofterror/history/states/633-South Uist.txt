@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 520 1 } #"Castlebay"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=834
 	buildings_max_level_factor=1.000

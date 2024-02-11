@@ -6,6 +6,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 2022 2 } #"Ballygawley"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	provinces={
 		371 1003 1292 1337 1545 1563 1764 2022 3367 3809 5070 6365 6379 6380 6384 6410 

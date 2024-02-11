@@ -14,6 +14,7 @@ state={
 		victory_points = { 4 3 } #"Inverkip"
 		victory_points = { 2633 4 } #"Largs"
 		buildings = {
+			infrastructure = 2
 			4432 = { naval_base = 1 }
 		}
 	}

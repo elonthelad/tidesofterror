@@ -9,7 +9,11 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 4939 1 } #"Stormness"
+		buildings = {
+			infrastructure = 0
+		}
 	}
+	resources = { silicates = 10 }
 	manpower=1128
 	buildings_max_level_factor=1.000
 	state_category=small_island

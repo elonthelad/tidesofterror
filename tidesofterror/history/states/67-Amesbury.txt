@@ -9,6 +9,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 4788 10 } #"Amesbury"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=57975
 	buildings_max_level_factor=1.000

@@ -11,6 +11,9 @@ state={
 		victory_points = { 945 2 } #"Alness"
 		victory_points = { 5620 1 } #"Invergordon"
 		victory_points = { 124 1 } #"Tain"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=5013
 	buildings_max_level_factor=1.000

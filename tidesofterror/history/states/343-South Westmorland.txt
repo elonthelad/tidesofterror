@@ -11,7 +11,11 @@ state={
 		victory_points = { 254 8 } #"Kendal"
 		victory_points = { 5391 2 } #"Sizergh"
 		victory_points = { 4645 2 } #"Staveley"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { silicates = 20 }
 	manpower=28395
 	buildings_max_level_factor=1.000
 	state_category=small_town

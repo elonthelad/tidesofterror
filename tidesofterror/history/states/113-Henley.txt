@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 3388 8 } #"Henley-on-Thames"
 		victory_points = { 8236 8 } #"Caversham"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=58371
 	buildings_max_level_factor=1.000

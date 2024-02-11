@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 4797 1 } #"Rosehall"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=1836
 	buildings_max_level_factor=1.000

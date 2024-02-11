@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 6587 14 } #"Dundalk"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=49869
 	buildings_max_level_factor=1.000

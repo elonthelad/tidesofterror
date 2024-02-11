@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 1770 2 } #"Croom"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=8715
 	buildings_max_level_factor=1.000

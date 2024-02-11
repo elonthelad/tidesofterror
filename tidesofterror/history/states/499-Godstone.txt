@@ -5,10 +5,14 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 2296 3 } #"Godstone"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	provinces={
 		770 2296 2328 2829 3957 8358 8376 
 	}
+	resources = { timber = 10 }
 	manpower=10926
 	buildings_max_level_factor=1.000
 	state_category=pastoral

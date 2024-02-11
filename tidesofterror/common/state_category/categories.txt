@@ -1,5 +1,5 @@
 state_categories={
-	ruins = {
+	ruins = {#To be used with set_state_category 
 		local_building_slots = 0
 		color = { 40 40 40 }
 	}

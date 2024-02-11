@@ -12,6 +12,9 @@ state={
 		victory_points = { 6421 14 } #"Stainton"
 		victory_points = { 1965 12 } #"Ormesby"
 		victory_points = { 1277 12 } #"Lazenby"
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	manpower=191907
 	buildings_max_level_factor=1.000

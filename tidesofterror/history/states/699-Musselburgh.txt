@@ -12,6 +12,9 @@ state={
 		victory_points = { 4151 20 } #"Dalkeith"
 		victory_points = { 5972 16 } #"Danderhall"
 		victory_points = { 5990 4 } #"Bonnyrigg"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=41850
 	buildings_max_level_factor=1.000

@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 1332 6 } #"Newhaven"
 		victory_points = { 8507 3 } #"Tarring Neville"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=59868
 	buildings_max_level_factor=1.000

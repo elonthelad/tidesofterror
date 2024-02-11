@@ -11,6 +11,9 @@ state={
 		victory_points = { 2336 2 } #"Salcombe"
 		victory_points = { 8609 3 } #"Kingsbridge"
 		victory_points = { 8603 4 } #"Dartmouth"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=6603
 	buildings_max_level_factor=1.000

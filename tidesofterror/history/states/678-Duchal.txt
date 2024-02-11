@@ -12,6 +12,9 @@ state={
 		victory_points = { 341 4 } #"Barrhead"
 		victory_points = { 857 6 } #"Elderslie"
 		victory_points = { 5983 6 } #"Bridge of Weir"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=23775
 	buildings_max_level_factor=1.000

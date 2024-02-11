@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 2920 8 } #"Chippenham"
 		victory_points = { 8253 6 } #"Corsham"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=25647
 	buildings_max_level_factor=1.000

@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 3396 3 } #"Thomastown"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=7806
 	buildings_max_level_factor=1.000

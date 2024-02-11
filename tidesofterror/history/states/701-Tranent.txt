@@ -11,6 +11,9 @@ state={
 		victory_points = { 5965 10 } #"Tranent"
 		victory_points = { 2416 5 } #"Longniddry"
 		victory_points = { 911 4 } #"Pencaitland"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=8682
 	buildings_max_level_factor=1.000

@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 490 6 } #"Hexham"
 		victory_points = { 320 1 } #"Allendale Town"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=11445
 	buildings_max_level_factor=1.000

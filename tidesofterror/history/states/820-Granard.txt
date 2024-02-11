@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 6642 1 } #"Granard"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=4953
 	buildings_max_level_factor=1.000

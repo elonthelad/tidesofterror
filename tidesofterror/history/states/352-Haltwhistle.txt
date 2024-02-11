@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 3977 2 } #"Haltwhistle"
 		victory_points = { 6240 2 } #"Bardon Mill"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=6429
 	buildings_max_level_factor=1.000

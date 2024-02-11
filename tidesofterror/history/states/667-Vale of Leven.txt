@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 4295 10 } #"Alexandria"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=12021
 	buildings_max_level_factor=1.000

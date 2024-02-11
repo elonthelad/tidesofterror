@@ -11,6 +11,9 @@ state={
 		victory_points = { 944 2 } #"Tobermory"
 		victory_points = { 8645 1 } #"Baile Mor"
 		victory_points = { 409 1 } #"Craignure"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=2088
 	buildings_max_level_factor=1.000

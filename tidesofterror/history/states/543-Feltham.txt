@@ -10,6 +10,9 @@ state={
 		victory_points = { 8248 15 } #"Ashford"
 		victory_points = { 8230 6 } #"Heathrow"
 		victory_points = { 4224 12 } #"Littleton"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=199386
 	buildings_max_level_factor=1.000

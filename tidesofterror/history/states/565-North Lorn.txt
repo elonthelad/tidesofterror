@@ -11,6 +11,9 @@ state={
 		add_core_of = SCO
 		victory_points = { 144 1 } #"Glencoe"
 		victory_points = { 1616 1 } #"Benderloch"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=2214
 	buildings_max_level_factor=1.000

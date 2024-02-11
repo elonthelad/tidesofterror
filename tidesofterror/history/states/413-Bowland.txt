@@ -9,6 +9,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 678 7 } #"Clitheroe"
 		victory_points = { 2588 3 } #"Barnoldswick"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=11439
 	buildings_max_level_factor=1.000

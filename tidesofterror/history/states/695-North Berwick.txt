@@ -11,6 +11,9 @@ state={
 		add_core_of = SCO
 		victory_points = { 4092 3 } #"North Berwick"
 		victory_points = { 1278 2 } #"East Linton"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=3219
 	buildings_max_level_factor=1.000

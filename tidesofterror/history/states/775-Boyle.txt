@@ -9,7 +9,11 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 1572 2 } #"Boyle"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { timber = 15 }
 	manpower=8922
 	buildings_max_level_factor=1.000
 	state_category=pastoral

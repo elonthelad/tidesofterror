@@ -11,6 +11,7 @@ state={
 		victory_points = { 5091 3 } #"Amlwch"
 		victory_points = { 2006 4 } #"Llangefni"
 		buildings = {
+			infrastructure = 2
 			2654 = { naval_base = 1 }
 		}
 	}

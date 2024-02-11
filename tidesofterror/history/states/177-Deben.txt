@@ -10,6 +10,9 @@ state={
 		victory_points = { 7862 3 } #"Woodbridge"
 		victory_points = { 7883 5 } #"Martlesham"
 		victory_points = { 7941 5 } #"Felixstowe"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=65163
 	buildings_max_level_factor=1.000

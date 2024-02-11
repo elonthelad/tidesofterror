@@ -11,7 +11,11 @@ state={
 		victory_points = { 7053 7 } #"Rhyl"
 		victory_points = { 2267 6 } #"Prestatyn"
 		victory_points = { 7059 2 } #"Talacre"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { timber = 8 }
 	manpower=25968
 	buildings_max_level_factor=1.000
 	state_category=small_town

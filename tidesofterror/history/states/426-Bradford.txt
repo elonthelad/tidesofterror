@@ -1,4 +1,3 @@
-
 state={
 	id=426
 	name="STATE_426"
@@ -11,7 +10,11 @@ state={
 		victory_points = { 3964 30 } #"Bradford"
 		victory_points = { 4481 14 } #"Shipley"
 		victory_points = { 4372 7 } #"Low Moor"
+		buildings = {
+			infrastructure = 4
+		}
 	}
+	resources = { silicates = 20 }
 	manpower=68157
 	buildings_max_level_factor=1.000
 	state_category=city

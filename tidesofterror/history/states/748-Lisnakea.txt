@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 6453 4 } #"Lisnaskea"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=6399
 	buildings_max_level_factor=1.000

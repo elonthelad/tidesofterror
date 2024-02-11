@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = SCO
 		victory_points = { 5966 1 } #"Craighouse"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=591
 	buildings_max_level_factor=1.000

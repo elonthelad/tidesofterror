@@ -14,6 +14,9 @@ state={
 		victory_points = { 7338 8 } #"Long Eaton"
 		victory_points = { 7313 5 } #"Sandiacre"
 		victory_points = { 7332 2 } #"Borrowash"
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	manpower=290757
 	buildings_max_level_factor=1.000

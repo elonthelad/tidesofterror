@@ -10,7 +10,11 @@ state={
 		add_core_of = SCO
 		victory_points = { 4131 1 } #"Drymen"
 		victory_points = { 5905 1 } #"Kinlochard"
+		buildings = {
+			infrastructure = 0
+		}
 	}
+	resources = { timber = 5 }
 	manpower=1812
 	buildings_max_level_factor=1.000
 	state_category=peaks

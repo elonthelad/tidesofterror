@@ -10,6 +10,9 @@ state={
 		add_core_of = SCO
 		victory_points = { 2355 4 } #"Forres"
 		victory_points = { 161 2 } #"Kinloss"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=4866
 	buildings_max_level_factor=1.000

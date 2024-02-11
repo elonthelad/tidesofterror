@@ -11,6 +11,9 @@ state={
 		victory_points = { 3669 1 } #"Invernaver"
 		victory_points = { 2986 1 } #"Tongue"
 		victory_points = { 5574 1 } #"Altnaharra"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=2793
 	buildings_max_level_factor=1.000

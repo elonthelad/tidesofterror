@@ -10,6 +10,9 @@ state={
 		victory_points = { 7578 12 } #"Hinckley"
 		victory_points = { 7561 3 } #"Earl Shilton"
 		victory_points = { 2008 4 } #"Ibstock"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=55854
 	buildings_max_level_factor=1.000

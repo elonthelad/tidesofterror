@@ -10,7 +10,11 @@ state={
 		add_core_of = EIR
 		victory_points = { 2319 12 } #"Portlaoise"
 		victory_points = { 768 4 } #"Abbeyleix"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { coal = 35 }
 	manpower=56847
 	buildings_max_level_factor=1.000
 	state_category=small_town

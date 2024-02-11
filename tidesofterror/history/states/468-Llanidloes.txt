@@ -13,6 +13,9 @@ state={
 		victory_points = { 3155 4 } #"Newtown"
 		victory_points = { 4872 2 } #"Tregynon"
 		victory_points = { 7572 1 } #"Kerry"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=19611
 	buildings_max_level_factor=1.000

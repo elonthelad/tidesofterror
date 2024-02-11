@@ -10,6 +10,9 @@ state={
 		add_core_of = EIR
 		victory_points = { 391 4 } #"Fermoy"
 		victory_points = { 671 5 } #"Mitchelstown"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=26049
 	buildings_max_level_factor=1.000

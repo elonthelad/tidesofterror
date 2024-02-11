@@ -10,6 +10,9 @@ state={
 		add_core_of = EIR
 		victory_points = { 6762 8 } #"Mullingar"
 		victory_points = { 948 1 } #"Kilbeggan"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=27438
 	buildings_max_level_factor=1.000

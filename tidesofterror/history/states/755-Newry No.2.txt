@@ -9,7 +9,11 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 6515 12 } #"Buttercrane"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { silicates = 15 }
 	manpower=20361
 	buildings_max_level_factor=1.000
 	state_category=small_town

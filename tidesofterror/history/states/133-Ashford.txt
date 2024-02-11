@@ -8,7 +8,11 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 5105 12 } #"Ashford"
+		buildings = {
+			infrastructure = 2
+		}
 	}
+	resources = { silicates = 10 }
 	manpower=69423
 	buildings_max_level_factor=1.000
 	state_category=small_town

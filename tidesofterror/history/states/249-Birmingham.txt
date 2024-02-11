@@ -15,6 +15,9 @@ state={
 		victory_points = { 7633 15 } #"Northfield"
 		victory_points = { 7575 12 } #"Old Oscott"
 		victory_points = { 4005 10 } #"Erdington"
+		buildings = {
+			infrastructure = 5
+		}
 	}
 	manpower=538203
 	buildings_max_level_factor=1.000

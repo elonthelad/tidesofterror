@@ -10,6 +10,9 @@ state={
 		add_core_of = SCO
 		victory_points = { 971 2 } #"Bowmore"
 		victory_points = { 924 1 } #"Port Ellen"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=1293
 	buildings_max_level_factor=1.000

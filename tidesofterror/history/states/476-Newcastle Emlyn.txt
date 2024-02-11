@@ -10,6 +10,9 @@ state={
 		add_claim_by = WAL
 		victory_points = { 4729 3 } #"Newcastle Emlyn"
 		victory_points = { 7858 2 } #"Llanybydder"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=10695
 	buildings_max_level_factor=1.000

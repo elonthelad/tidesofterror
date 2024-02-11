@@ -10,6 +10,9 @@ state={
 		victory_points = { 1077 2 } #"Withernsea"
 		victory_points = { 3004 3 } #"Hedon"
 		victory_points = { 3637 2 } #"Hornsea"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=21213
 	buildings_max_level_factor=1.000

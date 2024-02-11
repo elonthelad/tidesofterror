@@ -7,6 +7,9 @@ state={
 		add_core_of = EIR
 		victory_points = { 3327 6 } #"Limavady"
 		victory_points = { 6185 2 } #"Dungiven"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	provinces={
 		102 570 903 1403 2156 3097 3327 3546 5114 5399 6159 6174 6185 6203 6220 

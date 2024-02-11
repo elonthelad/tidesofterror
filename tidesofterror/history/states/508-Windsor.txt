@@ -8,6 +8,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 8256 12 } #"Windsor"
 		victory_points = { 2918 15 } #"Englefield Green"
+		buildings = {
+			infrastructure = 3
+		}
 
 	}
 

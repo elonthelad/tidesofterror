@@ -11,6 +11,9 @@ state={
 		victory_points = { 7848 12 } #"Putnoe"
 		victory_points = { 3151 15 } #"Kempston"
 		victory_points = { 4216 6 } #"Sandy"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=199119
 	buildings_max_level_factor=1.000

@@ -10,6 +10,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 4968 16 } #"Bridgwater"
 		victory_points = { 3730 14 } #"East Bower"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=80136
 	buildings_max_level_factor=1.000

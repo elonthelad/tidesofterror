@@ -9,6 +9,9 @@ state={
 		add_claim_by = ENG
 		add_core_of = EIR
 		victory_points = { 2995 5 } #"New Ross"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=14862
 	buildings_max_level_factor=1.000

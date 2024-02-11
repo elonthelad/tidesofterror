@@ -12,6 +12,7 @@ state={
 		victory_points = { 75 3 } #"Port St. Mary"
 		victory_points = { 3392 2 } #"Peel"
 		buildings = {
+			infrastructure = 2
 			6549 = { naval_base = 2 }
 		}
 	}

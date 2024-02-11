@@ -10,6 +10,9 @@ state={
 		victory_points = { 5225 2 } #"Chinnor"
 		victory_points = { 8152 2 } #"Watlington"
 		victory_points = { 284 3 } #"Stadhampton"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=31530
 	buildings_max_level_factor=1.000

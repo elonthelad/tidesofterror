@@ -11,6 +11,7 @@ state={
 		victory_points = { 4705 4 } #"Minehead"
 		victory_points = { 3524 3 } #"Watchet"
 		buildings = {
+			infrastructure = 1
 			4705 = { naval_base = 1 }
 		}
 	}

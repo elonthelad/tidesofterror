@@ -12,6 +12,9 @@ state={
 		victory_points = { 2466 3 } #"Fraserburgh"
 		victory_points = { 5511 6 } #"Peterhead"
 		victory_points = { 2076 3 } #"Mintlaw"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=8487
 	buildings_max_level_factor=1.000

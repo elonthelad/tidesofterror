@@ -11,7 +11,11 @@ state={
 		victory_points = { 7528 14 } #"Oxley"
 		victory_points = { 2280 16 } #"Willenhall"
 		victory_points = { 7529 8 } #"Walsall"
+		buildings = {
+			infrastructure = 4
+		}
 	}
+	resources = { steel = 25 coal = 30 }
 	manpower=202644
 	buildings_max_level_factor=1.000
 	state_category=city

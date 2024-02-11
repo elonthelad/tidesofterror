@@ -10,6 +10,9 @@ state={
 		add_core_of = ENG
 		victory_points = { 6426 6 } #"Guisborough"
 		victory_points = { 3535 3 } #"Skelton-in-Cleveland"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=29646
 	buildings_max_level_factor=1.000

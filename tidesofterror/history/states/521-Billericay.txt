@@ -10,6 +10,9 @@ state={
 		victory_points = { 4847 3 } #"Canvey Island"
 		victory_points = { 8194 20 } #"Basildon"
 		victory_points = { 1952 8 } #"Billericay"
+		buildings = {
+			infrastructure = 4
+		}
 	}
 	manpower=94305
 	buildings_max_level_factor=1.000

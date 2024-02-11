@@ -10,6 +10,9 @@ state={
 		victory_points = { 5392 2 } #"Dalston"
 		victory_points = { 3 4 } #"Wigton"
 		victory_points = { 6321 2 } #"Aspatria"
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=14637
 	buildings_max_level_factor=1.000

@@ -10,6 +10,9 @@ state={
 		victory_points = { 4103 8 } #"Rochdale"
 		victory_points = { 6878 5 } #"Royton"
 		victory_points = { 6877 5 } #"Heywood"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=40641
 	buildings_max_level_factor=1.000

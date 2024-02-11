@@ -11,6 +11,9 @@ state={
 		victory_points = { 4495 4 } #"Ashton-in-Makerfield"
 		victory_points = { 64 4 } #"Orrell"
 		victory_points = { 6947 5 } #"Leigh"
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	manpower=40080
 	buildings_max_level_factor=1.000

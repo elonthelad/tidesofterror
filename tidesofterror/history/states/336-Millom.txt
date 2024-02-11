@@ -8,6 +8,9 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 1757 4 } #"Millom"
+		buildings = {
+			infrastructure = 0
+		}
 	}
 	manpower=8718
 	buildings_max_level_factor=1.000

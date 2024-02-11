@@ -10,6 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 147 4 } #"Kirkwall"
 		buildings = {
+			infrastructure = 2
 			147 = { naval_base = 1 }
 		}
 	}

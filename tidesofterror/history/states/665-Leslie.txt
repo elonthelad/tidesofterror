@@ -11,6 +11,9 @@ state={
 		victory_points = { 5909 10 } #"Methil"
 		victory_points = { 5904 6 } #"Buckhaven"
 		victory_points = { 5911 4 } #"Markinch"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=17124
 	buildings_max_level_factor=1.000

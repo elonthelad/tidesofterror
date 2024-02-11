@@ -11,6 +11,9 @@ state={
 		victory_points = { 4160 7 } #"Inverurie"
 		victory_points = { 5702 2 } #"Insch"
 		victory_points = { 2234 1 } #"Fyvie"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=10254
 	buildings_max_level_factor=1.000

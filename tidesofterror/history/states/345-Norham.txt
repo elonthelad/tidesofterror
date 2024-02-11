@@ -10,6 +10,7 @@ state={
 		victory_points = { 4863 8 } #"Berwick-upon-Tweed"
 		victory_points = { 887 1 } #"Beal"
 		buildings = {
+			infrastructure = 1
 			4863 = { naval_base = 1 }
 		}
 	}

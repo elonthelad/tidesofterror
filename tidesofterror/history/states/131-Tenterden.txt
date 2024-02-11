@@ -8,7 +8,11 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		victory_points = { 1293 5 } #"Tenterden"
+		buildings = {
+			infrastructure = 1
+		}
 	}
+	resources = { timber = 5 }
 	manpower=28389
 	buildings_max_level_factor=1.000
 	state_category=pastoral

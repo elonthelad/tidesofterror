@@ -10,6 +10,7 @@ state={
 		add_core_of = SCO
 		victory_points = { 6061 1 } #"Lamlash"
 		buildings = {
+			infrastructure = 0
 			6061 = { naval_base = 1 }
 		}
 	}

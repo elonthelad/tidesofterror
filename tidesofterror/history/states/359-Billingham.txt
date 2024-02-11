@@ -10,10 +10,12 @@ state={
 		victory_points = { 1154 14 } #"Thornaby"
 		victory_points = { 1785 18 } #"Stockton-on-Tees"
 		buildings = {
+			infrastructure = 4
 			dockyard = 6
 			6392 = { naval_base = 7 }
 		}
 	}
+	resources = { steel = 20 }
 	manpower=106302
 	buildings_max_level_factor=1.000
 	state_category=city

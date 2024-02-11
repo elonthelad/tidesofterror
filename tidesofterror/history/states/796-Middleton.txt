@@ -11,6 +11,9 @@ state={
 		victory_points = { 7818 5 } #"Cobh"
 		victory_points = { 7803 7 } #"Midleton"
 		victory_points = { 4967 4 } #"Castlemartyr"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=29847
 	buildings_max_level_factor=1.000

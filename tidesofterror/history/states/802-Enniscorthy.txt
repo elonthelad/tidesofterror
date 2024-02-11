@@ -10,6 +10,9 @@ state={
 		add_core_of = EIR
 		victory_points = { 2301 7 } #"Enniscorthy"
 		victory_points = { 7478 4 } #"Blackwater"
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=28128
 	buildings_max_level_factor=1.000
