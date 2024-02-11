@@ -8,46 +8,15 @@
  MODULE_ALLOWED_ROLE_IS_FORBIDDEN_BY_ANOTHER_MODULE: "The role $ROLE|H$ is £trigger_yes£ by module $ALLOWING_MODULE|H$ but is £trigger_no£ by module $FORBIDDING_MODULE|H$.\n\n"
 
  ### EQUIPMENT MODULES ###
- amphibious_drive: "Amphibious Drive"
- amphibious_drive_desc: "A set of floatation devices and a small screw allow this tank to quickly be rigged to traverse water, either from ship to shore or across a river."
- sloped_armor: "Sloped Armor"
- sloped_armor_desc: "Armor placed at an angle to an incoming shell has a much greater effective thickness than the same amount of armor placed vertically. It also increases the chance that the shell will simply bounce off harmlessly. However, it requires the entire tank to be designed around it, making the vehicle more difficult to assemble."
- stabilizer: "Stabilizer"
- stabilizer_desc: "A mechanical device to keep the gun pointing in the same direction when the tank is moving. While not advanced enough to allow accurate firing on the move, it does allow the gunner to fire accurately during a short stop, without having to re-acquire the target."
- smoke_launchers: "Smoke Launchers"
- smoke_launchers_desc: "A battery of pyrotechnic devices that can be triggered from inside the tank to create a thick cloud of smoke to hide the tank. Very useful when on the defensive or after driving into an ambush."
- extra_ammo_storage: "Extra Ammunition Storage"
- extra_ammo_storage_desc: "Additional racks of ready ammunition allow the tank to stay in the fight much longer without resupply. However, if the armor is penetrated, the results are likely to be catastrophic. This is particularly problematic when attacking."
- wet_ammo_storage: "Wet Ammunition Storage"
- wet_ammo_storage_desc: "Water jackets added to ammunition racks dramatically reduce the risk of the ammunition exploding after the tank is hit, which is greatly appreciated by the crews."
  DESIGNER_CHASSIS_BASE: "Chassis: "
  DESIGNER_FROM_MODULES: "Modules: "
  DESIGNER_UNSAVED_CHANGES: "Unsaved changes: "
- tank_rocket_launcher: "Rocket Launcher"
- tank_rocket_launcher_desc: "A multi-barrelled launcher for unguided, high-explosive rockets. The high volume of fire gives it excellent performance against soft targets, but even direct hits do little against armored targets."
- tank_rocket_launcher_2: "Improved Rocket Launcher"
- tank_rocket_launcher_2_desc: "While there are a number of improvements to accuracy, the main advantage of this improved rocket launcher is that it can hold more rockets to fire at the enemy."
- tank_wheeled_suspension: "Wheeled Suspension"
- tank_wheeled_suspension_desc: "Derived from a truck chassis, this suspension is very limited in its carrying capacity and has limited cross-country performance, but has the advantage of being very cheap to make."
- tank_half_track_suspension: "Half-track Suspension"
- tank_half_track_suspension_desc: "A hybrid between a fully-tracked vehicle and a regular wheeled suspension, this setup has a pair of wheels up front for steering and a tracked rear axle to improve cross-country performance. While limited in its carrying capacity, it is still cheaper than a fully-tracked design."
- squeezebore_adaptor: "Squeeze-bore Adaptor"
- squeezebore_adaptor_desc: "A special adaptor at the end of the gun lowers the diameter of the barrel and squeezes a shell down to a smaller caliber. This significantly increases muzzle velocity and thereby the penetration power of the gun. It does require special ammunition made from rare materials."
- armor_skirts: "Armor Skirts"
- armor_skirts_desc: "A set of thin metal plates mounted on the side of the vehicle, giving additional protection against anti-tank rifles and shaped charges."
- dozer_blade: "Dozer Blade"
- dozer_blade_desc: "A dozer blade allows the vehicle to quickly build a fighting position in the field without the support of engineers."
- auto_loader: "Auto Loader"
- auto_loader_desc: "An auomatic mechanism that loads shells and allows the tank to keep a high rate of fire for a prolonged period of time."
- easy_maintenance: "Easy Maintenance"
- easy_maintenance_desc: "Hatches around the vehicle give access to many different components of the vehicle, and allow the crew to perform even complex maintenance fairly easily."
- additional_machine_guns: "Additional Machineguns"
- additional_machine_guns_desc: "A set of machineguns in sponsons and special pintle mounts give the vehicle improved defense against close-in infantry attack."
- 
- expanded_fuel_tank: "Fuel Drum"
- expanded_fuel_tank_desc: "An externally mounted fuel drum designed to extend the operational range of an armored vehicle."
 
- #MOD
+
+ #MODDED
+ 
+ 
+ #Hardsuit
  
  tank_designer_battle_hardsuit_frame: "Generalist Hardsuit"
  
@@ -60,14 +29,6 @@
  battle_hardsuit_frame_2: "Advanced Battle Hardsuit"
  battle_hardsuit_frame_3: "Modern Heavy Hardsuit"
  battle_hardsuit_frame_4: "Modern Lightframe"
- 
- #EQ_MOD_SLOT_hardsuitframe_type_slot_TITLE: "Endoskeleton"
- #EQ_MOD_CAT_hardsuitframe_module_type_TITLE: "Hardsuit Endoskeletons"
- #
- #hardsuit_aluminiumtruss: "Aluminium Truss"
- #hardsuit_steelbar: "Steel Bar"
- #hardsuit_ironbar: "Iron Bar"
- #hardsuit_oakframe: "Oak"
  
  EQ_MOD_SLOT_hardsuitactuation_type_slot_TITLE: "Hardsuit Actuation"
  EQ_MOD_CAT_hardsuitactuator_module_type_TITLE: "Actuation Method"
@@ -139,8 +100,8 @@
  daddy_long_legs_frame_stork: "Daddy-Long-Legs 'Stork'"
  daddy_long_legs_frame_crane: "Daddy-Long-Legs 'Crane'"
  
- daddy_long_legs_0: "Basic Daddy-long-legs"
- daddy_long_legs_1: "Advanced Daddy-long-legs"
+ daddy_long_legs_frame_0: "Basic Daddy-long-legs"
+ daddy_long_legs_frame_1: "Advanced Daddy-long-legs"
 
  EQ_MOD_SLOT_longlegs_locomotion_type_slot_TITLE: "Locomotion Method"
  EQ_MOD_CAT_longlegs_locomotion_module_type_TITLE: "Locomotion Methods"
@@ -210,3 +171,28 @@
  longlegs_lifter_arms: "Lifter Arms"
  longlegs_lifter_arms_desc: "Lifter Arms Desc"
  
+ #War Carriage
+ 
+ tank_designer_war_carriage_frame: "Generalist War Carriage"
+ 
+ war_carriage_frame_chariot: "'Chariot'"
+ war_carriage_frame_death_chariot: "'Death's Chariot'"
+ war_carriage_frame_derailed_locomotive: "'Death Train'"
+ war_carriage_frame_skybreaker: "'Skybreaker'"
+ 
+ war_carriage_frame_0: "War Carriage"
+ war_carriage_frame_1: "Death Carriage"
+ war_carriage_frame_2: "Derailed Locomotive"
+ war_carriage_frame_3: "Skybreaker"
+ 
+ #Siege Motiles
+ 
+ tank_designer_siege_motile_frame: "Generalist Siege Motile"
+ 
+ siege_motile_frame_davinci: "'Da Vinci'"
+ siege_motile_frame_indomitable: "'Indomitable'"
+ siege_motile_frame_dauntless: "'Dauntless'"
+ 
+ siege_motile_frame_0: "Siege Motile"
+ siege_motile_frame_1: "Iron Coffer"
+ siege_motile_frame_2: "'Steel Jumbo"

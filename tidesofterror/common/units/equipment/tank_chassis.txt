@@ -361,4 +361,219 @@ equipments = {
 			tank_nsb_armor_upgrade
 		}
 	}
+	
+	
+	war_carriage_frame = {
+		year = 1873
+		is_archetype = yes
+		is_buildable = no
+
+		can_be_produced = {
+		}
+
+		picture = archetype_light_tank_equipment
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 2000
+
+		module_slots = {
+			longlegs_locomotion_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					longlegs_locomotion_module_type
+				}
+			}
+			
+			longlegs_armour_type_slot= {
+				required = no
+				allowed_module_categories = {
+					longlegs_armour_module_type
+				}
+			}
+			
+			longlegs_rear_type_slot= {
+				required = no
+				allowed_module_categories = {
+					longlegsrearweapons_module_type
+					longlegsrearslot_module_type
+				}
+			}
+			
+			longlegs_front_type_slot = {
+				required = no
+				allowed_module_categories = {
+					longlegsfrontweapons_module_type
+				}
+			}
+		}
+
+		default_modules = {
+			longlegs_locomotion_type_slot = longlegs_pulleylegs
+		}
+
+		maximum_speed = 0
+		armor_value = 2 #Resolve
+		ap_attack = 2 #Terror
+		manpower = 1
+		build_cost_ic = 2
+		reliability = 0.7
+		hardness = 0.7
+	}
+
+	war_carriage_frame_0 = { #War Carriage
+		derived_variant_name = war_carriage_frame_chariot
+		visual_level = 0
+		year = 1873
+		archetype = war_carriage_frame
+		priority = 2000
+		module_slots = inherit
+
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+	}
+
+	war_carriage_frame_1 = { #Death Carriage
+		derived_variant_name = war_carriage_frame_death_chariot
+		visual_level = 0
+		year = 1875
+		archetype = war_carriage_frame
+		priority = 2000
+		module_slots = inherit
+
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+	}
+
+	war_carriage_frame_2 = { #Derailed Locomotive
+		derived_variant_name = war_carriage_frame_derailed_locomotive
+		visual_level = 0
+		year = 1875
+		archetype = war_carriage_frame
+		priority = 2000
+		module_slots = inherit
+
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+	}
+
+	war_carriage_frame_3 = { #Skybreaker
+		derived_variant_name = war_carriage_frame_skybreaker
+		visual_level = 0
+		year = 1875
+		archetype = war_carriage_frame
+		priority = 2000
+		module_slots = inherit
+
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+	}
+	
+	siege_motile_frame = {
+		year = 1873
+		is_archetype = yes
+		is_buildable = no
+
+		can_be_produced = {
+		}
+
+		picture = archetype_light_tank_equipment
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 2000
+
+		module_slots = {
+			longlegs_locomotion_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					longlegs_locomotion_module_type
+				}
+			}
+			
+			longlegs_armour_type_slot= {
+				required = no
+				allowed_module_categories = {
+					longlegs_armour_module_type
+				}
+			}
+			
+			longlegs_rear_type_slot= {
+				required = no
+				allowed_module_categories = {
+					longlegsrearweapons_module_type
+					longlegsrearslot_module_type
+				}
+			}
+			
+			longlegs_front_type_slot = {
+				required = no
+				allowed_module_categories = {
+					longlegsfrontweapons_module_type
+				}
+			}
+		}
+
+		default_modules = {
+			longlegs_locomotion_type_slot = longlegs_pulleylegs
+		}
+
+		maximum_speed = 0
+		armor_value = 2 #Resolve
+		ap_attack = 2 #Terror
+		manpower = 1
+		build_cost_ic = 2
+		reliability = 0.7
+		hardness = 0.7
+	}
+
+	siege_motile_frame_0 = { #War Carriage
+		derived_variant_name = siege_motile_frame_davinci
+		visual_level = 0
+		year = 1873
+		archetype = war_carriage_frame
+		priority = 2000
+		module_slots = inherit
+
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+	}
+
+	siege_motile_frame_1 = { #Iron Coffer
+		derived_variant_name = siege_motile_frame_indomitable
+		visual_level = 0
+		year = 1875
+		archetype = war_carriage_frame
+		priority = 2000
+		module_slots = inherit
+
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+	}
+
+	siege_motile_frame_2 = { #Steel Jumbo
+		derived_variant_name = siege_motile_frame_dauntless
+		visual_level = 0
+		year = 1878
+		archetype = war_carriage_frame
+		priority = 2000
+		module_slots = inherit
+
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+	}
 }

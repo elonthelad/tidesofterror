@@ -25,7 +25,7 @@ Horse-drawn carriage modified for military use. Takes a crew of four. Can mount 
 
 Chassis progress as such-
 
-Prototype "Chariot" -> Basic "Iron Carriage" -> Advanced "War Carriage"
+Basic "War Carriage" -> Advanced "Death Carriage"
 
 
 
@@ -48,7 +48,7 @@ Prototype "Little Chapel" -> Basic "Death Chantry" -> Advanced "God's Chariot"
 
 
 "Derailed Engine Car"
-Its a train taken off its tracks. I'm going off the rails on a crazy train!
+Its a train taken off its tracks. im going off the rails on a crazy traaaaain
 
 
 "Skybreaker"
