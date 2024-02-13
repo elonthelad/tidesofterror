@@ -49,4 +49,118 @@ leader_traits = {
 		logistics_skill = -1
 		planning_skill = -1
 	}
+	
+	##################################
+    # Campaign Medals
+    ##################################
+	campaign_medal_south_africa = { 
+		type = { land navy }
+		trait_type = personality_trait
+		
+		#modifier = {
+		#	org_loss_when_moving = -0.1
+		#}
+		
+		non_shared_modifier = {
+			experience_gain_factor = 0.25
+		}
+
+		new_commander_weight = {
+			factor = 1
+
+			#modifier = {
+			#	FROM = { has_idea = best_of_the_best_spirit }
+			#	factor = 0
+			#}
+		}
+		
+	}
+	campaign_medal_crimea = { 
+		type = land
+		trait_type = personality_trait
+		
+		#modifier = {
+		#	org_loss_when_moving = -0.1
+		#}
+		
+		non_shared_modifier = {
+			experience_gain_factor = 0.25
+		}
+
+		new_commander_weight = {
+			factor = 1
+
+			#modifier = {
+			#	FROM = { has_idea = best_of_the_best_spirit }
+			#	factor = 0
+			#}
+		}
+		
+	}
+	campaign_medal_baltic = { 
+		type = navy
+		trait_type = personality_trait
+		
+		#modifier = {
+		#	org_loss_when_moving = -0.1
+		#}
+		
+		non_shared_modifier = {
+			experience_gain_factor = 0.25
+		}
+
+		new_commander_weight = {
+			factor = 1
+
+			#modifier = {
+			#	FROM = { has_idea = best_of_the_best_spirit }
+			#	factor = 0
+			#}
+		}
+		
+	}
+	campaign_medal_india = { 
+		type = land
+		trait_type = personality_trait
+		
+		#modifier = {
+		#	org_loss_when_moving = -0.1
+		#}
+		
+		non_shared_modifier = {
+			experience_gain_factor = 0.25
+		}
+
+		new_commander_weight = {
+			factor = 1
+
+			#modifier = {
+			#	FROM = { has_idea = best_of_the_best_spirit }
+			#	factor = 0
+			#}
+		}
+		
+	}
+	campaign_medal_second_china = { 
+		type = land
+		trait_type = personality_trait
+		
+		#modifier = {
+		#	org_loss_when_moving = -0.1
+		#}
+		
+		non_shared_modifier = {
+			experience_gain_factor = 0.25
+		}
+
+		new_commander_weight = {
+			factor = 1
+
+			#modifier = {
+			#	FROM = { has_idea = best_of_the_best_spirit }
+			#	factor = 0
+			#}
+		}
+		
+	}
 }

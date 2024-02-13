@@ -8,6 +8,14 @@ recruit_character = ENG_joseph_lister
 recruit_character = ENG_charles_darwin
 recruit_character = ENG_frederick_cave
 recruit_character = ENG_henry_pinkerton
+#Military
+recruit_character = ENG_prince_george
+recruit_character = ENG_richard_airey
+recruit_character = ENG_george_pomeroy_colley
+recruit_character = ENG_charles_george_gordon
+recruit_character = ENG_george_charles_bingham
+recruit_character = ENG_william_norcott
+recruit_character = ENG_hugh_rose
 
 # Starting tech
 set_technology = {

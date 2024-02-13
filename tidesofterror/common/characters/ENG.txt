@@ -123,4 +123,184 @@ characters = {
             #}
 		}
 	}
+
+	ENG_prince_george ={
+		name = ENG_prince_george
+		portraits = {
+			army = {
+				large = GFX_portrait_prince_george
+				small = GFX_idea_ENG_prince_george
+			}
+		}
+		field_marshal = {
+			traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={
+			slot = army_chief
+			idea_token = prince_george
+			ledger = army
+			allowed = {
+				original_tag = ENG
+			}
+			traits = {
+				army_chief_old_guard
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ENG_richard_airey ={
+		name = ENG_richard_airey
+		portraits = {
+			army = {
+				large = GFX_portrait_richard_airey
+				small = GFX_idea_ENG_richard_airey
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	ENG_george_pomeroy_colley ={
+		name = ENG_george_pomeroy_colley
+		portraits = {
+			army = {
+				large = GFX_portrait_george_pomeroy_colley
+				small = GFX_idea_ENG_george_pomeroy_colley
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = george_pomeroy_colley
+			ledger = army
+			allowed = {
+				original_tag = ENG
+			}
+			traits = {
+				army_chief_drill_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ENG_charles_george_gordon ={
+		name = ENG_charles_george_gordon
+		portraits = {
+			army = {
+				large = GFX_portrait_charles_george_gordon
+				small = GFX_idea_ENG_charles_george_gordon
+			}
+		}
+		corps_commander = {
+			traits = { trait_reckless media_personality }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	ENG_gerald_graham ={
+		name = ENG_gerald_graham
+		portraits = {
+			army = {
+				large = GFX_portrait_gerald_graham
+				small = GFX_idea_ENG_gerald_graham
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = gerald_graham
+			ledger = army
+			allowed = {
+				original_tag = ENG
+			}
+			traits = {
+				fortification_engineer
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ENG_george_charles_bingham ={
+		name = ENG_george_charles_bingham
+		portraits = {
+			army = {
+				large = GFX_portrait_george_charles_bingham
+				small = GFX_idea_ENG_george_charles_bingham
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	ENG_william_norcott ={
+		name = ENG_william_norcott
+		portraits = {
+			army = {
+				large = GFX_portrait_william_norcott
+				small = GFX_idea_ENG_william_norcott
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = william_norcott
+			ledger = army
+			allowed = {
+				original_tag = ENG
+			}
+			traits = {
+				imperial_connections
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	ENG_hugh_rose ={
+		name = ENG_hugh_rose
+		portraits = {
+			army = {
+				large = GFX_portrait_hugh_rose
+				small = GFX_idea_ENG_hugh_rose
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 }

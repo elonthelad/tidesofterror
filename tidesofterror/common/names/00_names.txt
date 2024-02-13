@@ -25,7 +25,7 @@ default = {
 	#	callsigns = { "Queen Of The Sky" "The Red Princess" }
 	#}
 	surnames = { "Smith" "Baldwyn" "Bannister" "Jones" "Baxtor" "Brown" "Williams" "McGrath" "Peaton" "Watsone" "White" "Twaddle" "Boyd" "Morvell" "Carrington" "Hughes" "Andrews" "Harvey" "Harrison" "Cummings" "Treadway" "Doolan" "Vabsley" "Gardiner" "Brieris" "Fleming" "Kennedy" "Duffey" "Long" "Brownhill" "Harrington" "Lyness" "Coulston" "Lewis" "Saxon" "Simpson" "Hunniford" "Bowditch" "Lee" "Howlett" "Leaby" "Edwards" "Hunter" "Fitzsimons" "Gascoigne" "McFadden" "Coleman" "Thulborne" "Fullmore" "James" "Morrissy" "Hamilton" "Bennett" "McPherson" "McDonald" "Baldry" "Ryan" "Hare" "King" "King" "Joseph" "Butler" "Stewart" "Philpot" "Watson" "Nevil" "Foster" "Crowle"}
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Demon"}
 	
 	
 	#Operations - treat these as keys, not strings.

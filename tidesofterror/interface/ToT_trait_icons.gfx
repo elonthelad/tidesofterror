@@ -1,0 +1,28 @@
+spriteTypes = {
+
+	spriteType = {
+        name = GFX_trait_campaign_medal_south_africa
+        texturefile = gfx/interface/traits/personal/campaign_medal_south_africa.dds
+    }
+
+	spriteType = {
+        name = GFX_trait_campaign_medal_crimea
+        texturefile = gfx/interface/traits/personal/campaign_medal_crimea.dds
+    }
+
+	spriteType = {
+        name = GFX_trait_campaign_medal_baltic
+        texturefile = gfx/interface/traits/personal/campaign_medal_baltic.dds
+    }
+
+	spriteType = {
+        name = GFX_trait_campaign_medal_india
+        texturefile = gfx/interface/traits/personal/campaign_medal_india.dds
+    }
+
+	spriteType = {
+        name = GFX_trait_campaign_medal_second_china
+        texturefile = gfx/interface/traits/personal/campaign_medal_second_china.dds
+    }
+	
+}
