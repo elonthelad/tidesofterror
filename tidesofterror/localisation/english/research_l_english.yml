@@ -284,8 +284,8 @@
  
  #Industry
  
- industry_folder: "Industry & Engineering"
- industry_folder_desc: "Industry to produce equipment for our military, and engineering to push our construction feats to greater heights."
+ industry1_folder: "Industry & Engineering"
+ industry1_folder_desc: "Industry to produce equipment for our military, and engineering to push our construction feats to greater heights."
  
  industrytitle1: "Industry & Engineering - §H1868§!"
  industrytitle2: "§H1872§!"

@@ -150,7 +150,7 @@ technology_folders = {
 		}
 		ledger = navy
 	}
-	industry_folder = {
+	industry1_folder = {
 		ledger = civilian
 	}
 	land_doctrine_folder = {

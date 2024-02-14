@@ -30,6 +30,14 @@ spriteTypes = {
 		name = "GFX_inftech_integratedcartridges_medium"
 		texturefile = "gfx/interface/technologies/inftech_integratedcartridges.png"
 	}
+	spriteType = {
+		name = "GFX_inftech_slagrounds_medium"
+		texturefile = "gfx/interface/technologies/inftech_slagrounds.png"
+	}
+	spriteType = {
+		name = "GFX_inftech_magazineloading_medium"
+		texturefile = "gfx/interface/technologies/inftech_magazineloading.png"
+	}
 	
 	#Doctrine gfx
 	#SpriteType = {

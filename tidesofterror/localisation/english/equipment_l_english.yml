@@ -59,7 +59,6 @@
 
  mech_cost_upgrade: "Production Cost"
  mech_cost_upgrade_desc: "Optimizations to the design and substitution of less important materials allow the vehicle to be built faster, but suffering slightly more defects."
- tank_engine_upgrade: "Speed"
  tank_engine_upgrade_desc: "More mobility give tactical and strategic advantages, as well as allowing more armor without being slowed down significantly."
  ac_engine_upgrade: "Engine"
  ac_engine_upgrade_desc: "More mobility give tactical and strategic advantages, as well as allowing more armor without being slowed down significantly."
@@ -253,4 +252,3 @@
  scorch_equipment_2_desc: "These materials together form a compound known as 'Naphtha'. It is adhesive and produces a weak-yet-long burning flame, which can potentially lock down an area on the battlefield. The tars burn long, and they do not come off without taking someone with them."
  scorch_equipment_3: "Oil & Nitroglycerin"
  scorch_equipment_3_desc: "The recent discovery of oil thanks to our dedicated geologists, lets us use a far more potent and powerful flame to keep the beasts at bay. When combined with the new invention, nitroglycerin, this compound lights deadly fast and can be spread lethally fast and well. Fear it. By the gods, fear the flame."
- 
