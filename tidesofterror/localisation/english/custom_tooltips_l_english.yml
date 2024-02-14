@@ -1,4 +1,6 @@
 ﻿l_english:
+
+
 #Triggers
  ENG_Custom_Tooltip_1: "§GWe settle peace in the state.§!"
  customtooltip_eng3orlessirish: "There needs to be 3 or less states with Irish Sentiment. There is currently:§Y [?global.amount_of_fen_states]§!"
@@ -7,15 +9,19 @@
  customtooltip_engexpeditionlandfall: "The HMS Undaunted must have made landfall."
  customtooltip_engcosts2dock: "Has more than two Shipyards"
  
+ 
  #Modifiers
- # --- Traits
+ #Traits
  
  customtooltip_trait_ailing_desc: "This advisor is of dire humours and is §Rnot expected to last long§!, without intervention."
  customtooltip_trait_nepotist_desc: "This advisor will §Rexpect you to hire more of his ilk§!."
  
+ #Sanity
+ 
+ customtooltip_sanity_healing_200: "Daily Sanity Healing: §G+200§!"
+ 
+ 
  #Effects
- 
- 
  customtooltip_enggetfreightdecision: "The ministers of parliament will decide where their focuses and efforts go to §Yeliminate one of the effects§! from the Freight Crisis."
  customtooltip_engthe_expedition: "§YA series of events§! will tell us of the voyage of the HMS Undaunted."
  customtooltip_engselectpromise: "Selecting this will allow us more §Yoccult actions§!, and may eventually lead to the §Yformation of the Covenant.§!"

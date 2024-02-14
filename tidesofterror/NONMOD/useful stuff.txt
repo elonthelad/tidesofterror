@@ -23,6 +23,7 @@ gui												#Shows gui bounds, dimensions, elements, gfx, and names
 debug_nogui								#Hides all interface
 reload [x]									#Reloads files in the mod. Arguments it accepts are; focus assets loc ideas
 reloadtechnologies 					#Reloads Techtree
+reload countrycolors				#Reloads Nation Colours
 
 ae 10000 infantry_weapons1	#Add 10,000 snider-enfields to stockpile
 
@@ -57,3 +58,19 @@ GFX_invis									#For elements i need to hide from the player
 §8 			#orange-yellow (labeled "Gradient Step 8")
 §9 			#white-orange (labeled "Gradient Step 9")
 §t 			#vivid red (labeled "Gradient Step 10")
+
+#"Custom Modifiers"
+
+
+#Daily Sanity Healing +200
+#divide how much sanity you want per day by 24, then put that in base_fuel_gain, since that is hourly. This custom tooltip exists since the game will only display this amount by 'Sanity regain p/hour' which is hard to make sense of.
+hidden_modifier = {
+	base_fuel_gain = 8.3333
+}
+custom_modifier_tooltip = customtooltip_sanity_healing_200
+
+#Daily Sanity Loss -1000
+hidden_modifier = {
+	fuel_cost = 41.666666667
+}
+custom_modifier_tooltip = customtooltip_sanity_loss_1000

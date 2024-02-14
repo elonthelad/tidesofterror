@@ -17,7 +17,7 @@ NGame = {
 	EVENT_TIMEOUT_DEFAULT = 13,						-- Default days before an event times out if not scripted
 	MISSION_REMOVE_FROM_INTERFACE_DEFAULT = 13,		-- Default days before a mission is removed from the interface after having failed or completed
 	DECISION_ALERT_TIMEOUT_DAYS = 30,				-- Days left when player will be alerted about timing out events or decisions
-	FUEL_RESOURCE = "coal",							-- resource that will give country fuel
+	FUEL_RESOURCE = "arcane_vapours",							-- resource that will give country fuel
 	MAX_EFFECT_ITERATION = 1000,					-- maximum allowed iteration for loop effects
 	MAX_SCRIPTED_LOC_RECURSION = 30,				-- max recursion for scripted localizations
 	HANDS_OFF_START_TAG = "URG",					-- tag for player country for -hands_off runs. use an existing tag that is less likely to affect the game
@@ -420,8 +420,8 @@ NCountry = {
 
 	STARTING_FUEL_RATIO = 1.0,						-- starting fuel ratio compared to max fuel for countries
 	BASE_FUEL_GAIN_PER_OIL = 0,						-- base amount of fuel gained hourly per excess oil
-	BASE_FUEL_GAIN = 0.4,							-- base amount of fuel gained hourly, independent of excess oil
-	BASE_FUEL_CAPACITY = 600000,						-- base amount of fuel capacity
+	BASE_FUEL_GAIN = 8.33333,							-- base amount of fuel gained hourly, independent of excess oil
+	BASE_FUEL_CAPACITY = 100000,						-- base amount of fuel capacity
 
 	SCORCHED_EARTH_STATE_COST = 5,					-- pp cost to scorch a state
 
