@@ -57,7 +57,7 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.0 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 	}
 
-	people = {
+	populist = {
 
 		types = {
 
@@ -67,14 +67,17 @@ ideologies = {
 			separatists = {
 			}
 
-			brotherhood = {
+			chartists = {
+			}
+
+			unionist = {
 			}
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_PEOPLE_1"
-			"FACTION_NAME_PEOPLE_2"
-			"FACTION_NAME_PEOPLE_3"
+			"FACTION_NAME_POPULIST_1"
+			"FACTION_NAME_POPULIST_2"
+			"FACTION_NAME_POPULIST_3"
 		}
 
 		color = { 65 165 60 }
@@ -180,7 +183,6 @@ ideologies = {
 			"FACTION_NAME_ARCANE_1"
 			"FACTION_NAME_ARCANE_2"
 			"FACTION_NAME_ARCANE_3"
-			"FACTION_NAME_ARCANE_4"
 		}
 
 		color = { 95 0 100 }

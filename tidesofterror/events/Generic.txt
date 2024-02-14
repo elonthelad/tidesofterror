@@ -237,9 +237,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = people }
-				people > 0.1
-				NOT = { people > 0.2 }
+				FROM = { has_government = populist }
+				populist > 0.1
+				NOT = { populist > 0.2 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_communism_tt
@@ -247,10 +247,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = people }
-				NOT = { has_government = people }
-				people > 0.2
-				NOT = { people > 0.3 }
+				FROM = { has_government = populist }
+				NOT = { has_government = populist }
+				populist > 0.2
+				NOT = { populist > 0.3 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_communism_tt
@@ -258,10 +258,10 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = people }
-				NOT = { has_government = people }
-				people > 0.3
-				NOT = { people > 0.4 }
+				FROM = { has_government = populist }
+				NOT = { has_government = populist }
+				populist > 0.3
+				NOT = { populist > 0.4 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_communism_tt
@@ -269,9 +269,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = people }
-				NOT = { has_government = people }
-				people > 0.4
+				FROM = { has_government = populist }
+				NOT = { has_government = populist }
+				populist > 0.4
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
 			custom_effect_tooltip = attache_communism_tt

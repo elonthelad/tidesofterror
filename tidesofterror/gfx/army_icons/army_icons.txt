@@ -416,7 +416,7 @@
 		available = 
 		{
 			has_dlc = "Waking the Tiger"
-			has_government = people
+			has_government = populist
 		}
 	}
 	icon = {

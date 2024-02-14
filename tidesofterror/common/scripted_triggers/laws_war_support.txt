@@ -45,7 +45,7 @@ has_unsupported_manpower_law = {
 		}
 			has_idea = extensive_conscription
 			has_war_support < 0.2
-			NOT = { has_government = people }
+			NOT = { has_government = populist }
 			NOT = { has_government = autocracy }
 	}
 	else_if = {
@@ -54,7 +54,7 @@ has_unsupported_manpower_law = {
 		}
 			has_idea = service_by_requirement
 			has_war_support < 0.6
-			NOT = { has_government = people }
+			NOT = { has_government = populist }
 			NOT = { has_government = autocracy }
 	}
 	else_if = {

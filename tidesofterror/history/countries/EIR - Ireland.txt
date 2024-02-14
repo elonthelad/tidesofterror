@@ -12,13 +12,13 @@ set_technology = {
 set_convoys = 100
 
 set_politics = {
-	ruling_party = people
+	ruling_party = populist
 	last_election = "1867.10.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	people = 67
+	populist = 67
 	autocracy = 23
 	parliament = 10
 }

@@ -77,6 +77,6 @@ set_politics = {
 }
 set_popularities = {
 	parliament = 85
-	people = 6
+	populist = 6
 	autocracy = 9
 }

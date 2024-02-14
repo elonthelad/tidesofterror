@@ -5,9 +5,9 @@
  liberal_party: "Liberal Party"
  liberal_party_desc: "§WLiberal Party§!\n\nThis party speaks for democratic values and representation, focussing less on trade protection and puts greater emphasis on worker representation."
 
- people: "People"
- people_noun: "Popular"
- people_desc: "Conglomerate Rule"
+ populist: "Populist"
+ populist_noun: "Populist"
+ populist_desc: "Conglomerate Rule"
 
  autocracy: "Autocracy"
  autocracy_noun: "Autocratic"
@@ -15,4 +15,4 @@
 
  arcane: "Arcane"
  arcane_noun: "Arcane"
- arcane_desc: "Cosmic Servants"
+ arcane_desc: "Dark Servants"

@@ -155,8 +155,8 @@ has_same_ideology = {
 				ROOT = { has_government = autocracy }
 			}
 			AND = {
-				has_government = people
-				ROOT = { has_government = people }
+				has_government = populist
+				ROOT = { has_government = populist }
 			}
 			AND = {
 				has_government = arcane

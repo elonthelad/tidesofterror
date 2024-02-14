@@ -24,8 +24,8 @@ news_event = {
 						FROM.FROM = { has_government = parliament }
 					}
 					AND = {
-						ROOT = { has_government = people }
-						FROM.FROM = { has_government = people }
+						ROOT = { has_government = populist }
+						FROM.FROM = { has_government = populist }
 					}
 					AND = {
 						ROOT = { has_government = arcane }
@@ -50,8 +50,8 @@ news_event = {
 					FROM.FROM = { has_government = autocracy }
 				}
 				AND = {
-					ROOT = { has_government = people }
-					FROM.FROM = { has_government = people }
+					ROOT = { has_government = populist }
+					FROM.FROM = { has_government = populist }
 				}
 			}
 			FROM.FROM = {
@@ -135,8 +135,8 @@ news_event = {
 						FROM.FROM = { has_government = parliament }
 					}
 					AND = {
-						ROOT = { has_government = people }
-						FROM.FROM = { has_government = people }
+						ROOT = { has_government = populist }
+						FROM.FROM = { has_government = populist }
 					}
 					AND = {
 						ROOT = { has_government = arcane }
