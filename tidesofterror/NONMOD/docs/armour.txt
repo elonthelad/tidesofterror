@@ -7,7 +7,7 @@ Prototype "Metalman" -> Basic "Strongman Suit" -> Advanced "Battle Hardsuit" -> 
 
 Modern Heavy Hardsuit
 or
-Modern Lightframe
+Modern Lightframe "Lifter"
 
 
 

@@ -64,13 +64,11 @@
  PRODUCTION_RESOURCE_DESC: "Resources that are needed for one factory to produce this equipment with highest efficiency."
  DIVISION_PRODUCTION_RESOURCE_DESC: "The §HResources§! used in the production of the equipment needed by a division of this template."
  DIVISION_PRODUCTION_COST_DESC: "The §HIndustrial Capacity§! cost to produce the equipment needed by a division of this template."
- DIVISION_REFIT_COST_LAND: "Conversion Cost: £production_cost $VALUE|2$"
  DIVISION_REFIT_COST_NAVAL: "Refit Cost: £navprod_cost£ $VALUE|0$"
  DESIGNER_REFIT_COST_FROM_ORIGINAL: "The cost to refit a ship of the §Horiginal design§! to this design."
  DESIGNER_REFIT_COST_FROM_ORIGINAL_LAND: "The cost to convert equipment of the §Horiginal design§! to this design."
  DESIGNER_REFIT_COST_FROM_PARENT: "The cost to refit a ship of the $PARENT_NAME|H$ design to this design."
  DESIGNER_REFIT_COST_FROM_PARENT_LAND: "The cost to convert equipment of the $PARENT_NAME|H$ design to this design."
- DIVISION_PRODUCTION_COST_LAND: "Production Cost: £production_cost $VALUE|2$"
  DIVISION_PRODUCTION_COST_LAND_MAX: "Production Cost: £production_cost $VALUE|2$/$MAX|0$"
  DIVISION_PRODUCTION_COST_LAND_MAX_EXCEEDED: "Production Cost: £production_cost $VALUE|2R$/$MAX|0$"
  DIVISION_PRODUCTION_COST_NAVAL: "Production Cost: £navprod_cost£ $VALUE|0$"
@@ -114,7 +112,6 @@
  EQUIPMENT_DESIGNER_ADD_DESC: "Costs £$EXPERIENCE_TYPE$ $VALUE|H0$ to add"
  EQUIPMENT_DESIGNER_REMOVE_DESC: "Costs £$EXPERIENCE_TYPE$ $VALUE|H0$ to remove"
  EQUIPMENT_DESIGNER_REMOVE_NEGATIVE_DESC: "Remove to gain £$EXPERIENCE_TYPE$ $VALUE|H0$"
- EQUIPMENT_DESIGNER_MODULE_SLOT_NOT_AVAILABLE: "This slot is not available for this equipment type."
  EQUIPMENT_DESIGNER_SAVE: "Save £$XPICON$ $XPCOST|Y0$"
  EQUIPMENT_DESIGNER_SAVE_DESC: "Spend £$XPICON$ $XPCOST|Y0$ to save this as a §Hnew design§!."
  EQUIPMENT_DESIGNER_SAVE_DESC_NO_CHANGE_TO_PARENT: "No changes will be made to the original design."
@@ -294,6 +291,10 @@
  #MODDED
  
  
+ DIVISION_PRODUCTION_COST_LAND: "Production Cost:       §Y$VALUE|2$§!"
+ DIVISION_REFIT_COST_LAND: "Conversion Cost:       §Y$VALUE|2$§!"
+ 
+ EQUIPMENT_DESIGNER_MODULE_SLOT_NOT_AVAILABLE: ""
  DIVISION_DIVISION: "Battalion Editor"
  COMBAT_HEADER: "Line Companies"
  SUPPORT_HEADER: "Auxillary Companies"

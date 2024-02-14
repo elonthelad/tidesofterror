@@ -13,6 +13,15 @@ technologies = {
 			
 			daddy_long_legs_frame_0
 			daddy_long_legs_frame_1
+			
+			war_carriage_frame_0
+			war_carriage_frame_1
+			war_carriage_frame_2
+			war_carriage_frame_3
+			
+			siege_motile_frame_0
+			siege_motile_frame_1
+			siege_motile_frame_2
 		}
 		
 		enable_equipment_modules = { #Temporarily here while testing armour creator
@@ -77,6 +86,7 @@ technologies = {
 			longlegs_rearmortar
 			longlegs_catapult
 			longlegs_munitioncatapult
+			longlegs_whirligig_rocket
 			
 			longlegs_dousingtanks
 			longlegs_groundingspire
@@ -85,6 +95,45 @@ technologies = {
 			longlegs_dryplatecamera
 			longlegs_steamacceleration
 			longlegs_signalflares
+			
+			warcarriage_steel
+			warcarriage_aluminium
+			warcarriage_mnalloysteel
+			warcarriage_ceramometal
+			warcarriage_pine
+			warcarriage_reinforcedoak
+			
+			warcarriage_horsedrawn
+			warcarriage_boiler_tube
+			warcarriage_rotary_valve
+			warcarriage_steam_turbine
+			warcarriage_gasoline_turbine
+			warcarriage_gasoline_combustion
+			warcarriage_compressor_ignition
+			
+			warcarriage_tooling_compartment
+			warcarriage_ambulance_compartment
+			warcarriage_war_office
+			warcarriage_leaden_interior
+			
+			warcarriage_crows_nest
+			warcarriage_teamaker
+			warcarriage_clarion_horn
+			
+			warcarriage_whirligig_rocket_array
+			warcarriage_machine_gun_turret
+			warcarriage_javelin_cannon
+			warcarriage_troop_detachment
+			warcarriage_dragonshead
+			warcarriage_heavy_cannon
+			warcarriage_mortar_placements
+			
+			warcarriage_bendecite_exhausts
+			warcarriage_rifle_embrasures
+			warcarriage_firebombardiers
+			warcarriage_broadsiders
+			warcarriage_ram
+			
 		}
 		
 		enable_subunits = {

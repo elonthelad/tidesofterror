@@ -259,6 +259,17 @@ script_enum_equipment_bonus_type = {
 	daddy_long_legs_frame
 	daddy_long_legs_frame_0
 	daddy_long_legs_frame_1
+	
+	war_carriage_frame
+	war_carriage_frame_0
+	war_carriage_frame_1
+	war_carriage_frame_2
+	war_carriage_frame_3
+	
+	siege_motile_frame
+	siege_motile_frame_0
+	siege_motile_frame_1
+	siege_motile_frame_2
 
 	#Sea
 	convoy

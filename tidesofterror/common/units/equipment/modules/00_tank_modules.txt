@@ -697,6 +697,25 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			steel = 1
+		}
+	}
+	
+	longlegs_chance_long_rifle = { #It's a sniper, named after the chance brothers who invented optical scopes
+		category = longlegsfrontweapons_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 1
+			hard_attack = 2
+			air_attack = 3
+			defense = 8
+			breakthrough = 5
+			armor_value = 5
+			ap_attack = 0.8
+			build_cost_ic = 0.25
+		}
+		build_cost_resources = {
+			steel = 1
 			timber = 1
 		}
 	}
@@ -717,7 +736,6 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			steel = 1
-			timber = 1
 		}
 	}
 	
@@ -736,8 +754,7 @@ equipment_modules = {
 			build_cost_ic = 0.36
 		}
 		build_cost_resources = {
-			steel = 1
-			timber = 1
+			aluminium = 1
 		}
 	}
 	
@@ -756,8 +773,8 @@ equipment_modules = {
 			build_cost_ic = 0.36
 		}
 		build_cost_resources = {
-			steel = 1
-			timber = 1
+			steel = 2
+			timber = 2
 		}
 	}
 	
@@ -777,7 +794,6 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			steel = 1
-			timber = 1
 		}
 	}
 	
@@ -799,7 +815,6 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			steel = 1
-			timber = 1
 		}
 	}
 	
@@ -818,7 +833,6 @@ equipment_modules = {
 			build_cost_ic = 0.36
 		}
 		build_cost_resources = {
-			steel = 1
 			timber = 1
 		}
 	}
@@ -838,7 +852,25 @@ equipment_modules = {
 			build_cost_ic = 0.36
 		}
 		build_cost_resources = {
-			steel = 1
+			timber = 1
+		}
+	}
+	
+	longlegs_whirligig_rocket = {
+		category = longlegsrearweapons_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
 			timber = 1
 		}
 	}
@@ -925,13 +957,561 @@ equipment_modules = {
 	
 	
 	
+	#War Carriage Armour
 	
+	warcarriage_steel = {
+		category = warcarriage_armour_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = -1
+			defense = 8
+			breakthrough = 12
+			build_cost_ic = 1
+		}
+		multiply_stats = {
+			hardness = 0.4
+		}
+		build_cost_resources = {
+			steel = 3
+		}
+	}
 	
+	warcarriage_aluminium = {
+		category = warcarriage_armour_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = -0.7
+			defense = 6.5
+			breakthrough = 11
+			build_cost_ic = 1.15
+		}
+		multiply_stats = {
+			hardness = 0.3
+		}
+		build_cost_resources = {
+			aluminium = 3
+		}
+	}
 	
+	warcarriage_mnalloysteel = {
+		category = warcarriage_armour_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = -1
+			defense = 12
+			breakthrough = 16
+			build_cost_ic = 2
+		}
+		multiply_stats = {
+			hardness = -0.2
+		}
+		build_cost_resources = {
+			manganese = 2
+			steel = 3
+		}
+	}
 	
+	warcarriage_ceramometal = {
+		category = warcarriage_armour_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = -0.6
+			defense = 8
+			breakthrough = 10
+			build_cost_ic = 0.8
+		}
+		multiply_stats = {
+		}
+		build_cost_resources = {
+			silicates = 2
+			steel = 2
+		}
+	}
 	
+	warcarriage_pine = {
+		category = warcarriage_armour_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = -0.1
+			defense = 2
+			breakthrough = 2
+			build_cost_ic = 0.2
+		}
+		multiply_stats = {
+			hardness = -0.4
+		}
+		build_cost_resources = {
+			timber = 3
+		}
+	}
 	
+	warcarriage_reinforcedoak = {
+		category = warcarriage_armour_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = -0.1
+			defense = 2
+			breakthrough = 2
+			build_cost_ic = 0.2
+		}
+		multiply_stats = {
+			hardness = -0.4
+		}
+		build_cost_resources = {
+			timber = 2
+			steel = 1
+		}
+	}
 	
+	#War Carriage Propulsion
+	
+	warcarriage_horsedrawn = {
+		category = warcarriage_locomotion_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = 3
+			reliability = -0.3
+			supply_consumption = 0.08
+		}
+	}
+	
+	warcarriage_boiler_tube = {
+		category = warcarriage_locomotion_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = 3
+			reliability = -0.3
+			supply_consumption = 0.08
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+	}
+	
+	warcarriage_rotary_valve = {
+		category = warcarriage_locomotion_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = 3
+			reliability = -0.3
+			supply_consumption = 0.08
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+	}
+	
+	warcarriage_steam_turbine = {
+		category = warcarriage_locomotion_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = 3
+			reliability = -0.3
+			supply_consumption = 0.08
+		}
+		build_cost_resources = {
+			steel = 1
+			aluminium = 1
+		}
+	}
+	
+	warcarriage_gasoline_turbine = {
+		category = warcarriage_locomotion_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = 3
+			reliability = -0.3
+			supply_consumption = 0.08
+		}
+		build_cost_resources = {
+			steel = 1
+			aluminium = 1
+		}
+	}
+	
+	warcarriage_gasoline_combustion = {
+		category = warcarriage_locomotion_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = 3
+			reliability = -0.3
+			supply_consumption = 0.08
+		}
+		build_cost_resources = {
+			steel = 1
+			aluminium = 1
+		}
+	}
+	
+	warcarriage_compressor_ignition = {
+		category = warcarriage_locomotion_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = 3
+			reliability = -0.3
+			supply_consumption = 0.08
+		}
+		build_cost_resources = {
+			steel = 1
+			aluminium = 1
+		}
+	}
+	
+	#War Carriage Medium Misc
+	
+	warcarriage_tooling_compartment = {
+		category = warcarriage_mediummisc_slot_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = -0.5
+			reliability = 0.4
+			reliability_factor = 0.1
+			build_cost_ic = 3
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+	}
+	
+	warcarriage_ambulance_compartment = {
+		category = warcarriage_mediummisc_slot_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = -0.5
+			casualty_trickleback = 0.1
+			experience_loss_factor = 0.1
+			build_cost_ic = 3
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+	}
+	
+	warcarriage_war_office = {
+		category = warcarriage_mediummisc_slot_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			maximum_speed = -0.5
+			recon = 1
+			initiative = 0.2
+			build_cost_ic = 3
+		}
+		build_cost_resources = {
+			timber = 1
+		}
+	}
+	
+	warcarriage_leaden_interior = {
+		category = warcarriage_mediummisc_slot_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			hardness = -0.2
+			defense = 1.5
+			build_cost_ic = 1.25
+		}
+	}
+	
+	#War Carriage Medium Misc
+	
+	warcarriage_teamaker = {
+		category = warcarriage_smallmisc_slot_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			armor_value = 1
+			supply_consumption = 0.01
+			build_cost_ic = 0.1
+		}
+	}
+	
+	warcarriage_crows_nest = {
+		category = warcarriage_smallmisc_slot_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			recon = 1
+			build_cost_ic = 0.5
+		}
+	}
+	
+	warcarriage_clarion_horn = {
+		category = warcarriage_smallmisc_slot_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			ap_attack = 1
+			initiative = 0.1
+			build_cost_ic = 0.5
+		}
+	}
+	
+	#War Carriage Medium Armaments
+	
+	warcarriage_whirligig_rocket_array = {
+		category = warcarriage_medium_armament_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			timber = 1
+		}
+	}
+	
+	warcarriage_machine_gun_turret = {
+		category = warcarriage_medium_armament_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			timber = 1
+		}
+	}
+	
+	warcarriage_javelin_cannon = {
+		category = warcarriage_medium_armament_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			timber = 1
+		}
+	}
+	
+	warcarriage_troop_detachment = {#korean roof snipers
+		category = warcarriage_medium_armament_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			timber = 1
+		}
+	}
+	
+	warcarriage_dragonshead = {#Heavy Flamer
+		category = warcarriage_medium_armament_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			timber = 1
+		}
+	}
+	
+	warcarriage_heavy_cannon = {
+		category = warcarriage_medium_armament_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			timber = 1
+		}
+	}
+	
+	warcarriage_mortar_placements = {
+		category = warcarriage_medium_armament_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			timber = 1
+		}
+	}
+	
+	#War Carriage Small Armaments
+	
+	warcarriage_rifle_embrasures = {#fewer people on the interior shooting through embrasures
+		category = warcarriage_small_armament_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			timber = 1
+		}
+	}
+	
+	warcarriage_firebombardiers = {#dudes chucking firebombs out
+		category = warcarriage_small_armament_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			timber = 1
+		}
+	}
+	
+	warcarriage_bendecite_exhausts = {#GAS!
+		category = warcarriage_small_armament_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			timber = 1
+		}
+	}
+	
+	warcarriage_ram = {
+		category = warcarriage_small_armament_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			timber = 1
+		}
+	}
+	
+	warcarriage_broadsiders = {#Field cannons on either side
+		category = warcarriage_small_armament_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			timber = 1
+		}
+	}
+	
+	warcarriage_whirligig_rocket = {
+		category = warcarriage_small_armament_module_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			soft_attack = 3
+			hard_attack = 1
+			air_attack = 0.8
+			defense = 15
+			breakthrough = 12
+			armor_value = 6
+			ap_attack = 1
+			build_cost_ic = 0.36
+		}
+		build_cost_resources = {
+			timber = 1
+		}
+	}
 	
 ### Engine Types
 
