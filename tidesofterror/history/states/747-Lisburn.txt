@@ -9,6 +9,7 @@ state={
 		victory_points = { 4543 16 } #"Dunmurry"
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 1
 		}
 	}
 	provinces={

@@ -12,6 +12,7 @@ state={
 		victory_points = { 4657 12 } #"Bransholme"
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 2
 			6781 = { naval_base = 6 }
 		}
 	}

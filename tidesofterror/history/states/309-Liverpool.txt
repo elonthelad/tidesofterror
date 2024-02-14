@@ -14,6 +14,8 @@ state={
 		victory_points = { 3923 15 } #"Garston"
 		buildings = {
 			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
 			dockyard = 4
 			6996 = { naval_base = 8 }
 		}

@@ -15,6 +15,8 @@ state={
 		victory_points = { 4330 5 } #"Magor"
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
 			4245 = { naval_base = 8 }
 		}
 	}

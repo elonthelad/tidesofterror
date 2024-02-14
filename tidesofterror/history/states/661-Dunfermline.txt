@@ -17,6 +17,7 @@ state={
 		victory_points = { 5936 2 } #"Kincardine"
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 1
 			2304 = { naval_base = 2 }
 		}
 	}

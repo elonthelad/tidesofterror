@@ -13,6 +13,8 @@ state={
 		victory_points = { 7529 8 } #"Walsall"
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
 		}
 	}
 	resources = { steel = 25 coal = 30 }

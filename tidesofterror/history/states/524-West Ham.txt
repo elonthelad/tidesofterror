@@ -10,6 +10,7 @@ state={
 		victory_points = { 4050 10 } #"Canning Town"
 		buildings = {
 			infrastructure = 3
+			arms_factory = 1
 			dockyard = 3
 			4050 = { naval_base = 4 }
 		}

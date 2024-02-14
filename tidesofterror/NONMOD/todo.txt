@@ -13,6 +13,7 @@ leaderevent 80%
 division editor 100%
 division icons 2%
 X equipment icons
+productionmenu 40%
 
 ###RESEARCH PLOTTING###
 infantry 100%
@@ -45,7 +46,7 @@ adjancencies 100%
 resources 100%
 supply hubs 100%
 infrastructure 100%
-X factories
+factories 100%
 
 ###POLTICAL###
 policies 30%

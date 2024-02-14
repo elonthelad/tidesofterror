@@ -11,6 +11,7 @@ state={
 		victory_points = { 6322 3 } #"Hetton-le-Hole"
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 2
 		}
 	}
 	resources = { coal = 30 silicates = 15 }

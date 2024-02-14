@@ -14,6 +14,8 @@ state={
 		victory_points = { 1277 12 } #"Lazenby"
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
 		}
 	}
 	manpower=191907

@@ -14,6 +14,7 @@ state={
 		victory_points = { 7243 14 } #"Hanley"
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 4
 		}
 	}
 	resources = { steel = 15 }

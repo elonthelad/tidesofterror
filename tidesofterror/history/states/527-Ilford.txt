@@ -12,6 +12,7 @@ state={
 		victory_points = { 8192 8 } #"Romford"
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 1
 			8205 = { naval_base = 6 }
 		}
 	}

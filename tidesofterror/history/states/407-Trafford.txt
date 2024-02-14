@@ -11,6 +11,8 @@ state={
 		victory_points = { 6981 14 } #"Stretford"
 		buildings = {
 			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
 		}
 	}
 	manpower=125769

@@ -12,6 +12,7 @@ state={
 		victory_points = { 4712 15 } #"Ironbridge"
 		buildings = {
 			infrastructure = 3
+			arms_factory = 3
 		}
 	}
 	resources = { steel = 50 }

@@ -11,6 +11,7 @@ state={
 		victory_points = { 3971 12 } #"Erith"
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 1
 			dockyard = 2
 		}
 	}

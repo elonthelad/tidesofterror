@@ -16,6 +16,7 @@ state={
 		victory_points = { 2448 2 } #"Tarbolton"
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 2
 			5445 = { naval_base = 2 }
 		}
 	}

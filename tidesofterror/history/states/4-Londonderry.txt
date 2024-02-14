@@ -11,6 +11,7 @@ state={
 		victory_points = { 1655 2 } #"Claudy"
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 1
 			881 = { naval_base = 1 }
 		}
 	}

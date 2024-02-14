@@ -17,6 +17,7 @@ state={
 		victory_points = { 7830 4 } #"Ringaskiddy"
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 2
 			7793 = { naval_base = 5 }
 		}
 	}

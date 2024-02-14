@@ -14,6 +14,7 @@ state={
 		victory_points = { 2449 5 } #"Broxburn"
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 1
 		}
 	}
 	manpower=57486

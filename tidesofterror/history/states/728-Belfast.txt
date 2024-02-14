@@ -17,7 +17,8 @@ state={
 		victory_points = { 6320 30 } #"Whiteabbey"
 		buildings = {
 			infrastructure = 5
-			dockyard = 4
+			industrial_complex = 2
+			dockyard = 2
 			4706 = { naval_base = 7 }
 		}
 	}

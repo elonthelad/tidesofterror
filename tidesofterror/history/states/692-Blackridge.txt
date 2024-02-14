@@ -16,6 +16,7 @@ state={
 		victory_points = { 5199 4 } #"Airdrie"
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 2
 		}
 	}
 	resources = { coal = 15 }

@@ -11,6 +11,7 @@ state={
 		victory_points = { 4611 10 } #"Haxby"
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 1
 		}
 	}
 	manpower=105135

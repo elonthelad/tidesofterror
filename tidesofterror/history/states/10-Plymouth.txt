@@ -13,6 +13,8 @@ state={
 		victory_points = { 8593 18 } #"St. Budeaux"
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
 			8598 = { naval_base = 6 }
 		}
 	}

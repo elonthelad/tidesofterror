@@ -13,6 +13,7 @@ state={
 		victory_points = { 6008 6 } #"East Kilbride"
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 1
 		}
 	}
 	resources = { steel = 10 }

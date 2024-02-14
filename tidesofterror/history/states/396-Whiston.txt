@@ -13,6 +13,7 @@ state={
 		victory_points = { 6982 10 } #"Sutton"
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 2
 		}
 	}
 	manpower=97893

@@ -1,0 +1,12 @@
+frames are defined in
+#/units/common/equipment/tank_chassis.txt
+be sure to add each eq into /common/script_enums.txt
+
+modules are defined in
+#/units/common/equipment/modules/00_tank_modules.txt
+
+and then you need to define each archetype in
+#/interface/equipmentdesigner/tanks/tank_chassis_light_tank.gui
+
+loc in 
+#localisation/english/tank_modules_l_english.yml

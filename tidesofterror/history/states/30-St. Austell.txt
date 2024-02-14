@@ -11,6 +11,7 @@ state={
 		victory_points = { 4125 2 } #"Fraddon"
 		buildings = {
 			infrastructure = 2
+			arms_factory = 1
 			8596 = { naval_base = 2 }
 		}
 	}

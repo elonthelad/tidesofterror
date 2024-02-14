@@ -11,6 +11,8 @@ state={
 		victory_points = { 2284 18 } #"Camberwell"
 		buildings = {
 			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
 			5377 = { naval_base = 10 }
 		}
 	}

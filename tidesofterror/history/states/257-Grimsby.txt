@@ -12,6 +12,7 @@ state={
 		victory_points = { 6959 5 } #"Waltham"
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 1
 			5415 = { naval_base = 2 }
 		}
 	}

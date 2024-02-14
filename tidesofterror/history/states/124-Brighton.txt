@@ -12,6 +12,7 @@ state={
 		victory_points = { 3138 12 } #"Falmer"
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 1
 			8530 = { naval_base = 2 }
 		}
 	}
