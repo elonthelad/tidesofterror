@@ -2,7 +2,7 @@
 Encounters-
 ------------------------------------------------------------------------------------------------------------------
 
-Encounters are mini-events to go alongside the GUI that usually only have one option, and will appear every few rooms when progressing through a site. Sometimes, they can be positive and require a skill check to unlock the buff/treasure, however most of the time, they will be negative and may not give you a choice in the result. In these options, the encounter might let the player spend a supply related to the nature of the encounter to improve the result.
+Encounters are country_events that will appear every few days/weeks when progressing or leaving a site. Sometimes, they can be positive and require a skill check to unlock the buff/treasure, however most of the time, they will be negative and may not give you a choice in the result. In these options, the encounter might let the player spend a supply related to the nature of the encounter to improve the result.
 
 Encounters have skill checks with increasing thresholds as the depth & room number increase, but the checks are set between a variable range before they are put against the players team total score in the respective skill.
 
@@ -67,13 +67,13 @@ Scientists are here for the great mystery that the hypogean ruins present. What 
 +1 Volition
 +3 Appraisal
 
-Occultists are here for the better, or more often, worse. They work best with other outcasts such as themselves, but beware the bargains they may try to strike up with things that lie in the deep. They wont hesitate to abandon their post.
+Occultists are here for the better, or more often, worse. They work best with other outcasts such as themselves, but beware the bargains they may try to strike up with things that lie in the deep. They wont hesitate to abandon their crew.
 +25 Morale
 +60 Encumbrance
 Presence of occultists reduces morale of all non-occultists by -40%
-Enables the "hasoccultist" flag if present in the team, which can have a hand in some encounters
+Enables the "has_occultist" flag if present in the team, which can have a hand in some encounters
 +1 Medium Weapon Slot
-+20 days Prep Time
++40 days Prep Time
 --Bonuses--
 +3 Volition
 +3 Appraisal
@@ -87,54 +87,35 @@ Weaponry-
 Rifles Medium Conflict bonus. Somewhat expensive.
 +10 Morale
 +30 Weight
-+10% Conflict Bonus per Rifle
++4 Conflict Bonus per Rifle
 +30 Prod. Cost
 
 Pistols Low Conflict bonus. Cheaper than rifles. Lightest Weapon.
 +8 Morale
 +10 Weight
-+6% Conflict Bonus per Pistol
++2 Conflict Bonus per Pistol
 +20 Prod. Cost
 
 Melee Lower Conflict bonus than pistols, but even cheaper.
 +5 Morale
 +20 Weight
-+4% Conflict Bonus per Melee
++3 Conflict Bonus per Melee
 +12 Prod. Cost
 
 Machine Guns can only be carried by soldiers. High Conflict bonus. Very Expensive. Heaviest Weapon.
 +20 Morale
 +70 Weight
-+15% Conflict Bonus per Machine Gun
++8 Conflict Bonus per Machine Gun
 +100 Prod. Cost
-Enables the "hasmachinegun" flag, which can have a hand in some encounters
+Enables the "has_machinegun" flag, which can have a hand in some encounters
 
-Large Weapon Slot governs all weapons.
+Having no weapons gives the "is_disarmed" flag, which can have a very bad or good effect on the expedition
 
-Medium governs rifles, pistols and melee.
+Large Weapon Slot allows +1 all weapons.
 
-Pistol Weapon Slot governs.. pistols..
+Medium allows +1 rifles, pistols or melee.
 
-Weapon Quality-
-Perfect
-+50% Weapon Prod. Cost
-+12% Conflict Bonus
-
-Fine
-+30% Weapon Prod. Cost
-+8% Conflict Bonus
-
-Adequate
-No change
-
-Poor
--15% Weapon Prod. Cost
--15% Conflict Bonus
-
-Cheap
--30% Weapon Prod. Cost
--40% Conflict Bonus
-Enables the "ischeap" flag, which can have a hand in some encounters
+Pistol Weapon Slot does just that
 
 ------------------------------------------------------------------------------------------------------------------
 Supplies-
@@ -154,14 +135,14 @@ Per/2 Tools-
 +10 Weight
 +20 Prod. Cost
 
-Lights are vital the lower you are. Near the surface, lights are consumed very slowly, but at low depths lights get consumed at their full speed, increasing with every 2 crewmembers. When lights go out in the far depths, things become incredibly hard quick. Escape is unlikely in this scenario.
+Lights are vital the lower the crew is. Near the surface, lights are consumed very slowly, but at low depths lights get consumed at their full speed, increasing with every 2 crewmembers. When lights go out in the far depths, things become incredibly hard quick. Escape is unlikely in this scenario.
 
 In the planning phase, lights are added/removed by steps of 6 at a time.
 Per/6 lights-
 +8 Weight
 +15 Prod. Cost
 
-Medical supplies are spent to mitigate deaths and occasionally and optionally, morale loss. When medical supplies run out, this no longer becomes possible, and deaths are likely, especially in Conflict encounters.
+Medical supplies are spent to mitigate deaths and injury, and occasionally and optionally, morale loss. When medical supplies run out, this no longer becomes possible, and deaths are likely, especially in Conflict encounters.
 
 In the planning phase, medical supplies are added/removed by steps of 4 at a time.
 Per/4 meds-
@@ -181,20 +162,10 @@ All these stats for weapons and supplies are up for balancing, these are just in
 Map/Progression-
 ------------------------------------------------------------------------------------------------------------------
 
-Every site is pre-made (No random generation) and they vary with length (Depth). Every site begins at the top, at surface level. They are made up of a linear series of 'rooms' which can represent anything from the way leading up to the entrance, a stairway, a corridor, an actual room or chamber. Each room has a differing time to traverse, and already-travelled rooms have a large speed buff, since you're following previous tracks. Some rooms give the player an encounter to decide to rest (Technically speaking, the people in the team would be resting every night but this is arbitrated in the hoi4 pace of time. it would be a nightmare having them actually stop every time between 22:00 - 6:00).
+Sites all have a preset time to finish. As progress continues through sites, a random number of country_events can happen, selected from a pool of events that each site picks from. They happen in no particular order, so they have to be a little generic. The first event is unique to each one, giving a short description of what lies ahead etc. The final event is also unique, where the reward is found. After either choosing to leave early or finishing the site fully, whats left of the crew will leave, taking half the time it took to get to where they reached last. 
 
-At any moment during the journey, there is a button that can recall the team. They will attempt to leave the way they came, and some new encounters may happen during this to try to get in their way, making it a risk decision for the player whether to brunt the difficulty of leaving early, or continuing so they dont have to make multiple trips, saving time for the sake of risk. Sites can be visited as many times as the player likes, except for a few areas that have a specific flag which would be seen on the site summary view.
+At any moment during the journey, there is a button in the menu that can recall the team, if the site type allows it. They will attempt to leave the way they came, taking the same amount of time they took getting as far as they had. Some new dangerous encounters may happen during this making it a risk decision for the player whether to brunt the difficulty of leaving early, or continuing so they dont have to make multiple trips, saving time for the sake of risk.
 
-Each room is initially covered in a 'fog-of-war', and every room visited uncovers fog for that room. Setting an ahead-team during the planning phase removes a portion of the fog near the start. Fog-of-war progression is permanent between all visits. Certain encounters can reward the player with fog removal beyond where they are, which may help the player make decisions ahead of time.
-
-The expedition crew has a morale bar, which decreases quite slowly with each room uncovered, but encounters are the main source of morale loss/gain. When morale is below a threshold, (Maybe 25%?) some crewmembers may start deserting the team, and once it reaches 0, the team will suffer mania and the journey will be declared failed, or they may even outright commit suicide, which of course will also fail the mission. Failed missions can be revisited, but for each loss in a specific site, beginning morale on that area takes a hit. If missions are failed 3 times, they become unavailable no matter what.
-
-Normal country events can occur from expeditions for important events, like the beginning of an expedition, a major discovery, a sudden calamity, major loss of life, and mission clears/fails/abandons.
+The expedition crew has a morale stat, which is not shown to the player at all. When morale is below a threshold, some crewmembers may start deserting the team, and once it reaches 0, the team will suffer mania and the journey will be declared failed, or they may even outright commit suicide, which of course will also fail the mission. Failed missions can be revisited, but for each loss in a specific site, beginning morale on that area takes a hit. If missions are failed 3 times, they become unavailable no matter what.
 
 Sites can only be begun and evacuated if the state is not under alien control. Sea tombs can only be begun and evacuated if the sea region has >50% supremacy. Sites will continue as normal even if they lose control, this is just for starting and leaving. If the team has returned to the surface, they will leave as soon as control is regained. New journeys cannot be started while waiting, so the player will either have to return control or abandon the site for good.
-
-------------------------------------------------------------------------------------------------------------------
-Items and Encumbrance-
-------------------------------------------------------------------------------------------------------------------
-
-All weapons, supplies and bonus items have a weight to them, and each member of the team has a specific amount of carry cap they provide. Relics and treasures found within sites also have weight. In the map view, there will be an inventory button which will show a gutted version of the planning menu, where weapons, supplies and treasures can be discarded to save weight. Teams can carry an indefinite amount of weight, but anything beyond the carry cap reduces speed through rooms proportionally to the amount weight over the limit, capping at 90% reduction. Being encumbered by any degree reduces all skills by 20%.
