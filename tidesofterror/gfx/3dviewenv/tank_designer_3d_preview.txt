@@ -1,12 +1,12 @@
 ship_3d_view =
 {
 	camera_position = { -150.0 -25.0 0.0 }
-	camera_look_at 	= { 0.0 0.2 0.0 }
+	camera_look_at 	= { 0.0 0.08 0.0 }
 	fov 			= 30	# Field of view
 	near 			= 0.1	# Z Near
 	far 			= 100	# Z Far
 	min_zoom		= 8.0
-	zoom			= 12
+	zoom			= 11
 	max_zoom		= 13.0
 	zoom_speed		= 1
 	
@@ -15,5 +15,5 @@ ship_3d_view =
 	pitch 			= 0.11
 	max_pitch		= 1.0
 	yaw 			= 2.94
-	size 			= { 508 353 }
+	size 			= { 508 338 }
 }

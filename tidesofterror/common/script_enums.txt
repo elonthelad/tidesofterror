@@ -218,6 +218,7 @@ script_enum_equipment_bonus_type = {
 	mortar_equipment_1
 	mortar_equipment_2
 	mortar_equipment_3
+	mortar_equipment_4
 	
 	artillery
 	artillery_equipment
@@ -256,6 +257,15 @@ script_enum_equipment_bonus_type = {
 	battle_hardsuit_frame_3
 	battle_hardsuit_frame_4
 	
+	#Un-comment this to add AA hardsuit role
+	#
+	#battle_hardsuit_frame_aa_chassis
+	#battle_hardsuit_frame_aa_chassis_0
+	#battle_hardsuit_frame_aa_chassis_1
+	#battle_hardsuit_frame_aa_chassis_2
+	#battle_hardsuit_frame_aa_chassis_3
+	#battle_hardsuit_frame_aa_chassis_4
+	
 	daddy_long_legs_frame
 	daddy_long_legs_frame_0
 	daddy_long_legs_frame_1
@@ -266,10 +276,10 @@ script_enum_equipment_bonus_type = {
 	war_carriage_frame_2
 	war_carriage_frame_3
 	
-	siege_motile_frame
-	siege_motile_frame_0
-	siege_motile_frame_1
-	siege_motile_frame_2
+	war_engine_frame
+	war_engine_frame_0
+	war_engine_frame_1
+	war_engine_frame_2
 
 	#Sea
 	convoy

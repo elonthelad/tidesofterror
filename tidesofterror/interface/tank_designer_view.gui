@@ -51,19 +51,11 @@ guiTypes = {
 			position = { x=16 y=45 }
 			quadTextureSprite = "GFX_3d_view_placeholder"
 		}
-		
-		#COVER THAT UGLY ASS BG UP
-		#iconType = {
-		#	name = "ugly_bg_cover_up"
-		#	spriteType = "GFX_ugly_bg_cover_up"
-		#	position = { x = 0 y = 108 }
-		#	alwaystransparent = yes
-		#}
 
 		containerWindowType = {
 			name = "border_container"
 			position = { x=10 y=45 }
-			size = { width = 520 height = 372 }
+			size = { width = 520 height = 342 }
 			
 			background = {
 				name ="bg_tech_button"
@@ -76,7 +68,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "select3d_button"
-			position = { x=25 y= 290 }
+			position = { x=378 y= 114 }
 			size = { x=504 y=22 }
 			font = "hoi_16mbs"				
 			buttontext = "SELECT_3D_MODEL"
@@ -98,17 +90,15 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "equipment_preview"
-				position = { x=3 y=0 }
+				position = { x=3 y=1 }
 				size = { width=508 height=1048 }
 
 				background = {
 					name = "background"
-					spriteType = "GFX_generic_tank_blueprint_background"
+					spriteType = "GFX_generic_tank_blueprint_background"#Vignette
 					alwaystransparent = yes
 				}
-
 				# The window of the appropriate hull/chassis is inserted here by code
-
 			}
 
 			@fixed_btn_mod_col_0 = 0
@@ -119,7 +109,7 @@ guiTypes = {
 			@fixed_btn_mod_col_5 = 365
 			@fixed_btn_mod_col_6 = 438
 
-			@fixed_btn_mod_row_0 = 316
+			@fixed_btn_mod_row_0 = 293
 			@fixed_btn_mod_row_1 = 300
 
 			# Code checks this position to know if module is in upper or low row to
@@ -174,7 +164,7 @@ guiTypes = {
 
 			containerWindowType = {#Speed Upgrade
 				name = "equipment_upgrade_0"
-				position = { x = 320 y = 257 }
+				position = { x = 320 y = 224 }
 				size = { width = 130 height = 50 } 
 			
 				buttonType = {
@@ -190,7 +180,6 @@ guiTypes = {
 					position = { x = 150 y = 27 }
 					clicksound = "ui_tank_designer_increase"
 				}
-				
 
 				instantTextboxType = {
 					name = "name"
@@ -217,7 +206,7 @@ guiTypes = {
 
 			containerWindowType = {#Armour Upgrade
 				name = "equipment_upgrade_1"
-				position = { x = 374 y = 200 }
+				position = { x = 374 y = 168 }
 				size = { width = 130 height = 50 } 
 
 				buttonType = {
@@ -234,7 +223,7 @@ guiTypes = {
 					clicksound = "ui_tank_designer_increase"
 				}
 
-				instantTextboxType = {#Borked, leave it here so error log doesent throw a tizzy
+				instantTextboxType = {
 					name = "name"
 					position = { x = 37 y = 3 }
 					font = "hoi_16mbs"
@@ -244,15 +233,6 @@ guiTypes = {
 					text = "_armor_"
 				}
 
-				instantTextboxType = {#Fixed version of the title
-					name = "name222"
-					position = { x = 37 y = 3 }
-					font = "hoi_16mbs"
-					maxWidth = 90
-					maxHeight = 20
-					format = center
-					text = "Armour"
-				}
 
 				instantTextboxType = {
 					name = "level"
@@ -291,7 +271,7 @@ guiTypes = {
 		}
 		iconType = {#Yeeted
 			name = "design_company_icon"
-			spriteType = "GFX_idea_porsche"
+			spriteType = "GFX_invis"
 			position = { x = -9999 y = -9999 }
 		}
 		buttonType = {#Yeeted
@@ -314,7 +294,7 @@ guiTypes = {
 
 			instantTextboxType = {
 					name = "base_stats_label"
-					position = { x = 14 y = 26 }
+					position = { x = 14 y = -6 }
 					font = "hoi_24header"
 					text = "DESIGNER_BASE_STATS_LABEL"
 					maxWidth = 165
@@ -325,7 +305,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "base_stats"
-				position = { x = 10 y = 65 }
+				position = { x = 10 y = 38 }
 				size = { width = 171 height = 166 }
 				clipping = yes
 
@@ -348,7 +328,7 @@ guiTypes = {
 
 			instantTextboxType = {
 					name = "combat_stats_label"
-					position = { x = 187 y = 26 }
+					position = { x = 187 y = -6 }
 					font = "hoi_24header"
 					text = "DESIGNER_COMBAT_STATS_LABEL"
 					maxWidth = 165
@@ -359,7 +339,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "combat_stats"
-				position = { x = 183 y = 65 }
+				position = { x = 183 y = 38 }
 				size = { width = 174 height = 166 }
 				clipping = yes
 
@@ -382,7 +362,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "misc_stats_label"
-				position = { x = 362 y = 26 }
+				position = { x = 362 y = -6 }
 					font = "hoi_24header"
 				text = "FE_MISC_STATS"
 				maxWidth = 165
@@ -393,7 +373,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "misc_stats"
-				position = { x = 356 y = 25 }
+				position = { x = 356 y = -2 }
 				size = { width = 172 height = 166 }
 				clipping = yes
 
@@ -455,18 +435,29 @@ guiTypes = {
 				}
 			}
 
-			iconType = {
+			iconType = {#Name underline motif
 				name = "tank_design_icon"
 				spriteType = "GFX_tank_design_icon"
-				position = { x = -12 y = 108 }
+				position = { x = -12 y = 18 }
 				alwaystransparent = yes
 			}
 
 			editBoxType = {
 				name = "name"
-				position = { x = 18 y = 104 }
+				position = { x = 18 y = 14 }
 				font = "hoi_24header"
 				size = { x=230 y=20 }
+			}
+			
+			instantTextboxType = {
+				name = "name_label1"
+				position = { x = 10 y = 4 }
+				font = "hoi_16mbs"
+				text = "tank_designer_name_label1"
+				maxWidth = 165
+				maxHeight = 20
+				format = left
+				fixedsize = yes
 			}
 
 			buttonType = {#Yeeted
@@ -515,36 +506,37 @@ guiTypes = {
 			position = { x = 20 y = 55 }
 			size = { width = 285 height = 40 }
 
-			containerWindowType = {
+			containerWindowType = {#Role window BG
 				name = "equipment_name_bg"
 				size = { width = 100% height = 100% }
 
-				background = {
+				background = {#Yeeted
 					name = "name_bg"
 					quadTextureSprite = "GFX_generic_background"
+					position = { x = -9999 y = -9999 }
 					alwaystransparent = yes
 				}
 			}
 
-			iconType = {
+			iconType = {#Yeeted
 				name = "tank_role_icon"
 				spriteType = "GFX_land_equipment_role_icons"
-				position = { x = 4 y = 2 }
+				position = { x = -9999 y = -9999 }
 				alwaystransparent = yes
 			}
 
-			instantTextboxType = {
+			instantTextboxType = {#Yeeted
 				name = "role_text"
-				position = { x = 48 y = 10 }
+				position = { x = -9999 y = -9999 }
 				font = "hoi_18mbs"
 				maxWidth = 210
 				maxHeight = 18
 				alwaystransparent = yes
 			}
 
-			expandButton = {
+			expandButton = {#Yeeted
 				name = "expand_button"
-				position = { x = -25 y = 10 }
+				position = { x = -9999 y = -9999 }
 				quadTextureSprite ="GFX_expand_button"
 				buttonFont = "Main_14_black"
 				Orientation = "UPPER_RIGHT"
@@ -805,7 +797,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "reset_button"
-			position = { x=30 y=638 }
+			position = { x=35 y=606 }
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "EQUIPMENT_DESIGNER_RESET"
 			pdx_tooltip = "EQUIPMENT_DESIGNER_RESET_DESC"
@@ -815,7 +807,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "save_button"
-			position = { x=30 y=598 }
+			position = { x=35 y=571 }
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "EQUIPMENT_DESIGNER_SAVE"
 			buttonFont = "hoi_18mbs"
@@ -824,7 +816,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "duplicate_button"
-			position = { x=390 y=638 }
+			position = { x=395 y=611 }
 			quadTextureSprite ="GFX_designer_button_duplicate_strip"
 			pdx_tooltip = "EQUIPMENT_DESIGNER_DUPLICATE_DESC"
 			clicksound = "ui_tank_designer_duplicate"
@@ -832,21 +824,21 @@ guiTypes = {
 
 		ButtonType = {
 			name = "auto_button"
-			position = { x=425 y=638 }
+			position = { x=425 y=611 }
 			quadTextureSprite ="GFX_designer_button_auto_strip"
 			clicksound = "ui_tank_designer_auto"
 		}
 
 		ButtonType = {
 			name = "auto_upgrade_button"
-			position = { x=460 y=638 }
+			position = { x=460 y=611 }
 			quadTextureSprite ="GFX_designer_button_upgrade_strip"
 			clicksound = "ui_tank_designer_auto_upgrade"
 		}
 
 		buttonType = {
 			name = "auto_upgraded_checkbox_button"
-			position = { x=490 y =642 }
+			position = { x=490 y =614 }
 			quadTextureSprite ="GFX_generic_checkbox3"
 			pdx_tooltip = "EQUIPMENT_DESIGNER_AUTO_UPGRADED_CHECKBOX_BUTTON_DESC"
 			clicksound = click_checkbox
@@ -871,9 +863,6 @@ guiTypes = {
 			clicksound = click_default
 			pdx_tooltip = "EQUIPMENT_COMPARISON"
 		}
-		
-		
-		
 		iconType = {#Yeeted
 			name = "resources_bg"
 			position = { x = -9999 y = -9999 }
@@ -883,17 +872,17 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "production_resources"
-			position = { x= 370 y= 595 }
+			position = { x= 370 y= 570 }
 			font = "hoi_16mbs"
 			maxWidth = 150
-			maxHeight = 125
+			maxHeight = 23
 			pdx_tooltip = "EQUIPMENT_DESIGNER_PRODUCTION_RESOURCE_DESC"
 			format = left
 		}
 
 		instantTextboxType = {
 			name = "refit_cost"
-			position = { x= 372 y=535 }
+			position = { x= 372 y=507 }
 			font = "hoi_16mbs"
 			maxWidth = 200
 			maxHeight = 25
@@ -903,7 +892,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "production_value"
-			position = { x= 372 y=515 }
+			position = { x= 372 y=488 }
 			font = "hoi_16mbs"
 			maxWidth = 210
 			maxHeight = 25
@@ -913,9 +902,10 @@ guiTypes = {
 		# Module selection sub-window
 		containerWindowType = {
 			name = "module_selector_window"
-			position = { x=10 y=47 }
+			position = { x=9 y=47 }
 			size = { width=520 height=370 }
 			verticalScrollbar = "right_vertical_slider"
+			margin = { top = 8 bottom = 9 }
 			scroll_wheel_factor = 40
 			smooth_scrolling = yes
 
@@ -932,7 +922,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "icon_module_slot"
-				position = { x=56 y=42 }
+				position = { x=56 y=38 }
 				spriteType = "GFX_locked_icon"
 				centerPosition = yes
 			}
@@ -948,7 +938,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "btn_back"
-				position = { x=390 y=23 }
+				position = { x=365 y=26 }
 				spriteType = "GFX_button_123x34"
 				buttonText = "REGIMENTS_SELECTION_CANCEL"
 				buttonFont = "hoi_16mbs"
@@ -957,9 +947,9 @@ guiTypes = {
 
 			gridBoxType = {
 				name = "gb_modules"
-				position = { x=17 y=70 }
+				position = { x=12 y=70 }
 				size = { width=510 height=10 }
-				slotsize = { width = 247 height = 69 } 
+				slotsize = { width = 240 height = 69 } 
 				max_slots_horizontal = 2
 				format = UPPER_LEFT
 

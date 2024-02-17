@@ -17,17 +17,16 @@
  
  
  tank_engine_upgrade: "Speed"
+ tank_armor_upgrade: "Armour"
  
  
  #Hardsuit
  
- tank_designer_battle_hardsuit_frame: "Hardsuit"
- 
  battle_hardsuit_frame_metalman: "'Metalman'"
  battle_hardsuit_frame_strongmansuit: "'Strongman'"
  battle_hardsuit_frame_battlehardsuit: "'Battlesuit'"
- battle_hardsuit_frame_bigbob: "Big Bob"
- battle_hardsuit_frame_lightboi: "'Lightboi'"
+ battle_hardsuit_frame_heavysuit: "'Heavysuit'"
+ battle_hardsuit_frame_lightsuit: "'Lightsuit'"
  
  battle_hardsuit_frame_0: "Prototype Battle Hardsuit"
  battle_hardsuit_frame_1: "Basic Battle Hardsuit"
@@ -35,11 +34,11 @@
  battle_hardsuit_frame_3: "Modern Heavy Hardsuit"
  battle_hardsuit_frame_4: "Modern Lightframe"
  
- EQ_MOD_SLOT_hardsuitactuation_type_slot_TITLE: "Hardsuit Actuation"
+ EQ_MOD_SLOT_hardsuitactuation_type_slot_TITLE: "Actuation"
  EQ_MOD_CAT_hardsuitactuator_module_type_TITLE: "Actuation Method"
  
  hardsuit_noactuation: "No Actuation"
- hardsuit_noactuation_desc: "With no actuation method installed, the poor sod in this suit of armour will just have to cope and bear the brunt of such heavy equipment across their body. Cruel, but a league cheaper than manufacturing intricate and complex piston actuation."
+ hardsuit_noactuation_desc: "§LWith no actuation method installed, the poor sod in this suit of armour will just have to cope and bear the brunt of such heavy equipment across their body. Cruel, but a league cheaper than manufacturing intricate and complex piston actuation.§!"
  hardsuit_pneumatic: "Pneumatics"
  hardsuit_hydraulic: "Hydraulics"
  
@@ -48,15 +47,15 @@
  EQ_MOD_CAT_hardsuitarmour_module_type_TITLE: "Medium Armour"
  
  hardsuit_ceramic: "Ceramic"
- hardsuit_ceramic_desc: "The interlocking ceramic plate design is not as durable as steel, but provide adequate armor in the face of regular ballistics and close-quarters engagements. It is also notable that the melting point and insulation of the material is notably high, protecting against shocking attacks, shockingly well. Additionally, ceramics are easier to procure and work than metals. They are also particularly lightweight."
+ hardsuit_ceramic_desc: "§LThe interlocking ceramic plate design is not as durable as steel, but provide adequate armor in the face of regular ballistics and close-quarters engagements. It is also notable that the melting point and insulation of the material is notably high, protecting against shocking attacks, shockingly well. Additionally, ceramics are easier to procure and work than metals. They are also particularly lightweight.§!"
  hardsuit_steel: "Steel"
- hardsuit_steel_desc: "As strong as it is prominent, when can't you rely on steel? Bullets fly off it, and it'll shrug shrapnel and explosives off like it always will. Bear in mind, this strength is warranted by its cumbersome heft."
+ hardsuit_steel_desc: "§LAs strong as it is prominent, when can't you rely on steel? Bullets fly off it, and it'll shrug shrapnel and explosives off like it always will. Bear in mind, this strength is warranted by its cumbersome heft.§!"
  hardsuit_mnalloysteel: "Hadfield Steel"
- hardsuit_mnalloysteel_desc: "This alloy sees to it that Manganese is introduced to the Steel compound. This brings some desired qualities, such as higher toughness, hardier reaction to impacts and abrasions, and most importantly- An outstanding insulating ability.\n\nLuddite metalworkers look down on the meddling of cold hard steel, but they have yet to witness the shocking bolts of the eldritch menace, haven't they?"
+ hardsuit_mnalloysteel_desc: "§LThis alloy sees to it that Manganese is introduced to the Steel compound. This brings some desired qualities, such as higher toughness, hardier reaction to impacts and abrasions, and most importantly- An outstanding insulating ability.\n\nLuddite metalworkers look down on the meddling of cold hard steel, but they have yet to witness the shocking bolts of the eldritch menace, haven't they?§!"
  hardsuit_ceramometal: "Ceramometals"
- hardsuit_ceramometal_desc: "A new combination found in military innovation, this fine hybrid spares no great weaknesses or compromises; it is the very definition of balance. It is well insulated, sufficiently protective, while being lighter and cheaper than pure metal solutions."
+ hardsuit_ceramometal_desc: "§LA new combination found in military innovation, this fine hybrid spares no great weaknesses or compromises; it is the very definition of balance. It is well insulated, sufficiently protective, while being lighter and cheaper than pure metal solutions.§!"
  hardsuit_reinforcedoak: "Reinforced Oak"
- hardsuit_reinforcedoak_desc: "Some would look at a Hardsuit bearing wooden armour, and scoff. Then, you'll show them the outstanding production charts, see how they laugh then!"
+ hardsuit_reinforcedoak_desc: "§LSome would look at a Hardsuit bearing wooden armour, and scoff. Then, you'll show them the outstanding production charts, see how they laugh then!§!"
  hardsuit_aluminium: "Aluminium"
 
  EQ_MOD_SLOT_hardsuitmisc_type_slot_TITLE: "Misc Slot"
@@ -65,6 +64,8 @@
  
  hardsuit_groundingrods: "Grounding Rods"
  hardsuit_groundingrods_desc: "§LThese negatively charged poles do a first-rate job of attracting and dissipating electric charge in the immediate vicinity. The object of these modifications is to divert shocks from the battlefield to a controlled area, allowing other units to advance safely. That is, relative safety.§!"
+ hardsuit_chemicalstimulation: "Chemical Stimulation"
+ hardsuit_chemicalstimulation_desc: "§LWith the consumption of applied Amfetamins, the operator will be greatly excited and motivated to push farther than most. However, they will be far more unstable and can likely mistreat the equipment, by ignorance of haste or through some nervous shutdown.§!"
  hardsuit_thermalinsulation: "Thermal Insulation"
  hardsuit_thermalinsulation_desc: "§LAccidents and raging infernos are a common occurence in the modern battlefield. Using an innovative substance known as asbestos, we can temper these flames on this machine greatly, which can be especially prudent when using volatile hydraulics.\n\nThankfully, asbestos is known to have no adverse, long-lasting or toxic affects to the operator of the machine!§!"
  hardsuit_liftingapparatus: "Lifting Apparatus"
@@ -79,8 +80,8 @@
  hardsuit_localdischargefield_desc: "§LA Local Discharge Field is certainly an experimental technology, as it uses an array of Grove cells to rapidly jolt the surface of the armour at the soldiers command. This shock does not at all damage the operator, but assuredly will dazzle and fry any creature or thing that may be trying to forcefully open or get inside the suit.§!"
  
  EQ_MOD_SLOT_hardsuitweapon1_type_slot_TITLE: "Main Armament"
- EQ_MOD_CAT_hardsuitregularweapons_module_type_TITLE: "Medium Weaponry"
- EQ_MOD_CAT_hardsuitlargeweapons_module_type_TITLE: "Large Weaponry"
+ EQ_MOD_CAT_hardsuitregularweapons_module_type_TITLE: "Medium Armaments"
+ EQ_MOD_CAT_hardsuitlargeweapons_module_type_TITLE: "Large Armaments"
  
  hardsuit_sniderenfield: "Snider-Enfield Rifle"
  hardsuit_martinihenry: "Martini-Henry Rifle"
@@ -90,17 +91,16 @@
  hardsuit_trenchgun: "Trench Gun"
  hardsuit_officersword: "Officers Sword"
  hardsuit_officersclaymore: "Officers Claymore"
+ hardsuit_chancelongrifle: "Chance Longrifle"
  
  hardsuit_halfpikeandshield: "Half-Pike & Shield"
- hardsuit_pallisadegun: "Pallisade Gun"
+ hardsuit_palisadegun: "Palisade Gun"
  hardsuit_righteousspeargreatshield: "Righteous Spear & Greatshield"
  hardsuit_handcannon: "Handcannon"
  hardsuit_breachspear: "Breachspear"
  hardsuit_boomlance: "Boomlance"
  
  #Daddy-long-legs
- 
- tank_designer_daddy_long_legs_frame: "Daddy-Long-Legs"
  
  daddy_long_legs_frame_stork: "'Stork'"
  daddy_long_legs_frame_crane: "'Crane'"
@@ -109,61 +109,50 @@
  daddy_long_legs_frame_1: "Advanced Daddy-long-legs"
 
  EQ_MOD_SLOT_longlegs_locomotion_type_slot_TITLE: "Locomotion Method"
- EQ_MOD_CAT_longlegs_locomotion_module_type_TITLE: "Locomotion Methods"
+ EQ_MOD_CAT_longlegs_locomotion_module_type_TITLE: "Longlegs Actuation"
  
- longlegs_machinedpneumaticjoints: "Machined Pneumatic Joints"
- longlegs_machinedpneumaticjoints_desc: "TODO"
+ longlegs_pneumaticjoints: "Pneumatic Joints"
+ longlegs_pneumaticjoints_desc: "§Pneumatic Joints utilised the power of pressured air to operate and mobilize the stilt legs. The operator can still swivel atop the legs, allowing free movement, and use his legs to drive the pneumatics to move the machine.§!"
  longlegs_pulleylegs: "Pulley Operation"
- longlegs_pulleylegs_desc: "TODO"
+ longlegs_pulleylegs_desc: "§LPulleys are used to raise and lower the legs, simulating movement. This does however mean the operator cannot move easily while under attack. A very simplistic and cheap option, to be sure.§!"
  longlegs_hydraulicstiltlegs: "Hydraulic Stilt Legs"
- longlegs_hydraulicstiltlegs_desc: "TODO"
+ longlegs_hydraulicstiltlegs_desc: "§LUsing the intensive power of hydraulics, these pistons can actuate with great fluidity and force- allowing speeds unseen on such a large machine. They are perhaps a little volatile, however worth it for such power.§!"
  longlegs_pedaloperation: "Pedal Operation"
- longlegs_pedaloperation_desc: "TODO"
+ longlegs_pedaloperation_desc: "§LAn advancement from arm-mounted pulleys, the operator works the legs by pressing on pedals- Far more intuitive than using their arms, and of course, it leaves their arms free to fight back when necessary.§!"
 
  EQ_MOD_SLOT_longlegs_armour_type_slot_TITLE: "Armour"
- EQ_MOD_CAT_longlegs_armour_module_type_TITLE: "All"
- 
- longlegs_steel: "Steel"
- longlegs_steel_desc: "TODO"
- longlegs_aluminium: "Aluminium"
- longlegs_aluminium_desc: "TODO"
- longlegs_mnalloysteel: "Hadfield Steel"
- longlegs_mnalloysteel_desc: "TODO"
- longlegs_ceramometal: "Ceramometals"
- longlegs_ceramometal_desc: "TODO"
- longlegs_ceramic: "Ceramic"
- longlegs_ceramic_desc: "The interlocking ceramic plate design is not as durable as steel, but provide adequate armor in the face of regular ballistics and close-quarters engagements. It is also notable that the melting point and insulation of the material is notably high, protecting against shocking attacks, shockingly well. Additionally, ceramics are easier to procure and work than metals. They are also particularly lightweight."
- longlegs_reinforcedoak: "Reinforced Oak"
- longlegs_reinforcedoak_desc: "TODO"
 
  EQ_MOD_SLOT_longlegs_rear_type_slot_TITLE: "Rear Mount"
- EQ_MOD_CAT_longlegsrearweapons_module_type_TITLE: "Rear Armament"
- EQ_MOD_CAT_longlegsrearslot_module_type_TITLE: "Rear Auxillary"
+ EQ_MOD_CAT_longlegsrearweapons_module_type_TITLE: "Rear Armaments"
  
  longlegs_rearmortar: "Mortar"
- longlegs_rearmortar_desc: "TODO"
+ longlegs_rearmortar_desc: "§LThe platform is large enough to fit a great mortar atop it- This mortar certainly has greater range than simplistic catapults, at increased cost of operation and production.§!"
  longlegs_catapult: "Catapult"
- longlegs_catapult_desc: "TODO"
+ longlegs_catapult_desc: "§LThis catapult can be used to siege out any position, using the increased height and mobility of the machine to its advantage. This catapult can launch any locally sourced ruin or rubble to throw back at the enemy. Highly versatile and reliable, especially for defense.§!"
  longlegs_munitioncatapult: "Munition Catapult"
- longlegs_munitioncatapult_desc: "TODO"
+ longlegs_munitioncatapult_desc: "§LThis catapult can be used to siege out any position, using the increased height and mobility of the machine to its advantage. This catapult will launch canisters of toxic gas, or capsules of flaming hot tar. Less effective on tough units, but will certainly spread panic amongst weaker foes.§!"
+ longlegs_whirligig_rocket: "Whirligig Rockets"
+ longlegs_whirligig_rocket_desc: "§LTwo Whirligig Rockets can be held along the rear side of the platform, to fire up and over a great distance. The rockets surely aren't the most accurate, nor reliable, of all ordnance, but they surely inspire any soldiers who can witness the spectacular display. What they truly excel at however, is shock and terror- The volatility and explosive nature of these rockets will surely turn away all in fear and awe!§!"
+ 
+ EQ_MOD_CAT_longlegsrearslot_module_type_TITLE: "Rear Misc"
  
  longlegs_dousingtanks: "Dousing Tanks"
- longlegs_dousingtanks_desc: "TODO"
+ longlegs_dousingtanks_desc: "§LAccidents and raging infernos are a common occurence in the modern battlefield. We can alleviate the burden on others by installing tanks of water to douse any flames on the battlefield, as the height of the machine assists in avoiding the flames greatly.§!"
  longlegs_groundingspire: "Grounding Spire"
  longlegs_groundingspire_desc: "TODO"
  longlegs_searchlights: "Searchlights"
  longlegs_searchlights_desc: "TODO"
  longlegs_immersionbowl: "Immersion Bowl"
- longlegs_immersionbowl_desc: "TODO"
+ longlegs_immersionbowl_desc: "§LThis cap is worn on the interior of the helmet, sheltering the cranium area of the operator. The 'Bowl' is a jelly of quicksilver and some unidentified substance. This invention was conceived from a sect of explorers that had ventured deep into the heart of darkness, of which are among the few that had returned with their wits about them. As ridiculous as it looks and seems, they swear by the application of this gel in military use and implore us to deploy it widely, as they affirm that it regulates the humours and dulls the psychal impact found when facing against the eldritch menace.§!"
  longlegs_dryplatecamera: "Dry Plate Camera"
- longlegs_dryplatecamera_desc: "TODO"
+ longlegs_dryplatecamera_desc: "§LIt would be advantageous to insert a full-size camera onto the platform, utilising the increased height of this machine to capture imagery of the battlefield for greater planning. This imaging can be invaluable to reconnaitre and intelligence.§!"
  longlegs_steamacceleration: "Steam Acceleration"
  longlegs_steamacceleration_desc: "TODO"
  longlegs_signalflares: "Signal Flares"
  longlegs_signalflares_desc: "TODO"
 
  EQ_MOD_SLOT_longlegs_front_type_slot_TITLE: "Front Mount"
- EQ_MOD_CAT_longlegsfrontweapons_module_type_TITLE: "Front Armament"
+ EQ_MOD_CAT_longlegsfrontweapons_module_type_TITLE: "Large Armaments"
  
  longlegs_dragonsfire: "Dragonsfire"
  longlegs_dragonsfire_desc: "TODO"
@@ -173,12 +162,8 @@
  longlegs_benedicite_mist_desc: "TODO"
  longlegs_paired_handcannons: "Paired Handcannons"
  longlegs_paired_handcannons_desc: "TODO"
- longlegs_lifter_arms: "Lifter Arms"
- longlegs_lifter_arms_desc: "TODO"
  
  #War Carriage
- 
- tank_designer_war_carriage_frame: "War Carriage"
  
  war_carriage_frame_chariot: "'Chariot'"
  war_carriage_frame_death_chariot: "'Death's Chariot'"
@@ -191,18 +176,26 @@
  war_carriage_frame_3: "Skybreaker"
   
  EQ_MOD_SLOT_warcarriage_locomotion_type_slot_TITLE: "Propulsion"
- EQ_MOD_CAT_warcarriage_locomotion_module_type_TITLE: "All"
+ EQ_MOD_CAT_warcarriage_basic_locomotion_module_type_TITLE: "Basic Propulsion"
+ EQ_MOD_CAT_warcarriage_advanced_locomotion_module_type_TITLE: "Advanced Propulsion"
  
  warcarriage_horsedrawn: "Horse-Drawn"
- warcarriage_horsedrawn_desc: "§LNothing can beat the simplicity and maintainability of going by horse, there is no fuel required but grazing and rest when needed; however, in the requirements of such a heavy piece of machinery, perhaps the gait of four horses is not quite enough to pull such burden through rough terrain.§!"
+ warcarriage_horsedrawn_desc: "§LNothing can beat the simplicity and maintainability of going by horse, there is no fuel required but grazing and rest when needed; however, in the requirements of such a heavy piece of machinery, perhaps the gait of four horses is not quite enough to pull such burden through rough terrain. At that, where this machine is headed is no place for horses, they could simply be a liability and easily killed amongst the gunfire and chaos.§!"
  warcarriage_boiler_tube: "Boiler Tube"
+ warcarriage_boiler_tube_desc: "§LTodo§!"
  warcarriage_rotary_valve: "Rotary Valve"
+ warcarriage_rotary_valve_desc: "§LTodo§!"
  warcarriage_steam_turbine: "Steam Turbine"
+ warcarriage_steam_turbine_desc: "§LTodo§!"
  warcarriage_gasoline_turbine: "Gasoline Turbine"
+ warcarriage_gasoline_turbine_desc: "§LTodo§!"
  warcarriage_gasoline_combustion: "Gasoline Combustion"
+ warcarriage_gasoline_combustion_desc: "§LTodo§!"
  warcarriage_compressor_ignition: "Compressor Ignition"
+ warcarriage_compressor_ignition_desc: "§LTodo§!"
 
  EQ_MOD_SLOT_warcarriage_armour_type_slot_TITLE: "Armour"
+ EQ_MOD_SLOT_warcarriage_interior_armour_type_slot_TITLE: "Interior Armour"
  EQ_MOD_CAT_warcarriage_armour_module_type_TITLE: "All"
  
  warcarriage_steel: "Steel"
@@ -228,13 +221,21 @@
  EQ_MOD_CAT_warcarriage_smallmisc_slot_module_type_TITLE: "Small Miscellaneous"
  
  warcarriage_teamaker: "Tea Maker"
- warcarriage_teamaker_desc: "§LBecause you've got to have a cuppa before being sent into the meat grinder, right?§!"
+ warcarriage_teamaker_desc: "§LIt even has a kitchen sink.§!"
  warcarriage_clarion_horn: "Clarion Horn"
  warcarriage_clarion_horn_desc: "§LThis clarion will sound out on the co-drivers command, and will ring out far and wide. Excellent for coordinating a battalion or a theater of battle as a whole- It can also shock and terrify the enemy, blaring and piercing their hearing.§!"
+ warcarriage_crows_nest: "Crows Nest"
+ warcarriage_crows_nest_desc: "§LTodo§!"
 
  EQ_MOD_SLOT_warcarriage_armament_type_slot_TITLE: "Main Armament"
  EQ_MOD_SLOT_warcarriage_armament2_type_slot_TITLE: "Secondary Armament"
+ EQ_MOD_SLOT_warcarriage_armament3_type_slot_TITLE: "Tertiary Armament"
  EQ_MOD_CAT_warcarriage_medium_armament_module_type_TITLE: "Medium Armaments"
+ EQ_MOD_CAT_warcarriage_skybreak_armament_module_type_TITLE: "Skybreaker"
+ EQ_MOD_CAT_warcarriage_skybreak_armament_type_slot_TITLE: "Skybreaker"
+ 
+ warcarriage_skybreaker: "Skybreaker"
+ warcarriage_skybreaker_desc: "§LSkybreaker is a tremendous Molten-stake launcher- assuredly the largest ever conceived, and produced. Some claim too large. Some claim too complex. But they are poor fools, for they surely have not seen the true power of driving the Skybreaker spear straight into the heart of a drake! Watch as the hordes fly! None, not even gods shall withstand it.§!"
  
  warcarriage_whirligig_rocket_array: "Whirligig Rocket Array"
  warcarriage_whirligig_rocket_array_desc: "§LA large array of a dozen rocket launchers that fire in sequence of each other. While one or a few rockets are sparesly accurate, a dense salvo of them will be sure to hit something, hopefully!§!"
@@ -254,20 +255,100 @@
  EQ_MOD_CAT_warcarriage_small_armament_module_type_TITLE: "Small Armaments"
  
  warcarriage_bendecite_exhausts: "Benedecite Exhausts"
+ warcarriage_bendecite_exhausts_desc: "§LWith the help of a proto-clergyman operating it, this boiler can have mercury inserted and heated to expel itself as a terribly toxic gas to choke and also sear every living thing around it. The clergyman will recite the canticle as he releases it, blessing the materiel as it goes.§!"
  warcarriage_rifle_embrasures: "Rifle Embrasures"
+ warcarriage_rifle_embrasures_desc: "§LLTodo§!"
  warcarriage_firebombardiers: "Firebombardiers"
+ warcarriage_firebombardiers_desc: "§LLTodo§!"
  warcarriage_broadsiders: "Broadsiders"
+ warcarriage_broadsiders_desc: "§LLTodo§!"
  warcarriage_ram: "Ram"
+ warcarriage_ram_desc: "§LLTodo§!"
+ warcarriage_chopping_spokes: "Chopping Spokes"
+ warcarriage_chopping_spokes_desc: "§LTodo§!"
  warcarriage_whirligig_rocket: "Whirligig Rocket"
+ warcarriage_whirligig_rocket_desc: "§LTodo§!"
  
- #Siege Motiles
  
- tank_designer_siege_motile_frame: "Generalist Siege Motile"
+ #War Engines
  
- siege_motile_frame_davinci: "'Da Vinci'"
- siege_motile_frame_indomitable: "'Indomitable'"
- siege_motile_frame_dauntless: "'Dauntless'"
+ war_engine_frame_davinci: "'Da Vinci'"
+ war_engine_frame_indomitable: "'Indomitable'"
+ war_engine_frame_dauntless: "'Dauntless'"
  
- siege_motile_frame_0: "Siege Motile"
- siege_motile_frame_1: "Iron Coffer"
- siege_motile_frame_2: "Steel Jumbo"
+ war_engine_frame_0: "War Engine"
+ war_engine_frame_1: "Iron Coffer"
+ war_engine_frame_2: "Steel Jumbo"
+ 
+ EQ_MOD_SLOT_warengine_propulsion_type_slot_TITLE: "Propulsion"
+ EQ_MOD_CAT_warengine_basic_propulsion_module_type_TITLE: "Basic Propulsion"
+ EQ_MOD_CAT_warengine_advanced_propulsion_module_type_TITLE: "Advanced Propulsion"
+ 
+ warengine_central_shaft: "Central Shaft"
+ warengine_central_shaft_desc: "§LTodo§!"
+ warengine_boiler_tube: "Boiler Tube"
+ warengine_boiler_tube_desc: "§LTodo§!"
+ warengine_rotary_valve: "Rotary Valve"
+ warengine_rotary_valve_desc: "§LTodo§!"
+ 
+ warengine_steam_turbine: "Steam Turbine"
+ warengine_steam_turbine_desc: "§LTodo§!"
+ warengine_gasoline_turbine: "Gasoline Turbine"
+ warengine_gasoline_turbine_desc: "§LTodo§!"
+ warengine_gasoline_combustion: "Gasoline Combustion"
+ warengine_gasoline_combustion_desc: "§LTodo§!"
+ warengine_compressor_ignition: "Compressor Ignition"
+ warengine_compressor_ignition_desc: "§LTodo§!"
+ 
+ EQ_MOD_SLOT_warengine_locomotion_type_slot_TITLE: "Locomotion"
+ EQ_MOD_CAT_warengine_locomotion_module_type_TITLE: "All"
+ 
+ warengine_pedrails: "Pedrails"
+ warengine_pedrails_desc: "§LTodo§!"
+ warengine_dreadnaught_wheels: "Dreadnaught Wheels"
+ warengine_dreadnaught_wheels_desc: "§LTodo§!"
+ warengine_endless_railway: "'Endless Railway'"
+ warengine_endless_railway_desc: "§LTodo§!"
+ 
+ EQ_MOD_SLOT_warengine_armour_type_slot_TITLE: "Armour"
+ EQ_MOD_CAT_war_engine_light_armour_module_type_TITLE: "Light Armour"
+ EQ_MOD_CAT_war_engine_heavy_armour_module_type_TITLE: "Heavy Armour"
+ 
+ warengine_aluminium: "Aluminium"
+ warengine_aluminium_desc: "§LTodo§!"
+ warengine_ceramic: "Ceramic"
+ warengine_ceramic_desc: "§LTodo§!"
+ warengine_ceramometal: "Ceramometal"
+ warengine_ceramometal_desc: "§LTodo§!"
+ warengine_reinforced_oak: "Reinforced Oak"
+ warengine_reinforced_oak_desc: "§LTodo§!"
+ warengine_pine: "Pine"
+ warengine_pine_desc: "§LTodo§!"
+ 
+ warengine_steel: "Steel"
+ warengine_mnalloysteel: "Hadfield Steel"
+ 
+ EQ_MOD_SLOT_warengine_misc_type_slot_TITLE: "Misc"
+ EQ_MOD_CAT_warengine_misc_module_type_TITLE: "All"
+ 
+ EQ_MOD_SLOT_warengine_array_weapons_type_slot_TITLE: "Array Weapons"
+ EQ_MOD_CAT_warengine_array_weapons_module_type_TITLE: "All"
+ 
+ warengine_rifle_embrasures: "Rifle Embrasures"
+ warengine_rifle_embrasures_desc: "§LA troop of men bearing the latest in rifles line the war machines walls, pelting out shot after shot. A dynamic and unshakeable defense.§!"
+ war_engine_handcannon_embrasures: "Handcannon Embrasures"
+ war_engine_handcannon_embrasures_desc: "§LDue to weight and munition detail, this array sports fewer men than the typical rifle troop, however makes up for it in shocking power and awe.§!"
+ war_engine_benedecite_organ: "Benedecite Organ"
+ war_engine_benedecite_organ_desc: "§LThe glorious Benedecite Organ works much like any other benedecite exhaust, that is boiling the mixture and expelling it amongst the hordes, however this variant has exhaust pipes laden all over the walls of this war engine, splayed out not unlike a church organs, and to that effect- The operator plays it as the mist flows away, booming out glorious organ music to embolden all around.§!"
+ war_engine_spears_and_bills: "Spears & Bills"
+ war_engine_spears_and_bills_desc: "§LSpearmen and billmen will poke and thrash as a melee from within the machine. They can do good work with the protection of being inside it, however will lack the range found in firearms.§!"
+ 
+ EQ_MOD_SLOT_warengine_forward_armament_type_slot_TITLE: "Forward Weapons"
+ EQ_MOD_CAT_warengine_forward_armament_module_type_TITLE: "All"
+ 
+ war_engine_frontal_cannon: "Forward Cannon"
+ war_engine_frontal_cannon_desc: "§LTodo§!"
+ war_engine_axial_cannon: "Axial Cannon"
+ war_engine_axial_cannon_desc: "§LA cannon facing the front of the machine, which can be levered up and down for longer distance shots and potential for air attack. The cannon has to be slightly smaller in course of its maneuverability.§!"
+ war_engine_dragonsfire: "Dragonsfire"
+ war_engine_dragonsfire_desc: "§LTodo§!"

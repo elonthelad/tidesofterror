@@ -1,26 +1,26 @@
 guiTypes = {
+	#Hardsuits
 	containerWindowType = {
 		name = "equipment_designer_battle_hardsuit_frame"
-		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
-		position = { x=0 y=0 }
-		size = { width=508 height=248 }
 	}
+	#Un-comment this to add AA hardsuit role
+	#
+	#containerWindowType = {
+	#	name = "equipment_designer_battle_hardsuit_frame_aa_chassis_3"
+	#}
+	
+	#Daddylonglegs
 	containerWindowType = {
 		name = "equipment_designer_daddy_long_legs_frame"
-		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
-		position = { x=0 y=0 }
-		size = { width=508 height=248 }
 	}
+	
+	#Warcarriages
 	containerWindowType = {
 		name = "equipment_designer_war_carriage_frame"
-		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
-		position = { x=0 y=0 }
-		size = { width=508 height=248 }
 	}
+	
+	#Siegemotiles
 	containerWindowType = {
-		name = "equipment_designer_siege_motile_frame"
-		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
-		position = { x=0 y=0 }
-		size = { width=508 height=248 }
+		name = "equipment_designer_war_engine_frame"
 	}
 }

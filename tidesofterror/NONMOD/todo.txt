@@ -12,8 +12,9 @@ newsevent 100%
 leaderevent 80%
 division editor 100%
 division icons 2%
-X equipment icons
+equipment icons 2%
 productionmenu 40%
+tank designer menu 90%
 
 ###RESEARCH PLOTTING###
 infantry 100%
@@ -28,7 +29,7 @@ inventions 0%
 ###UNITS###
 infantry 70%
 artillery 100%
-X war machines
+war machines 90%
 X ships
 planes 20%
 
@@ -54,7 +55,7 @@ advisors 10%
 focuses 1%
 decisions 2%
 tags  10%
-X leaders
+leaders 1%
 
 ###SFX###
 menu 50%

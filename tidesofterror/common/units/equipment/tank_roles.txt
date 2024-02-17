@@ -1,0 +1,9 @@
+#Un-comment this to add AA hardsuit role
+#duplicate_archetypes = {
+#
+#	battle_hardsuit_frame_aa_chassis = {
+#		archetype = battle_hardsuit_frame
+#		type = { armor anti_air }
+#	}
+#	
+#}

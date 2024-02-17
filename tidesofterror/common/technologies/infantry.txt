@@ -19,9 +19,9 @@ technologies = {
 			war_carriage_frame_2
 			war_carriage_frame_3
 			
-			siege_motile_frame_0
-			siege_motile_frame_1
-			siege_motile_frame_2
+			war_engine_frame_0
+			war_engine_frame_1
+			war_engine_frame_2
 		}
 		
 		enable_equipment_modules = { #Temporarily here while testing armour creator
@@ -48,6 +48,7 @@ technologies = {
 			hardsuit_immersionbowl
 			hardsuit_dryplatecamera
 			hardsuit_localdischargefield
+			hardsuit_chemicalstimulation
 			
 			hardsuit_sniderenfield
 			hardsuit_martinihenry
@@ -57,6 +58,7 @@ technologies = {
 			hardsuit_trenchgun
 			hardsuit_officersword
 			hardsuit_officersclaymore
+			hardsuit_chancelongrifle
 			
 			hardsuit_halfpikeandshield
 			hardsuit_palisadegun
@@ -65,7 +67,7 @@ technologies = {
 			hardsuit_breachspear
 			hardsuit_boomlance
 			
-			longlegs_machinedpneumaticjoints
+			longlegs_pneumaticjoints
 			longlegs_pulleylegs
 			longlegs_hydraulicstiltlegs
 			longlegs_pedaloperation
@@ -81,7 +83,6 @@ technologies = {
 			longlegs_gatlinggun
 			longlegs_benedicite_mist
 			longlegs_paired_handcannons
-			longlegs_lifter_arms
 			
 			longlegs_rearmortar
 			longlegs_catapult
@@ -120,6 +121,8 @@ technologies = {
 			warcarriage_teamaker
 			warcarriage_clarion_horn
 			
+			warcarriage_skybreaker
+			
 			warcarriage_whirligig_rocket_array
 			warcarriage_machine_gun_turret
 			warcarriage_javelin_cannon
@@ -133,11 +136,50 @@ technologies = {
 			warcarriage_firebombardiers
 			warcarriage_broadsiders
 			warcarriage_ram
+			warcarriage_chopping_spokes
+			warcarriage_whirligig_rocket
 			
+			
+			
+			
+			warengine_central_shaft
+			warengine_boiler_tube
+			warengine_rotary_valve
+			warengine_steam_turbine
+			warengine_gasoline_turbine
+			warengine_gasoline_combustion
+			warengine_compressor_ignition
+			
+			warengine_pedrails
+			warengine_dreadnaught_wheels
+			warengine_endless_railway
+			
+			warengine_reinforced_oak
+			warengine_pine
+			warengine_aluminium
+			warengine_ceramic
+			warengine_ceramometal
+			
+			warengine_steel
+			warengine_mnalloysteel
+			
+			warengine_rifle_embrasures
+			war_engine_handcannon_embrasures
+			war_engine_benedecite_organ
+			war_engine_spears_and_bills
+			
+			war_engine_frontal_cannon
+			war_engine_axial_cannon
+			war_engine_dragonsfire
 		}
 		
 		enable_subunits = {
 			constables
+			
+			battlehardsuit_unit
+			daddylonglegs_unit
+			war_carriage_unit
+			war_engine_unit
 		}
 		
 		path = {

@@ -5,27 +5,24 @@ equipments = {
 		is_archetype = yes
 		is_buildable = no
 
-		can_be_produced = {
-		}
-
 		picture = archetype_light_tank_equipment
 		type = armor
 		group_by = archetype
 		interface_category = interface_category_armor
-		priority = 2000
+		priority = 4000
 
 		module_slots = {
-			hardsuitarmour_type_slot= {
-				required = yes
-				allowed_module_categories = {
-					hardsuitarmour_module_type
-				}
-			}
-			
 			hardsuitactuation_type_slot = {
 				required = yes
 				allowed_module_categories = {
 					hardsuitactuator_module_type
+				}
+			}
+			
+			hardsuitarmour_type_slot= {
+				required = no
+				allowed_module_categories = {
+					hardsuitarmour_module_type
 				}
 			}
 			
@@ -37,11 +34,20 @@ equipments = {
 			}
 			
 			hardsuitweapon1_type_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
 					hardsuitregularweapons_module_type
 				}
 			}
+		}
+		
+		module_count_limit = {
+			module = hardsuit_chemicalstimulation
+			count < 2
+		}
+		module_count_limit = {
+			module = hardsuit_immersionbowl
+			count < 2
 		}
 
 		maximum_speed = 1
@@ -53,45 +59,12 @@ equipments = {
 		hardness = 0.7
 	}
 
-	battle_hardsuit_frame_0 = { #Metalman Model
+	battle_hardsuit_frame_0 = { #Prototype Battle Hardsuit 'Metalman'
 		derived_variant_name = battle_hardsuit_frame_metalman
 		visual_level = 0
 		year = 1870
 		archetype = battle_hardsuit_frame
-		priority = 2000
-		module_slots = inherit
-
-		upgrades = {
-			tank_nsb_engine_upgrade
-			tank_nsb_armor_upgrade
-		}
-	}
-
-	battle_hardsuit_frame_1 = { #Strongman Suit
-		derived_variant_name = battle_hardsuit_frame_strongmansuit
-		visual_level = 0
-		year = 1872
-		archetype = battle_hardsuit_frame
-		parent = battle_hardsuit_frame_0
-		priority = 2000
-		module_slots = inherit
-		
-		maximum_speed = 0.8
-		armor_value = 3.4 #Resolve
-		ap_attack = 3 #Terror
-		manpower = 1
-		build_cost_ic = 3
-		reliability = 0.8
-		hardness = 0.7
-	}
-
-	battle_hardsuit_frame_2 = { #Battle Hardsuit
-		derived_variant_name = battle_hardsuit_frame_battlehardsuit
-		visual_level = 0
-		year = 1874
-		archetype = battle_hardsuit_frame
-		parent = battle_hardsuit_frame_1
-		priority = 2000
+		priority = 4000
 		module_slots = {
 			hardsuitarmour_type_slot= {
 				required = no
@@ -99,11 +72,106 @@ equipments = {
 					hardsuitarmour_module_type
 				}
 			}
+			
+			hardsuitmisc_type_slot= {
+				required = no
+				allowed_module_categories = {
+					hardsuitmisc_module_type
+				}
+			}
+			
+			hardsuitweapon1_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					hardsuitregularweapons_module_type
+				}
+			}
+		}
+
+		upgrades = {
+			#tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
 		
+		maximum_speed = 3
+		armor_value = 2 #Resolve
+		ap_attack = 2 #Terror
+		manpower = 1
+		build_cost_ic = 2
+		reliability = 0.7
+		hardness = 0.7
+	}
+
+	battle_hardsuit_frame_1 = { #Basic Battle Hardsuit 'Strongman'
+		derived_variant_name = battle_hardsuit_frame_strongmansuit
+		visual_level = 0
+		year = 1872
+		archetype = battle_hardsuit_frame
+		parent = battle_hardsuit_frame_0
+		priority = 3999
+		module_slots = {
 			hardsuitactuation_type_slot = {
 				required = yes
 				allowed_module_categories = {
 					hardsuitactuator_module_type
+				}
+			}
+			
+			hardsuitarmour_type_slot= {
+				required = no
+				allowed_module_categories = {
+					hardsuitarmour_module_type
+				}
+			}
+			
+			hardsuitmisc_type_slot= {
+				required = no
+				allowed_module_categories = {
+					hardsuitmisc_module_type
+				}
+			}
+			
+			hardsuitweapon1_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					hardsuitregularweapons_module_type
+				}
+			}
+		}
+		
+		upgrades = {
+			tank_nsb_armor_upgrade
+			tank_nsb_engine_upgrade
+		}
+		
+		maximum_speed = 0.8
+		armor_value = 5 #Resolve
+		ap_attack = 3 #Terror
+		manpower = 1
+		build_cost_ic = 3
+		reliability = 0.8
+		hardness = 0.7
+	}
+
+	battle_hardsuit_frame_2 = { #Advanced Battle Hardsuit 'Battlesuit'
+		derived_variant_name = battle_hardsuit_frame_battlehardsuit
+		visual_level = 0
+		year = 1874
+		archetype = battle_hardsuit_frame
+		parent = battle_hardsuit_frame_1
+		priority = 3998
+		module_slots = {
+			hardsuitactuation_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					hardsuitactuator_module_type
+				}
+			}
+			
+			hardsuitarmour_type_slot= {
+				required = no
+				allowed_module_categories = {
+					hardsuitarmour_module_type
 				}
 			}
 			
@@ -122,7 +190,7 @@ equipments = {
 			}
 			
 			hardsuitweapon1_type_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
 					hardsuitregularweapons_module_type
 					hardsuitlargeweapons_module_type
@@ -131,7 +199,7 @@ equipments = {
 		}
 		
 		maximum_speed = 0.7
-		armor_value = 4.5 #Resolve
+		armor_value = 10 #Resolve
 		ap_attack = 4 #Terror
 		manpower = 1
 		build_cost_ic = 4.4
@@ -139,13 +207,13 @@ equipments = {
 		hardness = 0.75
 	}
 
-	battle_hardsuit_frame_3 = { #Modern Heavy Hardsuit
-		derived_variant_name = battle_hardsuit_frame_bigbob
+	battle_hardsuit_frame_3 = { #Modern Heavy Hardsuit 'Heavysuit'
+		derived_variant_name = battle_hardsuit_frame_heavysuit
 		visual_level = 0
 		year = 1876
 		archetype = battle_hardsuit_frame
 		parent = battle_hardsuit_frame_2
-		priority = 2000
+		priority = 3997
 		module_slots = {
 			hardsuitactuation_type_slot = {
 				required = yes
@@ -183,7 +251,7 @@ equipments = {
 			}
 			
 			hardsuitweapon1_type_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
 					hardsuitregularweapons_module_type
 					hardsuitlargeweapons_module_type
@@ -191,7 +259,7 @@ equipments = {
 			}
 		}
 		maximum_speed = 0.4
-		armor_value = 8 #Resolve
+		armor_value = 20 #Resolve
 		ap_attack = 7.5 #Terror
 		manpower = 1
 		build_cost_ic = 8.2
@@ -199,25 +267,25 @@ equipments = {
 		hardness = 0.85
 	}
 
-	battle_hardsuit_frame_4 = { #Modern Lightframe
-		derived_variant_name = battle_hardsuit_frame_lightboi
+	battle_hardsuit_frame_4 = { #Modern Lightframe 'Lightsuit'
+		derived_variant_name = battle_hardsuit_frame_lightsuit
 		visual_level = 0
 		year = 1876
 		archetype = battle_hardsuit_frame
 		parent = battle_hardsuit_frame_2
-		priority = 2000
+		priority = 3996
 		module_slots = {
-			hardsuitarmour_type_slot= {
-				required = no
-				allowed_module_categories = {
-					hardsuitarmour_module_type
-				}
-			}
-		
 			hardsuitactuation_type_slot = {
 				required = yes
 				allowed_module_categories = {
 					hardsuitactuator_module_type
+				}
+			}
+			
+			hardsuitarmour_type_slot= {
+				required = no
+				allowed_module_categories = {
+					hardsuitarmour_module_type
 				}
 			}
 			
@@ -236,7 +304,7 @@ equipments = {
 			}
 			
 			hardsuitweapon1_type_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
 					hardsuitregularweapons_module_type
 					hardsuitlargeweapons_module_type
@@ -244,7 +312,7 @@ equipments = {
 			}
 		}
 		maximum_speed = 2
-		armor_value = 7 #Resolve
+		armor_value = 16 #Resolve
 		ap_attack = 8 #Terror
 		manpower = 1
 		build_cost_ic = 5
@@ -258,14 +326,11 @@ equipments = {
 		is_archetype = yes
 		is_buildable = no
 
-		can_be_produced = {
-		}
-
 		picture = archetype_light_tank_equipment
 		type = armor
 		group_by = archetype
 		interface_category = interface_category_armor
-		priority = 2000
+		priority = 3500
 
 		module_slots = {
 			longlegs_locomotion_type_slot = {
@@ -278,7 +343,7 @@ equipments = {
 			longlegs_armour_type_slot= {
 				required = no
 				allowed_module_categories = {
-					longlegs_armour_module_type
+					hardsuitarmour_module_type
 				}
 			}
 			
@@ -291,49 +356,55 @@ equipments = {
 			}
 			
 			longlegs_front_type_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
 					longlegsfrontweapons_module_type
+					hardsuitregularweapons_module_type
 				}
 			}
 		}
-
-		maximum_speed = 0
-		armor_value = 2 #Resolve
-		ap_attack = 2 #Terror
-		manpower = 1
-		build_cost_ic = 2
-		reliability = 0.7
-		hardness = 0.7
-	}
-
-	daddy_long_legs_frame_0 = { #Stork
-		derived_variant_name = daddy_long_legs_frame_stork
-		visual_level = 0
-		year = 1873
-		archetype = daddy_long_legs_frame
-		priority = 2000
-		module_slots = inherit
-
+		
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
+
+		maximum_speed = 0
+		armor_value = 8 #Resolve
+		ap_attack = 2 #Terror
+		manpower = 1
+		build_cost_ic = 4
+		reliability = 0.7
+		hardness = 0.7
 	}
 
-	daddy_long_legs_frame_1 = { #Crane
+	daddy_long_legs_frame_0 = { #Basic Daddy-long-legs 'Stork'
+		derived_variant_name = daddy_long_legs_frame_stork
+		visual_level = 0
+		year = 1873
+		archetype = daddy_long_legs_frame
+		priority = 3500
+		module_slots = inherit
+
+	}
+
+	daddy_long_legs_frame_1 = { #Advanced Daddy-long-legs 'Crane'
 		derived_variant_name = daddy_long_legs_frame_crane
 		visual_level = 0
 		year = 1875
 		archetype = daddy_long_legs_frame
 		parent = daddy_long_legs_frame_0
-		priority = 2000
+		priority = 3499
 		module_slots = inherit
 
-		upgrades = {
-			tank_nsb_engine_upgrade
-			tank_nsb_armor_upgrade
-		}
+		
+		maximum_speed = 0
+		armor_value = 12 #Resolve
+		ap_attack = 5 #Terror
+		manpower = 1
+		build_cost_ic = 6
+		reliability = 1
+		hardness = 0.7
 	}
 	
 	
@@ -349,13 +420,14 @@ equipments = {
 		type = armor
 		group_by = archetype
 		interface_category = interface_category_armor
-		priority = 1
+		priority = 2603
 
 		module_slots = {
 			warcarriage_locomotion_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					warcarriage_locomotion_module_type
+					warcarriage_basic_locomotion_module_type
+					warcarriage_advanced_locomotion_module_type
 				}
 			}
 			
@@ -375,7 +447,7 @@ equipments = {
 			}
 			
 			warcarriage_armament_type_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
 					warcarriage_medium_armament_module_type
 					warcarriage_small_armament_module_type
@@ -397,7 +469,7 @@ equipments = {
 		visual_level = 0
 		year = 1873
 		archetype = war_carriage_frame
-		priority = 1
+		priority = 2603
 		module_slots = inherit
 
 		upgrades = {
@@ -405,20 +477,21 @@ equipments = {
 			tank_nsb_armor_upgrade
 		}
 	}
-
+	
 	war_carriage_frame_1 = { #Death Carriage
 		derived_variant_name = war_carriage_frame_death_chariot
 		visual_level = 0
-		year = 1875
+		year = 1874
 		archetype = war_carriage_frame
 		parent = war_carriage_frame_0
-		priority = 2
+		priority = 2602
 		
 		module_slots = {
 			warcarriage_locomotion_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					warcarriage_locomotion_module_type
+					warcarriage_basic_locomotion_module_type
+					warcarriage_advanced_locomotion_module_type
 				}
 			}
 			
@@ -445,7 +518,7 @@ equipments = {
 			}
 			
 			warcarriage_armament_type_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
 					warcarriage_medium_armament_module_type
 					warcarriage_small_armament_module_type
@@ -465,83 +538,182 @@ equipments = {
 			tank_nsb_armor_upgrade
 		}
 	}
-
+	
 	war_carriage_frame_2 = { #Derailed Locomotive
 		derived_variant_name = war_carriage_frame_derailed_locomotive
 		visual_level = 0
-		year = 1875
+		year = 1876
 		archetype = war_carriage_frame
-		priority = 3
-		module_slots = inherit
+		priority = 2601
+		module_slots = {
+			warcarriage_locomotion_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					warcarriage_advanced_locomotion_module_type
+				}
+			}
+			
+			warcarriage_armour_type_slot= {
+				required = no
+				allowed_module_categories = {
+					warcarriage_armour_module_type
+				}
+			}
+			
+			warcarriage_interior_armour_type_slot= {
+				required = no
+				allowed_module_categories = {
+					warcarriage_armour_module_type
+				}
+			}
+			
+			warcarriage_misc_type_slot= {
+				required = no
+				allowed_module_categories = {
+					warcarriage_mediummisc_slot_module_type
+					warcarriage_smallmisc_slot_module_type
+				}
+			}
+			
+			warcarriage_armament_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					warcarriage_medium_armament_module_type
+					warcarriage_small_armament_module_type
+				}
+			}
+			
+			warcarriage_armament2_type_slot = {
+				required = no
+				allowed_module_categories = {
+					warcarriage_medium_armament_module_type
+					warcarriage_small_armament_module_type
+				}
+			}
+			
+			warcarriage_armament3_type_slot = {
+				required = no
+				allowed_module_categories = {
+					warcarriage_small_armament_module_type
+				}
+			}
+		}
 
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
 	}
-
+	
 	war_carriage_frame_3 = { #Skybreaker
 		derived_variant_name = war_carriage_frame_skybreaker
 		visual_level = 0
-		year = 1875
+		year = 1878
 		archetype = war_carriage_frame
-		priority = 4
-		module_slots = inherit
-
-		upgrades = {
-			tank_nsb_engine_upgrade
-			tank_nsb_armor_upgrade
-		}
-	}
-	
-	
-	siege_motile_frame = {
-		year = 1873
-		is_archetype = yes
-		is_buildable = no
-
-		can_be_produced = {
-		}
-
-		picture = archetype_light_tank_equipment
-		type = armor
-		group_by = archetype
-		interface_category = interface_category_armor
-		priority = 2000
-
+		priority = 2600
+		parent = war_carriage_frame_2
 		module_slots = {
-			longlegs_locomotion_type_slot = {
+			warcarriage_locomotion_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					longlegs_locomotion_module_type
+					warcarriage_advanced_locomotion_module_type
 				}
 			}
 			
-			longlegs_armour_type_slot= {
+			warcarriage_armour_type_slot= {
 				required = no
 				allowed_module_categories = {
-					longlegs_armour_module_type
+					warcarriage_armour_module_type
 				}
 			}
 			
-			longlegs_rear_type_slot= {
+			warcarriage_interior_armour_type_slot= {
 				required = no
 				allowed_module_categories = {
-					longlegsrearweapons_module_type
-					longlegsrearslot_module_type
+					warcarriage_armour_module_type
 				}
 			}
 			
-			longlegs_front_type_slot = {
+			warcarriage_misc_type_slot= {
 				required = no
 				allowed_module_categories = {
-					longlegsfrontweapons_module_type
+					warcarriage_mediummisc_slot_module_type
+					warcarriage_smallmisc_slot_module_type
+				}
+			}
+			
+			warcarriage_armament_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					warcarriage_skybreak_armament_module_type
 				}
 			}
 		}
 
 		default_modules = {
-			longlegs_locomotion_type_slot = longlegs_pulleylegs
+			warcarriage_armament_type_slot = warcarriage_skybreaker
+		}
+
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+	}
+	
+	
+	war_engine_frame = {
+		year = 1875
+		is_archetype = yes
+		is_buildable = no
+
+		picture = archetype_light_tank_equipment
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 2002
+
+		module_slots = {
+			warengine_propulsion_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					warengine_basic_propulsion_module_type
+				}
+			}
+			
+			warengine_locomotion_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					warengine_locomotion_module_type
+				}
+			}
+			
+			warengine_armour_type_slot= {
+				required = no
+				allowed_module_categories = {
+					war_engine_light_armour_module_type
+				}
+			}
+			
+			warengine_misc_type_slot= {
+				required = no
+				allowed_module_categories = {
+					warengine_misc_module_type
+				}
+			}
+			
+			warengine_array_weapons_type_slot= {
+				required = no
+				allowed_module_categories = {
+					warengine_array_weapons_module_type
+				}
+			}
+			
+			warengine_forward_armament_type_slot = {
+				required = no
+				allowed_module_categories = {
+					warengine_forward_armament_module_type
+				}
+			}
 		}
 
 		maximum_speed = 0
@@ -552,28 +724,13 @@ equipments = {
 		reliability = 0.7
 		hardness = 0.7
 	}
-
-	siege_motile_frame_0 = { #Da Vinci
-		derived_variant_name = siege_motile_frame_davinci
-		visual_level = 0
-		year = 1873
-		archetype = war_carriage_frame
-		priority = 2000
-		module_slots = inherit
-
-		upgrades = {
-			tank_nsb_engine_upgrade
-			tank_nsb_armor_upgrade
-		}
-	}
-
-	siege_motile_frame_1 = { #Iron Coffer
-		derived_variant_name = siege_motile_frame_indomitable
+	
+	war_engine_frame_0 = { #Da Vinci
+		derived_variant_name = war_engine_frame_davinci
 		visual_level = 0
 		year = 1875
-		archetype = war_carriage_frame
-		parent = siege_motile_frame_0
-		priority = 2000
+		archetype = war_engine_frame
+		priority = 2002
 		module_slots = inherit
 
 		upgrades = {
@@ -581,15 +738,118 @@ equipments = {
 			tank_nsb_armor_upgrade
 		}
 	}
+	
+	war_engine_frame_1 = { #Iron Coffer 'Indomitable'
+		derived_variant_name = war_engine_frame_indomitable
+		visual_level = 0
+		year = 1877
+		archetype = war_engine_frame
+		parent = war_engine_frame_0
+		priority = 2001
+		module_slots = {
+			warengine_propulsion_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					warengine_basic_propulsion_module_type
+					warengine_advanced_propulsion_module_type
+				}
+			}
+			
+			warengine_locomotion_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					warengine_locomotion_module_type
+				}
+			}
+			
+			warengine_armour_type_slot= {
+				required = no
+				allowed_module_categories = {
+					war_engine_light_armour_module_type
+					war_engine_heavy_armour_module_type
+				}
+			}
+			
+			warengine_misc_type_slot= {
+				required = no
+				allowed_module_categories = {
+					warengine_misc_module_type
+				}
+			}
+			
+			warengine_array_weapons_type_slot= {
+				required = no
+				allowed_module_categories = {
+					warengine_array_weapons_module_type
+				}
+			}
+			
+			warengine_forward_armament_type_slot = {
+				required = no
+				allowed_module_categories = {
+					warengine_forward_armament_module_type
+				}
+			}
+		}
 
-	siege_motile_frame_2 = { #Steel Jumbo
-		derived_variant_name = siege_motile_frame_dauntless
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+	}
+	
+	war_engine_frame_2 = { #Steel Jumbo 'Dauntless'
+		derived_variant_name = war_engine_frame_dauntless
 		visual_level = 0
 		year = 1878
-		archetype = war_carriage_frame
-		parent = siege_motile_frame_1
+		archetype = war_engine_frame
+		parent = war_engine_frame_1
 		priority = 2000
-		module_slots = inherit
+		module_slots = {
+			warengine_propulsion_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					warengine_basic_propulsion_module_type
+					warengine_advanced_propulsion_module_type
+				}
+			}
+			
+			warengine_locomotion_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					warengine_locomotion_module_type
+				}
+			}
+			
+			warengine_armour_type_slot= {
+				required = no
+				allowed_module_categories = {
+					war_engine_light_armour_module_type
+					war_engine_heavy_armour_module_type
+				}
+			}
+			
+			warengine_misc_type_slot= {
+				required = no
+				allowed_module_categories = {
+					warengine_misc_module_type
+				}
+			}
+			
+			warengine_array_weapons_type_slot= {
+				required = no
+				allowed_module_categories = {
+					warengine_array_weapons_module_type
+				}
+			}
+			
+			warengine_forward_armament_type_slot = {
+				required = no
+				allowed_module_categories = {
+					warengine_forward_armament_module_type
+				}
+			}
+		}
 
 		upgrades = {
 			tank_nsb_engine_upgrade

@@ -853,4 +853,85 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/dp_secondary_battery_icn_4.dds"
 	}	
 	
+	
+	#MODDED
+	
+	
+	#Hardsuit Actuation
+	SpriteType = {
+		name = "GFX_EMI_hardsuit_noactuation"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_noactuation.dds"
+	}
+	SpriteType = {
+		name = "GFX_EMI_hardsuit_hydraulic"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_hydraulic.dds"
+	}
+	SpriteType = {
+		name = "GFX_EMI_hardsuit_pneumatic"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_pneumatic.dds"
+	}
+	
+	#Daddy-long-legs Misc
+	SpriteType = {
+		name = "GFX_EMI_longlegs_hydraulicstiltlegs"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/longlegs_hydraulicstiltlegs.dds"
+	}
+	
+	#Hardsuit Armour
+	SpriteType = {
+		name = "GFX_EMI_hardsuit_reinforcedoak"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_reinforcedoak.dds"
+	}
+	SpriteType = {
+		name = "GFX_EMI_hardsuit_mnalloysteel"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_mnalloysteel.dds"
+	}
+	SpriteType = {
+		name = "GFX_EMI_hardsuit_aluminium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_aluminium.dds"
+	}
+	SpriteType = {
+		name = "GFX_EMI_hardsuit_steel"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_steel.dds"
+	}
+	SpriteType = {
+		name = "GFX_EMI_hardsuit_ceramometal"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_ceramometal.dds"
+	}
+	SpriteType = {
+		name = "GFX_EMI_hardsuit_ceramic"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_ceramic.dds"
+	}
+	
+	#Daddy-long-legs Armour
+	SpriteType = {
+		name = "GFX_EMI_longlegs_reinforcedoak"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_reinforcedoak.dds"
+	}
+	SpriteType = {
+		name = "GFX_EMI_longlegs_aluminium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_aluminium.dds"
+	}
+	
+	
+	#Hardsuit Misc
+	SpriteType = {
+		name = "GFX_EMI_hardsuit_liftingapparatus"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_liftingapparatus.dds"
+	}
+	SpriteType = {
+		name = "GFX_EMI_hardsuit_dryplatecamera"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_dryplatecamera.dds"
+	}
+	SpriteType = {
+		name = "GFX_EMI_hardsuit_chemicalstimulation"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_chemicalstimulation.dds"
+	}
+	
+	#Hardsuit Weapons
+	SpriteType = {
+		name = "GFX_EMI_hardsuit_sniderenfield"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_sniderenfield.dds"
+	}
 }
+
