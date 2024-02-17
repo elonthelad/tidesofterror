@@ -713,7 +713,7 @@ NGraphics = {
 	GRADIENT_BORDERS_FIELD_COUNTRY_HIGH = 9000.0, -- ... the value is squared, so fe. country of size 100x100pix = 10000
 	GRADIENT_BORDERS_THICKNESS_COUNTRY_LOW = 0.0, -- thickness in pixels
 	GRADIENT_BORDERS_COUNTRY_CENTER_THICKNESS = 0.0, -- The center gradient is linear 1/255 per pixel for this many pixels
-	GRADIENT_BORDERS_THICKNESS_COUNTRY_HIGH = 35.0,
+	GRADIENT_BORDERS_THICKNESS_COUNTRY_HIGH = 25.0,
 	GRADIENT_BORDERS_THICKNESS_STATE = 1.0,
 	GRADIENT_BORDERS_THICKNESS_RESISTANCE = 5.0,
 	GRADIENT_BORDERS_THICKNESS_INTEL_LEDGER = 5.0,
@@ -856,7 +856,7 @@ NGraphics = {
 	DIVISION_NAMES_GROUP_MAX_TOOLTIP_ENTRIES = 15,	-- Max entries to display the names in the tooltip, when mouse over the division-names-group in the division template designer.
 	NAMES_GROUP_MAX_NAME_LIST_ENTRIES = 25,	-- Max example name entries in ship and railway gun name list in production menu
 
-	WEATHER_DISTANCE_CUTOFF = 1800, -- At what distance weather effects are hidden
+	WEATHER_DISTANCE_CUTOFF = 2000, -- At what distance weather effects are hidden
 	WEATHER_DISTANCE_FADE_LENGTH = 100, -- How far the fade out distance should be
 	WEATHER_ZOOM_IN_CUTOFF = 8, -- At what distance weather effects are faded out the most when zooming in
 	WEATHER_ZOOM_IN_FADE_LENGTH = 70, -- How far the zoom in fade out distance should be
@@ -879,11 +879,11 @@ NGraphics = {
 	LAND_COMBAT_WINNING_COLOR = { 0.0, 1.0, 0.0, 1.0 },
 
 	-- bloom configuration
-	BLOOM_WIDTH = 1.5,
+	BLOOM_WIDTH = 12.5,
 	--BLOOM_WIDTH = 1.0, -- night
-	BLOOM_SCALE = 0.9,
+	BLOOM_SCALE = 1.5,
 	--BLOOM_SCALE = 3.0, -- night
-	BRIGHT_THRESHOLD = 0.4,
+	BRIGHT_THRESHOLD = 0.2,
 	--BRIGHT_THRESHOLD = 0.9, -- night
 	EMISSIVE_BLOOM_STRENGTH = 1.0,
 	MIN_HDR_ADJUSTMENT = 0.5,     --0.18 0.7  är hur mkt den anpassar sig till mörka områden, mindre värde -> mer mörkerseen
@@ -891,13 +891,13 @@ NGraphics = {
 	HDR_ADJUSTMENT_SPEED = 15.0, -- 6
 	TONE_MAP_MIDDLE_GREY = 0.5, --0.7
 	TONE_MAP_LUMINANCE_WHITE = 1.0, --
-	MOON_HEIGHT = 600, -- higher means softer shadows and more intense light
-	SUN_HEIGHT  = 200, -- higher means softer shadows and more intense light
-	MOON_HEIGHT_WATER = 550,   -- higher means softer shadows and more intense light
+	MOON_HEIGHT = 700, -- higher means softer shadows and more intense light
+	SUN_HEIGHT  = 100, -- higher means softer shadows and more intense light
+	MOON_HEIGHT_WATER = 190,   -- higher means softer shadows and more intense light
 	SUN_HEIGHT_WATER  = 5000,  -- higher means softer shadows and more intense light
 	MOON_LATITUDE = 0, -- NOT USED
-	SUN_LATITUDE  = 848,
-	SECOND_MOON_LATITUDE = 3500, -- Used to put a "fake" sun/moon on the other side of the globe to hide the seem that would otherwise appear there
+	SUN_LATITUDE  = 248,
+	SECOND_MOON_LATITUDE = 1500, -- Used to put a "fake" sun/moon on the other side of the globe to hide the seem that would otherwise appear there
 	SECOND_SUN_LATITUDE = 100,
 
 	-- hsv color ambient light
@@ -911,8 +911,8 @@ NGraphics = {
 	SUN_DIFFUSE_COLOR   	= {0.14, 0.0, 1.0},
 	SUN_INTENSITY 			= 1.0; -- 0.4
 	SUN_SPECULAR_INTENSITY 	= 1.0;
-	MOON_DIFFUSE_COLOR  	= {0.40, 0.42, 1.0},
-	MOON_INTENSITY 			= 1.1;
+	MOON_DIFFUSE_COLOR  	= {0.25, 0.48, 0.37},
+	MOON_INTENSITY 			= 5.4;
 
 	CUBEMAP_INTENSITY = 0.7,
 
