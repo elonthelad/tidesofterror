@@ -590,3 +590,9 @@
  mounted_constabulary: "Mounted Constabulary"
  mounted_sergeants: "Mounted Sergeants"
  reconnaissance_scouters: "Mounted Recon Scouts"
+ 
+ group_armor_title: "War Machines"
+ battlehardsuit_unit: "Hardsuit Brigade"
+ daddylonglegs_unit: "Daddy-long-legs"
+ war_carriage_unit: "War Carriage Brigade"
+ war_engine_unit: "War Engine Brigade"

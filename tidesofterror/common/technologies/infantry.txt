@@ -163,6 +163,12 @@ technologies = {
 			warengine_steel
 			warengine_mnalloysteel
 			
+			war_engine_teamaker
+			war_engine_clarion_horn
+			war_engine_leaden_interior
+			war_engine_localdischargefield
+			war_engine_dousingtanks
+			
 			warengine_rifle_embrasures
 			war_engine_handcannon_embrasures
 			war_engine_benedecite_organ

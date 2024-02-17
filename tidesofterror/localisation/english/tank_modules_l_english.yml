@@ -331,6 +331,17 @@
  EQ_MOD_SLOT_warengine_misc_type_slot_TITLE: "Misc"
  EQ_MOD_CAT_warengine_misc_module_type_TITLE: "All"
  
+ war_engine_teamaker: "Tea Maker"
+ war_engine_teamaker_desc: "§LIt even has a kitchen sink.§!"
+ war_engine_clarion_horn: "Clarion Horn"
+ war_engine_clarion_horn_desc: "§LThis clarion will sound out on the co-drivers command, and will ring out far and wide. Excellent for coordinating a battalion or a theater of battle as a whole- It can also shock and terrify the enemy, blaring and piercing their hearing.§!"
+ war_engine_leaden_interior: "Leaden Interior"
+ war_engine_leaden_interior_desc: "§LTodo§!"
+ war_engine_localdischargefield: "Local Discharge Field"
+ war_engine_localdischargefield_desc: "§LTodo§!"
+ war_engine_dousingtanks: "Dousing Tanks"
+ war_engine_dousingtanks_desc: "§LTodo§!"
+ 
  EQ_MOD_SLOT_warengine_array_weapons_type_slot_TITLE: "Array Weapons"
  EQ_MOD_CAT_warengine_array_weapons_module_type_TITLE: "All"
  
