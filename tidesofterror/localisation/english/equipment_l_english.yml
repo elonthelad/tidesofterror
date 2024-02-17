@@ -225,6 +225,8 @@
  mortar_equipment_2_desc: "A much smaller, and cheaper, wrought-iron tube that can be repostioned with great ease. As compared to its older, larger brother, this mortar can adapt better to changes in the battle situation and allow for more effective firing phases."
  mortar_equipment_3: "Naphtha Howitzer"
  mortar_equipment_3_desc: "Employing the use of a dirty combustible that retains its trajectory even when launched at extreme angles and distances, this mortar can begin great blazes on far positions in mere moments. As it fires, the liquid scorches through the sky. A sight sure to petrify any mortal creature on the unfortunate receiving end."
+ mortar_equipment_4: "Whirligig Rocket"
+ mortar_equipment_4_desc: "An inspiration from Hale's work on the Hale Rocket that saw use in the American Civil War, this design utilises the propulsion from inside the rocket to spin at a great rate, increasing its velocity and impact greatly. A terrifying weapon, for both sides, to be sure."
  
  gatling_equipment: "Machine Guns"
  gatling_equipment_desc: "These weapons are to be easily assembled by infantry and rapidly fired directly to a choke-point. Found to be effective in the cramped streets of Britain, although largely innacurate, these units can excell when given appropriate supporting troops."

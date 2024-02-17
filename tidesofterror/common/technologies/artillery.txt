@@ -476,6 +476,11 @@ technologies = {
             leads_to_tech = arttech_mortar_miniaturisation
 			research_cost_coeff = 1
 		}
+		
+		path = {
+            leads_to_tech = arttech_whirligig_rocket
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2
 		start_year = 1868
@@ -512,6 +517,28 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = 21 y = 7 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+	arttech_whirligig_rocket = {
+
+		enable_equipments = {
+			mortar_equipment_4
+		}
+
+		research_cost = 2
+		start_year = 1870
+		folder = {
+			name = artillery_folder
+			position = { x = 24 y = 12 }
 		}
 		
 		categories = {
