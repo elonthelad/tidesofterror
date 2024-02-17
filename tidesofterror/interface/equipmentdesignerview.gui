@@ -225,10 +225,22 @@ guiTypes = {
 
 		}
 
-		iconType = {
+		iconType = {#Yeeted
 			name = "design_company_icon"
-			spriteType = "GFX_idea_porsche"
-			position = { x = 461 y = 382 }
+			spriteType = "GFX_invis"
+			position = { x = -9999 y = -9999 }
+		}
+
+		buttonType = {#Yeeted
+			name = "upgrade_assigned_industrial_org"
+			position = { x = -9999 y = -9999 }
+			spriteType = "GFX_invis"
+		}
+
+		buttonType = {#Yeeted
+			name = "design_team_button"
+			spriteType = "GFX_invis"
+			position = { x = -9999 y = -9999 }
 		}
 
 		# right hand side, stats and terrain adjusters
@@ -479,6 +491,8 @@ guiTypes = {
 				}
 			}
 			
+			
+			
 			containerWindowType = {
 				name = "grid_container"
 				position = { x=65 y=30}	
@@ -501,6 +515,66 @@ guiTypes = {
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 					
+				}
+			}
+		}
+		
+		containerWindowType = {#Yeeted
+			name = "historical_select_design"
+			position = { x = -9999 y = -9999 }
+			size = { width=567 height=460 }
+			
+			
+			background = {#Yeeted
+				name = "Background"		
+				spriteType ="GFX_invis"
+				position = { x=-9999 y=-9999 }
+			}
+	
+			buttonType = {#Yeeted
+				name = "back_button"
+				position = { x = -9999 y = -9999 }
+				size = { x=504 y=22 }
+				font = "hoi_16mbs"				
+				buttontext = ""
+				quadTextureSprite = "GFX_invis"
+				clicksound = click_close
+			}		
+	
+			containerWindowType = {#Yeeted
+				name = "border_container"
+				position = { x = -9999 y = -9999 }
+				size = { width = 495 height = 380 }
+				
+				background = {
+					name ="bg_tech_button"#Yeeted
+					spriteType = "GFX_division_3d_bg"	
+					position = { x = -9999 y = -9999 }
+					size = { x=100%% y=100%%}
+				}
+			}
+			
+			containerWindowType = {#Yeeted
+				name = "grid_container"
+				position = { x = -9999 y = -9999 }
+				size = { width=430 height=360 }
+				verticalScrollbar = "right_vertical_slider"
+				scroll_wheel_factor = 80
+				smooth_scrolling = yes
+				
+				background = {
+					name = "Background"
+					spriteType ="GFX_tiled_window_transparent"
+				}
+				
+				
+				gridBoxType = {#Yeeted
+					name = "buttons_grid"
+					position = { x = -9999 y = -9999 }
+					size = { width = 460 height = 100%% }
+					slotsize = { width = 430 height = 80 }
+					max_slots_horizontal = 1
+					format = "UPPER_LEFT"
 				}
 			}
 		}
@@ -1294,7 +1368,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "equipment_module_entry"
-		size = { width=244 height=66 }
+		size = { width=238 height=66 }
 
 		background = {
 			name = "background"
@@ -1311,9 +1385,9 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "name"
-			position = { x=85 y=2 }
-			font = "hoi_18mbs"
-			text = "USS Enterprise"
+			position = { x=85 y=4 }
+			font = "hoi_16mbs"
+			text = "null"
 			maxWidth = 155
 			maxHeight = 36
 			format = left
@@ -1345,9 +1419,9 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "cost"
-			position = { x=85 y=39 }
+			position = { x=85 y=37 }
 			font = "hoi_16mbs"
-			text = "Too much"
+			text = "null"
 			maxWidth = 150
 			maxHeight = 20
 			multiline = no
@@ -1495,7 +1569,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "btn_module_slot"
-			position = { x=0 y=0 }
+			position = { x=0 y=-8 }
 			spriteType = "GFX_locked_icon"
 			Orientation = "CENTER"
 			centerPosition = yes

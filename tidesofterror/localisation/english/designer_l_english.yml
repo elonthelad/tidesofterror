@@ -160,7 +160,6 @@
  ILLEGAL_EQUIPMENT_CATEGORY: "§RThe current design cannot be used in the $ROLE|H$ role.§!"
  REQUIRED_MODULE_EMPTY: "§RDesign lacks one or more required modules:§!"
  EQUIPMENT_MODULE_LIMIT_NOT_EQUAL: "§RThe design must have $REQ_COUNT|0$ $TITLE|H$.§!"
- EQUIPMENT_MODULE_LIMIT_MAX_EXCEEDED: "§RThe design cannot have more than $MAX|0$ $TITLE|H$.§!"
  EQUIPMENT_MODULE_LIMIT_MIN_EXCEEDED: "§RThe design must have at least $MIN|0$ $TITLE|H$.§!"
  EQUIPMENT_MODULE_LIMIT_TITLE_ANY: "§Rmodules of any kind§!"
  EQUIPMENT_MODULE_LIMIT_TITLE_EMPTY: "§Rempty module slots§!"
@@ -293,6 +292,8 @@
  
  DIVISION_PRODUCTION_COST_LAND: "Production Cost:       §Y$VALUE|2$§!"
  DIVISION_REFIT_COST_LAND: "Conversion Cost:       §Y$VALUE|2$§!"
+ tank_designer_name_label1: "§gClick to Edit§!"
+ EQUIPMENT_MODULE_LIMIT_MAX_EXCEEDED: "§ROne does not simply use more than $MAX|0$ $TITLE|H$.§!"
  
  EQUIPMENT_DESIGNER_MODULE_SLOT_NOT_AVAILABLE: ""
  DIVISION_DIVISION: "Battalion Editor"

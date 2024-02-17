@@ -228,10 +228,23 @@ guiTypes = {
 			pdx_tooltip_delayed = "DESIGNER_SELECT_NICHE_AIR_DELAYED"
 		}
 
-		iconType = {
+		iconType = {#Yeeted
 			name = "design_company_icon"
-			spriteType = "GFX_idea_porsche"
-			position = { x = 461 y = 382 }
+			spriteType = "GFX_invis"
+			position = { x = -9999 y = -9999 }
+		}
+
+		buttonType = {#Yeeted
+			name = "upgrade_assigned_industrial_org"
+			position = { x = -9999 y = -9999 }
+			spriteType = "GFX_invis"
+			frame = 2
+		}
+
+		buttonType = {#Yeeted
+			name = "design_team_button"
+			spriteType = "GFX_invis"
+			position = { x = -9999 y = -9999 }
 		}
 
 		# right hand side, stats and mission adjusters
@@ -502,6 +515,66 @@ guiTypes = {
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 					
+				}
+			}
+		}
+		
+		containerWindowType = {#Yeeted
+			name = "historical_select_design"
+			position = { x = -9999 y = -9999 }
+			size = { width=567 height=460 }
+			
+			
+			background = {#Yeeted
+				name = "Background"		
+				spriteType ="GFX_tiled_window"
+				position = { x = -9999 y = -9999 }
+			}
+
+			buttonType = {#Yeeted
+				name = "back_button"
+				position = { x = -9999 y = -9999 }
+				size = { x=504 y=22 }
+				font = "hoi_16mbs"				
+				buttontext = ""
+				quadTextureSprite = "GFX_invis"
+				clicksound = click_close
+			}		
+
+			containerWindowType = {#Yeeted
+				name = "border_container"
+				position = { x = -9999 y = -9999 }
+				size = { width = 495 height = 380 }
+				
+				background = {
+					name ="bg_tech_button"
+					spriteType = "GFX_invis"	
+					position = { x = -9999 y = -9999 }
+					size = { x=100%% y=100%%}
+				}
+			}
+			
+			containerWindowType = {#Yeeted
+				name = "grid_container"
+				position = { x = -9999 y = -9999 }
+				size = { width=430 height=360 }
+				verticalScrollbar = "right_vertical_slider"
+				scroll_wheel_factor = 80
+				smooth_scrolling = yes
+				
+				background = {
+					name = "Background"
+					spriteType ="GFX_tiled_window_transparent"
+				}
+				
+				
+				gridBoxType = {#Yeeted
+					name = "buttons_grid"
+					position = { x = -9999 y = -9999 }
+					size = { width = 460 height = 100%% }
+					slotsize = { width = 430 height = 80 }
+					max_slots_horizontal = 1
+					format = "UPPER_LEFT"
 				}
 			}
 		}

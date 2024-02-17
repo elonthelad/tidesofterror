@@ -1,5 +1,19 @@
 spriteTypes = {
 
+	
+	spriteType = {
+		name = "GFX_subtech_rocket"
+		textureFile = "gfx//interface//technologies//subtech_rocket.dds"
+	}
+	spriteType = {
+		name = "GFX_subtech_td"
+		textureFile = "gfx//interface//technologies//subtech_td.dds"
+	}
+	SpriteType = {
+		name = "GFX_radio_detection_medium"
+		texturefile = "gfx/interface/technologies/radio_detection.dds"
+	}	
+	
 
 	#MODDED
 	

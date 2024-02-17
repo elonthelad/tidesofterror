@@ -1,6 +1,18 @@
 spriteTypes = {
 
 	frameAnimatedSpriteType = {
+		name = "GFX_tutorial_research_folder_icon_glow"
+		texturefile = "gfx//interface//tutorial//research_folder_icon_glow.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1.5
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}	
+
+	frameAnimatedSpriteType = {
 		name = "GFX_empty_research_slot_glow"
 		texturefile = "gfx/interface/empty_research_slot_glow.dds"
 		noOfFrames = 2

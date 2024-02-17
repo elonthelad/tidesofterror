@@ -224,19 +224,19 @@ guiTypes = {
 			spriteType = "GFX_empty_research_slot_glow"
 		}
 		
-#		iconType = {
-#			name = "folder"
-#			position = { x=12 y=12 }
-#			spriteType = "GFX_research_folder_strip"
-#			alwaystransparent = yes
-#		}
-	
 		iconType = {
 			name = "technology"
 			position = { x=252 y=49 }
 			spriteType = "GFX_research_folder_strip"
 			centerposition = yes
 			alwaystransparent = yes
+		}
+		
+		iconType = {#Yeeted
+			name = "designer"
+			position = { x = -9999 y = -9999 }
+			spriteType = "GFX_invis"
+			centerposition = yes
 		}
 		
 		iconType = {
