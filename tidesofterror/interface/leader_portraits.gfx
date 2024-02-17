@@ -21,12 +21,16 @@ spriteTypes = {
 		name = "GFX_portrait_william_gladstone"
 		texturefile = "gfx/leaders/portrait_william_gladstone.png"
 	}
-	
 	spriteType = {
 		name = "GFX_portrait_fergal_o_brosnan"
 		texturefile = "gfx/leaders/portrait_fergal_o_brosnan.png"
 	}
+	spriteType = {
+		name = "GFX_portrait_prince_george"
+		texturefile = "gfx/leaders/portrait_prince_george.png"
+	}
 
+	#Ideas
 	spriteType = {
 		name = "GFX_idea_ENG_charles_dickens"
 		texturefile = "gfx/interface/ideas/advisors/idea_ENG_charles_dickens.png"
