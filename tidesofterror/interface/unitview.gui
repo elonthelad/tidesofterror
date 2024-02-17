@@ -1509,10 +1509,10 @@ guiTypes = {
 			position = { x=-200%% y=-200%% }
 		}
 
-		iconType = {
+		iconType = {#Yeeted
 			name = "unitlist_acclimatization"
-			spriteType = "GFX_unitlist_acclimatization"
-			position = { x=65 y=16 }
+			spriteType = "GFX_invis"
+			position = { x=-9999 y=-9999 }
 		}
 
 		iconType = {
