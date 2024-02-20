@@ -275,6 +275,10 @@ technologies = {
 	}
 	
 	suptech_field_ward = {
+	
+		enable_equipment_modules = {
+			warcarriage_ambulance_compartment
+		}
 
 		enable_subunits = {
 			field_ward

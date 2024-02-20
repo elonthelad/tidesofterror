@@ -1,2 +1,854 @@
 technologies = {
+    wartech_hardsuit_1 = {
+
+		enable_equipment_modules = {
+			hardsuit_riotermodification
+			hardsuit_noactuation
+		}
+
+		enable_equipments = {
+			battle_hardsuit_frame_0
+		}
+		
+		enable_subunits = {
+			battlehardsuit_unit
+		}
+		
+		path = {
+			leads_to_tech = wartech_pneumatics
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 4 y = 9 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_pneumatics = {
+
+		enable_equipment_modules = {
+			hardsuit_pneumatic
+		}
+		
+		
+		path = {
+			leads_to_tech = wartech_hardsuit_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 4 y = 13 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_hardsuit_2 = {
+
+		enable_equipment_modules = {
+			hardsuit_liftingapparatus
+		}
+
+		enable_equipments = {
+			battle_hardsuit_frame_1
+		}
+		
+		path = {
+			leads_to_tech = wartech_hardsuit_3
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = wartech_daddylonglegs_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 4 y = 17 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_hardsuit_3 = {
+
+		enable_equipment_modules = {
+		}
+
+		enable_equipments = {
+			battle_hardsuit_frame_2
+		}
+		
+		path = {
+			leads_to_tech = wartech_hardsuit_4
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = wartech_hardsuit_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 4 y = 24 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_hardsuit_4 = {
+
+		enable_equipment_modules = {
+		}
+
+		enable_equipments = {
+			battle_hardsuit_frame_3
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = 32 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_hardsuit_5 = {
+
+		enable_equipment_modules = {
+		}
+
+		enable_equipments = {
+			battle_hardsuit_frame_4
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 6 y = 32 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_daddylonglegs_1 = {
+
+		enable_equipment_modules = {
+			longlegs_pulleylegs
+			longlegs_pedaloperation
+			longlegs_pneumaticjoints
+			longlegs_catapult
+			longlegs_searchlights
+		}
+
+		enable_equipments = {
+			daddy_long_legs_frame_0
+		}
+
+        enable_subunits = {
+			daddylonglegs_unit
+		}
+		
+		path = {
+			leads_to_tech = wartech_daddylonglegs_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 10 y = 25 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_daddylonglegs_2 = {
+
+		enable_equipment_modules = {
+		}
+
+		enable_equipments = {
+			daddy_long_legs_frame_1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 10 y = 33 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_warcarriage_1 = {
+
+		enable_equipment_modules = {
+			warcarriage_horsedrawn
+			warcarriage_crows_nest
+		}
+
+		enable_equipments = {
+			war_carriage_frame_0
+		}
+		
+		enable_subunits = {
+			war_carriage_unit
+		}
+		
+		path = {
+			leads_to_tech = wartech_warcarriage_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 14 y = 12 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_warcarriage_2 = {
+
+		enable_equipment_modules = {
+		}
+
+		enable_equipments = {
+			war_carriage_frame_1
+		}
+		
+		path = {
+			leads_to_tech = wartech_warcarriage_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 14 y = 20 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_warcarriage_3 = {
+
+		enable_equipment_modules = {
+		}
+
+		enable_equipments = {
+			war_carriage_frame_2
+		}
+		
+		path = {
+			leads_to_tech = wartech_warcarriage_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 17 y = 28 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_warcarriage_4 = {
+
+		enable_equipment_modules = {
+			warcarriage_skybreaker
+		}
+
+		enable_equipments = {
+			war_carriage_frame_3
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 17 y = 36 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_ram_specialisation = {
+
+		enable_equipment_modules = {
+			warcarriage_ram
+			warcarriage_chopping_spokes
+			war_engine_holy_ram
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 14.25 y = 24 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_warengine_1 = {
+
+		enable_equipment_modules = {
+			warengine_central_shaft
+		}
+
+		enable_equipments = {
+			war_engine_frame_0
+		}
+		
+		enable_subunits = {
+			war_engine_unit
+		}
+		
+		path = {
+			leads_to_tech = wartech_warengine_2
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = wartech_dreadnaught_wheels
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 21 y = 12 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_warengine_2 = {
+
+		enable_equipment_modules = {
+		}
+
+		enable_equipments = {
+			war_engine_frame_1
+		}
+		
+		path = {
+			leads_to_tech = wartech_warengine_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 21 y = 20 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_warengine_3 = {
+
+		enable_equipment_modules = {
+		}
+
+		enable_equipments = {
+			war_engine_frame_2
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 21 y = 32 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_dreadnaught_wheels = {
+
+		enable_equipment_modules = {
+			warengine_dreadnaught_wheels
+		}
+		
+		path = {
+			leads_to_tech = wartech_endless_railway
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 24 y = 18 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_endless_railway = {
+
+		enable_equipment_modules = {
+			warengine_endless_railway
+		}
+		
+		path = {
+			leads_to_tech = wartech_pedrails
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 24 y = 25 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_pedrails = {
+
+		enable_equipment_modules = {
+			warengine_pedrails
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 24 y = 32 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_preventative_measures = {
+
+		enable_equipment_modules = {
+			longlegs_dousingtanks
+			warcarriage_leaden_interior
+			war_engine_leaden_interior
+			war_engine_dousingtanks
+		}
+		
+		path = {
+			leads_to_tech = wartech_organisational_components
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = wartech_asbestos_lining
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = wartech_postively_charged_groundings
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 29 y = 16 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_organisational_components = {
+
+		enable_equipment_modules = {
+			longlegs_signalflares
+			warcarriage_war_office
+			warcarriage_clarion_horn
+			war_engine_clarion_horn
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 28 y = 20 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_asbestos_lining = {
+
+		enable_equipment_modules = {
+			hardsuit_thermalinsulation
+			longlegs_dragonsfire
+			war_engine_dragonsfire
+			warcarriage_dragonshead
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 30 y = 22 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_postively_charged_groundings = {
+
+		enable_equipment_modules = {
+			hardsuit_groundingrods
+			longlegs_groundingspire
+		}
+		
+		path = {
+			leads_to_tech = wartech_active_defense
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 31 y = 20 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_active_defense = {
+
+		enable_equipment_modules = {
+			hardsuit_localdischargefield
+			war_engine_localdischargefield
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 31 y = 28 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_wooden_construction = {
+
+		enable_equipment_modules = {
+			warcarriage_reinforcedoak
+			warengine_reinforced_oak
+			warengine_pine
+			hardsuit_reinforcedoak
+			warcarriage_pine
+		}
+		
+		#on_research_complete = {
+		#	hidden_effect = {
+		#	}
+		#}
+		
+		path = {
+			leads_to_tech = wartech_steel_plating
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = wartech_ceramic_plates
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 37 y = 12 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_steel_plating = {
+
+		enable_equipment_modules = {
+			hardsuit_steel
+			warcarriage_steel
+			warengine_steel
+		}
+		
+		path = {
+			leads_to_tech = wartech_aluminium_plating
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 35 y = 18 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_aluminium_plating = {
+
+		enable_equipment_modules = {
+			hardsuit_aluminium
+			warcarriage_aluminium
+			warengine_aluminium
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 35 y = 22 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_ceramic_plates = {
+
+		enable_equipment_modules = {
+			hardsuit_ceramic
+			warengine_ceramic
+		}
+		
+		path = {
+			leads_to_tech = wartech_ceramometals
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 38 y = 16 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    wartech_ceramometals = {
+
+		enable_equipment_modules = {
+			hardsuit_ceramometal
+			warcarriage_ceramometal
+			warengine_ceramometal
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 38 y = 20 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

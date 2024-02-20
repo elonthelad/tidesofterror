@@ -142,6 +142,10 @@ technologies = {
 	}
 	
 	indtech_mechanised_workshops = {
+	
+		enable_equipment_modules = {
+			warcarriage_tooling_compartment
+		}
 
 		industry_repair_factor = 0.1
 		industrial_capacity_factory = 0.05
@@ -242,6 +246,11 @@ technologies = {
 	}
 	
 	indtech_military_hydraulics = {
+	
+		enable_equipment_modules = {
+			hardsuit_hydraulic
+			longlegs_hydraulicstiltlegs
+		}
 
 		dependencies ={
 			indtech_high_pressure_valve_applications = 1
@@ -347,8 +356,10 @@ technologies = {
 	}
 	
 	indtech_water_tube_boiler = {
-
-		on_research_complete = {
+	
+		enable_equipment_modules = {
+			warcarriage_boiler_tube
+			warengine_boiler_tube
 		}
 
 		path = {
@@ -373,6 +384,11 @@ technologies = {
 	}
 	
 	indtech_rotary_valve_engine = {
+	
+		enable_equipment_modules = {
+			warcarriage_rotary_valve
+			warengine_rotary_valve
+		}
 
 		path = {
 			leads_to_tech = indtech_basic_train
@@ -406,6 +422,10 @@ technologies = {
 	}
 	
 	indtech_high_pressure_valve_applications = {
+	
+		enable_equipment_modules = {
+			longlegs_steamacceleration
+		}
 
 		path = {
 			leads_to_tech = indtech_tremendous_pressure_outlets
@@ -456,6 +476,11 @@ technologies = {
 	}
 	
 	indtech_steam_turbines = {
+	
+		enable_equipment_modules = {
+			warcarriage_steam_turbine
+			warengine_steam_turbine
+		}
 
 		path = {
 			leads_to_tech = indtech_gasoline_turbines
@@ -484,6 +509,11 @@ technologies = {
 	}
 	
 	indtech_gasoline_turbines = {
+	
+		enable_equipment_modules = {
+			warcarriage_gasoline_turbine
+			warengine_gasoline_turbine
+		}
 
 		dependencies = {
 			indtech_gasoline_combustion_engine = 1
@@ -671,7 +701,10 @@ technologies = {
 	
 	indtech_hadfield_steel = {
 
-		on_research_complete = {
+		enable_equipment_modules = {
+			hardsuit_mnalloysteel
+			warcarriage_mnalloysteel
+			warengine_mnalloysteel
 		}
 		
 		research_cost = 2
@@ -714,6 +747,11 @@ technologies = {
 	}
 	
 	indtech_gasoline_combustion_engine = {
+	
+		enable_equipment_modules = {
+			warcarriage_gasoline_combustion
+			warengine_gasoline_combustion
+		}
 
 		path = {
 			leads_to_tech = indtech_compressor_ignition_engine
@@ -739,6 +777,8 @@ technologies = {
 	indtech_compressor_ignition_engine = {
 		
 		enable_equipment_modules = {
+			warcarriage_compressor_ignition
+			warengine_compressor_ignition
 			air_experimental_petroleum_engine
 		}
 		

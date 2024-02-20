@@ -35,7 +35,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/indtech_basic_train.png"
 	}
 	
-	#Smalltech
+	#Infantry Smalltech
 	spriteType = {
 		name = "GFX_inftech_percussioncap_medium"
 		texturefile = "gfx/interface/technologies/inftech_percussioncap.png"
@@ -51,6 +51,42 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_inftech_magazineloading_medium"
 		texturefile = "gfx/interface/technologies/inftech_magazineloading.png"
+	}
+	
+	#Armour Smalltech
+	spriteType = {
+		name = "GFX_wartech_pneumatics_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_pneumatic.dds"
+	}
+	spriteType = {
+		name = "GFX_wartech_wooden_construction_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_reinforcedoak.dds"
+	}
+	spriteType = {
+		name = "GFX_wartech_steel_plating_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_steel.dds"
+	}
+	spriteType = {
+		name = "GFX_wartech_aluminium_plating_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_aluminium.dds"
+	}
+	spriteType = {
+		name = "GFX_wartech_ceramic_plates_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_ceramic.dds"
+	}
+	spriteType = {
+		name = "GFX_wartech_ceramometals_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_ceramometal.dds"
+	}
+	
+	#Invention Smalltech
+	spriteType = {
+		name = "GFX_invtech_dry_plate_camera_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_dryplatecamera.dds"
+	}
+	spriteType = {
+		name = "GFX_invtech_chemical_accelerant_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_chemicalstimulation.dds"
 	}
 	
 	#Doctrine gfx

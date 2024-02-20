@@ -5,7 +5,7 @@ equipment_modules = {
 	
 	
 	#Hardsuit Actuator
-	hardsuit_noactuation = {
+	hardsuit_noactuation = {#Armor "Prototype Hardsuit"
 		category = hardsuitactuator_module_type
 		sfx = sfx_ui_sd_module_engine
 		
@@ -13,7 +13,7 @@ equipment_modules = {
 			armor_value = -0.3
 		}
 	}
-	hardsuit_pneumatic = {
+	hardsuit_pneumatic = {#Armor "Pneumatics"
 		category = hardsuitactuator_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -23,7 +23,7 @@ equipment_modules = {
 			build_cost_ic = 1.2
 		}
 	}
-	hardsuit_hydraulic = {
+	hardsuit_hydraulic = {#Industry "Military Hydraulics"
 		category = hardsuitactuator_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -37,7 +37,7 @@ equipment_modules = {
 	
 	
 	#Hardsuit Armor
-	hardsuit_steel = {
+	hardsuit_steel = {#Armor "Steel Plating"
 		category = hardsuitarmour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -54,7 +54,7 @@ equipment_modules = {
 			steel = 1
 		}
 	}
-	hardsuit_aluminium = {
+	hardsuit_aluminium = {#Armor "Aluminium Plating"
 		category = hardsuitarmour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -71,7 +71,7 @@ equipment_modules = {
 			aluminium = 1
 		}
 	}
-	hardsuit_mnalloysteel = {
+	hardsuit_mnalloysteel = {#Industry "Hadfield Steel"
 		category = hardsuitarmour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -89,7 +89,7 @@ equipment_modules = {
 			steel = 1
 		}
 	}
-	hardsuit_ceramometal = {
+	hardsuit_ceramometal = {#Armor "Ceramometals"
 		category = hardsuitarmour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -106,7 +106,7 @@ equipment_modules = {
 			steel = 1
 		}
 	}
-	hardsuit_ceramic = {
+	hardsuit_ceramic = {#Armor "Ceramic Plates"
 		category = hardsuitarmour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -123,7 +123,7 @@ equipment_modules = {
 			silicates = 1
 		}
 	}
-	hardsuit_reinforcedoak = {
+	hardsuit_reinforcedoak = {#Armor "Wooden Construction"
 		category = hardsuitarmour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -143,7 +143,7 @@ equipment_modules = {
 	
 	
 	#Hardsuit Misc
-	hardsuit_groundingrods = {
+	hardsuit_groundingrods = {#Armour "Positively Charged Groundings"
 		category = hardsuitmisc_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -156,7 +156,7 @@ equipment_modules = {
 			hardness = 0.2
 		}
 	}
-	hardsuit_chemicalstimulation = {
+	hardsuit_chemicalstimulation = {#Inventions "Chemical Accelerant"
 		category = hardsuitmisc_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -174,7 +174,7 @@ equipment_modules = {
 			ap_attack = 0.1
 		}
 	}
-	hardsuit_thermalinsulation = {
+	hardsuit_thermalinsulation = {#Armour "Asbestos Lining"
 		category = hardsuitmisc_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -183,7 +183,7 @@ equipment_modules = {
 			build_cost_ic = 0.5
 		}
 	}
-	hardsuit_liftingapparatus = {
+	hardsuit_liftingapparatus = {#Armor "Basic Hardsuit"
 		category = hardsuitmisc_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -192,7 +192,7 @@ equipment_modules = {
 			build_cost_ic = 0.4
 		}
 	}
-	hardsuit_riotermodification = {
+	hardsuit_riotermodification = {#Armor "Prototype Hardsuit"
 		category = hardsuitmisc_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -207,7 +207,7 @@ equipment_modules = {
 			build_cost_ic = -0.3
 		}
 	}
-	hardsuit_immersionbowl = {
+	hardsuit_immersionbowl = {#Inventions "Immersion Bowl"
 		category = hardsuitmisc_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -216,7 +216,7 @@ equipment_modules = {
 			build_cost_ic = 0.8
 		}
 	}
-	hardsuit_dryplatecamera = {
+	hardsuit_dryplatecamera = {#Inventions "Dry Plate Camera"
 		category = hardsuitmisc_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -225,7 +225,7 @@ equipment_modules = {
 			build_cost_ic = 0.3
 		}
 	}
-	hardsuit_localdischargefield = {
+	hardsuit_localdischargefield = {#Armour "Active Defense"
 		category = hardsuitmisc_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -242,7 +242,7 @@ equipment_modules = {
 	
 	
 	#Hardsuit Regular Weapons
-	hardsuit_sniderenfield = {
+	hardsuit_sniderenfield = {#Infantry "Snider-enfield"
 		category = hardsuitregularweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -261,7 +261,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	hardsuit_martinihenry = {
+	hardsuit_martinihenry = {#Infantry "Martini-henry"
 		category = hardsuitregularweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -280,7 +280,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	hardsuit_leematford = {
+	hardsuit_leematford = {#Infantry "Lee-Matford"
 		category = hardsuitregularweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -299,7 +299,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	hardsuit_salvationrifle = {
+	hardsuit_salvationrifle = {#Infantry "Salvation RIfle"
 		category = hardsuitregularweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -317,7 +317,7 @@ equipment_modules = {
 			steel = 1
 		}
 	}
-	hardsuit_winchester73 = {
+	hardsuit_winchester73 = {#Infantry "Winchester '73"
 		category = hardsuitregularweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -336,7 +336,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	hardsuit_trenchgun = {
+	hardsuit_trenchgun = {#Infantry "Trench Gun"
 		category = hardsuitregularweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -354,7 +354,7 @@ equipment_modules = {
 			steel = 1
 		}
 	}
-	hardsuit_officersword = {
+	hardsuit_officersword = {#Infantry "Officers Sword"
 		category = hardsuitregularweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -371,7 +371,7 @@ equipment_modules = {
 			steel = 1
 		}
 	}
-	hardsuit_officersclaymore = {
+	hardsuit_officersclaymore = {#Infantry "Officers Claymore"
 		category = hardsuitregularweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -388,7 +388,7 @@ equipment_modules = {
 			steel = 1
 		}
 	}
-	hardsuit_chancelongrifle = {
+	hardsuit_chancelongrifle = {#Infantry "" NOT ADDED
 		category = hardsuitregularweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 		#Un-comment this to add AA hardsuit role
@@ -412,7 +412,7 @@ equipment_modules = {
 	
 	
 	#Hardsuit Large Weapons
-	hardsuit_halfpikeandshield = {
+	hardsuit_halfpikeandshield = {#Infantry "Halfpike & Pavise"
 		category = hardsuitlargeweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -430,7 +430,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	hardsuit_palisadegun = {
+	hardsuit_palisadegun = {#Infantry "Palisade Gun"
 		category = hardsuitlargeweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -448,7 +448,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	hardsuit_righteousspeargreatshield = {
+	hardsuit_righteousspeargreatshield = {#Infantry "Righteous Spear & Greatshield"
 		category = hardsuitlargeweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -465,7 +465,7 @@ equipment_modules = {
 			steel = 2
 		}
 	}
-	hardsuit_handcannon = {
+	hardsuit_handcannon = {#Ordnance "Handcannon"
 		category = hardsuitlargeweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -482,7 +482,7 @@ equipment_modules = {
 			steel = 2
 		}
 	}
-	hardsuit_breachspear = {
+	hardsuit_breachspear = {#Ordnance "Breechspear"
 		category = hardsuitlargeweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -499,7 +499,7 @@ equipment_modules = {
 			steel = 2
 		}
 	}
-	hardsuit_boomlance = {
+	hardsuit_boomlance = {#Ordnance "Boomlance"
 		category = hardsuitlargeweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -522,7 +522,7 @@ equipment_modules = {
 	
 	
 	#Daddy Long Legs Locomotion
-	longlegs_pulleylegs = {
+	longlegs_pulleylegs = {#Armor "Basic Daddylonglegs"
 		category = longlegs_locomotion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -536,7 +536,7 @@ equipment_modules = {
 			hard_attack = -0.1
 		}
 	}
-	longlegs_pedaloperation = {
+	longlegs_pedaloperation = {#Armor "Basic Daddylonglegs"
 		category = longlegs_locomotion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -546,7 +546,7 @@ equipment_modules = {
 			build_cost_ic = 1.1
 		}
 	}
-	longlegs_pneumaticjoints = {
+	longlegs_pneumaticjoints = {#Armor "Basic Daddylonglegs"
 		category = longlegs_locomotion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -557,7 +557,7 @@ equipment_modules = {
 			build_cost_ic = 2.2
 		}
 	}
-	longlegs_hydraulicstiltlegs = {
+	longlegs_hydraulicstiltlegs = {#Industry "Military Hydraulics"
 		category = longlegs_locomotion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -571,7 +571,7 @@ equipment_modules = {
 	
 	
 	#Daddy Long Legs Front Slot
-	longlegs_dragonsfire = { #Harry, produce the flamethrower.
+	longlegs_dragonsfire = {#Armour "Asbestos Lining"
 		category = longlegsfrontweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -587,7 +587,7 @@ equipment_modules = {
 			steel = 1
 		}
 	}
-	longlegs_benedicite_mist = {
+	longlegs_benedicite_mist = {#Inventions "Benedicite"
 		category = longlegsfrontweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -603,7 +603,7 @@ equipment_modules = {
 			aluminium = 1
 		}
 	}
-	longlegs_gatlinggun = {
+	longlegs_gatlinggun = {#Ordnance "Gatling Gun"
 		category = longlegsfrontweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -620,7 +620,7 @@ equipment_modules = {
 			steel = 1
 		}
 	}
-	longlegs_paired_handcannons = {
+	longlegs_paired_handcannons = {#Ordnance "Handcannon"
 		category = longlegsfrontweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -639,7 +639,7 @@ equipment_modules = {
 	
 	
 	#Daddy Long Legs Rear Mount Armaments
-	longlegs_rearmortar = {
+	longlegs_rearmortar = {#Ordnance "Coehorn Mortar"
 		category = longlegsrearweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -656,7 +656,7 @@ equipment_modules = {
 			silicates = 1
 		}
 	}
-	longlegs_catapult = {
+	longlegs_catapult = {#Armor "Basic Daddylonglegs"
 		category = longlegsrearweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -672,7 +672,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	longlegs_munitioncatapult = {
+	longlegs_munitioncatapult = {#Ordnance "Coal Tar & Peat"
 		category = longlegsrearweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -689,7 +689,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	longlegs_whirligig_rocket = {
+	longlegs_whirligig_rocket = {#Ordnance "Whirligig Rocket"
 		category = longlegsrearweapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -711,7 +711,7 @@ equipment_modules = {
 	
 	
 	#Daddy Long Legs Rear Mount Misc
-	longlegs_dousingtanks = { #Barricade improvement, puts out fires
+	longlegs_dousingtanks = {#Armour "Preventative Measures"
 		category = longlegsrearslot_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -722,7 +722,7 @@ equipment_modules = {
 			build_cost_ic = 0.8
 		}
 	}
-	longlegs_groundingspire = { #Absorbs electricity, defense against eldritch
+	longlegs_groundingspire = {#Armour "Positively Charged Groundings"
 		category = longlegsrearslot_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -738,7 +738,7 @@ equipment_modules = {
 			manganese = 1
 		}
 	}
-	longlegs_searchlights = {
+	longlegs_searchlights = {#Armor "Basic Daddylonglegs"
 		category = longlegsrearslot_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -747,7 +747,7 @@ equipment_modules = {
 			build_cost_ic = 0.25
 		}
 	}
-	longlegs_immersionbowl = {
+	longlegs_immersionbowl = {#Inventions "Immersion Bowl"
 		category = longlegsrearslot_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -756,7 +756,7 @@ equipment_modules = {
 			build_cost_ic = 1
 		}
 	}
-	longlegs_dryplatecamera = {
+	longlegs_dryplatecamera = {#Inventions "Dry Plate Camera"
 		category = longlegsrearslot_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -765,7 +765,7 @@ equipment_modules = {
 			build_cost_ic = 0.3
 		}
 	}
-	longlegs_steamacceleration = {
+	longlegs_steamacceleration = {#Industry "High Pressure Valve Applications"
 		category = longlegsrearslot_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -776,7 +776,7 @@ equipment_modules = {
 			build_cost_ic = 2.2
 		}
 	}
-	longlegs_signalflares = {
+	longlegs_signalflares = {#Armour "Organisational Components"
 		category = longlegsrearslot_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -791,7 +791,7 @@ equipment_modules = {
 	
 	
 	#War Carriage Armour
-	warcarriage_steel = {
+	warcarriage_steel = {#Armor "Steel Plating"
 		category = warcarriage_armour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -808,7 +808,7 @@ equipment_modules = {
 			steel = 3
 		}
 	}
-	warcarriage_aluminium = {
+	warcarriage_aluminium = {#Armor "Aluminium Plating"
 		category = warcarriage_armour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -825,7 +825,7 @@ equipment_modules = {
 			aluminium = 3
 		}
 	}
-	warcarriage_mnalloysteel = {
+	warcarriage_mnalloysteel = {#Industry "Hadfield Steel"
 		category = warcarriage_armour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -843,7 +843,7 @@ equipment_modules = {
 			steel = 3
 		}
 	}
-	warcarriage_ceramometal = {
+	warcarriage_ceramometal = {#Armor "Ceramometals"
 		category = warcarriage_armour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -860,7 +860,7 @@ equipment_modules = {
 			steel = 2
 		}
 	}
-	warcarriage_pine = {
+	warcarriage_pine = {#Armor "Wooden Construction"
 		category = warcarriage_armour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -877,7 +877,7 @@ equipment_modules = {
 			timber = 3
 		}
 	}
-	warcarriage_reinforcedoak = {
+	warcarriage_reinforcedoak = {#Armor "Wooden Construction"
 		category = warcarriage_armour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -898,7 +898,7 @@ equipment_modules = {
 	
 	
 	#War Carriage Propulsion
-	warcarriage_horsedrawn = {
+	warcarriage_horsedrawn = {#Armor "War Carriage"
 		category = warcarriage_basic_locomotion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -910,7 +910,7 @@ equipment_modules = {
 			breakthrough = -0.1
 		}
 	}
-	warcarriage_boiler_tube = {
+	warcarriage_boiler_tube = {#Industry "Water Tube Boiler"
 		category = warcarriage_basic_locomotion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -924,7 +924,7 @@ equipment_modules = {
 			steel = 1
 		}
 	}
-	warcarriage_rotary_valve = {
+	warcarriage_rotary_valve = {#Industry "Rotary Valve Engine"
 		category = warcarriage_basic_locomotion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -938,7 +938,7 @@ equipment_modules = {
 			steel = 1
 		}
 	}
-	warcarriage_steam_turbine = {
+	warcarriage_steam_turbine = {#Industry "Steam Turbines"
 		category = warcarriage_advanced_locomotion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -953,7 +953,7 @@ equipment_modules = {
 			aluminium = 1
 		}
 	}
-	warcarriage_gasoline_turbine = {
+	warcarriage_gasoline_turbine = {#Industry "Gasoline Turbines"
 		category = warcarriage_advanced_locomotion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -968,7 +968,7 @@ equipment_modules = {
 			aluminium = 1
 		}
 	}
-	warcarriage_gasoline_combustion = {
+	warcarriage_gasoline_combustion = {#Industry "Gasoline Combustion Engine"
 		category = warcarriage_advanced_locomotion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -983,7 +983,7 @@ equipment_modules = {
 			aluminium = 1
 		}
 	}
-	warcarriage_compressor_ignition = {
+	warcarriage_compressor_ignition = {#Industry "Compressor Ignition Engine"
 		category = warcarriage_advanced_locomotion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1001,7 +1001,7 @@ equipment_modules = {
 	
 	
 	#War Carriage Medium Misc
-	warcarriage_tooling_compartment = {
+	warcarriage_tooling_compartment = {#Industry "Mechanised Workshops"
 		category = warcarriage_mediummisc_slot_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1014,7 +1014,7 @@ equipment_modules = {
 			steel = 1
 		}
 	}
-	warcarriage_ambulance_compartment = {
+	warcarriage_ambulance_compartment = {#Support "Field Ward"
 		category = warcarriage_mediummisc_slot_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1028,7 +1028,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	warcarriage_war_office = {
+	warcarriage_war_office = {#Armour "Organisational Components"
 		category = warcarriage_mediummisc_slot_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1041,7 +1041,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	warcarriage_leaden_interior = {
+	warcarriage_leaden_interior = {#Armour "Preventative Measures"
 		category = warcarriage_mediummisc_slot_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1055,7 +1055,7 @@ equipment_modules = {
 	
 	
 	#War Carriage Small Misc
-	warcarriage_teamaker = {
+	warcarriage_teamaker = {#Inventions "Synthesised Tea"
 		category = warcarriage_smallmisc_slot_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1066,7 +1066,7 @@ equipment_modules = {
 			build_cost_ic = 0.2
 		}
 	}
-	warcarriage_crows_nest = {
+	warcarriage_crows_nest = {#Armor "War Carriage"
 		category = warcarriage_smallmisc_slot_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1075,7 +1075,7 @@ equipment_modules = {
 			build_cost_ic = 0.5
 		}
 	}
-	warcarriage_clarion_horn = {
+	warcarriage_clarion_horn = {#Armour "Organisational Components"
 		category = warcarriage_smallmisc_slot_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1088,7 +1088,7 @@ equipment_modules = {
 	
 	
 	#Skybreaker
-	warcarriage_skybreaker = {
+	warcarriage_skybreaker = {#Armor "Skybreaker"
 		category = warcarriage_skybreak_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1113,7 +1113,7 @@ equipment_modules = {
 	}
 	
 	#War Carriage Medium Armaments
-	warcarriage_whirligig_rocket_array = {
+	warcarriage_whirligig_rocket_array = {#Ordnance "Whirligig Rocket"
 		category = warcarriage_medium_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1132,7 +1132,7 @@ equipment_modules = {
 			steel = 2
 		}
 	}
-	warcarriage_machine_gun_turret = {
+	warcarriage_machine_gun_turret = {#Ordnance "Gatling Gun"
 		category = warcarriage_medium_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1150,7 +1150,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	warcarriage_javelin_cannon = {
+	warcarriage_javelin_cannon = {#Ordnance "Steam-Stake Ballista"
 		category = warcarriage_medium_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1168,7 +1168,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	warcarriage_troop_detachment = {#korean roof snipers
+	warcarriage_troop_detachment = {#Infantry "Snider-enfield"
 		category = warcarriage_medium_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1186,7 +1186,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	warcarriage_dragonshead = {#Heavy Flamer
+	warcarriage_dragonshead = {#Armour "Asbestos Lining"
 		category = warcarriage_medium_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1204,7 +1204,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	warcarriage_heavy_cannon = {
+	warcarriage_heavy_cannon = {#Ordnance "Rifled Armstrong Gun"
 		category = warcarriage_medium_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1222,7 +1222,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	warcarriage_mortar_placements = {
+	warcarriage_mortar_placements = {#Ordnance "Coehorn Mortar"
 		category = warcarriage_medium_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1243,7 +1243,7 @@ equipment_modules = {
 	
 	
 	#War Carriage Small Armaments
-	warcarriage_rifle_embrasures = {#fewer people on the interior shooting through embrasures
+	warcarriage_rifle_embrasures = {#Infantry "Snider-enfield"
 		category = warcarriage_small_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1261,7 +1261,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	warcarriage_firebombardiers = {#dudes chucking firebombs out
+	warcarriage_firebombardiers = {#Ordnance "Phosphors & Tinder"
 		category = warcarriage_small_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1279,7 +1279,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	warcarriage_bendecite_exhausts = {#GAS!
+	warcarriage_bendecite_exhausts = {#Inventions "Benedicite"
 		category = warcarriage_small_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1297,7 +1297,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	warcarriage_ram = {
+	warcarriage_ram = {#Armour "Ram Specialisation"
 		category = warcarriage_small_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1312,7 +1312,7 @@ equipment_modules = {
 			steel = 1
 		}
 	}
-	warcarriage_chopping_spokes = {
+	warcarriage_chopping_spokes = {#Armour "Ram Specialisation"
 		category = warcarriage_small_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1328,7 +1328,7 @@ equipment_modules = {
 			steel = 1
 		}
 	}
-	warcarriage_broadsiders = {#Field cannons on either side
+	warcarriage_broadsiders = {#Ordnance "RML 9-Pdr 8 CWT Gun"
 		category = warcarriage_small_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1346,7 +1346,7 @@ equipment_modules = {
 			timber = 1
 		}
 	}
-	warcarriage_whirligig_rocket = {
+	warcarriage_whirligig_rocket = {#Ordnance "Whirligig Rocket"
 		category = warcarriage_small_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1370,7 +1370,7 @@ equipment_modules = {
 	
 	
 	#War Engine Basic Propulsion
-	warengine_central_shaft = {
+	warengine_central_shaft = {#Armor "War Engine"
 		category = warengine_basic_propulsion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1379,7 +1379,7 @@ equipment_modules = {
 			build_cost_ic = 1
 		}
 	}
-	warengine_boiler_tube = {
+	warengine_boiler_tube = {#Industry "Water Tube Boiler"
 		category = warengine_basic_propulsion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1388,7 +1388,7 @@ equipment_modules = {
 			build_cost_ic = 1
 		}
 	}
-	warengine_rotary_valve = {
+	warengine_rotary_valve = {#Industry "Rotary Valve"
 		category = warengine_basic_propulsion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1400,7 +1400,7 @@ equipment_modules = {
 	
 	
 	#War Engine Advanced Propulsion
-	warengine_steam_turbine = {
+	warengine_steam_turbine = {#Industry "Steam Turbines"
 		category = warengine_advanced_propulsion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1409,7 +1409,7 @@ equipment_modules = {
 			build_cost_ic = 1
 		}
 	}
-	warengine_gasoline_turbine = {
+	warengine_gasoline_turbine = {#Industry "Gasoline Turbines"
 		category = warengine_advanced_propulsion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1418,7 +1418,7 @@ equipment_modules = {
 			build_cost_ic = 1
 		}
 	}
-	warengine_gasoline_combustion = {
+	warengine_gasoline_combustion = {#Industry "Gasoline Combustion Engine"
 		category = warengine_advanced_propulsion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1427,7 +1427,7 @@ equipment_modules = {
 			build_cost_ic = 1
 		}
 	}
-	warengine_compressor_ignition = {
+	warengine_compressor_ignition = {#Industry "Compressor Ignition Engine"
 		category = warengine_advanced_propulsion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1439,7 +1439,7 @@ equipment_modules = {
 	
 	
 	#War Engine Locomotion
-	warengine_pedrails = {
+	warengine_pedrails = {#Armor "Pedrails"
 		category = warengine_locomotion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1448,7 +1448,7 @@ equipment_modules = {
 			build_cost_ic = 1
 		}
 	}
-	warengine_dreadnaught_wheels = {#Wheels with large surfaces surrounding it
+	warengine_dreadnaught_wheels = {#Armor "Dreadnaught Wheels"
 		category = warengine_locomotion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1457,7 +1457,7 @@ equipment_modules = {
 			build_cost_ic = 1
 		}
 	}
-	warengine_endless_railway = {#Early tank tracks
+	warengine_endless_railway = {#Armor "Endless Railway"
 		category = warengine_locomotion_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1469,7 +1469,7 @@ equipment_modules = {
 	
 	
 	#War Engine Light Armour
-	warengine_reinforced_oak = {
+	warengine_reinforced_oak = {#Armor "Wooden Construction"
 		category = war_engine_light_armour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1486,7 +1486,7 @@ equipment_modules = {
 			timber = 3
 		}
 	}
-	warengine_pine = {
+	warengine_pine = {#Armor "Wooden Construction"
 		category = war_engine_light_armour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1503,7 +1503,7 @@ equipment_modules = {
 			timber = 3
 		}
 	}
-	warengine_aluminium = {
+	warengine_aluminium = {#Armor "Aluminium Plating"
 		category = war_engine_light_armour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1520,7 +1520,7 @@ equipment_modules = {
 			aluminium = 3
 		}
 	}
-	warengine_ceramic = {
+	warengine_ceramic = {#Armor "Ceramic Plates"
 		category = war_engine_light_armour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1537,7 +1537,7 @@ equipment_modules = {
 			silicates = 3
 		}
 	}
-	warengine_ceramometal = {
+	warengine_ceramometal = {#Armor "Ceramometals"
 		category = war_engine_light_armour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1558,7 +1558,7 @@ equipment_modules = {
 	
 	
 	#War Engine Heavy Armour
-	warengine_steel = {
+	warengine_steel = {#Armor "Steel Plating"
 		category = war_engine_heavy_armour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1575,7 +1575,7 @@ equipment_modules = {
 			steel = 3
 		}
 	}
-	warengine_mnalloysteel = {
+	warengine_mnalloysteel = {#Industry "Hadfield Steel"
 		category = war_engine_heavy_armour_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1596,7 +1596,7 @@ equipment_modules = {
 	
 	
 	#War Engine Misc
-	war_engine_teamaker = {
+	war_engine_teamaker = {#Inventions "Synthesised Tea"
 		category = warengine_misc_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1607,7 +1607,7 @@ equipment_modules = {
 			build_cost_ic = 0.2
 		}
 	}
-	war_engine_clarion_horn = {
+	war_engine_clarion_horn = {#Armour "Organisational Components"
 		category = warengine_misc_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1617,7 +1617,7 @@ equipment_modules = {
 			build_cost_ic = 0.8
 		}
 	}
-	war_engine_leaden_interior = {
+	war_engine_leaden_interior = {#Armour "Preventative Measures"
 		category = warengine_misc_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1628,7 +1628,7 @@ equipment_modules = {
 			build_cost_ic = 2
 		}
 	}
-	war_engine_localdischargefield = {
+	war_engine_localdischargefield = {#Armour "Active Defense"
 		category = warengine_misc_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1642,7 +1642,7 @@ equipment_modules = {
 			reliability = -0.1
 		}
 	}
-	war_engine_dousingtanks = { #Puts out fires
+	war_engine_dousingtanks = {#Armour "Preventative Measures"
 		category = warengine_misc_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1655,7 +1655,7 @@ equipment_modules = {
 	
 	
 	#War Engine Array Weapons
-	warengine_rifle_embrasures = {
+	warengine_rifle_embrasures = {#Infantry "Snider-enfield"
 		category = warengine_array_weapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1674,7 +1674,7 @@ equipment_modules = {
 			timber = 2
 		}
 	}
-	war_engine_handcannon_embrasures = {
+	war_engine_handcannon_embrasures = {#Ordnance "Handcannon"
 		category = warengine_array_weapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1693,7 +1693,7 @@ equipment_modules = {
 			timber = 2
 		}
 	}
-	war_engine_benedecite_organ = {
+	war_engine_benedecite_organ = {#Inventions "Benedicite"
 		category = warengine_array_weapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1711,7 +1711,7 @@ equipment_modules = {
 			timber = 2
 		}
 	}
-	war_engine_spears_and_bills = {
+	war_engine_spears_and_bills = {#Infantry "Halfpike & Pavise"
 		category = warengine_array_weapons_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1730,7 +1730,7 @@ equipment_modules = {
 	
 	
 	#War Engine Forward Armament
-	war_engine_frontal_cannon = {
+	war_engine_frontal_cannon = {#Ordnance "Rifled Armstrong Gun"
 		category = warengine_forward_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1748,7 +1748,7 @@ equipment_modules = {
 			timber = 2
 		}
 	}
-	war_engine_axial_cannon = {
+	war_engine_axial_cannon = {#Ordnance "RML 9-Pdr 8 CWT Gun"
 		category = warengine_forward_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1767,7 +1767,7 @@ equipment_modules = {
 			timber = 2
 		}
 	}
-	war_engine_dragonsfire = {#Flamethrower
+	war_engine_dragonsfire = {#Armour "Asbestos Lining"
 		category = warengine_forward_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 
@@ -1785,7 +1785,7 @@ equipment_modules = {
 			timber = 2
 		}
 	}
-	war_engine_holy_ram = {
+	war_engine_holy_ram = {#Armour "Ram Specialisation"
 		category = warengine_forward_armament_module_type
 		sfx = sfx_ui_sd_module_engine
 

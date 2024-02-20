@@ -1,0 +1,117 @@
+technologies = {
+
+	invtech_benedicite = {
+
+		enable_equipment_modules = {
+			war_engine_benedecite_organ
+			warcarriage_bendecite_exhausts
+			longlegs_benedicite_mist
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	invtech_synthesised_tea = {
+
+		enable_equipment_modules = {
+			warcarriage_teamaker
+			war_engine_teamaker
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 5 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	invtech_immersion_bowl = {
+
+		enable_equipment_modules = {
+			hardsuit_immersionbowl
+			longlegs_immersionbowl
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = electronics_folder
+			position = { x = 5 y = 2 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	invtech_dry_plate_camera = {
+
+		enable_equipment_modules = {
+			longlegs_dryplatecamera
+			hardsuit_dryplatecamera
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = electronics_folder
+			position = { x = 5 y = 5 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	invtech_chemical_accelerant = {
+
+		enable_equipment_modules = {
+			hardsuit_chemicalstimulation
+		}
+
+		research_cost = 2
+		start_year = 1868
+		folder = {
+			name = electronics_folder
+			position = { x = 5 y = 8 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -89,7 +89,7 @@
  RESEARCH_YEAR_AHEAD_PENALTY: "§RA $VALUE|%0$ Cost Penalty is being incurred due to the tech being beyond our time. The penalty will decrease over the course of $YEARS|2$ years.§!"
  
  infantry_folder: "Infantry"
- infantry_folder_desc: "Various outfits & weaponry for standing or mounted infantry."
+ infantry_folder_desc: "§LVarious outfits & weaponry for standing or mounted infantry.§!"
  
  infantrytitle1: "Infantry - §H1868§!"
  infantrytitle2: "§H1872§!"
@@ -159,7 +159,7 @@
   #Support
   
  support_folder: "Auxillary Companies"
- support_folder_desc: "Reconnoitre, Field Wards, Sappers to provide supporting effects to units."
+ support_folder_desc: "§LReconnoitre, Field Wards, Sappers to provide supporting effects to units.§!"
  
  supporttitle1: "Auxillary - §H1868§!"
  supporttitle2: "§H1872§!"
@@ -216,7 +216,7 @@
  #Artillery
  
  artillery_folder: "Ordnance"
- artillery_folder_desc: "Artillery, Munitions and stationary weapons for battalions."
+ artillery_folder_desc: "§LArtillery, Munitions and stationary weapons for battalions.§!"
  
  artillerytitle1: "Ordnance - §H1868§!"
  artillerytitle2: "§H1872§!"
@@ -237,20 +237,40 @@
  #Armour
  
  armour_folder: "War Machines"
- armour_folder_desc: "Vehicles designed for battle, leaden in armour and billowing with steam."
+ armour_folder_desc: "§LVehicles designed for battle, chock-full of guns, leaden in armour and billowing with steam.§!"
  nsb_armour_folder: "War Machines"
- nsb_armour_folder_desc: "Vehicles designed for battle, leaden in armour and billowing with steam."
+ nsb_armour_folder_desc: "§LVehicles designed for battle, chock-full of guns, leaden in armour and billowing with steam.§!"
  
  armourtitle1: "War Machines - §H1868§!"
  armourtitle2: "§H1872§!"
  armourtitle3: "§H1876§!"
  
+ wartech_pneumatics: "Pneumatics"
+ 
+ wartech_ram_specialisation: "Ram Specialisation"
+ 
+ wartech_dreadnaught_wheels: "Dreadnaught Wheels"
+ wartech_endless_railway: "'Endless Railway'"
+ wartech_pedrails: "Pedrails"
+ 
+ wartech_preventative_measures: "Preventative Measures"
+ wartech_organisational_components: "Organisational Components"
+ wartech_asbestos_lining: "Asbestos Lining"
+ wartech_postively_charged_groundings: "Positively Charged Groundings"
+ wartech_active_defense: "Active Defense"
+ 
+ wartech_wooden_construction: "Wooden Construction"
+ wartech_steel_plating: "Steel Plating"
+ wartech_aluminium_plating: "Aluminium Plating"
+ wartech_ceramic_plates: "Ceramic Plates"
+ wartech_ceramometals: "Ceramometals"
+ 
  #Navy
  
  naval_folder: "Naval"
- naval_folder_desc: "Ironclad ships to repel the forces at the high seas."
+ naval_folder_desc: "§LIronclad ships to repel the forces at the high seas.§!"
  mtgnavalfolder: "Naval"
- mtgnavalfolder_desc: "Ironclad ships to repel the forces at the high seas."
+ mtgnavalfolder_desc: "§LIronclad ships to repel the forces at the high seas.§!"
  
  navytitle1: "Naval - §H1868§!"
  navytitle2: "§H1872§!"
@@ -259,7 +279,7 @@
  #Air
  
  air_techs_folder: "Aeronautics"
- air_techs_folder_desc: "As we toy with idea of flight, we see opportunity. We may defy gravity, and face our foes on land, water, and the skies!"
+ air_techs_folder_desc: "§LAs we toy with idea of flight, we see opportunity. We may defy gravity, and face our foes on land, water, and the skies!§!"
  
  airtitle1: "Aeronautics - §H1868§!"
  airtitle2: "§H1872§!"
@@ -285,7 +305,7 @@
  #Industry
  
  industry1_folder: "Industry & Engineering"
- industry1_folder_desc: "Industry to produce equipment for our military, and engineering to push our construction feats to greater heights."
+ industry1_folder_desc: "§LIndustry to produce equipment for our military, and engineering to push our construction feats to greater heights.§!"
  
  industrytitle1: "Industry & Engineering - §H1868§!"
  industrytitle2: "§H1872§!"
@@ -323,11 +343,17 @@
  #Inventions
  
  electronics_folder: "Inventions"
- electronics_folder_desc: "An assortment of generalist inventions to aid us in our survival and safety of our peoples."
+ electronics_folder_desc: "§LAn assortment of generalist inventions to aid us in our survival and safety of our peoples.§!"
  
  inventionstitle1: "Inventions - §H1868§!"
  inventionstitle2: "§H1872§!"
  inventionstitle3: "§H1876§!"
+ 
+ invtech_benedicite: "Benedicite"
+ invtech_immersion_bowl: "Immersion Bowl"
+ invtech_synthesised_tea: "Synthesised Tea"
+ invtech_dry_plate_camera: "Dry Plate Camera"
+ invtech_chemical_accelerant: "Chemical Accelerant"
  
  #Lessons of War
  

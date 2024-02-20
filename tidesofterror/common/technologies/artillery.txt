@@ -5,6 +5,8 @@ technologies = {
 		enable_equipment_modules = {
 			huge_forward_cannon
 			large_broadsidecannons
+			warcarriage_heavy_cannon
+			war_engine_frontal_cannon
 		}
 
 		enable_equipments = {
@@ -44,6 +46,8 @@ technologies = {
 		
 		enable_equipment_modules = {
 			air_large_broadsidecannons
+			war_engine_axial_cannon
+			warcarriage_broadsiders
 		}
 		
 		path = {
@@ -191,6 +195,10 @@ technologies = {
 	}
     
 	arttech_steam_stake_ballistae = {
+	
+		enable_equipment_modules = {
+			warcarriage_javelin_cannon
+		}
 
 		enable_equipments = {
 			artillery_equipment_4
@@ -225,6 +233,9 @@ technologies = {
 		
 		enable_equipment_modules = {
 			air_medium_handcannon
+			hardsuit_handcannon
+			longlegs_paired_handcannons
+			war_engine_handcannon_embrasures
 		}
 		
 		enable_subunits = {
@@ -253,6 +264,10 @@ technologies = {
 	}
     
 	arttech_breechspear = {
+	
+		enable_equipment_modules = {
+			hardsuit_breachspear
+		}
 
 		enable_equipments = {
 			handcannon_equipment_2
@@ -280,6 +295,10 @@ technologies = {
 	}
     
 	arttech_boomstick = {
+	
+		enable_equipment_modules = {
+			hardsuit_boomlance
+		}
 
 		enable_equipments = {
 			handcannon_equipment_3
@@ -310,6 +329,7 @@ technologies = {
 		enable_equipment_modules = {
 			air_medium_firebombs
 			air_small_handful_of_firebombs
+			warcarriage_firebombardiers
 		}
 		
 		enable_subunits = {
@@ -343,6 +363,10 @@ technologies = {
 	}
     
 	arttech_tar_peat_pitch_compounds = {
+	
+		enable_equipment_modules = {
+			longlegs_munitioncatapult
+		}
 
 		enable_equipments = {
 			scorch_equipment_2
@@ -529,6 +553,12 @@ technologies = {
 	}
     
 	arttech_whirligig_rocket = {
+	
+		enable_equipment_modules = {
+			longlegs_whirligig_rocket
+			warcarriage_whirligig_rocket_array
+			warcarriage_whirligig_rocket
+		}
 
 		enable_equipments = {
 			mortar_equipment_4
@@ -551,6 +581,11 @@ technologies = {
 	}
     
 	arttech_coehorn_mortar = {
+	
+		enable_equipment_modules = {
+			longlegs_rearmortar
+			warcarriage_mortar_placements
+		}
 
 		enable_equipments = {
 			mortar_equipment_2
@@ -604,6 +639,11 @@ technologies = {
 	}
     
 	arttech_gatling_gun = {
+	
+		enable_equipment_modules = {
+			longlegs_gatlinggun
+			warcarriage_machine_gun_turret
+		}
 
 		enable_equipments = {
 			gatling_equipment_1

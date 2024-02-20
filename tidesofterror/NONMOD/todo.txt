@@ -20,16 +20,17 @@ tank designer menu 90%
 infantry 100%
 support 100%
 ordnance 100%
-war machines 0%
-naval 0%
+war machines 100%
+#116 modules, 4 vehicle types, 14 chassis
+X naval
 air 100%
 industry 100%
-inventions 0%
+inventions 5%
 
 ###UNITS###
 infantry 70%
 artillery 100%
-war machines 90%
+war machines 100%
 X ships
 planes 20%
 
