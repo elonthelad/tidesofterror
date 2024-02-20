@@ -510,13 +510,6 @@ spriteTypes = {
 	}
 
 	textSpriteType = {
-		name = "GFX_button_148x34"
-		texturefile = "gfx//interface//button_148x34.dds"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-
-	textSpriteType = {
 		name = "GFX_button_148x34_light"
 		texturefile = "gfx/interface/button_148x34_light.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1765,5 +1758,12 @@ bitmapfonts = {
 	SpriteType = {
 		name = "GFX_minimize_button"
 		textureFile = "gfx/interface/minimizebutton.png"
+	}
+
+	textSpriteType = {
+		name = "GFX_button_148x34"
+		texturefile = "gfx/interface/button_148x34.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
 	}
 }

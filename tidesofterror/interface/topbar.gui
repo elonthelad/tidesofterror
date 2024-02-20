@@ -652,10 +652,10 @@ guiTypes = {
 			web_link = ""
 		}
 
-		buttonType = {
+		buttonType = {#Yeeted
 			name = "achievements_button"
-			position = { x = -133 y = 66 }
-			quadTextureSprite ="GFX_achievements_button"
+			position = { x = -9999 y = -9999 }
+			quadTextureSprite ="GFX_invis"#GFX_achievements_button
 			buttonText = ""
 			buttonFont = "Main_14_black"
 			clicksound = click_ok
