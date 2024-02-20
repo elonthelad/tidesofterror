@@ -21,12 +21,10 @@
  DEPLOYMENT_EQUIPMENT: "Equipment: $VALUE|%Y0$"
  DEPLOYMENT_EQUIPMENT_FULL_DESC: "$NAME$: $VALUE|G0$/$MAX|G0$"
  DEPLOYMENT_EQUIPMENT_DESC: "$NAME$: $VALUE|Y0$/$MAX|Y0$"
- DEPLOYMENT_DESIGNER: "Division Designer"
  DEPLOYMENT_EQUIPMENT_VARIANT_AMOUNT: "        $NAME|Y$: $VALUE|Y0$"
  DEPLOYMENT_EQUIPMENT_VARIANT_AMOUNT_FULL: "        $NAME|G$: $VALUE|G0$"
  DEPLOYMENT_EQUIPMENT_CHANGE: "$NAME$: $VALUE$"
  DEPLOYMENT_ADD_TEMPLATE: "Train"
- DEPLOYMENT_LINES_HIT_THE_CAP: "We can train at most $CAP|*H$ men.\nCapped by max manpower in the field ( $RATIO|H0%$ of $INFIELD|*H$. Minimum: $MINPOSSIBLE|*H$ men)"
  DEPLOYMENT_LINES_HIT_THE_DIVISION_CAP: "§RReached the cap for this template§! \n"
  REGIMENTS_SELECTION_CANCEL: "Back"
  ONLY_ONE_TEMPLATE_LEFT: "You cannot delete your last template."
@@ -81,16 +79,10 @@
  TEMPLATE_PRIO_2: "Elite"
  TEMPLATE_PRIO_2_DESC: "Units with this template will receive equipment before anyone else once deployed and at highest priority. Use for your best men and where they can do the most good."
  DEPLOYMENT_LEND_LEASE_COUNTRY: "Lend-Lease: $COUNTRY$"
- ADD_CONVEYOR_LINE_BUTTON_LABEL: "Add Unit"
- ADD_CONVEYOR_LINE_BUTTON_DESC: "Adds another unit of $CONVEYOR|H$ to be produced in parallel.\n\n§GShift+Click§! to add 5 lines"
  CONVEYOR_GENERIC_NAME_EDIT_DESC: "Type here to change deployment generic name."
  CONVEYOR_TEMPLATE_ICON_DESC: "This deployment creates divisions using $TEMPLATE|H$ template."
- CANCEL_CONVEYOR_TOOLTIP: "§RCancel§! production of all deployment lines."
- DEPLOY_CONVEYOR_TOOLTIP: "§GClick§! to deploy all lines instantly."
- DEPLOY_CONVEYOR_DISABLED_TOOLTIP: "Does not have any deployment ready to §RDeploy§!."
  CONVEYOR_CANCEL_TITLE: "§RCancel§! Production"
  CONVEYOR_CANCEL_DESC: "Are you sure that you want to §RCancel§! production of all deployment lines?"
- CONVEYOR_LINE_CANCEL_DESC: "§RCancel§! production of this line."
  CONVEYOR_LINE_CANCEL_ACCEPT_TITLE: "§RCancel§! deployment line"
  CONVEYOR_LINE_CANCEL_ACCEPT_SINGLE_DESC: "Are you sure that you want to §RCancel§! producing this deployment line?\n(Deployment will be also §RRemoved§!)"
  CONVEYOR_LINE_CANCEL_ACCEPT_DESC: "Are you sure that you want to §RCancel§! producing this deployment line?"
@@ -101,7 +93,6 @@
  CONVEYOR_SET_COLONIAL_LOCATION_DESC: "§GClick§! to set deployment location for this deployment.\n§GRight-click§! to reset location.\n§YThis is colonial template and can be deployed only in the country of origin!§!"
  CONVEYOR_SET_LOCATION_NOT_SET: "§RNo location set§!"
  CONVEYOR_LINE_PREFIX_NAME_EDIT_DESC: "Type here to change current line prefix."
- CONVEYOR_LINE_DEPLOY_DESC: "§GClick§! to deploy this line instantly."
  CONVEYOR_SERIES_INCREASE_DESC: "Increase the number of serial training of divisions that each line will complete.\n\nSetting to infinite means each line will train a new division when a previous one is deployed."
  CONVEYOR_SERIES_AMOUNT_DESC: "This is the amount of divisions that each line will train before being removed.\n\nSetting to infinite means each line will train a new division when a previous one is deployed."
  CONVEYOR_SERIES_DECREASE_DESC: "Decrease the number of serial training of divisions that each line will complete.\n\nSetting to infinite means each line will train a new division when a previous one is deployed."
@@ -147,3 +138,20 @@
  DECOMMISSION_TEMPLATE_TOGGLE_ON_DESC: "§GClick§! to decommission this template, marking it as retired."
  DECOMMISSION_TEMPLATE_TOGGLE_OFF: "Recommission"
  DECOMMISSION_TEMPLATE_TOGGLE_OFF_DESC: "§GClick§! to recommission this template, marking it as in service."
+
+
+#MODDED
+
+
+ ADD_CONVEYOR_LINE_BUTTON_LABEL: "Add Unit"
+ ADD_CONVEYOR_LINE_BUTTON_DESC: "Adds another batallion of $CONVEYOR|H$ to be trained in parallel.\n\n§GShift+Click§! to add 5."
+ DEPLOYMENT_LINES_HIT_THE_CAP: "We can only train at most $CAP|*H$ men at a time.\n\nCapped by current manpower in the field\n( $RATIO|H0%$ of $INFIELD|*H$. Minimum: $MINPOSSIBLE|*H$)"
+
+ DEPLOY_CONVEYOR_DISABLED_TOOLTIP: "§RNo Battalions are prepared to deploy§!."
+ CANCEL_CONVEYOR_TOOLTIP: "§RCancel§! training of all Battalions."
+ DEPLOY_CONVEYOR_TOOLTIP: "§GClick§! to deploy all Battalions immediately."
+ CONVEYOR_LINE_DEPLOY_DESC: "§GClick§! to deploy this Battalion immediately."
+ CONVEYOR_LINE_CANCEL_DESC: "§RCancel§! training of this Battalion."
+ 
+ DEPLOYMENT_DESIGNER: "Battalion Designer"
+ DEPLOYMENT_VIEW_SPECIAL_FORCES_DETAILS: "$USED$/$CAP$"

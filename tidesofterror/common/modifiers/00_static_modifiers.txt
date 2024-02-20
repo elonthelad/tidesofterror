@@ -365,9 +365,11 @@ capital_screening_bonus = {
 }
 
 country_is_at_peace = {
+	additional_brigade_column_size = 1
 }
 
 country_is_at_war = {
+	additional_brigade_column_size = 1
 }
 
 # targeted modifiers that will apply when you have fully decrypted a country's cipher
