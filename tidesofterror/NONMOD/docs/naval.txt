@@ -1,0 +1,32 @@
+naval
+
+ship-of-the-line										Casemated Ironclad	->		Dreadnought
+sloop-of-war		-> Turret Ironclad ->	Monitor						->		Dousing Monitor
+steamboat												Melee Ironclad 			->		Iron Cutter
+
+
+
+
+Ship-of-the-line 'Duke of Wellington'
+Turret Ironclad 'HMS Scorpion'
+Monitor 'HMS Magdala'
+
+Iron Cutter is melee ship
+Dousing Monitor is an early submarine
+
+
+Propulsion
+Two Cylinder Trunk#Reliable high supply use engine. Low Pressure Boilers.
+Four Cylinder Trunk
+
+Vt. Engine#"Vertical Inverted Direct-Acting engine" Stronger than previous, heavier
+Compound Vt. Engine
+Triple-Expansion Vt. Engine
+Quad-Expansion Vt. Engine
+
+Steam Turbine#Expensive but fast
+High Vel. Steam Turbine
+
+Gasoline Turbine#Very expensive but faster
+
+Ship-rigged

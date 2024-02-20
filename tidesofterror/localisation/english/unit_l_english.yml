@@ -179,9 +179,6 @@
  FLEET_NAMED: "$NAME|H$"
  TASK_FORCE_NAMED: "$NAME|H$"
  TASK_FORCE_MEMBER_OF_FLEET: "Member of the fleet $FLEET|H$"
- TASK_FORCE_IS_RESERVE_FLEET: "Reserve fleet"
- RESERVE_FLEETS_FOR_THIS_THEATER: "Reserve fleets for this theater"
- RESERVE_FLEETS_FOR_THIS_THEATER_DESC: "Ships that go out of production and do not have a specific §YDeploy target§! will automatically be assigned to reserve.\nShips in the reserve fleet will automatically move to reinforce task forces which have §YAutomatic reinforcement§! enabled and are not meeting their set requirements.\nLikewise, if a task force has more ships than its set requirements, some will detach and move to the closest port and to reserve."
  RESERVE_FLEET_NOT_REINFORCING: "§RNot ready to issue reinforcements§!"
  RESERVE_FLEET_COMPLETING_MOVE_ORDER: "- §RIs moving§!"
  RESERVE_FLEET_NEEDS_TO_BE_IN_NAVAL_BASE_TO_REINFORCE: "- §RNeeds to be docked in a harbour.§!"
@@ -540,10 +537,10 @@
  UNIT_LEADER_PROMOTE_POPUP_DESC: "Are you certain you wish to promote\n§Y$LEADER$§!\nAfter the promotion, they will temporarily §Rlose§! a skill level as they adjust to the charge of the new rank."
  UNIT_LEADER_PROMOTE_POPUP_DESC_COST: "It will cost $CP|2R$ £command_power to promote this leader."
  
- 
  SELECT_HALF_DIVISIONS: "§TSplit current selection, rounding up.§!"
  HALT_UNIT: "Halt all selected Battalions"
  
+ #Infantry
  category_police_units: "Police Battalions"
  category_rifle_infantry: "Rifle Infantry"
  category_melee_infantry: "Melee Infantry"
@@ -569,6 +566,7 @@
  fusiliers: "Fusiliers"
  diehards: "Die-Hards"
  
+ #Ordnance
  group_ordnance_title: "Ordnance Brigades"
  artillery_brigade: "Royal Artillery"
  artillery_brigade_desc: ""
@@ -581,6 +579,7 @@
  scorch_crew: "Scorch Crew"
  scorch_crew_desc: ""
  
+ #Auxillary
  sappers_miners: "Sappers & Miners"
  comissariat: "Comissariat"
  field_ward: "Field Ward"
@@ -591,8 +590,14 @@
  mounted_sergeants: "Mounted Sergeants"
  reconnaissance_scouters: "Mounted Recon Scouts"
  
+ #War Machines
  group_armor_title: "War Machines"
  battlehardsuit_unit: "Hardsuit Brigade"
  daddylonglegs_unit: "Daddy-long-legs"
  war_carriage_unit: "War Carriage Brigade"
  war_engine_unit: "War Engine Brigade"
+ 
+ #Navy
+ TASK_FORCE_IS_RESERVE_FLEET: "Reserve Vessel"
+ RESERVE_FLEETS_FOR_THIS_THEATER: "Reserve Vessels"
+ RESERVE_FLEETS_FOR_THIS_THEATER_DESC: "§LShips that go out of production and do not have a specific §YDeploy target§! will automatically be assigned to reserve.§!"

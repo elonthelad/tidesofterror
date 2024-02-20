@@ -1,15 +1,15 @@
 sub_units = {
-	destroyer = {
+	ship_of_the_line = {
 		sprite = destroyer
 		map_icon_category = ship
 		priority = 3
 		active = yes
 		type = { screen_ship }
-		need = { ship_hull_light = 1 }
+		need = { ship_hull_shipoftheline = 1 }
 		
 		max_organisation = 35
 
-		supply_consumption = 0.01
+		supply_consumption = 0.10
 		
 		critical_parts = { destroyed_ammo_storage broken_propeller on_fire rudder_jammed}
 		critical_part_damage_chance_mult = 1
@@ -17,5 +17,3 @@ sub_units = {
 		hit_profile_mult = 1.0
 	}
 }
-
-	

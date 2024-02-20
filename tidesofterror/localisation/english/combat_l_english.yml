@@ -124,7 +124,6 @@
  BM_MULTIPLE: "In multiple combat"
  BM_MULTIPLE_DESC: "Division is spread too thin to fight effectively."
  COMBAT_COMBAT_WIDTH_DESC: "§HCombat Width§!\n Decides how many divisions on each side will be able to join the fight. How much width a division takes up depends on how it has been designed. By attacking from multiple directions you can increase the available total width."
- COMBAT_PROGRESS_DESC: "Shows the current power balance between attacker and defender in this battle."
  COMBAT_WE_ARE_WINNING: "§GWe are currently winning!§!"
  COMBAT_WE_ARE_LOSING: "§RWe are currently losing!§!"
  COMBAT_LAST_MORE_THAN_DAY: "We estimate that the battle will last for another $DAYS|Y$ days."
@@ -325,7 +324,6 @@
  BORDER_CONFLICT_CHANGE_STATE: "Control of $STATE|H$ will be transferred to $COUNTRY|H$"
  BORDER_CONFLICT_FOR_ENEMY: "For Enemy ($COUNTRY|H$):"
  May: "May"
- DISENGAGE_FROM_COMBAT: "§HDisengage§!\n\nForce your taskforces to disengage from combat."
  DISENGAGE_FROM_COMBAT_DONE: "Your taskforces are already trying to disengage from combat."
  ESCAPE_PROGRESS: "Escape Progress: $NUM|%+$"
  CHANCE_TO_ESCAPE: "Daily Escape Progress Speed: $NUM|%+$"
@@ -339,47 +337,23 @@
  POSITIONING_SHIP_RATIO_PENALTY: "Larger Fleet: $NUM|+%$"
  POSITIONING_PENALTY_INFO: "Low positioning will have following effects:"
  AA_MODIFIER: "Anti-Air: $NUM|+%$"
- SCREENING_VALUE: "Screening: $NUM|+%$"
+ SCREENING_VALUE: "Defense: $NUM|+%$"
  POSITIONING_VALUE: "Positioning: $NUM|+%$"
- combat_stat_depth_charges_info: "§HDepth Charges§!\n\nDepth charges are used against submarines, which can not be attacked by other weapon types.\n"
- combat_stat_light_guns_info: "§HLight Guns§!\n\nLight Guns are more effective against §YScreen Ships§!. Your fleet's light guns are going to target the closest enemy. \n"
- combat_stat_heavy_guns_info: "§HHeavy Guns§!\n\nHeavy Guns are more effective against §YCapital Ships§!. They can reach the two closest groups of enemies and will prefer firing on larger targets.\n"
- combat_stat_anti_air: "§HFleet Anti-Air§!\n\nFleet Anti-Air is calculated using the Anti-Air of all ships in the entire fleet and will distrupt enemy bombers attacking the fleet and reduce the damage they can cause.\n"
- combat_stat_torpedoes_info: "§HTorpedoes§!\n\nTorpedoes ignore armor and are much more effective against §YCapital Ships§!. The amount of torpedoes launched against the enemy depends on their §YScreening Efficiency§!.\n"
- screening_efficiency_info: "§HScreening Efficiency§!\n\nHigh §YScreening Efficiency§! defends your §YCapital Ships§! against enemy torpedoes. Your Carriers will be screened by both your Capital and your Screen Ships. Capital Ships will be only be screened by your Screen Ships.\n"
- POSITIONING_INFO: "§HPositioning§! represents how well your fleet is positioned compared to the enemy. It is affected by the relative size of the fleets, the weather, and leader's skills. Ships that join combat after it has started will have a temporary penalty to Positioning.\n\nIf Positioning is below 100%, the fleet will suffer penalties.\n"
  damage_done_by_weapon_type: "Total Damage Done: $NUM|.0H$"
  relative_damage_ratio_to_other_damage_output: "  Percentage of our total outgoing damage: $NUM|%.1H$"
  relative_damage_ratio_to_enemy_health: "  Enemy Health Damaged: $NUM|%.1H$"
  total_damage_dealt: "Total damage dealt: $NUM|.0H$ ($RATIO|%.0H$ of enemy health)\n"
  total_damage_received: "\nTotal damage received: $NUM|.0H$\n"
- damage_dealt_light_guns: "  By light guns: $NUM|.0H$ ($RATIO|%.0H$)\n"
- damage_dealt_heavy_guns: "  By heavy guns: $NUM|.0H$ ($RATIO|%.0H$)\n"
  damage_dealt_torpedoes: "  By torpedoes: $NUM|.0H$ ($RATIO|%.0H$)\n"
- damage_dealt_depth_charges: "  By depth charges: $NUM|.0H$ ($RATIO|%.0H$)\n"
  damage_dealt_by_type: "  By $TYPE$: $NUM|.0H$ ($RATIO|%.0H$)\n"
  damage_dealt_anti_air: "$NUM|.0H$ enemy planes are shoot down by anti-air.\n"
  damage_dealt_by_ship_types: "Damage dealt by individiual ship types:\n"
  damage_dealt_by_box: "Damage dealt by types:\n"
- damage_dealt_screen: "  By screens: $NUM|.0H$ ($RATIO|%.0H$)\n"
- damage_dealt_battle_box: "  By capitals: $NUM|.0H$ ($RATIO|%.0H$)\n"
- damage_dealt_carriers: "  By carriers: $NUM|.0H$ ($RATIO%|.0H$)\n"
- damage_dealt_convoys: "  By Clipper: $NUM|.0H$ ($RATIO|%.0H$)\n"
- damage_dealt_subs: "  By submarines: $NUM|.0H$ ($RATIO|%.0H$)\n"
  damage_dealt_air: "  By naval bombers: $NUM|.0H$ ($RATIO|%.0H$)\n"
- SCREENING_TOOLTIP_SCREEN_BOX: "Screening efficiency past §YScreening Group§!: $NUM|%.0H$"
- SCREENING_TOOLTIP_CAPITAL_BOX: "Screening efficiency past §YBattle Line§!: $NUM|%.0H$"
- SCREENING_TOOLTIP_CAPITAL_BOX_COMBINED: "Combined screening efficiency past §YBattle Line§!: $NUM|%.0H$"
  SCREENING_TOOLTIP_FOR_SCREEN_BOX: "Your $NUM_CAPI|.0H$ §YCapital Ships§!, $NUM_CARR|.0H$ §YCarriers§! and $NUM_CONV|.0H$ §YClippers§! need $NUM_NEED|.0H$ §YScreening Ships§! to be fully screened, and you currently have $NUM_SCRE|.0H$ §YScreening Ships§!."
  SCREENING_TOOLTIP_FOR_CAPITAL_BOX: "Your $NUM_CARR|.0H$ §YCarriers§! and $NUM_CONV|.0H$ §YClippers§! need $NUM_NEED|.0H$ §YCapital Ships§! to be fully screened, and you currently have $NUM_CAPI|.0H$ §YCapital Ships§!."
  SCREENING_TOOLTIP_LOW_INFO: "Gaps in the §YScreening Group§! lead to low screening efficiency, allowing enemy submarines to target the next battle line."
- SCREENING_TOOLTIP_BONUSES: "Your screening efficiency will give the following bonuses to your §YBattle Line§!:\n"
- SCREENING_TOOLTIP_BONUSES_CAPITAL: "Your screening efficiency will give the following bonuses to your §YCarrier Group§!:\n"
  SCREENING_TOOLTIP_NO_SCREENS: "A lack of §YScreening Ships§! will allow enemy submarines and other light ships to target your capital ships with torpedoes and will give heavy penalties to Positioning."
- SCREENING_BOX_TOOLTIP: "The §YScreening Group§! holds all the screening ships - usually Light Cruisers and Destroyers - tasked with keeping enemy screening ships away from the main §YBattleline§!. Insufficient screening will allow enemy screens to make torpedo attacks against the battleline."
- CAPITAL_BOX_TOOLTIP: "The §YBattleline§! provides the main direct firepower of the fleet, usually in the form of Battleships and Heavy Cruisers. They will also prevent enemy capital ships from firing at friendly §YCarriers§!."
- CARRIER_BOX_TOOLTIP: "The §YCarrier Group§! provides the main long range striking power of the fleet. Screened from the enemy by both the §YScreening Group§! and the §YBattleline§!, the carriers can launch strikes on the enemy without interference. Should any §YClippers§! be present in the battle, they will also appear in this area."
- SUBMARINE_BOX_TOOLTIP: "The §YSubmarine Wolfpack§! will attempt to finish off fleeing ships with its torpedoes while remaining hidden. A lack of dedicated anti-submarine vessels amongst the enemy will allow the submarines to slip away undetected."
  NAVAL_READY_TO_FIRE: "Not ready to attack"
  NAVAL_READY_TO_FIRE_DESC: "Due to the ranges involved some ship classes will not be able to attack directly when combat is joined."
  CARRIER_PLANE_SCREEN: "Carrier Planes"
@@ -389,7 +363,35 @@
  COMBAT_LOG_FRIENDLY: "Friendly Forces"
  COMBAT_LOG_ENEMY: "Enemy Forces"
 
-#MOD
+
+#MODDED
+
+
+ DISENGAGE_FROM_COMBAT: "§HDisengage§!\n--------------\n§LForce your forces to disengage from combat immediately.§!"
+
+
+ COMBAT_PROGRESS_DESC: ""
+ 
+ 
+ combat_stat_depth_charges_info: "§HUndersea Attack§!\n--------------\n§LUndersea attacks are used against submarines, which otherwise cannot be hit by other damage types.§!\n"
+ combat_stat_anti_air: "§HAir Defense§!\n--------------\n§LFleet Air Defense is calculated using the Air Defense of all vessels in the entire fleet and will distrupt hostile skyward attacks on the fleet and reduce the damage they can cause.§!"
+ combat_stat_torpedoes_info: "§HTorpedoes§!\n\nTorpedoes ignore armor and are much more effective against §YCapital Ships§!. The amount of torpedoes launched against the enemy depends on their §YScreening Efficiency§!.\n"
+ combat_stat_heavy_guns_info: "§HRanged Attack§!\n--------------\n§LRanged Attacks are more effective against §YHeavy Vessels§!. They can target vessels within two sections of another.§!\n"
+ combat_stat_light_guns_info: "§HMelee Attack§!\n--------------\n§LMelee Attacks are more effective against §YSkirmish Vessels§!. They can only target other vessels within one section of another.§!\n"
+ 
+ 
+ damage_dealt_light_guns: "  From Melee Attacks: $NUM|.0H$ ($RATIO|%.0H$)\n"
+ damage_dealt_heavy_guns: "  From Ranged Attacks: $NUM|.0H$ ($RATIO|%.0H$)\n"
+ damage_dealt_depth_charges: "  From Undersea Attacks: $NUM|.0H$ ($RATIO|%.0H$)\n"
+ damage_dealt_screen: "  By Skirmish Vessels: $NUM|.0H$ ($RATIO|%.0H$)\n"
+ damage_dealt_battle_box: "  By Heavy Vessels: $NUM|.0H$ ($RATIO|%.0H$)\n"
+ damage_dealt_carriers: "  By Aerial Carriers: $NUM|.0H$ ($RATIO%|.0H$)\n"
+ damage_dealt_convoys: "  By Convoys: $NUM|.0H$ ($RATIO|%.0H$)\n"
+ damage_dealt_subs: "  By Undersea Vessels: $NUM|.0H$ ($RATIO|%.0H$)\n"
+ 
+ 
+ POSITIONING_INFO: "§HPositioning§!\n--------------\n§HPositioning§! §Lrepresents how well your fleet is organised compared to the enemy. It is affected by the relative size of the fleets, the weather, and leader's skills. Ships that join combat after it has started will have a temporary penalty to Positioning.\n\nIf Positioning is below 100%, the fleet will §Rsuffer great penalties.§!§!\n"
+
 
  BM_ENCIRCLEMENT_PENALTY: "Surrounded"
  BM_ENCIRCLEMENT_PENALTY_DESC: "This unit is surrounded by enemies, seperated from friendly communications and supplies."
@@ -397,3 +399,17 @@
  BM_DUGIN_MODIFIER_DESC: "This unit has spent time in the province creating barricades, granting it attack and defense bonuses when defending assaults."
  NON_PIERCING_THRESHOLD_ENTRY: "§YUndaunted§!\nThis unit is successfully resisting the Terror of $NUM|H$ enemy unit(s)."
  PIERCING_ENEMIES_THRESHOLD_ENTRY: "§YFearsome§!\nThis unit is suppressing $NUM|H$ enemy unit(s) with its Terror, dealing $PIERCE_VALUE|%H$ damage to them. Damage multiplied increases by how much Terror this unit has over its opponent's resolve."
+ 
+ 
+ #Navy
+ screening_efficiency_info: "§HNaval Defense§!\n--------------\n§L§YNaval Defense§! is provided by having more small vessels in front of larger vessels. \n"
+ SCREENING_TOOLTIP_SCREEN_BOX: "§!Naval Defense from §YSkirmish Vessels§!: $NUM|%.0H$"
+ SCREENING_TOOLTIP_CAPITAL_BOX: "§!Naval Defense from §YHeavy Vessels§!: $NUM|%.0H$"
+ SCREENING_TOOLTIP_CAPITAL_BOX_COMBINED: "Stacking Naval Defense from §YSkirmish Vessels§!: $NUM|%.0H$"
+ SCREENING_TOOLTIP_BONUSES: "Naval Defense from §YSkirmish Vessels§! is giving the following bonuses to your §YBattle Line§!:\n"
+ SCREENING_TOOLTIP_BONUSES_CAPITAL: "Naval Defense from §YHeavy Vessels§! is giving the following bonuses to your §YCarrier Group§!:\n"
+ 
+ SCREENING_BOX_TOOLTIP: "§YSkirmish Vessels§!§L - are tasked with keeping enemy vessels away from the powerful §YHeavy Vessels§! to allow them to keep hammering the enemy line. Insufficient §YSkirmish Vessels§! will allow special weapons to hit §YHeavy Vessels§!."
+ CAPITAL_BOX_TOOLTIP: "§YHeavy Vessels§!§L deal the most damage and also protect §YAerial Carriers§!. Insufficient §YHeavy Vessels§! will allow special weapons to hit §YAerial Carriers§!."
+ CARRIER_BOX_TOOLTIP: "§YAerial Carriers§!§L provide the main long range striking power of the fleet. Defended by both §YSkirmish Vessels§! and §YHeavy Vessels§!, §YAerial Carriers§! can launch strikes on the enemy without interference. Should any §YClippers§! be present in the battle, they will also appear in this zone."
+ SUBMARINE_BOX_TOOLTIP: "§YUndersea Vessels§! §Lwill harass surface vessels while trying to remaining hidden. A lack of dedicated subsurface attacking vessels amongst the enemy will allow these §YUndersea Vessels§! to slip away undetected."

@@ -37,3 +37,17 @@ Aluminium
 Timber
 Manganese
 Arcane Vapours
+
+#Naval
+
+Light Guns > Melee Attack
+Heavy Guns > Ranged Attack
+Depth Charges > Undersea Attack
+Torpedoes will be used as a secret special weapon for the humans to research, as it is very effective against the eldritch
+Anti-Air > Air Defense
+Screening Efficiency > Naval Defense
+
+Screening Ships > Skirmish Vessels
+Capital Ships > Heavy Vessels
+Carriers > Aerial Carriers
+Submarines > Undersea Vessels

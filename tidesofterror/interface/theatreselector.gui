@@ -223,7 +223,7 @@ guiTypes = {
 		
  		buttonType = {
 			name = "assign_button"
-			position = { x = 3 y= -9938 }
+			position = { x = 5 y= 9 }
 			spriteType = "GFX_assign_group_button"
 		}
 		
@@ -338,16 +338,16 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "navy_theater_group_item"
-		position = { x=430 y=15 }
+		position = { x=427 y=51 }
 		size = { width=300 height=80 }
 
 		gridBoxType = {
 			name = "fleets_row_box"
-			position = { x = 0 y = 80 }
+			position = { x = -5 y = 0 }
 			Orientation = "UPPER_LEFT"
 			size = { width = 300 height = 260 }
 			max_slots_horizontal = 1
-			slotsize = { width=300 height=33 }
+			slotsize = { width=300 height=40 }
 		}
 
 		iconType = {
@@ -357,24 +357,24 @@ guiTypes = {
 			frame = 3
 		}
 
-		iconType = {
+		iconType = {#Yeeted
 			name ="selected_theatre_frame"
 			quadTextureSprite = "GFX_selected_theatre_frame"
-			position = { x = 0 y = 2 }
+			position = { x = -9999 y = -9999 }
 			alwaystransparent = yes
 		}
 
 		buttonType = {
 			name = "assign_button"
-			position = { x = 3 y= 38 }
-			spriteType = "GFX_assign_group_button"
+			position = { x = 0 y= 0 }
+			spriteType = "GFX_assign_group_button"#GFX_assign_group_button
 			frame = 3
 		}
 
 		instantTextBoxType = {
 			name = "ship_count_box"
-			position = { x = 256 y = 46 }
-			font = "hoi_18mbs"
+			position = { x = 280 y = 46 }
+			font = "hoi_16mbs"
 			text = "999"
 			maxWidth = 40
 			maxHeight = 32
@@ -382,26 +382,34 @@ guiTypes = {
 			format = right
 		}
 
-		editBoxType = {
+		editBoxType = {#Here for error reasons, otherwise Yeeted
 			name = "theater_name_box"
-			position = { x = 38 y = 13 }
-			font = "hoi_18mbs"
+			position = { x = -9999 y = -9999 }
+			font = "hoi_16mbs"
 			size = { x=170 y=32 }
-			text = "NEW_THEATER_GROUP"
+			text = "Navy Outliner"
 		}
 
-		OverlappingElementsBoxType = {
+		editBoxType = {#New Title
+			name = "theater_name_box1212"
+			position = { x = 214 y = 9 }
+			font = "hoi_24header"
+			size = { x=170 y=32 }
+			text = "Navy Outliner"
+		}
+
+		OverlappingElementsBoxType = {#Top List of all admirals and task forces
 			name = "fleets_box"
 			first_on_top = yes
-			position = { x = 10 y = 43 }
-			size = { x = 260 y = 23 }
-			format = left
-			spacing = 8.0
+			position = { x = 15 y = 44 }
+			size = { x = 220 y = 23 }
+			format = right
+			spacing = 7.0
 		}
 		
 		OverlappingElementsBoxType = {
 			name = "alerts"
-			position = { x = -430 y = 0 }
+			position = { x = -310 y = 1 }
 			size = { x = 130 y = 32 }
 			Orientation = "UPPER_RIGHT"
 			format = right
@@ -410,7 +418,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "priority_button"
-			position = { x = 265 y = 4 }
+			position = { x = 266 y = 40 }
 			quadTextureSprite ="GFX_fleet_theatre_priority_strip"
 			clicksound = click_default
 		}
@@ -462,7 +470,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "theater_name_box"
 			position = { x = 38 y = 13 }
-			font = "hoi_18mbs"
+			font = "hoi_16mbs"
 			alwaystransparent = yes
 			text = "RESERVE_NAVY_THEATER_GROUP_NAME"
 		}
@@ -763,8 +771,8 @@ guiTypes = {
 
 		buttonType = {
 			name = "army_group_box_bottom_bg"
-			quadTextureSprite = "GFX_theatre_dropdown_bottom"	
-			position = { x = 0 y = -8 }
+			quadTextureSprite = "GFX_theatre_dropdown_bottom"
+			position = { x = 0 y = -7 }
 		}
 
 		OverlappingElementsBoxType = {
@@ -778,8 +786,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "fleet_row_item_box"
-		position = { x=0 y=0 }
-		size = { width=23 height=33 }
+		position = { x=45 y=70 }
+		size = { width=23 height=40 }
 		clipping = no
 		
 		buttonType = {
@@ -790,30 +798,30 @@ guiTypes = {
 
 		buttonType = {
 			name = "army_group_box_bottom_bg"
-			quadTextureSprite = "GFX_theatre_dropdown_bottom"
+			quadTextureSprite = "GFX_theatre_dropdown_middle"
 			position = { x = 0 y = -8 }
 		}
 
 		OverlappingElementsBoxType = {
 			name = "navy_box"
-			position = { x = 6 y = -6 }
-			size = { x = 270 y = 23 }
+			position = { x = 18 y = 14 }
+			size = { x = 260 y = 23 }
 			first_on_top = yes
-			format = left
-			spacing = 8.0
+			format = right
+			spacing = 10.0
 		}
 
 		buttonType = {
 			name = "split_off_btn"
-			position = { x=268 y=-6 }
+			position = { x=13 y=12 }
 			spriteType = GFX_NV_btn_repair_symbol
 			frame = 2
 		}
 
 		instantTextBoxType = {
 			name = "split_off_count"
-			position = { x = 260 y = 4 }
-			font = "hoi_18mbs"
+			position = { x = 6 y = 28 }
+			font = "hoi_16mbs"
 			maxWidth = 36
 			maxHeight = 23
 			fixedsize = yes
@@ -826,14 +834,14 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "reserve_fleet_row_item_box"
-		position = { x=0 y=0 }
+		position = { x=-4 y=70 }
 		size = { width=23 height=33 }
 		clipping = no
 
 		buttonType = {
 			name = "army_group_box_middle_bg"
 			quadTextureSprite = "GFX_theatre_dropdown_middle"
-			position = { x = 0 y = -8 }
+			position = { x = 49 y = -8 }
 		}
 
 		buttonType = {
@@ -844,7 +852,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "reserve_fleet_btn"
-			position = { x=10 y=-7 }
+			position = { x=16 y=9 }
 			spriteType = GFX_NV_icon_reserve_fleet
 			pdx_tooltip = RESERVE_FLEETS_FOR_THIS_THEATER
 			pdx_tooltip_delayed = RESERVE_FLEETS_FOR_THIS_THEATER_DESC
@@ -852,11 +860,11 @@ guiTypes = {
 
 		OverlappingElementsBoxType = {
 			name = "navy_box"
-			position = { x = 41 y = -6 }
-			size = { x = 223 y = 23 }
+			position = { x = 58 y = 14 }
+			size = { x = 260 y = 23 }
 			first_on_top = yes
-			format = left
-			spacing = 8.0
+			format = right
+			spacing = 10.0
 		}
 
 		buttonType = {

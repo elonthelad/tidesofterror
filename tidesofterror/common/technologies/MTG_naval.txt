@@ -1,2 +1,33 @@
 technologies = {
+
+	navtech_ship_test = {
+
+		enable_equipments = {
+			ship_hull_shipoftheline_1
+		}
+		enable_equipment_modules = {
+			cruiser_ship_engine_1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 2
+
+		start_year = 1868
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 2 y = 2 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
 }

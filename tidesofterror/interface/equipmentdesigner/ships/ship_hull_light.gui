@@ -1,0 +1,6 @@
+guiTypes = {
+	#Ship-of-the-line
+	containerWindowType = {
+		name = "equipment_designer_ship_hull_shipoftheline"
+	}
+}

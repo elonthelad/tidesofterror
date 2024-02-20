@@ -2,13 +2,6 @@ equipment_modules = {
 	limit = {
 		has_dlc = "Man the Guns" 
 	}
-#   ###  ##  #  # ###     ###   ##  ### ### ### ###  #   # 
-#    #  #    #  #  #      #  # #  #  #   #  #   #  #  # #  
-#    #  # ## ####  #      ###  ####  #   #  ##  ###    #   
-#    #  #  # #  #  #      #  # #  #  #   #  #   #  #   #   
-### ###  ##  #  #  #      ###  #  #  #   #  ### #  #   #   
-
-
 
 	ship_light_battery_1 = {
 		abbreviation = "saa"

@@ -1,0 +1,115 @@
+equipments = {
+
+	ship_hull_shipoftheline = {
+		year = 1868
+
+		can_be_produced = {
+			if = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+			}
+		}
+
+		is_archetype = yes
+		is_buildable = no
+		type = screen_ship
+		interface_category = interface_category_screen_ships
+		alias = light_cruiser
+		priority = 1900
+
+		module_slots = {
+			fixed_shipoftheline_bow_slot = {
+				required = no
+				allowed_module_categories = { ship_light_battery dp_light_battery ship_light_medium_battery ship_medium_battery}
+			}
+			fixed_shipoftheline_athwartships_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_shipoftheline_starboard_slot = {
+				required = no
+				allowed_module_categories = { ship_fire_control_system ship_sonar }
+			}
+			fixed_shipoftheline_portside_slot = {
+				required = no
+				allowed_module_categories = { ship_radar ship_sonar }
+			}
+			fixed_shipoftheline_amidships_slot = {
+				required = no
+				allowed_module_categories = { cruiser_ship_engine }
+			}
+			fixed_shipoftheline_propulsion_slot = {
+				required = yes
+				allowed_module_categories = { cruiser_ship_engine }
+			}
+			fixed_shipoftheline_aft_slot = {
+				required = no
+				allowed_module_categories = { cruiser_ship_engine }
+			}
+			#Upper Bar
+			shipoftheline_deckspace1_slot = {
+				required = no
+				allowed_module_categories = { cruiser_ship_engine }
+			}
+			shipoftheline_deckspace2_slot = {
+				required = no
+				allowed_module_categories = { cruiser_ship_engine }
+			}
+			shipoftheline_interiordeck1_slot = {
+				required = no
+				allowed_module_categories = { cruiser_ship_engine }
+			}
+			shipoftheline_interiordeck2_slot = {
+				required = no
+				allowed_module_categories = { cruiser_ship_engine }
+			}
+			shipoftheline_interiordeck3_slot = {
+				required = no
+				allowed_module_categories = { cruiser_ship_engine }
+			}
+			shipoftheline_interiordeck4_slot = {
+				required = no
+				allowed_module_categories = { cruiser_ship_engine }
+			}
+			shipoftheline_interiordeck5_slot = {
+				required = no
+				allowed_module_categories = { cruiser_ship_engine }
+			}
+		}
+		
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 15
+		naval_speed = 27
+		reliability = 0.80
+		
+		naval_range = 2500
+		
+		max_strength = 100		
+		
+
+		fuel_consumption = 0
+		
+		build_cost_ic = 1
+		resources = {
+			steel = 1
+		}
+		
+		manpower = 600
+
+		naval_supremacy_factor = 2.3
+		naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
+	}
+	
+	ship_hull_shipoftheline_1 = {
+		abbreviation = "hba"
+		year = 1868
+		visual_level = 0
+		archetype = ship_hull_shipoftheline
+		priority = 1900
+		
+		
+		module_slots = inherit
+	}
+}
