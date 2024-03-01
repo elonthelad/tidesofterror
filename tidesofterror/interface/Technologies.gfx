@@ -53,6 +53,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/inftech_magazineloading.png"
 	}
 	
+	#Ordnance
+	spriteType = {
+		name = "GFX_arttech_breechspear_medium"
+		texturefile = "gfx/interface/technologies/arttech_breechspear.png"
+	}
+	spriteType = {
+		name = "GFX_arttech_rifled_armstrong_gun_medium"
+		texturefile = "gfx/interface/technologies/arttech_rifled_armstrong_gun.png"
+	}
+	
+	#Armour
+	spriteType = {
+		name = "GFX_battle_hardsuit_frame_3_medium"
+		texturefile = "gfx/interface/technologies/war_machines/battle_hardsuit_modernheavy.png"
+	}
+	spriteType = {
+		name = "GFX_wartech_hardsuit_4_medium"
+		texturefile = "gfx/interface/technologies/war_machines/battle_hardsuit_modernheavy.png"
+	}
+	
 	#Armour Smalltech
 	spriteType = {
 		name = "GFX_wartech_pneumatics_medium"
