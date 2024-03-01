@@ -35,16 +35,18 @@
  battle_hardsuit_frame_4: "Modern Lightframe"
  
  EQ_MOD_SLOT_hardsuitactuation_type_slot_TITLE: "Actuation"
- EQ_MOD_CAT_hardsuitactuator_module_type_TITLE: "Actuation Method"
+ EQ_MOD_CAT_hardsuitactuator_module_type_TITLE: "All"
  
  hardsuit_noactuation: "No Actuation"
  hardsuit_noactuation_desc: "§LWith no actuation method installed, the poor sod in this suit of armour will just have to cope and bear the brunt of such heavy equipment across their body. Cruel, but a league cheaper than manufacturing intricate and complex piston actuation.§!"
  hardsuit_pneumatic: "Pneumatics"
+ hardsuit_pneumatic_desc: "§LBy utilising the power of pneumatic actuation, this hardsuit may 'lift' itself with pneumatic pistons acting as muscles, greatly reducing the strain on the user and increasing speed greatly.§!"
  hardsuit_hydraulic: "Hydraulics"
+ hardsuit_hydraulic_desc: "§LTodo§!"
  
  EQ_MOD_SLOT_hardsuitarmour_type_slot_TITLE: "Armour"
  EQ_MOD_SLOT_hardsuitarmour2_type_slot_TITLE: "Interior Armour"
- EQ_MOD_CAT_hardsuitarmour_module_type_TITLE: "Medium Armour"
+ EQ_MOD_CAT_hardsuitarmour_module_type_TITLE: "All"
  
  hardsuit_ceramic: "Ceramic"
  hardsuit_ceramic_desc: "§LThe interlocking ceramic plate design is not as durable as steel, but provide adequate armor in the face of regular ballistics and close-quarters engagements. It is also notable that the melting point and insulation of the material is notably high, protecting against shocking attacks, shockingly well. Additionally, ceramics are easier to procure and work than metals. They are also particularly lightweight.§!"
@@ -57,10 +59,11 @@
  hardsuit_reinforcedoak: "Reinforced Oak"
  hardsuit_reinforcedoak_desc: "§LSome would look at a Hardsuit bearing wooden armour, and scoff. Then, you'll show them the outstanding production charts, see how they laugh then!§!"
  hardsuit_aluminium: "Aluminium"
+ hardsuit_aluminium_desc: "§LAn alloy of bauxite that normally hasn't seen military application 'til now, Aluminium is a soft yet extremely lightweight metal. It is fairly hard, but flexile and light which allows for greater speed than its cumbersome brothers.§!"
 
  EQ_MOD_SLOT_hardsuitmisc_type_slot_TITLE: "Misc Slot"
  EQ_MOD_SLOT_hardsuitmisc2_type_slot_TITLE: "Auxillary Misc Slot"
- EQ_MOD_CAT_hardsuitmisc_module_type_TITLE: "Auxillary Suit Modifications"
+ EQ_MOD_CAT_hardsuitmisc_module_type_TITLE: "All"
  
  hardsuit_groundingrods: "Grounding Rods"
  hardsuit_groundingrods_desc: "§LThese negatively charged poles do a first-rate job of attracting and dissipating electric charge in the immediate vicinity. The object of these modifications is to divert shocks from the battlefield to a controlled area, allowing other units to advance safely. That is, relative safety.§!"
@@ -84,6 +87,7 @@
  EQ_MOD_CAT_hardsuitlargeweapons_module_type_TITLE: "Large Armaments"
  
  hardsuit_sniderenfield: "Snider-Enfield Rifle"
+ hardsuit_sniderenfield_desc: "§LA standard breech-loading rifle. Fast and capable enough to steer away any foe, and highly reliable and flexible. A balanced and cost-efficient choice.§!"
  hardsuit_martinihenry: "Martini-Henry Rifle"
  hardsuit_leematford: "Lee-Matford Rifle"
  hardsuit_salvationrifle: "Salvation Rifle"
@@ -97,7 +101,8 @@
  hardsuit_palisadegun: "Palisade Gun"
  hardsuit_righteousspeargreatshield: "Righteous Spear & Greatshield"
  hardsuit_handcannon: "Handcannon"
- hardsuit_breachspear: "Breachspear"
+ hardsuit_breachspear: "Breechspear"
+ hardsuit_breachspear_desc: "§LA Breechspear is not normally a weapon for mere mortals. Only with the assistance of a powerful exosuit, can a man know the strength of pure steel spears blasting from a portable cannon. Such a weapon will squarely puncture right through any medium-sized abomination, and certainly make any larger creature think twice.§!"
  hardsuit_boomlance: "Boomlance"
  
  #Daddy-long-legs

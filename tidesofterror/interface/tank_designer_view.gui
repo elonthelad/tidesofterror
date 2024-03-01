@@ -68,7 +68,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "select3d_button"
-			position = { x=378 y= 114 }
+			position = { x=378 y= 154 }
 			size = { x=504 y=22 }
 			font = "hoi_16mbs"				
 			buttontext = "SELECT_3D_MODEL"
@@ -164,7 +164,7 @@ guiTypes = {
 
 			containerWindowType = {#Speed Upgrade
 				name = "equipment_upgrade_0"
-				position = { x = 320 y = 224 }
+				position = { x = -85 y = 224 }
 				size = { width = 130 height = 50 } 
 			
 				buttonType = {
@@ -206,7 +206,7 @@ guiTypes = {
 
 			containerWindowType = {#Armour Upgrade
 				name = "equipment_upgrade_1"
-				position = { x = 374 y = 168 }
+				position = { x = -30 y = 168 }
 				size = { width = 130 height = 50 } 
 
 				buttonType = {
@@ -397,8 +397,8 @@ guiTypes = {
 		
 		containerWindowType = {#Icon Picker Button
 			name = "icon_selection_container"
-			position = { x=364 y=52}
-			size = { width = 154 height = 56 }
+			position = { x=384 y=72}
+			size = { width = 120 height = 82 }
 
 			background = {
 				name = "background"
@@ -408,12 +408,13 @@ guiTypes = {
 
 			buttonType = {
 				name = "btn_equipment_icon"
-				position = { x = 0 y = 0 }
+				position = { x = 0 y = -2 }
 				spriteType = "GFX_locked_icon"
 				Orientation = "center"
 				centerPosition = yes
 				clicksound = "ui_tank_designer_equipment_icon"
 				alwaystransparent = yes
+				scale = 1.1
 			}
 		}
 		

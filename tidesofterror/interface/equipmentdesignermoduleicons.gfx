@@ -871,6 +871,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_pneumatic.dds"
 	}
 	
+	#Hardsuit Weapons
+	SpriteType = {
+		name = "GFX_EMI_hardsuit_breachspear"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/hardsuit_breechspear.dds"
+	}
+	
 	#Daddy-long-legs Misc
 	SpriteType = {
 		name = "GFX_EMI_longlegs_hydraulicstiltlegs"

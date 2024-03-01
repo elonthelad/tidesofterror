@@ -1331,7 +1331,6 @@
  SURRENDERED_SPECIAL_ITEM: "$AMOUNT|0H$ $EQUIPMENT|H$($TYPE|H$)"
  SURRENDERED_SPECIAL_ITEM_WITHOUT_TYPE: "$AMOUNT|H$ $EQUIPMENT|H$"
  from_trade: "From trade:"
- owned: "Owned:"
  CHAT: "Chat"
  FORT: "Fort"
  SYSTEM_SERVER_LOST: "Server Lost"
@@ -1814,9 +1813,18 @@
  PARADROP_PLANES_REQUIRED: "\n§RThis order cannot be executed:§!\nAn additional $WINGS|H$ transport wing(s) are required."
  RETAIN_CORES: "Retain States With Our Core"
  DIVISION_VIEW_HAS_MEDALS:0 "This battalion has won the opportunity to be bestowed a §HMedal§!.\n§GClick to open Medals view.§!"
+ VALUE_CLICK_ADD_1: "§GClick§! to add §Y+$NUM$§!"
+ VALUE_CLICK_ADD_2: "§GCtrl + Click§! to add §Y+$NUM$§!"
+ VALUE_CLICK_ADD_3: "§GShift + Click§! to add §Y+$NUM$§!"
+ VALUE_CLICK_SUB_1: "§GClick§! to subtract §Y$NUM$§!"
+ VALUE_CLICK_SUB_2: "§GCtrl + Click§! to subtract §Y$NUM$§!"
+ VALUE_CLICK_SUB_3: "§GShift + Click§! to subtract §Y$NUM$§!"
  
  
  #MODDED
+ 
+ 
+ owned: "Domestic:"
  
  
  TRUCKS: "Carriages"

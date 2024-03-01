@@ -55,14 +55,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/tank_design_icon.dds"
 	}
 
-	corneredTileSpriteType = {
-		name = "GFX_equipment_designer_equipment_icon_bg"
-		size = { x=76 y=47 }
-		textureFile = "gfx/interface/equipmentdesigner/equipment_designer_equipment_icon_bg.dds"
-		borderSize = { x=5 y=6 }
-		tilingCenter = no
-	}
-
 ###################################################
 # Ship hulls
 ###################################################
@@ -106,4 +98,15 @@ spriteTypes = {
 		textureFile = "gfx//interface//equipmentdesigner//blue_print_icon.dds"
 	}
 
+
+	#MODDED
+	
+	
+	corneredTileSpriteType = {
+		name = "GFX_equipment_designer_equipment_icon_bg"
+		size = { x=76 y=47 }
+		textureFile = "gfx/interface/equipmentdesigner/equipment_designer_equipment_icon_bg.dds"
+		borderSize = { x=5 y=6 }
+		tilingCenter = no
+	}
 }
