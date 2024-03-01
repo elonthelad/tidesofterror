@@ -280,18 +280,6 @@ spriteTypes = {
 	}	
 
 	spriteType = {
-		name = "GFX_topbar_background"
-		texturefile = "gfx//interface//topbar//background.dds"
-		transparencecheck = yes
-	}
-	
-	spriteType = {
-		name = "GFX_topbar_background_extended"
-		texturefile = "gfx//interface//topbar//background_extended.dds"
-		transparencecheck = yes
-	}
-
-	spriteType = {
 		name = "GFX_speed_step"
 		texturefile = "gfx//interface//topbar//speed_step.dds"
 		noOfFrames = 3
@@ -417,4 +405,19 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
 	
+	
+	#MODDED
+	
+
+	spriteType = {
+		name = "GFX_topbar_background"
+		texturefile = "gfx/interface/topbar/background_extended.dds"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_topbar_background_extended"
+		texturefile = "gfx/interface/topbar/background_extended.dds"
+		transparencecheck = yes
+	}
 }
