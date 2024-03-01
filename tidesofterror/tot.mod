@@ -1,4 +1,4 @@
-version="0.1"
+version="0.2"
 replace_path="common/abilities"
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
@@ -82,4 +82,5 @@ tags={
 	"Military"
 }
 name="tidesofterror"
-supported_version="1.13.6"
+supported_version="1.13.7"
+remote_file_id="3166077538"
