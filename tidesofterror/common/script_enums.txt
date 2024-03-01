@@ -283,23 +283,15 @@ script_enum_equipment_bonus_type = {
 
 	#Sea
 	convoy
-	destroyer
 	capital_ship
 	submarine
 	screen_ship
 	carrier
 	floating_harbor
+	light_cruiser
 	
 	convoy_1
 	
-	ship_hull_light
-	ship_hull_light_1
-	ship_hull_light_2
-	ship_hull_light_3
-	ship_hull_light_4
-	
-	destroyer_1
-	destroyer_2
-	destroyer_3
-	destroyer_4
+	ship_hull_shipoftheline
+	ship_hull_shipoftheline_1
 }

@@ -1131,6 +1131,13 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 		
+		iconType = {
+			name ="research_tab_divider2k"#For 2k Res
+			spriteType = "GFX_research_tab_divider_icon"
+			position = { x=0 y=975 }
+			alwaystransparent = yes
+		}
+		
 		containerWindowType = {
 			name = "folder_tabs"
 			position = { x=-6 y=57 }
@@ -1904,7 +1911,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=80 y=24 }
+			position = { x=17 y=20 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
 		}

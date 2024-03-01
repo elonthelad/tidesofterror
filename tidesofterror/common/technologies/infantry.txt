@@ -380,9 +380,6 @@ technologies = {
 			infantry_weapons2
 		}
 
-		xp_research_type = navy
-		xp_boost_cost = 50
-		xp_research_bonus = 1.50
 		research_cost = 2
 		start_year = 1870
 		folder = {

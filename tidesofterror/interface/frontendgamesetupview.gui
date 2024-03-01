@@ -1986,13 +1986,14 @@ guiTypes = {
 					fixedsize = yes
 				}
 
-				ButtonType = {
+				ButtonType = {#Yeeted
 					name = "scenario_button"
-					position = { x = -1135 y = 1115 }
+					position = { x = -9999 y = -9999 }
 					quadTextureSprite ="GFX_hold"
 					buttonText = ""
 					buttonFont = "hoi_20b"
 					clicksound = click_ok
+					hide = yes
 				}
 
 				# 1st BUTTON (BIG)
@@ -2041,7 +2042,7 @@ guiTypes = {
 			}
 
 
-			ButtonType = {
+			ButtonType = {#Yeeted
 				name = "interesting_countries_button"
 				position = { x = 1140 y = 1140 }
 				quadTextureSprite ="GFX_hold"
@@ -2050,9 +2051,10 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				clicksound = click_default
 				oversound = ui_menu_over
+				hide = yes
 			}
 
-			ButtonType = {
+			ButtonType = {#Yeeted
 				name = "randomize_country_button"
 				position = { x = 1140 y = 1175 }
 				quadTextureSprite ="GFX_hold"
@@ -2061,6 +2063,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				clicksound = click_default
 				oversound = ui_menu_over
+				hide = yes
 			}
 
 			ButtonType = {
