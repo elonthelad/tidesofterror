@@ -1,22 +1,22 @@
 spriteTypes = {
-
 	spriteType = {
 		name = "GFX_portrait_operative_unknown"
 		texturefile = "gfx/leaders/operative_unknown.dds"
 	}
-
 	spriteType = {
 		name = "GFX_portrait_unknown"
 		texturefile = "gfx/leaders/leader_unknown.dds"
 	}
-
 	spriteType = {
 		name = "GFX_portrait_unknown_female"
 		texturefile = "gfx/leaders/leader_unknown_female.dds"
 	}
 	
+	
 	#MODDED
 	
+	
+	#Large/Unit Leader
 	spriteType = {
 		name = "GFX_portrait_william_gladstone"
 		texturefile = "gfx/leaders/portrait_william_gladstone.png"
@@ -28,6 +28,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_prince_george"
 		texturefile = "gfx/leaders/portrait_prince_george.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_henry_pinkerton"
+		texturefile = "gfx/leaders/portrait_henry_pinkerton.png"
 	}
 
 	#Ideas
