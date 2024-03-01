@@ -18,6 +18,8 @@ yesman														#AI accepts all diplomacy offers
 event british.1												#Executes 'The Freight Crisis' country_event
 event british.2												#Executes 'SUPPLY LINES IN DISTRESS' news_event
 
+list_vars														#Shows all vars for current TAG
+
 debug_smooth											#Accelerates speed 5 CONSIDERABLY
 gui																#Shows gui bounds, dimensions, elements, gfx, and names
 debug_nogui												#Hides all interface
@@ -74,3 +76,20 @@ hidden_modifier = {
 	fuel_cost = 41.666666667
 }
 custom_modifier_tooltip = customtooltip_sanity_loss_1000
+
+
+
+#Unit_leader_event (Note of address) Without showing character in tooltip
+#Replace id with event you want to use
+hidden_effect = {
+	random_unit_leader = {
+		unit_leader_event = {
+			id = greathunger.1
+		}
+	}	
+}
+effect_tooltip = {
+	country_event = {
+		id = greathunger.1
+	}
+}

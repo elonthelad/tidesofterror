@@ -2,7 +2,7 @@
  
  ENG_parliament: "Great Britain" #default at game start
  ENG_autocracy: "British Empire" #gb gets this if monarchs get in power
- ENG_populist: "Unionist Britain" #wip
+ ENG_populist: "Farmer's Revolt" #wip
  ENG_arcane: "Dark Isles" #should be impossible to attain ingame? not sure on that yet
  ENG_DEF: "British"
  ENG_ADJ: "British"

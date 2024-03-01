@@ -428,7 +428,7 @@ guiTypes = {
 				position = { x = 45 y = 90 }
 				font = "vic_36"
 				borderSize = {x = 0 y = 0}
-				text = "Title text here!"	
+				text = "null"	
 				maxWidth = 450
 				maxHeight = 115
 				format = center
@@ -450,19 +450,32 @@ guiTypes = {
 			moveable = yes
 			clipping = no
 			Orientation = UPPER_LEFT
+			
+			containerWindowType = {#Yeeted
+				name = "leader_picture_container"
+				position = { x=0 y=0 }
+				size = { width = 0 height = 0 }
+				
+				buttonType = {
+					name = "leader"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_invis"#GFX_leader_unknown
+					hide = yes
+				}
+			}
 		
 			instantTextBoxType = {
 				name = "Description"
-				position = { x = 46 y = 16 }
+				position = { x = 54 y = 20 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "Long text here!"	
-				maxWidth = 460
-				maxHeight = 300
+				text = "null"
+				maxWidth = 440
+				maxHeight = 330
 				format = left
 				fixedsize = yes
 			}	
-		}			
+		}
 
 		containerWindowType = {
 			name = "bottom_Window"
@@ -482,6 +495,18 @@ guiTypes = {
 			}
 		}
 
+		containerWindowType = {
+			name = "bottom_window_end"
+			position = { x=0 y=0}
+			size = { width = 0 height = 0 }
+			moveable = yes
+			Orientation = UPPER_LEFT
+
+			background = {
+				name = "Background"	
+				spriteType ="GFX_invis"#GFX_event_report_bottom_win_end
+			}
+		}
 	}
 
 #Below is London News. In place of news_event
@@ -597,5 +622,4 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-
 }

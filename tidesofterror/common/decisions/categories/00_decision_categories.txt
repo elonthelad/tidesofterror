@@ -1,18 +1,25 @@
-political_actions = {
-	icon = generic_political_actions
-	
-	allowed = {
-		always = yes
-	}
-	
-	visible = {
-		always = yes
-	}
+#political_actions = {
+#	icon = generic_political_actions
+#	
+#	allowed = {
+#		always = yes
+#	}
+#	
+#	visible = {
+#		always = yes
+#	}
+#}
+
+ENG_great_hungercat = {
+	icon = GFX_decision_category_resources
+	priority = 2
+
+	scripted_gui = ENG_great_hunger_scripgui
 }
 
 commodity_management = {
 	icon = GFX_decision_category_resources
-	
+	priority = 30
 }
 
 ENG_fenian_decisioncat = {

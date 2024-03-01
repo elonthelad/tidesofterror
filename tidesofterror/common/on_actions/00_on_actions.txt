@@ -1,4 +1,61 @@
 on_actions = {
-    on_startup = {
-    }
+	
+	on_startup = {
+		effect = {
+			ENG = {
+				set_variable = { ENG_greathunger_hunger = random }
+				set_variable = { ENG_greathunger_disparitymax = 20 }
+			}
+		}
+	}
+	
+	on_daily_ENG = {
+		effect = {
+		
+			add_to_variable = { ENG_greathunger_hunger = 0.0002 }
+			multiply_variable = { ENG_greathunger_hunger = 1.0002 }
+			
+			clamp_variable = {
+				var = ENG_greathunger_hunger
+				min = 0
+				max = 100
+			}
+		
+		
+			#Starvation in the nation
+			random_owned_controlled_state = {
+				THIS = {
+					set_temp_variable = { ENG_scopedstatepop = state_population }
+				}
+				
+				
+				multiply_temp_variable = { ENG_scopedstatepop = ROOT.ENG_hungervalue60 }
+				multiply_temp_variable = { ENG_scopedstatepop = -1 }
+				add_manpower = ENG_scopedstatepop
+				multiply_temp_variable = { ENG_scopedstatepop = -1 }
+				ROOT = {
+					divide_temp_variable = { ENG_scopedstatepop = 1000000 }
+					add_to_variable = { ENG_greathunger_starved = ENG_scopedstatepop }
+				}
+			}
+			
+			
+			
+			set_variable = { ENG_greathunger_disparitymax = 20 }
+			set_temp_variable = { ENG_greathunger_disparitymaxmult = ENG_greathunger_hunger }
+			divide_temp_variable = { ENG_greathunger_disparitymaxmult = 1.35 }
+			multiply_variable = { ENG_greathunger_disparitymax = ENG_greathunger_disparitymaxmult }
+			round_variable = ENG_greathunger_disparitymax
+			
+			
+			set_variable = { ENG_hungervalue60 = ENG_greathunger_hunger }
+			multiply_variable = { ENG_hungervalue60 = 0.6 } 
+			
+			clamp_variable = {
+				var = ENG_greathunger_disparitymax
+				min = 20
+				max = 100
+			}
+		}
+	}
 }

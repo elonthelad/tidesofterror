@@ -1,0 +1,132 @@
+add_namespace = greathunger
+
+# Free Agri-Works Act
+unit_leader_event = {
+	id = greathunger.1
+	title = greathunger.1.t
+	desc = greathunger.1.d
+	
+	is_triggered_only = yes
+	
+	option = { #On reconsideration...
+		name = greathunger.1.a
+		ai_chance = {factor = 100}
+	}
+	
+	option = { #In fact, we can omit a change here or there...(Sign the Declaration)
+		name = greathunger.1.b
+		ai_chance = {factor = 100}
+	}
+	
+	option = { #I hereby sign this act. (Sign the Declaration)
+		name = greathunger.1.c
+		ai_chance = {factor = 100}
+	}
+}
+
+country_event = {
+	id = greathunger.2
+	title = greathunger.2.t
+	desc = greathunger.2.d
+	
+	is_triggered_only = yes
+	
+	picture = GFX_event_greathunger1
+	
+	option = { #.. We stand by them.
+		name = greathunger.2.a
+		ai_chance = {factor = 100}
+		custom_effect_tooltip = ENG_greathunger2_custom_a
+		hidden_effect = {
+			ENG = {
+				start_civil_war = {
+					ruling_party = populist
+					ideology = ROOT
+					states = all
+					states_filter = {
+						OR = {
+							region = 44
+							region = 61
+						}
+					}
+					army_ratio = 0.5
+					navy_ratio = 0
+					air_ratio = 0.4
+					keep_all_characters = no
+				
+			}
+		}
+	}
+	}
+	
+	option = { #If it's a war they desire...
+		name = greathunger.2.b
+		ai_chance = {factor = 100}
+		custom_effect_tooltip = ENG_greathunger2_custom_b
+		hidden_effect = {
+			ENG = {
+				start_civil_war = {
+					ideology = populist
+					states = all
+					states_filter = {
+						OR = {
+							region = 18
+							region = 19
+						}
+					}
+					army_ratio = 0.2
+					navy_ratio = 0
+					air_ratio = 0.05
+					keep_all_characters = yes
+					PREV = {
+						ENG_henry_pinkerton = {
+							set_nationality = PREV.PREV #Transfers to breakaway
+							add_country_leader_role = {
+								promote_leader = yes
+								country_leader = {
+									ideology = farmers_union
+									#traits = { x } Example for adding trait in the future
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = { #We can nay afford a civil war. We'll pass the damned Act.
+		name = greathunger.2.c
+		ai_chance = {factor = 100}
+		hidden_effect = {
+			random_unit_leader = {
+				unit_leader_event = {
+					id = greathunger.3
+				}
+			}	
+		}
+		effect_tooltip = {
+			country_event = {
+				id = greathunger.3
+			}
+		}
+	}
+}
+
+unit_leader_event = {
+	id = greathunger.3
+	title = greathunger.1.t
+	desc = greathunger.1.d
+	
+	is_triggered_only = yes
+	
+	option = { #In fact, we can omit a change here or there...(Sign the Declaration)
+		name = greathunger.1.b
+		ai_chance = {factor = 100}
+	}
+	
+	option = { #I hereby sign this act. (Sign the Declaration)
+		name = greathunger.1.c
+		ai_chance = {factor = 100}
+	}
+}

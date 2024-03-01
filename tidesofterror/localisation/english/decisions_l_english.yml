@@ -36,6 +36,10 @@
  decision_cost_1000_police: "£infantry_equipment_text_icon  §Y1000§!"
  decision_cost_1000_police_blocked: "£infantry_equipment_text_icon  §R1000§!"
  decision_cost_1000_police_tooltip: "It would cost £infantry_equipment_text_icon  §Y1000 Police Weapons§! and §Y1000 £manpower_texticon Manpower§! to enact this Decision."
+ 
+ decision_cost_1000_infantryweapons: "£infantry_equipment_text_icon  §Y1000§!"
+ decision_cost_1000_infantryweapons_blocked: "£infantry_equipment_text_icon  §R1000§!"
+ decision_cost_1000_infantryweapons_tooltip: "It would cost £infantry_equipment_text_icon  §Y1000 Infantry Weapons§! and §Y1000 £manpower_texticon Manpower§! to enact this Decision."
 
 #Fenian Decisions
  ENG_fenian_decisioncat: "Malcontents of Eire"
@@ -61,6 +65,49 @@
  
  ENG_second_fenian_plot: "Second Fenian Plot"
  ENG_second_fenian_plot_desc: "A new plot is, without a doubt, on its way. The effects could be demonstrably worse than the last, and word has spread that the irish plan to take arms on a regional scale this time. We need to do whatever we can to ensure this will not happen!"
+ 
+ #Great Hunger
+ ENG_great_hungercat: "The Great Hunger"
+ 
+ ENG_greathunger_agrarian_number: "Agrarianist Influence: [?ENG_greathunger_agrarian_influence]%§! [GetParanoiaWeeklyModifier]"
+ ENG_greathunger_industrial_number: "Industrialist Influence: [?ENG_greathunger_industrial_influence]%§! [GetParanoiaWeeklyModifier]"
+ 
+ ENG_greathunger_ag_control_text: "Primacy of the Agrarianists:\nMonthly Population: §G+[?ENG_greathunger_displayag_multi]%\n§RFactories may shut down§!"
+ ENG_greathunger_ag_control_tooltip: "Agrarianists hold the majority Influence, and their bonuses are scaled via their current influence, reducing when below 50%, and increasing when above."
+ ENG_greathunger_in_control_text: "Primacy of the Industrialists:\nPrivate Factories: §Y+[?ENG_greathunger_displayin_consumer_multi]%\n§!Factory Output: §G+[?ENG_greathunger_displayin_multi]%"
+ ENG_greathunger_in_control_tooltip: "Industrialists hold the majority Influence, and their bonuses are scaled via their current influence, reducing when below 50%, and increasing when above."
+ 
+ ENG_greathunger_deathtoll: "Perished:\n§R[?ENG_greathunger_starved]M"
+ ENG_greathunger_fake_perished_text_tooltip: "Don't delay; Act now- §REvery day§! more will starve. It will only get worse as §YHunger§! increases. "
+ ENG_greathunger_hungryhippos: "Hunger:\n§R[?ENG_greathunger_hunger]%"
+ 
+ ENG_greathunger_disparity_warning_text: "§RDisparity at [?ENG_greathunger_current_disparity]%! Stability returns when it reaches below [?ENG_greathunger_disparitymax]%.§!"
+ ENG_greathunger_disparity_warning_tooltip: "Discrepancy between either party is §Rtoo high§!. It will have severe consequences until the difference goes below the maximum allowed amount.\n\nThe maximum disparity is determined by Hunger. The higher the Hunger, the greater the difference allowed is."
+ 
+ ENG_greathunger_balanced_influence_text: "The Balance is equal;\nNo bonuses active."
+ ENG_greathunger_balanced_influence_tooltip: "Increase §YInfluence§! in either party to begin receiving bonuses once again."
+ 
+ customtooltip_engagrarianriseup1: "Agrarianists have §Yless than [?ENG_greathunger_disparitymax]%§! Influence over the Industrialists"
+ customtooltip_engagrarianriseup2: "Agrarianists have §Ymore than [?ENG_greathunger_disparitymax]%§! Influence over the Industrialists"
+ 
+ 
+ ENG_greathunger_agrarianriseup: "Farmer's Revolt"
+ ENG_greathunger_agrarian_sign_act: "Sign the Free Agri-Works Act"
+ ENG_greathunger_agrarian_sign_act_desc: "Proposed by the Agrarianists heavily since the first instances of starvation began. The act would see our military and new development capabilities outright crippled, due to allowing farmers to buyout their own land directly and entirely."
+ 
+ ENG_subsidise_farmworks: "Subsidise Farmworks"
+ customtooltip_engsubsidisefarmworks: "§YAgrarian§! Influence §Gincreases§! by §Y5§!"
+ 
+ 
+ ENG_reopen_farmequipment_industry: "Re-open Farm Equipment Industry"
+ customtooltip_engreopen_farmequipment_industry: "§YAgrarian§! Influence §Gincreases§! by §Y3§!\n§YIndustrialist§! Influence §Gincreases§! by §Y3§!\n"
+ 
+ ENG_shutdown_textile_mills: "Shutdown Textile Mills"
+ customtooltip_engshutdown_textile_mills: "§YAgrarian§! Influence §Gincreases§! by §Y2§!\n§YIndustrialist§! Influence §Rdecreases§! by §Y10§!\n"
+ customtooltip_onlyonce: "§RCan only be done once.§!"
+ 
+ ENG_raid_homes_for_supplies: "Raid Homes for Supplies"
+ customtooltip_raid_homes_for_supplies: "Reduces §YHunger§! by §Y60%§! of it's current value.\nEffective change: §R-[?ENG_hungervalue60]%§!\n"
  
  #Resource Decisions
  commodity_management: "Commodity Management"

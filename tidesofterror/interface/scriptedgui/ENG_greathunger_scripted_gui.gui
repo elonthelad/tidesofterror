@@ -1,0 +1,143 @@
+guiTypes = {
+	containerWindowType = {
+		name = "ENG_greathunger_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 267 }
+
+		iconType = {#Background
+			name ="greathunger_main_bg"
+			spriteType = "GFX_ENG_greathunger_bg"
+			position = { x = -5 y = -21 }
+		}
+		iconType = {#Skele Bg
+			name ="greathunger_bg1"
+			spriteType = "GFX_ENG_greathunger_bg1"
+			position = { x = 207 y = 200 }
+		}
+		instantTextBoxType = {#Death Toll
+			name ="greathunger_deathtoll"
+			position = { x = 270 y = 212 }
+			font = "hoi_16mbs"
+			text = "ENG_greathunger_deathtoll"
+			format = left
+			maxWidth = 400
+		}
+		instantTextBoxType = {#Fake textbox for Perished
+			name ="greathunger_fake_perished_text"
+			position = { x = 210 y = 198 }
+			font = "hoi_16mbs"
+			text = ""
+			format = left
+			maxWidth = 127
+			maxHeight = 64
+			pdx_tooltip = ENG_greathunger_fake_perished_text_tooltip
+		}
+		
+		instantTextBoxType = {#Hunger Number
+			name ="greathunger_hungryhippos"
+			position = { x = 353 y = 212 }
+			font = "hoi_16mbs"
+			text = "ENG_greathunger_hungryhippos"
+			format = right
+			maxWidth = 50
+		}
+		
+		
+		#Agrarianists
+		iconType = {#Agrarian Bar
+			name ="greathunger_agrarian_meter"
+			spriteType = "GFX_greathunger_newbar"
+			position = { x = 53 y = 46 }
+		}
+		iconType = {#Underline
+			name ="greathunger_ag_underline"
+			spriteType = "GFX_ENG_greathunger_underline"
+			position = { x = 38 y = 38 }
+		}
+		instantTextBoxType = {#Agrarian Amount
+			name ="greathunger_agrarian_number"
+			position = { x = 112 y = 25 }
+			font = "hoi_16mbs"
+			text = "ENG_greathunger_agrarian_number"
+			format = left
+			maxWidth = 400
+			maxHeight = 23
+		}
+		iconType = {#Agrarian Icon
+			name ="greathunger_ag_icon"
+			spriteType = "GFX_ENG_greathunger_agrariant_icon"
+			position = { x = 27 y = -7 }
+		}
+
+
+		#Industrialists
+		iconType = {#Industrial Bar
+			name ="greathunger_industrial_meter"
+			spriteType = "GFX_greathunger_newbar"
+			position = { x = 53 y = 151 }
+		}
+		iconType = {#Underline
+			name ="greathunger_in_underline"
+			spriteType = "GFX_ENG_greathunger_underline"
+			position = { x = 38 y = 143 }
+		}
+		instantTextBoxType = {#Industrial Amount
+			name ="greathunger_industrial_number"
+			position = { x = 112 y = 130 }
+			font = "hoi_16mbs"
+			text = "ENG_greathunger_industrial_number"
+			format = left
+			maxWidth = 400
+			maxHeight = 23
+		}
+		iconType = {#Industrial Icon
+			name ="greathunger_in_icon"
+			spriteType = "GFX_ENG_greathunger_industrialist_icon"
+			position = { x = 27 y = 95 }
+		}
+		
+		instantTextBoxType = {#Agrarians in Power
+			name ="greathunger_ag_control_text"
+			position = { x = 30 y = 198 }
+			font = "hoi_16mbs"
+			text = "ENG_greathunger_ag_control_text"
+			format = left
+			maxWidth = 190
+			maxHeight = 50
+			pdx_tooltip = ENG_greathunger_ag_control_tooltip
+		}
+		instantTextBoxType = {#Industrialists in Power
+			name ="greathunger_in_control_text"
+			position = { x = 30 y = 198 }
+			font = "hoi_16mbs"
+			text = "ENG_greathunger_in_control_text"
+			format = left
+			maxWidth = 190
+			maxHeight = 50
+			pdx_tooltip = ENG_greathunger_in_control_tooltip
+		}
+		instantTextBoxType = {#Balanced Influence, no one in power
+			name ="greathunger_balanced_influence_text"
+			position = { x = 30 y = 208 }
+			font = "hoi_16mbs"
+			text = "ENG_greathunger_balanced_influence_text"
+			format = left
+			maxWidth = 120
+			maxHeight = 46
+			pdx_tooltip = ENG_greathunger_balanced_influence_tooltip
+		}
+		
+		
+		instantTextBoxType = {#Disparity Warning
+			name ="greathunger_disparity_warning_text"
+			position = { x = 50 y = 87 }
+			font = "hoi_16mbs"
+			text = "ENG_greathunger_disparity_warning_text"
+			format = center
+			maxWidth = 390
+			maxHeight = 20
+			pdx_tooltip = ENG_greathunger_disparity_warning_tooltip
+		}
+		
+	}
+}

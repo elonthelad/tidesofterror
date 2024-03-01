@@ -1,0 +1,51 @@
+scripted_gui = {
+
+	ENG_great_hunger_scripgui = {
+		context_type = decision_category
+		window_name = "ENG_greathunger_ui_window"
+	
+		#Show 'Primacy of Agrarianists' if they have more influence than Industrialists
+		triggers = {
+			greathunger_ag_control_text_visible = {
+				#Don't show if both are equals
+				NOT = {
+					check_variable = { ENG_greathunger_industrial_influence = ENG_greathunger_agrarian_influence }
+				}
+				check_variable = { ENG_greathunger_industrial_influence < ENG_greathunger_agrarian_influence }
+			}
+		}
+		
+		#Show 'Primacy of Industrialists' if they have more influence than Agrarianists
+		triggers = {
+			greathunger_in_control_text_visible = {
+				#Don't show if both are equals
+				NOT = {
+					check_variable = { ENG_greathunger_industrial_influence = ENG_greathunger_agrarian_influence }
+				}
+				check_variable = { ENG_greathunger_industrial_influence > ENG_greathunger_agrarian_influence }
+			}
+		}
+		
+		triggers = {
+			greathunger_disparity_warning_text_visible = {
+				check_variable = { ENG_greathunger_current_disparity > ENG_greathunger_disparitymax }
+			}
+		}
+		
+		triggers = {
+			greathunger_balanced_influence_text_visible = {
+				check_variable = { ENG_greathunger_industrial_influence = ENG_greathunger_agrarian_influence }
+			}
+		}
+
+		properties = {
+			#Keeps bars up-to-date with their respective values
+			greathunger_agrarian_meter = {
+				frame = ENG_greathunger_agrarian_influence
+			}
+			greathunger_industrial_meter = {
+				frame = ENG_greathunger_industrial_influence
+			}
+		}
+	}
+}

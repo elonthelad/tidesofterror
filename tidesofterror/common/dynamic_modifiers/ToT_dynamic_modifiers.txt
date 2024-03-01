@@ -1,0 +1,13 @@
+ENG_greathunger_ag_control = {
+	enable = { always = yes }
+	monthly_population = ENG_greathunger_ag_multi
+}
+
+ENG_greathunger_in_control = {
+	enable = { always = yes }
+	
+	consumer_goods_factor = ENG_greathunger_in_consumer_multi
+	industrial_capacity_factory = ENG_greathunger_in_multi
+	industrial_capacity_dockyard = ENG_greathunger_in_multi
+	production_speed_buildings_factor = ENG_greathunger_in_multi
+}

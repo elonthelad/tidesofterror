@@ -1,0 +1,38 @@
+spriteTypes = {
+	#Bg
+	spriteType = {
+		name = "GFX_ENG_greathunger_bg"
+		texturefile = "gfx/interface/scripted_gui/great_hunger_bg.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ENG_greathunger_bg1"
+		texturefile = "gfx/interface/scripted_gui/great_hunger_bg2.png"
+		legacy_lazy_load = no
+	}
+	
+	#Bars
+	progressbartype = {
+		name = "GFX_greathunger_newbar"
+		textureFile1 = "gfx/interface/scripted_gui/barrrrr1.png"
+		textureFile2 = "gfx/interface/scripted_gui/barrrrr2.png"
+		size = { x = 405 y = 7 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+		steps = 100
+	}
+	
+	#Icons
+	spriteType = {
+		name = "GFX_ENG_greathunger_agrariant_icon"
+		texturefile = "gfx/interface/scripted_gui/great_hunger_agrarianist.png"
+	}
+	spriteType = {
+		name = "GFX_ENG_greathunger_industrialist_icon"
+		texturefile = "gfx/interface/scripted_gui/great_hunger_industrialist.png"
+	}
+	spriteType = {
+		name = "GFX_ENG_greathunger_underline"
+		texturefile = "gfx/interface/scripted_gui/greathunger_underline.png"
+	}
+}

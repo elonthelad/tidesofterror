@@ -1,0 +1,140 @@
+ENG_greathunger_agrarian_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = ENG_greathunger_agrarian_influence
+		min = 0
+		max = 100
+	}
+	ENG_greathunger_which_is_higher = yes
+}
+
+ENG_greathunger_industrial_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = ENG_greathunger_industrial_influence
+		min = 0
+		max = 100
+	}
+	ENG_greathunger_which_is_higher = yes
+}
+
+ENG_greathunger_which_is_higher = {
+	if = {#Agrarian is Larger
+		limit = {
+			check_variable = { ENG_greathunger_industrial_influence < ENG_greathunger_agrarian_influence }
+		}
+		#Add hidden dynamic idea for agrarian
+		ENG = {
+			set_variable = { ENG_greathunger_ag_multi = 0.02 }
+			multiply_variable = { ENG_greathunger_ag_multi = ENG_greathunger_agrarian_influence }
+			multiply_variable = { ENG_greathunger_ag_multi = 0.15 }
+			
+			#'display' is for the loc, otherwise it would look two digits too small
+			set_variable = { ENG_greathunger_displayag_multi = 100 }
+			multiply_variable = { ENG_greathunger_displayag_multi = ENG_greathunger_ag_multi }
+			
+			if = {#If we have bonus from industrialists, remove
+				limit = {
+					has_dynamic_modifier = {
+						modifier = ENG_greathunger_in_control
+						scope = PREV
+					}
+				}
+				remove_dynamic_modifier = {
+					modifier = ENG_greathunger_in_control
+				}
+			}
+			#Add agrarianists bonus always
+			add_dynamic_modifier = {
+				modifier = ENG_greathunger_ag_control
+			}
+		}
+	
+		#Set disparity
+		set_temp_variable = { ENG_greathunger_ag_compare = ENG_greathunger_agrarian_influence }
+		set_temp_variable = { ENG_greathunger_in_compare = ENG_greathunger_industrial_influence }
+		
+		subtract_from_temp_variable = { ENG_greathunger_ag_compare = ENG_greathunger_in_compare }
+		
+		set_variable = { ENG_greathunger_current_disparity = ENG_greathunger_ag_compare }
+	
+	}
+	else_if = {#Industrial is Larger
+		limit = {
+			check_variable = { ENG_greathunger_agrarian_influence < ENG_greathunger_industrial_influence }
+		}
+		#Add hidden dynamic idea for industrial
+		ENG = {
+			set_variable = { ENG_greathunger_in_multi = 0.02 }
+			multiply_variable = { ENG_greathunger_in_multi = ENG_greathunger_industrial_influence }
+			multiply_variable = { ENG_greathunger_in_multi = 0.10 }
+			
+			#'display' is for the loc, otherwise it would look two digits too small
+			set_variable = { ENG_greathunger_displayin_multi = 100 }
+			multiply_variable = { ENG_greathunger_displayin_multi = ENG_greathunger_in_multi }
+			
+			#Seperate one for private factories
+			set_variable = { ENG_greathunger_in_consumer_multi = 0.02 }
+			multiply_variable = { ENG_greathunger_in_consumer_multi = ENG_greathunger_industrial_influence }
+			multiply_variable = { ENG_greathunger_in_consumer_multi = 0.15 }
+			
+			#'display' is for the loc, otherwise it would look two digits too small
+			set_variable = { ENG_greathunger_displayin_consumer_multi = 100 }
+			multiply_variable = { ENG_greathunger_displayin_consumer_multi = ENG_greathunger_in_consumer_multi }
+			
+			if = {#If we have bonus from agrarianists, remove
+				limit = {
+					has_dynamic_modifier = {
+						modifier = ENG_greathunger_ag_control
+						scope = PREV
+					}
+				}
+				remove_dynamic_modifier = {
+					modifier = ENG_greathunger_ag_control
+				}
+			}
+			#Add industrialists bonus always
+			add_dynamic_modifier = {
+				modifier = ENG_greathunger_in_control
+			}
+		}
+		
+		#Set disparity
+		set_temp_variable = { ENG_greathunger_ag_compare = ENG_greathunger_agrarian_influence }
+		set_temp_variable = { ENG_greathunger_in_compare = ENG_greathunger_industrial_influence }
+		
+		subtract_from_temp_variable = { ENG_greathunger_in_compare = ENG_greathunger_ag_compare }
+		
+		set_variable = { ENG_greathunger_current_disparity = ENG_greathunger_in_compare }
+		
+	}
+	else_if = {#Identical
+		limit = {
+			check_variable = { ENG_greathunger_agrarian_influence = ENG_greathunger_industrial_influence }
+		}
+		ENG = {#Clear both modifiers since theres balance
+			if = {#If we have bonus from industrialists, remove
+				limit = {
+					has_dynamic_modifier = {
+						modifier = ENG_greathunger_in_control
+						scope = PREV
+					}
+				}
+				remove_dynamic_modifier = {
+					modifier = ENG_greathunger_in_control
+				}
+			}
+			else_if = {#If we have bonus from agrarianists, remove
+				limit = {
+					has_dynamic_modifier = {
+						modifier = ENG_greathunger_ag_control
+						scope = PREV
+					}
+				}
+				remove_dynamic_modifier = {
+					modifier = ENG_greathunger_ag_control
+				}
+			}
+		}
+		#Disparity is 0 since both parties are equals
+		set_variable = { ENG_greathunger_current_disparity = 0 }
+	}
+}

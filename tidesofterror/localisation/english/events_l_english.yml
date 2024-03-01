@@ -59,3 +59,19 @@
  fenian.1.t: "Diplomatic Faux Pas"
  
  fenian.3.t: "[target_state.GetName] Backs Down"
+ 
+ greathunger.1.t: "Free Agri-Works Act [GetYear]"
+ greathunger.1.d: "Upon [?global.date.GetDateStringNoHour], we declare the Free Agri-Works Act [GetYear] under the party of the Right Honorable [ENG.GetLeader].\nThere shall be established a fund known as the Free Agri-Works Fund. The Fund shall be administered by the Ministry of Agriculture, Fisheries and Food, henceforth under the oversight of Her Majesty's Government.\n\nThe primary objective of the Fund shall be to promot agricultural innovation and productivity. Industries that are not in the purpose of progressing productivity among such prospects may have their shares sold to bolster the Fund.\n\nThe policy may be altered within 16 months."
+ greathunger.1.c: "I hereby sign this act.\n(Sign the Declaration)"
+ greathunger.1.b: "In fact, we can omit a change here or there...\n(Sign the Declaration)"
+ greathunger.1.a: "On reconsideration..."
+ 
+ 
+ 
+ greathunger.2.t: "Breaking Point"
+ greathunger.2.d: "Farmers far and wide have formally centralised their efforts to push for the sanctity of their craft. Two major pockets of resistance have formed, one down near the fertile lands of §YNorfolk§!, and another around the hilly landscape of §YWales§! livestock farmers have gathered.\n\nThey have, for a while now, claimed our behaviour towards the great disaster as 'Human injustices' and revolutionary sentiment has spread far and wide. They have demonstrated today that the Agri-Works Act must be passed, or the situation will surely come to more than just blows.\n\nOr, perhaps we could allow them the representation they demand by overhauling our economic stance to the §YFree Agri-Works Act§!. But such an idea would be preposterous- Won't someone think of the profits!?"
+ greathunger.2.c: "We can nay afford a civil war.\nWe'll pass the damned Act."
+ greathunger.2.b: "If it's a war they desire..."
+ greathunger.2.a: "..We stand by them."
+ ENG_greathunger2_custom_a: "§YPlay as the Farmer's Union.§!"
+ ENG_greathunger2_custom_b: "The §YFarmer's Union§! will revolt. If they take London, we will surrender and be restriced to §YAgrarian Control§! Policy."

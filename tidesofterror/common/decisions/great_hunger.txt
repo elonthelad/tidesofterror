@@ -1,0 +1,320 @@
+ENG_great_hungercat = {
+
+	ENG_greathunger_agrarianriseup = {
+	
+		icon = rise_up
+	
+		activation = {
+			ENG = {
+				AND = {
+					check_variable = { ENG_greathunger_current_disparity > ENG_greathunger_disparitymax }
+					check_variable = { ENG_greathunger_industrial_influence < ENG_greathunger_agrarian_influence }
+				}
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = customtooltip_engagrarianriseup1
+				ENG = {
+					NOT = {
+						AND = {
+							check_variable = { ENG_greathunger_current_disparity > ENG_greathunger_disparitymax }
+							check_variable = { ENG_greathunger_industrial_influence < ENG_greathunger_agrarian_influence }
+						}
+					}
+				}
+			}
+		}
+		
+		cancel_trigger = {
+			hidden_trigger = {
+				ENG = {
+					OR = {
+						check_variable = { ENG_greathunger_industrial_influence > ENG_greathunger_agrarian_influence }
+						check_variable = { ENG_greathunger_current_disparity < ENG_greathunger_disparitymax }
+						check_variable = { ENG_greathunger_current_disparity = ENG_greathunger_disparitymax }
+					}
+				}
+			}
+		}
+		
+		is_good = yes
+		
+		fire_only_once = no
+		
+		icon = mission_icon
+		
+		days_mission_timeout = 30
+		
+		timeout_effect = {
+			add_stability = -0.15
+			country_event = {
+				id = greathunger.2
+			}
+		}
+	}
+	
+	ENG_greathunger_agrarian_sign_act = {
+	
+		activation = {
+			ENG = {
+				AND = {
+					check_variable = { ENG_greathunger_current_disparity > ENG_greathunger_disparitymax }
+					check_variable = { ENG_greathunger_industrial_influence < ENG_greathunger_agrarian_influence }
+				}
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = customtooltip_engagrarianriseup2
+				ENG = {
+					AND = {
+						check_variable = { ENG_greathunger_current_disparity > ENG_greathunger_disparitymax }
+						check_variable = { ENG_greathunger_industrial_influence < ENG_greathunger_agrarian_influence }
+					}
+				}
+			}
+		}
+		
+		is_good = yes
+
+		fire_only_once = no
+		
+		complete_effect = {
+			hidden_effect = {
+				random_unit_leader = {
+					unit_leader_event = {
+						id = greathunger.1
+					}
+				}	
+			}
+			effect_tooltip = {
+				country_event = {
+					id = greathunger.1
+				}
+			}
+			add_stability = 0.1
+		}
+	}
+	
+	ENG_subsidise_farmworks = {
+
+		icon = fund
+		
+		custom_cost_trigger = {
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		custom_cost_text = decision_cost_civ_factory_5
+		
+		is_good = yes
+
+		fire_only_once = no
+
+		days_remove = 2
+		modifier = {
+			civilian_factory_use = 10
+		}
+		
+		remove_effect = {
+		custom_effect_tooltip = customtooltip_engsubsidisefarmworks
+			hidden_effect = {
+				add_to_variable = { ENG_greathunger_agrarian_influence = 5 }
+				ENG_greathunger_agrarian_clamp_and_update_ui_effect = yes
+			}
+			add_stability = 0.08
+		}
+	}
+	
+	ENG_reopen_farmequipment_industry = {
+
+		icon = GFX_decision_steel
+
+		fire_only_once = no
+
+		cost = 30
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 5
+		}
+		
+		complete_effect = {
+		custom_effect_tooltip = customtooltip_engreopen_farmequipment_industry
+			hidden_effect = {
+				add_to_variable = { ENG_greathunger_agrarian_influence = 3 }
+				add_to_variable = { ENG_greathunger_industrial_influence = 3 }
+				ENG_greathunger_agrarian_clamp_and_update_ui_effect = yes
+			}
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+	ENG_shutdown_textile_mills = {
+	
+		icon = GFX_decision_steel
+	
+		fire_only_once = yes
+	
+		cost = 30
+		days_remove = 180
+	
+		modifier = {
+			industrial_capacity_factory = -0.1
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+		
+		complete_effect = {
+		custom_effect_tooltip = customtooltip_onlyonce
+		custom_effect_tooltip = customtooltip_engshutdown_textile_mills
+			hidden_effect = {
+				add_to_variable = { ENG_greathunger_agrarian_influence = 2 }
+				subtract_from_variable = { ENG_greathunger_industrial_influence = 10 }
+				ENG_greathunger_agrarian_clamp_and_update_ui_effect = yes
+			}
+		}
+	}
+	
+	ENG_increase_agri_4 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			add_to_variable = { ENG_greathunger_agrarian_influence = 4 }
+			ENG_greathunger_agrarian_clamp_and_update_ui_effect = yes
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_reduce_agri_4 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			subtract_from_variable = { ENG_greathunger_agrarian_influence = 4 }
+			ENG_greathunger_agrarian_clamp_and_update_ui_effect = yes
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+	ENG_increase_indu_4 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			add_to_variable = { ENG_greathunger_industrial_influence = 4 }
+			ENG_greathunger_industrial_clamp_and_update_ui_effect = yes
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_reduce_indu_4 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			subtract_from_variable = { ENG_greathunger_industrial_influence = 4 }
+			ENG_greathunger_industrial_clamp_and_update_ui_effect = yes
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_increase_agri_40 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			add_to_variable = { ENG_greathunger_agrarian_influence = 40 }
+			ENG_greathunger_agrarian_clamp_and_update_ui_effect = yes
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_decrease_agri_40 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			subtract_from_variable = { ENG_greathunger_agrarian_influence = 40 }
+			ENG_greathunger_agrarian_clamp_and_update_ui_effect = yes
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_increase_indu_40 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			add_to_variable = { ENG_greathunger_industrial_influence = 40 }
+			ENG_greathunger_industrial_clamp_and_update_ui_effect = yes
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_reduce_indu_40 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			subtract_from_variable = { ENG_greathunger_industrial_influence = 40 }
+			ENG_greathunger_industrial_clamp_and_update_ui_effect = yes
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+	ENG_raid_homes_for_supplies = {
+	
+		icon = GFX_decision_steel
+		
+		custom_cost_trigger = {
+			has_equipment = {
+				infantry_weapons > 999
+			}
+			has_manpower > 999
+		}
+		custom_cost_text = decision_cost_1000_infantryweapons
+		
+		complete_effect = {
+		custom_effect_tooltip = customtooltip_raid_homes_for_supplies
+			hidden_effect = {
+				add_equipment_to_stockpile = { 
+					type = infantry_weapons
+					amount = -1000
+				}
+				add_manpower = -1000
+				
+				subtract_from_variable = { ENG_greathunger_hunger = ENG_hungervalue60 }
+			}
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+}
