@@ -1,18 +1,16 @@
-#political_actions = {
-#	icon = generic_political_actions
-#	
-#	allowed = {
-#		always = yes
-#	}
-#	
-#	visible = {
-#		always = yes
-#	}
-#}
+ENG_debuggy = {
+	icon = GFX_decision_category_resources
+	priority = 999
+	
+	visible = {
+		is_debug = yes
+		is_ai = no
+	}
+}
 
 ENG_great_hungercat = {
 	icon = GFX_decision_category_resources
-	priority = 2
+	priority = 31
 
 	scripted_gui = ENG_great_hunger_scripgui
 }
@@ -54,7 +52,6 @@ ENG_fenian_decisioncat = {
 		ENG = { has_idea = ENGIDEA_fenian_remnants }
 	}
 }
-
 
 governments_in_exile = {
 	

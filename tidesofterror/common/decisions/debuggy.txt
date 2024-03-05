@@ -1,0 +1,229 @@
+ENG_debuggy = {
+	
+	ENG_increase_agri_4 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			add_to_variable = { ENG_greathunger_agrarian_influence = 4 }
+			ENG_greathunger_clamp_and_update_ui_effect = yes
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_reduce_agri_4 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			subtract_from_variable = { ENG_greathunger_agrarian_influence = 4 }
+			ENG_greathunger_clamp_and_update_ui_effect = yes
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+	ENG_increase_indu_4 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			add_to_variable = { ENG_greathunger_industrial_influence = 4 }
+			ENG_greathunger_clamp_and_update_ui_effect = yes
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_reduce_indu_4 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			subtract_from_variable = { ENG_greathunger_industrial_influence = 4 }
+			ENG_greathunger_clamp_and_update_ui_effect = yes
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_increase_agri_40 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			add_to_variable = { ENG_greathunger_agrarian_influence = 40 }
+			ENG_greathunger_clamp_and_update_ui_effect = yes
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_decrease_agri_40 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			subtract_from_variable = { ENG_greathunger_agrarian_influence = 40 }
+			ENG_greathunger_clamp_and_update_ui_effect = yes
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_increase_indu_40 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			add_to_variable = { ENG_greathunger_industrial_influence = 40 }
+			ENG_greathunger_clamp_and_update_ui_effect = yes
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_reduce_indu_40 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			subtract_from_variable = { ENG_greathunger_industrial_influence = 40 }
+			ENG_greathunger_clamp_and_update_ui_effect = yes
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_kill = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+		
+			for_loop_effect = {
+				end = ENG_greathunger_hunger111#Run as many times as the hunger icon has levelled up
+				random_owned_controlled_state = {
+					limit = {
+						state_population > 1
+					}
+					set_temp_variable = { ENG_scaledgreathunger_hunger = ROOT.ENG_greathunger_hunger }
+					multiply_temp_variable = { ENG_scaledgreathunger_hunger = 0.3 }
+					
+					set_temp_variable = { ENG_scopedstatepop = THIS.state_population }
+					multiply_temp_variable = { ENG_scopedstatepop = ENG_scaledgreathunger_hunger }
+					multiply_temp_variable = { ENG_scopedstatepop = -1 }
+					add_manpower = ENG_scopedstatepop
+					multiply_temp_variable = { ENG_scopedstatepop = -1 }
+					ROOT = {
+						divide_temp_variable = { ENG_scopedstatepop = 1000000 }#for displaying in millions. Using variable |* causes overflow
+						add_to_variable = { ENG_greathunger_starved = ENG_scopedstatepop }#ENG_greathunger_starved is on the gui eg 0.512M
+					}
+				}
+			}
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_resethungy_to_0.1 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			set_variable = { ENG_greathunger_hunger = 0.1 }
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_resethungy_to_2.3 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			set_variable = { ENG_greathunger_hunger = 2.3 }
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_resethungy_to_4.3 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			set_variable = { ENG_greathunger_hunger = 4.3 }
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_resethungy_to_5.5 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			set_variable = { ENG_greathunger_hunger = 5.5 }
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_resethungy_to_1 = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			set_variable = { ENG_greathunger_hunger = 1 }
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+	ENG_state_eventy = {
+	
+		icon = GFX_decision_steel
+		
+		complete_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					AND = {
+						check_variable = {
+							industrial_complex_level > 0
+						}
+						check_variable = {
+							resource@steel > 0
+						}
+					}
+				}
+				ENG = {
+					set_variable = { greathunger4_state_ident = PREV }
+				}
+			}
+			country_event = {
+				id = greathunger.4
+			}
+		}
+	
+		ai_will_do = {
+			base = 1
+		}
+	}
+}

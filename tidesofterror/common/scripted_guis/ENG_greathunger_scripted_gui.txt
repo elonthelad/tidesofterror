@@ -37,6 +37,23 @@ scripted_gui = {
 				check_variable = { ENG_greathunger_industrial_influence = ENG_greathunger_agrarian_influence }
 			}
 		}
+		
+		#Hunger Levels Tooltips
+		triggers = {
+			greathunger_fake_hungerl1_text_visible = {
+				check_variable = { ENG_greathunger_hunger < 2.5 }
+			}
+		}
+		triggers = {
+			greathunger_fake_hungerl2_text_visible = {
+				check_variable = { ENG_greathunger_hunger > 2.499 }
+			}
+		}
+		triggers = {
+			greathunger_fake_hungerl3_text_visible = {
+				check_variable = { ENG_greathunger_hunger > 4.999 }
+			}
+		}
 
 		properties = {
 			#Keeps bars up-to-date with their respective values
@@ -45,6 +62,9 @@ scripted_gui = {
 			}
 			greathunger_industrial_meter = {
 				frame = ENG_greathunger_industrial_influence
+			}
+			greathunger_hungy = {
+				frame = ENG_greathunger_hunger_stage
 			}
 		}
 	}

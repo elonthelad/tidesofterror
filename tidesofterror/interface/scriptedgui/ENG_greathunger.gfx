@@ -6,9 +6,10 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ENG_greathunger_bg1"
-		texturefile = "gfx/interface/scripted_gui/great_hunger_bg2.png"
+		name = "GFX_ENG_greathunger_hungy"
+		texturefile = "gfx/interface/scripted_gui/great_hunger_hungy.png"
 		legacy_lazy_load = no
+		noOfFrames = 3
 	}
 	
 	#Bars
@@ -30,9 +31,5 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ENG_greathunger_industrialist_icon"
 		texturefile = "gfx/interface/scripted_gui/great_hunger_industrialist.png"
-	}
-	spriteType = {
-		name = "GFX_ENG_greathunger_underline"
-		texturefile = "gfx/interface/scripted_gui/greathunger_underline.png"
 	}
 }

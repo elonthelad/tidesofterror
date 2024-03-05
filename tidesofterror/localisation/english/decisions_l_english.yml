@@ -33,6 +33,10 @@
  decision_cost_civ_factory_5_blocked: "£civ_factory  §R5§!"
  decision_cost_civ_factory_5_tooltip: "It costs £civ_factory  §Y5§! while this decision is active"
  
+ decision_cost_civ_factory_10: "£civ_factory  §Y10§!"
+ decision_cost_civ_factory_10_blocked: "£civ_factory  §R10§!"
+ decision_cost_civ_factory_10_tooltip: "It costs £civ_factory  §Y10§! while this decision is active"
+ 
  decision_cost_1000_police: "£infantry_equipment_text_icon  §Y1000§!"
  decision_cost_1000_police_blocked: "£infantry_equipment_text_icon  §R1000§!"
  decision_cost_1000_police_tooltip: "It would cost £infantry_equipment_text_icon  §Y1000 Police Weapons§! and §Y1000 £manpower_texticon Manpower§! to enact this Decision."
@@ -66,6 +70,10 @@
  ENG_second_fenian_plot: "Second Fenian Plot"
  ENG_second_fenian_plot_desc: "A new plot is, without a doubt, on its way. The effects could be demonstrably worse than the last, and word has spread that the irish plan to take arms on a regional scale this time. We need to do whatever we can to ensure this will not happen!"
  
+ 
+ 
+ 
+ 
  #Great Hunger
  ENG_great_hungercat: "The Great Hunger"
  
@@ -80,6 +88,9 @@
  ENG_greathunger_deathtoll: "Perished:\n§R[?ENG_greathunger_starved]M"
  ENG_greathunger_fake_perished_text_tooltip: "Don't delay; Act now- §REvery day§! more will starve. It will only get worse as §YHunger§! increases. "
  ENG_greathunger_hungryhippos: "Hunger:\n§R[?ENG_greathunger_hunger]%"
+ ENG_greathunger_fake_hungerl1_text_tooltip: "§LHunger represents what portion of the population are going without food.§!\n------------\nEvery day, §YHunger§! will increase §Yexponentially§!. The higher it already is, the greater the increase. §YHunger§! affects how many §Rperish§! a day. §YHunger§! also affects how high the §Ydisparity§! can be between the two parties without causing havoc.\n\nCurrent §YHunger§! levels are §GLow.§!"
+ ENG_greathunger_fake_hungerl2_text_tooltip: "§LHunger represents what portion of the population are going without food.§!\n------------\nEvery day, §YHunger§! will increase §Yexponentially§!. The higher it already is, the greater the increase. §YHunger§! affects how many §Rperish§! a day. §YHunger§! also affects how high the §Ydisparity§! can be between the two parties without causing havoc.\n\nCurrent §YHunger§! levels are §YBad.§!"
+ ENG_greathunger_fake_hungerl3_text_tooltip: "§LHunger represents what portion of the population are going without food.§!\n------------\nEvery day, §YHunger§! will increase §Yexponentially§!. The higher it already is, the greater the increase. §YHunger§! affects how many §Rperish§! a day. §YHunger§! also affects how high the §Ydisparity§! can be between the two parties without causing havoc.\n\n§RCurrent Hunger levels are Severe. Entire states will be wiped-out daily.§!"
  
  ENG_greathunger_disparity_warning_text: "§RDisparity at [?ENG_greathunger_current_disparity]%! Stability returns when it reaches below [?ENG_greathunger_disparitymax]%.§!"
  ENG_greathunger_disparity_warning_tooltip: "Discrepancy between either party is §Rtoo high§!. It will have severe consequences until the difference goes below the maximum allowed amount.\n\nThe maximum disparity is determined by Hunger. The higher the Hunger, the greater the difference allowed is."
@@ -91,23 +102,74 @@
  customtooltip_engagrarianriseup2: "Agrarianists have §Ymore than [?ENG_greathunger_disparitymax]%§! Influence over the Industrialists"
  
  
- ENG_greathunger_agrarianriseup: "Farmer's Revolt"
- ENG_greathunger_agrarian_sign_act: "Sign the Free Agri-Works Act"
- ENG_greathunger_agrarian_sign_act_desc: "Proposed by the Agrarianists heavily since the first instances of starvation began. The act would see our military and new development capabilities outright crippled, due to allowing farmers to buyout their own land directly and entirely."
  
- ENG_subsidise_farmworks: "Subsidise Farmworks"
- customtooltip_engsubsidisefarmworks: "§YAgrarian§! Influence §Gincreases§! by §Y5§!"
- 
- 
- ENG_reopen_farmequipment_industry: "Re-open Farm Equipment Industry"
- customtooltip_engreopen_farmequipment_industry: "§YAgrarian§! Influence §Gincreases§! by §Y3§!\n§YIndustrialist§! Influence §Gincreases§! by §Y3§!\n"
- 
- ENG_shutdown_textile_mills: "Shutdown Textile Mills"
- customtooltip_engshutdown_textile_mills: "§YAgrarian§! Influence §Gincreases§! by §Y2§!\n§YIndustrialist§! Influence §Rdecreases§! by §Y10§!\n"
  customtooltip_onlyonce: "§RCan only be done once.§!"
  
+ customtooltip_engincrease_hunger_10: "Increase §YHunger§! by §Y10%§! of it's current value."
+ 
+ customtooltip_engdecrease_hunger_10: "Decrease §YHunger§! by §Y10%§! of it's current value."
+ customtooltip_engdecrease_hunger_15: "Decrease §YHunger§! by §Y15%§! of it's current value."
+ customtooltip_engdecrease_hunger_30: "Decrease §YHunger§! by §Y30%§! of it's current value."
+ customtooltip_engdecrease_hunger_60: "Decrease §YHunger§! by §Y60%§! of it's current value."
+ 
+ customtooltip_engincrease_agri_2: "§YAgrarian§! Influence §Gincreases§! by §Y2§!"
+ customtooltip_engincrease_agri_5: "§YAgrarian§! Influence §Gincreases§! by §Y5§!"
+ 
+ customtooltip_engdecrease_agri_10: "§YAgrarian§! Influence §Rdecreases§! by §Y10§!"
+ 
+ customtooltip_engincrease_ind_5: "§YIndustrialist§! Influence §Gincreases§! by §Y5§!"
+ customtooltip_engdecrease_ind_10: "§YIndustrialist§! Influence §Rdecreases§! by §Y10§!"
+ 
+ ENG_set_deadline_activation: "§HDeclare Hunger Deadline§!"
+ customtooltip_eng_activate_dynamic_deadline_effect: "We will set a goal to have our Hunger reach. If it is below that amount by the deadline, §Gwe can delay the Farmer's Revolt.§!\n"
+ ENG_greathunger_dynamic_deadline: "Hunger Deadline: §Y[?ENG_greathunger_deadline_amount]%§!"
+ 
+ 
+ ENG_greathunger_agrarianriseup: "§RFarmer's Revolt§!"
+ 
+ ENG_greathunger_thecastmen: "§OUnchecked Productivity§!"
+ ENG_greathunger_thecastmen_desc: "Capitalists have so much leverage that they have been using their factory floors as mad experiments of untested methods where blue-collar men are the lab rats, and the only goal in mind is speed and haste. However, haste leads to mistakes, and such mistakes here are industrial in scale. No-one will appreciate how this ends."
+ customtooltip_eng_castmen_req: "Industrialists have §Yless than [?ENG_greathunger_disparitymax]%§! Influence over the Agrarianists"
+ customtooltip_eng_businessusual: "§Ywork continues.§!"
+ customtooltip_eng_distasterstrikes: "§Rdisaster will strike.§!"
+ 
+ ENG_greathunger_agrarian_sign_act: "§HSign the Free Agri-Works Act§!"
+ ENG_greathunger_agrarian_sign_act_desc: "Proposed by the Agrarianists heavily since the first instances of starvation began. The act would see our military and new development capabilities outright crippled, due to allowing farmers to buyout their own land directly and entirely."
+ customtooltip_engagrarian_sign_act: "§GThis may resolve the Great Hunger.\n§LYou will be given the choice to cancel.§!"
+ 
+ ENG_the_new_studies_fair_activation: "§HNew Sciences Fair§!"
+ ENG_the_new_studies_fair_activation_desc: "We may strive to host a grand fair in the capital, to bring together the greatest minds and deepest coinpurses- A place where the two meet, and allow for the greatest of innovative thought to flourish. Maybe we will learn something greater than this, additionally."
+ ENG_the_new_studies_fair_mission: "§HNew Sciences Fair§!"
+ ENG_the_new_studies_fair_mission_desc: "We may strive to host a grand fair in the capital, to bring together the greatest minds and deepest coinpurses- A place where the two meet, and allow for the greatest of innovative thought to flourish. Maybe we will learn something greater than this, additionally. It is currently undergoing construction."
+ customtooltip_eng_newstudiesfair_req1: "Industrialists have §Ymore than [?ENG_greathunger_disparitymax]%§! Influence over the Agrarianists"
+ customtooltip_eng_newstudiesfair_req2: "Industrialists have §Yless than [?ENG_greathunger_disparitymax]%§! Influence over the Agrarianists"
+ customtooltip_eng_newstudiesfair_effect: "§GThis may resolve the Great Hunger.\n§LYou will be given the choice to retry if you fail it.§!"
+ 
+ ENG_subsidise_farmworks: "Subsidise Farmworks"
+ 
+ ENG_reopen_farmequipment_industry: "Re-open Farm Equipment Industry"
+ 
+ ENG_shutdown_textile_mills: "Shutdown Textile Mills"
+ 
+ ENG_slacken_safety_laws: "Slacken Safety Laws"
+ 
+ ENG_innovation_focus: "Innovation Focus"
+ ENG_innovation_focus_desc: "We shall turn our greatest minds towards the idea of new methods of agriculture."
+ 
+ ENG_artificial_price_inflation: "Artificial Price Inflation"
+ ENG_artificial_price_inflation_desc: "We can pull a few strings here or there to bump the stock price of grain and livestock greatly. The lower class will find it even harder to acquire such goods, which leaves all the more for the upper class to stockpile."
+ 
+ ENG_artificial_price_deflation: "Artificial Price Deflation"
+ ENG_artificial_price_deflation_desc: "While harder to decrease the price of goods manually, it can be done by handshaking with a couple of Heads of Agriculture and backroom dealings. This will be receieved as a good move by the many, and will allow more of the lower class to purchase and stockpile grain and livestock. The upper class will look down upon this move greatly."
+ 
+ ENG_endorse_new_fishing: "Endorse New Fishing"
+ ENG_endorse_new_fishing_desc: "New types of marine life has cropped up in these recent times. Fish aplenty, and some creatures yet to be fully identified. Besides that, this presents a grand opportunity to endorse new trawler fleets."
+ 
  ENG_raid_homes_for_supplies: "Raid Homes for Supplies"
- customtooltip_raid_homes_for_supplies: "Reduces §YHunger§! by §Y60%§! of it's current value.\nEffective change: §R-[?ENG_hungervalue60]%§!\n"
+ 
+ 
+ 
+ 
  
  #Resource Decisions
  commodity_management: "Commodity Management"

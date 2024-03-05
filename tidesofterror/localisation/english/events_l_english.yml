@@ -75,3 +75,23 @@
  greathunger.2.a: "..We stand by them."
  ENG_greathunger2_custom_a: "§YPlay as the Farmer's Union.§!"
  ENG_greathunger2_custom_b: "The §YFarmer's Union§! will revolt. If they take London, we will surrender and be restriced to §YAgrarian Control§! Policy."
+ 
+ 
+ 
+ 
+ greathunger.4.t: "Fourty and a Half"
+ greathunger.4.d: "Just recently, a steel forge in the industrial district of §Y[?greathunger4_state_ident.GetName]§! became the site of a terrific human tragedy. The floor had explicit orders to utilise highly-pressurised liquid-form nitrogen in a highly experimental method of steel casting.\n\nWorkers a floor above, unaffected, recounted naught but a deafening eruption - a 'great bang,'; devoid of any outcry, before the foremen rushed down to witness the horror. It is conjectured that the great volume of frigid liquid contacting the molten steel caused such an explosive reaction, encasing every surface in a thick mire of slag. The factory has been condemn'd, for within there remains a toxic gaseous powder upon the air.\n\nBy now a name has also sprung from this; the colloquial term '40 and a half casts'. It seems to have originated from the fact that out of the 41 men on the floor, one seems to have melted into the ground partially. Perhaps it is the black comedy that keeps people coping. Alas, news has already travelled far and wide, some recounts more embellished than the last. After such an event, there will be few willing to join a factory of any sort..\n\nHere lies our modern Pompeii. A testament to our hubris; wrought of black steel and blood."
+ greathunger.4.b: "This feverish race for productivity stops now."
+ greathunger.4.a: "Ah. So we must find a scapegoat;\nAnd quickly."
+ 
+ 
+ customtooltip_engdecrease_ind_60: "§YIndustrialist§! Influence §Rdecreases§! by §Y60§!"
+ customtooltip_engdecrease_ind_reset: "§YIndustrialist§! Influence §Rresets§! to §Ynaught§!."
+ 
+ 
+ greathunger.5.t: "A Vision for the Future"
+ greathunger.5.d: "In the face of potential revolt, we can set deadlines to get our global hunger below."
+ greathunger.5.e: "I dream of a day when no englishman has to go home to an empty plate. §Y0.2%§! is our goal."
+ greathunger.5.c: "We're certain §Y0.4%§! will quell these rumours of revolt."
+ greathunger.5.b: "§Y0.6%§! is a fine compromise."
+ greathunger.5.a: "Surely, we could reduce it below §Y1%§!."

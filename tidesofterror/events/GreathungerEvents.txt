@@ -1,7 +1,6 @@
 add_namespace = greathunger
 
-# Free Agri-Works Act
-unit_leader_event = {
+unit_leader_event = {#Decision for signing Free Agri-Works Act
 	id = greathunger.1
 	title = greathunger.1.t
 	desc = greathunger.1.d
@@ -24,7 +23,7 @@ unit_leader_event = {
 	}
 }
 
-country_event = {
+country_event = {#Farmers revolt
 	id = greathunger.2
 	title = greathunger.2.t
 	desc = greathunger.2.d
@@ -59,7 +58,7 @@ country_event = {
 	}
 	}
 	
-	option = { #If it's a war they desire...
+	option = {
 		name = greathunger.2.b
 		ai_chance = {factor = 100}
 		custom_effect_tooltip = ENG_greathunger2_custom_b
@@ -113,7 +112,7 @@ country_event = {
 	}
 }
 
-unit_leader_event = {
+unit_leader_event = {#Signing act after threatened with revolt
 	id = greathunger.3
 	title = greathunger.1.t
 	desc = greathunger.1.d
@@ -128,5 +127,174 @@ unit_leader_event = {
 	option = { #I hereby sign this act. (Sign the Declaration)
 		name = greathunger.1.c
 		ai_chance = {factor = 100}
+	}
+}
+
+country_event = {#40 and a half casts
+	id = greathunger.4
+	title = greathunger.4.t
+	desc = greathunger.4.d
+	picture = GFX_event_greathunger2
+	
+	is_triggered_only = yes
+	
+	immediate = {#Set flag to disable 'Unchecked productivity' decision mission
+		set_country_flag = eventflag_greathunger4
+	}
+	
+	option = { #Ah. So we must find a scapegoat; And quickly.
+		name = greathunger.4.a
+		ai_chance = {factor = 100}
+		var:greathunger4_state_ident = {
+			remove_building = {
+				type = industrial_complex
+				level = 1
+			}
+			set_temp_variable = { resource_to_remove = THIS.resource@steel }
+			multiply_temp_variable = { resource_to_remove = -0.5 }
+			add_resource = {
+				type = steel
+				amount = resource_to_remove
+			}
+			add_manpower = -40.5
+		}
+		custom_effect_tooltip = customtooltip_engdecrease_ind_60
+		hidden_effect = {
+			subtract_from_variable = { ENG_greathunger_industrial_influence = 50 }
+			ENG_greathunger_clamp_and_update_ui_effect = yes
+		}
+		add_stability = -0.2
+		add_war_support = -0.03
+		add_timed_idea = {
+			idea = ENGIDEA_40_and_a_half
+			days = 300
+		}
+		if = {
+			limit = {
+				has_active_mission = ENG_the_new_studies_fair_mission
+			}
+			add_days_mission_timeout = {
+				mission = ENG_the_new_studies_fair_mission
+				days = 120
+			}
+		}
+	}
+	
+	option = { #This rampant productivity has gone on long enough.
+		name = greathunger.4.b
+		ai_chance = {factor = 100}
+		var:greathunger4_state_ident = {
+			remove_building = {
+				type = industrial_complex
+				level = 1
+			}
+			set_temp_variable = { resource_to_remove = THIS.resource@steel }
+			multiply_temp_variable = { resource_to_remove = -0.5 }
+			add_resource = {
+				type = steel
+				amount = resource_to_remove
+			}
+			add_manpower = -40.5
+		}
+		custom_effect_tooltip = customtooltip_engdecrease_ind_reset
+		hidden_effect = {
+			subtract_from_variable = { ENG_greathunger_industrial_influence = 100 }
+			ENG_greathunger_clamp_and_update_ui_effect = yes
+		}
+		add_stability = -0.1
+		add_war_support = -0.05
+		add_timed_idea = {
+			idea = ENGIDEA_40_and_a_half
+			days = 365
+		}
+		if = {
+			limit = {
+				has_active_mission = ENG_the_new_studies_fair_mission
+			}
+			add_days_mission_timeout = {
+				mission = ENG_the_new_studies_fair_mission
+				days = 120
+			}
+		}
+	}
+}
+
+country_event = {#Start deadline
+	id = greathunger.5
+	title = greathunger.5.t
+	desc = greathunger.5.d
+	#picture = GFX_event_greathunger2
+	
+	is_triggered_only = yes
+	
+	option = { #1%
+		name = greathunger.5.a
+		ai_chance = {factor = 100}
+		set_variable = { ENG_greathunger_deadline_amount = 1 }
+	}
+	
+	option = { #0.6%
+		name = greathunger.5.b
+		ai_chance = {factor = 100}
+		set_variable = { ENG_greathunger_deadline_amount = 0.6 }
+	}
+	
+	option = { #0.4%
+		name = greathunger.5.c
+		ai_chance = {factor = 100}
+		set_variable = { ENG_greathunger_deadline_amount = 0.4 }
+	}
+	
+	option = { #0.2%
+		name = greathunger.5.e
+		ai_chance = {factor = 100}
+		set_variable = { ENG_greathunger_deadline_amount = 0.2 }
+	}
+}
+
+news_event = {#Succesfully hit deadline
+	id = greathunger.6
+	title = greathunger.6.t
+	desc = greathunger.6.d
+	#picture = GFX_event_greathunger2
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_variable = { ENG_greathunger_deadline_alter = 30 }
+		divide_variable = { ENG_greathunger_deadline_alter = ENG_greathunger_deadline_amount }
+		add_days_mission_timeout = {
+			mission = ENG_greathunger_agrarianriseup
+			days = ENG_greathunger_deadline_alter
+		}
+		remove_mission = ENG_greathunger_dynamic_deadline
+		clear_variable = ENG_greathunger_deadline_alter
+		clear_variable = ENG_greathunger_deadline_amount
+	}
+	
+	option = {
+		name = greathunger.6.a
+		ai_chance = {factor = 100}
+	}
+}
+
+country_event = {#
+	id = greathunger.7
+	title = greathunger.7.t
+	desc = greathunger.7.d
+	#picture = GFX_event_greathunger2
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = greathunger.7.a
+		ai_chance = {factor = 100}
+		set_variable = { ENG_greathunger_deadline_amount = 1 }
+	}
+	
+	option = {
+		name = greathunger.7.b
+		ai_chance = {factor = 100}
+		set_variable = { ENG_greathunger_deadline_amount = 0.6 }
 	}
 }

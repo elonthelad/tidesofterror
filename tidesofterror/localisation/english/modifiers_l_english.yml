@@ -1570,6 +1570,7 @@
  
  #MODDED
  
+ 
  country_resource_coal: "Available Coal"
  country_resource_steel: "Available Steel"
  country_resource_silicates: "Available Silicates"
@@ -1616,6 +1617,7 @@
  MODIFIER_LOCAL_BUILDING_SLOTS: "Building Slots"
  MODIFIER_CONSUMER_GOODS_FACTOR: "Private Factories"
  MODIFIER_CONSUMER_GOODS_EXPECTED_VALUE: "Base Private Factories"
+ modifier_production_cost_arms_factory_factor: "Military Factory Construction Cost"
  
  populist_drift: "Populist Support"
  parliament_drift: "Parliamentary Support"

@@ -12,49 +12,56 @@ on_actions = {
 	on_daily_ENG = {
 		effect = {
 		
-			add_to_variable = { ENG_greathunger_hunger = 0.0002 }
-			multiply_variable = { ENG_greathunger_hunger = 1.0002 }
+			#Exponential Hunger
+			add_to_variable = { ENG_greathunger_hunger = 0.0001 }
+			multiply_variable = { ENG_greathunger_hunger = 1.0003 }
 			
 			clamp_variable = {
 				var = ENG_greathunger_hunger
 				min = 0
 				max = 100
 			}
-		
-		
+			
+			#Updates correct icon frame
+			ENG = {
+				ENG_greathunger_update_hungy_icon = yes
+			}
+			
 			#Starvation in the nation
-			random_owned_controlled_state = {
-				THIS = {
-					set_temp_variable = { ENG_scopedstatepop = state_population }
-				}
-				
-				
-				multiply_temp_variable = { ENG_scopedstatepop = ROOT.ENG_hungervalue60 }
-				multiply_temp_variable = { ENG_scopedstatepop = -1 }
-				add_manpower = ENG_scopedstatepop
-				multiply_temp_variable = { ENG_scopedstatepop = -1 }
-				ROOT = {
-					divide_temp_variable = { ENG_scopedstatepop = 1000000 }
-					add_to_variable = { ENG_greathunger_starved = ENG_scopedstatepop }
+			for_loop_effect = {
+				end = ENG_greathunger_hunger_stage#Run as many times as the hunger stage has increased
+				random_owned_controlled_state = {
+					limit = {
+						check_variable = {
+							state_population > 0
+						}
+					}
+					set_temp_variable = { ENG_scaledgreathunger_hunger = ROOT.ENG_greathunger_hunger }
+					multiply_temp_variable = { ENG_scaledgreathunger_hunger = 0.3 }
+					
+					set_temp_variable = { ENG_scopedstatepop = THIS.state_population }
+					multiply_temp_variable = { ENG_scopedstatepop = ENG_scaledgreathunger_hunger }
+					multiply_temp_variable = { ENG_scopedstatepop = -1 }
+					add_manpower = ENG_scopedstatepop
+					multiply_temp_variable = { ENG_scopedstatepop = -1 }
+					ROOT = {
+						divide_temp_variable = { ENG_scopedstatepop = 1000000 }#for displaying in millions. Using variable |* causes overflow
+						add_to_variable = { ENG_greathunger_starved = ENG_scopedstatepop }#ENG_greathunger_starved is on the gui eg 0.512M
+					}
 				}
 			}
 			
-			
-			
+			#Max Disparity Scaling
 			set_variable = { ENG_greathunger_disparitymax = 20 }
 			set_temp_variable = { ENG_greathunger_disparitymaxmult = ENG_greathunger_hunger }
 			divide_temp_variable = { ENG_greathunger_disparitymaxmult = 1.35 }
 			multiply_variable = { ENG_greathunger_disparitymax = ENG_greathunger_disparitymaxmult }
 			round_variable = ENG_greathunger_disparitymax
 			
-			
-			set_variable = { ENG_hungervalue60 = ENG_greathunger_hunger }
-			multiply_variable = { ENG_hungervalue60 = 0.6 } 
-			
 			clamp_variable = {
 				var = ENG_greathunger_disparitymax
 				min = 20
-				max = 100
+				max = 99
 			}
 		}
 	}

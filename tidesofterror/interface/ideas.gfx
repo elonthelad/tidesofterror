@@ -39,6 +39,10 @@ spriteTypes = {
 		name = "GFX_idea_ENGIDEA_victors_of_the_third_burmese_campaign"
 		texturefile = "gfx/interface/ideas/ENGIDEA_victors_of_the_third_burmese_campaign.png"
 	}
+	spriteType = {
+		name = "GFX_idea_ENGIDEA_40_and_a_half"
+		texturefile = "gfx/interface/ideas/ENGIDEA_40_and_a_half.png"
+	}
 	
 	
 	

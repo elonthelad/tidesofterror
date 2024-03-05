@@ -1,19 +1,40 @@
-ENG_greathunger_agrarian_clamp_and_update_ui_effect = {
-	clamp_variable = {
-		var = ENG_greathunger_agrarian_influence
-		min = 0
-		max = 100
+ENG_greathunger_clamp_and_update_ui_effect = {
+	ENG = {
+		if = {
+			limit = {
+				has_idea = ENGIDEA_40_and_a_half
+			}
+			clamp_variable = {
+				var = ENG_greathunger_agrarian_influence
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ENG_greathunger_industrial_influence
+				min = 0
+				max = 40
+			}
+			ENG_greathunger_which_is_higher = yes
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_idea = ENGIDEA_40_and_a_half
+				}
+			}
+			clamp_variable = {
+				var = ENG_greathunger_agrarian_influence
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = ENG_greathunger_industrial_influence
+				min = 0
+				max = 100
+			}
+			ENG_greathunger_which_is_higher = yes
+		}
 	}
-	ENG_greathunger_which_is_higher = yes
-}
-
-ENG_greathunger_industrial_clamp_and_update_ui_effect = {
-	clamp_variable = {
-		var = ENG_greathunger_industrial_influence
-		min = 0
-		max = 100
-	}
-	ENG_greathunger_which_is_higher = yes
 }
 
 ENG_greathunger_which_is_higher = {
@@ -136,5 +157,23 @@ ENG_greathunger_which_is_higher = {
 		}
 		#Disparity is 0 since both parties are equals
 		set_variable = { ENG_greathunger_current_disparity = 0 }
+	}
+}
+
+ENG_greathunger_update_hungy_icon = {
+	if = {#Level 3
+		limit = {
+			check_variable = { ENG_greathunger_hunger > 4.999 }
+		}
+		set_variable = { ENG_greathunger_hunger_stage = 3 }
+	}
+	else_if = {#Level 2
+		limit = {
+			check_variable = { ENG_greathunger_hunger > 2.499 }
+		}
+		set_variable = { ENG_greathunger_hunger_stage = 2 }
+	}
+	else_if = {#Level 1
+		set_variable = { ENG_greathunger_hunger_stage = 1 }
 	}
 }

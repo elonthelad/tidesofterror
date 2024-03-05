@@ -125,3 +125,7 @@
  
  ENGIDEA_madman_in_custody: "Madman in Custody"
  ENGIDEA_madman_in_custody_desc: "Todo"
+ 
+ ENGIDEA_40_and_a_half: "40 and a Half Casts"
+ ENGIDEA_40_and_a_half_desc: "The story of the 41 men that passed in a senseless loss of life in a steel factory in [?greathunger4_state_ident.GetName] will not be forgotten soon. Due to this sheer negligence and incompetence, people are not trusting of many industrial enterprises from now on."
+ customtooltip_eng40_and_a_half1: "Max Industrialists Influence: §R-60%§!"

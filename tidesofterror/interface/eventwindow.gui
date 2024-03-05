@@ -7,7 +7,7 @@ guiTypes = {
 		position = { x=-560 y=-276 }	
 		size = { width = 1174 height =504 }
 		moveable = yes
-		Orientation = CENTER		
+		Orientation = center
 		
 		show_sound = event_popup
 		hide_sound = menu_close_window
@@ -53,19 +53,21 @@ guiTypes = {
 			moveable = yes
 			clipping = no
 			Orientation = UPPER_LEFT
+			
+			
 
 			instantTextBoxType = {
 				name = "Description"
 				position = { x = 175 y = -160 }
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 0}
-				text = "Long text here!"	
+				text = "null"
 				maxWidth = 380
 				maxHeight = 394
 				orientation = center
 				format = center
 				fixedsize = yes
-			}	
+			}
 		}			
 
 		containerWindowType = {

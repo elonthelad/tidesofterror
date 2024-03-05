@@ -1,0 +1,5 @@
+take all of the spirit and merge into one layer then reduce to 0 brightness behind the main icon, then stretch height down from above to the top of the shelf in 'example'.
+Then apply gaussian 0.6 px
+
+Resize to 68 x 63
+Adaptive (Sharp) Method

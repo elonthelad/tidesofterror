@@ -1,7 +1,7 @@
 sanity_gainslightly = {
 	custom_effect_tooltip = customtooltip_gainsanity_slightly
 	hidden_effect = {
-		add_fuel = 20000
+		add_fuel = 10000
 		sound_effect = "sanity_gain_sound"
 	}
 }
@@ -9,7 +9,7 @@ sanity_gainslightly = {
 sanity_loseslightly = {
 	custom_effect_tooltip = customtooltip_losesanity_slightly
 	hidden_effect = {
-		add_fuel = -20000
+		add_fuel = -10000
 		sound_effect = "sanity_drain_sound"
 	}
 }
@@ -17,7 +17,7 @@ sanity_loseslightly = {
 sanity_losemedium = {
 	custom_effect_tooltip = customtooltip_losesanity_medium
 	hidden_effect = {
-		add_fuel = -80000
+		add_fuel = -20000
 		sound_effect = "sanity_drain_sound"
 	}
 }

@@ -9,11 +9,6 @@ guiTypes = {
 			spriteType = "GFX_ENG_greathunger_bg"
 			position = { x = -5 y = -21 }
 		}
-		iconType = {#Skele Bg
-			name ="greathunger_bg1"
-			spriteType = "GFX_ENG_greathunger_bg1"
-			position = { x = 207 y = 200 }
-		}
 		instantTextBoxType = {#Death Toll
 			name ="greathunger_deathtoll"
 			position = { x = 270 y = 212 }
@@ -33,13 +28,48 @@ guiTypes = {
 			pdx_tooltip = ENG_greathunger_fake_perished_text_tooltip
 		}
 		
+		iconType = {#Hungy Icon
+			name ="greathunger_hungy"
+			spriteType = "GFX_ENG_greathunger_hungy"
+			position = { x = 408 y = 207 }
+		}
 		instantTextBoxType = {#Hunger Number
 			name ="greathunger_hungryhippos"
-			position = { x = 353 y = 212 }
+			position = { x = 328 y = 212 }
 			font = "hoi_16mbs"
 			text = "ENG_greathunger_hungryhippos"
 			format = right
-			maxWidth = 50
+			maxWidth = 80
+		}
+		instantTextBoxType = {#Fake textbox for Hunger Level 1
+			name ="greathunger_fake_hungerl1_text"
+			position = { x = 337 y = 198 }
+			font = "hoi_16mbs"
+			text = ""
+			format = left
+			maxWidth = 127
+			maxHeight = 64
+			pdx_tooltip = ENG_greathunger_fake_hungerl1_text_tooltip
+		}
+		instantTextBoxType = {#Fake textbox for Hunger Level 2
+			name ="greathunger_fake_hungerl2_text"
+			position = { x = 337 y = 198 }
+			font = "hoi_16mbs"
+			text = ""
+			format = left
+			maxWidth = 127
+			maxHeight = 64
+			pdx_tooltip = ENG_greathunger_fake_hungerl2_text_tooltip
+		}
+		instantTextBoxType = {#Fake textbox for Hunger Level 3
+			name ="greathunger_fake_hungerl3_text"
+			position = { x = 337 y = 198 }
+			font = "hoi_16mbs"
+			text = ""
+			format = left
+			maxWidth = 127
+			maxHeight = 64
+			pdx_tooltip = ENG_greathunger_fake_hungerl3_text_tooltip
 		}
 		
 		
@@ -47,12 +77,7 @@ guiTypes = {
 		iconType = {#Agrarian Bar
 			name ="greathunger_agrarian_meter"
 			spriteType = "GFX_greathunger_newbar"
-			position = { x = 53 y = 46 }
-		}
-		iconType = {#Underline
-			name ="greathunger_ag_underline"
-			spriteType = "GFX_ENG_greathunger_underline"
-			position = { x = 38 y = 38 }
+			position = { x = 53 y = 44 }
 		}
 		instantTextBoxType = {#Agrarian Amount
 			name ="greathunger_agrarian_number"
@@ -74,12 +99,7 @@ guiTypes = {
 		iconType = {#Industrial Bar
 			name ="greathunger_industrial_meter"
 			spriteType = "GFX_greathunger_newbar"
-			position = { x = 53 y = 151 }
-		}
-		iconType = {#Underline
-			name ="greathunger_in_underline"
-			spriteType = "GFX_ENG_greathunger_underline"
-			position = { x = 38 y = 143 }
+			position = { x = 53 y = 149 }
 		}
 		instantTextBoxType = {#Industrial Amount
 			name ="greathunger_industrial_number"
@@ -138,6 +158,5 @@ guiTypes = {
 			maxHeight = 20
 			pdx_tooltip = ENG_greathunger_disparity_warning_tooltip
 		}
-		
 	}
 }

@@ -433,14 +433,15 @@ guiTypes = {
 
 		iconType = {
 			name = "icon"
-			position = {x=30 y=19}
+			position = {x=2 y=0}
+			#position = {x=30 y=19} Before accomodating for W I D E B O I decisions
+			#centerposition = yes
 			spriteType = "GFX_decision_unknown"
-			centerposition = yes
 		}
 
 		instantTextboxType = {
 			name = "name_text"
-			position = { x = 63 y = 3 }
+			position = { x = 63 y = 5 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = { x = 0 y = 0 }
@@ -614,15 +615,16 @@ guiTypes = {
 
 		iconType = {
 			name = "btn_progress_bad"
-			position = {x=9 y=28}
+			position = {x=2 y=-2}
 			spriteType = "GFX_decision_item_progress_bad"
 		}
 
 		iconType = {
 			name = "icon"
-			position = {x=29 y=19}
+			position = {x=2 y=0}
+			#position = {x=30 y=19} Before accomodating for W I D E B O I decisions
+			#centerposition = yes
 			spriteType = "GFX_decision_unknown"
-			centerposition = yes
 		}
 
 		iconType = {

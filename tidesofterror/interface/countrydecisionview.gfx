@@ -56,29 +56,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisionview/decision_progress_bg.dds"
 	}
 
-	progressbartype = {
-		name = "GFX_decision_item_progress_bad"
-		textureFile1 = "gfx/interface/decisionview/decision_progress_bad.dds"
-		textureFile2 = "gfx/interface/decisionview/decision_progress_bg.dds"
-		size = { x = 502 y = 10 }
-		effectFile = "gfx/FX/progress_startend.lua"
-		alwaystransparent = yes
-	}
-
-	progressbartype = {
-		name = "GFX_decision_item_progress_good"
-		textureFile1 = "gfx/interface/decisionview/decision_progress_good.dds"
-		textureFile2 = "gfx/interface/decisionview/decision_progress_bg.dds"
-		size = { x = 506 y = 38 }
-		effectFile = "gfx/FX/progress_startend.lua"
-		alwaystransparent = yes
-	}
-	
-	#spriteType = {
-	#	name = "GFX_decision_description_bg"
-	#	texturefile = "gfx/interface/decisionview/decision_description_bg.dds"
-	#}
-
 	spriteType = {
 		name = "GFX_decision_select_icon_strip"
 		textureFile = "gfx/interface/decisionview/decision_select_icon_strip.dds"
@@ -102,5 +79,33 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_locator_item_icon"
 		textureFile = "gfx/interface/decisionview/locator_item_icon.dds"
+	}
+	
+	
+	#MODDED
+	
+	
+	spriteType = {
+		name = "GFX_checkbox_small4"
+		texturefile = "gfx/interface/decisionview/checkbox_small4.dds"
+		noOfFrames = 2
+	}
+	
+	progressbartype = {
+		name = "GFX_decision_item_progress_good"#Actually used for 'Bad' missions.
+		textureFile1 = "gfx/interface/decisionview/decision_progress_good.dds"
+		textureFile2 = "gfx/interface/decisionview/decision_progress_bg.dds"
+		size = { x = 506 y = 38 }
+		effectFile = "gfx/FX/progress_startend.lua"
+		alwaystransparent = yes
+	}
+
+	progressbartype = {
+		name = "GFX_decision_item_progress_bad"#Actually used for 'Bad' missions.
+		textureFile1 = "gfx/interface/decisionview/decision_progress_neutral.dds"
+		textureFile2 = "gfx/interface/decisionview/decision_progress_bg.dds"
+		size = { x = 502 y = 38 }
+		effectFile = "gfx/FX/progress_startend.lua"
+		alwaystransparent = yes
 	}
 }
