@@ -1,0 +1,93 @@
+Scripted gui of reliquaries. All human tags get access to this, unless they explicitly take a hardline stance to anything arcane in nature.
+
+Primary Interactions-
+Destroy
+Incinerate
+Bury
+Give to other nation
+Sell to other nation
+Discard
+
+Experiments-
+#Singular Actions happen instantly, once per click.
+#Extended Exposure needs time to pass while they are active.
+
+Make Contact #Singular Action, Cannot be done whilst submerged
+Apply Heat #Extended Exposure
+Apply Cold #Extended Exposure
+Jolt #Singular Action
+Submerge in Water #Extended Exposure
+Submerge in Blood #Extended Exposure
+	-Boil #Extended Exposure
+	
+Expose to Moonlight #Extended Exposure
+Drip own Blood #Singular Action
+
+
+
+
+Relics- #Of descending order of strangeness
+
+
+Bejewelled Finger
+#Desc
+Central to plot, not interactable.
+#Relation
+Is stolen by the covenant on the Night of the Tides.
+
+
+Cursed Kyballion
+#Desc
+Book belonging to the hermetics, which has not been written yet. Dragged back from time.
+#Relation
+Prized relic of the hermetical faction.
+
+
+Bestranged Polymer Cube
+#Desc
+It's a pc from the 80's.
+#Success Condition
+Applying electricity can power it on, giving research bonuses.
+#Destruction
+Destroy, Incinerate, Bury, Discard, Boil, Drip Own Blood, Submerge in Blood/Water
+#Activateable
+When activated, opens event chain of using the pc
+
+
+Pockmarked Stone
+#Desc
+It's the Tonsil stone from bloodborne. Has a gravitas to it.  
+#Success Condition
+Applying blood to it then exposing to moonlight summons the hunter to help.
+#Failure Condition
+Exposing to moonlight then applying blood to it summons a hostile Amygdala.
+#Destruction
+Destroy, Jolt
+
+
+The Spying Eye
+#Desc
+A very large plain eyeball with a focused iris that stares at anyone, all at the same time, even if individuals are standing at differing angles to it. No one has seen the back of it, even using mirrors.
+#Destruction
+Destroy, Incinerate, Bury, Discard, Boil
+#Activateable
+When unlocked, can be activated to get a high recon bonus
+
+
+King's Tapestry
+#Desc
+A painting rolled into a scroll. Viewing the entire painting makes the beholder one of the kings dynasty. Countless souls remain inside it, forever trapped.
+#Destruction
+Destroy, Incinerate, Bury, Discard, Boil
+
+
+Fractal Starfish
+#Desc
+The closer you look, the further the spiral goes. Looking too close will have you enveloped. Is not actually a starfish.
+#Relation
+Prized relic of the Arm of the Spiral faction.
+
+
+Fragment of Colour
+#Desc
+An incorporeal 'piece' of colour that fell from outer space. Inherently indescribable or distinct, yet so detached from reality that it will easily drive anyone that contemplates it into a dark insanity where they cannot be awoken. It is drawing in the colour and life of anything in its surroundings, too.

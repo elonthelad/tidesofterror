@@ -63,6 +63,47 @@ GFX_invis													#For elements i need to hide from the player
 §t 		#vivid red (labeled "Gradient Step 10")
 
 
+#Variable Triggers
+has_variable = my_variable
+check_variable = { var_name > 10 }
+
+
+#Variable Effects
+set_variable
+set_temp_variable
+
+add_to_variable
+add_to_temp_variable
+
+subtract_from_variable
+subtract_from_temp_variable
+
+multiply_variable
+multiply_temp_variable
+
+divide_variable
+divide_temp_variable 
+
+round_variable #Rounds the variable towards the closest integer value. 
+round_temp_variable
+
+clear_variable = my_variable #Clears the value from the memory entirely. Doesent work for temps.
+
+clamp_variable = {
+    var = my_var
+    min = 0
+	max = 100
+}
+
+clamp_temp_variable = {
+    var = my_var
+    min = 0
+	max = 100
+}
+
+
+
+
 #"Custom Modifiers"
 #Daily Sanity Healing +200
 #divide how much sanity you want per day by 24, then put that in base_fuel_gain, since that is hourly. This custom tooltip exists since the game will only display this amount by 'Sanity regain p/hour' which is hard to make sense of.
